@@ -23,6 +23,7 @@ import {
 import { useAppStore } from '@/store/useAppStore';
 import { AppLock } from '@/components/AppLock';
 import { bootSync } from '@/lib/sync';
+import { rescheduleAll } from '@/lib/notifications';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -46,6 +47,8 @@ export default function RootLayout() {
     if (fontsLoaded && hydrated) {
       SplashScreen.hideAsync().catch(() => {});
       bootSync().catch(() => {});
+      const { profile, notifPrefs } = useAppStore.getState();
+      rescheduleAll(profile, notifPrefs).catch(() => {});
     }
   }, [fontsLoaded, hydrated]);
 
@@ -114,6 +117,7 @@ function RootStack() {
           <Stack.Screen name="topic" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="reminder" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="settings" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="tools" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="auth" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
           <Stack.Screen name="auth-callback" />
         </Stack>

@@ -7,13 +7,27 @@
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import NetInfo from '@react-native-community/netinfo';
+import {
+  BagItem,
+  BirthPlanState,
+  Contraction,
+  Kick,
+  SymptomEntry,
+  WeightEntry,
+} from '@/store/useAppStore';
 import { JournalItem } from '@/data/sample';
 import { getSupabase } from '@/lib/supabase';
 
 type Op =
   | { kind: 'journal.upsert'; entry: JournalItem }
   | { kind: 'journal.delete'; id: string }
-  | { kind: 'profile.upsert'; profile: Record<string, unknown> };
+  | { kind: 'profile.upsert'; profile: Record<string, unknown> }
+  | { kind: 'kick.upsert'; kick: Kick }
+  | { kind: 'contraction.upsert'; contraction: Contraction }
+  | { kind: 'weight.upsert'; weight: WeightEntry }
+  | { kind: 'symptom.upsert'; symptom: SymptomEntry }
+  | { kind: 'bag.upsert'; item: BagItem }
+  | { kind: 'birthplan.upsert'; plan: BirthPlanState };
 
 type QueueItem = {
   id: string;
@@ -67,36 +81,102 @@ async function attachListeners() {
 
 async function execOp(op: Op): Promise<boolean> {
   const sb = getSupabase();
-  if (!sb) return false; // Backend not configured — keep retrying later in case
-  // it's wired up.
+  if (!sb) return false;
   const session = await sb.auth.getSession();
   const user = session.data.session?.user;
-  if (!user) return false; // Not signed in yet — flush will retry on next call.
+  if (!user) return false;
 
-  if (op.kind === 'journal.upsert') {
-    const { entry } = op;
-    const { error } = await sb.from('journal_entries').upsert({
-      id: entry.id,
-      user_id: user.id,
-      week: entry.week,
-      name: entry.name,
-      label: entry.label,
-      hue: entry.hue,
-      verdict: entry.verdict,
-      when_text: entry.when,
-      created_at: new Date().toISOString(),
-    });
-    return !error;
+  switch (op.kind) {
+    case 'journal.upsert': {
+      const { entry } = op;
+      const { error } = await sb.from('journal_entries').upsert({
+        id: entry.id,
+        user_id: user.id,
+        week: entry.week,
+        name: entry.name,
+        label: entry.label,
+        hue: entry.hue,
+        verdict: entry.verdict,
+        when_text: entry.when,
+        created_at: new Date().toISOString(),
+      });
+      return !error;
+    }
+    case 'journal.delete': {
+      const { error } = await sb.from('journal_entries').delete().eq('id', op.id).eq('user_id', user.id);
+      return !error;
+    }
+    case 'profile.upsert': {
+      const { error } = await sb.from('profiles').upsert({ id: user.id, ...op.profile });
+      return !error;
+    }
+    case 'kick.upsert': {
+      const { error } = await sb.from('kicks').upsert({
+        id: op.kick.id,
+        user_id: user.id,
+        session_id: op.kick.sessionId,
+        at: new Date(op.kick.at).toISOString(),
+      });
+      return !error;
+    }
+    case 'contraction.upsert': {
+      const { error } = await sb.from('contractions').upsert({
+        id: op.contraction.id,
+        user_id: user.id,
+        started_at: new Date(op.contraction.startedAt).toISOString(),
+        ended_at: new Date(op.contraction.endedAt).toISOString(),
+        intensity: op.contraction.intensity ?? null,
+      });
+      return !error;
+    }
+    case 'weight.upsert': {
+      const { error } = await sb.from('weights').upsert({
+        id: op.weight.id,
+        user_id: user.id,
+        week: op.weight.week,
+        kg: op.weight.kg,
+        at: new Date(op.weight.at).toISOString(),
+        note: op.weight.note ?? null,
+      });
+      return !error;
+    }
+    case 'symptom.upsert': {
+      const { error } = await sb.from('symptoms').upsert({
+        id: op.symptom.id,
+        user_id: user.id,
+        at: new Date(op.symptom.at).toISOString(),
+        week: op.symptom.week,
+        mood: op.symptom.mood,
+        nausea: op.symptom.nausea,
+        sleep: op.symptom.sleep,
+        cramps: op.symptom.cramps,
+        energy: op.symptom.energy,
+        note: op.symptom.note ?? null,
+      });
+      return !error;
+    }
+    case 'bag.upsert': {
+      const { error } = await sb.from('bag_items').upsert({
+        id: op.item.id,
+        user_id: user.id,
+        group_key: op.item.group,
+        label: op.item.label,
+        checked: op.item.checked,
+        position: op.item.position,
+        custom: op.item.custom ?? false,
+        updated_at: new Date().toISOString(),
+      });
+      return !error;
+    }
+    case 'birthplan.upsert': {
+      const { error } = await sb.from('birth_plan').upsert({
+        user_id: user.id,
+        fields: op.plan,
+        updated_at: new Date().toISOString(),
+      });
+      return !error;
+    }
   }
-  if (op.kind === 'journal.delete') {
-    const { error } = await sb.from('journal_entries').delete().eq('id', op.id).eq('user_id', user.id);
-    return !error;
-  }
-  if (op.kind === 'profile.upsert') {
-    const { error } = await sb.from('profiles').upsert({ id: user.id, ...op.profile });
-    return !error;
-  }
-  return true;
 }
 
 export async function enqueue(op: Op) {
@@ -130,11 +210,7 @@ export async function drain() {
       const ok = await execOp(item.op);
       if (ok) continue;
       const attempts = item.attempts + 1;
-      if (attempts >= MAX_ATTEMPTS) {
-        // Drop after a long retry window — caller already wrote locally and
-        // can re-trigger via "Force sync" in settings if they care.
-        continue;
-      }
+      if (attempts >= MAX_ATTEMPTS) continue;
       remaining.push({ ...item, attempts, nextAttemptAt: Date.now() + backoffMs(attempts) });
     }
     queue = remaining;
