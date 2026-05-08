@@ -2,8 +2,8 @@
 // soft warm scan line, mode selector). Falls back to a faux viewfinder if
 // the user denies the camera permission so the experience never breaks.
 
-import React, { useRef, useState } from 'react';
-import { Pressable, Text, View, Platform } from 'react-native';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
+import { Pressable, Text, View } from 'react-native';
 import {
   CameraView,
   useCameraPermissions,
@@ -21,6 +21,9 @@ import { fonts } from '@/theme/typography';
 const MODES = ['Food', 'Menu', 'Medication', 'Cosmetic', 'Activity'] as const;
 type Mode = (typeof MODES)[number];
 
+const SHUTTER_PRESS_MS = 90;
+const SHUTTER_HOLD_MS = 200;
+
 export default function Scan() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
@@ -30,19 +33,29 @@ export default function Scan() {
   const cameraReady = perm?.granted === true;
   const captureScale = useSharedValue(1);
   const animatedCapture = useAnimatedStyle(() => ({ transform: [{ scale: captureScale.value }] }));
+  const shutterTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const onShutter = () => {
+  useEffect(
+    () => () => {
+      if (shutterTimer.current) clearTimeout(shutterTimer.current);
+    },
+    [],
+  );
+
+  const onShutter = useCallback(() => {
+    if (shutterTimer.current) return; // ignore double-taps mid-animation
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy).catch(() => {});
-    captureScale.value = withTiming(0.9, { duration: 90 });
-    setTimeout(() => {
+    captureScale.value = withTiming(0.9, { duration: SHUTTER_PRESS_MS });
+    shutterTimer.current = setTimeout(() => {
       captureScale.value = withTiming(1, { duration: 120 });
+      shutterTimer.current = null;
       if (mode === 'Menu') {
         router.replace('/menu-mode');
       } else {
         router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } });
       }
-    }, 200);
-  };
+    }, SHUTTER_HOLD_MS);
+  }, [captureScale, mode, router]);
 
   return (
     <View style={{ flex: 1, backgroundColor: '#13110F' }}>
@@ -164,7 +177,10 @@ export default function Scan() {
       </View>
 
       <Pressable
-        onPress={() => router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } })}
+        onPress={() => router.replace('/(tabs)/library')}
+        accessibilityRole="link"
+        accessibilityLabel="Type instead"
+        hitSlop={12}
         style={{ position: 'absolute', top: insets.top + 56, right: 24 }}
       >
         <Text style={{ color: 'rgba(255,255,255,0.8)', fontSize: 12, fontFamily: fonts.body, textDecorationLine: 'underline' }}>

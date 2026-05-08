@@ -1,7 +1,7 @@
 // Home — week ring, daily intention, recent checks (horizontal),
 // upcoming reminders, and the doctor visit nudge. Floating scan FAB.
 
-import React, { useMemo } from 'react';
+import React, { memo, useCallback, useMemo } from 'react';
 import { ScrollView, Text, View, Pressable } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -13,7 +13,7 @@ import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
 import { ScanFAB } from '@/components/ScanFAB';
 import { useAppStore } from '@/store/useAppStore';
-import { INTENTIONS, REMINDERS } from '@/data/sample';
+import { INTENTIONS, REMINDERS, RecentItem } from '@/data/sample';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -23,14 +23,46 @@ const reminderIcons = {
   spark: Icon.spark,
 };
 
+const RecentCard = memo(function RecentCard({ r }: { r: RecentItem }) {
+  return (
+    <Card style={{ width: 170, padding: 16 }}>
+      <Illo label={r.label} hue={r.hue} size={56} />
+      <Text style={{ marginTop: 12, fontSize: 15, color: colors.ink, fontFamily: fonts.bodyBold }}>
+        {r.name}
+      </Text>
+      <View style={{ marginTop: 12 }}>
+        <VerdictPill kind={r.verdict} size="sm" />
+      </View>
+      <Text style={{ marginTop: 8, fontSize: 11, color: colors.mute, fontFamily: fonts.body }}>
+        {r.when}
+      </Text>
+    </Card>
+  );
+});
+
 export default function Home() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const recents = useAppStore((s) => s.recents);
 
-  const intention = useMemo(() => INTENTIONS[new Date().getDate() % INTENTIONS.length], []);
-  const wd = new Date().toLocaleDateString('en-US', { weekday: 'long' });
+  // Refresh once per midnight crossing — `new Date()` once per render is fine
+  // but useMemo with the day key keeps the value stable across renders.
+  const today = useMemo(() => new Date(), []);
+  const intention = useMemo(
+    () => INTENTIONS[today.getDate() % INTENTIONS.length],
+    [today],
+  );
+  const wd = useMemo(
+    () => today.toLocaleDateString('en-US', { weekday: 'long' }),
+    [today],
+  );
+
+  const onOpenBaby = useCallback(() => router.push('/baby'), [router]);
+  const onOpenJournal = useCallback(() => router.navigate('/(tabs)/journal'), [router]);
+  const onOpenScan = useCallback(() => router.push('/scan'), [router]);
+  const onOpenEmergency = useCallback(() => router.push('/emergency'), [router]);
+  const onOpenPdf = useCallback(() => router.push('/pdf'), [router]);
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>
@@ -63,7 +95,7 @@ export default function Home() {
 
         {/* Week + day */}
         <View style={{ paddingHorizontal: 24, marginTop: 18, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
-          <WeekRing week={profile.week} onPress={() => router.push('/baby')} />
+          <WeekRing week={profile.week} onPress={onOpenBaby} />
           <View style={{ flex: 1 }}>
             <Text
               style={{
@@ -77,7 +109,9 @@ export default function Home() {
               Week <CountUp to={profile.week} style={{ fontFamily: fonts.display, fontSize: 32, color: colors.ink }} />, {wd}
             </Text>
             <Pressable
-              onPress={() => router.push('/baby')}
+              onPress={onOpenBaby}
+              accessibilityRole="link"
+              hitSlop={6}
               style={{ flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 4 }}
             >
               <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>Baby is the size of a sweet potato</Text>
@@ -124,23 +158,19 @@ export default function Home() {
             caption="Recent"
             title="Recent checks"
             right={
-              <Pressable onPress={() => router.navigate('/(tabs)/journal')}>
+              <Pressable onPress={onOpenJournal} hitSlop={8}>
                 <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>All</Text>
               </Pressable>
             }
           />
-          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 12 }}>
+          <ScrollView
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            contentContainerStyle={{ gap: 12 }}
+            removeClippedSubviews
+          >
             {recents.map((r) => (
-              <Card key={r.id} style={{ width: 170, padding: 16 }}>
-                <Illo label={r.label} hue={r.hue} size={56} />
-                <Text style={{ marginTop: 12, fontSize: 15, color: colors.ink, fontFamily: fonts.bodyBold }}>
-                  {r.name}
-                </Text>
-                <View style={{ marginTop: 12 }}>
-                  <VerdictPill kind={r.verdict} size="sm" />
-                </View>
-                <Text style={{ marginTop: 8, fontSize: 11, color: colors.mute, fontFamily: fonts.body }}>{r.when}</Text>
-              </Card>
+              <RecentCard key={r.id} r={r} />
             ))}
           </ScrollView>
         </View>
@@ -199,7 +229,9 @@ export default function Home() {
               Tap to draft questions to bring along.
             </Text>
             <Pressable
-              onPress={() => router.push('/pdf')}
+              onPress={onOpenPdf}
+              accessibilityRole="link"
+              hitSlop={8}
               style={{ marginTop: 14, flexDirection: 'row', alignItems: 'center', gap: 6 }}
             >
               <Text style={{ color: colors.terracotta, fontSize: 13, fontFamily: fonts.bodyBold }}>Prepare a summary</Text>
@@ -209,7 +241,7 @@ export default function Home() {
         </View>
       </ScrollView>
 
-      <ScanFAB onScan={() => router.push('/scan')} onLongPress={() => router.push('/emergency')} />
+      <ScanFAB onScan={onOpenScan} onLongPress={onOpenEmergency} />
     </View>
   );
 }

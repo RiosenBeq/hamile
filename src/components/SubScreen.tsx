@@ -1,10 +1,17 @@
 // Shared chrome for sub-pages (settings rows, detail screens). Keeps the
 // chunky back-pill, centered eyebrow caption and right-side slot consistent.
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withTiming,
+  interpolateColor,
+  Easing,
+} from 'react-native-reanimated';
 import { Icon } from '@/components/Icon';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -109,31 +116,54 @@ export function Toggle({
   value: boolean;
   onChange: (v: boolean) => void;
 }) {
+  const t = useSharedValue(value ? 1 : 0);
+
+  useEffect(() => {
+    t.value = withTiming(value ? 1 : 0, { duration: 180, easing: Easing.out(Easing.cubic) });
+  }, [value, t]);
+
+  const trackStyle = useAnimatedStyle(() => ({
+    backgroundColor: interpolateColor(t.value, [0, 1], ['#E0D5C7', colors.terracotta]),
+  }));
+  const knobStyle = useAnimatedStyle(() => ({
+    transform: [{ translateX: t.value * 20 }],
+  }));
+
   return (
     <Pressable
       onPress={() => onChange(!value)}
-      style={{
-        width: 48,
-        height: 28,
-        borderRadius: 14,
-        backgroundColor: value ? colors.terracotta : '#E0D5C7',
-        padding: 2,
-        justifyContent: 'center',
-      }}
+      accessibilityRole="switch"
+      accessibilityState={{ checked: value }}
+      hitSlop={8}
     >
-      <View
-        style={{
-          width: 24,
-          height: 24,
-          borderRadius: 12,
-          backgroundColor: '#fff',
-          marginLeft: value ? 20 : 0,
-          shadowColor: colors.ink,
-          shadowOpacity: 0.18,
-          shadowRadius: 4,
-          shadowOffset: { width: 0, height: 1 },
-        }}
-      />
+      <Animated.View
+        style={[
+          {
+            width: 48,
+            height: 28,
+            borderRadius: 14,
+            padding: 2,
+            justifyContent: 'center',
+          },
+          trackStyle,
+        ]}
+      >
+        <Animated.View
+          style={[
+            {
+              width: 24,
+              height: 24,
+              borderRadius: 12,
+              backgroundColor: '#fff',
+              shadowColor: colors.ink,
+              shadowOpacity: 0.18,
+              shadowRadius: 4,
+              shadowOffset: { width: 0, height: 1 },
+            },
+            knobStyle,
+          ]}
+        />
+      </Animated.View>
     </Pressable>
   );
 }

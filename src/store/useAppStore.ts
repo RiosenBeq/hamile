@@ -46,7 +46,7 @@ const defaultProfile: Profile = {
 
 export const useAppStore = create<State>()(
   persist(
-    (set, get) => ({
+    (set) => ({
       hydrated: false,
       onboarded: false,
       profile: defaultProfile,
@@ -66,9 +66,27 @@ export const useAppStore = create<State>()(
     {
       name: 'marigold-app-state',
       storage: createJSONStorage(() => AsyncStorage),
-      onRehydrateStorage: () => (state) => {
-        state && (state.hydrated = true);
-      },
+      // Persist only the fields that should survive a relaunch. `hydrated`
+      // must always start false on cold boot so the splash gate works.
+      partialize: (s) => ({
+        onboarded: s.onboarded,
+        profile: s.profile,
+        recents: s.recents,
+        journal: s.journal,
+      }),
     },
   ),
 );
+
+// Mark the store as hydrated via setState so subscribers re-render. Mutating
+// `state.hydrated` directly inside `onRehydrateStorage` does NOT notify React,
+// which left the splash screen stuck on cold start.
+useAppStore.persist.onFinishHydration(() => {
+  useAppStore.setState({ hydrated: true });
+});
+
+// If the persisted state is empty / first launch, hydration finishes
+// synchronously before the listener is attached. Schedule a one-shot fallback.
+if (useAppStore.persist.hasHydrated()) {
+  useAppStore.setState({ hydrated: true });
+}
