@@ -3,13 +3,13 @@
 // export / import, and a clear "Sign out of this device" option.
 
 import React, { useEffect, useState } from 'react';
-import { Alert, Pressable, ScrollView, Text, View } from 'react-native';
+import { Alert, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card, SectionHead } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { Btn } from '@/components/Btn';
-import { SubScreenHeader, Toggle } from '@/components/SubScreen';
+import { SubScreenHeader, SettingsRow, Toggle } from '@/components/SubScreen';
 import { isBiometricAvailable, useAppLockEnabled } from '@/components/AppLock';
 import { exportBackup, importBackup } from '@/lib/backup';
 import { forceSync, outboxCount } from '@/lib/sync';
@@ -189,7 +189,6 @@ export default function SecuritySetting() {
               icon={Icon.download}
               onPress={onExport}
             />
-            <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} />
             <SettingsRow
               title="Restore from a JSON backup"
               sub="Merges with your current journal — never overwrites local-only entries."
@@ -206,51 +205,5 @@ export default function SecuritySetting() {
         </Text>
       </ScrollView>
     </View>
-  );
-}
-
-function SettingsRow({
-  title,
-  sub,
-  icon,
-  busy,
-  onPress,
-  isLast,
-}: {
-  title: string;
-  sub?: string;
-  icon: React.ComponentType<{ size?: number; color?: string }>;
-  busy?: boolean;
-  onPress?: () => void;
-  isLast?: boolean;
-}) {
-  const Icn = icon;
-  return (
-    <Pressable
-      onPress={onPress}
-      disabled={busy}
-      style={{ padding: 16, flexDirection: 'row', alignItems: 'center', gap: 16 }}
-    >
-      <View
-        style={{
-          width: 36,
-          height: 36,
-          borderRadius: 18,
-          backgroundColor: colors.sand,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        <Icn size={18} color={colors.ink} />
-      </View>
-      <View style={{ flex: 1 }}>
-        <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>{busy ? `${title}…` : title}</Text>
-        {sub ? (
-          <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }} numberOfLines={2}>
-            {sub}
-          </Text>
-        ) : null}
-      </View>
-    </Pressable>
   );
 }

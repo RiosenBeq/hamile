@@ -64,30 +64,56 @@ export function SettingsRow({
   title,
   sub,
   rightLabel,
+  icon,
+  busy,
   onPress,
   isLast = false,
 }: {
   title: string;
   sub?: string;
   rightLabel?: string;
+  icon?: React.ComponentType<{ size?: number; color?: string }>;
+  busy?: boolean;
   onPress?: () => void;
   isLast?: boolean;
 }) {
+  const Icn = icon;
   return (
     <View>
       <Pressable
         onPress={onPress}
+        disabled={busy}
         style={{
           padding: 16,
           flexDirection: 'row',
           alignItems: 'center',
           gap: 16,
+          opacity: busy ? 0.55 : 1,
         }}
       >
+        {Icn ? (
+          <View
+            style={{
+              width: 36,
+              height: 36,
+              borderRadius: 18,
+              backgroundColor: colors.sand,
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <Icn size={18} color={colors.ink} />
+          </View>
+        ) : null}
         <View style={{ flex: 1 }}>
-          <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>{title}</Text>
+          <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>
+            {busy ? `${title}…` : title}
+          </Text>
           {sub ? (
-            <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}>
+            <Text
+              style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}
+              numberOfLines={2}
+            >
               {sub}
             </Text>
           ) : null}
@@ -95,9 +121,11 @@ export function SettingsRow({
         {rightLabel ? (
           <Text style={{ fontSize: 13, color: colors.mute, fontFamily: fonts.body }}>{rightLabel}</Text>
         ) : null}
-        {onPress ? <Icon.chevR size={18} color={colors.mute} /> : null}
+        {onPress && !icon ? <Icon.chevR size={18} color={colors.mute} /> : null}
       </Pressable>
-      {!isLast ? <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} /> : null}
+      {!isLast ? (
+        <View style={{ height: 1, backgroundColor: colors.line, marginLeft: icon ? 60 : 16 }} />
+      ) : null}
     </View>
   );
 }
