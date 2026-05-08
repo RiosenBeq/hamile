@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 import { Text, View, ViewStyle } from 'react-native';
 import { Icon } from '@/components/Icon';
 import { fonts } from '@/theme/typography';
@@ -12,14 +12,12 @@ const sizing: Record<Size, { h: number; px: number; gap: number; fs: number; ico
   lg: { h: 44, px: 20, gap: 10, fs: 18, iconSize: 22 },
 };
 
-function VerdictPillImpl({ kind, size = 'md', style }: { kind: V; size?: Size; style?: ViewStyle }) {
+export function VerdictPill({ kind, size = 'md', style }: { kind: V; size?: Size; style?: ViewStyle }) {
   const map = verdictPalette[kind];
   const s = sizing[size];
   const Icn = kind === 'safe' ? Icon.check : kind === 'caution' ? Icon.warn : Icon.cross;
   return (
     <View
-      accessibilityRole="text"
-      accessibilityLabel={`${map.label} verdict`}
       style={[
         {
           flexDirection: 'row',
@@ -40,9 +38,7 @@ function VerdictPillImpl({ kind, size = 'md', style }: { kind: V; size?: Size; s
   );
 }
 
-export const VerdictPill = memo(VerdictPillImpl);
-
-function VerdictDotImpl({ kind, size = 10 }: { kind: V; size?: number }) {
+export function VerdictDot({ kind, size = 10 }: { kind: V; size?: number }) {
   const c = verdictPalette[kind].ring;
   return (
     <View
@@ -61,5 +57,3 @@ function VerdictDotImpl({ kind, size = 10 }: { kind: V; size?: number }) {
     />
   );
 }
-
-export const VerdictDot = memo(VerdictDotImpl);

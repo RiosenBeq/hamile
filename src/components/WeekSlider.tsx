@@ -3,7 +3,11 @@
 
 import React, { useEffect } from 'react';
 import { Text, View, LayoutChangeEvent } from 'react-native';
-import { Gesture, GestureDetector } from 'react-native-gesture-handler';
+import {
+  Gesture,
+  GestureDetector,
+  GestureHandlerRootView,
+} from 'react-native-gesture-handler';
 import Animated, {
   runOnJS,
   useAnimatedStyle,
@@ -114,7 +118,7 @@ export function WeekSlider({
         })}
       </View>
 
-      <View style={{ marginTop: 18 }}>
+      <GestureHandlerRootView style={{ marginTop: 18 }}>
         <GestureDetector gesture={composed}>
           <View style={{ height: 36, justifyContent: 'center' }} onLayout={onLayout}>
             <View style={{ height: 4, backgroundColor: colors.line, borderRadius: 2 }} />
@@ -140,7 +144,7 @@ export function WeekSlider({
             />
           </View>
         </GestureDetector>
-      </View>
+      </GestureHandlerRootView>
 
       <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginTop: 4 }}>
         {[1, 13, 26, 40].map((w) => (

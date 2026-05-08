@@ -2,16 +2,7 @@
 // then we offer grounded next steps and the option to call their midwife.
 
 import React, { useState } from 'react';
-import {
-  KeyboardAvoidingView,
-  Linking,
-  Platform,
-  Pressable,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
+import { Pressable, ScrollView, Text, TextInput, View, Linking } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card } from '@/components/Card';
@@ -62,11 +53,6 @@ export default function Emergency() {
       </View>
 
       {stage === 'ask' ? (
-        <KeyboardAvoidingView
-          style={{ flex: 1 }}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-          keyboardVerticalOffset={Platform.OS === 'ios' ? insets.top + 24 : 0}
-        >
         <View style={{ paddingHorizontal: 28, paddingTop: 32, flex: 1 }}>
           <Text style={{ fontFamily: fonts.display, fontSize: 34, lineHeight: 38, color: colors.ink, letterSpacing: -0.6 }}>
             Take a breath.
@@ -113,7 +99,6 @@ export default function Emergency() {
             If you are bleeding heavily, fainting, or in severe pain — call your maternity unit now.
           </Text>
         </View>
-        </KeyboardAvoidingView>
       ) : (
         <ScrollView contentContainerStyle={{ paddingHorizontal: 28, paddingTop: 24, paddingBottom: insets.bottom + 32 }}>
           <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>

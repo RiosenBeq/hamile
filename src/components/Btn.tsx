@@ -1,5 +1,5 @@
-import React, { memo, useCallback } from 'react';
-import { Pressable, StyleSheet, Text, TextStyle, ViewStyle } from 'react-native';
+import React from 'react';
+import { Pressable, Text, ViewStyle, TextStyle } from 'react-native';
 import * as Haptics from 'expo-haptics';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -15,30 +15,48 @@ type Props = {
   disabled?: boolean;
 };
 
-function BtnImpl({ kind = 'primary', children, onPress, style, textStyle, disabled }: Props) {
-  const press = useCallback(() => {
+const base: ViewStyle = {
+  borderRadius: 14,
+  alignItems: 'center',
+  justifyContent: 'center',
+  flexDirection: 'row',
+  gap: 8,
+};
+
+export function Btn({ kind = 'primary', children, onPress, style, textStyle, disabled }: Props) {
+  const press = () => {
     if (disabled) return;
     Haptics.selectionAsync().catch(() => {});
     onPress?.();
-  }, [disabled, onPress]);
-
+  };
   if (kind === 'primary') {
     return (
       <Pressable
         onPress={press}
         disabled={disabled}
-        accessibilityRole="button"
-        accessibilityState={{ disabled: !!disabled }}
         style={({ pressed }) => [
-          styles.base,
-          styles.primary,
-          disabled && styles.primaryDisabled,
-          pressed && styles.pressed,
+          base,
+          {
+            height: 56,
+            backgroundColor: disabled ? '#D9C7B6' : colors.terracotta,
+            transform: [{ scale: pressed ? 0.985 : 1 }],
+            shadowColor: colors.terracotta,
+            shadowOpacity: 0.25,
+            shadowRadius: 16,
+            shadowOffset: { width: 0, height: 8 },
+          },
           style,
         ]}
       >
         {typeof children === 'string' ? (
-          <Text style={[styles.primaryText, textStyle]}>{children}</Text>
+          <Text
+            style={[
+              { color: '#fff', fontFamily: fonts.bodyBold, fontSize: 16, letterSpacing: -0.2 },
+              textStyle,
+            ]}
+          >
+            {children}
+          </Text>
         ) : (
           children
         )}
@@ -50,89 +68,46 @@ function BtnImpl({ kind = 'primary', children, onPress, style, textStyle, disabl
       <Pressable
         onPress={press}
         disabled={disabled}
-        accessibilityRole="button"
-        accessibilityState={{ disabled: !!disabled }}
-        style={({ pressed }) => [styles.base, styles.ghost, pressed && styles.ghostPressed, style]}
+        style={({ pressed }) => [
+          base,
+          { height: 44, opacity: pressed ? 0.6 : 1 },
+          style,
+        ]}
       >
         {typeof children === 'string' ? (
-          <Text style={[styles.ghostText, textStyle]}>{children}</Text>
+          <Text style={[{ color: colors.ink, fontFamily: fonts.bodyBold, fontSize: 15 }, textStyle]}>
+            {children}
+          </Text>
         ) : (
           children
         )}
       </Pressable>
     );
   }
+  // secondary / outlined
   return (
     <Pressable
       onPress={press}
       disabled={disabled}
-      accessibilityRole="button"
-      accessibilityState={{ disabled: !!disabled }}
-      style={({ pressed }) => [styles.base, styles.secondary, pressed && styles.secondaryPressed, style]}
+      style={({ pressed }) => [
+        base,
+        {
+          height: 56,
+          backgroundColor: colors.surface,
+          borderWidth: 1,
+          borderColor: colors.line,
+          opacity: pressed ? 0.85 : 1,
+        },
+        style,
+      ]}
     >
       {typeof children === 'string' ? (
-        <Text style={[styles.secondaryText, textStyle]}>{children}</Text>
+        <Text style={[{ color: colors.ink, fontFamily: fonts.bodyBold, fontSize: 15 }, textStyle]}>
+          {children}
+        </Text>
       ) : (
         children
       )}
     </Pressable>
   );
 }
-
-export const Btn = memo(BtnImpl);
-
-const styles = StyleSheet.create({
-  base: {
-    borderRadius: 14,
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'row',
-    gap: 8,
-  },
-  primary: {
-    height: 56,
-    backgroundColor: colors.terracotta,
-    shadowColor: colors.terracotta,
-    shadowOpacity: 0.25,
-    shadowRadius: 16,
-    shadowOffset: { width: 0, height: 8 },
-  },
-  primaryDisabled: {
-    backgroundColor: '#D9C7B6',
-    shadowOpacity: 0,
-  },
-  pressed: {
-    transform: [{ scale: 0.985 }],
-  },
-  primaryText: {
-    color: '#fff',
-    fontFamily: fonts.bodyBold,
-    fontSize: 16,
-    letterSpacing: -0.2,
-  },
-  ghost: {
-    height: 44,
-  },
-  ghostPressed: {
-    opacity: 0.6,
-  },
-  ghostText: {
-    color: colors.ink,
-    fontFamily: fonts.bodyBold,
-    fontSize: 15,
-  },
-  secondary: {
-    height: 56,
-    backgroundColor: colors.surface,
-    borderWidth: 1,
-    borderColor: colors.line,
-  },
-  secondaryPressed: {
-    opacity: 0.85,
-  },
-  secondaryText: {
-    color: colors.ink,
-    fontFamily: fonts.bodyBold,
-    fontSize: 15,
-  },
-});

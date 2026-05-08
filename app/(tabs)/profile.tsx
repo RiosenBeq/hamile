@@ -23,6 +23,7 @@ export default function Profile() {
   ];
 
   const settingsRows: [string, string, string][] = [
+    ['Security & sync', 'App lock, sign-in, manual backup', '/settings/security'],
     ['Country & cuisine', profile.country, '/settings/country'],
     ['Health profile', profile.conditions.length ? profile.conditions.join(', ') : 'No conditions logged', '/settings/health'],
     ['Notifications', 'Daily intention · weekly milestone', '/settings/notifications'],
@@ -33,7 +34,7 @@ export default function Profile() {
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 140 }}
       showsVerticalScrollIndicator={false}
       style={{ backgroundColor: colors.base }}
     >

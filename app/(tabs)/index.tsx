@@ -1,7 +1,7 @@
 // Home — week ring, daily intention, recent checks (horizontal),
 // upcoming reminders, and the doctor visit nudge. Floating scan FAB.
 
-import React, { memo, useCallback, useMemo } from 'react';
+import React, { useMemo } from 'react';
 import { ScrollView, Text, View, Pressable } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -12,8 +12,9 @@ import { VerdictPill } from '@/components/Verdict';
 import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
 import { ScanFAB } from '@/components/ScanFAB';
+import { ToolShortcuts } from '@/components/ToolShortcuts';
 import { useAppStore } from '@/store/useAppStore';
-import { INTENTIONS, REMINDERS, RecentItem } from '@/data/sample';
+import { INTENTIONS, REMINDERS } from '@/data/sample';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -23,46 +24,14 @@ const reminderIcons = {
   spark: Icon.spark,
 };
 
-const RecentCard = memo(function RecentCard({ r }: { r: RecentItem }) {
-  return (
-    <Card style={{ width: 170, padding: 16 }}>
-      <Illo label={r.label} hue={r.hue} size={56} />
-      <Text style={{ marginTop: 12, fontSize: 15, color: colors.ink, fontFamily: fonts.bodyBold }}>
-        {r.name}
-      </Text>
-      <View style={{ marginTop: 12 }}>
-        <VerdictPill kind={r.verdict} size="sm" />
-      </View>
-      <Text style={{ marginTop: 8, fontSize: 11, color: colors.mute, fontFamily: fonts.body }}>
-        {r.when}
-      </Text>
-    </Card>
-  );
-});
-
 export default function Home() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const recents = useAppStore((s) => s.recents);
 
-  // Refresh once per midnight crossing — `new Date()` once per render is fine
-  // but useMemo with the day key keeps the value stable across renders.
-  const today = useMemo(() => new Date(), []);
-  const intention = useMemo(
-    () => INTENTIONS[today.getDate() % INTENTIONS.length],
-    [today],
-  );
-  const wd = useMemo(
-    () => today.toLocaleDateString('en-US', { weekday: 'long' }),
-    [today],
-  );
-
-  const onOpenBaby = useCallback(() => router.push('/baby'), [router]);
-  const onOpenJournal = useCallback(() => router.navigate('/(tabs)/journal'), [router]);
-  const onOpenScan = useCallback(() => router.push('/scan'), [router]);
-  const onOpenEmergency = useCallback(() => router.push('/emergency'), [router]);
-  const onOpenPdf = useCallback(() => router.push('/pdf'), [router]);
+  const intention = useMemo(() => INTENTIONS[new Date().getDate() % INTENTIONS.length], []);
+  const wd = new Date().toLocaleDateString('en-US', { weekday: 'long' });
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>
@@ -72,7 +41,7 @@ export default function Home() {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 220 }}
       >
         {/* Header */}
         <View style={{ paddingHorizontal: 24, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -95,7 +64,7 @@ export default function Home() {
 
         {/* Week + day */}
         <View style={{ paddingHorizontal: 24, marginTop: 18, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
-          <WeekRing week={profile.week} onPress={onOpenBaby} />
+          <WeekRing week={profile.week} onPress={() => router.push('/baby')} />
           <View style={{ flex: 1 }}>
             <Text
               style={{
@@ -109,15 +78,23 @@ export default function Home() {
               Week <CountUp to={profile.week} style={{ fontFamily: fonts.display, fontSize: 32, color: colors.ink }} />, {wd}
             </Text>
             <Pressable
-              onPress={onOpenBaby}
-              accessibilityRole="link"
-              hitSlop={6}
+              onPress={() => router.push('/baby')}
               style={{ flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 4 }}
             >
               <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>Baby is the size of a sweet potato</Text>
               <Icon.chevR size={14} color={colors.mute} />
             </Pressable>
           </View>
+        </View>
+
+        {/* Today's tools — week-aware shortcuts */}
+        <View style={{ marginTop: 24 }}>
+          <View style={{ paddingHorizontal: 24, marginBottom: 12 }}>
+            <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
+              Today's tools
+            </Text>
+          </View>
+          <ToolShortcuts week={profile.week} />
         </View>
 
         {/* Today's intention */}
@@ -158,19 +135,23 @@ export default function Home() {
             caption="Recent"
             title="Recent checks"
             right={
-              <Pressable onPress={onOpenJournal} hitSlop={8}>
+              <Pressable onPress={() => router.navigate('/(tabs)/journal')}>
                 <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>All</Text>
               </Pressable>
             }
           />
-          <ScrollView
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={{ gap: 12 }}
-            removeClippedSubviews
-          >
+          <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 12 }}>
             {recents.map((r) => (
-              <RecentCard key={r.id} r={r} />
+              <Card key={r.id} style={{ width: 170, padding: 16 }}>
+                <Illo label={r.label} hue={r.hue} size={56} />
+                <Text style={{ marginTop: 12, fontSize: 15, color: colors.ink, fontFamily: fonts.bodyBold }}>
+                  {r.name}
+                </Text>
+                <View style={{ marginTop: 12 }}>
+                  <VerdictPill kind={r.verdict} size="sm" />
+                </View>
+                <Text style={{ marginTop: 8, fontSize: 11, color: colors.mute, fontFamily: fonts.body }}>{r.when}</Text>
+              </Card>
             ))}
           </ScrollView>
         </View>
@@ -229,9 +210,7 @@ export default function Home() {
               Tap to draft questions to bring along.
             </Text>
             <Pressable
-              onPress={onOpenPdf}
-              accessibilityRole="link"
-              hitSlop={8}
+              onPress={() => router.push('/pdf')}
               style={{ marginTop: 14, flexDirection: 'row', alignItems: 'center', gap: 6 }}
             >
               <Text style={{ color: colors.terracotta, fontSize: 13, fontFamily: fonts.bodyBold }}>Prepare a summary</Text>
@@ -241,7 +220,7 @@ export default function Home() {
         </View>
       </ScrollView>
 
-      <ScanFAB onScan={onOpenScan} onLongPress={onOpenEmergency} />
+      <ScanFAB onScan={() => router.push('/scan')} onLongPress={() => router.push('/emergency')} />
     </View>
   );
 }
