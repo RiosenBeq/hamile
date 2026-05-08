@@ -101,6 +101,14 @@ export default function Reminder() {
   const insets = useSafeAreaInsets();
   const { title } = useLocalSearchParams<{ title: string }>();
   const key = title || 'Anomaly scan';
+
+  // Hospital bag and Birth plan now have dedicated interactive tools — bounce
+  // the static reminder over to them so the user can actually tick / fill in.
+  React.useEffect(() => {
+    if (key === 'Hospital bag') router.replace('/tools/hospital-bag');
+    else if (key === 'Birth plan draft') router.replace('/tools/birth-plan');
+  }, [key, router]);
+
   const detail = REMINDER_DETAILS[key] || REMINDER_DETAILS['Anomaly scan'];
 
   return (

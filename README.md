@@ -56,6 +56,12 @@ Play** from a single codebase.
 | `/settings/security` | App lock, account, force-sync, manual JSON backup |
 | `/auth` | Magic-link sign-in (no password) |
 | `/auth-callback` | Deep-link callback that hydrates the store from server |
+| `/tools/kick-counter` | Tap-to-count fetal movements with 10-in-2h session tracking |
+| `/tools/contractions` | Big start/stop timer + duration / interval / 5-1-1 guidance |
+| `/tools/weight` | Stepper + animated sparkline with IOM healthy-gain band |
+| `/tools/symptoms` | Daily 5-axis check-in (mood / nausea / sleep / cramps / energy) + 14-day bar strip |
+| `/tools/hospital-bag` | Interactive 22-item checklist across labour / post-birth / baby / docs |
+| `/tools/birth-plan` | 7-section form (chips + free text) with one-tap PDF export |
 
 ## Security & data resilience
 

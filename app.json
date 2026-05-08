@@ -85,6 +85,14 @@
         {
           "faceIDPermission": "Allow Marigold to access biometrics when reading your encrypted account session."
         }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/adaptive-icon.png",
+          "color": "#C77B5C",
+          "defaultChannel": "marigold-default"
+        }
       ]
     ],
     "experiments": { "typedRoutes": true },

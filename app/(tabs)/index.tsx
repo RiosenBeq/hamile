@@ -12,6 +12,7 @@ import { VerdictPill } from '@/components/Verdict';
 import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
 import { ScanFAB } from '@/components/ScanFAB';
+import { ToolShortcuts } from '@/components/ToolShortcuts';
 import { useAppStore } from '@/store/useAppStore';
 import { INTENTIONS, REMINDERS } from '@/data/sample';
 import { colors } from '@/theme/colors';
@@ -84,6 +85,16 @@ export default function Home() {
               <Icon.chevR size={14} color={colors.mute} />
             </Pressable>
           </View>
+        </View>
+
+        {/* Today's tools — week-aware shortcuts */}
+        <View style={{ marginTop: 24 }}>
+          <View style={{ paddingHorizontal: 24, marginBottom: 12 }}>
+            <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
+              Today's tools
+            </Text>
+          </View>
+          <ToolShortcuts week={profile.week} />
         </View>
 
         {/* Today's intention */}

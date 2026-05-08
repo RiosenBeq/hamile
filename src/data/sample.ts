@@ -213,3 +213,93 @@ export const COUNTRIES = [
 export const CONDITIONS = [
   'Gestational diabetes', 'Hypertension', 'Twins', 'IVF', 'Previous loss', 'None of these',
 ];
+
+// ── Tools data ───────────────────────────────────────────────
+// Default hospital-bag template. Users can add custom rows on top of these.
+
+export type BagGroup = 'labour' | 'postBirth' | 'baby' | 'docs';
+export const BAG_GROUP_LABEL: Record<BagGroup, string> = {
+  labour: 'For labour',
+  postBirth: 'Post-birth',
+  baby: 'Baby',
+  docs: 'Documents',
+};
+
+export const BAG_TEMPLATE: { group: BagGroup; label: string }[] = [
+  { group: 'labour', label: 'Lip balm' },
+  { group: 'labour', label: 'Hair ties' },
+  { group: 'labour', label: 'Snacks (low-sugar, high-protein)' },
+  { group: 'labour', label: 'Hot water bottle' },
+  { group: 'labour', label: 'Slippers' },
+  { group: 'labour', label: 'Phone + extra-long charger' },
+  { group: 'postBirth', label: 'Big knickers (5 pairs)' },
+  { group: 'postBirth', label: 'Maternity pads (1 pack)' },
+  { group: 'postBirth', label: 'Dark towel' },
+  { group: 'postBirth', label: 'Loose pyjamas' },
+  { group: 'postBirth', label: 'Going-home outfit (loose)' },
+  { group: 'postBirth', label: 'Toiletries' },
+  { group: 'baby', label: 'Vests × 2' },
+  { group: 'baby', label: 'Sleepsuits × 2' },
+  { group: 'baby', label: 'Hat' },
+  { group: 'baby', label: 'Scratch mittens' },
+  { group: 'baby', label: 'Blanket' },
+  { group: 'baby', label: 'Newborn nappies' },
+  { group: 'docs', label: 'Maternity notes' },
+  { group: 'docs', label: 'Photo ID' },
+  { group: 'docs', label: 'Hospital paperwork' },
+  { group: 'docs', label: 'Birth plan printout' },
+];
+
+// Birth plan: structured fields with chip choices.
+
+export type BirthPlanFieldDef = {
+  key: string;
+  question: string;
+  kind: 'chips' | 'multichips' | 'text';
+  options?: string[];
+};
+
+export const BIRTH_PLAN_FIELDS: BirthPlanFieldDef[] = [
+  {
+    key: 'painRelief',
+    question: 'Pain relief preferences',
+    kind: 'multichips',
+    options: ['Gas & air', 'Water (pool / bath)', 'TENS machine', 'Pethidine / opioids', 'Epidural', 'No pharmaceutical pain relief'],
+  },
+  {
+    key: 'environment',
+    question: 'Birth environment',
+    kind: 'multichips',
+    options: ['Dim lighting', 'My playlist', 'Aromatherapy', 'No interruptions', 'Birthing pool', 'Standing / squatting positions'],
+  },
+  {
+    key: 'companions',
+    question: 'Who will be with me',
+    kind: 'multichips',
+    options: ['Partner', 'Doula', 'Mother / sister', 'Friend', 'Just me + the team'],
+  },
+  {
+    key: 'afterBirth',
+    question: 'Right after the baby arrives',
+    kind: 'multichips',
+    options: ['Skin-to-skin immediately', 'Delayed cord clamping', 'Partner cuts the cord', 'Vitamin K injection', 'Vitamin K oral'],
+  },
+  {
+    key: 'feeding',
+    question: 'Feeding plan',
+    kind: 'chips',
+    options: ['Breastfeed exclusively', 'Mixed feeding', 'Formula from the start', 'Decide after birth'],
+  },
+  {
+    key: 'cesarean',
+    question: 'If a c-section becomes necessary',
+    kind: 'multichips',
+    options: ['Lower screen / clear drape', 'Skin-to-skin in theatre', 'Partner stays with me', 'Music kept on'],
+  },
+  {
+    key: 'notes',
+    question: 'Anything else the team should know',
+    kind: 'text',
+  },
+];
+
