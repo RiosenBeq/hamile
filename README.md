@@ -45,6 +45,14 @@ Play** from a single codebase.
 | `/pdf` | Doctor summary, exports as real PDF via `expo-print` |
 | `/partner` | QR-code invite + "what they will see" privacy list |
 | `/paywall` | 9-month / monthly / family plans |
+| `/topic` | Library article — verdict, "what to do", source chips |
+| `/reminder` | Appointment detail with checklist + question prompts |
+| `/settings/country` | Searchable country picker with flags |
+| `/settings/health` | Stage, week slider, condition chips |
+| `/settings/notifications` | Toggle rows for cadence + people |
+| `/settings/privacy` | Plain-language explainer + delete-everything |
+| `/settings/language` | Language picker with flags |
+| `/settings/appearance` | Mode + text size with live preview |
 
 ## Quickstart
 

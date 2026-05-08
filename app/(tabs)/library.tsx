@@ -144,7 +144,7 @@ export default function Library() {
           {TRENDING.map((t, i) => (
             <View key={t.name}>
               <Pressable
-                onPress={() => router.push({ pathname: '/verdict', params: { item: t.name, mode: 'Food' } })}
+                onPress={() => router.push({ pathname: '/topic', params: { name: t.name } })}
                 style={{ padding: 16, flexDirection: 'row', alignItems: 'center', gap: 16 }}
               >
                 <VerdictDot kind={t.verdict} />

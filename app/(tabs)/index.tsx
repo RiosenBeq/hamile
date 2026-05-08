@@ -154,6 +154,7 @@ export default function Home() {
               return (
                 <View key={r.title}>
                   <Pressable
+                    onPress={() => router.push({ pathname: '/reminder', params: { title: r.title } })}
                     style={{ padding: 16, flexDirection: 'row', alignItems: 'center', gap: 16 }}
                   >
                     <View

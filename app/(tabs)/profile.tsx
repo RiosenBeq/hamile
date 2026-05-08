@@ -22,13 +22,13 @@ export default function Profile() {
     ['Subscription', '9-month plan · $49', '/paywall'],
   ];
 
-  const settingsRows: [string, string][] = [
-    ['Country & cuisine', profile.country],
-    ['Health profile', profile.conditions.length ? profile.conditions.join(', ') : 'No conditions logged'],
-    ['Notifications', 'Daily intention · weekly milestone'],
-    ['Privacy', 'On-device first · nothing sold'],
-    ['Dark mode', 'Auto'],
-    ['Language', 'English'],
+  const settingsRows: [string, string, string][] = [
+    ['Country & cuisine', profile.country, '/settings/country'],
+    ['Health profile', profile.conditions.length ? profile.conditions.join(', ') : 'No conditions logged', '/settings/health'],
+    ['Notifications', 'Daily intention · weekly milestone', '/settings/notifications'],
+    ['Privacy', 'On-device first · nothing sold', '/settings/privacy'],
+    ['Appearance', 'Auto', '/settings/appearance'],
+    ['Language', 'English', '/settings/language'],
   ];
 
   return (
@@ -80,14 +80,17 @@ export default function Profile() {
       <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
         <SectionHead caption="Settings" title="Preferences" />
         <Card>
-          {settingsRows.map(([nm, sub], i) => (
+          {settingsRows.map(([nm, sub, go], i) => (
             <View key={nm}>
               <Pressable
+                onPress={() => router.push(go as any)}
                 style={{ padding: 16, flexDirection: 'row', alignItems: 'center', gap: 16 }}
               >
                 <View style={{ flex: 1 }}>
                   <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>{nm}</Text>
-                  <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}>{sub}</Text>
+                  <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }} numberOfLines={1}>
+                    {sub}
+                  </Text>
                 </View>
                 <Icon.chevR size={18} color={colors.mute} />
               </Pressable>

@@ -96,6 +96,9 @@ export default function RootLayout() {
             name="activity"
             options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
           />
+          <Stack.Screen name="topic" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="reminder" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="settings" options={{ animation: 'slide_from_right' }} />
         </Stack>
       </SafeAreaProvider>
     </GestureHandlerRootView>
