@@ -16,7 +16,11 @@ expo-env.d.ts
 # Web
 .next/
 
-# Native
+# Native — Expo managed workflow regenerates these via `expo prebuild`.
+# Exclude entirely; the specific subdir rules below are belt-and-braces in
+# case anyone switches to bare workflow and only wants build artifacts gone.
+ios/
+android/
 ios/Pods/
 ios/build/
 ios/.xcode.env.local
