@@ -89,19 +89,23 @@ phone walks straight back into the user's existing journal.
 
 ## Quickstart
 
+### macOS / Xcode (recommended)
 ```bash
-# 1. Install
-npm install
-
-# 2. Configure (optional — without env vars the app runs offline)
-cp .env.example .env
-# Fill in EXPO_PUBLIC_SUPABASE_URL, EXPO_PUBLIC_SUPABASE_ANON_KEY
-
-# 3. Run on a device
-npx expo start --tunnel
-# Press `i` for iOS simulator, `a` for Android emulator, or scan the QR
-# code with Expo Go on your phone.
+git clone https://github.com/RiosenBeq/hamile.git marigold && cd marigold
+npm run mac:setup        # one-shot: Xcode CLT, Homebrew, Node, Pods, EAS, prebuild, pods
+npm run xcode            # opens ios/marigold.xcworkspace
 ```
+Then ▶ in Xcode. See [**MAC.md**](./MAC.md) for the full guide (running on device, App Store submission, troubleshooting).
+
+### Anywhere else
+```bash
+npm install
+cp .env.example .env     # optional — without env vars the app runs offline
+npx expo start --tunnel  # `i` simulator, `a` emulator, or QR via Expo dev client
+```
+
+The app uses native modules (camera, biometrics, push, secure-store) so you'll
+need a **dev client build** (the default in `npm run start`), not Expo Go.
 
 The app is **fully usable with no backend wired up** — journals persist via
 AsyncStorage and verdicts come from the local bank. Wire up Supabase + the
