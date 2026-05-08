@@ -23,6 +23,7 @@ export default function Profile() {
   ];
 
   const settingsRows: [string, string, string][] = [
+    ['Security & sync', 'App lock, sign-in, manual backup', '/settings/security'],
     ['Country & cuisine', profile.country, '/settings/country'],
     ['Health profile', profile.conditions.length ? profile.conditions.join(', ') : 'No conditions logged', '/settings/health'],
     ['Notifications', 'Daily intention · weekly milestone', '/settings/notifications'],

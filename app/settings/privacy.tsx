@@ -9,6 +9,9 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { SubScreenHeader } from '@/components/SubScreen';
+import { secureStore, SECURE } from '@/lib/secureStorage';
+import { signOut } from '@/lib/auth';
+import { clearOutbox } from '@/lib/sync';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -17,6 +20,14 @@ export default function PrivacySetting() {
   const insets = useSafeAreaInsets();
 
   const wipe = async () => {
+    // Sign out first so the server-side session is cleanly invalidated.
+    await signOut().catch(() => {});
+    await clearOutbox().catch(() => {});
+    await Promise.all([
+      secureStore.removeItem(SECURE.appLockEnabled),
+      secureStore.removeItem(SECURE.lastUnlock),
+      secureStore.removeItem(SECURE.supabaseSession),
+    ]);
     await AsyncStorage.clear();
     router.replace('/onboarding');
   };
