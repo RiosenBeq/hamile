@@ -21,6 +21,8 @@ import {
   SourceSerif4_700Bold,
 } from '@expo-google-fonts/source-serif-4';
 import { useAppStore } from '@/store/useAppStore';
+import { AppLock } from '@/components/AppLock';
+import { bootSync } from '@/lib/sync';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -41,7 +43,10 @@ export default function RootLayout() {
   const hydrated = useAppStore((s) => s.hydrated);
 
   useEffect(() => {
-    if (fontsLoaded && hydrated) SplashScreen.hideAsync().catch(() => {});
+    if (fontsLoaded && hydrated) {
+      SplashScreen.hideAsync().catch(() => {});
+      bootSync().catch(() => {});
+    }
   }, [fontsLoaded, hydrated]);
 
   if (!fontsLoaded || !hydrated) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
@@ -50,7 +55,17 @@ export default function RootLayout() {
     <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.shellDark }}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
-        <Stack
+        <AppLock>
+          <RootStack />
+        </AppLock>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+function RootStack() {
+  return (
+    <Stack
           screenOptions={{
             headerShown: false,
             contentStyle: { backgroundColor: colors.base },
@@ -99,8 +114,8 @@ export default function RootLayout() {
           <Stack.Screen name="topic" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="reminder" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="settings" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="auth" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
+          <Stack.Screen name="auth-callback" />
         </Stack>
-      </SafeAreaProvider>
-    </GestureHandlerRootView>
   );
 }

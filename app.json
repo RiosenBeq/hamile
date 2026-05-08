@@ -23,6 +23,7 @@
         "NSCameraUsageDescription": "Marigold uses the camera to scan food labels, menus, medication packs and product ingredients so we can give you a calm safety verdict.",
         "NSMicrophoneUsageDescription": "Marigold uses the microphone when you ask a question out loud about something you're holding.",
         "NSPhotoLibraryUsageDescription": "Marigold uses your photo library when you pick an existing photo of a label, menu or product to scan.",
+        "NSFaceIDUsageDescription": "Marigold uses Face ID to unlock the app so your pregnancy journal stays private — even if someone else picks up your phone.",
         "ITSAppUsesNonExemptEncryption": false
       },
       "associatedDomains": ["applinks:marigold.app"]
@@ -37,8 +38,11 @@
       "permissions": [
         "android.permission.CAMERA",
         "android.permission.RECORD_AUDIO",
-        "android.permission.VIBRATE"
+        "android.permission.VIBRATE",
+        "android.permission.USE_BIOMETRIC",
+        "android.permission.USE_FINGERPRINT"
       ],
+      "allowBackup": false,
       "intentFilters": [
         {
           "action": "VIEW",
@@ -68,6 +72,18 @@
           "backgroundColor": "#FBF7F2",
           "image": "./assets/splash.png",
           "resizeMode": "cover"
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Marigold uses Face ID to unlock the app so your pregnancy journal stays private."
+        }
+      ],
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": "Allow Marigold to access biometrics when reading your encrypted account session."
         }
       ]
     ],
