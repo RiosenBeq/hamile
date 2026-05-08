@@ -40,7 +40,7 @@ export default function Home() {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 220 }}
       >
         {/* Header */}
         <View style={{ paddingHorizontal: 24, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>

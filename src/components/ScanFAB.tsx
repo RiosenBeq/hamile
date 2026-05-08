@@ -1,12 +1,19 @@
 // Floating Quick Scan button. Tap = scan, long-press = emergency.
+// Sits ~30px above the tab bar; uses safe-area inset so the button never
+// overlaps the home indicator on devices that have one.
 
 import React, { useRef } from 'react';
 import { Pressable, Text, View } from 'react-native';
 import * as Haptics from 'expo-haptics';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { Icon } from '@/components/Icon';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+
+// Tab bar (height) is roughly inset.bottom + 18 + 10 + 44 ≈ 92–112px depending
+// on device. We sit the FAB so the bottom of its label clears the bar.
+export const FAB_CLEARANCE = 132;
 
 export function ScanFAB({
   onScan,
@@ -15,6 +22,7 @@ export function ScanFAB({
   onScan: () => void;
   onLongPress?: () => void;
 }) {
+  const insets = useSafeAreaInsets();
   const scale = useSharedValue(1);
   const tRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const a = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
@@ -45,7 +53,16 @@ export function ScanFAB({
   };
 
   return (
-    <View style={{ position: 'absolute', bottom: 100, left: 0, right: 0, alignItems: 'center' }}>
+    <View
+      pointerEvents="box-none"
+      style={{
+        position: 'absolute',
+        bottom: insets.bottom + FAB_CLEARANCE - 32,
+        left: 0,
+        right: 0,
+        alignItems: 'center',
+      }}
+    >
       <Pressable onPressIn={start} onPressOut={end} onLongPress={cancel}>
         <Animated.View
           style={[
