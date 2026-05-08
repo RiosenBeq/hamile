@@ -9,14 +9,10 @@ import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 import {
   useFonts,
-  Manrope_400Regular,
   Manrope_500Medium,
-  Manrope_600SemiBold,
   Manrope_700Bold,
 } from '@expo-google-fonts/manrope';
 import {
-  SourceSerif4_400Regular,
-  SourceSerif4_500Medium,
   SourceSerif4_600SemiBold,
   SourceSerif4_700Bold,
 } from '@expo-google-fonts/source-serif-4';
@@ -31,28 +27,27 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 export const unstable_settings = { initialRouteName: 'index' };
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({
-    Manrope_400Regular,
+  // Only load the four weights the design actually uses. Skipping the others
+  // shaves a few hundred KB off the bundle and shortens cold start.
+  const [fontsLoaded, fontError] = useFonts({
     Manrope_500Medium,
-    Manrope_600SemiBold,
     Manrope_700Bold,
-    SourceSerif_400Regular: SourceSerif4_400Regular,
-    SourceSerif_500Medium: SourceSerif4_500Medium,
     SourceSerif_600SemiBold: SourceSerif4_600SemiBold,
     SourceSerif_700Bold: SourceSerif4_700Bold,
   });
   const hydrated = useAppStore((s) => s.hydrated);
+  const ready = (fontsLoaded || !!fontError) && hydrated;
 
   useEffect(() => {
-    if (fontsLoaded && hydrated) {
+    if (ready) {
       SplashScreen.hideAsync().catch(() => {});
       bootSync().catch(() => {});
       const { profile, notifPrefs } = useAppStore.getState();
       rescheduleAll(profile, notifPrefs).catch(() => {});
     }
-  }, [fontsLoaded, hydrated]);
+  }, [ready]);
 
-  if (!fontsLoaded || !hydrated) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
+  if (!ready) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
 
   return (
     <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.shellDark }}>

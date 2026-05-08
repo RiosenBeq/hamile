@@ -73,9 +73,18 @@ function pickIntention(): string {
   return INTENTIONS[idx];
 }
 
+// `SchedulableTriggerInputTypes` is not exported by every minor of
+// expo-notifications we may build against; fall back to the literal strings
+// the runtime accepts.
+const Trigger = (Notifications as any).SchedulableTriggerInputTypes ?? {
+  DAILY: 'daily',
+  WEEKLY: 'weekly',
+  DATE: 'date',
+};
+
 function dailyAt(hour: number, minute: number): Notifications.NotificationTriggerInput {
   return {
-    type: Notifications.SchedulableTriggerInputTypes.DAILY,
+    type: Trigger.DAILY,
     hour,
     minute,
     channelId: CHANNEL_ID,
@@ -84,7 +93,7 @@ function dailyAt(hour: number, minute: number): Notifications.NotificationTrigge
 
 function weeklyAt(weekday: number, hour: number, minute: number): Notifications.NotificationTriggerInput {
   return {
-    type: Notifications.SchedulableTriggerInputTypes.WEEKLY,
+    type: Trigger.WEEKLY,
     weekday, // 1..7 Sunday..Saturday on iOS / Sun=1 on Android
     hour,
     minute,
@@ -161,6 +170,6 @@ export async function scheduleReminder(at: Date, title: string, body: string): P
   await Notifications.scheduleNotificationAsync({
     identifier: `${TAG}-rem-${at.getTime()}`,
     content: { title, body, data: { tag: TAG } },
-    trigger: { type: Notifications.SchedulableTriggerInputTypes.DATE, date: at } as any,
+    trigger: { type: Trigger.DATE, date: at } as any,
   }).catch(() => {});
 }

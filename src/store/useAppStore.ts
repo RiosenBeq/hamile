@@ -243,9 +243,35 @@ export const useAppStore = create<State>()(
     {
       name: 'marigold-app-state',
       storage: createJSONStorage(() => AsyncStorage),
-      onRehydrateStorage: () => (state) => {
-        state && (state.hydrated = true);
-      },
+      // `hydrated` must always start false on cold boot; persisting it would
+      // race with React subscribers seeing a stale `true` from the previous
+      // session before AsyncStorage actually finishes loading.
+      partialize: (s) => ({
+        onboarded: s.onboarded,
+        profile: s.profile,
+        recents: s.recents,
+        journal: s.journal,
+        kicks: s.kicks,
+        contractions: s.contractions,
+        weights: s.weights,
+        symptoms: s.symptoms,
+        bag: s.bag,
+        birthPlan: s.birthPlan,
+        notifPrefs: s.notifPrefs,
+      }),
     },
   ),
 );
+
+// Mark the store as hydrated via setState so subscribers re-render. Mutating
+// `state.hydrated` directly inside `onRehydrateStorage` does NOT notify React,
+// which left the splash gate stuck on a blank cream screen on cold start.
+useAppStore.persist.onFinishHydration(() => {
+  useAppStore.setState({ hydrated: true });
+});
+
+// If hydration completed synchronously (first launch with empty storage)
+// before the listener was attached, flip the flag manually.
+if (useAppStore.persist.hasHydrated()) {
+  useAppStore.setState({ hydrated: true });
+}
