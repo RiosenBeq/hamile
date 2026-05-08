@@ -38,7 +38,12 @@ export function Stepper({
     onChange(clamp(value + delta));
   };
 
-  useEffect(() => () => intervalRef.current && clearInterval(intervalRef.current), []);
+  useEffect(
+    () => () => {
+      if (intervalRef.current) clearInterval(intervalRef.current);
+    },
+    [],
+  );
 
   const startRepeat = (delta: number) => {
     intervalRef.current = setInterval(() => {
