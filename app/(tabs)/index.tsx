@@ -13,6 +13,7 @@ import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
 import { ScanFAB } from '@/components/ScanFAB';
 import { useAppStore } from '@/store/useAppStore';
+import { useT } from '@/i18n';
 import { INTENTIONS, REMINDERS } from '@/data/sample';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -26,6 +27,7 @@ const reminderIcons = {
 export default function Home() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
+  const t = useT();
   const profile = useAppStore((s) => s.profile);
   const recents = useAppStore((s) => s.recents);
 
@@ -145,6 +147,31 @@ export default function Home() {
           </ScrollView>
         </View>
 
+        {/* Tools — kick counter, contractions, health log */}
+        <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
+          <SectionHead caption={t('tools.caption')} title={t('tools.title')} />
+          <View style={{ flexDirection: 'row', gap: 10 }}>
+            <ToolCard
+              hue={colors.terracotta}
+              title={t('tools.kicks.title')}
+              sub={t('tools.kicks.sub')}
+              onPress={() => router.push('/tools/kicks')}
+            />
+            <ToolCard
+              hue={colors.lavender}
+              title={t('tools.contractions.title')}
+              sub={t('tools.contractions.sub')}
+              onPress={() => router.push('/tools/contractions')}
+            />
+            <ToolCard
+              hue={colors.sage}
+              title={t('tools.health.title')}
+              sub={t('tools.health.sub')}
+              onPress={() => router.push('/tools/health')}
+            />
+          </View>
+        </View>
+
         {/* Reminders */}
         <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
           <SectionHead caption="Up next" title="This week's reminders" />
@@ -211,5 +238,69 @@ export default function Home() {
 
       <ScanFAB onScan={() => router.push('/scan')} onLongPress={() => router.push('/emergency')} />
     </View>
+  );
+}
+
+function ToolCard({
+  hue,
+  title,
+  sub,
+  onPress,
+}: {
+  hue: string;
+  title: string;
+  sub: string;
+  onPress: () => void;
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      style={({ pressed }) => ({
+        flex: 1,
+        backgroundColor: colors.surface,
+        borderRadius: 20,
+        padding: 14,
+        transform: [{ scale: pressed ? 0.985 : 1 }],
+        shadowColor: colors.ink,
+        shadowOpacity: 0.08,
+        shadowRadius: 16,
+        shadowOffset: { width: 0, height: 4 },
+        elevation: 2,
+      })}
+    >
+      <View
+        style={{
+          width: 28,
+          height: 28,
+          borderRadius: 14,
+          backgroundColor: hue,
+          opacity: 0.9,
+          marginBottom: 12,
+        }}
+      />
+      <Text
+        style={{
+          fontFamily: fonts.bodyBold,
+          fontSize: 13.5,
+          color: colors.ink,
+          letterSpacing: -0.1,
+        }}
+        numberOfLines={1}
+      >
+        {title}
+      </Text>
+      <Text
+        style={{
+          marginTop: 4,
+          color: colors.mute,
+          fontSize: 11.5,
+          fontFamily: fonts.body,
+          lineHeight: 15,
+        }}
+        numberOfLines={2}
+      >
+        {sub}
+      </Text>
+    </Pressable>
   );
 }

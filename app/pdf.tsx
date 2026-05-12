@@ -8,7 +8,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Print from 'expo-print';
 import * as Sharing from 'expo-sharing';
 import { Icon } from '@/components/Icon';
-import { useAppStore } from '@/store/useAppStore';
+import { useAppStore, HealthLog, KickSession } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -17,8 +17,13 @@ export default function Pdf() {
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const journal = useAppStore((s) => s.journal);
+  const healthLogs = useAppStore((s) => s.healthLogs);
+  const kickSessions = useAppStore((s) => s.kickSessions);
 
-  const html = useMemo(() => buildHtml(profile.name, profile.week, journal), [profile, journal]);
+  const html = useMemo(
+    () => buildHtml(profile.name, profile.week, journal, healthLogs, kickSessions),
+    [profile, journal, healthLogs, kickSessions],
+  );
 
   const exportPdf = async () => {
     try {
@@ -124,6 +129,30 @@ export default function Pdf() {
             <Text style={pdfStyles.li}>· Avoided ibuprofen on app guidance</Text>
           </PdfBlock>
 
+          {healthLogs.length > 0 ? (
+            <PdfBlock title="Health readings">
+              {healthLogs.slice(0, 8).map((l) => (
+                <Text key={l.id} style={pdfStyles.li}>
+                  · {formatHealthRow(l)}
+                </Text>
+              ))}
+            </PdfBlock>
+          ) : null}
+
+          {kickSessions.length > 0 ? (
+            <PdfBlock title="Kick counts">
+              {kickSessions.slice(0, 5).map((k) => {
+                const dur = Math.max(1, Math.round((k.endedAt - k.startedAt) / 60000));
+                const when = new Date(k.startedAt).toLocaleDateString('en-GB');
+                return (
+                  <Text key={k.id} style={pdfStyles.li}>
+                    · {when} — {k.count} movements in {dur} min
+                  </Text>
+                );
+              })}
+            </PdfBlock>
+          ) : null}
+
           <PdfBlock title="Symptoms tracked">
             <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 6 }}>
               {['Nausea', 'Fatigue', 'Sleep', 'Mood', 'Movements', 'Cramps'].map((s) => (
@@ -217,8 +246,24 @@ const pdfStyles = {
   cell: { fontSize: 10, color: colors.ink, fontFamily: fonts.body },
 } as const;
 
-function buildHtml(name: string, week: number, journal: any[]): string {
+function formatHealthRow(l: HealthLog): string {
+  const when = new Date(l.at).toLocaleDateString('en-GB');
+  if (l.kind === 'weight') return `${when} — Weight: ${l.kg} kg${l.note ? ` (${l.note})` : ''}`;
+  if (l.kind === 'bp')
+    return `${when} — BP: ${l.systolic}/${l.diastolic} mmHg${l.note ? ` (${l.note})` : ''}`;
+  return `${when} — Glucose: ${l.mgdl} mg/dL${l.note ? ` (${l.note})` : ''}`;
+}
+
+function buildHtml(
+  name: string,
+  week: number,
+  journal: any[],
+  healthLogs: HealthLog[],
+  kickSessions: KickSession[],
+): string {
   const today = new Date().toLocaleDateString('en-GB');
+  const healthRows = healthLogs.slice(0, 8);
+  const kicks = kickSessions.slice(0, 5);
   return `
   <html>
     <head>
@@ -268,6 +313,29 @@ function buildHtml(name: string, week: number, journal: any[]): string {
       <div class="h" style="margin-top:18px">Medications questioned</div>
       <p class="li">· Paracetamol 500mg — used 4 times for headaches</p>
       <p class="li">· Avoided ibuprofen on app guidance</p>
+
+      ${
+        healthRows.length > 0
+          ? `<div class="h" style="margin-top:18px">Health readings</div>
+             ${healthRows.map((l) => `<p class="li">· ${formatHealthRow(l)}</p>`).join('')}`
+          : ''
+      }
+
+      ${
+        kicks.length > 0
+          ? `<div class="h" style="margin-top:18px">Kick counts</div>
+             ${kicks
+               .map((k) => {
+                 const dur = Math.max(
+                   1,
+                   Math.round((k.endedAt - k.startedAt) / 60000),
+                 );
+                 const when = new Date(k.startedAt).toLocaleDateString('en-GB');
+                 return `<p class="li">· ${when} — ${k.count} movements in ${dur} min</p>`;
+               })
+               .join('')}`
+          : ''
+      }
 
       <div class="h" style="margin-top:18px">Questions for today</div>
       <ol style="padding-left:18px">
