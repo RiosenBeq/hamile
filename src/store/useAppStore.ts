@@ -24,6 +24,7 @@ import {
   syncSymptom,
   syncWeight,
 } from '@/lib/sync';
+import type { LangCode } from '@/i18n/translations';
 
 export type Profile = {
   name: string;
@@ -84,6 +85,7 @@ export type NotificationPrefs = {
 type State = {
   hydrated: boolean;
   onboarded: boolean;
+  language: LangCode;
   profile: Profile;
   recents: RecentItem[];
   journal: JournalItem[];
@@ -97,6 +99,7 @@ type State = {
   notifPrefs: NotificationPrefs;
 
   setOnboarded: (v: boolean) => void;
+  setLanguage: (l: LangCode) => void;
   patchProfile: (p: Partial<Profile>) => void;
   addJournalEntry: (entry: JournalItem) => void;
   addRecent: (item: RecentItem) => void;
@@ -149,6 +152,7 @@ export const useAppStore = create<State>()(
     (set, get) => ({
       hydrated: false,
       onboarded: false,
+      language: 'en',
       profile: defaultProfile,
       recents: SAMPLE_RECENTS,
       journal: SAMPLE_JOURNAL,
@@ -162,6 +166,7 @@ export const useAppStore = create<State>()(
       notifPrefs: defaultPrefs,
 
       setOnboarded: (v) => set({ onboarded: v }),
+      setLanguage: (l) => set({ language: l }),
       patchProfile: (p) => {
         set((s) => ({ profile: { ...s.profile, ...p } }));
         syncProfile(p as Record<string, unknown>).catch(() => {});
@@ -248,6 +253,7 @@ export const useAppStore = create<State>()(
       // session before AsyncStorage actually finishes loading.
       partialize: (s) => ({
         onboarded: s.onboarded,
+        language: s.language,
         profile: s.profile,
         recents: s.recents,
         journal: s.journal,

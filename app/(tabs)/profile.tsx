@@ -1,13 +1,14 @@
 // Profile — user header, sharing rows, settings rows, app version footer.
 
 import React from 'react';
-import { Pressable, ScrollView, Text, View, Switch } from 'react-native';
+import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card, SectionHead } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { Illo } from '@/components/Blob';
 import { useAppStore } from '@/store/useAppStore';
+import { SUPPORTED_LANGS } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -15,6 +16,9 @@ export default function Profile() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
+  const language = useAppStore((s) => s.language);
+
+  const langLabel = SUPPORTED_LANGS.find((l) => l.code === language)?.name ?? 'English';
 
   const sharingRows: [string, string, string][] = [
     ['Partner', profile.partnerLinked ? 'Sam · linked' : 'Invite Sam', '/partner'],
@@ -29,7 +33,7 @@ export default function Profile() {
     ['Notifications', 'Daily intention · weekly milestone', '/settings/notifications'],
     ['Privacy', 'On-device first · nothing sold', '/settings/privacy'],
     ['Appearance', 'Auto', '/settings/appearance'],
-    ['Language', 'English', '/settings/language'],
+    ['Language', langLabel, '/settings/language'],
   ];
 
   return (
