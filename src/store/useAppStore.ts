@@ -1,17 +1,29 @@
 // Marigold app store. Offline-first by design — everything is cached in
-// AsyncStorage and only synced to Supabase when env vars are present.
+// AsyncStorage and queued for Supabase sync via the outbox in lib/syncQueue.
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
 import {
+  BAG_TEMPLATE,
+  BagGroup,
   JournalItem,
   RecentItem,
   SAMPLE_JOURNAL,
   SAMPLE_RECENTS,
   SAMPLE_USER,
 } from '@/data/sample';
-import { syncJournalEntry } from '@/lib/sync';
+import {
+  syncBagItem,
+  syncBirthPlan,
+  syncContraction,
+  syncJournalDelete,
+  syncJournalEntry,
+  syncKick,
+  syncProfile,
+  syncSymptom,
+  syncWeight,
+} from '@/lib/sync';
 import type { LangCode } from '@/i18n/translations';
 
 export type Profile = {
@@ -21,52 +33,54 @@ export type Profile = {
   conditions: string[];
   country: string;
   partnerLinked: boolean;
+  prePregnancyKg?: number;
+  heightCm?: number;
 };
 
-// One kick-counting session: when it started, how long it took, and how many
-// movements were tapped. Anything above 10 is rare but kept honest.
-export type KickSession = {
-  id: string;
-  startedAt: number; // ms since epoch
-  endedAt: number; // ms since epoch
-  count: number;
-};
-
-// One contraction: a single tap-and-hold. `gapSec` is the gap from the *start*
-// of the previous contraction (or 0 for the first one in a session).
+export type Kick = { id: string; sessionId: string; at: number };
 export type Contraction = {
   id: string;
   startedAt: number;
-  durationSec: number;
-  gapSec: number;
+  endedAt: number;
+  intensity?: 1 | 2 | 3 | 4 | 5;
 };
+export type WeightEntry = {
+  id: string;
+  week: number;
+  kg: number;
+  at: number;
+  note?: string;
+};
+export type SymptomEntry = {
+  id: string;
+  at: number;
+  week: number;
+  mood: 1 | 2 | 3 | 4 | 5;
+  nausea: 0 | 1 | 2 | 3;
+  sleep: 1 | 2 | 3 | 4 | 5;
+  cramps: 0 | 1 | 2 | 3;
+  energy: 1 | 2 | 3 | 4 | 5;
+  note?: string;
+};
+export type BagItem = {
+  id: string;
+  group: BagGroup;
+  label: string;
+  checked: boolean;
+  position: number;
+  custom?: boolean;
+};
+export type BirthPlanState = Record<string, string[] | string>;
 
-// A single health reading. We use a discriminated union so weight/bp/glucose
-// keep their own shape — easier to render and to fill a doctor summary.
-export type HealthLog =
-  | {
-      id: string;
-      at: number;
-      kind: 'weight';
-      kg: number;
-      note?: string;
-    }
-  | {
-      id: string;
-      at: number;
-      kind: 'bp';
-      systolic: number;
-      diastolic: number;
-      note?: string;
-    }
-  | {
-      id: string;
-      at: number;
-      kind: 'glucose';
-      mgdl: number;
-      fasting?: boolean;
-      note?: string;
-    };
+export type NotificationPrefs = {
+  intention: boolean;
+  milestone: boolean;
+  reminders: boolean;
+  partner: boolean;
+  emergency: boolean;
+  pelvicFloor: boolean;
+  kickNudge: boolean;
+};
 
 type State = {
   hydrated: boolean;
@@ -75,20 +89,34 @@ type State = {
   profile: Profile;
   recents: RecentItem[];
   journal: JournalItem[];
-  kickSessions: KickSession[];
+
+  kicks: Kick[];
   contractions: Contraction[];
-  healthLogs: HealthLog[];
+  weights: WeightEntry[];
+  symptoms: SymptomEntry[];
+  bag: BagItem[];
+  birthPlan: BirthPlanState;
+  notifPrefs: NotificationPrefs;
+
   setOnboarded: (v: boolean) => void;
   setLanguage: (l: LangCode) => void;
   patchProfile: (p: Partial<Profile>) => void;
   addJournalEntry: (entry: JournalItem) => void;
   addRecent: (item: RecentItem) => void;
   removeJournalEntry: (id: string) => void;
-  addKickSession: (s: KickSession) => void;
+
+  addKick: (sessionId: string) => void;
+  endKickSession: () => void;
   addContraction: (c: Contraction) => void;
-  clearContractions: () => void;
-  addHealthLog: (h: HealthLog) => void;
-  removeHealthLog: (id: string) => void;
+  removeContraction: (id: string) => void;
+  addWeight: (w: WeightEntry) => void;
+  removeWeight: (id: string) => void;
+  addSymptom: (s: SymptomEntry) => void;
+  toggleBagItem: (id: string) => void;
+  addBagItem: (group: BagGroup, label: string) => void;
+  removeBagItem: (id: string) => void;
+  setBirthPlanField: (key: string, value: string[] | string) => void;
+  patchNotifPrefs: (p: Partial<NotificationPrefs>) => void;
 };
 
 const defaultProfile: Profile = {
@@ -100,6 +128,25 @@ const defaultProfile: Profile = {
   partnerLinked: false,
 };
 
+const defaultBag = (): BagItem[] =>
+  BAG_TEMPLATE.map((b, i) => ({
+    id: `bag-${b.group}-${i}`,
+    group: b.group,
+    label: b.label,
+    checked: false,
+    position: i,
+  }));
+
+const defaultPrefs: NotificationPrefs = {
+  intention: true,
+  milestone: true,
+  reminders: true,
+  partner: false,
+  emergency: true,
+  pelvicFloor: false,
+  kickNudge: true,
+};
+
 export const useAppStore = create<State>()(
   persist(
     (set, get) => ({
@@ -109,36 +156,128 @@ export const useAppStore = create<State>()(
       profile: defaultProfile,
       recents: SAMPLE_RECENTS,
       journal: SAMPLE_JOURNAL,
-      kickSessions: [],
+
+      kicks: [],
       contractions: [],
-      healthLogs: [],
+      weights: [],
+      symptoms: [],
+      bag: defaultBag(),
+      birthPlan: {},
+      notifPrefs: defaultPrefs,
+
       setOnboarded: (v) => set({ onboarded: v }),
       setLanguage: (l) => set({ language: l }),
-      patchProfile: (p) => set((s) => ({ profile: { ...s.profile, ...p } })),
+      patchProfile: (p) => {
+        set((s) => ({ profile: { ...s.profile, ...p } }));
+        syncProfile(p as Record<string, unknown>).catch(() => {});
+      },
       addJournalEntry: (entry) => {
         set((s) => ({ journal: [entry, ...s.journal] }));
         syncJournalEntry(entry).catch(() => {});
       },
-      addRecent: (item) =>
-        set((s) => ({ recents: [item, ...s.recents].slice(0, 10) })),
-      removeJournalEntry: (id) =>
-        set((s) => ({ journal: s.journal.filter((j) => j.id !== id) })),
-      addKickSession: (s) =>
-        set((st) => ({ kickSessions: [s, ...st.kickSessions].slice(0, 50) })),
-      addContraction: (c) =>
-        set((st) => ({ contractions: [...st.contractions, c] })),
-      clearContractions: () => set({ contractions: [] }),
-      addHealthLog: (h) =>
-        set((st) => ({ healthLogs: [h, ...st.healthLogs].slice(0, 200) })),
-      removeHealthLog: (id) =>
-        set((st) => ({ healthLogs: st.healthLogs.filter((h) => h.id !== id) })),
+      addRecent: (item) => set((s) => ({ recents: [item, ...s.recents].slice(0, 10) })),
+      removeJournalEntry: (id) => {
+        set((s) => ({ journal: s.journal.filter((j) => j.id !== id) }));
+        syncJournalDelete(id).catch(() => {});
+      },
+
+      addKick: (sessionId) => {
+        const k: Kick = {
+          id: `${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+          sessionId,
+          at: Date.now(),
+        };
+        set((s) => ({ kicks: [...s.kicks, k] }));
+        syncKick(k).catch(() => {});
+      },
+      endKickSession: () => {
+        // No-op for state — sessions are an in-memory grouping. Hook for
+        // future analytics.
+      },
+      addContraction: (c) => {
+        set((s) => ({ contractions: [c, ...s.contractions] }));
+        syncContraction(c).catch(() => {});
+      },
+      removeContraction: (id) =>
+        set((s) => ({ contractions: s.contractions.filter((c) => c.id !== id) })),
+      addWeight: (w) => {
+        set((s) => ({
+          weights: [w, ...s.weights.filter((x) => x.id !== w.id)].sort((a, b) => b.at - a.at),
+        }));
+        syncWeight(w).catch(() => {});
+      },
+      removeWeight: (id) => set((s) => ({ weights: s.weights.filter((w) => w.id !== id) })),
+      addSymptom: (sym) => {
+        set((s) => ({
+          symptoms: [sym, ...s.symptoms.filter((x) => x.id !== sym.id)].sort(
+            (a, b) => b.at - a.at,
+          ),
+        }));
+        syncSymptom(sym).catch(() => {});
+      },
+      toggleBagItem: (id) => {
+        let updated: BagItem | null = null;
+        set((s) => ({
+          bag: s.bag.map((b) => {
+            if (b.id !== id) return b;
+            updated = { ...b, checked: !b.checked };
+            return updated;
+          }),
+        }));
+        if (updated) syncBagItem(updated).catch(() => {});
+      },
+      addBagItem: (group, label) => {
+        const item: BagItem = {
+          id: `bag-custom-${Date.now()}`,
+          group,
+          label,
+          checked: false,
+          position: get().bag.length,
+          custom: true,
+        };
+        set((s) => ({ bag: [...s.bag, item] }));
+        syncBagItem(item).catch(() => {});
+      },
+      removeBagItem: (id) => set((s) => ({ bag: s.bag.filter((b) => b.id !== id) })),
+      setBirthPlanField: (key, value) => {
+        set((s) => ({ birthPlan: { ...s.birthPlan, [key]: value } }));
+        syncBirthPlan(get().birthPlan).catch(() => {});
+      },
+      patchNotifPrefs: (p) => set((s) => ({ notifPrefs: { ...s.notifPrefs, ...p } })),
     }),
     {
       name: 'marigold-app-state',
       storage: createJSONStorage(() => AsyncStorage),
-      onRehydrateStorage: () => (state) => {
-        state && (state.hydrated = true);
-      },
+      // `hydrated` must always start false on cold boot; persisting it would
+      // race with React subscribers seeing a stale `true` from the previous
+      // session before AsyncStorage actually finishes loading.
+      partialize: (s) => ({
+        onboarded: s.onboarded,
+        language: s.language,
+        profile: s.profile,
+        recents: s.recents,
+        journal: s.journal,
+        kicks: s.kicks,
+        contractions: s.contractions,
+        weights: s.weights,
+        symptoms: s.symptoms,
+        bag: s.bag,
+        birthPlan: s.birthPlan,
+        notifPrefs: s.notifPrefs,
+      }),
     },
   ),
 );
+
+// Mark the store as hydrated via setState so subscribers re-render. Mutating
+// `state.hydrated` directly inside `onRehydrateStorage` does NOT notify React,
+// which left the splash gate stuck on a blank cream screen on cold start.
+useAppStore.persist.onFinishHydration(() => {
+  useAppStore.setState({ hydrated: true });
+});
+
+// If hydration completed synchronously (first launch with empty storage)
+// before the listener was attached, flip the flag manually.
+if (useAppStore.persist.hasHydrated()) {
+  useAppStore.setState({ hydrated: true });
+}

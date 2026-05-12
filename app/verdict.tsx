@@ -17,6 +17,9 @@ import { VerdictPayload } from '@/data/verdicts';
 import { useAppStore } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+import { newId } from '@/lib/id';
+
+const SHIMMER_MIN_MS = 700;
 
 export default function Verdict() {
   const router = useRouter();
@@ -30,45 +33,53 @@ export default function Verdict() {
 
   useEffect(() => {
     let cancelled = false;
+    let waitTimer: ReturnType<typeof setTimeout> | null = null;
+    const controller = new AbortController();
+
     const lookup = item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item';
     const start = Date.now();
-    fetchVerdict({
-      item: lookup,
-      mode: (mode as any) || 'Food',
-      week: profile.week,
-      country: profile.country,
-    }).then((r) => {
-      // Keep the shimmer visible for at least 700ms — it feels considered.
+    const safeMode = (['Food', 'Menu', 'Medication', 'Cosmetic', 'Activity'] as const).includes(
+      mode as any,
+    )
+      ? (mode as 'Food' | 'Menu' | 'Medication' | 'Cosmetic' | 'Activity')
+      : 'Food';
+
+    fetchVerdict(
+      {
+        item: lookup,
+        mode: safeMode,
+        week: profile.week,
+        country: profile.country,
+      },
+      controller.signal,
+    ).then((r) => {
+      if (cancelled) return;
       const elapsed = Date.now() - start;
-      const wait = Math.max(0, 700 - elapsed);
-      setTimeout(() => {
+      const wait = Math.max(0, SHIMMER_MIN_MS - elapsed);
+      waitTimer = setTimeout(() => {
         if (cancelled) return;
         setV(r);
-        const id = `${Date.now()}`;
-        addJournalEntry({
-          id,
-          week: profile.week,
-          name: r.name,
-          label: r.label,
-          hue: r.hue,
-          verdict: r.verdict,
-          when: 'Just now',
-        });
-        addRecent({
+        const id = newId();
+        const entry = {
           id,
           name: r.name,
           label: r.label,
           hue: r.hue,
           verdict: r.verdict,
           when: 'Just now',
-        });
+        };
+        addJournalEntry({ ...entry, week: profile.week });
+        addRecent(entry);
       }, wait);
     });
+
     return () => {
       cancelled = true;
+      controller.abort();
+      if (waitTimer) clearTimeout(waitTimer);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [item, mode]);
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>

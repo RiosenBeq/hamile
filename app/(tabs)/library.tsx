@@ -10,6 +10,7 @@ import { Card, SectionHead } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { Illo } from '@/components/Blob';
 import { VerdictDot } from '@/components/Verdict';
+import { TOOLS_GRID } from '@/components/ToolShortcuts';
 import { CATEGORIES, TRENDING } from '@/data/sample';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -34,7 +35,7 @@ export default function Library() {
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 140 }}
       showsVerticalScrollIndicator={false}
       style={{ backgroundColor: colors.base }}
     >
@@ -106,6 +107,32 @@ export default function Library() {
               }}
             >
               <Text style={{ color: colors.ink, fontSize: 13, fontFamily: fonts.body }}>{r}</Text>
+            </Pressable>
+          ))}
+        </View>
+      </View>
+
+      {/* Tools */}
+      <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
+        <SectionHead caption="Tools" title="Track what matters" />
+        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 12 }}>
+          {TOOLS_GRID.map((t) => (
+            <Pressable
+              key={t.route}
+              onPress={() => router.push(t.route as any)}
+              style={{
+                width: '31%',
+                backgroundColor: colors.surface,
+                borderRadius: 20,
+                padding: 14,
+                shadowColor: colors.ink,
+                shadowOpacity: 0.08,
+                shadowRadius: 16,
+                shadowOffset: { width: 0, height: 4 },
+              }}
+            >
+              <Illo label={t.label} hue={t.hue} size={48} />
+              <Text style={{ marginTop: 10, fontSize: 14, color: colors.ink, fontFamily: fonts.bodyBold }}>{t.label}</Text>
             </Pressable>
           ))}
         </View>

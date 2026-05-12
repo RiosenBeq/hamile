@@ -53,22 +53,59 @@ Play** from a single codebase.
 | `/settings/privacy` | Plain-language explainer + delete-everything |
 | `/settings/language` | Language picker with flags |
 | `/settings/appearance` | Mode + text size with live preview |
+| `/settings/security` | App lock, account, force-sync, manual JSON backup |
+| `/auth` | Magic-link sign-in (no password) |
+| `/auth-callback` | Deep-link callback that hydrates the store from server |
+| `/tools/kick-counter` | Tap-to-count fetal movements with 10-in-2h session tracking |
+| `/tools/contractions` | Big start/stop timer + duration / interval / 5-1-1 guidance |
+| `/tools/weight` | Stepper + animated sparkline with IOM healthy-gain band |
+| `/tools/symptoms` | Daily 5-axis check-in (mood / nausea / sleep / cramps / energy) + 14-day bar strip |
+| `/tools/hospital-bag` | Interactive 22-item checklist across labour / post-birth / baby / docs |
+| `/tools/birth-plan` | 7-section form (chips + free text) with one-tap PDF export |
+
+## Security & data resilience
+
+So journal entries don't get lost — and so they don't leak when someone borrows the phone.
+
+| Layer | Choice | Where |
+| --- | --- | --- |
+| Auth tokens at rest | iOS Keychain / Android Keystore via `expo-secure-store`, `WHEN_UNLOCKED_THIS_DEVICE_ONLY` | `src/lib/secureStorage.ts` |
+| App content at rest | OS-level disk encryption (iOS Data Protection, Android FBE) — sandboxed app dir | n/a — handled by the OS |
+| Backup surface | `app.json` sets `android.allowBackup: false` so journal data never lands in Google Drive backups | `app.json` |
+| Idle re-lock | `expo-local-authentication` after 60s in background; Face ID / Touch ID / passcode | `src/components/AppLock.tsx` |
+| Privacy shield | Cream wash replaces app contents the moment app goes inactive (no app-switcher leak) | `src/components/AppLock.tsx` |
+| Sign-in | Supabase magic-link OTP — no passwords stored anywhere, deep-link redirect | `src/lib/auth.ts`, `app/auth.tsx` |
+| Cross-device recovery | On sign-in we hydrate journal + profile from server, merging local-only entries | `src/lib/auth.ts → hydrateFromServer` |
+| Offline writes | Outbox in `lib/syncQueue.ts` with exponential back-off retry, drains on `NetInfo` connectivity events | `src/lib/syncQueue.ts` |
+| Manual backup | One-tap export of journal as JSON (HMAC-checksummed against a per-device backup key) + restore via DocumentPicker | `src/lib/backup.ts`, `app/settings/security.tsx` |
+| Server access control | Supabase Row-Level Security; every row scoped to `auth.uid()` | `supabase/migrations/20260507000000_init.sql` |
+| Edge function secret | Anthropic API key only on the edge function — never bundled into the mobile app | `supabase/functions/verdict/index.ts` |
+
+The sync queue means a verdict scanned in flight mode still ends up in the
+server when the phone reconnects, with no work for the user. The biometric
+lock means a partner picking up the phone can't read the journal. Magic-link
+sign-in means there's no password to leak — and a fresh install on a new
+phone walks straight back into the user's existing journal.
 
 ## Quickstart
 
+### macOS / Xcode (recommended)
 ```bash
-# 1. Install
-npm install
-
-# 2. Configure (optional — without env vars the app runs offline)
-cp .env.example .env
-# Fill in EXPO_PUBLIC_SUPABASE_URL, EXPO_PUBLIC_SUPABASE_ANON_KEY
-
-# 3. Run on a device
-npx expo start --tunnel
-# Press `i` for iOS simulator, `a` for Android emulator, or scan the QR
-# code with Expo Go on your phone.
+git clone https://github.com/RiosenBeq/hamile.git marigold && cd marigold
+npm run mac:setup        # one-shot: Xcode CLT, Homebrew, Node, Pods, EAS, prebuild, pods
+npm run xcode            # opens ios/marigold.xcworkspace
 ```
+Then ▶ in Xcode. See [**MAC.md**](./MAC.md) for the full guide (running on device, App Store submission, troubleshooting).
+
+### Anywhere else
+```bash
+npm install
+cp .env.example .env     # optional — without env vars the app runs offline
+npx expo start --tunnel  # `i` simulator, `a` emulator, or QR via Expo dev client
+```
+
+The app uses native modules (camera, biometrics, push, secure-store) so you'll
+need a **dev client build** (the default in `npm run start`), not Expo Go.
 
 The app is **fully usable with no backend wired up** — journals persist via
 AsyncStorage and verdicts come from the local bank. Wire up Supabase + the

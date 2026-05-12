@@ -8,21 +8,45 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Print from 'expo-print';
 import * as Sharing from 'expo-sharing';
 import { Icon } from '@/components/Icon';
-import { useAppStore, HealthLog, KickSession } from '@/store/useAppStore';
+import { useAppStore, WeightEntry, Kick } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+
+type KickSummary = { id: string; startedAt: number; endedAt: number; count: number };
+
+function summariseKicks(kicks: Kick[]): KickSummary[] {
+  const groups = new Map<string, Kick[]>();
+  for (const k of kicks) {
+    const arr = groups.get(k.sessionId) ?? [];
+    arr.push(k);
+    groups.set(k.sessionId, arr);
+  }
+  return Array.from(groups.entries())
+    .map(([id, items]) => {
+      const sorted = [...items].sort((a, b) => a.at - b.at);
+      return {
+        id,
+        startedAt: sorted[0].at,
+        endedAt: sorted[sorted.length - 1].at,
+        count: items.length,
+      };
+    })
+    .sort((a, b) => b.startedAt - a.startedAt);
+}
 
 export default function Pdf() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const journal = useAppStore((s) => s.journal);
-  const healthLogs = useAppStore((s) => s.healthLogs);
-  const kickSessions = useAppStore((s) => s.kickSessions);
+  const weights = useAppStore((s) => s.weights);
+  const kicks = useAppStore((s) => s.kicks);
+
+  const kickSummaries = useMemo(() => summariseKicks(kicks), [kicks]);
 
   const html = useMemo(
-    () => buildHtml(profile.name, profile.week, journal, healthLogs, kickSessions),
-    [profile, journal, healthLogs, kickSessions],
+    () => buildHtml(profile.name, profile.week, journal, weights, kickSummaries),
+    [profile, journal, weights, kickSummaries],
   );
 
   const exportPdf = async () => {
@@ -129,19 +153,19 @@ export default function Pdf() {
             <Text style={pdfStyles.li}>· Avoided ibuprofen on app guidance</Text>
           </PdfBlock>
 
-          {healthLogs.length > 0 ? (
-            <PdfBlock title="Health readings">
-              {healthLogs.slice(0, 8).map((l) => (
-                <Text key={l.id} style={pdfStyles.li}>
-                  · {formatHealthRow(l)}
+          {weights.length > 0 ? (
+            <PdfBlock title="Weight log">
+              {weights.slice(0, 8).map((w) => (
+                <Text key={w.id} style={pdfStyles.li}>
+                  · {formatWeightRow(w)}
                 </Text>
               ))}
             </PdfBlock>
           ) : null}
 
-          {kickSessions.length > 0 ? (
+          {kickSummaries.length > 0 ? (
             <PdfBlock title="Kick counts">
-              {kickSessions.slice(0, 5).map((k) => {
+              {kickSummaries.slice(0, 5).map((k) => {
                 const dur = Math.max(1, Math.round((k.endedAt - k.startedAt) / 60000));
                 const when = new Date(k.startedAt).toLocaleDateString('en-GB');
                 return (
@@ -246,24 +270,21 @@ const pdfStyles = {
   cell: { fontSize: 10, color: colors.ink, fontFamily: fonts.body },
 } as const;
 
-function formatHealthRow(l: HealthLog): string {
-  const when = new Date(l.at).toLocaleDateString('en-GB');
-  if (l.kind === 'weight') return `${when} — Weight: ${l.kg} kg${l.note ? ` (${l.note})` : ''}`;
-  if (l.kind === 'bp')
-    return `${when} — BP: ${l.systolic}/${l.diastolic} mmHg${l.note ? ` (${l.note})` : ''}`;
-  return `${when} — Glucose: ${l.mgdl} mg/dL${l.note ? ` (${l.note})` : ''}`;
+function formatWeightRow(w: WeightEntry): string {
+  const when = new Date(w.at).toLocaleDateString('en-GB');
+  return `${when} (Wk ${w.week}) — ${w.kg} kg${w.note ? ` · ${w.note}` : ''}`;
 }
 
 function buildHtml(
   name: string,
   week: number,
   journal: any[],
-  healthLogs: HealthLog[],
-  kickSessions: KickSession[],
+  weights: WeightEntry[],
+  kickSummaries: KickSummary[],
 ): string {
   const today = new Date().toLocaleDateString('en-GB');
-  const healthRows = healthLogs.slice(0, 8);
-  const kicks = kickSessions.slice(0, 5);
+  const weightRows = weights.slice(0, 8);
+  const kicks = kickSummaries.slice(0, 5);
   return `
   <html>
     <head>
@@ -315,9 +336,9 @@ function buildHtml(
       <p class="li">· Avoided ibuprofen on app guidance</p>
 
       ${
-        healthRows.length > 0
-          ? `<div class="h" style="margin-top:18px">Health readings</div>
-             ${healthRows.map((l) => `<p class="li">· ${formatHealthRow(l)}</p>`).join('')}`
+        weightRows.length > 0
+          ? `<div class="h" style="margin-top:18px">Weight log</div>
+             ${weightRows.map((w) => `<p class="li">· ${formatWeightRow(w)}</p>`).join('')}`
           : ''
       }
 
