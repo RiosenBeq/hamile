@@ -112,7 +112,8 @@ export default function HealthSetting() {
                       n.add(o);
                     } else {
                       n.delete('None of these');
-                      sel ? n.delete(o) : n.add(o);
+                      if (sel) n.delete(o);
+                      else n.add(o);
                     }
                     setConds(n);
                   }}

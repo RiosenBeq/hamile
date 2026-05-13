@@ -2,27 +2,28 @@
 // Faithful port of the design's `Icon` map.
 
 import React from 'react';
-import Svg, { Circle, Path, Rect, G } from 'react-native-svg';
+import Svg, { Circle, Path, Rect } from 'react-native-svg';
 
 type IconProps = { size?: number; color?: string };
 
-const wrap =
-  (children: React.ReactNode) =>
-  ({ size = 24, color = '#2A2522' }: IconProps) =>
-    (
-      <Svg
-        width={size}
-        height={size}
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke={color}
-        strokeWidth={1.5}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        {children}
-      </Svg>
-    );
+const wrap = (children: React.ReactNode) => {
+  const IconComponent = ({ size = 24, color = '#2A2522' }: IconProps) => (
+    <Svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={color}
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      {children}
+    </Svg>
+  );
+  IconComponent.displayName = 'Icon';
+  return IconComponent;
+};
 
 export const Icon = {
   home: wrap(

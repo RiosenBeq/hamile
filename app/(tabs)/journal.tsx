@@ -4,7 +4,7 @@ import React, { useMemo, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Card, SectionHead } from '@/components/Card';
+import { Card } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { Illo } from '@/components/Blob';
 import { VerdictDot, VerdictPill } from '@/components/Verdict';

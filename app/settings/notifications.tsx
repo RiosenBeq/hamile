@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import { ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card, SectionHead } from '@/components/Card';
-import { SubScreenHeader, SettingsRow, Toggle } from '@/components/SubScreen';
+import { SubScreenHeader, Toggle } from '@/components/SubScreen';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 

@@ -2,8 +2,8 @@
 // soft warm scan line, mode selector). Falls back to a faux viewfinder if
 // the user denies the camera permission so the experience never breaks.
 
-import React, { useRef, useState } from 'react';
-import { Pressable, Text, View, Platform } from 'react-native';
+import React, { useState } from 'react';
+import { Pressable, Text, View } from 'react-native';
 import {
   CameraView,
   useCameraPermissions,

@@ -3,7 +3,7 @@
 // CTA that hops to the doctor PDF.
 
 import React from 'react';
-import { Pressable, ScrollView, Text, View, Linking } from 'react-native';
+import { ScrollView, Text, View, Linking } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card } from '@/components/Card';

@@ -2,7 +2,7 @@
 // Uses react-native-reanimated to drive the dash-offset.
 
 import React, { useEffect } from 'react';
-import { Pressable, View } from 'react-native';
+import { Pressable } from 'react-native';
 import Animated, {
   useAnimatedProps,
   useSharedValue,

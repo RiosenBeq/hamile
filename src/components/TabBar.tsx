@@ -2,7 +2,7 @@
 // Hosts the floating scan FAB itself so it sits above the bar.
 
 import React from 'react';
-import { Pressable, View, Text, Platform } from 'react-native';
+import { Pressable, View, Platform } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';

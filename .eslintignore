@@ -1,0 +1,8 @@
+node_modules
+design-source
+supabase/functions
+ios
+android
+.expo
+metro.config.js
+babel.config.js

@@ -1,7 +1,7 @@
 // Profile — user header, sharing rows, settings rows, app version footer.
 
 import React from 'react';
-import { Pressable, ScrollView, Text, View, Switch } from 'react-native';
+import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card, SectionHead } from '@/components/Card';
