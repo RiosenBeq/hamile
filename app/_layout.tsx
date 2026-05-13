@@ -20,7 +20,6 @@ import { useAppStore } from '@/store/useAppStore';
 import { AppLock } from '@/components/AppLock';
 import { bootSync } from '@/lib/sync';
 import { rescheduleAll } from '@/lib/notifications';
-import { detectSystemLanguage } from '@/i18n';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -43,14 +42,10 @@ export default function RootLayout() {
     if (ready) {
       SplashScreen.hideAsync().catch(() => {});
       bootSync().catch(() => {});
-      const { profile, notifPrefs, languageSet, setLanguage } = useAppStore.getState();
-      // On the very first launch (before the user has picked a language),
-      // try to match the iOS / Android system locale so Marigold opens in the
-      // user's actual language, not the default English.
-      if (!languageSet) {
-        const sys = detectSystemLanguage();
-        if (sys !== useAppStore.getState().language) setLanguage(sys);
-      }
+      const { profile, notifPrefs } = useAppStore.getState();
+      // Marigold always opens in English by default. The user can switch
+      // languages from Settings → Language; that choice persists via
+      // languageSet in the store.
       rescheduleAll(profile, notifPrefs).catch(() => {});
     }
   }, [ready]);
