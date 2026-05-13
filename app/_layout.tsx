@@ -9,18 +9,18 @@ import { StatusBar } from 'expo-status-bar';
 import { View } from 'react-native';
 import {
   useFonts,
-  Manrope_400Regular,
   Manrope_500Medium,
-  Manrope_600SemiBold,
   Manrope_700Bold,
 } from '@expo-google-fonts/manrope';
 import {
-  SourceSerif4_400Regular,
-  SourceSerif4_500Medium,
   SourceSerif4_600SemiBold,
   SourceSerif4_700Bold,
 } from '@expo-google-fonts/source-serif-4';
 import { useAppStore } from '@/store/useAppStore';
+import { AppLock } from '@/components/AppLock';
+import { bootSync } from '@/lib/sync';
+import { rescheduleAll } from '@/lib/notifications';
+import { detectSystemLanguage } from '@/i18n';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -28,29 +28,50 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 export const unstable_settings = { initialRouteName: 'index' };
 
 export default function RootLayout() {
-  const [fontsLoaded] = useFonts({
-    Manrope_400Regular,
+  // Only load the four weights the design actually uses. Skipping the others
+  // shaves a few hundred KB off the bundle and shortens cold start.
+  const [fontsLoaded, fontError] = useFonts({
     Manrope_500Medium,
-    Manrope_600SemiBold,
     Manrope_700Bold,
-    SourceSerif_400Regular: SourceSerif4_400Regular,
-    SourceSerif_500Medium: SourceSerif4_500Medium,
     SourceSerif_600SemiBold: SourceSerif4_600SemiBold,
     SourceSerif_700Bold: SourceSerif4_700Bold,
   });
   const hydrated = useAppStore((s) => s.hydrated);
+  const ready = (fontsLoaded || !!fontError) && hydrated;
 
   useEffect(() => {
-    if (fontsLoaded && hydrated) SplashScreen.hideAsync().catch(() => {});
-  }, [fontsLoaded, hydrated]);
+    if (ready) {
+      SplashScreen.hideAsync().catch(() => {});
+      bootSync().catch(() => {});
+      const { profile, notifPrefs, languageSet, setLanguage } = useAppStore.getState();
+      // On the very first launch (before the user has picked a language),
+      // try to match the iOS / Android system locale so Marigold opens in the
+      // user's actual language, not the default English.
+      if (!languageSet) {
+        const sys = detectSystemLanguage();
+        if (sys !== useAppStore.getState().language) setLanguage(sys);
+      }
+      rescheduleAll(profile, notifPrefs).catch(() => {});
+    }
+  }, [ready]);
 
-  if (!fontsLoaded || !hydrated) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
+  if (!ready) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
 
   return (
     <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.shellDark }}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
-        <Stack
+        <AppLock>
+          <RootStack />
+        </AppLock>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
+  );
+}
+
+function RootStack() {
+  return (
+    <Stack
           screenOptions={{
             headerShown: false,
             contentStyle: { backgroundColor: colors.base },
@@ -99,12 +120,13 @@ export default function RootLayout() {
           <Stack.Screen name="topic" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="reminder" options={{ animation: 'slide_from_right' }} />
           <Stack.Screen name="settings" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="tools" options={{ animation: 'slide_from_right' }} />
+          <Stack.Screen name="auth" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
+          <Stack.Screen name="auth-callback" />
           <Stack.Screen
             name="ask"
             options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
           />
         </Stack>
-      </SafeAreaProvider>
-    </GestureHandlerRootView>
   );
 }

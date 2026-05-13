@@ -11,10 +11,36 @@ import { Blob, Illo } from '@/components/Blob';
 import { VerdictPill } from '@/components/Verdict';
 import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
+import { ToolShortcuts } from '@/components/ToolShortcuts';
 import { useAppStore } from '@/store/useAppStore';
-import { INTENTIONS, REMINDERS } from '@/data/sample';
+import { INTENTIONS, REMINDERS, WEEK_METAPHORS } from '@/data/sample';
+import { useT, useLang } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+
+const LOCALE_FOR_LANG: Record<string, string> = {
+  en: 'en-US',
+  tr: 'tr-TR',
+};
+
+// Tiny localized mapping for the weekly fruit metaphor. The source data
+// ("an avocado") includes an English article; non-English locales want the
+// bare noun. Falls back to stripping the article when we don't have a
+// translation yet.
+const FRUIT_TR: Record<string, string> = {
+  'an avocado': 'avokado',
+  'a turnip': 'şalgam',
+  'a sweet potato': 'tatlı patates',
+  'a mango': 'mango',
+  'a banana': 'muz',
+};
+
+function formatFruit(fruit: string | undefined, lang: string): string {
+  const value = fruit || 'a sweet potato';
+  if (lang === 'en') return value;
+  if (lang === 'tr') return FRUIT_TR[value] || value.replace(/^(a|an)\s+/i, '');
+  return value.replace(/^(a|an)\s+/i, '');
+}
 
 const reminderIcons = {
   calendar: Icon.calendar,
@@ -23,13 +49,21 @@ const reminderIcons = {
 };
 
 export default function Home() {
+  const t = useT();
+  const lang = useLang();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const recents = useAppStore((s) => s.recents);
 
   const intention = useMemo(() => INTENTIONS[new Date().getDate() % INTENTIONS.length], []);
-  const wd = new Date().toLocaleDateString('en-US', { weekday: 'long' });
+  const wd = useMemo(
+    () =>
+      new Date().toLocaleDateString(LOCALE_FOR_LANG[lang] || 'en-US', {
+        weekday: 'long',
+      }),
+    [lang],
+  );
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>
@@ -39,7 +73,7 @@ export default function Home() {
 
       <ScrollView
         showsVerticalScrollIndicator={false}
-        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+        contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 220 }}
       >
         {/* Header */}
         <View style={{ paddingHorizontal: 24, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -90,16 +124,30 @@ export default function Home() {
                 letterSpacing: -0.4,
               }}
             >
-              Week <CountUp to={profile.week} style={{ fontFamily: fonts.display, fontSize: 32, color: colors.ink }} />, {wd}
+              {t('home.week')} <CountUp to={profile.week} style={{ fontFamily: fonts.display, fontSize: 32, color: colors.ink }} />, {wd}
             </Text>
             <Pressable
               onPress={() => router.push('/baby')}
               style={{ flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 4 }}
             >
-              <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>Baby is the size of a sweet potato</Text>
+              <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>
+                {t('home.babySize', {
+                  fruit: formatFruit(WEEK_METAPHORS[profile.week]?.fruit, lang),
+                })}
+              </Text>
               <Icon.chevR size={14} color={colors.mute} />
             </Pressable>
           </View>
+        </View>
+
+        {/* Today's tools — week-aware shortcuts */}
+        <View style={{ marginTop: 24 }}>
+          <View style={{ paddingHorizontal: 24, marginBottom: 12 }}>
+            <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
+              {t('tools.title')}
+            </Text>
+          </View>
+          <ToolShortcuts week={profile.week} />
         </View>
 
         {/* Today's intention */}
@@ -117,7 +165,7 @@ export default function Home() {
               }}
             />
             <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-              Today's intention
+              {t('home.intention.caption')}
             </Text>
             <Text
               style={{
@@ -152,10 +200,10 @@ export default function Home() {
               </View>
               <View style={{ flex: 1 }}>
                 <Text style={{ fontFamily: fonts.display, fontSize: 18, color: colors.ink, letterSpacing: -0.2 }}>
-                  Ask Marigold
+                  {t('home.askMarigold')}
                 </Text>
                 <Text style={{ color: colors.mute, fontSize: 13, marginTop: 2, fontFamily: fonts.body }}>
-                  Calm, grounded answers — any time.
+                  {t('home.askMarigold.sub')}
                 </Text>
               </View>
               <Icon.chevR size={18} color={colors.mute} />
@@ -166,11 +214,11 @@ export default function Home() {
         {/* Recent checks */}
         <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
           <SectionHead
-            caption="Recent"
-            title="Recent checks"
+            caption={t('home.recent.caption')}
+            title={t('home.recent.title')}
             right={
               <Pressable onPress={() => router.navigate('/(tabs)/journal')}>
-                <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>All</Text>
+                <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>{t('common.all')}</Text>
               </Pressable>
             }
           />
@@ -192,7 +240,7 @@ export default function Home() {
 
         {/* Reminders */}
         <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
-          <SectionHead caption="Up next" title="This week's reminders" />
+          <SectionHead caption={t('home.reminders.caption')} title={t('home.reminders.title')} />
           <Card>
             {REMINDERS.map((r, i) => {
               const I = reminderIcons[r.icon];
@@ -235,19 +283,19 @@ export default function Home() {
         <View style={{ paddingHorizontal: 24, marginTop: 20 }}>
           <Card style={{ padding: 20, backgroundColor: 'rgba(181,168,201,0.18)' }}>
             <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-              In 2 days
+              {t('home.doctor.caption')}
             </Text>
             <Text style={{ fontFamily: fonts.display, fontSize: 20, color: colors.ink, marginTop: 4, letterSpacing: -0.2 }}>
-              Doctor visit on Thursday
+              {t('home.doctor.title')}
             </Text>
             <Text style={{ color: colors.mute, fontSize: 13, marginTop: 4, fontFamily: fonts.body }}>
-              Tap to draft questions to bring along.
+              {t('home.doctor.body')}
             </Text>
             <Pressable
               onPress={() => router.push('/pdf')}
               style={{ marginTop: 14, flexDirection: 'row', alignItems: 'center', gap: 6 }}
             >
-              <Text style={{ color: colors.terracotta, fontSize: 13, fontFamily: fonts.bodyBold }}>Prepare a summary</Text>
+              <Text style={{ color: colors.terracotta, fontSize: 13, fontFamily: fonts.bodyBold }}>{t('home.doctor.action')}</Text>
               <Icon.arrow size={14} color={colors.terracotta} />
             </Pressable>
           </Card>

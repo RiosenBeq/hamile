@@ -48,6 +48,52 @@ const REMINDER_DETAILS: Record<
     checklist: ['Drink 2L water the day before', 'Avoid heavy exercise the morning of', 'Bring a magazine — it\'s a 2-hour wait'],
     questions: ['How long will my results take? Who calls if abnormal?'],
   },
+  'Antenatal class': {
+    when: 'Saturday 17 May · 10:00',
+    where: 'NCT — Camden community room',
+    note: 'Comfortable clothes you can move in. Snacks usually provided; bring a water bottle.',
+    checklist: ['Notebook + pen', 'Comfy layers (rooms can be over-warm)', 'Partner if joining', 'Maternity notes'],
+    questions: [
+      'How does the breathing technique scale across labour stages?',
+      'When does the early-labour phone call happen vs. heading to the unit?',
+      'What does the maternity unit need from us at admission?',
+    ],
+  },
+  'Pelvic floor': {
+    when: 'Three sets of 10, twice a day',
+    where: 'Anywhere — at red lights, on the sofa',
+    note: 'Squeeze and lift, hold for three seconds, release. Breathe normally throughout — never hold your breath.',
+    checklist: ['Set two daily phone alarms', 'Use a posture cue (e.g. red traffic lights)', 'Track in the journal once a week'],
+    questions: ['I leak when I cough — is that "talk to the GP" or "totally normal"?'],
+  },
+  'Birth plan draft': {
+    when: 'By week 34',
+    where: 'On your phone, a single page',
+    note: 'A birth plan is a wish list, not a contract. Keep it short — three to five priorities.',
+    checklist: [
+      'Pain relief preferences (gas & air, epidural, water)',
+      'Who is in the room',
+      'After-birth: skin-to-skin, delayed cord clamping',
+      'Vitamin K injection or oral?',
+      'Feeding plan (and a backup)',
+    ],
+    questions: [
+      'What are the unit\'s defaults if I don\'t specify?',
+      'How is the plan kept visible to the team during labour?',
+    ],
+  },
+  'Hospital bag': {
+    when: 'Packed by week 36',
+    where: 'By the front door',
+    note: 'Three little bags — labour, post-birth, baby — beats one giant one. Easier for your partner to grab the right thing.',
+    checklist: [
+      'For labour: lip balm, hair ties, snacks, hot water bottle, slippers',
+      'Post-birth: long phone charger, big knickers, dark towels, maternity pads',
+      'Baby: 2 vests, 2 sleepsuits, blanket, hat, scratch mittens, nappies',
+      'Documents: maternity notes, hospital paperwork, ID',
+    ],
+    questions: ['Is the unit nappy-supplied or do we bring a pack?'],
+  },
 };
 
 export default function Reminder() {
@@ -55,6 +101,14 @@ export default function Reminder() {
   const insets = useSafeAreaInsets();
   const { title } = useLocalSearchParams<{ title: string }>();
   const key = title || 'Anomaly scan';
+
+  // Hospital bag and Birth plan now have dedicated interactive tools — bounce
+  // the static reminder over to them so the user can actually tick / fill in.
+  React.useEffect(() => {
+    if (key === 'Hospital bag') router.replace('/tools/hospital-bag' as any);
+    else if (key === 'Birth plan draft') router.replace('/tools/birth-plan' as any);
+  }, [key, router]);
+
   const detail = REMINDER_DETAILS[key] || REMINDER_DETAILS['Anomaly scan'];
 
   return (

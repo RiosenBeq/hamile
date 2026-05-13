@@ -40,7 +40,7 @@ export default function Journal() {
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 140 }}
       showsVerticalScrollIndicator={false}
       style={{ backgroundColor: colors.base }}
     >

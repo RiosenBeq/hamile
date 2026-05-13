@@ -15,10 +15,15 @@ import { Shimmer, PulseSoft } from '@/components/Drift';
 import { analyzePhoto, fetchVerdict, Mode } from '@/lib/ai';
 import { VerdictPayload } from '@/data/verdicts';
 import { useAppStore } from '@/store/useAppStore';
+import { useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+import { newId } from '@/lib/id';
+
+const SHIMMER_MIN_MS = 700;
 
 export default function Verdict() {
+  const t = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { item, mode, source } = useLocalSearchParams<{
@@ -36,57 +41,67 @@ export default function Verdict() {
 
   useEffect(() => {
     let cancelled = false;
+    let waitTimer: ReturnType<typeof setTimeout> | null = null;
+    const controller = new AbortController();
+
+    const lookup = item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item';
     const start = Date.now();
-    const resolvedMode = ((mode as Mode) || 'Food') as Mode;
+    const safeMode = (['Food', 'Menu', 'Medication', 'Cosmetic', 'Activity'] as const).includes(
+      mode as Mode,
+    )
+      ? (mode as Mode)
+      : 'Food';
 
     const promise =
       source === 'photo' && pendingPhoto
-        ? analyzePhoto({
-            base64: pendingPhoto,
-            mode: resolvedMode,
-            week: profile.week,
-            country: profile.country,
-          })
-        : fetchVerdict({
-            item: item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item',
-            mode: resolvedMode,
-            week: profile.week,
-            country: profile.country,
-          });
+        ? analyzePhoto(
+            {
+              base64: pendingPhoto,
+              mode: safeMode,
+              week: profile.week,
+              country: profile.country,
+            },
+            controller.signal,
+          )
+        : fetchVerdict(
+            {
+              item: lookup,
+              mode: safeMode,
+              week: profile.week,
+              country: profile.country,
+            },
+            controller.signal,
+          );
 
     promise.then((r) => {
-      // Keep the shimmer visible for at least 700ms — it feels considered.
+      if (cancelled) return;
       const elapsed = Date.now() - start;
-      const wait = Math.max(0, 700 - elapsed);
-      setTimeout(() => {
+      const wait = Math.max(0, SHIMMER_MIN_MS - elapsed);
+      waitTimer = setTimeout(() => {
         if (cancelled) return;
         setV(r);
         if (source === 'photo') setPendingPhoto(null);
-        const id = `${Date.now()}`;
-        addJournalEntry({
-          id,
-          week: profile.week,
-          name: r.name,
-          label: r.label,
-          hue: r.hue,
-          verdict: r.verdict,
-          when: 'Just now',
-        });
-        addRecent({
+        const id = newId();
+        const entry = {
           id,
           name: r.name,
           label: r.label,
           hue: r.hue,
           verdict: r.verdict,
-          when: 'Just now',
-        });
+          when: t('common.justNow'),
+        };
+        addJournalEntry({ ...entry, week: profile.week });
+        addRecent(entry);
       }, wait);
     });
+
     return () => {
       cancelled = true;
+      controller.abort();
+      if (waitTimer) clearTimeout(waitTimer);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [item, mode]);
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>
@@ -119,7 +134,7 @@ export default function Verdict() {
           <Icon.back size={18} color={colors.ink} />
         </Pressable>
         <Text style={{ fontSize: 12, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-          {v ? 'Verdict' : 'Thinking'}
+          {v ? t('verdict.caption') : t('verdict.thinking')}
         </Text>
         <Pressable
           style={{
@@ -214,14 +229,14 @@ export default function Verdict() {
           </Animated.View>
 
           <Text style={{ marginTop: 18, fontSize: 12, color: colors.mute, lineHeight: 18, fontFamily: fonts.body }}>
-            Reviewed against <Text style={{ color: 'rgba(42,37,34,0.8)' }}>NHS guidelines · ACOG 2024 · LactMed</Text>. Last checked April 2026.
+            {t('verdict.reviewed')}
           </Text>
 
           <View style={{ marginTop: 24, flexDirection: 'row', gap: 8 }}>
             {[
-              { label: 'Save', I: Icon.bookmark, onPress: () => router.back() },
-              { label: 'Partner', I: Icon.share, onPress: () => router.replace('/partner') },
-              { label: 'Follow-up', I: Icon.spark, onPress: () => router.replace('/emergency') },
+              { label: t('verdict.save'), I: Icon.bookmark, onPress: () => router.back() },
+              { label: t('verdict.partner'), I: Icon.share, onPress: () => router.replace('/partner') },
+              { label: t('verdict.followUp'), I: Icon.spark, onPress: () => router.replace('/emergency') },
             ].map(({ label, I, onPress }) => (
               <Pressable
                 key={label}

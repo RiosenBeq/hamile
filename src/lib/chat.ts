@@ -31,11 +31,13 @@ export type ChatContext = {
   country: string;
   stage: 'ttc' | 'pregnant' | 'postpartum';
   conditions: string[];
+  language?: string;
 };
 
 const buildUserPrefix = (ctx: ChatContext) => {
   const parts = [`Stage: ${ctx.stage}`, `Week: ${ctx.week}`, `Country: ${ctx.country}`];
   if (ctx.conditions.length) parts.push(`Conditions: ${ctx.conditions.join(', ')}`);
+  if (ctx.language) parts.push(`Reply in: ${ctx.language}`);
   return `[Context — for your reference, do not quote back] ${parts.join(' · ')}`;
 };
 

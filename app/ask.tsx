@@ -19,19 +19,34 @@ import * as Haptics from 'expo-haptics';
 import { Icon } from '@/components/Icon';
 import { MarigoldMark } from '@/components/MarigoldMark';
 import { useAppStore, ChatMessage } from '@/store/useAppStore';
-import { askMarigold, ChatTurn, SUGGESTED_QUESTIONS } from '@/lib/chat';
+import { askMarigold, ChatTurn } from '@/lib/chat';
+import { useT, useLang } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
+
+const LANGUAGE_NAME: Record<string, string> = {
+  en: 'English',
+  tr: 'Turkish',
+};
 
 const makeId = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
 export default function Ask() {
+  const t = useT();
+  const lang = useLang();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
   const chat = useAppStore((s) => s.chat);
   const appendChat = useAppStore((s) => s.appendChat);
   const clearChat = useAppStore((s) => s.clearChat);
+
+  const suggestions = [
+    t('ask.suggest.1'),
+    t('ask.suggest.2'),
+    t('ask.suggest.3'),
+    t('ask.suggest.4'),
+  ];
 
   const [draft, setDraft] = useState('');
   const [pending, setPending] = useState(false);
@@ -64,6 +79,7 @@ export default function Ask() {
       country: profile.country,
       stage: profile.stage,
       conditions: profile.conditions,
+      language: LANGUAGE_NAME[lang] || 'English',
     });
     appendChat({
       id: makeId(),
@@ -114,7 +130,7 @@ export default function Ask() {
                 fontFamily: fonts.bodyBold,
               }}
             >
-              Ask
+              {t('ask.caption')}
             </Text>
             <Text
               style={{
@@ -124,7 +140,7 @@ export default function Ask() {
                 letterSpacing: -0.2,
               }}
             >
-              Marigold
+              {t('ask.brand')}
             </Text>
           </View>
         </View>
@@ -145,7 +161,7 @@ export default function Ask() {
             }}
           >
             <Text style={{ color: colors.mute, fontSize: 12, fontFamily: fonts.bodyBold }}>
-              Clear
+              {t('ask.clear')}
             </Text>
           </Pressable>
         ) : null}
@@ -173,7 +189,7 @@ export default function Ask() {
                   letterSpacing: -0.3,
                 }}
               >
-                Anything on your mind?
+                {t('ask.title')}
               </Text>
               <Text
                 style={{
@@ -183,11 +199,10 @@ export default function Ask() {
                   fontFamily: fonts.body,
                 }}
               >
-                Food, medications, activity, symptoms, feelings — I'll answer in plain English,
-                grounded in NHS, ACOG and LactMed.
+                {t('ask.intro')}
               </Text>
               <View style={{ gap: 8, marginTop: 6 }}>
-                {SUGGESTED_QUESTIONS.map((q) => (
+                {suggestions.map((q) => (
                   <Pressable
                     key={q}
                     onPress={() => send(q)}
@@ -227,14 +242,13 @@ export default function Ask() {
                   lineHeight: 18,
                 }}
               >
-                Marigold is helpful, not a substitute for medical advice. For anything urgent,
-                contact your midwife or doctor.
+                {t('ask.disclaimer')}
               </Text>
             </View>
           ) : (
             chat.map((m) => <Bubble key={m.id} msg={m} />)
           )}
-          {pending ? <TypingBubble /> : null}
+          {pending ? <TypingBubble label={t('ask.thinking')} /> : null}
         </ScrollView>
 
         {/* Composer */}
@@ -266,7 +280,7 @@ export default function Ask() {
             <TextInput
               value={draft}
               onChangeText={setDraft}
-              placeholder="Ask anything…"
+              placeholder={t('ask.placeholder')}
               placeholderTextColor={colors.mute}
               multiline
               style={{
@@ -339,7 +353,7 @@ function Bubble({ msg }: { msg: ChatMessage }) {
   );
 }
 
-function TypingBubble() {
+function TypingBubble({ label }: { label: string }) {
   return (
     <View style={{ flexDirection: 'row', justifyContent: 'flex-start' }}>
       <View
@@ -358,7 +372,7 @@ function TypingBubble() {
       >
         <ActivityIndicator size="small" color={colors.terracotta} />
         <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body }}>
-          Marigold is thinking…
+          {label}
         </Text>
       </View>
     </View>

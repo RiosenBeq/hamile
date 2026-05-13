@@ -2,7 +2,7 @@
 // soft warm scan line, mode selector). Falls back to a faux viewfinder if
 // the user denies the camera permission so the experience never breaks.
 
-import React, { useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { ActivityIndicator, Pressable, Text, View } from 'react-native';
 import {
   CameraView,
@@ -16,13 +16,34 @@ import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-na
 import { Icon } from '@/components/Icon';
 import { ScanLine } from '@/components/ScanLine';
 import { useAppStore } from '@/store/useAppStore';
+import { useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
 const MODES = ['Food', 'Menu', 'Medication', 'Cosmetic', 'Activity'] as const;
 type Mode = (typeof MODES)[number];
 
+const SHUTTER_PRESS_MS = 90;
+const SHUTTER_HOLD_MS = 200;
+
+const MODE_LABEL_KEY: Record<(typeof MODES)[number], string> = {
+  Food: 'scan.mode.food',
+  Menu: 'scan.mode.menu',
+  Medication: 'scan.mode.medication',
+  Cosmetic: 'scan.mode.cosmetic',
+  Activity: 'scan.mode.activity',
+};
+
+const MODE_POINT_KEY: Record<(typeof MODES)[number], string> = {
+  Food: 'scan.point.food',
+  Menu: 'scan.point.menu',
+  Medication: 'scan.point.medication',
+  Cosmetic: 'scan.point.cosmetic',
+  Activity: 'scan.point.activity',
+};
+
 export default function Scan() {
+  const t = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const [perm, requestPerm] = useCameraPermissions();
@@ -34,17 +55,27 @@ export default function Scan() {
   const setPendingPhoto = useAppStore((s) => s.setPendingPhoto);
   const captureScale = useSharedValue(1);
   const animatedCapture = useAnimatedStyle(() => ({ transform: [{ scale: captureScale.value }] }));
+  const shutterTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const onShutter = async () => {
-    if (capturing) return;
+  useEffect(
+    () => () => {
+      if (shutterTimer.current) clearTimeout(shutterTimer.current);
+    },
+    [],
+  );
+
+  const onShutter = useCallback(async () => {
+    if (capturing || shutterTimer.current) return; // ignore double-taps mid-capture
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy).catch(() => {});
-    captureScale.value = withTiming(0.9, { duration: 90 });
+    captureScale.value = withTiming(0.9, { duration: SHUTTER_PRESS_MS });
 
+    // Menu mode skips the verdict screen and goes straight to /menu-mode.
     if (mode === 'Menu') {
-      setTimeout(() => {
+      shutterTimer.current = setTimeout(() => {
         captureScale.value = withTiming(1, { duration: 120 });
+        shutterTimer.current = null;
         router.replace('/menu-mode');
-      }, 200);
+      }, SHUTTER_HOLD_MS);
       return;
     }
 
@@ -72,11 +103,12 @@ export default function Scan() {
       }
     }
 
-    setTimeout(() => {
+    shutterTimer.current = setTimeout(() => {
       captureScale.value = withTiming(1, { duration: 120 });
+      shutterTimer.current = null;
       router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } });
-    }, 200);
-  };
+    }, SHUTTER_HOLD_MS);
+  }, [capturing, cameraReady, captureScale, mode, router, setPendingPhoto]);
 
   return (
     <View style={{ flex: 1, backgroundColor: '#13110F' }}>
@@ -182,7 +214,7 @@ export default function Scan() {
             fontFamily: fonts.bodyBold,
           }}
         >
-          Point at {mode.toLowerCase()}
+          {t(MODE_POINT_KEY[mode])}
         </Text>
         <Pressable
           style={{
@@ -199,11 +231,14 @@ export default function Scan() {
       </View>
 
       <Pressable
-        onPress={() => router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } })}
+        onPress={() => router.replace('/(tabs)/library')}
+        accessibilityRole="link"
+        accessibilityLabel={t('scan.typeInstead')}
+        hitSlop={12}
         style={{ position: 'absolute', top: insets.top + 56, right: 24 }}
       >
         <Text style={{ color: 'rgba(255,255,255,0.8)', fontSize: 12, fontFamily: fonts.body, textDecorationLine: 'underline' }}>
-          Type instead
+          {t('scan.typeInstead')}
         </Text>
       </Pressable>
 
@@ -218,10 +253,10 @@ export default function Scan() {
             }}
           >
             <Text style={{ color: '#fff', fontSize: 13, fontFamily: fonts.bodyBold }}>
-              Tap to allow camera access
+              {t('scan.allow.title')}
             </Text>
             <Text style={{ color: 'rgba(255,255,255,0.7)', fontSize: 12, marginTop: 4, fontFamily: fonts.body }}>
-              We never store your photos. Scans run on-device.
+              {t('scan.allow.body')}
             </Text>
           </Pressable>
         </View>
@@ -262,7 +297,7 @@ export default function Scan() {
                   justifyContent: 'center',
                 }}
               >
-                <Text style={{ color: sel ? colors.base : colors.ink, fontSize: 13, fontFamily: fonts.bodyBold }}>{mo}</Text>
+                <Text style={{ color: sel ? colors.base : colors.ink, fontSize: 13, fontFamily: fonts.bodyBold }}>{t(MODE_LABEL_KEY[mo])}</Text>
               </Pressable>
             );
           })}
@@ -339,7 +374,7 @@ export default function Scan() {
             fontFamily: fonts.bodyBold,
           }}
         >
-          Tap to scan · hold to ask out loud
+          {t('scan.hint')}
         </Text>
       </View>
     </View>

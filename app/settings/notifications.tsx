@@ -1,21 +1,38 @@
-// Notifications sub-page. Toggles for each cadence; we don't actually wire a
-// scheduler here — that hooks into expo-notifications when you ship.
+// Notifications sub-page. Toggles drive the live expo-notifications schedule.
+// Permission is requested lazily on the first "on" toggle.
 
-import React, { useState } from 'react';
-import { ScrollView, Text, View } from 'react-native';
+import React from 'react';
+import { Alert, ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Card, SectionHead } from '@/components/Card';
 import { SubScreenHeader, Toggle } from '@/components/SubScreen';
+import { useAppStore, type NotificationPrefs } from '@/store/useAppStore';
+import { rescheduleAll, requestPermissionIfNeeded } from '@/lib/notifications';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
+type Key = keyof NotificationPrefs;
+
 export default function NotificationsSetting() {
   const insets = useSafeAreaInsets();
-  const [intention, setIntention] = useState(true);
-  const [milestone, setMilestone] = useState(true);
-  const [reminders, setReminders] = useState(true);
-  const [partner, setPartner] = useState(false);
-  const [emergency, setEmergency] = useState(true);
+  const profile = useAppStore((s) => s.profile);
+  const prefs = useAppStore((s) => s.notifPrefs);
+  const patchNotifPrefs = useAppStore((s) => s.patchNotifPrefs);
+
+  const setKey = async (key: Key, value: boolean) => {
+    if (value) {
+      const ok = await requestPermissionIfNeeded();
+      if (!ok) {
+        Alert.alert(
+          'Notifications are off',
+          'Open Settings → Marigold → Notifications to allow them, then come back.',
+        );
+        return;
+      }
+    }
+    patchNotifPrefs({ [key]: value } as Partial<NotificationPrefs>);
+    rescheduleAll(profile, { ...prefs, [key]: value }).catch(() => {});
+  };
 
   return (
     <View style={{ flex: 1, backgroundColor: colors.base }}>
@@ -25,8 +42,8 @@ export default function NotificationsSetting() {
           Quiet by design.
         </Text>
         <Text style={{ color: colors.mute, fontSize: 14, marginTop: 8, fontFamily: fonts.body }}>
-          We send only what's actually useful. Turn anything off — Marigold
-          will never bother you about it again.
+          We send only what's actually useful. Turn anything off — Marigold will never bother you
+          about it again.
         </Text>
 
         <View style={{ marginTop: 24 }}>
@@ -35,23 +52,40 @@ export default function NotificationsSetting() {
             <ToggleRow
               title="Daily intention"
               sub="One short, calm thought each morning"
-              value={intention}
-              onChange={setIntention}
-              isLast={false}
+              value={prefs.intention}
+              onChange={(v) => setKey('intention', v)}
             />
             <ToggleRow
               title="Weekly milestone"
-              sub="A new week, a new fruit metaphor"
-              value={milestone}
-              onChange={setMilestone}
-              isLast={false}
+              sub="A new week, a new fruit metaphor — Mondays at 9am"
+              value={prefs.milestone}
+              onChange={(v) => setKey('milestone', v)}
             />
             <ToggleRow
               title="Doctor visit reminders"
               sub="The day before · the morning of"
-              value={reminders}
-              onChange={setReminders}
-              isLast={true}
+              value={prefs.reminders}
+              onChange={(v) => setKey('reminders', v)}
+              isLast
+            />
+          </Card>
+        </View>
+
+        <View style={{ marginTop: 24 }}>
+          <SectionHead caption="Wellbeing" title="Self-care" />
+          <Card>
+            <ToggleRow
+              title="Kick count nudge"
+              sub={profile.week >= 28 ? 'Evening, only on days with no movements logged' : 'Activates from week 28'}
+              value={prefs.kickNudge}
+              onChange={(v) => setKey('kickNudge', v)}
+            />
+            <ToggleRow
+              title="Pelvic floor"
+              sub="Twice a day · 9am and 4pm"
+              value={prefs.pelvicFloor}
+              onChange={(v) => setKey('pelvicFloor', v)}
+              isLast
             />
           </Card>
         </View>
@@ -62,16 +96,15 @@ export default function NotificationsSetting() {
             <ToggleRow
               title="Partner activity"
               sub="When your partner saves or asks something"
-              value={partner}
-              onChange={setPartner}
-              isLast={false}
+              value={prefs.partner}
+              onChange={(v) => setKey('partner', v)}
             />
             <ToggleRow
               title="Emergency follow-up"
               sub="A check-in the morning after"
-              value={emergency}
-              onChange={setEmergency}
-              isLast={true}
+              value={prefs.emergency}
+              onChange={(v) => setKey('emergency', v)}
+              isLast
             />
           </Card>
         </View>
@@ -89,13 +122,13 @@ function ToggleRow({
   sub,
   value,
   onChange,
-  isLast,
+  isLast = false,
 }: {
   title: string;
   sub?: string;
   value: boolean;
   onChange: (v: boolean) => void;
-  isLast: boolean;
+  isLast?: boolean;
 }) {
   return (
     <View>

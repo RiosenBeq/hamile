@@ -8,39 +8,73 @@ import { Card, SectionHead } from '@/components/Card';
 import { Icon } from '@/components/Icon';
 import { Illo } from '@/components/Blob';
 import { useAppStore } from '@/store/useAppStore';
+import { SUPPORTED_LANGS, useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
 export default function Profile() {
+  const t = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const profile = useAppStore((s) => s.profile);
+  const language = useAppStore((s) => s.language);
+
+  const langLabel = SUPPORTED_LANGS.find((l) => l.code === language)?.name ?? 'English';
 
   const sharingRows: [string, string, string][] = [
-    ['Partner', profile.partnerLinked ? 'Sam · linked' : 'Invite Sam', '/partner'],
-    ['Doctor PDF', 'Last sent · 2 weeks ago', '/pdf'],
-    ['Subscription', '9-month plan · $49', '/paywall'],
+    [
+      t('profile.partner'),
+      profile.partnerLinked
+        ? t('profile.partner.linked', { name: 'Sam' })
+        : t('profile.partner.invite', { name: 'Sam' }),
+      '/partner',
+    ],
+    [t('profile.doctorPdf'), t('profile.doctorPdf.sub'), '/pdf'],
+    [t('profile.subscription'), t('profile.subscription.sub'), '/paywall'],
   ];
 
   const settingsRows: [string, string, string][] = [
-    ['Country & cuisine', profile.country, '/settings/country'],
-    ['Health profile', profile.conditions.length ? profile.conditions.join(', ') : 'No conditions logged', '/settings/health'],
-    ['Notifications', 'Daily intention · weekly milestone', '/settings/notifications'],
-    ['Privacy', 'On-device first · nothing sold', '/settings/privacy'],
-    ['Appearance', 'Auto', '/settings/appearance'],
-    ['Language', 'English', '/settings/language'],
+    [t('profile.security'), t('profile.security.sub'), '/settings/security'],
+    [t('profile.country'), profile.country, '/settings/country'],
+    [
+      t('profile.health'),
+      profile.conditions.length ? profile.conditions.join(', ') : t('profile.health.empty'),
+      '/settings/health',
+    ],
+    [t('profile.notifications'), t('profile.notifications.sub'), '/settings/notifications'],
+    [t('profile.privacy'), t('profile.privacy.sub'), '/settings/privacy'],
+    [t('profile.appearance'), t('profile.appearance.sub'), '/settings/appearance'],
+    [t('profile.language'), langLabel, '/settings/language'],
   ];
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: 200 }}
+      contentContainerStyle={{ paddingTop: insets.top + 8, paddingBottom: insets.bottom + 140 }}
       showsVerticalScrollIndicator={false}
       style={{ backgroundColor: colors.base }}
     >
       <View style={{ paddingHorizontal: 24 }}>
-        <Text style={{ fontSize: 11, letterSpacing: 1.8, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>You</Text>
-        <Text style={{ marginTop: 4, fontFamily: fonts.display, fontSize: 30, color: colors.ink, letterSpacing: -0.4 }}>
-          Hello, {profile.name}.
+        <Text
+          style={{
+            fontSize: 11,
+            letterSpacing: 1.8,
+            textTransform: 'uppercase',
+            color: colors.mute,
+            fontFamily: fonts.bodyBold,
+          }}
+        >
+          {t('profile.you')}
+        </Text>
+        <Text
+          style={{
+            marginTop: 4,
+            fontFamily: fonts.display,
+            fontSize: 30,
+            color: colors.ink,
+            letterSpacing: -0.4,
+          }}
+        >
+          {t('profile.hello', { name: profile.name })}
         </Text>
       </View>
 
@@ -48,16 +82,18 @@ export default function Profile() {
         <Card style={{ padding: 18, flexDirection: 'row', alignItems: 'center', gap: 16 }}>
           <Illo label="you" hue="rose" size={56} />
           <View>
-            <Text style={{ color: colors.ink, fontSize: 16, fontFamily: fonts.bodyBold }}>{profile.name} Doe</Text>
+            <Text style={{ color: colors.ink, fontSize: 16, fontFamily: fonts.bodyBold }}>
+              {t('profile.fullName', { first: profile.name })}
+            </Text>
             <Text style={{ color: colors.mute, fontSize: 13, fontFamily: fonts.body, marginTop: 2 }}>
-              Week {profile.week} · {profile.country}
+              {t('profile.weekCountry', { week: profile.week, country: profile.country })}
             </Text>
           </View>
         </Card>
       </View>
 
       <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
-        <SectionHead caption="Your circle" title="Sharing" />
+        <SectionHead caption={t('profile.sharingCaption')} title={t('profile.sharingTitle')} />
         <Card>
           {sharingRows.map(([nm, sub, go], i) => (
             <View key={nm}>
@@ -67,18 +103,22 @@ export default function Profile() {
               >
                 <View style={{ flex: 1 }}>
                   <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>{nm}</Text>
-                  <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}>{sub}</Text>
+                  <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}>
+                    {sub}
+                  </Text>
                 </View>
                 <Icon.chevR size={18} color={colors.mute} />
               </Pressable>
-              {i < sharingRows.length - 1 ? <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} /> : null}
+              {i < sharingRows.length - 1 ? (
+                <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} />
+              ) : null}
             </View>
           ))}
         </Card>
       </View>
 
       <View style={{ paddingHorizontal: 24, marginTop: 28 }}>
-        <SectionHead caption="Settings" title="Preferences" />
+        <SectionHead caption={t('profile.settingsCaption')} title={t('profile.settingsTitle')} />
         <Card>
           {settingsRows.map(([nm, sub, go], i) => (
             <View key={nm}>
@@ -88,21 +128,34 @@ export default function Profile() {
               >
                 <View style={{ flex: 1 }}>
                   <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.body }}>{nm}</Text>
-                  <Text style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }} numberOfLines={1}>
+                  <Text
+                    style={{ fontSize: 12.5, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}
+                    numberOfLines={1}
+                  >
                     {sub}
                   </Text>
                 </View>
                 <Icon.chevR size={18} color={colors.mute} />
               </Pressable>
-              {i < settingsRows.length - 1 ? <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} /> : null}
+              {i < settingsRows.length - 1 ? (
+                <View style={{ height: 1, backgroundColor: colors.line, marginLeft: 16 }} />
+              ) : null}
             </View>
           ))}
         </Card>
       </View>
 
       <View style={{ paddingHorizontal: 24, marginTop: 28, alignItems: 'center' }}>
-        <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-          Marigold v1.0 · made with care
+        <Text
+          style={{
+            fontSize: 11,
+            letterSpacing: 1.6,
+            textTransform: 'uppercase',
+            color: colors.mute,
+            fontFamily: fonts.bodyBold,
+          }}
+        >
+          {t('profile.footer')}
         </Text>
       </View>
     </ScrollView>
