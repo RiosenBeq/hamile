@@ -11,7 +11,6 @@ import { Blob, Illo } from '@/components/Blob';
 import { VerdictPill } from '@/components/Verdict';
 import { WeekRing } from '@/components/WeekRing';
 import { CountUp } from '@/components/CountUp';
-import { ScanFAB } from '@/components/ScanFAB';
 import { useAppStore } from '@/store/useAppStore';
 import { INTENTIONS, REMINDERS } from '@/data/sample';
 import { colors } from '@/theme/colors';
@@ -45,20 +44,37 @@ export default function Home() {
         {/* Header */}
         <View style={{ paddingHorizontal: 24, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
           <Text style={{ fontSize: 11, letterSpacing: 1.8, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>Marigold</Text>
-          <Pressable
-            style={{
-              width: 36,
-              height: 36,
-              borderRadius: 18,
-              backgroundColor: 'rgba(255,255,255,0.7)',
-              alignItems: 'center',
-              justifyContent: 'center',
-              borderWidth: 1,
-              borderColor: colors.line,
-            }}
-          >
-            <Icon.bell size={18} color={colors.ink} />
-          </Pressable>
+          <View style={{ flexDirection: 'row', gap: 8 }}>
+            <Pressable
+              onPress={() => router.push('/ask' as any)}
+              style={{
+                width: 36,
+                height: 36,
+                borderRadius: 18,
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderWidth: 1,
+                borderColor: colors.line,
+              }}
+            >
+              <Icon.spark size={18} color={colors.ink} />
+            </Pressable>
+            <Pressable
+              style={{
+                width: 36,
+                height: 36,
+                borderRadius: 18,
+                backgroundColor: 'rgba(255,255,255,0.7)',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderWidth: 1,
+                borderColor: colors.line,
+              }}
+            >
+              <Icon.bell size={18} color={colors.ink} />
+            </Pressable>
+          </View>
         </View>
 
         {/* Week + day */}
@@ -116,6 +132,35 @@ export default function Home() {
               {intention}
             </Text>
           </Card>
+        </View>
+
+        {/* Ask Marigold */}
+        <View style={{ paddingHorizontal: 24, marginTop: 20 }}>
+          <Pressable onPress={() => router.push('/ask' as any)}>
+            <Card style={{ padding: 20, backgroundColor: 'rgba(199,123,92,0.10)', flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+              <View
+                style={{
+                  width: 44,
+                  height: 44,
+                  borderRadius: 22,
+                  backgroundColor: colors.terracotta,
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <Icon.spark size={20} color="#fff" />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={{ fontFamily: fonts.display, fontSize: 18, color: colors.ink, letterSpacing: -0.2 }}>
+                  Ask Marigold
+                </Text>
+                <Text style={{ color: colors.mute, fontSize: 13, marginTop: 2, fontFamily: fonts.body }}>
+                  Calm, grounded answers — any time.
+                </Text>
+              </View>
+              <Icon.chevR size={18} color={colors.mute} />
+            </Card>
+          </Pressable>
         </View>
 
         {/* Recent checks */}
@@ -208,8 +253,6 @@ export default function Home() {
           </Card>
         </View>
       </ScrollView>
-
-      <ScanFAB onScan={() => router.push('/scan')} onLongPress={() => router.push('/emergency')} />
     </View>
   );
 }

@@ -22,17 +22,29 @@ export type Profile = {
   partnerLinked: boolean;
 };
 
+export type ChatMessage = {
+  id: string;
+  role: 'user' | 'assistant';
+  content: string;
+  ts: number;
+};
+
 type State = {
   hydrated: boolean;
   onboarded: boolean;
   profile: Profile;
   recents: RecentItem[];
   journal: JournalItem[];
+  chat: ChatMessage[];
+  pendingPhoto: string | null;
   setOnboarded: (v: boolean) => void;
   patchProfile: (p: Partial<Profile>) => void;
   addJournalEntry: (entry: JournalItem) => void;
   addRecent: (item: RecentItem) => void;
   removeJournalEntry: (id: string) => void;
+  appendChat: (msg: ChatMessage) => void;
+  clearChat: () => void;
+  setPendingPhoto: (b64: string | null) => void;
 };
 
 const defaultProfile: Profile = {
@@ -52,6 +64,8 @@ export const useAppStore = create<State>()(
       profile: defaultProfile,
       recents: SAMPLE_RECENTS,
       journal: SAMPLE_JOURNAL,
+      chat: [],
+      pendingPhoto: null,
       setOnboarded: (v) => set({ onboarded: v }),
       patchProfile: (p) => set((s) => ({ profile: { ...s.profile, ...p } })),
       addJournalEntry: (entry) => {
@@ -62,6 +76,10 @@ export const useAppStore = create<State>()(
         set((s) => ({ recents: [item, ...s.recents].slice(0, 10) })),
       removeJournalEntry: (id) =>
         set((s) => ({ journal: s.journal.filter((j) => j.id !== id) })),
+      appendChat: (msg) =>
+        set((s) => ({ chat: [...s.chat, msg].slice(-50) })),
+      clearChat: () => set({ chat: [] }),
+      setPendingPhoto: (b64) => set({ pendingPhoto: b64 }),
     }),
     {
       name: 'marigold-app-state',

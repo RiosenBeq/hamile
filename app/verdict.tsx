@@ -12,7 +12,7 @@ import { Icon } from '@/components/Icon';
 import { Illo } from '@/components/Blob';
 import { VerdictPill } from '@/components/Verdict';
 import { Shimmer, PulseSoft } from '@/components/Drift';
-import { fetchVerdict } from '@/lib/ai';
+import { analyzePhoto, fetchVerdict, Mode } from '@/lib/ai';
 import { VerdictPayload } from '@/data/verdicts';
 import { useAppStore } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
@@ -21,8 +21,14 @@ import { fonts } from '@/theme/typography';
 export default function Verdict() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
-  const { item, mode } = useLocalSearchParams<{ item: string; mode: string }>();
+  const { item, mode, source } = useLocalSearchParams<{
+    item?: string;
+    mode?: string;
+    source?: string;
+  }>();
   const profile = useAppStore((s) => s.profile);
+  const pendingPhoto = useAppStore((s) => s.pendingPhoto);
+  const setPendingPhoto = useAppStore((s) => s.setPendingPhoto);
   const addJournalEntry = useAppStore((s) => s.addJournalEntry);
   const addRecent = useAppStore((s) => s.addRecent);
 
@@ -30,20 +36,32 @@ export default function Verdict() {
 
   useEffect(() => {
     let cancelled = false;
-    const lookup = item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item';
     const start = Date.now();
-    fetchVerdict({
-      item: lookup,
-      mode: (mode as any) || 'Food',
-      week: profile.week,
-      country: profile.country,
-    }).then((r) => {
+    const resolvedMode = ((mode as Mode) || 'Food') as Mode;
+
+    const promise =
+      source === 'photo' && pendingPhoto
+        ? analyzePhoto({
+            base64: pendingPhoto,
+            mode: resolvedMode,
+            week: profile.week,
+            country: profile.country,
+          })
+        : fetchVerdict({
+            item: item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item',
+            mode: resolvedMode,
+            week: profile.week,
+            country: profile.country,
+          });
+
+    promise.then((r) => {
       // Keep the shimmer visible for at least 700ms — it feels considered.
       const elapsed = Date.now() - start;
       const wait = Math.max(0, 700 - elapsed);
       setTimeout(() => {
         if (cancelled) return;
         setV(r);
+        if (source === 'photo') setPendingPhoto(null);
         const id = `${Date.now()}`;
         addJournalEntry({
           id,

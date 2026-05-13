@@ -2,8 +2,8 @@
 // soft warm scan line, mode selector). Falls back to a faux viewfinder if
 // the user denies the camera permission so the experience never breaks.
 
-import React, { useState } from 'react';
-import { Pressable, Text, View } from 'react-native';
+import React, { useRef, useState } from 'react';
+import { ActivityIndicator, Pressable, Text, View } from 'react-native';
 import {
   CameraView,
   useCameraPermissions,
@@ -15,6 +15,7 @@ import * as Haptics from 'expo-haptics';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { Icon } from '@/components/Icon';
 import { ScanLine } from '@/components/ScanLine';
+import { useAppStore } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -27,20 +28,53 @@ export default function Scan() {
   const [perm, requestPerm] = useCameraPermissions();
   const [mode, setMode] = useState<Mode>('Food');
   const [facing] = useState<CameraType>('back');
+  const [capturing, setCapturing] = useState(false);
   const cameraReady = perm?.granted === true;
+  const cameraRef = useRef<CameraView | null>(null);
+  const setPendingPhoto = useAppStore((s) => s.setPendingPhoto);
   const captureScale = useSharedValue(1);
   const animatedCapture = useAnimatedStyle(() => ({ transform: [{ scale: captureScale.value }] }));
 
-  const onShutter = () => {
+  const onShutter = async () => {
+    if (capturing) return;
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy).catch(() => {});
     captureScale.value = withTiming(0.9, { duration: 90 });
+
+    if (mode === 'Menu') {
+      setTimeout(() => {
+        captureScale.value = withTiming(1, { duration: 120 });
+        router.replace('/menu-mode');
+      }, 200);
+      return;
+    }
+
+    // Try a real photo capture when the camera is ready; fall back to the
+    // text-only verdict path otherwise (no permission, simulator without
+    // camera support, etc.) so the experience never breaks.
+    if (cameraReady && cameraRef.current) {
+      try {
+        setCapturing(true);
+        const shot = await cameraRef.current.takePictureAsync({
+          base64: true,
+          quality: 0.5,
+          skipProcessing: true,
+        });
+        captureScale.value = withTiming(1, { duration: 120 });
+        if (shot?.base64) {
+          setPendingPhoto(shot.base64);
+          router.replace({ pathname: '/verdict', params: { mode, source: 'photo' } });
+          return;
+        }
+      } catch {
+        // fall through to text path
+      } finally {
+        setCapturing(false);
+      }
+    }
+
     setTimeout(() => {
       captureScale.value = withTiming(1, { duration: 120 });
-      if (mode === 'Menu') {
-        router.replace('/menu-mode');
-      } else {
-        router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } });
-      }
+      router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } });
     }, 200);
   };
 
@@ -49,6 +83,7 @@ export default function Scan() {
       {/* Camera or fallback */}
       {cameraReady ? (
         <CameraView
+          ref={cameraRef}
           facing={facing}
           style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
         />
@@ -255,7 +290,7 @@ export default function Scan() {
           >
             <Icon.library size={20} color={colors.ink} />
           </Pressable>
-          <Pressable onPress={onShutter}>
+          <Pressable onPress={onShutter} disabled={capturing}>
             <Animated.View
               style={[
                 {
@@ -271,7 +306,11 @@ export default function Scan() {
                 animatedCapture,
               ]}
             >
-              <View style={{ width: 58, height: 58, borderRadius: 29, backgroundColor: colors.terracotta }} />
+              {capturing ? (
+                <ActivityIndicator color={colors.terracotta} />
+              ) : (
+                <View style={{ width: 58, height: 58, borderRadius: 29, backgroundColor: colors.terracotta }} />
+              )}
             </Animated.View>
           </Pressable>
           <Pressable

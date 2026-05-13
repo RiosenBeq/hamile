@@ -1,21 +1,22 @@
-// Verdict generation. Order of preference:
+// Verdict generation — text path and camera (vision) path.
+//
+// Order of preference for both paths:
 //   1. Supabase Edge Function `verdict` (recommended; key stays server-side)
-//   2. Anthropic API directly (fine for prototypes / personal builds)
-//   3. Local fallback bank (always available, makes the app feel "alive" offline)
+//   2. OpenAI directly (set EXPO_PUBLIC_OPENAI_API_KEY in .env — dev only)
+//   3. Local fallback bank (always available, keeps the app responsive offline)
 //
 // The function keeps the same shape regardless of provider, so callers don't
 // have to branch.
 
-import Anthropic from '@anthropic-ai/sdk';
 import { getSupabase } from '@/lib/supabase';
 import { Hue, Verdict } from '@/theme/colors';
 import { buildDefaultVerdict, VERDICT_BANK, VerdictPayload } from '@/data/verdicts';
-
-const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY;
+import { openaiChat, openaiVision, openaiConfigured, parseJsonReply } from '@/lib/openai';
 
 const SYSTEM = `You are Marigold, a calm, evidence-based pregnancy safety companion.
 For an item the user is asking about, return JSON in exactly this shape:
-{ "verdict": "safe" | "caution" | "avoid",
+{ "name": "what the user actually saw — short, human (e.g. 'Brie, peach, basil')",
+  "verdict": "safe" | "caution" | "avoid",
   "label": "short one-word lowercase tag",
   "hue": "rose" | "sage" | "lavender" | "amber" | "sand",
   "headline": "one short, warm sentence",
@@ -23,22 +24,27 @@ For an item the user is asking about, return JSON in exactly this shape:
   "action": { "title": "short title", "body": "1-2 practical sentences" } }
 Tone: warm, grounded, never alarmist. Never recommend a medication; suggest the user check with their midwife instead. Reviewed against NHS, ACOG and LactMed.`;
 
+export type Mode = 'Food' | 'Menu' | 'Medication' | 'Cosmetic' | 'Activity';
+
 export type VerdictRequest = {
   item: string;
-  mode: 'Food' | 'Menu' | 'Medication' | 'Cosmetic' | 'Activity';
+  mode: Mode;
   week: number;
   country: string;
 };
 
-const tryEdgeFunction = async (
-  req: VerdictRequest,
-): Promise<VerdictPayload | null> => {
+export type PhotoRequest = {
+  base64: string;
+  mode: Mode;
+  week: number;
+  country: string;
+};
+
+const tryTextEdge = async (req: VerdictRequest): Promise<VerdictPayload | null> => {
   const sb = getSupabase();
   if (!sb) return null;
   try {
-    const { data, error } = await sb.functions.invoke('verdict', {
-      body: req,
-    });
+    const { data, error } = await sb.functions.invoke('verdict', { body: req });
     if (error || !data) return null;
     return normaliseVerdict(req.item, data);
   } catch {
@@ -46,35 +52,55 @@ const tryEdgeFunction = async (
   }
 };
 
-const tryAnthropic = async (
-  req: VerdictRequest,
-): Promise<VerdictPayload | null> => {
-  if (!ANTHROPIC_KEY) return null;
+const tryPhotoEdge = async (req: PhotoRequest): Promise<VerdictPayload | null> => {
+  const sb = getSupabase();
+  if (!sb) return null;
   try {
-    const client = new Anthropic({ apiKey: ANTHROPIC_KEY });
-    const msg = await client.messages.create({
-      model: 'claude-haiku-4-5-20251001',
-      max_tokens: 600,
-      system: SYSTEM,
-      messages: [
-        {
-          role: 'user',
-          content: `Item: ${req.item}\nMode: ${req.mode}\nWeek: ${req.week}\nCountry: ${req.country}\nReturn ONLY the JSON, no prose.`,
-        },
-      ],
-    });
-    const block = msg.content.find((c) => c.type === 'text');
-    if (!block || block.type !== 'text') return null;
-    const json = JSON.parse(block.text.trim().replace(/^```json|```$/g, '').trim());
-    return normaliseVerdict(req.item, json);
+    const { data, error } = await sb.functions.invoke('verdict-photo', { body: req });
+    if (error || !data) return null;
+    return normaliseVerdict(data.name || 'Scanned item', data);
   } catch {
     return null;
   }
 };
 
+const tryTextOpenAI = async (req: VerdictRequest): Promise<VerdictPayload | null> => {
+  if (!openaiConfigured()) return null;
+  const raw = await openaiChat(
+    SYSTEM,
+    [
+      {
+        role: 'user',
+        content: `Item: ${req.item}\nMode: ${req.mode}\nWeek: ${req.week}\nCountry: ${req.country}\nReturn ONLY the JSON, no prose.`,
+      },
+    ],
+    { model: 'gpt-4o-mini', maxTokens: 600, jsonMode: true },
+  );
+  const parsed = parseJsonReply<Record<string, unknown>>(raw);
+  if (!parsed) return null;
+  return normaliseVerdict(req.item, parsed);
+};
+
+const tryPhotoOpenAI = async (req: PhotoRequest): Promise<VerdictPayload | null> => {
+  if (!openaiConfigured()) return null;
+  const prompt =
+    `Identify what the user is looking at (food / dish / medication / cosmetic / activity scene) and give a safety verdict for pregnancy.\n\n` +
+    `Mode hint: ${req.mode}\nWeek: ${req.week}\nCountry: ${req.country}\n\n` +
+    `Return ONLY the JSON, no prose. Use the "name" field to describe what you actually saw in the photo.`;
+  const raw = await openaiVision(SYSTEM, prompt, req.base64, {
+    model: 'gpt-4o',
+    maxTokens: 700,
+    jsonMode: true,
+  });
+  const parsed = parseJsonReply<Record<string, unknown>>(raw);
+  if (!parsed) return null;
+  const name = typeof parsed.name === 'string' && parsed.name ? parsed.name : 'Scanned item';
+  return normaliseVerdict(name, parsed);
+};
+
 const normaliseVerdict = (item: string, raw: any): VerdictPayload => ({
-  name: item,
-  label: String(raw.label ?? item.slice(0, 8)).toLowerCase(),
+  name: String(raw.name ?? item),
+  label: String(raw.label ?? item.slice(0, 10)).toLowerCase(),
   hue: (['rose', 'sage', 'lavender', 'amber', 'sand'].includes(raw.hue)
     ? raw.hue
     : 'amber') as Hue,
@@ -89,19 +115,38 @@ const normaliseVerdict = (item: string, raw: any): VerdictPayload => ({
   },
 });
 
-export const fetchVerdict = async (
-  req: VerdictRequest,
-): Promise<VerdictPayload> => {
-  // 1) Local bank wins for known items — keeps copy consistent and instant.
+export const fetchVerdict = async (req: VerdictRequest): Promise<VerdictPayload> => {
   if (VERDICT_BANK[req.item]) return VERDICT_BANK[req.item];
 
-  // 2) Try edge function, then direct Anthropic call.
-  const fromEdge = await tryEdgeFunction(req);
+  const fromEdge = await tryTextEdge(req);
   if (fromEdge) return fromEdge;
 
-  const fromClaude = await tryAnthropic(req);
-  if (fromClaude) return fromClaude;
+  const fromOpenAI = await tryTextOpenAI(req);
+  if (fromOpenAI) return fromOpenAI;
 
-  // 3) Calm fallback so the experience never breaks.
   return buildDefaultVerdict(req.item, req.mode, req.week);
+};
+
+export const analyzePhoto = async (req: PhotoRequest): Promise<VerdictPayload> => {
+  const fromEdge = await tryPhotoEdge(req);
+  if (fromEdge) return fromEdge;
+
+  const fromOpenAI = await tryPhotoOpenAI(req);
+  if (fromOpenAI) return fromOpenAI;
+
+  // Last-resort: no AI available, return a calm "we couldn't read the photo"
+  // payload so the experience doesn't break.
+  return {
+    name: 'Scanned item',
+    label: 'scan',
+    hue: 'sand',
+    verdict: 'safe',
+    headline: "We couldn't read the photo clearly.",
+    body:
+      'Marigold AI is offline right now, so we can\'t analyse the image. Try again with more light, or type the item name and we\'ll look it up.',
+    action: {
+      title: 'Type it instead',
+      body: 'Tap "Type instead" on the scan screen and we\'ll give you the verdict that way.',
+    },
+  };
 };
