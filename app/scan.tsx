@@ -9,13 +9,14 @@ import {
   useCameraPermissions,
   CameraType,
 } from 'expo-camera';
-import { useRouter } from 'expo-router';
+import { useRouter, Redirect } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 import { Icon } from '@/components/Icon';
 import { ScanLine } from '@/components/ScanLine';
 import { useAppStore } from '@/store/useAppStore';
+import { aiConfigured } from '@/lib/ai';
 import { useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -42,7 +43,7 @@ const MODE_POINT_KEY: Record<(typeof MODES)[number], string> = {
   Activity: 'scan.point.activity',
 };
 
-export default function Scan() {
+function ScanScreen() {
   const t = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
@@ -69,12 +70,12 @@ export default function Scan() {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy).catch(() => {});
     captureScale.value = withTiming(0.9, { duration: SHUTTER_PRESS_MS });
 
-    // Menu mode skips the verdict screen and goes straight to /menu-mode.
+    // Menu mode needs Marigold AI; without a photo we fall back to the library.
     if (mode === 'Menu') {
       shutterTimer.current = setTimeout(() => {
         captureScale.value = withTiming(1, { duration: 120 });
         shutterTimer.current = null;
-        router.replace('/menu-mode');
+        router.replace({ pathname: '/(tabs)/check', params: { focus: '1' } });
       }, SHUTTER_HOLD_MS);
       return;
     }
@@ -106,7 +107,7 @@ export default function Scan() {
     shutterTimer.current = setTimeout(() => {
       captureScale.value = withTiming(1, { duration: 120 });
       shutterTimer.current = null;
-      router.replace({ pathname: '/verdict', params: { item: '__pending__', mode } });
+      router.replace({ pathname: '/(tabs)/check', params: { focus: '1' } });
     }, SHUTTER_HOLD_MS);
   }, [capturing, cameraReady, captureScale, mode, router, setPendingPhoto]);
 
@@ -231,7 +232,7 @@ export default function Scan() {
       </View>
 
       <Pressable
-        onPress={() => router.replace('/(tabs)/library')}
+        onPress={() => router.replace('/(tabs)/check')}
         accessibilityRole="link"
         accessibilityLabel={t('scan.typeInstead')}
         hitSlop={12}
@@ -379,4 +380,11 @@ export default function Scan() {
       </View>
     </View>
   );
+}
+
+// Marigold AI is off unless the optional backend is enabled (see lib/ai.ts);
+// deep links into AI screens fall back to the offline library.
+export default function Scan() {
+  if (!aiConfigured()) return <Redirect href="/(tabs)/check" />;
+  return <ScanScreen />;
 }

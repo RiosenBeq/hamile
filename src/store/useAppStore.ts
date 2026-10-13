@@ -1,18 +1,10 @@
 // Marigold app store. Offline-first by design — everything is cached in
-// AsyncStorage and queued for Supabase sync via the outbox in lib/syncQueue.
+// AsyncStorage and (only when a backend is configured) queued for Supabase
+// sync via the outbox in lib/syncQueue.
 
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { persist, createJSONStorage } from 'zustand/middleware';
-import {
-  BAG_TEMPLATE,
-  BagGroup,
-  JournalItem,
-  RecentItem,
-  SAMPLE_JOURNAL,
-  SAMPLE_RECENTS,
-  SAMPLE_USER,
-} from '@/data/sample';
+import { BAG_TEMPLATE, JournalItem, RecentItem } from '@/data/sample';
 import {
   syncBagItem,
   syncBirthPlan,
@@ -24,70 +16,45 @@ import {
   syncSymptom,
   syncWeight,
 } from '@/lib/sync';
+import { dayKey, dueDateForCurrentWeek, pregnancyStatus, toISODate } from '@/lib/pregnancy';
+import { newId } from '@/lib/id';
+import { enableWrites, resilientStorage, STORE_VERSION, watchAppStateForBackup } from '@/lib/storage';
 import type { LangCode } from '@/i18n/translations';
+import type {
+  Appointment,
+  BagGroup,
+  BagItem,
+  BirthPlanState,
+  ChatMessage,
+  Contraction,
+  DiaryEntry,
+  KegelSession,
+  Kick,
+  NotificationPrefs,
+  NotificationTimes,
+  Pill,
+  PremiumState,
+  Profile,
+  SymptomEntry,
+  WeightEntry,
+} from './types';
 
-export type Profile = {
-  name: string;
-  stage: 'ttc' | 'pregnant' | 'postpartum';
-  week: number;
-  conditions: string[];
-  country: string;
-  partnerLinked: boolean;
-  prePregnancyKg?: number;
-  heightCm?: number;
-};
-
-export type Kick = { id: string; sessionId: string; at: number };
-export type Contraction = {
-  id: string;
-  startedAt: number;
-  endedAt: number;
-  intensity?: 1 | 2 | 3 | 4 | 5;
-};
-export type WeightEntry = {
-  id: string;
-  week: number;
-  kg: number;
-  at: number;
-  note?: string;
-};
-export type SymptomEntry = {
-  id: string;
-  at: number;
-  week: number;
-  mood: 1 | 2 | 3 | 4 | 5;
-  nausea: 0 | 1 | 2 | 3;
-  sleep: 1 | 2 | 3 | 4 | 5;
-  cramps: 0 | 1 | 2 | 3;
-  energy: 1 | 2 | 3 | 4 | 5;
-  note?: string;
-};
-export type BagItem = {
-  id: string;
-  group: BagGroup;
-  label: string;
-  checked: boolean;
-  position: number;
-  custom?: boolean;
-};
-export type BirthPlanState = Record<string, string[] | string>;
-
-export type NotificationPrefs = {
-  intention: boolean;
-  milestone: boolean;
-  reminders: boolean;
-  partner: boolean;
-  emergency: boolean;
-  pelvicFloor: boolean;
-  kickNudge: boolean;
-};
-
-export type ChatMessage = {
-  id: string;
-  role: 'user' | 'assistant';
-  content: string;
-  ts: number;
-};
+export type {
+  Appointment,
+  BagItem,
+  BirthPlanState,
+  ChatMessage,
+  Contraction,
+  DiaryEntry,
+  KegelSession,
+  Kick,
+  NotificationPrefs,
+  Pill,
+  PremiumState,
+  Profile,
+  SymptomEntry,
+  WeightEntry,
+} from './types';
 
 type State = {
   hydrated: boolean;
@@ -95,6 +62,8 @@ type State = {
   language: LangCode;
   languageSet: boolean;
   profile: Profile;
+
+  /** History of AI verdicts (only populated when Marigold AI is configured). */
   recents: RecentItem[];
   journal: JournalItem[];
   chat: ChatMessage[];
@@ -107,10 +76,30 @@ type State = {
   bag: BagItem[];
   birthPlan: BirthPlanState;
   notifPrefs: NotificationPrefs;
+  notifTimes: NotificationTimes;
+
+  appointments: Appointment[];
+  diary: DiaryEntry[];
+  waterByDay: Record<string, number>;
+  waterGoal: number;
+  pills: Pill[];
+  pillLog: Record<string, string[]>;
+  kegel: KegelSession[];
+  favoriteNames: string[];
+  checklistDone: Record<string, boolean>;
+  safetyRecent: string[];
+  safetySaved: string[];
+  premium: PremiumState;
+  /** Last pregnancy week the user has "seen" — drives the new-week moment. */
+  lastSeenWeek: number;
+  /** First launch (epoch ms) — the gentle Plus offer waits a few days. */
+  firstOpenAt: number;
+  paywallNudged: boolean;
 
   setOnboarded: (v: boolean) => void;
   setLanguage: (l: LangCode) => void;
   patchProfile: (p: Partial<Profile>) => void;
+  setDueDate: (iso: string) => void;
   addJournalEntry: (entry: JournalItem) => void;
   addRecent: (item: RecentItem) => void;
   removeJournalEntry: (id: string) => void;
@@ -130,27 +119,51 @@ type State = {
   removeBagItem: (id: string) => void;
   setBirthPlanField: (key: string, value: string[] | string) => void;
   patchNotifPrefs: (p: Partial<NotificationPrefs>) => void;
+  patchNotifTimes: (p: Partial<NotificationTimes>) => void;
+
+  upsertAppointment: (a: Appointment) => void;
+  removeAppointment: (id: string) => void;
+  upsertDiary: (d: DiaryEntry) => void;
+  removeDiary: (id: string) => void;
+  addWater: (delta: number, day?: string) => void;
+  setWaterGoal: (g: number) => void;
+  upsertPill: (p: Pill) => void;
+  removePill: (id: string) => void;
+  togglePillTaken: (pillId: string, day?: string) => void;
+  addKegel: (s: KegelSession) => void;
+  toggleFavoriteName: (name: string) => void;
+  toggleChecklist: (id: string) => void;
+  pushSafetyRecent: (id: string) => void;
+  toggleSafetySaved: (id: string) => void;
+  setPremium: (p: PremiumState) => void;
+  setLastSeenWeek: (w: number) => void;
+  markPaywallNudged: () => void;
+  resetAll: () => void;
 };
 
-const defaultProfile: Profile = {
-  name: SAMPLE_USER.name,
+export const defaultProfile: Profile = {
+  name: '',
   stage: 'pregnant',
-  week: SAMPLE_USER.week,
+  dueDate: null,
+  week: 0,
   conditions: [],
-  country: SAMPLE_USER.country,
+  country: '',
   partnerLinked: false,
+  units: 'metric',
+  lossMode: false,
+  babyBornAt: null,
 };
 
-const defaultBag = (): BagItem[] =>
+export const defaultBag = (): BagItem[] =>
   BAG_TEMPLATE.map((b, i) => ({
     id: `bag-${b.group}-${i}`,
     group: b.group,
-    label: b.label,
+    label: b.key,
     checked: false,
     position: i,
   }));
 
-const defaultPrefs: NotificationPrefs = {
+export const defaultPrefs: NotificationPrefs = {
   intention: true,
   milestone: true,
   reminders: true,
@@ -158,28 +171,59 @@ const defaultPrefs: NotificationPrefs = {
   emergency: true,
   pelvicFloor: false,
   kickNudge: true,
+  water: false,
+  nudge: true,
+};
+
+export const defaultTimes: NotificationTimes = { week: '09:00', thought: '08:30', kick: '19:00' };
+
+const initialData = () => ({
+  onboarded: false,
+  profile: defaultProfile,
+  recents: [] as RecentItem[],
+  journal: [] as JournalItem[],
+  chat: [] as ChatMessage[],
+  pendingPhoto: null as string | null,
+  kicks: [] as Kick[],
+  contractions: [] as Contraction[],
+  weights: [] as WeightEntry[],
+  symptoms: [] as SymptomEntry[],
+  bag: defaultBag(),
+  birthPlan: {} as BirthPlanState,
+  notifPrefs: defaultPrefs,
+  notifTimes: defaultTimes,
+  appointments: [] as Appointment[],
+  diary: [] as DiaryEntry[],
+  waterByDay: {} as Record<string, number>,
+  waterGoal: 8,
+  pills: [] as Pill[],
+  pillLog: {} as Record<string, string[]>,
+  kegel: [] as KegelSession[],
+  favoriteNames: [] as string[],
+  checklistDone: {} as Record<string, boolean>,
+  safetyRecent: [] as string[],
+  safetySaved: [] as string[],
+  premium: { active: false } as PremiumState,
+  lastSeenWeek: 0,
+  firstOpenAt: Date.now(),
+  paywallNudged: false,
+});
+
+const MAX_DAYS_KEPT = 120;
+const trimDays = <T,>(rec: Record<string, T>): Record<string, T> => {
+  const keys = Object.keys(rec).sort();
+  if (keys.length <= MAX_DAYS_KEPT) return rec;
+  const keep = keys.slice(-MAX_DAYS_KEPT);
+  return Object.fromEntries(keep.map((k) => [k, rec[k]]));
 };
 
 export const useAppStore = create<State>()(
   persist(
     (set, get) => ({
       hydrated: false,
-      onboarded: false,
       language: 'en',
       languageSet: false,
-      profile: defaultProfile,
-      recents: SAMPLE_RECENTS,
-      journal: SAMPLE_JOURNAL,
-      chat: [],
-      pendingPhoto: null,
-
-      kicks: [],
-      contractions: [],
-      weights: [],
-      symptoms: [],
-      bag: defaultBag(),
-      birthPlan: {},
-      notifPrefs: defaultPrefs,
+      ...initialData(),
 
       setOnboarded: (v) => set({ onboarded: v }),
       setLanguage: (l) => set({ language: l, languageSet: true }),
@@ -187,8 +231,13 @@ export const useAppStore = create<State>()(
         set((s) => ({ profile: { ...s.profile, ...p } }));
         syncProfile(p as Record<string, unknown>).catch(() => {});
       },
+      setDueDate: (iso) => {
+        const week = pregnancyStatus(iso).weeks;
+        set((s) => ({ profile: { ...s.profile, dueDate: iso, week }, lastSeenWeek: week }));
+        syncProfile({ dueDate: iso, week }).catch(() => {});
+      },
       addJournalEntry: (entry) => {
-        set((s) => ({ journal: [entry, ...s.journal] }));
+        set((s) => ({ journal: [entry, ...s.journal].slice(0, 300) }));
         syncJournalEntry(entry).catch(() => {});
       },
       addRecent: (item) => set((s) => ({ recents: [item, ...s.recents].slice(0, 10) })),
@@ -201,20 +250,13 @@ export const useAppStore = create<State>()(
       setPendingPhoto: (b64) => set({ pendingPhoto: b64 }),
 
       addKick: (sessionId) => {
-        const k: Kick = {
-          id: `${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-          sessionId,
-          at: Date.now(),
-        };
-        set((s) => ({ kicks: [...s.kicks, k] }));
+        const k: Kick = { id: newId(), sessionId, at: Date.now() };
+        set((s) => ({ kicks: [...s.kicks, k].slice(-2000) }));
         syncKick(k).catch(() => {});
       },
-      endKickSession: () => {
-        // No-op for state — sessions are an in-memory grouping. Hook for
-        // future analytics.
-      },
+      endKickSession: () => {},
       addContraction: (c) => {
-        set((s) => ({ contractions: [c, ...s.contractions] }));
+        set((s) => ({ contractions: [c, ...s.contractions].slice(0, 500) }));
         syncContraction(c).catch(() => {});
       },
       removeContraction: (id) =>
@@ -228,9 +270,9 @@ export const useAppStore = create<State>()(
       removeWeight: (id) => set((s) => ({ weights: s.weights.filter((w) => w.id !== id) })),
       addSymptom: (sym) => {
         set((s) => ({
-          symptoms: [sym, ...s.symptoms.filter((x) => x.id !== sym.id)].sort(
-            (a, b) => b.at - a.at,
-          ),
+          symptoms: [sym, ...s.symptoms.filter((x) => x.id !== sym.id)]
+            .sort((a, b) => b.at - a.at)
+            .slice(0, 400),
         }));
         syncSymptom(sym).catch(() => {});
       },
@@ -247,7 +289,7 @@ export const useAppStore = create<State>()(
       },
       addBagItem: (group, label) => {
         const item: BagItem = {
-          id: `bag-custom-${Date.now()}`,
+          id: `bag-custom-${newId()}`,
           group,
           label,
           checked: false,
@@ -263,31 +305,127 @@ export const useAppStore = create<State>()(
         syncBirthPlan(get().birthPlan).catch(() => {});
       },
       patchNotifPrefs: (p) => set((s) => ({ notifPrefs: { ...s.notifPrefs, ...p } })),
+      patchNotifTimes: (p) => set((s) => ({ notifTimes: { ...s.notifTimes, ...p } })),
+
+      upsertAppointment: (a) =>
+        set((s) => ({
+          appointments: [a, ...s.appointments.filter((x) => x.id !== a.id)].sort((x, y) => x.at - y.at),
+        })),
+      removeAppointment: (id) =>
+        set((s) => ({ appointments: s.appointments.filter((a) => a.id !== id) })),
+      upsertDiary: (d) =>
+        set((s) => ({
+          diary: [d, ...s.diary.filter((x) => x.id !== d.id)].sort((x, y) => y.at - x.at),
+        })),
+      removeDiary: (id) => set((s) => ({ diary: s.diary.filter((d) => d.id !== id) })),
+      addWater: (delta, day = dayKey()) =>
+        set((s) => {
+          const next = Math.max(0, Math.min(30, (s.waterByDay[day] ?? 0) + delta));
+          return { waterByDay: trimDays({ ...s.waterByDay, [day]: next }) };
+        }),
+      setWaterGoal: (g) => set({ waterGoal: Math.max(4, Math.min(16, Math.round(g))) }),
+      upsertPill: (p) => set((s) => ({ pills: [...s.pills.filter((x) => x.id !== p.id), p] })),
+      removePill: (id) => set((s) => ({ pills: s.pills.filter((p) => p.id !== id) })),
+      togglePillTaken: (pillId, day = dayKey()) =>
+        set((s) => {
+          const cur = s.pillLog[day] ?? [];
+          const next = cur.includes(pillId) ? cur.filter((x) => x !== pillId) : [...cur, pillId];
+          return { pillLog: trimDays({ ...s.pillLog, [day]: next }) };
+        }),
+      addKegel: (k) => set((s) => ({ kegel: [k, ...s.kegel].slice(0, 500) })),
+      toggleFavoriteName: (name) =>
+        set((s) => ({
+          favoriteNames: s.favoriteNames.includes(name)
+            ? s.favoriteNames.filter((n) => n !== name)
+            : [name, ...s.favoriteNames],
+        })),
+      toggleChecklist: (id) =>
+        set((s) => ({ checklistDone: { ...s.checklistDone, [id]: !s.checklistDone[id] } })),
+      pushSafetyRecent: (id) =>
+        set((s) => ({ safetyRecent: [id, ...s.safetyRecent.filter((x) => x !== id)].slice(0, 12) })),
+      toggleSafetySaved: (id) =>
+        set((s) => ({
+          safetySaved: s.safetySaved.includes(id)
+            ? s.safetySaved.filter((x) => x !== id)
+            : [id, ...s.safetySaved],
+        })),
+      setPremium: (p) => set({ premium: p }),
+      setLastSeenWeek: (w) => set({ lastSeenWeek: w }),
+      markPaywallNudged: () => set({ paywallNudged: true }),
+      resetAll: () => set({ ...initialData(), language: get().language, languageSet: get().languageSet }),
     }),
     {
       name: 'marigold-app-state',
-      storage: createJSONStorage(() => AsyncStorage),
+      version: STORE_VERSION,
+      storage: createJSONStorage(() => resilientStorage),
+      // Deep-merge nested objects so fields added in newer versions get
+      // their defaults instead of being dropped.
+      merge: (persisted: any, current) => {
+        const p = (persisted ?? {}) as Partial<State>;
+        return {
+          ...current,
+          ...p,
+          profile: { ...current.profile, ...(p.profile ?? {}) },
+          notifPrefs: { ...current.notifPrefs, ...(p.notifPrefs ?? {}) },
+          notifTimes: { ...current.notifTimes, ...(p.notifTimes ?? {}) },
+          premium: { ...current.premium, ...(p.premium ?? {}) },
+        } as State;
+      },
+      onRehydrateStorage: () => () => {
+        // Only now is it safe to write: the user's data is in memory.
+        enableWrites();
+        watchAppStateForBackup();
+      },
       // `hydrated` must always start false on cold boot; persisting it would
       // race with React subscribers seeing a stale `true` from the previous
       // session before AsyncStorage actually finishes loading.
-      partialize: (s) => ({
-        onboarded: s.onboarded,
-        language: s.language,
-        languageSet: s.languageSet,
-        profile: s.profile,
-        recents: s.recents,
-        journal: s.journal,
-        kicks: s.kicks,
-        contractions: s.contractions,
-        weights: s.weights,
-        symptoms: s.symptoms,
-        bag: s.bag,
-        birthPlan: s.birthPlan,
-        notifPrefs: s.notifPrefs,
-      }),
+      partialize: (s) => {
+        const { hydrated: _h, pendingPhoto: _p, ...rest } = s;
+        // Strip functions — zustand's JSON storage drops them anyway, but this
+        // keeps the persisted blob honest.
+        return Object.fromEntries(
+          Object.entries(rest).filter(([, v]) => typeof v !== 'function'),
+        ) as Partial<State>;
+      },
+      migrate: (persisted: any, version) => {
+        const state = { ...(persisted ?? {}) };
+        // Never let a migration bug wipe data: on any error keep what we have
+        // (the raw pre-migration value is also saved by lib/storage).
+        try {
+          migrateInPlace(state, version);
+        } catch (e) {
+          if (__DEV__) console.warn('[store] migration failed', e);
+        }
+        return state as State;
+      },
     },
   ),
 );
+
+function migrateInPlace(state: any, version: number) {
+        if (version < 2) {
+          // v1 stored a static week and shipped demo journal/recents.
+          const profile = { ...defaultProfile, ...(state.profile ?? {}) };
+          if (!profile.dueDate && typeof profile.week === 'number' && profile.week > 0) {
+            profile.dueDate = toISODate(dueDateForCurrentWeek(profile.week));
+          }
+          if (profile.name === 'Jane') profile.name = '';
+          state.profile = profile;
+          const demoJournal = new Set(['j1', 'j2', 'j3', 'j4', 'j5', 'j6', 'j7', 'j8', 'j9', 'j10', 'j11', 'j12']);
+          state.journal = (state.journal ?? []).filter((j: JournalItem) => !demoJournal.has(j.id));
+          const demoRecents = new Set(['1', '2', '3', '4', '5', '6']);
+          state.recents = (state.recents ?? []).filter((r: RecentItem) => !demoRecents.has(r.id));
+          // Old bag rows stored English labels; map them onto translation keys.
+          const byLabel = new Map(BAG_TEMPLATE.map((b) => [b.legacy, b.key] as const));
+          state.bag = (state.bag ?? defaultBag()).map((b: BagItem) =>
+            !b.custom && byLabel.has(b.label) ? { ...b, label: byLabel.get(b.label)! } : b,
+          );
+          state.notifPrefs = { ...defaultPrefs, ...(state.notifPrefs ?? {}) };
+          state.lastSeenWeek = profile.dueDate ? pregnancyStatus(profile.dueDate).weeks : 0;
+          state.firstOpenAt = Date.now();
+          state.paywallNudged = false;
+        }
+}
 
 // Mark the store as hydrated via setState so subscribers re-render. Mutating
 // `state.hydrated` directly inside `onRehydrateStorage` does NOT notify React,

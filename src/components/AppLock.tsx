@@ -17,6 +17,8 @@ import { Btn } from '@/components/Btn';
 import { Icon } from '@/components/Icon';
 import { Blob } from '@/components/Blob';
 import { MarigoldMark } from '@/components/MarigoldMark';
+import { translate } from '@/i18n';
+import { useAppStore } from '@/store/useAppStore';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -108,9 +110,9 @@ export function AppLock({ children }: { children: React.ReactNode }) {
 async function tryAuth(): Promise<boolean> {
   try {
     const result = await LocalAuthentication.authenticateAsync({
-      promptMessage: 'Unlock Marigold',
-      fallbackLabel: 'Use device passcode',
-      cancelLabel: 'Cancel',
+      promptMessage: translate(useAppStore.getState().language, 'lock.prompt'),
+      fallbackLabel: translate(useAppStore.getState().language, 'lock.passcode'),
+      cancelLabel: translate(useAppStore.getState().language, 'c.cancel'),
       disableDeviceFallback: false,
     });
     return result.success;
@@ -143,9 +145,11 @@ function LockVeil({ locked, onUnlock }: { locked: boolean; onUnlock: () => void 
       <Text style={{ marginTop: 24, fontFamily: fonts.display, fontSize: 26, color: colors.ink, letterSpacing: -0.3 }}>
         Marigold
       </Text>
-      <Text style={{ marginTop: 6, color: colors.mute, fontSize: 14, fontFamily: fonts.body, textAlign: 'center' }}>
-        Locked. Tap to unlock.
-      </Text>
+      {locked ? (
+        <Text style={{ marginTop: 6, color: colors.mute, fontSize: 14, fontFamily: fonts.body, textAlign: 'center' }}>
+          {translate(useAppStore.getState().language, 'lock.locked')}
+        </Text>
+      ) : null}
       {locked ? (
         <Pressable
           onPress={async () => {
@@ -164,7 +168,7 @@ function LockVeil({ locked, onUnlock }: { locked: boolean; onUnlock: () => void 
           }}
         >
           <Icon.user size={18} color="#fff" />
-          <Text style={{ color: '#fff', fontFamily: fonts.bodyBold, fontSize: 15 }}>Unlock</Text>
+          <Text style={{ color: '#fff', fontFamily: fonts.bodyBold, fontSize: 15 }}>{translate(useAppStore.getState().language, 'lock.unlock')}</Text>
         </Pressable>
       ) : null}
     </View>

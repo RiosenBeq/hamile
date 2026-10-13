@@ -1,0 +1,18 @@
+// Public URLs used in the app and on the App Store listing.
+// The pages live in /docs and are served by GitHub Pages.
+
+export const SITE_URL = 'https://riosenbeq.github.io/hamile';
+export const PRIVACY_URL = `${SITE_URL}/privacy.html`;
+export const TERMS_URL = `${SITE_URL}/terms.html`;
+export const SUPPORT_URL = `${SITE_URL}/support.html`;
+export const SUPPORT_EMAIL = 'support@babybloom.kids';
+/** Apple's standard licensed application end user licence agreement. */
+export const APPLE_EULA_URL = 'https://www.apple.com/legal/internet-services/itunes/dev/stdeula/';
+
+/** Filled in once the App Store record exists (numeric Apple ID). */
+export const APP_STORE_ID = '6822443743';
+export const appStoreReviewUrl = () =>
+  APP_STORE_ID ? `itms-apps://apps.apple.com/app/id${APP_STORE_ID}?action=write-review` : SUPPORT_URL;
+
+/** Sister app for newborn tracking (feeding, sleep, nappies). */
+export const BABY_BLOOM_URL = 'https://apps.apple.com/app/id6761458828';

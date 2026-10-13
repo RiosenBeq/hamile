@@ -16,7 +16,7 @@ import {
   WeightEntry,
 } from '@/store/useAppStore';
 import { JournalItem } from '@/data/sample';
-import { getSupabase } from '@/lib/supabase';
+import { getSupabase, supabaseConfigured } from '@/lib/supabase';
 
 type Op =
   | { kind: 'journal.upsert'; entry: JournalItem }
@@ -180,6 +180,9 @@ async function execOp(op: Op): Promise<boolean> {
 }
 
 export async function enqueue(op: Op) {
+  // Local-only mode: with no backend there is nowhere to send the write, so
+  // don't let the outbox grow forever in AsyncStorage.
+  if (!supabaseConfigured()) return;
   await load();
   await attachListeners();
   queue.push({

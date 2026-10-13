@@ -4,7 +4,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter, Redirect } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import Animated, { FadeIn, ZoomIn } from 'react-native-reanimated';
 import { Card } from '@/components/Card';
@@ -15,6 +15,7 @@ import { Shimmer, PulseSoft } from '@/components/Drift';
 import { analyzePhoto, fetchVerdict, Mode } from '@/lib/ai';
 import { VerdictPayload } from '@/data/verdicts';
 import { useAppStore } from '@/store/useAppStore';
+import { aiConfigured } from '@/lib/ai';
 import { useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -22,7 +23,7 @@ import { newId } from '@/lib/id';
 
 const SHIMMER_MIN_MS = 700;
 
-export default function Verdict() {
+function VerdictScreen() {
   const t = useT();
   const router = useRouter();
   const insets = useSafeAreaInsets();
@@ -44,7 +45,7 @@ export default function Verdict() {
     let waitTimer: ReturnType<typeof setTimeout> | null = null;
     const controller = new AbortController();
 
-    const lookup = item === '__pending__' ? 'Burrata, peach, basil' : item || 'Item';
+    const lookup = item || 'Item';
     const start = Date.now();
     const safeMode = (['Food', 'Menu', 'Medication', 'Cosmetic', 'Activity'] as const).includes(
       mode as Mode,
@@ -262,4 +263,11 @@ export default function Verdict() {
       )}
     </View>
   );
+}
+
+// Marigold AI is off unless the optional backend is enabled (see lib/ai.ts);
+// deep links into AI screens fall back to the offline library.
+export default function Verdict() {
+  if (!aiConfigured()) return <Redirect href="/(tabs)/check" />;
+  return <VerdictScreen />;
 }

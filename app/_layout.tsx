@@ -1,25 +1,21 @@
-// Marigold root layout. Loads fonts, hydrates the store, then gates on
-// onboarding. Modals slide up over the tabs.
+// Marigold root layout. Loads fonts, hydrates the store, configures
+// purchases, keeps local notifications fresh, then gates on onboarding.
 
 import { useEffect } from 'react';
-import { Stack, SplashScreen } from 'expo-router';
+import { AppState, Platform, View } from 'react-native';
+import { Stack, SplashScreen, useRouter } from 'expo-router';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
-import { View } from 'react-native';
-import {
-  useFonts,
-  Manrope_500Medium,
-  Manrope_700Bold,
-} from '@expo-google-fonts/manrope';
-import {
-  SourceSerif4_600SemiBold,
-  SourceSerif4_700Bold,
-} from '@expo-google-fonts/source-serif-4';
+import * as Notifications from 'expo-notifications';
+import { useFonts, Manrope_500Medium, Manrope_700Bold } from '@expo-google-fonts/manrope';
+import { SourceSerif4_600SemiBold, SourceSerif4_700Bold } from '@expo-google-fonts/source-serif-4';
 import { useAppStore } from '@/store/useAppStore';
 import { AppLock } from '@/components/AppLock';
 import { bootSync } from '@/lib/sync';
 import { rescheduleAll } from '@/lib/notifications';
+import { configurePurchases } from '@/lib/purchases';
+import { syncWidget } from '@/lib/native';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -27,8 +23,7 @@ SplashScreen.preventAutoHideAsync().catch(() => {});
 export const unstable_settings = { initialRouteName: 'index' };
 
 export default function RootLayout() {
-  // Only load the four weights the design actually uses. Skipping the others
-  // shaves a few hundred KB off the bundle and shortens cold start.
+  // Only load the four weights the design actually uses.
   const [fontsLoaded, fontError] = useFonts({
     Manrope_500Medium,
     Manrope_700Bold,
@@ -39,24 +34,38 @@ export default function RootLayout() {
   const ready = (fontsLoaded || !!fontError) && hydrated;
 
   useEffect(() => {
-    if (ready) {
-      SplashScreen.hideAsync().catch(() => {});
-      bootSync().catch(() => {});
-      const { profile, notifPrefs } = useAppStore.getState();
-      // Marigold always opens in English by default. The user can switch
-      // languages from Settings → Language; that choice persists via
-      // languageSet in the store.
-      rescheduleAll(profile, notifPrefs).catch(() => {});
-    }
+    if (!ready) return;
+    SplashScreen.hideAsync().catch(() => {});
+    bootSync().catch(() => {});
+    configurePurchases().catch(() => {});
+    rescheduleAll().catch(() => {});
+    // Keep the Home/Lock Screen widget in step with the due date & language.
+    const pushWidget = () => {
+      const s = useAppStore.getState();
+      syncWidget(s.profile, s.language).catch(() => {});
+    };
+    pushWidget();
+    const unsubWidget = useAppStore.subscribe((s, prev) => {
+      if (s.profile !== prev.profile || s.language !== prev.language) pushWidget();
+    });
+    // Roll the notification window forward whenever the app comes back.
+    const sub = AppState.addEventListener('change', (s) => {
+      if (s === 'active') rescheduleAll().catch(() => {});
+    });
+    return () => {
+      sub.remove();
+      unsubWidget();
+    };
   }, [ready]);
 
   if (!ready) return <View style={{ flex: 1, backgroundColor: colors.base }} />;
 
   return (
-    <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.shellDark }}>
+    <GestureHandlerRootView style={{ flex: 1, backgroundColor: colors.base }}>
       <SafeAreaProvider>
         <StatusBar style="dark" />
         <AppLock>
+          {Platform.OS !== 'web' ? <NotificationRouter /> : null}
           <RootStack />
         </AppLock>
       </SafeAreaProvider>
@@ -64,64 +73,53 @@ export default function RootLayout() {
   );
 }
 
+/** Opens the screen a tapped notification points at (data.url). */
+function NotificationRouter() {
+  const router = useRouter();
+  const lastResponse = Notifications.useLastNotificationResponse();
+  useEffect(() => {
+    const url = lastResponse?.notification.request.content.data?.url;
+    if (typeof url === 'string' && url.startsWith('/') && useAppStore.getState().onboarded) {
+      const id = setTimeout(() => router.push(url as any), 250);
+      return () => clearTimeout(id);
+    }
+  }, [lastResponse, router]);
+  return null;
+}
+
+const modal = { presentation: 'modal' as const, animation: 'slide_from_bottom' as const };
+const push = { animation: 'slide_from_right' as const };
+
 function RootStack() {
   return (
     <Stack
-          screenOptions={{
-            headerShown: false,
-            contentStyle: { backgroundColor: colors.base },
-            animation: 'fade',
-          }}
-        >
-          <Stack.Screen name="index" />
-          <Stack.Screen name="onboarding" options={{ animation: 'fade' }} />
-          <Stack.Screen name="(tabs)" />
-          <Stack.Screen
-            name="scan"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="verdict"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="baby"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="menu-mode"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="emergency"
-            options={{ presentation: 'modal', animation: 'fade' }}
-          />
-          <Stack.Screen
-            name="pdf"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="partner"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="paywall"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen
-            name="activity"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-          <Stack.Screen name="topic" options={{ animation: 'slide_from_right' }} />
-          <Stack.Screen name="reminder" options={{ animation: 'slide_from_right' }} />
-          <Stack.Screen name="settings" options={{ animation: 'slide_from_right' }} />
-          <Stack.Screen name="tools" options={{ animation: 'slide_from_right' }} />
-          <Stack.Screen name="auth" options={{ presentation: 'modal', animation: 'slide_from_bottom' }} />
-          <Stack.Screen name="auth-callback" />
-          <Stack.Screen
-            name="ask"
-            options={{ presentation: 'modal', animation: 'slide_from_bottom' }}
-          />
-        </Stack>
+      screenOptions={{
+        headerShown: false,
+        contentStyle: { backgroundColor: colors.base },
+        animation: 'fade',
+      }}
+    >
+      <Stack.Screen name="index" />
+      <Stack.Screen name="onboarding" options={{ animation: 'fade', gestureEnabled: false }} />
+      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="profile" options={push} />
+      <Stack.Screen name="settings" options={push} />
+      <Stack.Screen name="tools" options={push} />
+      <Stack.Screen name="appointments" options={push} />
+      <Stack.Screen name="safety/[id]" options={push} />
+      <Stack.Screen name="symptoms/index" options={push} />
+      <Stack.Screen name="symptoms/[id]" options={push} />
+      <Stack.Screen name="emergency" options={modal} />
+      <Stack.Screen name="paywall" options={modal} />
+      <Stack.Screen name="entry" options={modal} />
+      <Stack.Screen name="bump" options={push} />
+      <Stack.Screen name="pdf" options={modal} />
+      <Stack.Screen name="partner" options={modal} />
+      <Stack.Screen name="scan" options={modal} />
+      <Stack.Screen name="verdict" options={modal} />
+      <Stack.Screen name="ask" options={modal} />
+      <Stack.Screen name="auth" options={modal} />
+      <Stack.Screen name="auth-callback" />
+    </Stack>
   );
 }

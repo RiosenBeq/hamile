@@ -1,0 +1,8 @@
+{
+  "CFBundleDisplayName": "Marigold",
+  "NSCameraUsageDescription": "Marigold, gizli hamilelik günlüğün için karın fotoğrafı çekebilmen amacıyla kamerayı kullanır. Fotoğraflar telefonunda kalır.",
+  "NSPhotoLibraryUsageDescription": "Marigold, gizli hamilelik günlüğüne eklemek için fotoğraf arşivinden fotoğraf seçmene izin verir. Fotoğraflar telefonunda kalır.",
+  "NSPhotoLibraryAddUsageDescription": "Marigold, istediğinde karın kolajını fotoğraf arşivine kaydedebilir.",
+  "NSFaceIDUsageDescription": "Marigold, hamilelik günlüğün gizli kalsın diye uygulamanın kilidini Face ID ile açar.",
+  "NSMicrophoneUsageDescription": "Marigold mikrofonu yalnızca kamerayla video çekersen kullanır. Kendiliğinden asla ses kaydetmez."
+}

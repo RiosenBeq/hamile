@@ -1,0 +1,131 @@
+// "Can I…?" library, safety detail, symptom guide and emergency screen.
+
+const en = {
+  'verdict.safe': 'Safe',
+  'verdict.caution': 'Caution',
+  'verdict.avoid': 'Avoid',
+
+  'check.eyebrow': '{n} things, checked against trusted sources',
+  'check.title': 'Can I…?',
+  'check.results': '{n} results',
+  'check.noResults': 'Nothing for “{q}” yet',
+  'check.noResultsBody': 'Try another word (or the English/Turkish name). If you’re unsure about something, ask your midwife, doctor or pharmacist.',
+  'check.noResultsAi': 'Not in the library yet — Marigold AI can take a look.',
+  'check.askAi': 'Ask Marigold',
+  'check.askPrefill': 'Is {q} safe during pregnancy?',
+  'check.saved': 'Saved',
+  'check.recent': 'Recently checked',
+  'check.popular': 'Popular questions',
+  'check.symptoms': 'Is this normal?',
+  'check.symptomsSub': 'Common symptoms and when to call',
+  'check.scan': 'Scan a label',
+  'check.scanSub': 'Food, menus, medicines',
+  'check.ask': 'Ask Marigold',
+  'check.askSub': 'Calm, sourced answers',
+  'check.save': 'Save',
+  'check.notFound': 'We couldn’t find that item.',
+
+  'safety.why': 'Why',
+  'safety.tips': 'Good to know',
+  'safety.medsNote':
+    'Medicines and supplements affect everyone differently. Always check with your doctor, midwife or pharmacist before you start, stop or change anything — including prescribed medicines.',
+  'safety.worried': 'Worried right now? See warning signs',
+  'share.footer': 'Checked with Marigold — pregnancy companion',
+
+  'sym.title': 'Is this normal?',
+  'sym.eyebrow': '{n} common symptoms',
+  'sym.intro': 'Most pregnancy symptoms are common and harmless — but some need a call today. Here’s how to tell.',
+  'sym.search': 'Search symptoms…',
+  'sym.urgent': 'Get help',
+  'sym.trimester': 'Common in',
+  'sym.about': 'Why it happens',
+  'sym.relief': 'What can help',
+  'sym.call': 'Call your midwife or doctor if',
+  'sym.callUrgent': 'Get help now',
+  'sym.redFlags': 'Warning signs',
+  'sym.redFlagsSub': 'Know when not to wait',
+
+  'em.title': 'When to get help',
+  'em.intro':
+    'If something feels wrong, trust yourself. Call your maternity unit, midwife or doctor — or emergency services — straight away. You will never be wasting anyone’s time.',
+  'em.call': 'Call {number}',
+  'em.callSub': 'Emergency services · {country}',
+  'em.myCare': 'My maternity unit',
+  'em.myCareSub': 'Save your midwife’s or hospital’s number for one-tap calling.',
+  'em.myCareCall': 'Call {name}',
+  'em.addNumber': 'Add number',
+  'em.namePh': 'e.g. Maternity triage',
+  'em.numberPh': 'Phone number',
+  'em.signs': 'Call now if you notice',
+  'em.mental': 'Struggling emotionally?',
+  'em.mentalBody':
+    'Feeling low, anxious or overwhelmed is common in pregnancy and treatable. Talk to your midwife or doctor. If you ever think about harming yourself, call emergency services now.',
+  'em.country': 'Country',
+};
+
+type Keys = keyof typeof en;
+
+const tr: Record<Keys, string> = {
+  'verdict.safe': 'Güvenli',
+  'verdict.caution': 'Dikkat',
+  'verdict.avoid': 'Kaçın',
+
+  'check.eyebrow': 'Güvenilir kaynaklarla kontrol edilmiş {n} konu',
+  'check.title': 'Bu olur mu?',
+  'check.results': '{n} sonuç',
+  'check.noResults': '“{q}” için henüz bir şey yok',
+  'check.noResultsBody': 'Başka bir kelime dene (ya da İngilizce/Türkçe adını). Emin olmadığın bir şey varsa ebene, doktoruna ya da eczacına sor.',
+  'check.noResultsAi': 'Henüz kütüphanede yok — Marigold AI bakabilir.',
+  'check.askAi': 'Marigold’a sor',
+  'check.askPrefill': 'Hamilelikte {q} güvenli mi?',
+  'check.saved': 'Kaydedilenler',
+  'check.recent': 'Son baktıkların',
+  'check.popular': 'Sık sorulanlar',
+  'check.symptoms': 'Bu normal mi?',
+  'check.symptomsSub': 'Sık belirtiler ve ne zaman aramalı',
+  'check.scan': 'Etiket tara',
+  'check.scanSub': 'Yiyecek, menü, ilaç',
+  'check.ask': 'Marigold’a sor',
+  'check.askSub': 'Sakin, kaynaklı yanıtlar',
+  'check.save': 'Kaydet',
+  'check.notFound': 'Bu konuyu bulamadık.',
+
+  'safety.why': 'Neden',
+  'safety.tips': 'Bilmekte fayda var',
+  'safety.medsNote':
+    'İlaçlar ve takviyeler herkesi farklı etkiler. Bir şeye başlamadan, bırakmadan ya da değiştirmeden önce — reçeteli ilaçlar dahil — mutlaka doktoruna, ebene ya da eczacına danış.',
+  'safety.worried': 'Şu an endişeli misin? Tehlike işaretlerine bak',
+  'share.footer': 'Marigold ile kontrol edildi — hamilelik rehberi',
+
+  'sym.title': 'Bu normal mi?',
+  'sym.eyebrow': '{n} sık belirti',
+  'sym.intro': 'Hamilelik belirtilerinin çoğu yaygın ve zararsızdır — ama bazıları aynı gün aramayı gerektirir. Nasıl ayırt edeceğin burada.',
+  'sym.search': 'Belirti ara…',
+  'sym.urgent': 'Yardım al',
+  'sym.trimester': 'Sık görüldüğü dönem',
+  'sym.about': 'Neden olur',
+  'sym.relief': 'Ne iyi gelir',
+  'sym.call': 'Şu durumlarda ebeni ya da doktorunu ara',
+  'sym.callUrgent': 'Hemen yardım al',
+  'sym.redFlags': 'Tehlike işaretleri',
+  'sym.redFlagsSub': 'Ne zaman beklememen gerektiğini bil',
+
+  'em.title': 'Ne zaman yardım almalı',
+  'em.intro':
+    'Bir şeylerin yolunda olmadığını hissediyorsan kendine güven. Hemen doğum servisini, ebeni, doktorunu ya da acil yardım hattını ara. Kimsenin vaktini boşa harcamış olmazsın.',
+  'em.call': '{number} ara',
+  'em.callSub': 'Acil yardım · {country}',
+  'em.myCare': 'Doğum servisim',
+  'em.myCareSub': 'Ebenin ya da hastanenin numarasını kaydet, tek dokunuşla ara.',
+  'em.myCareCall': '{name} ara',
+  'em.addNumber': 'Numara ekle',
+  'em.namePh': 'örn. Doğumhane',
+  'em.numberPh': 'Telefon numarası',
+  'em.signs': 'Bunlardan birini fark edersen hemen ara',
+  'em.mental': 'Duygusal olarak zorlanıyor musun?',
+  'em.mentalBody':
+    'Hamilelikte kendini kötü, kaygılı ya da bunalmış hissetmek yaygındır ve tedavi edilebilir. Ebenle ya da doktorunla konuş. Kendine zarar vermeyi düşünürsen hemen acil yardım hattını ara.',
+  'em.country': 'Ülke',
+};
+
+export default { en, tr };

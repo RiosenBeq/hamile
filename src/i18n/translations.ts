@@ -8,6 +8,8 @@ export const SUPPORTED_LANGS: { code: LangCode; name: string; flag: string }[] =
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
 ];
 
+import { EXTRA } from './dict';
+
 type Dict = Record<string, string>;
 
 const en: Dict = {
@@ -496,6 +498,11 @@ const tr: Dict = {
   'profile.footer': 'Marigold v1.0 · özenle yapıldı',
 };
 
-export const TRANSLATIONS: Record<LangCode, Dict> = { en, tr };
+// Feature dictionaries live in ./dict/*. They are merged over the legacy
+// tables above so a key defined in both resolves to the feature module.
+export const TRANSLATIONS: Record<LangCode, Dict> = {
+  en: { ...en, ...EXTRA.en },
+  tr: { ...tr, ...EXTRA.tr },
+};
 
 export type TranslationKey = keyof typeof en;

@@ -1,17 +1,25 @@
 // Verdict generation — text path and camera (vision) path.
 //
+// Marigold AI is OFF in v1 — the app ships with the bundled, cited safety
+// library instead. It only turns on when EXPO_PUBLIC_AI_ENABLED=1 AND the
+// Supabase edge functions are configured, so no API key ever ships in the
+// client and no personal data reaches a third-party AI without a backend
+// (and, per App Review 5.1.2(i), an explicit consent screen).
+//
 // Order of preference for both paths:
-//   1. Supabase Edge Function `verdict` (recommended; key stays server-side)
-//   2. OpenAI directly (set EXPO_PUBLIC_OPENAI_API_KEY in .env — dev only)
-//   3. Local fallback bank (always available, keeps the app responsive offline)
+//   1. Supabase Edge Function `verdict` / `verdict-photo` (key stays server-side)
+//   2. Local fallback bank (always available, keeps the app responsive offline)
 //
 // The function keeps the same shape regardless of provider, so callers don't
 // have to branch.
 
-import { getSupabase } from '@/lib/supabase';
+import { getSupabase, supabaseConfigured } from '@/lib/supabase';
+
+/** True only when the optional AI backend is explicitly enabled. */
+export const aiConfigured = (): boolean =>
+  process.env.EXPO_PUBLIC_AI_ENABLED === '1' && supabaseConfigured();
 import { Hue, Verdict } from '@/theme/colors';
 import { buildDefaultVerdict, VERDICT_BANK, VerdictPayload } from '@/data/verdicts';
-import { openaiChat, openaiVision, openaiConfigured, parseJsonReply } from '@/lib/openai';
 
 const SYSTEM = `You are Marigold, a calm, evidence-based pregnancy safety companion.
 For an item the user is asking about, return JSON in exactly this shape:
@@ -77,50 +85,6 @@ const tryPhotoEdge = async (
   }
 };
 
-const tryTextOpenAI = async (
-  req: VerdictRequest,
-  signal?: AbortSignal,
-): Promise<VerdictPayload | null> => {
-  if (!openaiConfigured()) return null;
-  const langLine = req.language ? `\nReply in: ${req.language}` : '';
-  const raw = await openaiChat(
-    SYSTEM,
-    [
-      {
-        role: 'user',
-        content: `Item: ${req.item}\nMode: ${req.mode}\nWeek: ${req.week}\nCountry: ${req.country}${langLine}\nReturn ONLY the JSON, no prose.`,
-      },
-    ],
-    { model: 'gpt-4o-mini', maxTokens: 600, jsonMode: true },
-  );
-  if (signal?.aborted) return null;
-  const parsed = parseJsonReply<Record<string, unknown>>(raw);
-  if (!parsed) return null;
-  return normaliseVerdict(req.item, parsed);
-};
-
-const tryPhotoOpenAI = async (
-  req: PhotoRequest,
-  signal?: AbortSignal,
-): Promise<VerdictPayload | null> => {
-  if (!openaiConfigured()) return null;
-  const langLine = req.language ? `\nReply in: ${req.language}` : '';
-  const prompt =
-    `Identify what the user is looking at (food / dish / medication / cosmetic / activity scene) and give a safety verdict for pregnancy.\n\n` +
-    `Mode hint: ${req.mode}\nWeek: ${req.week}\nCountry: ${req.country}${langLine}\n\n` +
-    `Return ONLY the JSON, no prose. Use the "name" field to describe what you actually saw in the photo.`;
-  const raw = await openaiVision(SYSTEM, prompt, req.base64, {
-    model: 'gpt-4o',
-    maxTokens: 700,
-    jsonMode: true,
-  });
-  if (signal?.aborted) return null;
-  const parsed = parseJsonReply<Record<string, unknown>>(raw);
-  if (!parsed) return null;
-  const name = typeof parsed.name === 'string' && parsed.name ? parsed.name : 'Scanned item';
-  return normaliseVerdict(name, parsed);
-};
-
 const normaliseVerdict = (item: string, raw: any): VerdictPayload => ({
   name: String(raw.name ?? item),
   label: String(raw.label ?? item.slice(0, 10)).toLowerCase(),
@@ -146,9 +110,6 @@ export const fetchVerdict = async (
   if (fromEdge) return fromEdge;
   if (signal?.aborted) return buildDefaultVerdict(req.item, req.mode, req.week);
 
-  const fromOpenAI = await tryTextOpenAI(req, signal);
-  if (fromOpenAI) return fromOpenAI;
-
   return buildDefaultVerdict(req.item, req.mode, req.week);
 };
 
@@ -160,9 +121,6 @@ export const analyzePhoto = async (
   if (fromEdge) return fromEdge;
   if (signal?.aborted) return fallbackPhotoPayload();
 
-  const fromOpenAI = await tryPhotoOpenAI(req, signal);
-  if (fromOpenAI) return fromOpenAI;
-
   return fallbackPhotoPayload();
 };
 
@@ -173,7 +131,7 @@ const fallbackPhotoPayload = (): VerdictPayload => ({
   verdict: 'safe',
   headline: "We couldn't read the photo clearly.",
   body:
-    "Marigold AI is offline right now, so we can't analyse the image. Try again with more light, or type the item name and we'll look it up.",
+    "We can't analyse photos right now. Try again with more light, or search the item by name in the Can I…? library.",
   action: {
     title: 'Type it instead',
     body: 'Tap "Type instead" on the scan screen and we\'ll give you the verdict that way.',

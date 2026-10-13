@@ -6,50 +6,48 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#FBF7F2"
+      "backgroundColor": "#FBF6F0"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "bundleIdentifier": "app.marigold.companion",
+      "bundleIdentifier": "com.okanberk.marigold",
       "buildNumber": "1",
-      "supportsTablet": true,
+      "supportsTablet": false,
       "infoPlist": {
-        "NSCameraUsageDescription": "Marigold uses the camera to scan food labels, menus, medication packs and product ingredients so we can give you a calm safety verdict.",
-        "NSMicrophoneUsageDescription": "Marigold uses the microphone when you ask a question out loud about something you're holding.",
-        "NSPhotoLibraryUsageDescription": "Marigold uses your photo library when you pick an existing photo of a label, menu or product to scan.",
-        "NSFaceIDUsageDescription": "Marigold uses Face ID to unlock the app so your pregnancy journal stays private — even if someone else picks up your phone.",
-        "ITSAppUsesNonExemptEncryption": false
+        "NSCameraUsageDescription": "Marigold uses the camera so you can take bump photos for your private pregnancy journal. Photos stay on your phone.",
+        "NSPhotoLibraryUsageDescription": "Marigold lets you choose photos from your library for your private pregnancy journal. Photos stay on your phone.",
+        "NSPhotoLibraryAddUsageDescription": "Marigold can save your bump collage to your photo library when you ask it to.",
+        "NSFaceIDUsageDescription": "Marigold uses Face ID to unlock the app so your pregnancy journal stays private.",
+        "NSMicrophoneUsageDescription": "Marigold only uses the microphone if you record a video with the camera. It never records audio on its own.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleLocalizations": [
+          "en",
+          "tr"
+        ]
       },
-      "associatedDomains": ["applinks:marigold.app"]
+      "appleTeamId": "CBTKNY3LFC"
     },
     "android": {
-      "package": "app.marigold.companion",
+      "package": "com.okanberk.marigold",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FBF7F2"
+        "backgroundColor": "#DE7A59"
       },
       "permissions": [
         "android.permission.CAMERA",
-        "android.permission.RECORD_AUDIO",
         "android.permission.VIBRATE",
         "android.permission.USE_BIOMETRIC",
         "android.permission.USE_FINGERPRINT"
       ],
-      "allowBackup": false,
-      "intentFilters": [
-        {
-          "action": "VIEW",
-          "autoVerify": true,
-          "data": [{ "scheme": "https", "host": "marigold.app", "pathPrefix": "/j" }],
-          "category": ["BROWSABLE", "DEFAULT"]
-        }
-      ]
+      "allowBackup": false
     },
     "web": {
       "bundler": "metro",
@@ -61,14 +59,14 @@
       [
         "expo-camera",
         {
-          "cameraPermission": "Marigold uses the camera to scan food, menus and labels for safety guidance during your pregnancy.",
-          "microphonePermission": "Marigold uses the microphone when you ask a question out loud."
+          "cameraPermission": "Marigold uses the camera so you can take bump photos for your private pregnancy journal. Photos stay on your phone.",
+          "microphonePermission": "Marigold only uses the microphone if you record a video with the camera. It never records audio on its own."
         }
       ],
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#FBF7F2",
+          "backgroundColor": "#FBF6F0",
           "image": "./assets/splash.png",
           "resizeMode": "cover"
         }
@@ -89,7 +87,7 @@
         "expo-notifications",
         {
           "icon": "./assets/adaptive-icon.png",
-          "color": "#C77B5C",
+          "color": "#C0694B",
           "defaultChannel": "marigold-default"
         }
       ],
@@ -97,7 +95,7 @@
         "expo-build-properties",
         {
           "ios": {
-            "deploymentTarget": "13.4",
+            "deploymentTarget": "15.1",
             "newArchEnabled": false
           },
           "android": {
@@ -107,14 +105,30 @@
             "newArchEnabled": false
           }
         }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Marigold lets you choose photos from your library for your private pregnancy journal. Photos stay on your phone.",
+          "cameraPermission": "Marigold uses the camera so you can take bump photos for your private pregnancy journal. Photos stay on your phone.",
+          "microphonePermission": "Marigold only uses the microphone if you record a video with the camera. It never records audio on its own."
+        }
       ]
     ],
-    "experiments": { "typedRoutes": true },
+    "experiments": {
+      "typedRoutes": true
+    },
     "extra": {
-      "eas": { "projectId": "00000000-0000-0000-0000-000000000000" },
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
       "supabaseUrl": "",
       "supabaseAnonKey": "",
-      "anthropicApiKey": ""
+      "revenueCatIosKey": ""
+    },
+    "locales": {
+      "tr": "./locales/tr.json",
+      "en": "./locales/en.json"
     }
   }
 }

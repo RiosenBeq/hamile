@@ -3,6 +3,7 @@ import { Text, View, ViewStyle } from 'react-native';
 import { Icon } from '@/components/Icon';
 import { fonts } from '@/theme/typography';
 import { verdictPalette, Verdict as V } from '@/theme/colors';
+import { useT } from '@/i18n';
 
 type Size = 'sm' | 'md' | 'lg';
 
@@ -12,7 +13,8 @@ const sizing: Record<Size, { h: number; px: number; gap: number; fs: number; ico
   lg: { h: 44, px: 20, gap: 10, fs: 18, iconSize: 22 },
 };
 
-export function VerdictPill({ kind, size = 'md', style }: { kind: V; size?: Size; style?: ViewStyle }) {
+export function VerdictPill({ kind, size = 'md', style, label }: { kind: V; size?: Size; style?: ViewStyle; label?: string }) {
+  const t = useT();
   const map = verdictPalette[kind];
   const s = sizing[size];
   const Icn = kind === 'safe' ? Icon.check : kind === 'caution' ? Icon.warn : Icon.cross;
@@ -33,7 +35,7 @@ export function VerdictPill({ kind, size = 'md', style }: { kind: V; size?: Size
       ]}
     >
       <Icn size={s.iconSize} color={map.fg} />
-      <Text style={{ color: map.fg, fontFamily: fonts.bodyBold, fontSize: s.fs }}>{map.label}</Text>
+      <Text style={{ color: map.fg, fontFamily: fonts.bodyBold, fontSize: s.fs }}>{label ?? t(`verdict.${kind}`)}</Text>
     </View>
   );
 }

@@ -1,109 +1,97 @@
-// Privacy sub-page. Plain-language explainer + a hard "delete everything"
-// button that wipes the local store.
+// Privacy & your data — plain-language promises, backup export/import, the
+// privacy policy, and a hard "delete everything".
 
-import React from 'react';
-import { Pressable, ScrollView, Text, View } from 'react-native';
+import React, { useState } from 'react';
+import { Alert, Linking, View, Text } from 'react-native';
 import { useRouter } from 'expo-router';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Card } from '@/components/Card';
+import * as FileSystem from 'expo-file-system';
+import * as Notifications from 'expo-notifications';
 import { Icon } from '@/components/Icon';
-import { SubScreenHeader } from '@/components/SubScreen';
-import { secureStore, SECURE } from '@/lib/secureStorage';
-import { signOut } from '@/lib/auth';
+import { Body, H1, IconBadge, NavBar, Page, Row, Surface } from '@/components/ui';
+import { useAppStore } from '@/store/useAppStore';
+import { exportBackup, importBackup } from '@/lib/backup';
 import { clearOutbox } from '@/lib/sync';
+import { PRIVACY_URL } from '@/lib/links';
+import { useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
-export default function PrivacySetting() {
+export default function PrivacySettings() {
+  const t = useT();
   const router = useRouter();
-  const insets = useSafeAreaInsets();
+  const resetAll = useAppStore((s) => s.resetAll);
+  const [busy, setBusy] = useState(false);
 
-  const wipe = async () => {
-    // Sign out first so the server-side session is cleanly invalidated.
-    await signOut().catch(() => {});
-    await clearOutbox().catch(() => {});
-    await Promise.all([
-      secureStore.removeItem(SECURE.appLockEnabled),
-      secureStore.removeItem(SECURE.lastUnlock),
-      secureStore.removeItem(SECURE.supabaseSession),
-    ]);
-    await AsyncStorage.clear();
-    router.replace('/onboarding');
+  const onExport = async () => {
+    setBusy(true);
+    const r = await exportBackup();
+    setBusy(false);
+    if ('error' in r) Alert.alert(t('pv.export'), r.error);
+    else Alert.alert(t('pv.export'), t('pv.exported', { kb: (r.bytes / 1024).toFixed(1) }));
   };
 
-  return (
-    <View style={{ flex: 1, backgroundColor: colors.base }}>
-      <SubScreenHeader caption="Privacy" />
-      <ScrollView contentContainerStyle={{ paddingHorizontal: 24, paddingBottom: insets.bottom + 32 }}>
-        <Text style={{ fontFamily: fonts.display, fontSize: 30, color: colors.ink, letterSpacing: -0.4, marginTop: 8 }}>
-          On-device first.
-        </Text>
-        <Text style={{ color: colors.mute, fontSize: 14.5, marginTop: 12, lineHeight: 22, fontFamily: fonts.body }}>
-          Marigold runs almost entirely on your phone. Scans, journal entries,
-          symptoms — they live locally and only sync to your account if you
-          choose to.
-        </Text>
+  const onImport = async () => {
+    setBusy(true);
+    const r = await importBackup();
+    setBusy(false);
+    if ('error' in r) Alert.alert(t('pv.import'), r.error);
+    else if (r.imported > 0) Alert.alert(t('pv.import'), t('pv.imported', { n: r.imported }));
+  };
 
-        <Card style={{ padding: 18, marginTop: 24, gap: 14 }}>
-          {[
-            ['On-device', 'Scans, journal, reminders, intentions, symptom tracker'],
-            ['Optional sync', 'Profile + journal sync to Supabase only when you sign in'],
-            ['Encrypted in transit', 'TLS 1.2+, signed Anthropic and NHS API calls'],
-            ['Never sold', 'Zero ad networks, zero analytics resold to anyone'],
-          ].map(([t, b]) => (
-            <View key={t} style={{ flexDirection: 'row', gap: 12, alignItems: 'flex-start' }}>
-              <View
-                style={{
-                  width: 28,
-                  height: 28,
-                  borderRadius: 14,
-                  backgroundColor: 'rgba(123,155,126,0.2)',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <Icon.check size={16} color={colors.sage} />
-              </View>
-              <View style={{ flex: 1 }}>
-                <Text style={{ fontSize: 14, color: colors.ink, fontFamily: fonts.bodyBold }}>{t}</Text>
-                <Text style={{ fontSize: 13, color: colors.mute, marginTop: 2, fontFamily: fonts.body }}>{b}</Text>
-              </View>
+  const onDelete = () => {
+    Alert.alert(t('pv.deleteConfirm'), t('pv.deleteConfirmBody'), [
+      { text: t('c.cancel'), style: 'cancel' },
+      {
+        text: t('c.delete'),
+        style: 'destructive',
+        onPress: async () => {
+          await clearOutbox().catch(() => {});
+          await Notifications.cancelAllScheduledNotificationsAsync().catch(() => {});
+          const dir = `${FileSystem.documentDirectory}journal`;
+          await FileSystem.deleteAsync(dir, { idempotent: true }).catch(() => {});
+          await AsyncStorage.clear().catch(() => {});
+          resetAll();
+          Alert.alert(t('pv.deleted'));
+          router.replace('/onboarding');
+        },
+      },
+    ]);
+  };
+
+  const points = [t('pv.point1'), t('pv.point2'), t('pv.point3'), t('pv.point4')];
+
+  return (
+    <Page header={<NavBar caption={t('me.title')} />}>
+      <View style={{ paddingHorizontal: 20 }}>
+        <H1>{t('pv.title')}</H1>
+        <Body mute style={{ marginTop: 8 }}>{t('pv.intro')}</Body>
+      </View>
+
+      <View style={{ paddingHorizontal: 20, marginTop: 16 }}>
+        <Surface style={{ backgroundColor: colors.sageSoft, shadowOpacity: 0, gap: 10 }}>
+          {points.map((p) => (
+            <View key={p} style={{ flexDirection: 'row', gap: 10, alignItems: 'flex-start' }}>
+              <Icon.check size={18} color={colors.sage} />
+              <Text style={{ flex: 1, fontFamily: fonts.bodyBold, fontSize: 14.5, color: colors.ink, lineHeight: 20 }}>{p}</Text>
             </View>
           ))}
-        </Card>
+        </Surface>
+      </View>
 
-        <Card style={{ padding: 18, marginTop: 16 }}>
-          <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-            What we never collect
-          </Text>
-          <Text style={{ marginTop: 8, color: colors.ink, fontSize: 14, lineHeight: 22, fontFamily: fonts.body }}>
-            Photos from your scans (we read the label, then forget). Location
-            beyond country. Contacts. Calendar. Microphone audio outside the
-            "ask out loud" prompt.
-          </Text>
-        </Card>
+      <View style={{ paddingHorizontal: 20, marginTop: 16 }}>
+        <Surface padded={false} style={{ overflow: 'hidden' }}>
+          <Row left={<IconBadge icon={Icon.download} hue="sky" size={40} />} title={t('pv.export')} sub={t('pv.exportSub')} onPress={busy ? undefined : onExport} />
+          <Row left={<IconBadge icon={Icon.image} hue="lavender" size={40} />} title={t('pv.import')} sub={t('pv.importSub')} onPress={busy ? undefined : onImport} />
+          <Row left={<IconBadge icon={Icon.shield} hue="sage" size={40} />} title={t('pv.policy')} onPress={() => Linking.openURL(PRIVACY_URL).catch(() => {})} last />
+        </Surface>
+      </View>
 
-        <Pressable
-          onPress={wipe}
-          style={{
-            marginTop: 28,
-            padding: 18,
-            borderRadius: 14,
-            borderWidth: 1,
-            borderColor: 'rgba(198,107,92,0.3)',
-            backgroundColor: 'rgba(241,216,209,0.4)',
-            alignItems: 'center',
-          }}
-        >
-          <Text style={{ color: colors.coral, fontFamily: fonts.bodyBold, fontSize: 14 }}>
-            Delete everything on this phone
-          </Text>
-          <Text style={{ marginTop: 4, color: colors.mute, fontSize: 12, fontFamily: fonts.body }}>
-            Logs you out and resets onboarding.
-          </Text>
-        </Pressable>
-      </ScrollView>
-    </View>
+      <View style={{ paddingHorizontal: 20, marginTop: 16 }}>
+        <Surface padded={false} style={{ overflow: 'hidden' }}>
+          <Row left={<IconBadge icon={Icon.trash} hue="rose" size={40} />} title={t('pv.delete')} sub={t('pv.deleteSub')} danger onPress={onDelete} last />
+        </Surface>
+      </View>
+    </Page>
   );
 }

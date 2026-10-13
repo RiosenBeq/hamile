@@ -93,6 +93,8 @@ target 'Marigold' do
     # embedded Clang the Swift compiler uses during module import.
     installer.aggregate_targets.each do |agg|
       agg.user_project.native_targets.each do |t|
+        # The widget extension has its own (iOS 16.2+) settings and no pods.
+        next if t.name == 'MarigoldWidgets'
         t.build_configurations.each do |c|
           c.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.1'
           c.build_settings['GCC_WARN_INHIBIT_ALL_WARNINGS'] = 'YES'

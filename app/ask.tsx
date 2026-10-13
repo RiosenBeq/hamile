@@ -13,13 +13,14 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import { useRouter } from 'expo-router';
+import { useRouter, Redirect } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Haptics from 'expo-haptics';
 import { Icon } from '@/components/Icon';
 import { MarigoldMark } from '@/components/MarigoldMark';
 import { useAppStore, ChatMessage } from '@/store/useAppStore';
 import { askMarigold, ChatTurn } from '@/lib/chat';
+import { aiConfigured } from '@/lib/ai';
 import { useT, useLang } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -31,7 +32,7 @@ const LANGUAGE_NAME: Record<string, string> = {
 
 const makeId = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
-export default function Ask() {
+function AskScreen() {
   const t = useT();
   const lang = useLang();
   const router = useRouter();
@@ -377,4 +378,11 @@ function TypingBubble({ label }: { label: string }) {
       </View>
     </View>
   );
+}
+
+// Marigold AI is off unless the optional backend is enabled (see lib/ai.ts);
+// deep links into AI screens fall back to the offline library.
+export default function Ask() {
+  if (!aiConfigured()) return <Redirect href="/(tabs)/check" />;
+  return <AskScreen />;
 }

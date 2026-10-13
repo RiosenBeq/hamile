@@ -1,9 +1,9 @@
 // Ask Marigold — conversational AI helper. Calm, evidence-based persona,
-// optimised for back-and-forth. Routes through OpenAI (see src/lib/openai.ts);
-// falls back to canned answers when no key / no network.
+// optimised for back-and-forth. Routes through the optional Supabase `chat`
+// edge function (off in v1); falls back to canned answers otherwise.
 
 import { getSupabase } from '@/lib/supabase';
-import { openaiChat, openaiConfigured, ChatMsg } from '@/lib/openai';
+import { aiConfigured } from '@/lib/ai';
 
 const SYSTEM = `You are Marigold, a calm, evidence-based pregnancy companion.
 You give warm, grounded answers about food, medication, activity, symptoms and
@@ -60,20 +60,6 @@ const tryEdgeFunction = async (
   }
 };
 
-const tryOpenAI = async (
-  history: ChatTurn[],
-  ctx: ChatContext,
-): Promise<string | null> => {
-  if (!openaiConfigured()) return null;
-  const messages: ChatMsg[] = history.map((h, i) => {
-    if (i === 0 && h.role === 'user') {
-      return { role: 'user', content: `${buildUserPrefix(ctx)}\n\n${h.content}` };
-    }
-    return { role: h.role, content: h.content };
-  });
-  return openaiChat(SYSTEM, messages, { model: 'gpt-4o-mini', maxTokens: 800 });
-};
-
 const FALLBACKS: { match: RegExp; reply: string }[] = [
   {
     match: /\b(brie|cheese|camembert|blue|soft cheese)\b/i,
@@ -120,7 +106,7 @@ const FALLBACKS: { match: RegExp; reply: string }[] = [
 const cannedFallback = (question: string): string => {
   const hit = FALLBACKS.find((f) => f.match.test(question));
   if (hit) return hit.reply;
-  return "I'm running in offline mode right now, so I can't look this up in real time. The calm fallback: if it's about food, default to pasteurised and fully cooked. If it's about activity, keep it gentle. If it's a medication question, ask your midwife or pharmacist.\n\nWhen EXPO_PUBLIC_OPENAI_API_KEY is set (or the Supabase chat edge function is wired up), I can give you a proper answer.";
+  return "I can't look this up right now. The calm fallback: if it's about food, default to pasteurised and fully cooked. If it's about activity, keep it gentle. If it's a medication question, ask your midwife or pharmacist — and check the Can I…? library, which works offline.";
 };
 
 export const askMarigold = async (
@@ -130,14 +116,11 @@ export const askMarigold = async (
   const fromEdge = await tryEdgeFunction(history, ctx);
   if (fromEdge) return fromEdge;
 
-  const fromOpenAI = await tryOpenAI(history, ctx);
-  if (fromOpenAI) return fromOpenAI;
-
   const lastUser = [...history].reverse().find((h) => h.role === 'user');
   return cannedFallback(lastUser?.content ?? '');
 };
 
-export const chatConfigured = (): boolean => openaiConfigured() || Boolean(getSupabase());
+export const chatConfigured = (): boolean => aiConfigured();
 
 export const SUGGESTED_QUESTIONS = [
   'Is brie safe if it says pasteurised?',

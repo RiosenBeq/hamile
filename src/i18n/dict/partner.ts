@@ -1,0 +1,61 @@
+// Partner update (share sheet).
+
+const en = {
+  'pt.title': 'Bring your partner along',
+  'pt.intro': 'Send a little weekly update — what’s happening with baby, and one way they can help. No account or app needed on their side.',
+  'pt.name': 'Partner’s name (optional)',
+  'pt.namePh': 'e.g. Alex',
+  'pt.preview': 'Preview',
+  'pt.share': 'Share this week',
+  'pt.helpTitle': 'How you can help this week',
+  'pt.msg.hi': 'Hi {name}!',
+  'pt.msg.week': 'We’re {w} weeks and {d} days today 💛',
+  'pt.msg.size': 'Our baby is about the size of {item} {emoji}',
+  'pt.msg.help': 'One way you could help: {tip}',
+  'pt.msg.days': '{n} days to go.',
+  'pt.msg.footer': 'Sent with Marigold',
+  'pt.t1.1': 'Take over cooking when smells are hard to handle.',
+  'pt.t1.2': 'Keep plain snacks and water within reach — nausea is real.',
+  'pt.t1.3': 'Come to the first scan or booking appointment if you can.',
+  'pt.t1.4': 'Let early tiredness win: protect naps and early nights.',
+  'pt.t2.1': 'Put a hand on the bump — you may feel kicks soon.',
+  'pt.t2.2': 'Join the anomaly scan and write down questions together.',
+  'pt.t2.3': 'Start planning leave and the nursery together.',
+  'pt.t2.4': 'Go for an easy walk together — it helps you both.',
+  'pt.t3.1': 'Pack the hospital bag together and know where it is.',
+  'pt.t3.2': 'Learn the signs of labour and when to call the maternity unit.',
+  'pt.t3.3': 'Install the car seat and practise once.',
+  'pt.t3.4': 'Offer a foot rub — swollen feet will thank you.',
+};
+
+type Keys = keyof typeof en;
+
+const tr: Record<Keys, string> = {
+  'pt.title': 'Partnerini de yanına al',
+  'pt.intro': 'Haftalık küçük bir güncelleme gönder — bebekte neler oluyor ve nasıl yardım edebilir. Onun tarafında hesap ya da uygulama gerekmez.',
+  'pt.name': 'Partnerinin adı (isteğe bağlı)',
+  'pt.namePh': 'örn. Can',
+  'pt.preview': 'Önizleme',
+  'pt.share': 'Bu haftayı paylaş',
+  'pt.helpTitle': 'Bu hafta nasıl yardım edebilirsin',
+  'pt.msg.hi': 'Merhaba {name}!',
+  'pt.msg.week': 'Bugün {w} hafta {d} günlüğüz 💛',
+  'pt.msg.size': 'Bebeğimiz yaklaşık bir {item} büyüklüğünde {emoji}',
+  'pt.msg.help': 'Yardım edebileceğin bir şey: {tip}',
+  'pt.msg.days': '{n} gün kaldı.',
+  'pt.msg.footer': 'Marigold ile gönderildi',
+  'pt.t1.1': 'Kokular zor gelirken yemek işini sen üstlen.',
+  'pt.t1.2': 'Sade atıştırmalıkları ve suyu el altında tut — bulantı gerçek.',
+  'pt.t1.3': 'Yapabilirsen ilk ultrasona ya da ilk kontrole birlikte gelin.',
+  'pt.t1.4': 'Erken yorgunluğa saygı göster: şekerlemeleri ve erken uykuyu koru.',
+  'pt.t2.1': 'Elini karnına koy — yakında tekmeleri hissedebilirsin.',
+  'pt.t2.2': 'Detaylı ultrasona gelin, soruları birlikte yazın.',
+  'pt.t2.3': 'İzin planını ve bebek odasını birlikte planlamaya başlayın.',
+  'pt.t2.4': 'Birlikte hafif bir yürüyüşe çıkın — ikinize de iyi gelir.',
+  'pt.t3.1': 'Hastane çantasını birlikte hazırlayın ve yerini bil.',
+  'pt.t3.2': 'Doğum belirtilerini ve doğum servisini ne zaman arayacağını öğren.',
+  'pt.t3.3': 'Oto koltuğunu tak ve bir kez deneme yap.',
+  'pt.t3.4': 'Bir ayak masajı teklif et — şişen ayaklar teşekkür eder.',
+};
+
+export default { en, tr };

@@ -1,0 +1,8 @@
+{
+  "CFBundleDisplayName": "Marigold",
+  "NSCameraUsageDescription": "Marigold uses the camera so you can take bump photos for your private pregnancy journal. Photos stay on your phone.",
+  "NSPhotoLibraryUsageDescription": "Marigold lets you choose photos from your library for your private pregnancy journal. Photos stay on your phone.",
+  "NSPhotoLibraryAddUsageDescription": "Marigold can save your bump collage to your photo library when you ask it to.",
+  "NSFaceIDUsageDescription": "Marigold uses Face ID to unlock the app so your pregnancy journal stays private.",
+  "NSMicrophoneUsageDescription": "Marigold only uses the microphone if you record a video with the camera. It never records audio on its own."
+}

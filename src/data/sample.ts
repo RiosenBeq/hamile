@@ -215,90 +215,96 @@ export const CONDITIONS = [
 ];
 
 // ── Tools data ───────────────────────────────────────────────
-// Default hospital-bag template. Users can add custom rows on top of these.
+// Default hospital-bag template. `key` is a translation key (bag.item.*);
+// `legacy` is the English label older builds stored, used by the v1→v2
+// store migration. Users can add custom rows on top of these.
 
 export type BagGroup = 'labour' | 'postBirth' | 'baby' | 'docs';
-export const BAG_GROUP_LABEL: Record<BagGroup, string> = {
-  labour: 'For labour',
-  postBirth: 'Post-birth',
-  baby: 'Baby',
-  docs: 'Documents',
-};
+export const BAG_GROUPS: BagGroup[] = ['labour', 'postBirth', 'baby', 'docs'];
 
-export const BAG_TEMPLATE: { group: BagGroup; label: string }[] = [
-  { group: 'labour', label: 'Lip balm' },
-  { group: 'labour', label: 'Hair ties' },
-  { group: 'labour', label: 'Snacks (low-sugar, high-protein)' },
-  { group: 'labour', label: 'Hot water bottle' },
-  { group: 'labour', label: 'Slippers' },
-  { group: 'labour', label: 'Phone + extra-long charger' },
-  { group: 'postBirth', label: 'Big knickers (5 pairs)' },
-  { group: 'postBirth', label: 'Maternity pads (1 pack)' },
-  { group: 'postBirth', label: 'Dark towel' },
-  { group: 'postBirth', label: 'Loose pyjamas' },
-  { group: 'postBirth', label: 'Going-home outfit (loose)' },
-  { group: 'postBirth', label: 'Toiletries' },
-  { group: 'baby', label: 'Vests × 2' },
-  { group: 'baby', label: 'Sleepsuits × 2' },
-  { group: 'baby', label: 'Hat' },
-  { group: 'baby', label: 'Scratch mittens' },
-  { group: 'baby', label: 'Blanket' },
-  { group: 'baby', label: 'Newborn nappies' },
-  { group: 'docs', label: 'Maternity notes' },
-  { group: 'docs', label: 'Photo ID' },
-  { group: 'docs', label: 'Hospital paperwork' },
-  { group: 'docs', label: 'Birth plan printout' },
+export const BAG_TEMPLATE: { group: BagGroup; key: string; legacy: string }[] = [
+  { group: 'labour', key: 'bag.item.lipBalm', legacy: 'Lip balm' },
+  { group: 'labour', key: 'bag.item.hairTies', legacy: 'Hair ties' },
+  { group: 'labour', key: 'bag.item.snacks', legacy: 'Snacks (low-sugar, high-protein)' },
+  { group: 'labour', key: 'bag.item.hotWaterBottle', legacy: 'Hot water bottle' },
+  { group: 'labour', key: 'bag.item.slippers', legacy: 'Slippers' },
+  { group: 'labour', key: 'bag.item.charger', legacy: 'Phone + extra-long charger' },
+  { group: 'labour', key: 'bag.item.waterBottle', legacy: 'Water bottle with a straw' },
+  { group: 'postBirth', key: 'bag.item.knickers', legacy: 'Big knickers (5 pairs)' },
+  { group: 'postBirth', key: 'bag.item.pads', legacy: 'Maternity pads (1 pack)' },
+  { group: 'postBirth', key: 'bag.item.nursingBra', legacy: 'Nursing bra' },
+  { group: 'postBirth', key: 'bag.item.darkTowel', legacy: 'Dark towel' },
+  { group: 'postBirth', key: 'bag.item.pyjamas', legacy: 'Loose pyjamas' },
+  { group: 'postBirth', key: 'bag.item.goingHome', legacy: 'Going-home outfit (loose)' },
+  { group: 'postBirth', key: 'bag.item.toiletries', legacy: 'Toiletries' },
+  { group: 'baby', key: 'bag.item.vests', legacy: 'Vests × 2' },
+  { group: 'baby', key: 'bag.item.sleepsuits', legacy: 'Sleepsuits × 2' },
+  { group: 'baby', key: 'bag.item.hat', legacy: 'Hat' },
+  { group: 'baby', key: 'bag.item.mittens', legacy: 'Scratch mittens' },
+  { group: 'baby', key: 'bag.item.blanket', legacy: 'Blanket' },
+  { group: 'baby', key: 'bag.item.nappies', legacy: 'Newborn nappies' },
+  { group: 'baby', key: 'bag.item.carSeat', legacy: 'Car seat (installed)' },
+  { group: 'docs', key: 'bag.item.notes', legacy: 'Maternity notes' },
+  { group: 'docs', key: 'bag.item.id', legacy: 'Photo ID' },
+  { group: 'docs', key: 'bag.item.paperwork', legacy: 'Hospital paperwork' },
+  { group: 'docs', key: 'bag.item.birthPlan', legacy: 'Birth plan printout' },
 ];
 
-// Birth plan: structured fields with chip choices.
+// Birth plan: structured fields with chip choices. `question` and `options`
+// are translation keys (bp.q.* / bp.o.*). The store keeps the option keys;
+// builds before v2 stored English labels, which the birth-plan screen maps
+// back onto these keys when it reads them.
 
 export type BirthPlanFieldDef = {
   key: string;
+  /** Translation key for the section title (bp.q.*). */
   question: string;
+  /** chips = choose one, multichips = choose any, text = free text. */
   kind: 'chips' | 'multichips' | 'text';
+  /** Translation keys for the choices (bp.o.*). */
   options?: string[];
 };
 
 export const BIRTH_PLAN_FIELDS: BirthPlanFieldDef[] = [
   {
     key: 'painRelief',
-    question: 'Pain relief preferences',
+    question: 'bp.q.painRelief',
     kind: 'multichips',
-    options: ['Gas & air', 'Water (pool / bath)', 'TENS machine', 'Pethidine / opioids', 'Epidural', 'No pharmaceutical pain relief'],
+    options: ['bp.o.gasAir', 'bp.o.water', 'bp.o.tens', 'bp.o.opioids', 'bp.o.epidural', 'bp.o.noMeds'],
   },
   {
     key: 'environment',
-    question: 'Birth environment',
+    question: 'bp.q.environment',
     kind: 'multichips',
-    options: ['Dim lighting', 'My playlist', 'Aromatherapy', 'No interruptions', 'Birthing pool', 'Standing / squatting positions'],
+    options: ['bp.o.dimLights', 'bp.o.playlist', 'bp.o.aromatherapy', 'bp.o.quiet', 'bp.o.pool', 'bp.o.positions'],
   },
   {
     key: 'companions',
-    question: 'Who will be with me',
+    question: 'bp.q.companions',
     kind: 'multichips',
-    options: ['Partner', 'Doula', 'Mother / sister', 'Friend', 'Just me + the team'],
+    options: ['bp.o.partner', 'bp.o.doula', 'bp.o.family', 'bp.o.friend', 'bp.o.justTeam'],
   },
   {
     key: 'afterBirth',
-    question: 'Right after the baby arrives',
+    question: 'bp.q.afterBirth',
     kind: 'multichips',
-    options: ['Skin-to-skin immediately', 'Delayed cord clamping', 'Partner cuts the cord', 'Vitamin K injection', 'Vitamin K oral'],
+    options: ['bp.o.skinToSkin', 'bp.o.delayedCord', 'bp.o.partnerCord', 'bp.o.vitKInjection', 'bp.o.vitKOral'],
   },
   {
     key: 'feeding',
-    question: 'Feeding plan',
+    question: 'bp.q.feeding',
     kind: 'chips',
-    options: ['Breastfeed exclusively', 'Mixed feeding', 'Formula from the start', 'Decide after birth'],
+    options: ['bp.o.breastfeed', 'bp.o.mixed', 'bp.o.formula', 'bp.o.decideLater'],
   },
   {
     key: 'cesarean',
-    question: 'If a c-section becomes necessary',
+    question: 'bp.q.cesarean',
     kind: 'multichips',
-    options: ['Lower screen / clear drape', 'Skin-to-skin in theatre', 'Partner stays with me', 'Music kept on'],
+    options: ['bp.o.clearDrape', 'bp.o.skinTheatre', 'bp.o.partnerStays', 'bp.o.music'],
   },
   {
     key: 'notes',
-    question: 'Anything else the team should know',
+    question: 'bp.q.notes',
     kind: 'text',
   },
 ];

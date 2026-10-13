@@ -1,176 +1,159 @@
-// Emergency mode — calm two-step flow. The user describes what happened,
-// then we offer grounded next steps and the option to call their midwife.
+// "When to get help" — one-tap call to local emergency services and to the
+// user's own maternity unit, followed by clear, calm warning signs.
 
-import React, { useState } from 'react';
-import {
-  KeyboardAvoidingView,
-  Linking,
-  Platform,
-  Pressable,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
-} from 'react-native';
-import { useRouter } from 'expo-router';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { Card } from '@/components/Card';
+import React, { useMemo, useState } from 'react';
+import { Linking, Pressable, ScrollView, Text, View } from 'react-native';
+import * as Haptics from 'expo-haptics';
 import { Icon } from '@/components/Icon';
+import { Body, Chip, Eyebrow, Field, H1, MedicalNote, NavBar, Page, Surface } from '@/components/ui';
 import { Btn } from '@/components/Btn';
-import { Blob } from '@/components/Blob';
+import { useAppStore } from '@/store/useAppStore';
+import { EMERGENCY_NUMBERS, RED_FLAGS } from '@/content';
+import { useL10n, useT } from '@/i18n';
+import { resolveCountry } from '@/lib/country';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
 export default function Emergency() {
-  const router = useRouter();
-  const insets = useSafeAreaInsets();
-  const [stage, setStage] = useState<'ask' | 'response'>('ask');
-  const [text, setText] = useState('');
+  const t = useT();
+  const L = useL10n();
+  const profile = useAppStore((s) => s.profile);
+  const patchProfile = useAppStore((s) => s.patchProfile);
+  const [country, setCountry] = useState(resolveCountry(profile.country));
+  const [editing, setEditing] = useState(false);
+  const [careName, setCareName] = useState(profile.careName ?? '');
+  const [carePhone, setCarePhone] = useState(profile.carePhone ?? '');
+  const emergency = EMERGENCY_NUMBERS[country] ?? { country: { en: '', tr: '' }, number: '112' };
+
+  const countries = useMemo(() => Object.keys(EMERGENCY_NUMBERS), []);
+
+  const call = (num: string) => {
+    Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning).catch(() => {});
+    Linking.openURL(`tel:${num.replace(/[^\d+]/g, '')}`).catch(() => {});
+  };
 
   return (
-    <View style={{ flex: 1, backgroundColor: colors.base }}>
-      <View style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
-        <Blob variant="cream" />
+    <Page header={<NavBar close caption={t('today.help')} />}>
+      <View style={{ paddingHorizontal: 20 }}>
+        <H1>{t('em.title')}</H1>
+        <Body mute style={{ marginTop: 8 }}>{t('em.intro')}</Body>
       </View>
 
-      <View
-        style={{
-          paddingTop: insets.top + 8,
-          paddingHorizontal: 20,
-          flexDirection: 'row',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
-      >
+      <View style={{ paddingHorizontal: 20, marginTop: 18, gap: 12 }}>
         <Pressable
-          onPress={() => router.back()}
-          style={{
-            width: 36,
-            height: 36,
-            borderRadius: 18,
-            borderWidth: 1,
-            borderColor: colors.line,
-            backgroundColor: 'rgba(255,255,255,0.8)',
+          onPress={() => call(emergency.number)}
+          accessibilityRole="button"
+          accessibilityLabel={t('em.call', { number: emergency.number })}
+          style={({ pressed }) => ({
+            backgroundColor: colors.danger,
+            borderRadius: 22,
+            padding: 18,
+            flexDirection: 'row',
             alignItems: 'center',
-            justifyContent: 'center',
-          }}
+            gap: 14,
+            opacity: pressed ? 0.85 : 1,
+          })}
         >
-          <Icon.close size={18} color={colors.ink} />
-        </Pressable>
-        <Text style={{ fontSize: 12, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>Help</Text>
-        <View style={{ width: 36 }} />
-      </View>
-
-      {stage === 'ask' ? (
-        <KeyboardAvoidingView
-          style={{ flex: 1 }}
-          behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-          keyboardVerticalOffset={Platform.OS === 'ios' ? insets.top + 24 : 0}
-        >
-        <View style={{ paddingHorizontal: 28, paddingTop: 32, flex: 1 }}>
-          <Text style={{ fontFamily: fonts.display, fontSize: 34, lineHeight: 38, color: colors.ink, letterSpacing: -0.6 }}>
-            Take a breath.
-          </Text>
-          <Text style={{ fontFamily: fonts.display, fontSize: 34, lineHeight: 38, color: 'rgba(42,37,34,0.55)', letterSpacing: -0.6 }}>
-            Tell me what happened.
-          </Text>
-          <Text style={{ color: colors.mute, fontSize: 15, marginTop: 20, lineHeight: 22, fontFamily: fonts.body }}>
-            I'll listen first, then suggest what to do — calmly.
-          </Text>
-
-          <TextInput
-            value={text}
-            onChangeText={setText}
-            multiline
-            placeholder="e.g. I bumped my stomach getting out of the car. No bleeding."
-            placeholderTextColor={colors.mute}
-            style={{
-              marginTop: 24,
-              minHeight: 160,
-              padding: 16,
-              backgroundColor: colors.surface,
-              borderRadius: 20,
-              borderWidth: 1,
-              borderColor: colors.line,
-              fontSize: 15,
-              color: colors.ink,
-              fontFamily: fonts.body,
-              textAlignVertical: 'top',
-            }}
-          />
-
-          <View style={{ marginTop: 16, flexDirection: 'row', gap: 12 }}>
-            <Btn kind="secondary" onPress={() => {}} style={{ flex: 1 }}>
-              <Icon.mic size={18} color={colors.ink} />
-              <Text style={{ color: colors.ink, fontFamily: fonts.bodyBold, fontSize: 14 }}>Speak instead</Text>
-            </Btn>
-            <Btn onPress={() => setStage('response')} style={{ flex: 1, backgroundColor: colors.ink }}>
-              <Text style={{ color: colors.base, fontFamily: fonts.bodyBold, fontSize: 14 }}>Continue</Text>
-              <Icon.arrow size={16} color={colors.base} />
-            </Btn>
+          <View style={{ width: 48, height: 48, borderRadius: 24, backgroundColor: 'rgba(255,255,255,0.18)', alignItems: 'center', justifyContent: 'center' }}>
+            <Icon.phone size={24} color="#fff" />
           </View>
-          <Text style={{ marginTop: 18, fontSize: 12.5, color: colors.mute, lineHeight: 18, fontFamily: fonts.body }}>
-            If you are bleeding heavily, fainting, or in severe pain — call your maternity unit now.
-          </Text>
-        </View>
-        </KeyboardAvoidingView>
-      ) : (
-        <ScrollView contentContainerStyle={{ paddingHorizontal: 28, paddingTop: 24, paddingBottom: insets.bottom + 32 }}>
-          <Text style={{ fontSize: 11, letterSpacing: 1.6, textTransform: 'uppercase', color: colors.mute, fontFamily: fonts.bodyBold }}>
-            You said
-          </Text>
-          <Text style={{ color: colors.ink, fontSize: 15, marginTop: 8, fontFamily: fonts.body }}>
-            {text || 'I bumped my stomach getting out of the car. No bleeding.'}
-          </Text>
+          <View style={{ flex: 1 }}>
+            <Text style={{ color: '#fff', fontFamily: fonts.display, fontSize: 24 }}>{t('em.call', { number: emergency.number })}</Text>
+            <Text style={{ color: 'rgba(255,255,255,0.85)', fontFamily: fonts.body, fontSize: 13.5 }}>
+              {t('em.callSub', { country: L(emergency.country) })}
+            </Text>
+          </View>
+        </Pressable>
 
-          <Text style={{ marginTop: 28, fontFamily: fonts.display, fontSize: 26, lineHeight: 32, color: colors.ink, letterSpacing: -0.4 }}>
-            Most likely you and the baby are okay.
-          </Text>
-          <Text style={{ color: 'rgba(42,37,34,0.85)', fontSize: 15, marginTop: 12, lineHeight: 22, fontFamily: fonts.body }}>
-            After 20 weeks, the uterus is well-cushioned. A small bump rarely causes harm. Here's how to gently check in over the next hour or two.
-          </Text>
-
-          <View style={{ marginTop: 24, gap: 12 }}>
-            {[
-              ['Sit somewhere quiet', 'Lie on your left side, drink a cold glass of water.'],
-              ['Count movements', 'Watch for at least 10 in the next 2 hours. Most babies stir within 30 minutes.'],
-              ['Gentle check-in', 'Press lightly around the bump. Sharp, persistent pain on one side warrants a call.'],
-              ['Trust your gut', "If something feels off, ring your midwife — that's exactly what they're there for."],
-            ].map(([h, b], i) => (
-              <Card key={h} style={{ padding: 16, flexDirection: 'row', gap: 12 }}>
-                <View
-                  style={{
-                    width: 28,
-                    height: 28,
-                    borderRadius: 14,
-                    backgroundColor: colors.sand,
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                  }}
-                >
-                  <Text style={{ fontSize: 13, color: colors.ink, fontFamily: fonts.bodyBold }}>{i + 1}</Text>
+        <Surface>
+          {profile.carePhone && !editing ? (
+            <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+              <Pressable onPress={() => call(profile.carePhone!)} style={{ flex: 1, flexDirection: 'row', alignItems: 'center', gap: 12 }} accessibilityRole="button">
+                <View style={{ width: 44, height: 44, borderRadius: 22, backgroundColor: colors.terracottaSoft, alignItems: 'center', justifyContent: 'center' }}>
+                  <Icon.stethoscope size={21} color={colors.terracotta} />
                 </View>
                 <View style={{ flex: 1 }}>
-                  <Text style={{ fontSize: 15, color: colors.ink, fontFamily: fonts.bodyBold }}>{h}</Text>
-                  <Text style={{ fontSize: 13.5, color: colors.mute, marginTop: 2, lineHeight: 20, fontFamily: fonts.body }}>{b}</Text>
+                  <Text style={{ fontFamily: fonts.bodyBold, fontSize: 16, color: colors.ink }}>
+                    {t('em.myCareCall', { name: profile.careName || t('em.myCare') })}
+                  </Text>
+                  <Text style={{ fontFamily: fonts.body, fontSize: 13.5, color: colors.mute }}>{profile.carePhone}</Text>
                 </View>
-              </Card>
-            ))}
-          </View>
+              </Pressable>
+              <Pressable onPress={() => setEditing(true)} hitSlop={10} accessibilityLabel={t('c.edit')}>
+                <Icon.edit size={18} color={colors.mute} />
+              </Pressable>
+            </View>
+          ) : editing ? (
+            <View style={{ gap: 10 }}>
+              <Eyebrow>{t('em.myCare')}</Eyebrow>
+              <Field value={careName} onChangeText={setCareName} placeholder={t('em.namePh')} />
+              <Field value={carePhone} onChangeText={setCarePhone} placeholder={t('em.numberPh')} keyboardType="phone-pad" />
+              <View style={{ flexDirection: 'row', gap: 10 }}>
+                <Btn kind="secondary" style={{ flex: 1, height: 48 }} onPress={() => setEditing(false)}>{t('c.cancel')}</Btn>
+                <Btn
+                  style={{ flex: 1, height: 48 }}
+                  disabled={!carePhone.trim()}
+                  onPress={() => {
+                    patchProfile({ careName: careName.trim(), carePhone: carePhone.trim() });
+                    setEditing(false);
+                  }}
+                >
+                  {t('c.save')}
+                </Btn>
+              </View>
+            </View>
+          ) : (
+            <Pressable onPress={() => setEditing(true)} style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }} accessibilityRole="button">
+              <View style={{ width: 44, height: 44, borderRadius: 22, backgroundColor: colors.terracottaSoft, alignItems: 'center', justifyContent: 'center' }}>
+                <Icon.plus size={20} color={colors.terracotta} />
+              </View>
+              <View style={{ flex: 1 }}>
+                <Text style={{ fontFamily: fonts.bodyBold, fontSize: 15.5, color: colors.ink }}>{t('em.myCare')}</Text>
+                <Text style={{ fontFamily: fonts.body, fontSize: 13, color: colors.mute, marginTop: 2 }}>{t('em.myCareSub')}</Text>
+              </View>
+            </Pressable>
+          )}
+        </Surface>
+      </View>
 
-          <View style={{ marginTop: 24, flexDirection: 'row', gap: 12 }}>
-            <Btn kind="secondary" onPress={() => router.back()} style={{ flex: 1 }}>
-              Save to journal
-            </Btn>
-            <Btn
-              onPress={() => Linking.openURL('tel:111').catch(() => {})}
-              style={{ flex: 1, backgroundColor: colors.ink }}
-            >
-              <Text style={{ color: colors.base, fontFamily: fonts.bodyBold, fontSize: 14 }}>Call midwife</Text>
-            </Btn>
-          </View>
-        </ScrollView>
-      )}
-    </View>
+      <Eyebrow style={{ paddingHorizontal: 24, marginTop: 22, marginBottom: 8 }}>{t('em.country')}</Eyebrow>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 20, gap: 8 }}>
+        {countries.map((c) => (
+          <Chip
+            key={c}
+            small
+            label={`${L(EMERGENCY_NUMBERS[c].country)} · ${EMERGENCY_NUMBERS[c].number}`}
+            selected={country === c}
+            onPress={() => {
+              setCountry(c);
+              patchProfile({ country: c });
+            }}
+          />
+        ))}
+      </ScrollView>
+
+      <View style={{ paddingHorizontal: 20, marginTop: 24 }}>
+        <Eyebrow style={{ marginBottom: 10 }}>{t('em.signs')}</Eyebrow>
+        <Surface padded={false}>
+          {RED_FLAGS.map((f, i) => (
+            <View key={f.id} style={{ padding: 16, flexDirection: 'row', gap: 12, borderBottomWidth: i === RED_FLAGS.length - 1 ? 0 : 1, borderBottomColor: colors.line }}>
+              <Text style={{ fontSize: 22, width: 30, textAlign: 'center' }}>{f.emoji}</Text>
+              <View style={{ flex: 1 }}>
+                <Text style={{ fontFamily: fonts.bodyBold, fontSize: 15.5, color: colors.ink }}>{L(f.title)}</Text>
+                <Text style={{ fontFamily: fonts.body, fontSize: 14, lineHeight: 20, color: colors.ink2, marginTop: 4 }}>{L(f.detail)}</Text>
+              </View>
+            </View>
+          ))}
+        </Surface>
+      </View>
+
+      <View style={{ paddingHorizontal: 20, marginTop: 16 }}>
+        <Surface style={{ backgroundColor: colors.lavenderSoft, shadowOpacity: 0 }}>
+          <Text style={{ fontFamily: fonts.display, fontSize: 20, color: colors.ink }}>{t('em.mental')}</Text>
+          <Body style={{ marginTop: 6 }}>{t('em.mentalBody')}</Body>
+        </Surface>
+      </View>
+      <MedicalNote text={t('c.medicalNote')} />
+    </Page>
   );
 }
