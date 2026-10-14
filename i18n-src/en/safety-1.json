@@ -1,0 +1,2190 @@
+{
+  "brie": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Brie",
+    "aliases": [
+      "brie cheese",
+      "soft cheese",
+      "mould-ripened cheese",
+      "mold-ripened cheese",
+      "baked brie"
+    ],
+    "summary": "Only when it's cooked until steaming hot, like baked brie; skip it cold on a cheese board.",
+    "details": "Brie is a soft, mould-ripened cheese, and its moist, low-acid texture can let listeria grow. Listeria infection is rare but can cause miscarriage, stillbirth or serious illness in a newborn, and thorough cooking kills it. UK advice is to cook brie whether or not it's pasteurised, while US advice focuses on avoiding soft cheese made from unpasteurised milk.",
+    "tips": [
+      "Bake or grill it until it's steaming hot all the way through.",
+      "For a cold cheese board, choose hard cheeses like cheddar or parmesan."
+    ]
+  },
+  "camembert": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Camembert",
+    "aliases": [
+      "camembert cheese",
+      "baked camembert",
+      "white rind cheese",
+      "soft cheese"
+    ],
+    "summary": "Only when it's baked or cooked until bubbling hot; cold camembert is best skipped, even if pasteurised.",
+    "details": "Like brie, camembert is a mould-ripened soft cheese with a white rind, a type that can harbour listeria. UK guidance says these cheeses must be thoroughly cooked, whether or not they're made with pasteurised milk. A whole baked camembert is fine once it's bubbling hot in the middle.",
+    "tips": [
+      "Bake until the centre is bubbling, not just soft.",
+      "Eat it hot, straight away, rather than letting it cool and sit out."
+    ]
+  },
+  "feta": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Feta",
+    "aliases": [
+      "feta cheese",
+      "greek cheese",
+      "salad cheese",
+      "greek salad"
+    ],
+    "summary": "Yes, if it's made from pasteurised milk, as most supermarket feta is, so check the label.",
+    "details": "Pasteurised feta is on both the NHS and CDC lists of safer cheeses in pregnancy. The risk comes from feta made with raw (unpasteurised) milk, which can carry listeria. Traditional or homemade feta at markets and in some restaurants may not be pasteurised.",
+    "tips": [
+      "Look for 'made with pasteurised milk' on the pack.",
+      "In restaurants, ask if the feta is pasteurised, or choose a cooked dish."
+    ]
+  },
+  "halloumi": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Halloumi",
+    "aliases": [
+      "halloumi cheese",
+      "hellim",
+      "grilled halloumi",
+      "fried halloumi"
+    ],
+    "summary": "Yes, pasteurised halloumi is fine, whether it's grilled, fried or eaten cold.",
+    "details": "Halloumi is a firm, brined cheese, and the NHS lists pasteurised halloumi among the cheeses that are safe in pregnancy. Almost all halloumi sold in shops is made from pasteurised milk. Grilling or frying it adds an extra layer of safety.",
+    "tips": [
+      "If it's from a market stall or small producer, check that it says pasteurised."
+    ]
+  },
+  "mozzarella": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Mozzarella & burrata",
+    "aliases": [
+      "mozzarella",
+      "burrata",
+      "buffalo mozzarella",
+      "pizza cheese",
+      "bocconcini",
+      "caprese"
+    ],
+    "summary": "Yes, pasteurised mozzarella and burrata are safe, fresh or melted on a pizza.",
+    "details": "Although mozzarella is soft and fresh, the NHS lists pasteurised mozzarella and burrata as safe, and the CDC includes pasteurised mozzarella among its safer choices. Shop-bought mozzarella is almost always pasteurised. As with any fresh cheese, keep it chilled and eat it by the use-by date.",
+    "tips": [
+      "Keep it chilled and follow the 'once opened, eat within' advice on the pack."
+    ]
+  },
+  "parmesan": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Parmesan",
+    "aliases": [
+      "parmigiano reggiano",
+      "grana padano",
+      "pecorino",
+      "hard cheese",
+      "aged cheese"
+    ],
+    "summary": "Yes, parmesan and other hard cheeses are safe, even when they're made from unpasteurised milk.",
+    "details": "Hard, aged cheeses like parmesan contain very little moisture, so listeria is unlikely to grow in them. That's why the NHS says hard cheeses are safe in pregnancy whether or not they're pasteurised. Parmigiano Reggiano is traditionally made with raw milk and is still considered fine.",
+    "tips": [
+      "Grate it freely over pasta, soups or salads."
+    ]
+  },
+  "cheddar": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Cheddar & hard cheeses",
+    "aliases": [
+      "cheddar",
+      "gruyere",
+      "emmental",
+      "manchego",
+      "gouda",
+      "edam",
+      "hard cheese"
+    ],
+    "summary": "Yes, cheddar and other hard cheeses are safe, and pasteurised semi-hard ones like edam are too.",
+    "details": "The NHS lists cheddar, gruyère and other hard cheeses as safe in pregnancy, pasteurised or not, because their low moisture makes listeria growth unlikely. Semi-hard cheeses such as edam and gouda are fine when made with pasteurised milk. Hard cheeses are also a handy source of calcium and protein.",
+    "tips": [
+      "Pair it with fruit or wholegrain crackers for an easy snack."
+    ]
+  },
+  "blue-cheese": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Blue cheese",
+    "aliases": [
+      "gorgonzola",
+      "roquefort",
+      "danish blue",
+      "blue-veined cheese",
+      "blue cheese dressing"
+    ],
+    "summary": "Soft blue cheeses like gorgonzola and roquefort are fine only when cooked until steaming hot.",
+    "details": "Soft blue-veined cheeses are moist and mould-ripened, which makes them more likely to contain listeria. The NHS advises cooking them thoroughly, whether pasteurised or not. A gorgonzola sauce heated until bubbling is fine, but crumbled cold blue cheese on a salad is best skipped.",
+    "tips": [
+      "Use it in sauces or bakes that are heated until bubbling.",
+      "When eating out, ask for dressings without blue cheese."
+    ]
+  },
+  "goats-cheese": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Goat's cheese",
+    "aliases": [
+      "goat cheese",
+      "goats cheese",
+      "chevre",
+      "chèvre",
+      "rindless goat cheese",
+      "goat cheese log"
+    ],
+    "summary": "Rindless, pasteurised goat's cheese is fine, but the white-rinded kind must be cooked until steaming hot.",
+    "details": "The NHS lists pasteurised goat's cheese without a white coating (rind) as safe. Mould-ripened goat's cheese with a white rind, such as chèvre logs, is treated like brie: it can harbour listeria, so it needs thorough cooking. Any goat's cheese made from unpasteurised milk should also be cooked.",
+    "tips": [
+      "Grilled goat's cheese on toast is fine once it's hot right through.",
+      "For soft, rindless types, check the label says pasteurised."
+    ]
+  },
+  "cottage-cheese": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Cottage cheese",
+    "aliases": [
+      "cottage cheese",
+      "curd cheese",
+      "low-fat cheese"
+    ],
+    "summary": "Yes, cottage cheese made from pasteurised milk is safe and a good source of protein.",
+    "details": "Both the NHS and the CDC list pasteurised cottage cheese as a safe choice in pregnancy. Shop-bought cottage cheese is made from pasteurised milk. Keep it chilled and eat it before the use-by date.",
+    "tips": [
+      "Try it with fruit or on toast for a protein-rich snack."
+    ]
+  },
+  "cream-cheese": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Cream cheese & mascarpone",
+    "aliases": [
+      "cream cheese",
+      "philadelphia",
+      "mascarpone",
+      "cheese spread",
+      "cheesecake",
+      "frosting"
+    ],
+    "summary": "Yes, pasteurised cream cheese and mascarpone are safe, including baked into cheesecake.",
+    "details": "The NHS and the CDC both list pasteurised cream cheese as safe in pregnancy, and the NHS includes mascarpone and processed cheese spreads too. Shop-bought spreads are made from pasteurised milk. Desserts are a separate question: some no-bake cheesecakes and mousses also contain raw egg.",
+    "tips": [
+      "For no-bake desserts, check whether the recipe uses raw eggs."
+    ]
+  },
+  "ricotta": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Ricotta",
+    "aliases": [
+      "ricotta cheese",
+      "cannoli",
+      "lasagne",
+      "stuffed pasta"
+    ],
+    "summary": "Yes, pasteurised ricotta is safe, fresh or baked into dishes like lasagne.",
+    "details": "The NHS lists pasteurised ricotta among the soft cheeses that are safe in pregnancy, and supermarket ricotta is made from pasteurised milk. Fresh cheeses sold loose or made at home are more likely to be contaminated after making. Stick to sealed packs and eat them before the use-by date.",
+    "tips": [
+      "Choose sealed, chilled packs over loose ricotta from a deli counter."
+    ]
+  },
+  "paneer": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Paneer",
+    "aliases": [
+      "paneer cheese",
+      "indian cheese",
+      "palak paneer",
+      "paneer tikka"
+    ],
+    "summary": "Yes, paneer made from pasteurised milk is safe, cooked or uncooked.",
+    "details": "The NHS includes pasteurised paneer among the soft cheeses that are safe in pregnancy. Paneer is usually cooked in curries or grilled, which adds extra safety. If you make it at home, use pasteurised milk or milk you've brought to the boil.",
+    "tips": [
+      "Making paneer at home? Start with pasteurised or boiled milk."
+    ]
+  },
+  "fresh-cheese": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Lor, çökelek & fresh curd cheese",
+    "aliases": [
+      "lor",
+      "cokelek",
+      "labneh",
+      "queso fresco",
+      "queso blanco",
+      "requeson",
+      "farmer's cheese",
+      "fresh cheese"
+    ],
+    "summary": "Packaged, pasteurised and well chilled is fine, but skip loose or homemade fresh cheese unless it's cooked until hot.",
+    "details": "Fresh, moist cheeses like lor, çökelek, labneh and queso fresco can easily pick up listeria after they're made, even when the milk was heat-treated. The CDC advises heating queso fresco-type cheeses until steaming hot. Baking them into dishes like börek until piping hot removes the risk.",
+    "tips": [
+      "Buy sealed packs from known brands and keep them in the fridge.",
+      "Use loose or village lor in baked dishes like börek, cooked until hot."
+    ]
+  },
+  "beyaz-peynir": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Turkish white cheese (beyaz peynir)",
+    "aliases": [
+      "beyaz peynir",
+      "turkish feta",
+      "white cheese",
+      "brined white cheese",
+      "ezine cheese"
+    ],
+    "summary": "Yes if it's pasteurised, as most packaged brands are; avoid loose or unpasteurised white cheese unless it's cooked.",
+    "details": "Beyaz peynir is a brined cheese similar to feta. Made from pasteurised milk, it's a safe breakfast staple, but cheese made from raw milk can carry listeria and other bacteria. Loose cheese sold from tins at markets, or bought straight from villages, may not be pasteurised.",
+    "tips": [
+      "Look for 'pastörize sütten' on the label.",
+      "Use unpasteurised cheese only in dishes cooked until steaming, like börek or menemen."
+    ]
+  },
+  "kasar": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Kaşar cheese",
+    "aliases": [
+      "kasar",
+      "kashkaval",
+      "turkish melting cheese",
+      "toastie cheese"
+    ],
+    "summary": "Yes, pasteurised kaşar is safe, cold at breakfast or melted in a toastie.",
+    "details": "Kaşar is a semi-hard cheese, and the NHS lists pasteurised semi-hard cheeses as safe in pregnancy. Most kaşar sold in shops is made from pasteurised milk. Aged (eski) kaşar is harder and drier, which makes listeria growth even less likely.",
+    "tips": [
+      "If it's homemade from raw milk, enjoy it melted until hot."
+    ]
+  },
+  "tulum": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Tulum cheese",
+    "aliases": [
+      "tulum",
+      "erzincan tulum",
+      "goatskin cheese",
+      "crumbly turkish cheese"
+    ],
+    "summary": "Choose pasteurised tulum, and eat traditional raw-milk tulum only cooked, for example baked into börek.",
+    "details": "Many traditional tulum cheeses are made from raw sheep's or goat's milk. Unpasteurised cheese can carry listeria, which is rare but can cause miscarriage or serious illness in a newborn. Industrially made tulum is often pasteurised, so check the label.",
+    "tips": [
+      "Check for 'pastörize' on the pack.",
+      "Bake raw-milk tulum into börek or pide until steaming hot."
+    ]
+  },
+  "village-cheese": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Unpasteurised village cheese",
+    "aliases": [
+      "raw milk cheese",
+      "unpasteurised cheese",
+      "unpasteurized cheese",
+      "farm cheese",
+      "koy peyniri",
+      "artisan cheese"
+    ],
+    "summary": "Avoid soft or crumbly raw-milk cheese unless it's cooked until steaming hot; hard, aged cheese is lower risk.",
+    "details": "Cheese made from raw milk can carry listeria and other harmful bacteria. Listeria infection can cause miscarriage, stillbirth or a very unwell newborn, even when you only feel mildly ill. Cooking the cheese until steaming hot makes it safe, and hard, aged cheeses are low risk even when unpasteurised.",
+    "tips": [
+      "Ask the seller whether the milk was pasteurised or boiled.",
+      "Bake village cheese into börek or gözleme until it's steaming hot."
+    ]
+  },
+  "kaymak": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Kaymak (clotted cream)",
+    "aliases": [
+      "clotted cream",
+      "kaymak",
+      "buffalo cream",
+      "qaimar",
+      "eishta",
+      "fresh cream"
+    ],
+    "summary": "Packaged, pasteurised kaymak is fine, but take care with loose kaymak from markets and small dairies.",
+    "details": "Traditional kaymak is made from heated milk, but it's rich and moist and is often handled and sold loose, so it can pick up bacteria such as listeria afterwards. The NHS says pasteurised cream is safe and unpasteurised cream should be avoided. Packaged kaymak from a known brand, kept chilled, is the safest choice.",
+    "tips": [
+      "Buy sealed packs and keep them in the fridge.",
+      "Skip kaymak that has been sitting out at room temperature."
+    ]
+  },
+  "runny-eggs": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Runny eggs",
+    "aliases": [
+      "soft-boiled egg",
+      "fried egg",
+      "sunny side up",
+      "poached egg",
+      "dippy egg",
+      "eggs benedict",
+      "jammy egg",
+      "runny yolk"
+    ],
+    "summary": "Only with UK eggs carrying the British Lion or Laid in Britain mark; elsewhere, cook eggs until the yolk is firm.",
+    "details": "Undercooked eggs can carry salmonella, which rarely harms the baby but can give you severe food poisoning. In the UK, eggs produced under the British Lion or Laid in Britain schemes are considered low risk and can be eaten runny. Elsewhere, including the US, the advice is to cook eggs until both the white and the yolk are firm.",
+    "tips": [
+      "Boil eggs a little longer, or flip fried eggs, until the yolk is set.",
+      "For çılbır or eggs Benedict, use pasteurised eggs or skip the runny yolk."
+    ]
+  },
+  "raw-eggs": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Raw eggs",
+    "aliases": [
+      "raw egg",
+      "mousse",
+      "eggnog",
+      "caesar dressing",
+      "hollandaise",
+      "raw egg smoothie",
+      "royal icing"
+    ],
+    "summary": "Only if the eggs are pasteurised (or UK Lion-marked); otherwise skip raw-egg foods like mousse and Caesar dressing.",
+    "details": "Raw and lightly cooked eggs can carry salmonella, which can cause vomiting, diarrhoea and fever, and the FDA lists pregnant women among those at greater risk of severe illness. For dishes served with raw egg, the FDA advises using pasteurised eggs or pasteurised egg products. Shop-bought products like mayonnaise and dressings are made with pasteurised egg.",
+    "tips": [
+      "Ask restaurants whether homemade sauces and desserts contain raw egg.",
+      "At home, use pasteurised eggs for anything that won't be cooked."
+    ]
+  },
+  "homemade-mayonnaise": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Homemade mayonnaise & aioli",
+    "aliases": [
+      "home made mayo",
+      "fresh mayonnaise",
+      "aioli",
+      "garlic mayo",
+      "house mayo"
+    ],
+    "summary": "Only if it's made with pasteurised eggs (or UK Lion eggs); otherwise it's best skipped.",
+    "details": "Homemade mayonnaise and aioli use raw egg yolk, which can carry salmonella. The NHS says mayonnaise made with British Lion or Laid in Britain eggs is fine, while US advice is to use pasteurised eggs for raw-egg recipes. Restaurant 'house mayo' and aioli are often made fresh, so it's worth asking.",
+    "tips": [
+      "Ask whether house sauces are made fresh with raw egg.",
+      "Shop-bought jars are a safe swap."
+    ]
+  },
+  "mayonnaise": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Mayonnaise (shop-bought)",
+    "aliases": [
+      "mayo",
+      "jarred mayonnaise",
+      "salad cream",
+      "tartar sauce",
+      "coleslaw dressing"
+    ],
+    "summary": "Yes, jarred, shop-bought mayonnaise is made with pasteurised egg and is safe.",
+    "details": "Commercially made mayonnaise uses pasteurised egg, so it doesn't carry the raw-egg risk of homemade versions. Once opened, keep the jar in the fridge. Take more care with ready-made salads and sandwiches containing mayonnaise, which the NHS says should be kept chilled and eaten before the use-by date.",
+    "tips": [
+      "Refrigerate after opening and don't leave mayo dishes out in the heat."
+    ]
+  },
+  "tiramisu": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Tiramisu",
+    "aliases": [
+      "tiramisu",
+      "mascarpone dessert",
+      "coffee dessert",
+      "zabaglione",
+      "trifle"
+    ],
+    "summary": "Shop-bought tiramisu made with pasteurised egg is usually fine, but homemade versions often use raw egg and alcohol.",
+    "details": "Classic tiramisu is made with raw egg, which can carry salmonella, and it often includes Marsala, rum or coffee liqueur. Many supermarket versions use pasteurised egg and no alcohol, so check the label. The coffee adds a little caffeine to your daily total as well.",
+    "tips": [
+      "Check labels for pasteurised egg and no alcohol.",
+      "At home, use pasteurised egg or an egg-free recipe."
+    ]
+  },
+  "cookie-dough": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Raw cookie dough & cake batter",
+    "aliases": [
+      "cookie dough",
+      "cake batter",
+      "raw dough",
+      "raw flour",
+      "brownie batter",
+      "licking the spoon"
+    ],
+    "summary": "Avoid tasting raw dough or batter, because both raw flour and raw egg can carry harmful bacteria.",
+    "details": "Raw flour isn't treated to kill germs and has been linked to E. coli outbreaks, and raw egg can carry salmonella. Baking or cooking kills both. Edible cookie dough sold as ready-to-eat is made with heat-treated flour and no raw egg, so check the label.",
+    "tips": [
+      "Resist licking the spoon: bake first, taste after.",
+      "Wash hands and surfaces after handling raw flour."
+    ]
+  },
+  "sushi": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Sushi with raw fish",
+    "aliases": [
+      "sushi",
+      "sashimi",
+      "nigiri",
+      "raw fish",
+      "poke",
+      "ceviche",
+      "crudo",
+      "raw salmon",
+      "tuna tartare"
+    ],
+    "summary": "Skip sushi and sashimi made with raw fish or shellfish; sushi with cooked fish or vegetables is fine.",
+    "details": "Raw fish can carry listeria, parasites and other bacteria that cooking would kill. ACOG advises avoiding all raw or undercooked fish in pregnancy, and the NHS now says this applies even if the fish was frozen first. Rolls made with cooked fish, cooked prawns, crab sticks or vegetables are fine.",
+    "tips": [
+      "Try cooked options like tempura prawn, eel, cooked salmon or avocado rolls.",
+      "Ask the chef which rolls contain raw fish."
+    ]
+  },
+  "sushi-cooked": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Sushi with cooked fish or veg",
+    "aliases": [
+      "cooked sushi",
+      "california roll",
+      "vegetarian sushi",
+      "veggie sushi",
+      "tempura roll",
+      "unagi",
+      "cucumber roll",
+      "avocado roll"
+    ],
+    "summary": "Yes, sushi made with cooked fish, cooked shellfish or vegetables is safe in pregnancy.",
+    "details": "The NHS lists sushi made with cooked fish or cooked shellfish as safe to eat. The usual food-safety rules still apply: sushi should be kept chilled, and pre-packed sushi eaten before its use-by date. Smoked salmon rolls count as uncooked fish, so skip those.",
+    "tips": [
+      "Choose freshly made rolls from busy places with good hygiene.",
+      "Go easy on soy sauce if you're watching your salt."
+    ]
+  },
+  "smoked-salmon": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Smoked salmon & cured fish",
+    "aliases": [
+      "smoked salmon",
+      "lox",
+      "gravlax",
+      "cold-smoked fish",
+      "smoked trout",
+      "lakerda",
+      "cured fish",
+      "kippers"
+    ],
+    "summary": "Only when it's cooked until steaming hot, as in a hot pasta or quiche; skip cold smoked salmon, gravlax and lakerda.",
+    "details": "Cold-smoked and cured fish isn't cooked, so it can carry listeria. The NHS advises cooking it until steaming hot, and the CDC advises avoiding refrigerated smoked fish unless it's in a cooked dish. Canned or shelf-stable smoked fish in sealed packs is lower risk.",
+    "tips": [
+      "Stir smoked salmon into hot pasta or scrambled eggs and heat it through.",
+      "Even hot-smoked fish, like smoked mackerel, is safest eaten hot."
+    ]
+  },
+  "tuna-canned": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Canned tuna",
+    "aliases": [
+      "tinned tuna",
+      "tuna can",
+      "tuna salad",
+      "tuna sandwich",
+      "light tuna",
+      "albacore",
+      "skipjack"
+    ],
+    "summary": "Yes, in moderation: the UK limit is 4 cans a week, and US advice favours light tuna over albacore.",
+    "details": "Tuna contains more mercury than most fish, and too much mercury can affect a baby's developing nervous system. The NHS sets a limit of 4 cans a week. The FDA lists canned light tuna as a 'best choice' (2 to 3 servings a week of best-choice fish) and albacore as a 'good choice' (1 serving a week).",
+    "tips": [
+      "Mix it up with lower-mercury fish like salmon, sardines or anchovies.",
+      "Keep shop-bought tuna sandwiches chilled and eat them by the use-by date."
+    ]
+  },
+  "tuna-steak": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Tuna steak",
+    "aliases": [
+      "fresh tuna",
+      "seared tuna",
+      "yellowfin tuna",
+      "ahi tuna",
+      "bigeye tuna",
+      "tuna tataki"
+    ],
+    "summary": "Yes, cooked through and in moderation (no more than 2 steaks a week in the UK), but avoid seared or raw tuna.",
+    "details": "Fresh tuna is higher in mercury than most fish, so the NHS limits it to 2 steaks a week, and the FDA advises avoiding bigeye tuna altogether. Seared tuna and tataki are rare in the middle, so they carry the same risks as raw fish. Cook steaks until they're opaque all the way through.",
+    "tips": [
+      "Ask for it cooked through, with no pink in the middle.",
+      "Mix in lower-mercury fish like salmon, trout or sardines."
+    ]
+  },
+  "swordfish": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Swordfish & marlin",
+    "aliases": [
+      "swordfish",
+      "swordfish steak",
+      "marlin",
+      "high-mercury fish"
+    ],
+    "summary": "Avoid them, because swordfish and marlin are high in mercury, which can harm a baby's developing nervous system.",
+    "details": "Large predatory fish build up mercury over their long lives, and swordfish and marlin are on both the NHS and FDA lists of fish to avoid in pregnancy. Mercury crosses the placenta and can affect brain and nerve development. Plenty of other fish give you the same omega-3 benefits with far less mercury.",
+    "tips": [
+      "Swap kılıç şiş for grilled sea bass, sea bream or salmon."
+    ]
+  },
+  "shark": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Shark",
+    "aliases": [
+      "shark steak",
+      "dogfish",
+      "rock salmon",
+      "huss",
+      "flake"
+    ],
+    "summary": "Avoid it, because shark is one of the highest-mercury fish and is on both UK and US avoid lists.",
+    "details": "Sharks are long-lived predators that accumulate high levels of mercury. In pregnancy, mercury can pass to the baby and affect the developing brain and nervous system. Both the NHS and the FDA advise avoiding shark completely while pregnant or planning a pregnancy.",
+    "tips": [
+      "In fish restaurants, choose sea bass, sea bream, cod or haddock instead."
+    ]
+  },
+  "king-mackerel": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "King mackerel",
+    "aliases": [
+      "king mackerel",
+      "kingfish",
+      "tilefish",
+      "orange roughy",
+      "bigeye tuna"
+    ],
+    "summary": "Avoid king mackerel; ordinary Atlantic mackerel (uskumru) is a different, low-mercury fish and is fine.",
+    "details": "King mackerel is a large ocean fish that the FDA lists among the highest-mercury species to avoid in pregnancy, along with bigeye tuna, swordfish, shark, marlin, orange roughy and tilefish from the Gulf of Mexico. Atlantic mackerel, by contrast, is on the FDA's 'best choices' list. In the UK, mackerel counts toward your 2 portions of oily fish a week.",
+    "tips": [
+      "Check the species name on menus and at fish counters.",
+      "Enjoy regular uskumru, grilled and cooked through."
+    ]
+  },
+  "salmon": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Salmon (cooked)",
+    "aliases": [
+      "salmon fillet",
+      "baked salmon",
+      "grilled salmon",
+      "trout",
+      "oily fish",
+      "fish"
+    ],
+    "summary": "Yes, cooked salmon is a great choice, and UK advice is up to 2 portions of oily fish a week.",
+    "details": "Salmon is low in mercury and rich in omega-3 fats, which are good for you and your baby's development. The NHS recommends 2 portions of fish a week, one of them oily, but no more than 2 portions of oily fish because it can contain pollutants. The FDA lists salmon among its 'best choices'.",
+    "tips": [
+      "Cook it until it flakes easily and is opaque all the way through.",
+      "Smoked salmon is different: it needs cooking until steaming hot."
+    ]
+  },
+  "anchovies": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Anchovies & sardines (hamsi)",
+    "aliases": [
+      "hamsi",
+      "anchovy",
+      "sardines",
+      "pilchards",
+      "herring",
+      "atlantic mackerel",
+      "uskumru"
+    ],
+    "summary": "Yes, cooked, since they're low-mercury oily fish; UK advice is up to 2 portions of oily fish a week.",
+    "details": "Anchovies, sardines and Atlantic mackerel are on the FDA's 'best choices' list for low mercury and are rich in omega-3. The NHS counts them as oily fish and suggests no more than 2 portions a week because oily fish can contain pollutants. Eat them cooked, as marinated raw anchovies carry the same risks as other raw fish.",
+    "tips": [
+      "Hamsi tava, buğulama or grilled sardines are all great choices.",
+      "Canned sardines are cooked and count toward your oily fish too."
+    ]
+  },
+  "prawns": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Prawns & shrimp",
+    "aliases": [
+      "shrimp",
+      "prawn cocktail",
+      "king prawns",
+      "scampi",
+      "shrimp cocktail",
+      "garlic prawns"
+    ],
+    "summary": "Yes when they're cooked and served hot; heat cold ready-to-eat prawns, as in prawn cocktail, until steaming.",
+    "details": "Cooked shellfish such as prawns are safe and a good source of protein. The NHS now advises heating cold, pre-cooked ready-to-eat prawns until steaming hot because they can carry listeria. Raw prawns, as in some ceviche or sushi, should be avoided.",
+    "tips": [
+      "Cook raw prawns until pink and opaque all the way through.",
+      "Karides güveç straight from the oven is a perfect choice."
+    ]
+  },
+  "oysters": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Raw oysters & raw shellfish",
+    "aliases": [
+      "oysters",
+      "raw clams",
+      "raw mussels",
+      "raw scallops",
+      "oyster bar",
+      "sea urchin",
+      "raw shellfish"
+    ],
+    "summary": "Avoid raw shellfish, though cooked oysters, mussels and clams are fine once they're hot and their shells have opened.",
+    "details": "Raw shellfish can carry bacteria such as vibrio, as well as toxins, which can cause severe food poisoning. The NHS advises avoiding raw shellfish in pregnancy, while cooked shellfish is safe. Throw away any mussels or clams that stay closed after cooking.",
+    "tips": [
+      "Order grilled or baked oysters instead of raw ones."
+    ]
+  },
+  "midye-dolma": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Midye dolma (stuffed mussels)",
+    "aliases": [
+      "stuffed mussels",
+      "midye",
+      "street mussels",
+      "midye tava",
+      "fried mussels"
+    ],
+    "summary": "Only when freshly made at a clean, trusted place; street mussels kept unchilled for hours are best skipped.",
+    "details": "The mussels and rice in midye dolma are cooked, so the main risk is how they're stored afterwards. Left at room temperature for hours, especially in summer, they can grow bacteria that cause food poisoning, and shellfish can also carry toxins. Food poisoning is especially draining in pregnancy and can lead to dehydration.",
+    "tips": [
+      "Choose busy places that keep them chilled, and skip them in hot weather.",
+      "Midye tava, fried hot to order, is a safer pick."
+    ]
+  },
+  "deli-meat": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Deli meats & cold cuts",
+    "aliases": [
+      "deli meat",
+      "cold cuts",
+      "lunch meat",
+      "sliced ham",
+      "turkey slices",
+      "luncheon meat",
+      "ham sandwich",
+      "bologna"
+    ],
+    "summary": "Safest heated until steaming: UK advice allows chilled, in-date packs, while US advice says heat them first.",
+    "details": "Ready-to-eat meats like ham, turkey slices and salam can carry listeria, which can grow slowly even in the fridge. The NHS says cold pre-cooked meats are fine if kept chilled and eaten before the use-by date, while the CDC advises reheating deli meat until steaming hot. Heating it in a toastie or a pan removes the risk.",
+    "tips": [
+      "Make it a hot toastie or panini, heated right through.",
+      "Skip sliced meats that have been sitting out on open deli counters."
+    ]
+  },
+  "salami": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Salami & cured meats",
+    "aliases": [
+      "salami",
+      "pepperoni",
+      "chorizo",
+      "prosciutto",
+      "parma ham",
+      "serrano ham",
+      "cured meat",
+      "charcuterie"
+    ],
+    "summary": "Cook it until steaming hot, as on a pizza, and skip cold slices of salami, chorizo or prosciutto.",
+    "details": "Cured meats aren't cooked, so they can carry listeria and the toxoplasma parasite. The NHS now advises cooking cold cured meats until steaming hot before eating them, and the CDC says to avoid unheated dry or fermented sausages. On a hot, freshly baked pizza they're fine.",
+    "tips": [
+      "Pepperoni pizza is fine when it's hot from the oven.",
+      "On a charcuterie board, stick to the cooked items and hard cheeses."
+    ]
+  },
+  "sucuk": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Sucuk (Turkish sausage)",
+    "aliases": [
+      "sujuk",
+      "sucuk",
+      "turkish sausage",
+      "spicy beef sausage",
+      "sucuk and eggs"
+    ],
+    "summary": "Yes when it's fried or grilled until cooked through and sizzling hot, but don't eat it raw or barely warmed.",
+    "details": "Traditional sucuk is a fermented, dried sausage that isn't cooked during making, so like salami it can carry listeria and toxoplasma. Frying or grilling it until it's hot all the way through makes it safe. Heat-treated (ısıl işlem görmüş) sucuk has been cooked during production, but it's still best eaten hot.",
+    "tips": [
+      "Sucuklu yumurta is fine: cook until the egg is set and the sucuk is sizzling.",
+      "Sucuk is salty and fatty, so keep portions moderate."
+    ]
+  },
+  "pastirma": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Pastırma (cured beef)",
+    "aliases": [
+      "pastirma",
+      "basturma",
+      "cured beef",
+      "air-dried beef",
+      "bresaola"
+    ],
+    "summary": "Skip thin cold slices, but pastırma cooked until steaming hot, as in pastırmalı yumurta, is fine.",
+    "details": "Pastırma is air-dried, cured beef that's usually eaten without cooking, so it carries the same risks as other cured meats: toxoplasma and listeria. The NHS advises cooking cured meats until steaming hot. In normal amounts, the çemen (fenugreek) coating isn't the concern; the uncooked meat is.",
+    "tips": [
+      "Cook pastırmalı yumurta until the eggs are firm and everything is hot.",
+      "Pastırmalı humus is baked hot, so it's fine straight from the oven."
+    ]
+  },
+  "hot-dogs": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Hot dogs & frankfurters",
+    "aliases": [
+      "hot dog",
+      "frankfurter",
+      "wiener",
+      "vienna sausage",
+      "corn dog",
+      "cocktail sausages"
+    ],
+    "summary": "Only when they're heated until steaming hot all the way through, never straight from the pack.",
+    "details": "Hot dogs are pre-cooked, but listeria can contaminate them after cooking and keep growing in the fridge. The CDC advises reheating hot dogs until steaming hot. Liquid from the packet can also spread bacteria, so keep it away from other foods.",
+    "tips": [
+      "Boil or grill them until piping hot in the middle.",
+      "Wash your hands after opening and handling the pack."
+    ]
+  },
+  "pate": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Pâté",
+    "aliases": [
+      "pate",
+      "liver pate",
+      "chicken liver pate",
+      "foie gras",
+      "meat spread",
+      "terrine"
+    ],
+    "summary": "Best avoided, because liver pâté is very high in vitamin A and chilled pâté can carry listeria.",
+    "details": "Liver pâté contains so much vitamin A (retinol) that it can harm a baby's development, so the NHS advises avoiding all liver products. Chilled pâtés and meat spreads can also carry listeria. Pâté without liver is treated differently: the NHS says keep it chilled and eat it before the use-by date, while the CDC says choose canned or shelf-stable pâté.",
+    "tips": [
+      "Check labels for liver, which is in foie gras and many chicken pâtés.",
+      "Canned, shelf-stable pâté without liver is the safer pick."
+    ]
+  },
+  "liver": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Liver",
+    "aliases": [
+      "calf liver",
+      "lamb liver",
+      "chicken liver",
+      "liver and onions",
+      "liver sausage",
+      "haggis",
+      "offal"
+    ],
+    "summary": "Best avoided, because liver is extremely high in vitamin A and too much can harm a developing baby.",
+    "details": "Liver stores large amounts of vitamin A as retinol, and high intakes in pregnancy have been linked to birth defects. The NHS advises avoiding liver and liver products completely, while US advice focuses on not going over safe vitamin A limits. That includes popular dishes like Arnavut ciğeri and ciğer şiş.",
+    "tips": [
+      "Get iron from red meat, lentils, chickpeas and leafy greens instead."
+    ]
+  },
+  "rare-steak": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Rare or pink steak",
+    "aliases": [
+      "rare steak",
+      "medium rare",
+      "pink lamb",
+      "steak",
+      "roast beef",
+      "lamb chops",
+      "blue steak"
+    ],
+    "summary": "Safest well done: UK advice allows whole steaks well cooked on the outside, while US advice says cook to 63°C.",
+    "details": "Raw and undercooked meat can carry the toxoplasma parasite, which can harm a baby if you catch it for the first time in pregnancy. Germs on whole cuts sit mostly on the surface, and the NHS now says steaks and cutlets cooked thoroughly on the outside are fine. The CDC recommends cooking whole cuts to 63°C (145°F) with a 3-minute rest.",
+    "tips": [
+      "If you're unsure, order it medium-well to well done.",
+      "Mince, burgers and köfte always need cooking all the way through."
+    ]
+  },
+  "raw-meat": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Raw meat (tartare, carpaccio)",
+    "aliases": [
+      "steak tartare",
+      "beef carpaccio",
+      "kibbeh nayyeh",
+      "raw beef",
+      "raw lamb",
+      "mett"
+    ],
+    "summary": "Avoid them, because raw meat dishes can carry toxoplasma, listeria and E. coli.",
+    "details": "Steak tartare, carpaccio and similar dishes are never cooked, so any parasites or bacteria in the meat survive. Toxoplasmosis caught for the first time in pregnancy can cause miscarriage or serious problems for the baby. The NHS advises avoiding raw or undercooked meat while you're pregnant.",
+    "tips": [
+      "Wash your hands, boards and knives after handling raw meat."
+    ]
+  },
+  "cig-kofte-meat": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Çiğ köfte with raw meat",
+    "aliases": [
+      "cig kofte",
+      "raw meatballs",
+      "etli cig kofte",
+      "traditional cig kofte"
+    ],
+    "summary": "Avoid it, because traditional çiğ köfte is made with raw minced meat, which can carry toxoplasma and E. coli.",
+    "details": "The traditional recipe kneads raw minced beef or lamb with bulgur and spices, and neither the spices nor the kneading kill parasites or bacteria. Mince is riskier than whole cuts because surface germs get mixed all the way through. Homemade versions are the ones most likely to contain meat.",
+    "tips": [
+      "Ask whether it's etli or etsiz before you eat it.",
+      "Meatless çiğ köfte is a safe alternative."
+    ]
+  },
+  "cig-kofte": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Meatless çiğ köfte",
+    "aliases": [
+      "vegan cig kofte",
+      "bulgur kofte",
+      "etsiz cig kofte",
+      "cig kofte wrap"
+    ],
+    "summary": "Yes, meatless çiğ köfte made from bulgur and spices is fine, as long as you wash the lettuce and herbs served with it.",
+    "details": "Most shop-bought çiğ köfte today is meatless, made from bulgur, tomato and pepper paste and spices, so the raw-meat risk doesn't apply. Bulgur is already boiled during processing. The greens served alongside should be well washed, as soil on unwashed produce can carry harmful germs.",
+    "tips": [
+      "It can be very spicy, so go easy if you have heartburn.",
+      "Buy it from clean places where it's freshly made."
+    ]
+  },
+  "doner-kebab": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Döner & kebabs",
+    "aliases": [
+      "doner",
+      "doner kebab",
+      "shawarma",
+      "gyros",
+      "shish kebab",
+      "adana kebab",
+      "iskender"
+    ],
+    "summary": "Yes when it's freshly cooked, cooked through and piping hot; avoid pink chicken or meat that's been sitting out.",
+    "details": "Döner is cooked in layers on a rotating spit, so slices can occasionally be undercooked if they're cut too fast or too thick. Undercooked meat can carry toxoplasma, and undercooked chicken can carry bacteria such as salmonella. A busy, clean place that slices thin, well-browned meat is the safest bet.",
+    "tips": [
+      "Ask for well-cooked, crispy slices from the outside of the spit.",
+      "Check chicken is white all the way through, with no pink."
+    ]
+  },
+  "burgers": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Burgers & meatballs (köfte)",
+    "aliases": [
+      "burger",
+      "hamburger",
+      "meatballs",
+      "kofte",
+      "minced meat",
+      "ground beef",
+      "sausages"
+    ],
+    "summary": "Yes when they're cooked all the way through, with no pink in the middle and juices that run clear.",
+    "details": "Mincing spreads any bacteria from the surface of meat all the way through, so burgers and köfte need cooking right to the centre. The NHS says minced meat, burgers and sausages should have no trace of pink or blood. The CDC recommends cooking ground meat to 71°C (160°F).",
+    "tips": [
+      "Order burgers well done, as many restaurants serve them pink by default.",
+      "Cut the thickest köfte open to check before eating."
+    ]
+  },
+  "chicken": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Chicken & poultry",
+    "aliases": [
+      "chicken",
+      "turkey",
+      "duck",
+      "poultry",
+      "chicken breast",
+      "rotisserie chicken",
+      "chicken wings"
+    ],
+    "summary": "Yes, as long as it's cooked all the way through, with no pink meat and juices that run clear.",
+    "details": "Thoroughly cooked chicken, turkey and duck are safe and a great source of protein. Undercooked poultry can carry bacteria such as salmonella, which cause food poisoning. The CDC recommends cooking poultry to 74°C (165°F), and the NHS says there should be no trace of pink.",
+    "tips": [
+      "Use a separate chopping board for raw chicken.",
+      "Reheat leftovers until they're steaming hot."
+    ]
+  },
+  "kokorec": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Kokoreç",
+    "aliases": [
+      "kokorec",
+      "kokoretsi",
+      "grilled intestines",
+      "lamb intestines",
+      "offal"
+    ],
+    "summary": "Only if it's freshly grilled, piping hot and cooked through, from a clean place you trust.",
+    "details": "Kokoreç is made from lamb intestines, which need very careful cleaning and thorough cooking to be safe. Undercooked offal can carry bacteria that cause food poisoning. Good kokoreç is chopped and fried again on the griddle just before serving, which helps make sure it's hot all the way through.",
+    "tips": [
+      "Choose busy places where it's re-griddled hot as you order.",
+      "Skip it in hot weather or from stalls where hygiene looks doubtful."
+    ]
+  },
+  "raw-sprouts": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Raw sprouts",
+    "aliases": [
+      "bean sprouts",
+      "alfalfa sprouts",
+      "mung bean sprouts",
+      "broccoli sprouts",
+      "radish sprouts"
+    ],
+    "summary": "Avoid them raw or lightly cooked; sprouts cooked until steaming hot, as in a stir-fry, are fine.",
+    "details": "Sprouts grow in warm, humid conditions that are ideal for bacteria such as salmonella, listeria and E. coli, and washing doesn't reliably remove them. The CDC advises people at higher risk, including pregnant women, to avoid raw or lightly cooked sprouts. Cooking them thoroughly kills the bacteria.",
+    "tips": [
+      "Ask for no sprouts on sandwiches, salads and noodle dishes.",
+      "Add them to stir-fries early so they cook through."
+    ]
+  },
+  "unwashed-salad": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Salad & raw vegetables",
+    "aliases": [
+      "salad",
+      "lettuce",
+      "unwashed vegetables",
+      "bagged salad",
+      "salad bar",
+      "fresh herbs",
+      "raw vegetables"
+    ],
+    "summary": "Yes, once it's thoroughly washed; keep pre-packed salads chilled and eat them before the use-by date.",
+    "details": "Soil on unwashed vegetables and herbs can carry the toxoplasma parasite and bacteria, so wash all salad leaves and raw vegetables well. The NHS also flags pre-packed salads and sandwiches as a small listeria risk if they aren't kept cold. Eating plenty of vegetables is still one of the best things you can do in pregnancy.",
+    "tips": [
+      "Wash leaves under running water, even if they look clean.",
+      "At salad bars, choose places that keep everything well chilled."
+    ]
+  },
+  "pre-cut-fruit": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Pre-cut fruit & melon",
+    "aliases": [
+      "cut melon",
+      "fruit salad",
+      "fruit cup",
+      "watermelon slices",
+      "cantaloupe",
+      "fruit platter"
+    ],
+    "summary": "Fine if it's kept chilled and eaten by the use-by date, but skip cut fruit that's been sitting out in the warmth.",
+    "details": "Once fruit is cut, bacteria such as listeria can grow on it, and melon is a known risk. The CDC advises throwing away cut melon that's been left out for more than 2 hours (1 hour above 32°C) or kept in the fridge for over a week. Whole fruit that you wash and cut yourself is the safest choice.",
+    "tips": [
+      "Wash melons before cutting, as the knife carries surface germs inside.",
+      "Put leftovers in the fridge straight away."
+    ]
+  },
+  "papaya": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Papaya (ripe vs unripe)",
+    "aliases": [
+      "pawpaw",
+      "green papaya",
+      "unripe papaya",
+      "ripe papaya",
+      "som tam",
+      "green papaya salad"
+    ],
+    "summary": "Ripe papaya is fine, but avoid unripe (green) papaya, such as in green papaya salad.",
+    "details": "Unripe papaya contains latex, which triggered uterine contractions in an animal study, while ripe papaya juice did not. Evidence in humans is limited, but green papaya is easy to avoid, so it's a sensible precaution. Ripe, yellow-orange papaya is a good source of vitamin C.",
+    "tips": [
+      "Choose papaya with yellow-orange skin that gives slightly when pressed.",
+      "Ask about green papaya in Thai salads and pickles."
+    ]
+  },
+  "pineapple": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Pineapple",
+    "aliases": [
+      "pineapple juice",
+      "fresh pineapple",
+      "bromelain"
+    ],
+    "summary": "Yes, pineapple in normal amounts is safe; the idea that it causes miscarriage is a myth.",
+    "details": "Pineapple contains an enzyme called bromelain, but no health authority lists the fruit as a food to avoid, and normal portions haven't been shown to cause miscarriage or labour. Like other fruit, it's part of a healthy, varied diet. Its acidity can make heartburn worse for some people.",
+    "tips": [
+      "Wash the outside before cutting.",
+      "If it gives you heartburn, eat it with a meal rather than on its own."
+    ]
+  },
+  "grapes": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Grapes",
+    "aliases": [
+      "red grapes",
+      "green grapes",
+      "raisins",
+      "grape juice",
+      "resveratrol"
+    ],
+    "summary": "Yes, grapes are safe in pregnancy, so just wash them well.",
+    "details": "Some online myths warn against grapes, but no health authority lists them as a food to avoid. As with all fruit, wash them thoroughly to remove soil and residues. Grapes and raisins are high in natural sugar, so keep portions sensible if you have gestational diabetes.",
+    "tips": [
+      "Rinse them under running water just before eating."
+    ]
+  },
+  "liquorice": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Liquorice root (meyan kökü)",
+    "aliases": [
+      "licorice",
+      "liquorice",
+      "licorice root",
+      "black licorice",
+      "liquorice tea",
+      "glycyrrhizin",
+      "meyan"
+    ],
+    "summary": "Avoid liquorice root and drinks like meyan şerbeti, though the odd small liquorice sweet is unlikely to matter.",
+    "details": "Liquorice root contains a compound called glycyrrhizin, and the NHS advises avoiding herbal teas containing liquorice root because it may be harmful to a baby's development. Meyan şerbeti, popular in southeastern Turkey, is made from the root. Many liquorice-flavoured sweets contain only small amounts, or use aniseed instead.",
+    "tips": [
+      "Check herbal tea blends for liquorice root on the label.",
+      "Skip liquorice-flavoured nicotine products too."
+    ]
+  },
+  "honey": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Honey",
+    "aliases": [
+      "raw honey",
+      "manuka honey",
+      "honeycomb",
+      "unpasteurised honey"
+    ],
+    "summary": "Yes, honey, including raw honey, is safe for you in pregnancy, since the no-honey rule is for babies under 1.",
+    "details": "Honey can contain bacterial spores that cause infant botulism, which is why babies under 12 months shouldn't have it. An adult's mature gut deals with these spores, and honey isn't on the NHS list of foods to avoid in pregnancy. It's still a sugar, so keep amounts moderate, especially if you have gestational diabetes.",
+    "tips": [
+      "A spoonful of honey with lemon in warm water can soothe a sore throat."
+    ]
+  },
+  "peanuts": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Peanuts & nuts",
+    "aliases": [
+      "peanuts",
+      "peanut butter",
+      "nuts",
+      "almonds",
+      "walnuts",
+      "cashews",
+      "pistachios",
+      "hazelnuts"
+    ],
+    "summary": "Yes, peanuts and other nuts are safe unless you're allergic or your doctor has told you otherwise.",
+    "details": "The NHS says peanuts and other nuts are safe to eat in pregnancy unless you're allergic or your doctor or midwife has advised you otherwise. Nuts provide protein, healthy fats and fibre. Unsalted versions are best for everyday snacking.",
+    "tips": [
+      "A small handful of unsalted nuts makes a filling snack."
+    ]
+  },
+  "chocolate": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Chocolate",
+    "aliases": [
+      "dark chocolate",
+      "milk chocolate",
+      "cocoa",
+      "hot chocolate",
+      "brownies"
+    ],
+    "summary": "Yes, in moderation, but it contains a little caffeine that counts toward your 200 mg daily limit.",
+    "details": "The NHS estimates under 25 mg of caffeine in a 50 g bar of plain dark chocolate and under 10 mg in a 50 g bar of milk chocolate. That's small, but it adds up alongside coffee, tea and cola. Chocolate is also high in sugar and fat, so enjoy it as a treat.",
+    "tips": [
+      "If you also drink coffee or tea, count chocolate in your caffeine total."
+    ]
+  },
+  "spicy-food": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Spicy food",
+    "aliases": [
+      "chilli",
+      "chili",
+      "hot sauce",
+      "curry",
+      "jalapeno",
+      "spicy"
+    ],
+    "summary": "Yes, spicy food won't harm your baby, though it can make heartburn worse.",
+    "details": "Spicy food isn't on any pregnancy 'avoid' list, so it's about comfort rather than safety. Rich, spicy or fatty foods can trigger indigestion and heartburn, which are common in pregnancy, and the NHS suggests cutting down if they bother you. Smaller, more frequent meals can also help.",
+    "tips": [
+      "If you get heartburn at night, avoid spicy meals close to bedtime."
+    ]
+  },
+  "pickles": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Pickles (turşu)",
+    "aliases": [
+      "pickles",
+      "gherkins",
+      "pickled vegetables",
+      "sauerkraut",
+      "kimchi",
+      "pickle juice",
+      "tursu"
+    ],
+    "summary": "Yes, pickles are safe, but keep an eye on the salt, especially if your blood pressure is high.",
+    "details": "Pickled and fermented vegetables are fine in pregnancy, and pickle cravings are very common. Pickles and turşu suyu are very salty, and most adults already eat more salt than is recommended. If you have high blood pressure or swelling, ask your midwife or doctor how much salt is right for you.",
+    "tips": [
+      "Rinse pickles, or choose lower-salt versions.",
+      "Enjoy turşu alongside meals rather than drinking lots of the brine."
+    ]
+  },
+  "kombucha": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Kombucha",
+    "aliases": [
+      "kombucha",
+      "fermented tea",
+      "booch",
+      "scoby"
+    ],
+    "summary": "Best avoided, because it's often unpasteurised and homebrewed batches can grow harmful bacteria.",
+    "details": "Kombucha is tea fermented with bacteria and yeast, so it naturally contains some caffeine and can contain a little alcohol. Mayo Clinic notes it has caused stomach upsets, infections and allergic reactions, and advises people who are pregnant or breastfeeding to avoid it. There's no proven health benefit to make up for those risks.",
+    "tips": [
+      "For something fizzy, try sparkling water with lemon or a splash of juice."
+    ]
+  },
+  "kefir": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Kefir",
+    "aliases": [
+      "milk kefir",
+      "fermented milk",
+      "kefir drink",
+      "probiotic drink"
+    ],
+    "summary": "Yes, shop-bought kefir made from pasteurised milk is fine, but avoid homemade kefir made from raw milk.",
+    "details": "Kefir is a fermented milk drink, and versions made with pasteurised milk are considered as safe as yoghurt. The risk comes from kefir made with unpasteurised milk, which can carry listeria and other bacteria. If you make it at home, start with pasteurised or boiled milk and keep it chilled.",
+    "tips": [
+      "Check the label says pasteurised milk.",
+      "Plain kefir has less sugar than flavoured versions."
+    ]
+  },
+  "yogurt-ayran": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Yoghurt & ayran",
+    "aliases": [
+      "yogurt",
+      "yoghurt",
+      "ayran",
+      "greek yogurt",
+      "strained yogurt",
+      "lassi",
+      "tzatziki",
+      "cacik"
+    ],
+    "summary": "Yes, yoghurt and ayran made from pasteurised or boiled milk are safe and a great source of calcium.",
+    "details": "The NHS lists pasteurised yoghurt as safe in pregnancy, and shop-bought ayran is made from it. Homemade yoghurt is fine too, as long as the milk was pasteurised or brought to the boil first. Only yoghurt made from raw, unboiled milk should be avoided.",
+    "tips": [
+      "Ayran is salty, so choose lower-salt versions if you have swelling or high blood pressure."
+    ]
+  },
+  "raw-milk": {
+    "category": "food",
+    "verdict": "avoid",
+    "name": "Raw (unpasteurised) milk",
+    "aliases": [
+      "raw milk",
+      "unpasteurised milk",
+      "unpasteurized milk",
+      "farm milk",
+      "fresh cow's milk",
+      "raw goat milk"
+    ],
+    "summary": "Avoid unpasteurised milk, or bring it to a rolling boil before drinking or cooking with it.",
+    "details": "Raw milk can carry listeria, salmonella, E. coli and campylobacter, and the CDC lists pregnant women among those at higher risk of serious illness. The NHS advises avoiding unpasteurised milk, cream and yoghurt from cows, sheep and goats. Boiling kills these bacteria, which is why boiled village milk is a safe alternative.",
+    "tips": [
+      "Bring village or farm milk to a rolling boil before using it.",
+      "When shopping, choose pasteurised or UHT milk."
+    ]
+  },
+  "ice-cream": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Ice cream",
+    "aliases": [
+      "gelato",
+      "frozen yogurt",
+      "sorbet",
+      "maras ice cream",
+      "dondurma",
+      "homemade ice cream"
+    ],
+    "summary": "Yes, pasteurised ice cream is safe, but avoid homemade ice cream made with raw egg or raw milk.",
+    "details": "The NHS lists pasteurised ice cream as safe in pregnancy, and commercially made ice cream uses pasteurised milk. Some homemade recipes use raw egg or unpasteurised milk, which can carry salmonella or listeria. Soft serve from machines is a slightly different case, covered separately.",
+    "tips": [
+      "Keep it frozen, and don't refreeze ice cream that has melted."
+    ]
+  },
+  "soft-serve": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Soft serve ice cream",
+    "aliases": [
+      "soft-serve",
+      "mr whippy",
+      "frozen custard",
+      "machine ice cream",
+      "sundae",
+      "mcflurry"
+    ],
+    "summary": "Usually fine from busy, clean outlets, though machines that aren't cleaned well can harbour listeria.",
+    "details": "Soft serve is made from a pasteurised mix, but listeria can survive in machines that aren't properly cleaned, because it's able to grow at cold temperatures. It's a small risk, but listeria infection can be serious in pregnancy. Packaged ice cream is the lower-risk choice.",
+    "tips": [
+      "Choose places with high turnover and visibly clean machines."
+    ]
+  },
+  "parsley": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Parsley & herbs in large amounts",
+    "aliases": [
+      "parsley",
+      "parsley juice",
+      "parsley tea",
+      "herbs",
+      "tabbouleh",
+      "coriander",
+      "dill",
+      "sage"
+    ],
+    "summary": "Herbs in normal cooking amounts are fine, but avoid parsley juices, 'cures' and strong herb teas in large amounts.",
+    "details": "Using parsley, dill, mint, sage or coriander in dishes like kısır or tabbouleh is perfectly safe. Concentrated forms are different: juices, teas, oils and extracts deliver far larger amounts, and MotherToBaby notes that some herbal products have been shown to cause uterine contractions. Folk remedies such as parsley 'cures' are best left until after pregnancy.",
+    "tips": [
+      "Enjoy herbs as food, not as remedies or detox cures."
+    ]
+  },
+  "cinnamon": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Cinnamon",
+    "aliases": [
+      "cassia",
+      "cinnamon tea",
+      "cinnamon supplement",
+      "cinnamon water"
+    ],
+    "summary": "Yes, in normal food amounts, but avoid cinnamon supplements, oils and large daily 'remedy' doses.",
+    "details": "Cinnamon sprinkled on sütlaç or porridge, or used in baking, is fine in pregnancy. Supplements, concentrated oils and daily 'cinnamon water' remedies deliver much larger amounts, and herbal products at medicinal doses haven't been well studied in pregnancy. Check with your doctor before using cinnamon to manage blood sugar.",
+    "tips": [
+      "If you have gestational diabetes, follow your care team's plan, not online remedies."
+    ]
+  },
+  "garlic": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Garlic",
+    "aliases": [
+      "raw garlic",
+      "garlic supplement",
+      "garlic pills",
+      "black garlic"
+    ],
+    "summary": "Yes, garlic in cooking, even raw in cacık, is fine, but ask before taking garlic supplements.",
+    "details": "Garlic as a food is safe in pregnancy and adds lots of flavour. Concentrated garlic supplements are a different matter: herbal products at medicinal doses haven't been well studied in pregnancy, and some can interact with medicines. Tell your doctor or pharmacist about any supplements you take.",
+    "tips": [
+      "Skip daily raw-garlic 'cures' and stick to garlic as an ingredient."
+    ]
+  },
+  "ginger": {
+    "category": "food",
+    "verdict": "safe",
+    "name": "Ginger",
+    "aliases": [
+      "ginger tea",
+      "ginger biscuits",
+      "ginger ale",
+      "fresh ginger",
+      "crystallised ginger",
+      "ginger shot"
+    ],
+    "summary": "Yes, ginger in food and drinks is safe and may help with morning sickness.",
+    "details": "The NHS says there's some evidence that foods or drinks containing ginger may reduce nausea and vomiting in pregnancy. Ginger tea, ginger biscuits or fresh ginger in cooking are all fine. Ginger supplements are stronger, so the NHS advises checking with a pharmacist before taking them.",
+    "tips": [
+      "When you feel queasy, sip ginger tea slowly or nibble a ginger biscuit."
+    ]
+  },
+  "fenugreek": {
+    "category": "food",
+    "verdict": "caution",
+    "name": "Fenugreek (çemen)",
+    "aliases": [
+      "fenugreek",
+      "methi",
+      "cemen",
+      "fenugreek tea",
+      "fenugreek seeds",
+      "fenugreek capsules"
+    ],
+    "summary": "Fine in normal cooking amounts, but avoid fenugreek teas, capsules and large medicinal doses.",
+    "details": "Fenugreek is used as a spice, including in the çemen paste on pastırma, and small cooking amounts aren't a concern. In medicinal amounts it hasn't been shown to be safe in pregnancy, and MotherToBaby notes that some herbal products can cause uterine contractions. It's often sold to boost breast milk, which is something for after the birth, not during pregnancy.",
+    "tips": [
+      "Keep fenugreek in the spice rack, not the supplement cupboard, until after birth."
+    ]
+  },
+  "coffee": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Coffee",
+    "aliases": [
+      "filter coffee",
+      "instant coffee",
+      "latte",
+      "cappuccino",
+      "flat white",
+      "americano",
+      "iced coffee",
+      "caffeine"
+    ],
+    "summary": "Yes, but keep your total caffeine under 200 mg a day, which is roughly 2 mugs of instant coffee.",
+    "details": "Both the NHS and ACOG advise keeping caffeine below 200 mg a day, because too much caffeine has been linked to a higher chance of miscarriage. The NHS estimates around 100 mg in a mug of instant coffee, while filter and coffee-shop coffee can contain more. Caffeine in tea, cola, energy drinks and chocolate counts too.",
+    "tips": [
+      "Ask for a single shot or a smaller size at coffee shops.",
+      "Switch some cups to decaf to stay well under the limit."
+    ]
+  },
+  "turkish-coffee": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Turkish coffee",
+    "aliases": [
+      "turkish coffee",
+      "greek coffee",
+      "arabic coffee",
+      "cezve coffee",
+      "menengic"
+    ],
+    "summary": "Yes, a cup is fine, but it counts toward your 200 mg daily caffeine limit along with tea and other drinks.",
+    "details": "Turkish coffee is served in a small cup, but it's strong, and the caffeine varies with how much coffee is used and how it's brewed. The 200 mg daily caffeine limit from the NHS and ACOG covers all sources, so a couple of cups plus several glasses of çay can add up quickly. Menengiç is made from terebinth rather than coffee beans and is naturally caffeine-free, though some blends add coffee.",
+    "tips": [
+      "Keep to one or two cups and count your çay too.",
+      "Menengiç or decaf Turkish coffee makes a good swap."
+    ]
+  },
+  "espresso": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Espresso",
+    "aliases": [
+      "espresso",
+      "double espresso",
+      "ristretto",
+      "macchiato",
+      "cortado",
+      "doppio"
+    ],
+    "summary": "Yes, but count every shot, as double shots and large coffee-shop drinks use up your 200 mg limit fast.",
+    "details": "Espresso is concentrated, and many coffee-shop drinks contain two or more shots. The NHS and ACOG both advise keeping total caffeine below 200 mg a day in pregnancy. The FDA notes that caffeine content varies widely between drinks, so it's worth checking the café's information.",
+    "tips": [
+      "Order single shots, or ask for half-decaf.",
+      "Many chains publish caffeine content per drink, so check before you order."
+    ]
+  },
+  "decaf": {
+    "category": "drink",
+    "verdict": "safe",
+    "name": "Decaf coffee & tea",
+    "aliases": [
+      "decaf",
+      "decaffeinated coffee",
+      "decaf tea",
+      "caffeine-free"
+    ],
+    "summary": "Yes, decaf has only a small amount of caffeine and is a good way to enjoy coffee or tea in pregnancy.",
+    "details": "Decaffeinated coffee and tea still contain a little caffeine, but far less than regular versions, so they leave plenty of room under the 200 mg daily limit. MotherToBaby notes that caffeine is found in many foods and drinks, so swapping some cups to decaf is an easy way to cut down.",
+    "tips": [
+      "Try half-and-half blends if you're cutting down gradually."
+    ]
+  },
+  "cay": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Black tea (çay)",
+    "aliases": [
+      "tea",
+      "black tea",
+      "turkish tea",
+      "cay",
+      "english breakfast",
+      "earl grey",
+      "builder's tea",
+      "iced tea"
+    ],
+    "summary": "Yes, but strong (demli) tea adds caffeine fast, so count your glasses and drink it between meals.",
+    "details": "The NHS estimates about 75 mg of caffeine in a mug of tea, and it counts toward the 200 mg daily limit. A tulip glass of Turkish tea is smaller than a mug, but several strong glasses a day can add up. Tea with meals can also reduce how much iron you absorb, which matters because iron needs rise in pregnancy.",
+    "tips": [
+      "Choose açık (weaker) tea and alternate with water or herbal drinks.",
+      "Drink tea between meals rather than with them to help iron absorption."
+    ]
+  },
+  "green-tea": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Green tea",
+    "aliases": [
+      "green tea",
+      "sencha",
+      "jasmine tea",
+      "green tea extract"
+    ],
+    "summary": "Yes in moderation, but green tea contains caffeine that counts toward your 200 mg limit.",
+    "details": "Green tea isn't caffeine-free: the NHS estimates about 75 mg in a cup of black or green tea. A few cups a day can fit within the 200 mg limit if you count your other drinks too. Concentrated green tea extracts and supplements are a different matter and haven't been shown to be safe in pregnancy.",
+    "tips": [
+      "Skip green tea extract capsules and weight-loss blends."
+    ]
+  },
+  "matcha": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Matcha",
+    "aliases": [
+      "matcha latte",
+      "matcha tea",
+      "powdered green tea",
+      "iced matcha"
+    ],
+    "summary": "Yes in moderation, but matcha is usually stronger than regular green tea, so count it toward 200 mg a day.",
+    "details": "Matcha is made from whole powdered tea leaves, so a serving usually contains more caffeine than a cup of brewed green tea. The amount depends on how many scoops are used. The FDA notes that caffeine content varies widely between drinks, so treat a matcha latte more like a coffee than a cup of tea.",
+    "tips": [
+      "Ask for a single scoop and count it as you would a coffee."
+    ]
+  },
+  "chamomile": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Chamomile tea",
+    "aliases": [
+      "chamomile",
+      "camomile",
+      "herbal tea",
+      "sleepy tea"
+    ],
+    "summary": "Yes in moderation; the NHS suggests no more than 4 cups of herbal tea a day.",
+    "details": "There's not much research on herbal teas in pregnancy, so the NHS advises limiting them to about 4 cups a day. Chamomile is naturally caffeine-free, which makes it a popular evening drink. Avoid blends that contain liquorice root, and check mixed teas for other herbs.",
+    "tips": [
+      "Use plain chamomile tea bags rather than mixed 'wellness' blends."
+    ]
+  },
+  "peppermint-tea": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Peppermint tea",
+    "aliases": [
+      "peppermint",
+      "mint tea",
+      "fresh mint tea",
+      "moroccan mint"
+    ],
+    "summary": "Yes in moderation, within the NHS guide of no more than 4 cups of herbal tea a day.",
+    "details": "Peppermint tea is caffeine-free and a common choice in pregnancy, but because there's little research on herbal teas, the NHS advises no more than 4 cups a day. Some people find it soothing for nausea. Nane-limon made at home with fresh mint and lemon is fine within the same limit.",
+    "tips": [
+      "Fresh mint leaves in hot water make an easy, gentle tea."
+    ]
+  },
+  "raspberry-leaf-tea": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Raspberry leaf tea",
+    "aliases": [
+      "raspberry leaf",
+      "red raspberry leaf tea",
+      "labour tea",
+      "raspberry leaf capsules"
+    ],
+    "summary": "It's only for late pregnancy, and only if your midwife or doctor agrees; don't use it earlier.",
+    "details": "Raspberry leaf tea is traditionally used in late pregnancy in the hope of preparing the womb for labour, but there's little good evidence that it works. MotherToBaby notes that some herbal products can cause uterine contractions, and most herbal products haven't been well studied in pregnancy. That's why it's best kept to late pregnancy and discussed with your midwife first.",
+    "tips": [
+      "Ask your midwife before starting, especially if you've had a previous caesarean or early labour."
+    ]
+  },
+  "sage-tea": {
+    "category": "drink",
+    "verdict": "avoid",
+    "name": "Sage tea (adaçayı)",
+    "aliases": [
+      "sage tea",
+      "adacayi",
+      "sage",
+      "greek mountain tea"
+    ],
+    "summary": "Best avoided as a regular tea in pregnancy, though a little sage used in cooking is fine.",
+    "details": "Sage contains thujone, a compound that can be harmful in large amounts, and sage tea hasn't been shown to be safe in pregnancy. Adaçayı is often drunk by the glass in Turkey, especially for sore throats, so the amounts can add up. A pinch of sage in cooking is a different, much smaller exposure.",
+    "tips": [
+      "For a sore throat, try warm water with honey and lemon instead.",
+      "Check herbal blends and lozenges for sage."
+    ]
+  },
+  "linden-tea": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Linden tea (ıhlamur)",
+    "aliases": [
+      "linden",
+      "lime blossom tea",
+      "tilia",
+      "ihlamur"
+    ],
+    "summary": "Probably fine in moderation, as one of your up to 4 cups of herbal tea a day, though it's little studied.",
+    "details": "Ihlamur is a much-loved winter drink in Turkey, and there's no specific evidence that it's harmful in normal amounts. Like most herbal teas, though, it hasn't been well studied in pregnancy, so the NHS advice to keep herbal teas to about 4 cups a day applies. Strong, concentrated brews taken as a remedy are best avoided.",
+    "tips": [
+      "Keep it light and stick to a cup or two, not a whole pot."
+    ]
+  },
+  "fennel-tea": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Fennel tea (rezene)",
+    "aliases": [
+      "fennel",
+      "fennel seed tea",
+      "rezene",
+      "anise tea",
+      "gripe water"
+    ],
+    "summary": "Occasional cups are unlikely to matter, but skip daily or strong fennel tea and fennel supplements.",
+    "details": "Fennel and aniseed contain natural plant compounds whose safety in pregnancy hasn't been established in medicinal amounts. As with other herbal teas, the NHS suggests limiting herbal tea to about 4 cups a day. Fennel used as a spice in cooking is fine.",
+    "tips": [
+      "For bloating, try gentle walks and smaller meals first."
+    ]
+  },
+  "energy-drinks": {
+    "category": "drink",
+    "verdict": "avoid",
+    "name": "Energy drinks",
+    "aliases": [
+      "red bull",
+      "monster",
+      "energy drink",
+      "guarana",
+      "taurine",
+      "pre-workout"
+    ],
+    "summary": "Best avoided, since they pack a lot of caffeine, often with other stimulants and plenty of sugar.",
+    "details": "The NHS estimates about 80 mg of caffeine in a 250 ml can, and larger cans contain more, all counting toward the 200 mg daily limit. Many also contain guarana, which adds extra caffeine, plus other ingredients whose safety in pregnancy hasn't been studied. If you do have one, count it in your caffeine total.",
+    "tips": [
+      "For an energy dip, try a snack, water and a short walk instead."
+    ]
+  },
+  "cola": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Cola",
+    "aliases": [
+      "coke",
+      "diet coke",
+      "pepsi",
+      "coca-cola",
+      "fizzy drinks",
+      "soda"
+    ],
+    "summary": "Yes occasionally: a can has about 40 mg of caffeine, so count it toward your 200 mg limit.",
+    "details": "The NHS estimates around 40 mg of caffeine in a can of cola, and diet versions contain caffeine too. Regular cola is also high in sugar, which matters if you're watching weight gain or have gestational diabetes. Fizzy drinks can make heartburn worse for some people.",
+    "tips": [
+      "Try sparkling water with fruit for the fizz without the caffeine."
+    ]
+  },
+  "alcohol": {
+    "category": "drink",
+    "verdict": "avoid",
+    "name": "Alcohol",
+    "aliases": [
+      "wine",
+      "beer",
+      "spirits",
+      "cocktails",
+      "champagne",
+      "prosecco",
+      "raki",
+      "glass of wine"
+    ],
+    "summary": "Avoid it: there's no known safe amount of alcohol at any stage of pregnancy.",
+    "details": "Alcohol passes through the placenta to the baby, whose liver can't process it well. Drinking in pregnancy can cause long-term harm, including fetal alcohol spectrum disorders, and the CDC says there's no known safe amount or safe time to drink. If you drank before you knew you were pregnant, the risk of harm is likely to be low, so talk to your midwife or doctor if you're worried.",
+    "tips": [
+      "Alcohol-free (0.0%) drinks and mocktails are good swaps.",
+      "If you find it hard to stop, ask your midwife or doctor for support."
+    ]
+  },
+  "non-alcoholic-beer": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Non-alcoholic beer",
+    "aliases": [
+      "alcohol-free beer",
+      "0.0 beer",
+      "low alcohol beer",
+      "near beer",
+      "alcohol-free wine"
+    ],
+    "summary": "Choose drinks labelled 0.0%, since 'non-alcoholic' ones can still contain up to 0.5% alcohol.",
+    "details": "Health bodies advise avoiding alcohol completely in pregnancy because no safe amount is known. Drinks labelled 'non-alcoholic' or 'alcohol-free' can contain small amounts of alcohol depending on the country, while 0.0% versions contain virtually none. An occasional low-alcohol drink is very unlikely to cause harm, but 0.0% takes the guesswork out.",
+    "tips": [
+      "Read the label for '0.0%' rather than 'alcohol-free' or 'low alcohol'."
+    ]
+  },
+  "mineral-water": {
+    "category": "drink",
+    "verdict": "safe",
+    "name": "Mineral & sparkling water",
+    "aliases": [
+      "sparkling water",
+      "mineral water",
+      "soda water",
+      "seltzer",
+      "fizzy water"
+    ],
+    "summary": "Yes, mineral and sparkling water are fine, though some brands are high in sodium, so vary them with plain water.",
+    "details": "Staying hydrated matters more in pregnancy, and water, including sparkling and mineral water, is a great choice. Some natural mineral waters contain a fair amount of sodium, which is worth noting if you have high blood pressure or swelling. Fizzy drinks can worsen bloating or heartburn for some people.",
+    "tips": [
+      "Check the sodium content on the label and alternate brands."
+    ]
+  },
+  "salep": {
+    "category": "drink",
+    "verdict": "safe",
+    "name": "Salep",
+    "aliases": [
+      "sahlep",
+      "sahlab",
+      "hot milk drink",
+      "orchid drink"
+    ],
+    "summary": "Yes, salep is a hot milk drink and is fine in pregnancy; just mind the sugar.",
+    "details": "Salep is made by heating milk with salep powder and sugar, so the milk is well heated and there's no raw-milk concern. It's caffeine-free and adds some calcium. Instant mixes and café versions are often very sweet, which matters if you have gestational diabetes.",
+    "tips": [
+      "Make it at home with less sugar and a sprinkle of cinnamon."
+    ]
+  },
+  "boza": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Boza",
+    "aliases": [
+      "boza",
+      "fermented millet drink",
+      "bosa",
+      "millet drink"
+    ],
+    "summary": "An occasional small glass from a trusted maker is unlikely to matter, but boza can contain a little alcohol.",
+    "details": "Boza is a fermented grain drink, and the fermentation can produce small amounts of alcohol that vary from batch to batch. Since no safe level of alcohol in pregnancy is known, it's best kept occasional. Boza is also high in sugar and calories.",
+    "tips": [
+      "Choose fresh boza from a known maker and keep it to a small glass."
+    ]
+  },
+  "fresh-juice": {
+    "category": "drink",
+    "verdict": "caution",
+    "name": "Fresh, unpasteurised juice",
+    "aliases": [
+      "fresh orange juice",
+      "cold-pressed juice",
+      "smoothie",
+      "juice bar",
+      "street juice",
+      "unpasteurized juice"
+    ],
+    "summary": "Fine if you make it at home from washed fruit and drink it straight away; take care with unpasteurised juice from stalls.",
+    "details": "Juice that hasn't been pasteurised or otherwise treated can carry bacteria such as E. coli and salmonella from the fruit's surface. The FDA advises pregnant women to choose pasteurised or treated juices. Juice you squeeze yourself from well-washed fruit and drink right away is a lower risk.",
+    "tips": [
+      "Wash fruit well before squeezing, even oranges.",
+      "Shop-bought juices are usually pasteurised; check the label."
+    ]
+  },
+  "coconut-water": {
+    "category": "drink",
+    "verdict": "safe",
+    "name": "Coconut water",
+    "aliases": [
+      "coconut water",
+      "fresh coconut",
+      "coconut drink"
+    ],
+    "summary": "Yes, packaged coconut water is fine, and it's a refreshing way to stay hydrated.",
+    "details": "Coconut water is naturally low in calories and contains some potassium. Packaged versions are usually pasteurised; freshly opened coconuts are fine too if they're cut cleanly and drunk straight away. Plain water is still the best everyday drink, and flavoured versions can contain added sugar.",
+    "tips": [
+      "Choose unsweetened versions and keep opened packs in the fridge."
+    ]
+  },
+  "paracetamol": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Paracetamol (acetaminophen)",
+    "aliases": [
+      "acetaminophen",
+      "tylenol",
+      "panadol",
+      "calpol",
+      "painkiller",
+      "fever reducer",
+      "apap"
+    ],
+    "summary": "It's the usual first choice for pain or fever in pregnancy: use the lowest effective dose for the shortest time.",
+    "details": "Paracetamol is the best-studied painkiller in pregnancy, and the NHS and ACOG consider it the first choice for pain or fever when treatment is needed. Public guidance in some countries was reviewed in 2025, and major medical bodies, including ACOG and the UK's medicines regulator, continue to consider it appropriate when needed. A high temperature in pregnancy should be treated, so ask your doctor if you need paracetamol for more than a few days.",
+    "tips": [
+      "Use the lowest effective dose for the shortest possible time.",
+      "Check combination cold remedies so you don't take paracetamol twice.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "ibuprofen": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Ibuprofen",
+    "aliases": [
+      "advil",
+      "nurofen",
+      "motrin",
+      "brufen",
+      "nsaid",
+      "anti-inflammatory"
+    ],
+    "summary": "Avoid it unless a doctor advises it, especially from 20 weeks, when it can affect the baby and the fluid around them.",
+    "details": "Ibuprofen is an NSAID. The FDA warns that from around 20 weeks NSAIDs can cause rare but serious kidney problems in the baby, leading to low amniotic fluid, and later in pregnancy they can affect the baby's heart and blood vessels. UK advice is to avoid ibuprofen in pregnancy unless a doctor recommends it, though taking some before 20 weeks is unlikely to have caused harm.",
+    "tips": [
+      "Paracetamol is usually the safer choice for pain or fever.",
+      "Check cold and flu remedies, which may contain ibuprofen.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "naproxen": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Naproxen",
+    "aliases": [
+      "aleve",
+      "naprosyn",
+      "naproxen sodium",
+      "period pain tablets",
+      "nsaid"
+    ],
+    "summary": "Avoid it unless your doctor specifically recommends it, because it's an NSAID like ibuprofen.",
+    "details": "Naproxen belongs to the same family as ibuprofen and carries the same concerns: the FDA advises avoiding NSAIDs from 20 weeks because they can reduce amniotic fluid, and they can affect the baby's circulation later in pregnancy. The NHS advises avoiding naproxen in pregnancy unless a doctor or pharmacist advises it. It's often sold for period pain, so check before reaching for old supplies.",
+    "tips": [
+      "Paracetamol is usually the first choice for pain in pregnancy.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "nsaids-other": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Diclofenac & other NSAIDs",
+    "aliases": [
+      "diclofenac",
+      "voltaren",
+      "cataflam",
+      "flurbiprofen",
+      "dexketoprofen",
+      "ketoprofen",
+      "meloxicam",
+      "etodolac",
+      "celecoxib",
+      "anti-inflammatory gel"
+    ],
+    "summary": "Avoid them unless a doctor prescribes them, and check painkiller labels for diclofenac, flurbiprofen or ketoprofen.",
+    "details": "Diclofenac, flurbiprofen, dexketoprofen, ketoprofen and meloxicam are all NSAIDs, so the FDA's advice to avoid NSAIDs from 20 weeks applies to them too. The NHS says diclofenac is not usually recommended in pregnancy because it can affect the baby's circulation and reduce the fluid around the baby. Gels are absorbed less, but it's still best to ask before using them, especially later in pregnancy or over large areas.",
+    "tips": [
+      "Check the active ingredient on painkillers, gels and period-pain tablets.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "aspirin": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Aspirin for pain",
+    "aliases": [
+      "aspirin",
+      "disprin",
+      "high-dose aspirin",
+      "acetylsalicylic acid",
+      "excedrin"
+    ],
+    "summary": "Avoid aspirin at pain-relief doses unless your doctor advises it; low-dose aspirin prescribed in pregnancy is different.",
+    "details": "At the doses used for pain or fever, aspirin acts as an NSAID, and the FDA advises avoiding NSAIDs from 20 weeks of pregnancy. Mayo Clinic notes that higher doses may raise the risk of pregnancy loss early on and, used for long periods, bleeding risks for premature babies. Low-dose aspirin, which doctors sometimes prescribe to lower the risk of pre-eclampsia, is a separate case.",
+    "tips": [
+      "For pain or fever, paracetamol is usually the first choice.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "low-dose-aspirin": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Low-dose aspirin",
+    "aliases": [
+      "baby aspirin",
+      "low dose aspirin",
+      "aspirin for pre-eclampsia",
+      "aspirin for preeclampsia"
+    ],
+    "summary": "Only if your doctor or midwife recommends it, and if they have, keep taking it exactly as advised.",
+    "details": "Low-dose aspirin is commonly prescribed in pregnancy to women at higher risk of pre-eclampsia, and sometimes for other conditions. Mayo Clinic notes that low-dose aspirin is considered safe in pregnancy when it's recommended. It's different from aspirin taken for pain, so don't start it on your own, and don't stop it without talking to your care team.",
+    "tips": [
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "antihistamines": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Antihistamines",
+    "aliases": [
+      "loratadine",
+      "claritin",
+      "cetirizine",
+      "zyrtec",
+      "chlorphenamine",
+      "piriton",
+      "hay fever tablets",
+      "allergy pills"
+    ],
+    "summary": "Some, like loratadine and cetirizine, are commonly used in pregnancy, but check with a pharmacist first.",
+    "details": "The NHS says loratadine is usually recommended if you need an antihistamine in pregnancy, and cetirizine can also be taken. Older, drowsy antihistamines such as chlorphenamine are sometimes used too, but they can make you sleepy. Non-drug options like saline nasal spray and avoiding triggers are worth trying first.",
+    "tips": [
+      "Try saline nasal spray and avoiding your triggers first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "decongestants": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Decongestants (tablets & sprays)",
+    "aliases": [
+      "pseudoephedrine",
+      "sudafed",
+      "phenylephrine",
+      "xylometazoline",
+      "oxymetazoline",
+      "otrivine",
+      "afrin",
+      "nasal spray",
+      "blocked nose"
+    ],
+    "summary": "UK advice is to avoid decongestant tablets and sprays in pregnancy, so try saline sprays and steam instead.",
+    "details": "The NHS says pseudoephedrine isn't recommended in pregnancy because it can reduce blood flow to the baby, and the UK's BUMPS service advises avoiding decongestant tablets, sprays and drops. Some US sources allow short-term use of certain decongestants after the first trimester, but only on medical advice. Many cold remedies contain hidden decongestants, so check labels.",
+    "tips": [
+      "Saline sprays, steam and raising your head at night can ease a blocked nose.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "cold-flu-remedies": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Combination cold & flu remedies",
+    "aliases": [
+      "cold and flu tablets",
+      "lemsip",
+      "theraflu",
+      "dayquil",
+      "nyquil",
+      "coldrex",
+      "multi-symptom cold medicine"
+    ],
+    "summary": "Best avoided, as multi-ingredient remedies often contain decongestants or extra caffeine, so treat symptoms one by one.",
+    "details": "Many cold and flu products combine paracetamol with decongestants, antihistamines, caffeine or cough medicines, and decongestants should be avoided in pregnancy. It's also easy to double up on paracetamol if you take a combination product alongside plain tablets. Rest, fluids and plain paracetamol if needed are usually enough for a cold, but call your doctor if you think you have flu.",
+    "tips": [
+      "Read the active ingredients on every box and sachet.",
+      "Get flu symptoms checked early, as antiviral treatment may be offered.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "cough-syrup": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Cough syrups & lozenges",
+    "aliases": [
+      "cough medicine",
+      "cough syrup",
+      "dextromethorphan",
+      "guaifenesin",
+      "simple linctus",
+      "robitussin",
+      "benylin",
+      "throat lozenges",
+      "strepsils"
+    ],
+    "summary": "Some simple remedies can be used, but avoid codeine-based and multi-ingredient syrups and ask a pharmacist first.",
+    "details": "Coughs from colds usually clear up on their own within 3 to 4 weeks, and honey and lemon in warm water can soothe them. BUMPS says standard Strepsils lozenges can be used in pregnancy, while products with several active ingredients may contain decongestants, which are best avoided. Codeine-based cough medicines should only be used if a doctor recommends them.",
+    "tips": [
+      "Try warm drinks with honey and lemon first.",
+      "See a doctor if a cough lasts more than 3 weeks or you're short of breath.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "antacids": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Antacids (Gaviscon, Rennie)",
+    "aliases": [
+      "gaviscon",
+      "rennie",
+      "tums",
+      "antacid",
+      "heartburn medicine",
+      "indigestion tablets",
+      "calcium carbonate"
+    ],
+    "summary": "Usually fine for heartburn in pregnancy, as long as you follow the pack and check with a pharmacist first.",
+    "details": "The NHS says you can take Gaviscon while you're pregnant, and most antacids are considered safe in pregnancy, though it's best to get advice first. Antacids can affect how well other medicines work, including iron tablets, so the NHS advises leaving 2 to 4 hours between them. If heartburn isn't controlled, your doctor may suggest another medicine.",
+    "tips": [
+      "Smaller meals and not eating late in the evening can ease heartburn too.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "omeprazole": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Omeprazole & other PPIs",
+    "aliases": [
+      "omeprazole",
+      "prilosec",
+      "losec",
+      "esomeprazole",
+      "nexium",
+      "lansoprazole",
+      "pantoprazole",
+      "ppi",
+      "acid reflux medicine"
+    ],
+    "summary": "It can usually be used in pregnancy if heartburn needs more than antacids, but check with your doctor first.",
+    "details": "The NHS says you can usually take omeprazole in pregnancy, but to check with a pharmacist or doctor first. BUMPS notes that omeprazole is the preferred proton pump inhibitor in pregnancy because there's the most safety information about it, and others can be used if a doctor advises. Lifestyle changes and antacids are usually tried first.",
+    "tips": [
+      "Raising the head of your bed and eating earlier in the evening can help.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "laxatives": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Laxatives",
+    "aliases": [
+      "lactulose",
+      "duphalac",
+      "fybogel",
+      "ispaghula",
+      "psyllium",
+      "metamucil",
+      "senna",
+      "movicol",
+      "macrogol",
+      "stool softener",
+      "constipation medicine"
+    ],
+    "summary": "Fibre, fluids and activity come first, and some laxatives can then be used, so ask which one suits you.",
+    "details": "Constipation is very common in pregnancy, and the NHS says lactulose can be taken if needed, after checking with a pharmacist or doctor. Mayo Clinic notes that bulk-forming fibre laxatives and stool softeners are generally considered safe because very little is absorbed. Iron tablets can make constipation worse, so mention them if you're taking them.",
+    "tips": [
+      "Drink plenty of water and get fibre from fruit, vegetables and wholegrains.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "loperamide": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Loperamide (Imodium)",
+    "aliases": [
+      "imodium",
+      "diarrhoea tablets",
+      "diarrhea medicine",
+      "anti-diarrhoeal",
+      "upset stomach"
+    ],
+    "summary": "It's not a first choice in pregnancy, so focus on fluids and only take it if a doctor or pharmacist advises it.",
+    "details": "The NHS says loperamide isn't usually recommended in pregnancy because there isn't enough information to say it's safe. BUMPS notes it's occasionally used when there's no suitable alternative, and short bouts of diarrhoea are usually managed with rest and plenty of fluids. Diarrhoea with fever, blood or signs of dehydration needs medical advice.",
+    "tips": [
+      "Sip water or oral rehydration drinks little and often.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "antibiotics": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Antibiotics",
+    "aliases": [
+      "amoxicillin",
+      "augmentin",
+      "penicillin",
+      "cephalexin",
+      "nitrofurantoin",
+      "azithromycin",
+      "doxycycline",
+      "tetracycline",
+      "uti antibiotics"
+    ],
+    "summary": "Many antibiotics are safe and important in pregnancy, but some aren't, so only take ones prescribed for you now.",
+    "details": "Penicillins such as amoxicillin and cephalosporins are commonly used in pregnancy, while tetracyclines like doxycycline are generally avoided because they can affect the baby's bones and teeth. Treating infections such as urinary tract infections promptly matters for you and your baby. Always tell the prescriber you're pregnant, and don't take leftover antibiotics.",
+    "tips": [
+      "Take it exactly as prescribed, and tell every prescriber that you're pregnant.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "isotretinoin": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Isotretinoin (Roaccutane)",
+    "aliases": [
+      "accutane",
+      "roaccutane",
+      "absorica",
+      "acne tablets",
+      "vitamin a acne pills"
+    ],
+    "summary": "Avoid it: isotretinoin can cause serious birth defects, so contact your prescriber straight away if you could be pregnant.",
+    "details": "Isotretinoin is a vitamin A-based acne medicine that can cause miscarriage and serious problems with how a baby develops. In the UK it's only prescribed within a pregnancy prevention programme, and the NHS advises waiting at least one month after the last dose before trying for a baby. If you become pregnant while taking it, your prescriber needs to know urgently.",
+    "tips": [
+      "Use reliable contraception while taking it, as your prescriber advises.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "oral-retinoids": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Retinoid tablets (acitretin, alitretinoin)",
+    "aliases": [
+      "acitretin",
+      "neotigason",
+      "soriatane",
+      "alitretinoin",
+      "toctino",
+      "psoriasis tablets",
+      "eczema tablets"
+    ],
+    "summary": "Avoid them: these vitamin A-based tablets can seriously harm a developing baby and need careful pregnancy planning.",
+    "details": "Like isotretinoin, oral acitretin (for psoriasis) and alitretinoin (for severe hand eczema) are retinoids that can cause birth defects, so the UK medicines regulator requires a pregnancy prevention programme. Acitretin stays in the body for a long time, and pregnancy checks continue for 3 years after stopping it. Talk to your prescriber before planning a pregnancy.",
+    "tips": [
+      "If you could be pregnant while taking one, contact your prescriber urgently.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "codeine": {
+    "category": "medicine",
+    "verdict": "avoid",
+    "name": "Codeine",
+    "aliases": [
+      "co-codamol",
+      "solpadeine",
+      "tylenol with codeine",
+      "codeine phosphate",
+      "opioid painkiller",
+      "codeine cough syrup"
+    ],
+    "summary": "Don't use it unless your doctor prescribes it, because codeine isn't suitable for self-treatment in pregnancy.",
+    "details": "Codeine is an opioid. The NHS advises avoiding painkillers containing codeine in pregnancy unless they're prescribed, and BUMPS notes that use close to delivery can cause withdrawal symptoms and breathing problems in the newborn. Sometimes a doctor will decide it's the right option after weighing up the risks and benefits.",
+    "tips": [
+      "Check combination painkillers and cough syrups for codeine.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "tramadol": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Tramadol",
+    "aliases": [
+      "ultram",
+      "zydol",
+      "opioid painkiller",
+      "strong painkiller"
+    ],
+    "summary": "Only if your doctor prescribes it for severe pain, ideally for just a few days; never take it on your own.",
+    "details": "Tramadol is an opioid painkiller. The NHS says it may sometimes be the best option for severe pain in pregnancy and isn't known to cause problems with the baby's development, though more research is needed. Used regularly, especially near the birth, opioids can cause withdrawal symptoms in the newborn.",
+    "tips": [
+      "Never use someone else's or leftover prescription painkillers.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "triptans": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Triptans (sumatriptan)",
+    "aliases": [
+      "sumatriptan",
+      "imigran",
+      "imitrex",
+      "rizatriptan",
+      "maxalt",
+      "zolmitriptan",
+      "zomig",
+      "eletriptan",
+      "relpax",
+      "migraine tablets"
+    ],
+    "summary": "Sumatriptan can be used in pregnancy if needed, but decide with your doctor rather than on your own.",
+    "details": "BUMPS says sumatriptan has been well studied and isn't known to pose a risk to the baby, and there are no concerns that other triptans cause harm, though there's less information about them. The NHS advises asking your doctor before taking sumatriptan in pregnancy. Migraines often ease in the second and third trimesters.",
+    "tips": [
+      "Keep a headache diary to spot triggers like missed meals or poor sleep.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  }
+}

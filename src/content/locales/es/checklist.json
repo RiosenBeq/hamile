@@ -1,0 +1,154 @@
+{
+  "take-pregnancy-test": {
+    "title": "Hazte una prueba de embarazo en casa",
+    "detail": "La mayoría de las pruebas son fiables desde el primer día de retraso de la regla. Si da negativo pero la regla sigue sin venir, repítela unos días después."
+  },
+  "start-folic-acid": {
+    "title": "Toma ácido fólico cada día",
+    "detail": "400 microgramos al día, idealmente desde antes de la concepción hasta la semana 12. En algunas situaciones, tu médico puede recomendarte una dosis más alta."
+  },
+  "review-medicines": {
+    "title": "Revisa tus medicamentos y suplementos",
+    "detail": "Pregunta a tu médico o farmacéutico antes de empezar o dejar cualquier cosa, y evita los suplementos que contengan vitamina A (retinol)."
+  },
+  "stop-alcohol-and-smoking": {
+    "title": "Deja el alcohol y el tabaco",
+    "detail": "No se conoce ninguna cantidad de alcohol que sea segura en el embarazo. Si fumas, pregunta a tu médico o tu matrona por ayuda para dejarlo."
+  },
+  "limit-caffeine": {
+    "title": "Mantén la cafeína por debajo de 200 mg al día",
+    "detail": "Son unas dos tazas grandes de café instantáneo. El té, los refrescos de cola, las bebidas energéticas y el chocolate también contienen cafeína."
+  },
+  "learn-food-safety": {
+    "title": "Infórmate sobre qué alimentos evitar",
+    "detail": "Como los lácteos sin pasteurizar, la carne cruda o poco hecha, el hígado y los pescados con mucho mercurio, como el tiburón y el pez espada."
+  },
+  "book-first-appointment": {
+    "title": "Pide tu primera cita del embarazo",
+    "detail": "Suele ser entre las semanas 8 y 12, y en ella se repasan tu historial de salud, las pruebas y las opciones de atención."
+  },
+  "ask-about-vitamin-d": {
+    "title": "Pregunta por la vitamina D",
+    "detail": "A muchas personas se les aconseja tomar un suplemento diario de vitamina D en el embarazo. Las cantidades recomendadas varían según el país."
+  },
+  "first-blood-tests": {
+    "title": "Hazte los primeros análisis de sangre",
+    "detail": "Suelen comprobar tu grupo sanguíneo y tu Rh (D), tus niveles de hierro e infecciones como el VIH, la hepatitis B y la sífilis."
+  },
+  "flu-and-covid-vaccines": {
+    "title": "Pregunta por las vacunas de la gripe y la COVID-19",
+    "detail": "La vacuna de la gripe se puede poner en cualquier momento del embarazo durante la temporada de gripe. Pregunta si te aconsejan la vacuna de la COVID-19."
+  },
+  "decide-on-screening": {
+    "title": "Decide sobre las pruebas de cribado",
+    "detail": "Puede que te ofrezcan el cribado combinado (hacia las semanas 10 a 14) o el test prenatal no invasivo, NIPT (desde la semana 10). Hacerte el cribado o no es decisión tuya."
+  },
+  "dating-scan": {
+    "title": "Hazte la ecografía del primer trimestre",
+    "detail": "Suele hacerse entre las semanas 10 y 14; comprueba el desarrollo de tu bebé y confirma tu fecha prevista de parto."
+  },
+  "dental-check-up": {
+    "title": "Pide una revisión dental",
+    "detail": "Los problemas de encías son frecuentes en el embarazo. Dile a tu dentista que estás embarazada."
+  },
+  "pelvic-floor-exercises": {
+    "title": "Empieza a hacer ejercicios de suelo pélvico cada día",
+    "detail": "Contrae y eleva los músculos que usarías para aguantar el pis, mantén unos segundos y relaja. Ayudan a prevenir pérdidas ahora y después del parto."
+  },
+  "whooping-cough-vaccine": {
+    "title": "Pregunta por la vacuna de la tos ferina",
+    "detail": "Suele ponerse entre las semanas 16 y 32 en el Reino Unido, o entre las 27 y 36 en EE. UU. Ayuda a proteger a tu bebé en sus primeras semanas de vida."
+  },
+  "choose-birth-place": {
+    "title": "Piensa en dónde quieres dar a luz",
+    "detail": "Las opciones, como un hospital, una casa de partos o un parto en casa, varían según la zona. Puedes cambiar de idea más adelante."
+  },
+  "maternity-leave-rights": {
+    "title": "Infórmate sobre la baja y la prestación por maternidad",
+    "detail": "Las normas y los plazos varían según el país y la empresa. Apunta cuándo tienes que avisar a tu empresa y solicitar cualquier prestación."
+  },
+  "anomaly-scan": {
+    "title": "Hazte la ecografía morfológica (anatómica)",
+    "detail": "Esta ecografía detallada, que suele hacerse entre las semanas 18 y 22 aproximadamente, comprueba cómo crece y se desarrolla tu bebé."
+  },
+  "pregnancy-certificate": {
+    "title": "Consigue un certificado de embarazo para el trabajo",
+    "detail": "Algunas empresas y prestaciones exigen un certificado de tu médico o tu matrona, como el formulario MAT B1 en el Reino Unido."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Aprende las señales de alarma de la preeclampsia",
+    "detail": "Un dolor de cabeza intenso, problemas de visión, dolor justo debajo de las costillas o una hinchazón repentina de la cara, las manos o los pies requieren una revisión urgente."
+  },
+  "book-antenatal-classes": {
+    "title": "Apúntate a clases de preparación al parto",
+    "detail": "Las clases sobre el trabajo de parto, el parto y la alimentación del bebé pueden ayudarte a sentirte preparada. Las más populares se llenan pronto."
+  },
+  "glucose-test": {
+    "title": "Prueba de glucosa para la diabetes gestacional",
+    "detail": "Suele hacerse entre las semanas 24 y 28, a todas las embarazadas o solo si tienes factores de riesgo, según dónde vivas."
+  },
+  "know-baby-movements": {
+    "title": "Conoce los movimientos de tu bebé",
+    "detail": "No hay un número fijo de patadas que contar. Si los movimientos disminuyen, cambian o se detienen, llama enseguida a tu unidad de maternidad."
+  },
+  "partner-leave": {
+    "title": "Consulta el permiso de tu pareja",
+    "detail": "Si tu pareja piensa tomarse días libres en torno al parto, puede que tenga que avisar a su empresa antes de una fecha concreta."
+  },
+  "baby-essentials-list": {
+    "title": "Haz una lista de lo esencial para el bebé",
+    "detail": "Empieza por un lugar seguro para dormir, una silla de coche, ropa, pañales y lo necesario para alimentarlo. Lo prestado está bien, pero usa un colchón nuevo si puedes."
+  },
+  "anti-d-if-rh-negative": {
+    "title": "Anti-D si eres Rh (D) negativo",
+    "detail": "Si tu grupo sanguíneo es Rh (D) negativo, puede que te ofrezcan inyecciones de anti-D, a menudo hacia la semana 28."
+  },
+  "rsv-vaccine": {
+    "title": "Pregunta por la vacuna del VRS",
+    "detail": "Se ofrece desde la semana 28 en el Reino Unido, o entre las semanas 32 y 36 durante la temporada de VRS en EE. UU. Ayuda a proteger a tu bebé en sus primeros meses."
+  },
+  "sleep-on-side": {
+    "title": "Ponte de lado para dormir",
+    "detail": "A partir de la semana 28, dormir de lado es lo más seguro para tu bebé, también en las siestas. Si te despiertas boca arriba, simplemente ponte de lado."
+  },
+  "safe-sleep-space": {
+    "title": "Prepara un espacio seguro para dormir",
+    "detail": "Una cuna o un moisés con un colchón firme, plano y bien ajustado, y sin almohadas, protectores ni edredones."
+  },
+  "feeding-plan": {
+    "title": "Piensa en cómo alimentar a tu bebé",
+    "detail": "Infórmate sobre la lactancia materna, el biberón o ambos, y sobre dónde encontrar apoyo en los primeros días."
+  },
+  "write-birth-plan": {
+    "title": "Escribe tu plan de parto",
+    "detail": "Anota tus preferencias sobre el alivio del dolor, tus acompañantes y las primeras horas después del parto, y compártelo con tu matrona o tu médico."
+  },
+  "save-key-contacts": {
+    "title": "Guarda los números clave y planifica el trayecto",
+    "detail": "Ten los datos de tu unidad de maternidad, de tu acompañante y del transporte en el teléfono y en papel. No es seguro conducir tú misma durante el parto."
+  },
+  "install-car-seat": {
+    "title": "Instala la silla de coche",
+    "detail": "Elige una silla a contramarcha adecuada al peso de tu bebé, instálala con antelación y practica cómo ponerla y quitarla."
+  },
+  "pack-hospital-bag": {
+    "title": "Prepara la bolsa para el hospital",
+    "detail": "Incluye tu historial del embarazo, ropa cómoda, ropa de dormir, compresas posparto, tentempiés, un cargador para el teléfono, ropa para el bebé y pañales."
+  },
+  "group-b-strep": {
+    "title": "Pregunta por el estreptococo del grupo B",
+    "detail": "En EE. UU. la prueba suele hacerse entre las semanas 36 y 38; en el Reino Unido no es rutinaria. Pregunta qué se aplica en tu caso."
+  },
+  "learn-labour-signs": {
+    "title": "Aprende las señales del parto",
+    "detail": "Contracciones regulares, la expulsión del tapón mucoso, dolor de espalda o romper aguas. Infórmate de cuándo quiere tu unidad de maternidad que llames."
+  },
+  "postnatal-support-plan": {
+    "title": "Planifica el apoyo para después del parto",
+    "detail": "Piensa en las comidas, la ayuda en casa y a quién puedes llamar. Aprende las señales de la depresión posparto, que puede afectar a cualquiera."
+  },
+  "past-due-date-options": {
+    "title": "Habla de qué pasa si superas la fecha prevista",
+    "detail": "Pregunta por el despegamiento de membranas, la inducción y la vigilancia adicional, para conocer tus opciones antes de la semana 41."
+  }
+}

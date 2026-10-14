@@ -1,0 +1,1928 @@
+{
+  "brie": {
+    "name": "Brie",
+    "aliases": [
+      "brie de Meaux",
+      "brie au four",
+      "brie chaud",
+      "fromage à pâte molle",
+      "fromage à croûte fleurie",
+      "fromage pate molle"
+    ],
+    "summary": "Seulement s'il est cuit jusqu'à être bien chaud et fumant, comme un brie au four ; évite-le froid sur un plateau de fromages.",
+    "details": "Le brie est un fromage à pâte molle et à croûte fleurie, et sa texture humide et peu acide peut permettre à la listeria de se développer. La listériose est rare mais peut provoquer une fausse couche, la naissance d'un bébé mort-né ou une maladie grave chez le nouveau-né, et une cuisson complète tue la bactérie. Au Royaume-Uni, on conseille de cuire le brie qu'il soit pasteurisé ou non, tandis qu'aux États-Unis, les recommandations visent surtout à éviter les fromages à pâte molle au lait non pasteurisé.",
+    "tips": [
+      "Fais-le cuire au four ou griller jusqu'à ce qu'il soit fumant à cœur.",
+      "Pour un plateau de fromages froid, choisis des fromages à pâte dure comme le cheddar ou le parmesan."
+    ]
+  },
+  "camembert": {
+    "name": "Camembert",
+    "aliases": [
+      "camembert de Normandie",
+      "camembert rôti",
+      "camembert au four",
+      "fromage à croûte fleurie",
+      "fromage à pâte molle"
+    ],
+    "summary": "Seulement s'il est cuit au four ou chauffé jusqu'à bouillonner ; mieux vaut éviter le camembert froid, même pasteurisé.",
+    "details": "Comme le brie, le camembert est un fromage à pâte molle et à croûte fleurie blanche, un type de fromage qui peut abriter la listeria. Les recommandations britanniques précisent que ces fromages doivent être bien cuits, qu'ils soient au lait pasteurisé ou non. Un camembert entier rôti au four ne pose pas de problème une fois qu'il bouillonne au centre.",
+    "tips": [
+      "Fais-le cuire jusqu'à ce que le centre bouillonne, pas seulement jusqu'à ce qu'il soit fondant.",
+      "Mange-le chaud, tout de suite, plutôt que de le laisser refroidir et traîner sur la table."
+    ]
+  },
+  "feta": {
+    "name": "Feta",
+    "aliases": [
+      "fromage feta",
+      "feta AOP",
+      "fromage grec",
+      "salade grecque"
+    ],
+    "summary": "Oui, si elle est au lait pasteurisé, comme la plupart des fetas de supermarché, alors vérifie l'étiquette.",
+    "details": "La feta pasteurisée figure sur les listes de fromages plus sûrs pendant la grossesse du NHS comme des CDC. Le risque vient de la feta au lait cru (non pasteurisé), qui peut contenir de la listeria. La feta traditionnelle ou artisanale vendue sur les marchés et dans certains restaurants n'est pas forcément pasteurisée.",
+    "tips": [
+      "Cherche la mention « au lait pasteurisé » sur l'emballage.",
+      "Au restaurant, demande si la feta est pasteurisée, ou choisis un plat cuit."
+    ]
+  },
+  "halloumi": {
+    "name": "Halloumi",
+    "aliases": [
+      "fromage halloumi",
+      "haloumi",
+      "hellim",
+      "halloumi grillé",
+      "halloumi poêlé"
+    ],
+    "summary": "Oui, l'halloumi pasteurisé ne pose pas de problème, qu'il soit grillé, poêlé ou mangé froid.",
+    "details": "L'halloumi est un fromage ferme conservé en saumure, et le NHS classe l'halloumi pasteurisé parmi les fromages sans danger pendant la grossesse. Presque tout l'halloumi vendu en magasin est fabriqué à partir de lait pasteurisé. Le griller ou le poêler ajoute une sécurité supplémentaire.",
+    "tips": [
+      "S'il vient d'un stand de marché ou d'un petit producteur, vérifie qu'il est bien indiqué « pasteurisé »."
+    ]
+  },
+  "mozzarella": {
+    "name": "Mozzarella et burrata",
+    "aliases": [
+      "mozzarella",
+      "burrata",
+      "mozzarella di bufala",
+      "mozzarella de bufflonne",
+      "fromage à pizza",
+      "salade caprese"
+    ],
+    "summary": "Oui, la mozzarella et la burrata pasteurisées sont sans danger, fraîches ou fondues sur une pizza.",
+    "details": "Même si la mozzarella est un fromage frais et mou, le NHS considère la mozzarella et la burrata pasteurisées comme sans danger, et les CDC incluent la mozzarella pasteurisée parmi les choix plus sûrs. La mozzarella vendue en magasin est presque toujours pasteurisée. Comme pour tout fromage frais, garde-la au frais et consomme-la avant la date limite de consommation.",
+    "tips": [
+      "Garde-la au réfrigérateur et respecte la mention « après ouverture, à consommer sous… » indiquée sur l'emballage."
+    ]
+  },
+  "parmesan": {
+    "name": "Parmesan",
+    "aliases": [
+      "parmigiano reggiano",
+      "grana padano",
+      "pecorino",
+      "parmesan râpé",
+      "fromage à pâte dure",
+      "fromage affiné"
+    ],
+    "summary": "Oui, le parmesan et les autres fromages à pâte dure sont sans danger, même lorsqu'ils sont au lait non pasteurisé.",
+    "details": "Les fromages à pâte dure et affinés comme le parmesan contiennent très peu d'humidité, si bien que la listeria a peu de chances de s'y développer. C'est pourquoi le NHS indique que les fromages à pâte dure sont sans danger pendant la grossesse, qu'ils soient pasteurisés ou non. Le Parmigiano Reggiano est traditionnellement fabriqué au lait cru et reste considéré comme sans problème.",
+    "tips": [
+      "Râpe-le sans te priver sur les pâtes, les soupes ou les salades."
+    ]
+  },
+  "cheddar": {
+    "name": "Cheddar et fromages à pâte dure",
+    "aliases": [
+      "comté",
+      "gruyère",
+      "emmental",
+      "beaufort",
+      "gouda",
+      "edam"
+    ],
+    "summary": "Oui, le cheddar et les autres fromages à pâte dure sont sans danger, tout comme les fromages à pâte mi-dure pasteurisés comme l'edam.",
+    "details": "Le NHS classe le cheddar, le gruyère et les autres fromages à pâte dure comme sans danger pendant la grossesse, pasteurisés ou non, car leur faible humidité rend le développement de la listeria peu probable. Les fromages à pâte mi-dure comme l'edam et le gouda ne posent pas de problème lorsqu'ils sont au lait pasteurisé. Les fromages à pâte dure sont aussi une source pratique de calcium et de protéines.",
+    "tips": [
+      "Associe-le à un fruit ou à des crackers complets pour un en-cas facile."
+    ]
+  },
+  "blue-cheese": {
+    "name": "Fromage bleu",
+    "aliases": [
+      "roquefort",
+      "gorgonzola",
+      "bleu d'Auvergne",
+      "fourme d'Ambert",
+      "fromage à pâte persillée",
+      "sauce au roquefort"
+    ],
+    "summary": "Les bleus à pâte molle comme le gorgonzola et le roquefort ne conviennent que s'ils sont cuits jusqu'à être bien chauds et fumants.",
+    "details": "Les fromages bleus à pâte molle et persillée sont humides et affinés par des moisissures, ce qui les rend plus susceptibles de contenir de la listeria. Le NHS conseille de bien les cuire, qu'ils soient pasteurisés ou non. Une sauce au gorgonzola chauffée jusqu'à bouillonner ne pose pas de problème, mais mieux vaut éviter le bleu froid émietté sur une salade.",
+    "tips": [
+      "Utilise-le dans des sauces ou des plats au four chauffés jusqu'à bouillonner.",
+      "Au restaurant, demande des sauces sans fromage bleu."
+    ]
+  },
+  "goats-cheese": {
+    "name": "Fromage de chèvre",
+    "aliases": [
+      "chèvre",
+      "chevre",
+      "bûche de chèvre",
+      "buche de chevre",
+      "chèvre frais",
+      "chèvre chaud"
+    ],
+    "summary": "Le fromage de chèvre pasteurisé sans croûte ne pose pas de problème, mais celui à croûte blanche doit être cuit jusqu'à être bien chaud et fumant.",
+    "details": "Le NHS considère le fromage de chèvre pasteurisé sans enveloppe blanche (croûte) comme sans danger. Le fromage de chèvre à croûte fleurie blanche, comme les bûches de chèvre, est traité comme le brie : il peut abriter la listeria, il doit donc être bien cuit. Tout fromage de chèvre au lait non pasteurisé doit aussi être cuit.",
+    "tips": [
+      "Une tartine de chèvre passée au gril ne pose pas de problème une fois qu'elle est chaude à cœur.",
+      "Pour les chèvres frais sans croûte, vérifie que l'étiquette indique « pasteurisé »."
+    ]
+  },
+  "cottage-cheese": {
+    "name": "Cottage cheese",
+    "aliases": [
+      "cottage",
+      "fromage cottage",
+      "fromage en grains",
+      "fromage allégé"
+    ],
+    "summary": "Oui, le cottage cheese au lait pasteurisé est sans danger, et c'est une bonne source de protéines.",
+    "details": "Le NHS comme les CDC classent le cottage cheese pasteurisé parmi les choix sans danger pendant la grossesse. Le cottage cheese vendu en magasin est fabriqué à partir de lait pasteurisé. Garde-le au frais et consomme-le avant la date limite de consommation.",
+    "tips": [
+      "Essaie-le avec des fruits ou sur une tartine pour un en-cas riche en protéines."
+    ]
+  },
+  "cream-cheese": {
+    "name": "Fromage frais à tartiner et mascarpone",
+    "aliases": [
+      "cream cheese",
+      "philadelphia",
+      "mascarpone",
+      "St Môret",
+      "Kiri",
+      "cheesecake"
+    ],
+    "summary": "Oui, le fromage frais à tartiner et le mascarpone pasteurisés sont sans danger, y compris cuits dans un cheesecake.",
+    "details": "Le NHS et les CDC classent tous deux le fromage frais à tartiner pasteurisé comme sans danger pendant la grossesse, et le NHS y inclut aussi le mascarpone et les fromages fondus à tartiner. Les produits à tartiner vendus en magasin sont fabriqués à partir de lait pasteurisé. Les desserts sont une autre question : certains cheesecakes sans cuisson et certaines mousses contiennent aussi des œufs crus.",
+    "tips": [
+      "Pour les desserts sans cuisson, vérifie si la recette utilise des œufs crus."
+    ]
+  },
+  "ricotta": {
+    "name": "Ricotta",
+    "aliases": [
+      "fromage ricotta",
+      "cannoli",
+      "lasagnes",
+      "pâtes farcies",
+      "raviolis ricotta"
+    ],
+    "summary": "Oui, la ricotta pasteurisée est sans danger, fraîche ou cuite dans des plats comme les lasagnes.",
+    "details": "Le NHS classe la ricotta pasteurisée parmi les fromages à pâte molle sans danger pendant la grossesse, et la ricotta de supermarché est fabriquée à partir de lait pasteurisé. Les fromages frais vendus à la coupe ou faits maison risquent davantage d'être contaminés après leur fabrication. Privilégie les emballages scellés et consomme-les avant la date limite de consommation.",
+    "tips": [
+      "Choisis des pots scellés et réfrigérés plutôt que de la ricotta à la coupe au rayon traiteur."
+    ]
+  },
+  "paneer": {
+    "name": "Paneer",
+    "aliases": [
+      "fromage paneer",
+      "panir",
+      "fromage indien",
+      "palak paneer",
+      "paneer tikka"
+    ],
+    "summary": "Oui, le paneer au lait pasteurisé est sans danger, cuit ou non.",
+    "details": "Le NHS inclut le paneer pasteurisé parmi les fromages à pâte molle sans danger pendant la grossesse. Le paneer est généralement cuit dans des currys ou grillé, ce qui ajoute une sécurité supplémentaire. Si tu le fais toi-même, utilise du lait pasteurisé ou du lait que tu as porté à ébullition.",
+    "tips": [
+      "Tu fais ton paneer maison ? Pars d'un lait pasteurisé ou bouilli."
+    ]
+  },
+  "fresh-cheese": {
+    "name": "Lor, çökelek et fromages frais caillés",
+    "aliases": [
+      "lor",
+      "cokelek",
+      "labneh",
+      "queso fresco",
+      "faisselle",
+      "fromage frais"
+    ],
+    "summary": "Emballé, pasteurisé et bien réfrigéré, ça ne pose pas de problème, mais évite les fromages frais à la coupe ou faits maison, sauf s'ils sont cuits jusqu'à être bien chauds.",
+    "details": "Les fromages frais et humides comme le lor, le çökelek, le labneh et le queso fresco peuvent facilement être contaminés par la listeria après leur fabrication, même quand le lait a été traité par la chaleur. Les CDC conseillent de chauffer les fromages de type queso fresco jusqu'à ce qu'ils soient fumants. Les cuire dans des plats comme le börek jusqu'à ce qu'ils soient brûlants élimine le risque.",
+    "tips": [
+      "Achète des emballages scellés de marques connues et garde-les au réfrigérateur.",
+      "Utilise le lor à la coupe ou de village dans des plats cuits au four comme le börek, jusqu'à ce qu'ils soient bien chauds."
+    ]
+  },
+  "beyaz-peynir": {
+    "name": "Fromage turc en saumure (beyaz peynir)",
+    "aliases": [
+      "beyaz peynir",
+      "feta turque",
+      "fromage turc",
+      "fromage en saumure",
+      "ezine"
+    ],
+    "summary": "Oui s'il est pasteurisé, comme la plupart des marques emballées ; évite celui vendu à la coupe ou non pasteurisé, sauf s'il est cuit.",
+    "details": "Le beyaz peynir est un fromage en saumure proche de la feta. Fabriqué à partir de lait pasteurisé, c'est un classique du petit-déjeuner sans danger, mais le fromage au lait cru peut contenir de la listeria et d'autres bactéries. Le fromage vendu à la coupe dans des bidons sur les marchés, ou acheté directement dans les villages, n'est pas forcément pasteurisé.",
+    "tips": [
+      "Cherche la mention « pastörize sütten » sur l'étiquette.",
+      "N'utilise le fromage non pasteurisé que dans des plats cuits jusqu'à être fumants, comme le börek ou le menemen."
+    ]
+  },
+  "kasar": {
+    "name": "Fromage kaşar",
+    "aliases": [
+      "kasar",
+      "kashkaval",
+      "kachkaval",
+      "fromage turc à fondre",
+      "fromage à croque"
+    ],
+    "summary": "Oui, le kaşar pasteurisé est sans danger, froid au petit-déjeuner ou fondu dans un croque.",
+    "details": "Le kaşar est un fromage à pâte mi-dure, et le NHS classe les fromages à pâte mi-dure pasteurisés comme sans danger pendant la grossesse. La plupart du kaşar vendu en magasin est fabriqué à partir de lait pasteurisé. Le kaşar affiné (eski) est plus dur et plus sec, ce qui rend le développement de la listeria encore moins probable.",
+    "tips": [
+      "S'il est fait maison au lait cru, savoure-le fondu jusqu'à ce qu'il soit bien chaud."
+    ]
+  },
+  "tulum": {
+    "name": "Fromage tulum",
+    "aliases": [
+      "tulum",
+      "tulum d'Erzincan",
+      "fromage en outre",
+      "fromage turc émietté"
+    ],
+    "summary": "Choisis du tulum pasteurisé, et ne mange le tulum traditionnel au lait cru que cuit, par exemple dans un börek.",
+    "details": "Beaucoup de fromages tulum traditionnels sont fabriqués au lait cru de brebis ou de chèvre. Le fromage non pasteurisé peut contenir de la listeria, une bactérie rare mais qui peut provoquer une fausse couche ou une maladie grave chez le nouveau-né. Le tulum industriel est souvent pasteurisé, alors vérifie l'étiquette.",
+    "tips": [
+      "Cherche la mention « pastörize » sur l'emballage.",
+      "Fais cuire le tulum au lait cru dans un börek ou une pide jusqu'à ce qu'il soit fumant."
+    ]
+  },
+  "village-cheese": {
+    "name": "Fromage de village non pasteurisé",
+    "aliases": [
+      "fromage au lait cru",
+      "lait cru",
+      "fromage non pasteurisé",
+      "fromage fermier",
+      "koy peyniri",
+      "fromage artisanal"
+    ],
+    "summary": "Évite les fromages au lait cru à pâte molle ou friable, sauf s'ils sont cuits jusqu'à être fumants ; les fromages à pâte dure et affinés présentent moins de risques.",
+    "details": "Le fromage au lait cru peut contenir de la listeria et d'autres bactéries dangereuses. La listériose peut provoquer une fausse couche, la naissance d'un bébé mort-né ou un nouveau-né très malade, même si toi tu ne te sens que légèrement malade. Cuire le fromage jusqu'à ce qu'il soit fumant le rend sans danger, et les fromages à pâte dure et affinés présentent peu de risques, même non pasteurisés.",
+    "tips": [
+      "Demande au vendeur si le lait a été pasteurisé ou bouilli.",
+      "Fais cuire le fromage de village dans un börek ou une gözleme jusqu'à ce qu'il soit fumant."
+    ]
+  },
+  "kaymak": {
+    "name": "Kaymak (crème épaisse)",
+    "aliases": [
+      "kaymak",
+      "clotted cream",
+      "crème de bufflonne",
+      "qaimar",
+      "eishta",
+      "ashta"
+    ],
+    "summary": "Le kaymak emballé et pasteurisé ne pose pas de problème, mais fais attention au kaymak vendu à la coupe sur les marchés et dans les petites laiteries.",
+    "details": "Le kaymak traditionnel est fabriqué à partir de lait chauffé, mais il est riche et humide, et souvent manipulé et vendu à la coupe, si bien qu'il peut ensuite être contaminé par des bactéries comme la listeria. Le NHS indique que la crème pasteurisée est sans danger et que la crème non pasteurisée est à éviter. Le kaymak emballé d'une marque connue, conservé au frais, est le choix le plus sûr.",
+    "tips": [
+      "Achète des emballages scellés et garde-les au réfrigérateur.",
+      "Évite le kaymak resté à température ambiante."
+    ]
+  },
+  "runny-eggs": {
+    "name": "Œufs au jaune coulant",
+    "aliases": [
+      "œuf à la coque",
+      "oeuf a la coque",
+      "œuf au plat",
+      "œuf poché",
+      "œuf mollet",
+      "œufs bénédicte"
+    ],
+    "summary": "Seulement avec des œufs britanniques portant le label British Lion ou Laid in Britain ; ailleurs, fais cuire les œufs jusqu'à ce que le jaune soit ferme.",
+    "details": "Les œufs pas assez cuits peuvent contenir des salmonelles, qui nuisent rarement au bébé mais peuvent te causer une intoxication alimentaire sévère. Au Royaume-Uni, les œufs produits dans le cadre des labels British Lion ou Laid in Britain sont considérés comme à faible risque et peuvent être mangés coulants. Ailleurs, y compris aux États-Unis, on conseille de cuire les œufs jusqu'à ce que le blanc et le jaune soient tous les deux fermes.",
+    "tips": [
+      "Fais bouillir les œufs un peu plus longtemps, ou retourne les œufs au plat, jusqu'à ce que le jaune soit pris.",
+      "Pour le çılbır ou les œufs Bénédicte, utilise des œufs pasteurisés ou renonce au jaune coulant."
+    ]
+  },
+  "raw-eggs": {
+    "name": "Œufs crus",
+    "aliases": [
+      "œuf cru",
+      "oeuf cru",
+      "mousse au chocolat",
+      "sauce César",
+      "sauce hollandaise",
+      "lait de poule"
+    ],
+    "summary": "Seulement si les œufs sont pasteurisés (ou britanniques avec le label Lion) ; sinon, évite les préparations à base d'œufs crus comme la mousse ou la sauce César.",
+    "details": "Les œufs crus et peu cuits peuvent contenir des salmonelles, qui peuvent provoquer vomissements, diarrhée et fièvre, et la FDA classe les femmes enceintes parmi les personnes plus exposées à une forme grave. Pour les plats servis avec des œufs crus, la FDA conseille d'utiliser des œufs pasteurisés ou des ovoproduits pasteurisés. Les produits du commerce comme la mayonnaise et les sauces sont fabriqués avec des œufs pasteurisés.",
+    "tips": [
+      "Demande au restaurant si les sauces et desserts maison contiennent des œufs crus.",
+      "À la maison, utilise des œufs pasteurisés pour tout ce qui ne sera pas cuit."
+    ]
+  },
+  "homemade-mayonnaise": {
+    "name": "Mayonnaise et aïoli maison",
+    "aliases": [
+      "mayo maison",
+      "mayonnaise maison",
+      "aïoli",
+      "aioli",
+      "mayonnaise à l'ail",
+      "rouille"
+    ],
+    "summary": "Seulement si elle est préparée avec des œufs pasteurisés (ou des œufs britanniques Lion) ; sinon, mieux vaut l'éviter.",
+    "details": "La mayonnaise et l'aïoli maison sont faits avec du jaune d'œuf cru, qui peut contenir des salmonelles. Le NHS indique que la mayonnaise préparée avec des œufs British Lion ou Laid in Britain ne pose pas de problème, tandis qu'aux États-Unis on conseille d'utiliser des œufs pasteurisés pour les recettes à base d'œufs crus. La « mayo maison » et l'aïoli des restaurants sont souvent préparés sur place, donc ça vaut la peine de demander.",
+    "tips": [
+      "Demande si les sauces maison sont préparées sur place avec des œufs crus.",
+      "Les pots du commerce sont une alternative sans danger."
+    ]
+  },
+  "mayonnaise": {
+    "name": "Mayonnaise (du commerce)",
+    "aliases": [
+      "mayo",
+      "mayonnaise en pot",
+      "Amora",
+      "Hellmann's",
+      "sauce tartare",
+      "coleslaw"
+    ],
+    "summary": "Oui, la mayonnaise en pot du commerce est fabriquée avec des œufs pasteurisés et elle est sans danger.",
+    "details": "La mayonnaise industrielle est faite avec des œufs pasteurisés, elle ne présente donc pas le risque lié aux œufs crus des versions maison. Une fois ouvert, garde le pot au réfrigérateur. Fais plus attention aux salades et sandwichs tout prêts contenant de la mayonnaise : le NHS indique qu'ils doivent être conservés au frais et consommés avant la date limite de consommation.",
+    "tips": [
+      "Mets-la au réfrigérateur après ouverture et ne laisse pas les plats à la mayo dehors à la chaleur."
+    ]
+  },
+  "tiramisu": {
+    "name": "Tiramisu",
+    "aliases": [
+      "tiramisù",
+      "dessert au mascarpone",
+      "dessert au café",
+      "sabayon",
+      "trifle"
+    ],
+    "summary": "Le tiramisu du commerce préparé avec des œufs pasteurisés ne pose généralement pas de problème, mais les versions maison contiennent souvent des œufs crus et de l'alcool.",
+    "details": "Le tiramisu classique est préparé avec des œufs crus, qui peuvent contenir des salmonelles, et il contient souvent du marsala, du rhum ou de la liqueur de café. Beaucoup de versions de supermarché utilisent des œufs pasteurisés et pas d'alcool, alors vérifie l'étiquette. Le café ajoute aussi un peu de caféine à ton total de la journée.",
+    "tips": [
+      "Vérifie sur l'étiquette la présence d'œufs pasteurisés et l'absence d'alcool.",
+      "À la maison, utilise des œufs pasteurisés ou une recette sans œufs."
+    ]
+  },
+  "cookie-dough": {
+    "name": "Pâte à cookies et pâte à gâteau crues",
+    "aliases": [
+      "pâte à cookies",
+      "pâte à gâteau crue",
+      "pâte crue",
+      "farine crue",
+      "pâte à brownie",
+      "lécher la cuillère"
+    ],
+    "summary": "Évite de goûter la pâte crue, à cookies comme à gâteau, car la farine crue et les œufs crus peuvent tous deux contenir des bactéries dangereuses.",
+    "details": "La farine crue n'est pas traitée pour tuer les germes et a été associée à des épidémies d'E. coli, et les œufs crus peuvent contenir des salmonelles. La cuisson, au four ou autrement, tue les deux. La pâte à cookies vendue comme « prête à manger » est faite avec de la farine traitée thermiquement et sans œufs crus, alors vérifie l'étiquette.",
+    "tips": [
+      "Résiste à l'envie de lécher la cuillère : fais cuire d'abord, goûte ensuite.",
+      "Lave-toi les mains et nettoie les surfaces après avoir manipulé de la farine crue."
+    ]
+  },
+  "sushi": {
+    "name": "Sushis au poisson cru",
+    "aliases": [
+      "sashimi",
+      "maki",
+      "poisson cru",
+      "poke bowl",
+      "ceviche",
+      "tartare de saumon"
+    ],
+    "summary": "Évite les sushis et sashimis au poisson ou aux fruits de mer crus ; les sushis au poisson cuit ou aux légumes ne posent pas de problème.",
+    "details": "Le poisson cru peut contenir de la listeria, des parasites et d'autres bactéries que la cuisson tuerait. L'ACOG conseille d'éviter tout poisson cru ou pas assez cuit pendant la grossesse, et le NHS indique désormais que cela s'applique même si le poisson a d'abord été congelé. Les makis au poisson cuit, aux crevettes cuites, au surimi ou aux légumes ne posent pas de problème.",
+    "tips": [
+      "Essaie les options cuites comme les makis crevette tempura, anguille, saumon cuit ou avocat.",
+      "Demande au chef quels makis contiennent du poisson cru."
+    ]
+  },
+  "sushi-cooked": {
+    "name": "Sushis au poisson cuit ou aux légumes",
+    "aliases": [
+      "sushi cuit",
+      "california roll",
+      "sushi végétarien",
+      "maki avocat",
+      "maki concombre",
+      "unagi"
+    ],
+    "summary": "Oui, les sushis au poisson cuit, aux fruits de mer cuits ou aux légumes sont sans danger pendant la grossesse.",
+    "details": "Le NHS considère les sushis au poisson cuit ou aux fruits de mer cuits comme sans danger. Les règles habituelles d'hygiène alimentaire s'appliquent toujours : les sushis doivent être conservés au frais, et les sushis préemballés consommés avant leur date limite de consommation. Les makis au saumon fumé comptent comme du poisson non cuit, alors évite-les.",
+    "tips": [
+      "Choisis des makis préparés minute dans des endroits fréquentés où l'hygiène est bonne.",
+      "Vas-y doucement sur la sauce soja si tu surveilles ta consommation de sel."
+    ]
+  },
+  "smoked-salmon": {
+    "name": "Saumon fumé et poisson mariné",
+    "aliases": [
+      "saumon fumé",
+      "gravlax",
+      "saumon mariné",
+      "truite fumée",
+      "hareng fumé",
+      "lakerda"
+    ],
+    "summary": "Seulement s'il est cuit jusqu'à être bien chaud et fumant, comme dans des pâtes chaudes ou une quiche ; évite le saumon fumé froid, le gravlax et le lakerda.",
+    "details": "Le poisson fumé à froid et le poisson mariné ne sont pas cuits, ils peuvent donc contenir de la listeria. Le NHS conseille de les cuire jusqu'à ce qu'ils soient fumants, et les CDC conseillent d'éviter le poisson fumé réfrigéré, sauf s'il est dans un plat cuit. Le poisson fumé en conserve ou stable à température ambiante, en emballage scellé, présente moins de risques.",
+    "tips": [
+      "Ajoute le saumon fumé à des pâtes chaudes ou à des œufs brouillés et fais-le chauffer à cœur.",
+      "Même le poisson fumé à chaud, comme le maquereau fumé, est plus sûr mangé chaud."
+    ]
+  },
+  "tuna-canned": {
+    "name": "Thon en conserve",
+    "aliases": [
+      "thon en boîte",
+      "boîte de thon",
+      "salade de thon",
+      "sandwich au thon",
+      "thon albacore",
+      "germon"
+    ],
+    "summary": "Oui, avec modération : au Royaume-Uni, la limite est de 4 boîtes par semaine, et aux États-Unis, on privilégie le thon « light » plutôt que le thon blanc (germon).",
+    "details": "Le thon contient plus de mercure que la plupart des poissons, et trop de mercure peut affecter le système nerveux en développement du bébé. Le NHS fixe une limite de 4 boîtes par semaine. La FDA classe le thon « light » en conserve parmi les « meilleurs choix » (2 à 3 portions par semaine de poissons « meilleur choix ») et le thon blanc (germon, appelé « albacore » aux États-Unis) parmi les « bons choix » (1 portion par semaine).",
+    "tips": [
+      "Varie avec des poissons moins riches en mercure comme le saumon, les sardines ou les anchois.",
+      "Garde les sandwichs au thon du commerce au frais et mange-les avant la date limite de consommation."
+    ]
+  },
+  "tuna-steak": {
+    "name": "Steak de thon",
+    "aliases": [
+      "thon frais",
+      "pavé de thon",
+      "thon mi-cuit",
+      "tataki de thon",
+      "thon albacore",
+      "thon obèse"
+    ],
+    "summary": "Oui, bien cuit et avec modération (pas plus de 2 steaks par semaine au Royaume-Uni), mais évite le thon mi-cuit ou cru.",
+    "details": "Le thon frais contient plus de mercure que la plupart des poissons, c'est pourquoi le NHS le limite à 2 steaks par semaine, et la FDA conseille d'éviter complètement le thon obèse (bigeye). Le thon mi-cuit et le tataki sont presque crus au centre, ils présentent donc les mêmes risques que le poisson cru. Fais cuire les steaks jusqu'à ce qu'ils soient opaques à cœur.",
+    "tips": [
+      "Demande-le bien cuit, sans rose au centre.",
+      "Alterne avec des poissons moins riches en mercure comme le saumon, la truite ou les sardines."
+    ]
+  },
+  "swordfish": {
+    "name": "Espadon et marlin",
+    "aliases": [
+      "espadon",
+      "steak d'espadon",
+      "marlin",
+      "poisson riche en mercure",
+      "poisson mercure"
+    ],
+    "summary": "À éviter, car l'espadon et le marlin sont riches en mercure, qui peut nuire au système nerveux en développement du bébé.",
+    "details": "Les grands poissons prédateurs accumulent du mercure au cours de leur longue vie, et l'espadon et le marlin figurent sur les listes des poissons à éviter pendant la grossesse du NHS comme de la FDA. Le mercure traverse le placenta et peut affecter le développement du cerveau et des nerfs. Beaucoup d'autres poissons t'apportent les mêmes bienfaits en oméga-3 avec bien moins de mercure.",
+    "tips": [
+      "Remplace le kılıç şiş par du bar, de la dorade ou du saumon grillés."
+    ]
+  },
+  "shark": {
+    "name": "Requin",
+    "aliases": [
+      "steak de requin",
+      "saumonette",
+      "roussette",
+      "émissole",
+      "requin-taupe"
+    ],
+    "summary": "À éviter, car le requin fait partie des poissons les plus riches en mercure et figure sur les listes à éviter au Royaume-Uni comme aux États-Unis.",
+    "details": "Les requins sont des prédateurs qui vivent longtemps et accumulent des taux élevés de mercure. Pendant la grossesse, le mercure peut passer au bébé et affecter le développement de son cerveau et de son système nerveux. Le NHS comme la FDA conseillent d'éviter complètement le requin pendant la grossesse ou si tu prévois une grossesse.",
+    "tips": [
+      "Au restaurant de poisson, choisis plutôt du bar, de la dorade, du cabillaud ou de l'églefin."
+    ]
+  },
+  "king-mackerel": {
+    "name": "Maquereau royal (thazard)",
+    "aliases": [
+      "thazard",
+      "maquereau roi",
+      "tile",
+      "hoplostète orange",
+      "empereur",
+      "thon obèse"
+    ],
+    "summary": "Évite le maquereau royal ; le maquereau commun de l'Atlantique (uskumru) est un poisson différent, pauvre en mercure, et il ne pose pas de problème.",
+    "details": "Le maquereau royal est un grand poisson de haute mer que la FDA classe parmi les espèces les plus riches en mercure à éviter pendant la grossesse, avec le thon obèse, l'espadon, le requin, le marlin, l'hoplostète orange (empereur) et le tile du golfe du Mexique. Le maquereau de l'Atlantique, en revanche, figure sur la liste des « meilleurs choix » de la FDA. Au Royaume-Uni, le maquereau compte dans tes 2 portions de poisson gras par semaine.",
+    "tips": [
+      "Vérifie le nom de l'espèce sur les menus et au rayon poissonnerie.",
+      "Savoure le maquereau ordinaire (uskumru), grillé et bien cuit."
+    ]
+  },
+  "salmon": {
+    "name": "Saumon (cuit)",
+    "aliases": [
+      "pavé de saumon",
+      "filet de saumon",
+      "saumon au four",
+      "saumon grillé",
+      "truite",
+      "poisson gras"
+    ],
+    "summary": "Oui, le saumon cuit est un excellent choix, et au Royaume-Uni on conseille jusqu'à 2 portions de poisson gras par semaine.",
+    "details": "Le saumon est pauvre en mercure et riche en oméga-3, qui sont bons pour toi et pour le développement de ton bébé. Le NHS recommande 2 portions de poisson par semaine, dont une de poisson gras, mais pas plus de 2 portions de poisson gras, car il peut contenir des polluants. La FDA classe le saumon parmi ses « meilleurs choix ».",
+    "tips": [
+      "Fais-le cuire jusqu'à ce qu'il s'effeuille facilement et soit opaque à cœur.",
+      "Le saumon fumé, c'est différent : il doit être cuit jusqu'à être bien chaud et fumant."
+    ]
+  },
+  "anchovies": {
+    "name": "Anchois et sardines (hamsi)",
+    "aliases": [
+      "hamsi",
+      "anchois",
+      "sardines",
+      "hareng",
+      "maquereau",
+      "uskumru"
+    ],
+    "summary": "Oui, cuits, car ce sont des poissons gras pauvres en mercure ; au Royaume-Uni, on conseille jusqu'à 2 portions de poisson gras par semaine.",
+    "details": "Les anchois, les sardines et le maquereau de l'Atlantique figurent sur la liste des « meilleurs choix » de la FDA pour leur faible teneur en mercure, et ils sont riches en oméga-3. Le NHS les classe parmi les poissons gras et conseille de ne pas dépasser 2 portions par semaine, car les poissons gras peuvent contenir des polluants. Mange-les cuits, car les anchois crus marinés présentent les mêmes risques que les autres poissons crus.",
+    "tips": [
+      "Le hamsi tava, le buğulama ou les sardines grillées sont tous d'excellents choix.",
+      "Les sardines en conserve sont cuites et comptent aussi dans tes portions de poisson gras."
+    ]
+  },
+  "prawns": {
+    "name": "Crevettes et gambas",
+    "aliases": [
+      "crevettes",
+      "gambas",
+      "cocktail de crevettes",
+      "crevettes roses",
+      "crevettes à l'ail",
+      "scampi"
+    ],
+    "summary": "Oui, quand elles sont cuites et servies chaudes ; réchauffe les crevettes froides prêtes à manger, comme dans un cocktail de crevettes, jusqu'à ce qu'elles soient fumantes.",
+    "details": "Les fruits de mer cuits comme les crevettes sont sans danger et constituent une bonne source de protéines. Le NHS conseille désormais de réchauffer les crevettes froides précuites prêtes à manger jusqu'à ce qu'elles soient fumantes, car elles peuvent contenir de la listeria. Les crevettes crues, comme dans certains ceviches ou sushis, sont à éviter.",
+    "tips": [
+      "Fais cuire les crevettes crues jusqu'à ce qu'elles soient roses et opaques à cœur.",
+      "Un karides güveç tout juste sorti du four est un choix parfait."
+    ]
+  },
+  "oysters": {
+    "name": "Huîtres et fruits de mer crus",
+    "aliases": [
+      "huîtres",
+      "huitres",
+      "plateau de fruits de mer",
+      "palourdes crues",
+      "oursins",
+      "coquillages crus"
+    ],
+    "summary": "Évite les fruits de mer crus ; les huîtres, moules et palourdes cuites ne posent pas de problème une fois chaudes et leurs coquilles ouvertes.",
+    "details": "Les fruits de mer crus peuvent contenir des bactéries comme les vibrions, ainsi que des toxines, qui peuvent provoquer une intoxication alimentaire sévère. Le NHS conseille d'éviter les fruits de mer crus pendant la grossesse, alors que les fruits de mer cuits sont sans danger. Jette les moules ou palourdes qui restent fermées après la cuisson.",
+    "tips": [
+      "Commande des huîtres gratinées ou cuites au four plutôt que crues."
+    ]
+  },
+  "midye-dolma": {
+    "name": "Midye dolma (moules farcies)",
+    "aliases": [
+      "moules farcies",
+      "midye",
+      "midye tava",
+      "beignets de moules",
+      "moules de rue"
+    ],
+    "summary": "Seulement si elles sont fraîchement préparées dans un endroit propre et de confiance ; mieux vaut éviter les moules de rue gardées des heures sans réfrigération.",
+    "details": "Les moules et le riz des midye dolma sont cuits, le principal risque vient donc de la façon dont elles sont conservées ensuite. Laissées des heures à température ambiante, surtout en été, elles peuvent voir se développer des bactéries responsables d'intoxications alimentaires, et les coquillages peuvent aussi contenir des toxines. Une intoxication alimentaire est particulièrement éprouvante pendant la grossesse et peut entraîner une déshydratation.",
+    "tips": [
+      "Choisis des endroits fréquentés qui les gardent au frais, et évite-les par temps chaud.",
+      "Les midye tava, frites bien chaudes à la commande, sont un choix plus sûr."
+    ]
+  },
+  "deli-meat": {
+    "name": "Charcuterie cuite et viandes froides",
+    "aliases": [
+      "jambon blanc",
+      "jambon cuit",
+      "blanc de dinde",
+      "viandes froides",
+      "mortadelle",
+      "sandwich jambon"
+    ],
+    "summary": "Plus sûr chauffé jusqu'à être fumant : au Royaume-Uni, les paquets réfrigérés et non périmés sont acceptés, alors qu'aux États-Unis on conseille de les chauffer d'abord.",
+    "details": "Les viandes prêtes à manger comme le jambon, le blanc de dinde et le salam peuvent contenir de la listeria, qui peut se développer lentement même au réfrigérateur. Le NHS indique que les viandes froides précuites ne posent pas de problème si elles sont conservées au frais et consommées avant la date limite de consommation, tandis que les CDC conseillent de réchauffer la charcuterie jusqu'à ce qu'elle soit fumante. La faire chauffer dans un croque-monsieur ou à la poêle élimine le risque. En France, l'ANSES recommande aux femmes enceintes d'éviter la charcuterie cuite prête à consommer (jambon cuit, pâtés, produits en gelée), sauf si elle est recuite jusqu'à être bien chaude.",
+    "tips": [
+      "Fais-en un croque-monsieur ou un panini chaud, chauffé à cœur.",
+      "Évite les tranches de charcuterie restées à l'air libre sur les comptoirs des traiteurs."
+    ]
+  },
+  "salami": {
+    "name": "Salami et charcuterie sèche",
+    "aliases": [
+      "saucisson sec",
+      "chorizo",
+      "jambon cru",
+      "jambon de Bayonne",
+      "pepperoni",
+      "planche de charcuterie"
+    ],
+    "summary": "Fais-la cuire jusqu'à ce qu'elle soit bien chaude et fumante, comme sur une pizza, et évite les tranches froides de salami, de chorizo ou de jambon cru.",
+    "details": "La charcuterie sèche n'est pas cuite, elle peut donc contenir de la listeria et le toxoplasme, un parasite. Le NHS conseille désormais de cuire la charcuterie sèche froide jusqu'à ce qu'elle soit fumante avant de la manger, et les CDC conseillent d'éviter les saucisses sèches ou fermentées non chauffées. Sur une pizza chaude qui sort du four, elle ne pose pas de problème.",
+    "tips": [
+      "Une pizza au pepperoni ne pose pas de problème quand elle sort chaude du four.",
+      "Sur une planche de charcuterie, tiens-t'en aux produits cuits et aux fromages à pâte dure."
+    ]
+  },
+  "sucuk": {
+    "name": "Sucuk (saucisse turque)",
+    "aliases": [
+      "sucuk",
+      "soudjouk",
+      "sujuk",
+      "saucisse turque",
+      "saucisse de bœuf épicée",
+      "sucuk aux œufs"
+    ],
+    "summary": "Oui, quand il est poêlé ou grillé jusqu'à être bien cuit et grésillant, mais ne le mange pas cru ou à peine réchauffé.",
+    "details": "Le sucuk traditionnel est une saucisse fermentée et séchée qui n'est pas cuite pendant sa fabrication, il peut donc, comme le salami, contenir de la listeria et le toxoplasme. Le poêler ou le griller jusqu'à ce qu'il soit chaud à cœur le rend sans danger. Le sucuk traité thermiquement (ısıl işlem görmüş) a été cuit pendant sa fabrication, mais il vaut quand même mieux le manger chaud.",
+    "tips": [
+      "Le sucuklu yumurta ne pose pas de problème : fais cuire jusqu'à ce que l'œuf soit pris et que le sucuk grésille.",
+      "Le sucuk est salé et gras, alors garde des portions modérées."
+    ]
+  },
+  "pastirma": {
+    "name": "Pastırma (bœuf séché)",
+    "aliases": [
+      "pastirma",
+      "basturma",
+      "bœuf séché",
+      "boeuf seche",
+      "viande des Grisons",
+      "bresaola"
+    ],
+    "summary": "Évite les fines tranches froides, mais le pastırma cuit jusqu'à être fumant, comme dans le pastırmalı yumurta, ne pose pas de problème.",
+    "details": "Le pastırma est un bœuf salé et séché à l'air qui se mange généralement sans cuisson, il présente donc les mêmes risques que les autres charcuteries sèches : toxoplasme et listeria. Le NHS conseille de cuire la charcuterie sèche jusqu'à ce qu'elle soit fumante. En quantités normales, l'enrobage de çemen (fenugrec) n'est pas le problème ; c'est la viande non cuite qui l'est.",
+    "tips": [
+      "Fais cuire le pastırmalı yumurta jusqu'à ce que les œufs soient fermes et que tout soit bien chaud.",
+      "Le pastırmalı humus est cuit au four, il ne pose donc pas de problème à la sortie du four."
+    ]
+  },
+  "hot-dogs": {
+    "name": "Hot-dogs et saucisses de Francfort",
+    "aliases": [
+      "hot dog",
+      "saucisse de Strasbourg",
+      "saucisse de Francfort",
+      "knacki",
+      "saucisse viennoise",
+      "saucisses cocktail"
+    ],
+    "summary": "Seulement quand elles sont chauffées jusqu'à être fumantes à cœur, jamais directement sorties du paquet.",
+    "details": "Les saucisses à hot-dog sont précuites, mais la listeria peut les contaminer après la cuisson et continuer à se développer au réfrigérateur. Les CDC conseillent de réchauffer les saucisses à hot-dog jusqu'à ce qu'elles soient fumantes. Le liquide du paquet peut aussi propager des bactéries, alors garde-le à l'écart des autres aliments.",
+    "tips": [
+      "Fais-les bouillir ou griller jusqu'à ce qu'elles soient brûlantes au centre.",
+      "Lave-toi les mains après avoir ouvert et manipulé le paquet."
+    ]
+  },
+  "pate": {
+    "name": "Pâté",
+    "aliases": [
+      "pate",
+      "pâté de foie",
+      "foie gras",
+      "mousse de foie",
+      "terrine",
+      "rillettes"
+    ],
+    "summary": "Mieux vaut l'éviter, car le pâté de foie est très riche en vitamine A et le pâté réfrigéré peut contenir de la listeria.",
+    "details": "Le pâté de foie contient tellement de vitamine A (rétinol) qu'il peut nuire au développement du bébé, c'est pourquoi le NHS conseille d'éviter tous les produits à base de foie. Les pâtés et viandes à tartiner réfrigérés peuvent aussi contenir de la listeria. Le pâté sans foie est traité différemment : le NHS conseille de le garder au frais et de le consommer avant la date limite de consommation, tandis que les CDC conseillent de choisir du pâté en conserve ou stable à température ambiante.",
+    "tips": [
+      "Vérifie la présence de foie sur l'étiquette : il y en a dans le foie gras et dans beaucoup de pâtés de volaille.",
+      "Le pâté en conserve, stable à température ambiante et sans foie, est le choix le plus sûr."
+    ]
+  },
+  "liver": {
+    "name": "Foie",
+    "aliases": [
+      "foie de veau",
+      "foie d'agneau",
+      "foies de volaille",
+      "foie de génisse",
+      "abats",
+      "saucisse de foie"
+    ],
+    "summary": "Mieux vaut l'éviter, car le foie est extrêmement riche en vitamine A, et un excès peut nuire au bébé en développement.",
+    "details": "Le foie stocke de grandes quantités de vitamine A sous forme de rétinol, et des apports élevés pendant la grossesse ont été associés à des malformations congénitales. Le NHS conseille d'éviter complètement le foie et les produits à base de foie, tandis qu'aux États-Unis, les recommandations visent surtout à ne pas dépasser les limites sûres de vitamine A. Cela inclut des plats populaires comme l'Arnavut ciğeri et le ciğer şiş.",
+    "tips": [
+      "Trouve plutôt ton fer dans la viande rouge, les lentilles, les pois chiches et les légumes à feuilles vertes."
+    ]
+  },
+  "rare-steak": {
+    "name": "Steak saignant ou rosé",
+    "aliases": [
+      "steak saignant",
+      "steak bleu",
+      "viande rosée",
+      "agneau rosé",
+      "rosbif",
+      "côtelettes d'agneau"
+    ],
+    "summary": "Plus sûr bien cuit : au Royaume-Uni, les pièces entières bien saisies à l'extérieur sont acceptées, alors qu'aux États-Unis on conseille de cuire à 63 °C.",
+    "details": "La viande crue ou pas assez cuite peut contenir le toxoplasme, un parasite qui peut nuire au bébé si tu l'attrapes pour la première fois pendant la grossesse. Sur les pièces entières, les germes se trouvent surtout en surface, et le NHS indique désormais que les steaks et côtelettes bien cuits à l'extérieur ne posent pas de problème. Les CDC recommandent de cuire les pièces entières à 63 °C (145 °F) avec un temps de repos de 3 minutes.",
+    "tips": [
+      "En cas de doute, commande-le entre à point et bien cuit.",
+      "La viande hachée, les burgers et les köfte doivent toujours être cuits à cœur."
+    ]
+  },
+  "raw-meat": {
+    "name": "Viande crue (tartare, carpaccio)",
+    "aliases": [
+      "steak tartare",
+      "tartare de bœuf",
+      "carpaccio",
+      "filet américain",
+      "bœuf cru",
+      "kebbé nayé"
+    ],
+    "summary": "À éviter, car les plats de viande crue peuvent contenir le toxoplasme, la listeria et E. coli.",
+    "details": "Le steak tartare, le carpaccio et les plats similaires ne sont jamais cuits, donc les parasites ou bactéries présents dans la viande survivent. Une toxoplasmose attrapée pour la première fois pendant la grossesse peut provoquer une fausse couche ou de graves problèmes pour le bébé. Le NHS conseille d'éviter la viande crue ou pas assez cuite pendant la grossesse.",
+    "tips": [
+      "Lave-toi les mains et lave tes planches et tes couteaux après avoir manipulé de la viande crue."
+    ]
+  },
+  "cig-kofte-meat": {
+    "name": "Çiğ köfte à la viande crue",
+    "aliases": [
+      "cig kofte",
+      "çiğ köfte",
+      "boulettes de viande crue",
+      "etli cig kofte",
+      "cig kofte traditionnel"
+    ],
+    "summary": "À éviter, car le çiğ köfte traditionnel est préparé avec de la viande hachée crue, qui peut contenir le toxoplasme et E. coli.",
+    "details": "La recette traditionnelle consiste à pétrir de la viande hachée crue de bœuf ou d'agneau avec du boulgour et des épices, et ni les épices ni le pétrissage ne tuent les parasites ou les bactéries. La viande hachée est plus risquée que les pièces entières, car les germes de surface sont mélangés dans toute la masse. Ce sont les versions faites maison qui contiennent le plus souvent de la viande.",
+    "tips": [
+      "Demande s'il est etli (avec viande) ou etsiz (sans viande) avant de le manger.",
+      "Le çiğ köfte sans viande est une alternative sans danger."
+    ]
+  },
+  "cig-kofte": {
+    "name": "Çiğ köfte sans viande",
+    "aliases": [
+      "cig kofte vegan",
+      "çiğ köfte végétarien",
+      "köfte de boulgour",
+      "etsiz cig kofte",
+      "wrap cig kofte"
+    ],
+    "summary": "Oui, le çiğ köfte sans viande à base de boulgour et d'épices ne pose pas de problème, à condition de bien laver la salade et les herbes servies avec.",
+    "details": "Aujourd'hui, la plupart des çiğ köfte vendus dans le commerce sont sans viande, préparés avec du boulgour, du concentré de tomate et de poivron et des épices, donc le risque lié à la viande crue ne s'applique pas. Le boulgour est déjà bouilli lors de sa transformation. Les crudités servies avec doivent être bien lavées, car la terre sur les produits non lavés peut contenir des germes dangereux.",
+    "tips": [
+      "Il peut être très épicé, alors vas-y doucement si tu as des brûlures d'estomac.",
+      "Achète-le dans des endroits propres où il est préparé sur place."
+    ]
+  },
+  "doner-kebab": {
+    "name": "Döner et kebabs",
+    "aliases": [
+      "kebab",
+      "doner",
+      "sandwich grec",
+      "chawarma",
+      "gyros",
+      "adana kebab"
+    ],
+    "summary": "Oui, quand il est fraîchement cuit, bien cuit et brûlant ; évite le poulet ou la viande encore rosés, ou restés à l'air libre.",
+    "details": "Le döner cuit en couches sur une broche tournante, si bien que des tranches peuvent parfois être pas assez cuites si elles sont coupées trop vite ou trop épaisses. La viande pas assez cuite peut contenir le toxoplasme, et le poulet pas assez cuit peut contenir des bactéries comme les salmonelles. Un endroit fréquenté et propre qui coupe de fines tranches bien dorées est le choix le plus sûr.",
+    "tips": [
+      "Demande des tranches bien cuites et croustillantes, prises sur l'extérieur de la broche.",
+      "Vérifie que le poulet est blanc à cœur, sans trace de rose."
+    ]
+  },
+  "burgers": {
+    "name": "Burgers et boulettes (köfte)",
+    "aliases": [
+      "hamburger",
+      "boulettes de viande",
+      "kofte",
+      "steak haché",
+      "viande hachée",
+      "bœuf haché"
+    ],
+    "summary": "Oui, quand ils sont cuits à cœur, sans rose au centre et avec un jus clair.",
+    "details": "Le hachage répartit dans toute la viande les bactéries présentes à sa surface, c'est pourquoi les burgers et les köfte doivent être cuits jusqu'au centre. Le NHS indique que la viande hachée, les burgers et les saucisses ne doivent présenter aucune trace de rose ni de sang. Les CDC recommandent de cuire la viande hachée à 71 °C (160 °F).",
+    "tips": [
+      "Commande tes burgers bien cuits, car beaucoup de restaurants les servent rosés par défaut.",
+      "Coupe la köfte la plus épaisse pour vérifier avant de manger."
+    ]
+  },
+  "chicken": {
+    "name": "Poulet et volaille",
+    "aliases": [
+      "poulet",
+      "dinde",
+      "canard",
+      "blanc de poulet",
+      "poulet rôti",
+      "ailes de poulet"
+    ],
+    "summary": "Oui, tant qu'il est cuit à cœur, sans chair rosée et avec un jus clair.",
+    "details": "Le poulet, la dinde et le canard bien cuits sont sans danger et constituent une excellente source de protéines. La volaille pas assez cuite peut contenir des bactéries comme les salmonelles, responsables d'intoxications alimentaires. Les CDC recommandent de cuire la volaille à 74 °C (165 °F), et le NHS indique qu'il ne doit rester aucune trace de rose.",
+    "tips": [
+      "Utilise une planche à découper à part pour le poulet cru.",
+      "Réchauffe les restes jusqu'à ce qu'ils soient bien chauds et fumants."
+    ]
+  },
+  "kokorec": {
+    "name": "Kokoreç",
+    "aliases": [
+      "kokorec",
+      "kokoretsi",
+      "tripes grillées",
+      "intestins d'agneau",
+      "abats"
+    ],
+    "summary": "Seulement s'il est fraîchement grillé, brûlant et bien cuit, dans un endroit propre et de confiance.",
+    "details": "Le kokoreç est préparé avec des intestins d'agneau, qui doivent être nettoyés très soigneusement et bien cuits pour être sans danger. Les abats pas assez cuits peuvent contenir des bactéries responsables d'intoxications alimentaires. Un bon kokoreç est haché et repassé sur la plaque juste avant d'être servi, ce qui aide à s'assurer qu'il est chaud à cœur.",
+    "tips": [
+      "Choisis des endroits fréquentés où il est repassé bien chaud sur la plaque à la commande.",
+      "Évite-le par temps chaud ou dans les stands où l'hygiène paraît douteuse."
+    ]
+  },
+  "raw-sprouts": {
+    "name": "Graines germées crues",
+    "aliases": [
+      "pousses de soja",
+      "germes de soja",
+      "graines germées",
+      "fèves germées",
+      "luzerne",
+      "alfalfa"
+    ],
+    "summary": "Évite-les crues ou peu cuites ; les graines germées cuites jusqu'à être fumantes, comme dans un sauté au wok, ne posent pas de problème.",
+    "details": "Les graines germées poussent dans des conditions chaudes et humides, idéales pour des bactéries comme les salmonelles, la listeria et E. coli, et le lavage ne les élimine pas de façon fiable. Les CDC conseillent aux personnes plus à risque, dont les femmes enceintes, d'éviter les graines germées crues ou peu cuites. Bien les cuire tue les bactéries.",
+    "tips": [
+      "Demande sans graines germées dans les sandwichs, les salades et les plats de nouilles.",
+      "Ajoute-les tôt dans les sautés au wok pour qu'elles cuisent bien."
+    ]
+  },
+  "unwashed-salad": {
+    "name": "Salade et crudités",
+    "aliases": [
+      "salade",
+      "laitue",
+      "légumes non lavés",
+      "salade en sachet",
+      "bar à salades",
+      "herbes fraîches"
+    ],
+    "summary": "Oui, une fois bien lavée ; garde les salades préemballées au frais et mange-les avant la date limite de consommation.",
+    "details": "La terre présente sur les légumes et les herbes non lavés peut contenir le toxoplasme et des bactéries, alors lave bien toutes les feuilles de salade et les légumes crus. Le NHS signale aussi que les salades et sandwichs préemballés présentent un petit risque de listeria s'ils ne sont pas gardés au froid. Manger beaucoup de légumes reste l'une des meilleures choses à faire pendant la grossesse.",
+    "tips": [
+      "Lave les feuilles sous l'eau courante, même si elles ont l'air propres.",
+      "Dans les bars à salades, choisis des endroits où tout est bien réfrigéré."
+    ]
+  },
+  "pre-cut-fruit": {
+    "name": "Fruits prédécoupés et melon",
+    "aliases": [
+      "melon coupé",
+      "salade de fruits",
+      "barquette de fruits",
+      "tranches de pastèque",
+      "melon charentais",
+      "cantaloup"
+    ],
+    "summary": "Pas de problème s'ils sont gardés au frais et mangés avant la date limite de consommation, mais évite les fruits coupés restés au chaud.",
+    "details": "Une fois les fruits coupés, des bactéries comme la listeria peuvent s'y développer, et le melon est un risque connu. Les CDC conseillent de jeter le melon coupé laissé à l'air libre plus de 2 heures (1 heure au-dessus de 32 °C) ou gardé au réfrigérateur plus d'une semaine. Les fruits entiers que tu laves et coupes toi-même sont le choix le plus sûr.",
+    "tips": [
+      "Lave les melons avant de les couper, car le couteau entraîne les germes de la surface à l'intérieur.",
+      "Mets les restes au réfrigérateur tout de suite."
+    ]
+  },
+  "papaya": {
+    "name": "Papaye (mûre ou verte)",
+    "aliases": [
+      "papaye",
+      "papaye verte",
+      "papaye mûre",
+      "salade de papaye verte",
+      "som tam"
+    ],
+    "summary": "La papaye mûre ne pose pas de problème, mais évite la papaye pas mûre (verte), comme dans la salade de papaye verte.",
+    "details": "La papaye pas mûre contient du latex, qui a déclenché des contractions de l'utérus dans une étude chez l'animal, contrairement au jus de papaye mûre. Les données chez l'humain sont limitées, mais la papaye verte est facile à éviter, c'est donc une précaution raisonnable. La papaye mûre, jaune orangé, est une bonne source de vitamine C.",
+    "tips": [
+      "Choisis une papaye à la peau jaune orangé qui cède légèrement sous la pression.",
+      "Renseigne-toi sur la présence de papaye verte dans les salades et les pickles thaïlandais."
+    ]
+  },
+  "pineapple": {
+    "name": "Ananas",
+    "aliases": [
+      "jus d'ananas",
+      "ananas frais",
+      "bromélaïne",
+      "bromelaine"
+    ],
+    "summary": "Oui, l'ananas en quantités normales est sans danger ; l'idée qu'il provoque des fausses couches est un mythe.",
+    "details": "L'ananas contient une enzyme appelée bromélaïne, mais aucune autorité sanitaire ne classe ce fruit parmi les aliments à éviter, et il n'a pas été démontré que des portions normales provoquent une fausse couche ou déclenchent le travail. Comme les autres fruits, il fait partie d'une alimentation saine et variée. Son acidité peut aggraver les brûlures d'estomac chez certaines personnes.",
+    "tips": [
+      "Lave l'extérieur avant de le couper.",
+      "S'il te donne des brûlures d'estomac, mange-le pendant un repas plutôt que seul."
+    ]
+  },
+  "grapes": {
+    "name": "Raisin",
+    "aliases": [
+      "raisin rouge",
+      "raisin blanc",
+      "raisins secs",
+      "jus de raisin",
+      "resvératrol"
+    ],
+    "summary": "Oui, le raisin est sans danger pendant la grossesse, il suffit de bien le laver.",
+    "details": "Certains mythes en ligne déconseillent le raisin, mais aucune autorité sanitaire ne le classe parmi les aliments à éviter. Comme tous les fruits, lave-le soigneusement pour éliminer la terre et les résidus. Le raisin frais et les raisins secs sont riches en sucres naturels, alors garde des portions raisonnables si tu as un diabète gestationnel.",
+    "tips": [
+      "Rince-le sous l'eau courante juste avant de le manger."
+    ]
+  },
+  "liquorice": {
+    "name": "Racine de réglisse (meyan kökü)",
+    "aliases": [
+      "réglisse",
+      "reglisse",
+      "bâton de réglisse",
+      "tisane à la réglisse",
+      "Antésite",
+      "meyan"
+    ],
+    "summary": "Évite la racine de réglisse et les boissons comme le meyan şerbeti, même si un petit bonbon à la réglisse de temps en temps a peu de chances de poser problème.",
+    "details": "La racine de réglisse contient un composé appelé glycyrrhizine, et le NHS conseille d'éviter les tisanes contenant de la racine de réglisse, car elle pourrait nuire au développement du bébé. Le meyan şerbeti, populaire dans le sud-est de la Turquie, est préparé à partir de cette racine. Beaucoup de bonbons au goût de réglisse n'en contiennent que de petites quantités, ou utilisent de l'anis à la place.",
+    "tips": [
+      "Vérifie sur l'étiquette des mélanges de tisanes la présence de racine de réglisse.",
+      "Évite aussi les produits nicotiniques au goût de réglisse."
+    ]
+  },
+  "honey": {
+    "name": "Miel",
+    "aliases": [
+      "miel cru",
+      "miel brut",
+      "miel non pasteurisé",
+      "miel de manuka",
+      "rayon de miel"
+    ],
+    "summary": "Oui, le miel, y compris le miel cru, est sans danger pour toi pendant la grossesse : l'interdiction du miel concerne les bébés de moins d'1 an.",
+    "details": "Le miel peut contenir des spores bactériennes responsables du botulisme infantile, c'est pourquoi les bébés de moins de 12 mois ne doivent pas en manger. L'intestin mature d'un adulte gère ces spores, et le miel ne figure pas sur la liste du NHS des aliments à éviter pendant la grossesse. Ça reste du sucre, alors garde des quantités modérées, surtout si tu as un diabète gestationnel.",
+    "tips": [
+      "Une cuillerée de miel avec du citron dans de l'eau tiède peut apaiser un mal de gorge."
+    ]
+  },
+  "peanuts": {
+    "name": "Cacahuètes et fruits à coque",
+    "aliases": [
+      "cacahuètes",
+      "arachides",
+      "beurre de cacahuète",
+      "beurre d'arachide",
+      "amandes",
+      "noix"
+    ],
+    "summary": "Oui, les cacahuètes et les autres fruits à coque sont sans danger, sauf si tu es allergique ou si ton médecin t'a dit le contraire.",
+    "details": "Le NHS indique que les cacahuètes et les autres fruits à coque peuvent être consommés sans danger pendant la grossesse, sauf si tu es allergique ou si ton médecin ou ta sage-femme t'a conseillé le contraire. Les fruits à coque apportent des protéines, de bonnes graisses et des fibres. Les versions non salées sont les meilleures pour grignoter au quotidien.",
+    "tips": [
+      "Une petite poignée de fruits à coque non salés fait un en-cas rassasiant."
+    ]
+  },
+  "chocolate": {
+    "name": "Chocolat",
+    "aliases": [
+      "chocolat noir",
+      "chocolat au lait",
+      "cacao",
+      "chocolat chaud",
+      "brownie",
+      "Nutella"
+    ],
+    "summary": "Oui, avec modération, mais il contient un peu de caféine qui compte dans ta limite de 200 mg par jour.",
+    "details": "Le NHS estime qu'une tablette de 50 g de chocolat noir nature contient moins de 25 mg de caféine, et une tablette de 50 g de chocolat au lait moins de 10 mg. C'est peu, mais ça s'additionne au café, au thé et au cola. Le chocolat est aussi riche en sucre et en graisses, alors savoure-le comme une gourmandise.",
+    "tips": [
+      "Si tu bois aussi du café ou du thé, compte le chocolat dans ton total de caféine."
+    ]
+  },
+  "spicy-food": {
+    "name": "Plats épicés",
+    "aliases": [
+      "piment",
+      "sauce piquante",
+      "harissa",
+      "curry",
+      "jalapeño",
+      "épicé"
+    ],
+    "summary": "Oui, les plats épicés ne feront pas de mal à ton bébé, mais ils peuvent aggraver les brûlures d'estomac.",
+    "details": "Les plats épicés ne figurent sur aucune liste d'aliments à éviter pendant la grossesse, c'est donc une question de confort plutôt que de sécurité. Les plats riches, épicés ou gras peuvent déclencher une indigestion et des brûlures d'estomac, fréquentes pendant la grossesse, et le NHS suggère d'en réduire la quantité s'ils te gênent. Des repas plus petits et plus fréquents peuvent aussi aider.",
+    "tips": [
+      "Si tu as des brûlures d'estomac la nuit, évite les plats épicés juste avant d'aller te coucher."
+    ]
+  },
+  "pickles": {
+    "name": "Pickles et légumes au vinaigre (turşu)",
+    "aliases": [
+      "cornichons",
+      "pickles",
+      "légumes au vinaigre",
+      "choucroute",
+      "kimchi",
+      "tursu"
+    ],
+    "summary": "Oui, les pickles sont sans danger, mais surveille le sel, surtout si ta tension est élevée.",
+    "details": "Les légumes au vinaigre et fermentés ne posent pas de problème pendant la grossesse, et les envies de cornichons sont très fréquentes. Les pickles et le turşu suyu sont très salés, et la plupart des adultes mangent déjà plus de sel que recommandé. Si tu as de l'hypertension ou des gonflements, demande à ta sage-femme ou à ton médecin quelle quantité de sel te convient.",
+    "tips": [
+      "Rince les pickles, ou choisis des versions moins salées.",
+      "Savoure le turşu pendant les repas plutôt que de boire beaucoup de saumure."
+    ]
+  },
+  "kombucha": {
+    "name": "Kombucha",
+    "aliases": [
+      "thé fermenté",
+      "kombucha maison",
+      "scoby",
+      "champignon de thé"
+    ],
+    "summary": "Mieux vaut l'éviter, car il est souvent non pasteurisé et les préparations maison peuvent développer des bactéries dangereuses.",
+    "details": "Le kombucha est du thé fermenté avec des bactéries et des levures, il contient donc naturellement un peu de caféine et peut contenir un peu d'alcool. La Mayo Clinic note qu'il a provoqué des troubles digestifs, des infections et des réactions allergiques, et conseille aux personnes enceintes ou qui allaitent de l'éviter. Aucun bienfait pour la santé n'a été démontré qui compenserait ces risques.",
+    "tips": [
+      "Pour quelque chose de pétillant, essaie l'eau gazeuse avec du citron ou un trait de jus."
+    ]
+  },
+  "kefir": {
+    "name": "Kéfir",
+    "aliases": [
+      "kefir",
+      "kéfir de lait",
+      "lait fermenté",
+      "boisson probiotique",
+      "lben"
+    ],
+    "summary": "Oui, le kéfir du commerce au lait pasteurisé ne pose pas de problème, mais évite le kéfir maison au lait cru.",
+    "details": "Le kéfir est une boisson à base de lait fermenté, et les versions au lait pasteurisé sont considérées comme aussi sûres que le yaourt. Le risque vient du kéfir au lait non pasteurisé, qui peut contenir de la listeria et d'autres bactéries. Si tu le fais toi-même, pars d'un lait pasteurisé ou bouilli et garde-le au frais.",
+    "tips": [
+      "Vérifie que l'étiquette indique du lait pasteurisé.",
+      "Le kéfir nature contient moins de sucre que les versions aromatisées."
+    ]
+  },
+  "yogurt-ayran": {
+    "name": "Yaourt et ayran",
+    "aliases": [
+      "yaourt",
+      "yogourt",
+      "yaourt grec",
+      "lassi",
+      "tzatziki",
+      "cacik"
+    ],
+    "summary": "Oui, le yaourt et l'ayran au lait pasteurisé ou bouilli sont sans danger et constituent une excellente source de calcium.",
+    "details": "Le NHS classe le yaourt pasteurisé comme sans danger pendant la grossesse, et l'ayran du commerce en est fait. Le yaourt maison ne pose pas de problème non plus, à condition que le lait ait été pasteurisé ou porté à ébullition au préalable. Seul le yaourt au lait cru non bouilli est à éviter.",
+    "tips": [
+      "L'ayran est salé, alors choisis des versions moins salées si tu as des gonflements ou de l'hypertension."
+    ]
+  },
+  "raw-milk": {
+    "name": "Lait cru (non pasteurisé)",
+    "aliases": [
+      "lait cru",
+      "lait non pasteurisé",
+      "lait de ferme",
+      "lait frais de vache",
+      "lait de chèvre cru",
+      "lait cru de vache"
+    ],
+    "summary": "Évite le lait non pasteurisé, ou porte-le à pleine ébullition avant de le boire ou de cuisiner avec.",
+    "details": "Le lait cru peut contenir de la listeria, des salmonelles, E. coli et des campylobacters, et les CDC classent les femmes enceintes parmi les personnes plus exposées à une maladie grave. Le NHS conseille d'éviter le lait, la crème et le yaourt non pasteurisés de vache, de brebis et de chèvre. L'ébullition tue ces bactéries, c'est pourquoi le lait de village bouilli est une alternative sans danger.",
+    "tips": [
+      "Porte le lait de village ou de ferme à pleine ébullition avant de l'utiliser.",
+      "Pour tes courses, choisis du lait pasteurisé ou UHT."
+    ]
+  },
+  "ice-cream": {
+    "name": "Glace",
+    "aliases": [
+      "crème glacée",
+      "gelato",
+      "sorbet",
+      "yaourt glacé",
+      "dondurma",
+      "glace maison"
+    ],
+    "summary": "Oui, la glace pasteurisée est sans danger, mais évite la glace maison préparée avec des œufs crus ou du lait cru.",
+    "details": "Le NHS classe la glace pasteurisée comme sans danger pendant la grossesse, et la glace industrielle est fabriquée avec du lait pasteurisé. Certaines recettes maison utilisent des œufs crus ou du lait non pasteurisé, qui peuvent contenir des salmonelles ou de la listeria. La glace à l'italienne servie à la machine est un cas un peu différent, traité séparément.",
+    "tips": [
+      "Garde-la au congélateur, et ne recongèle pas une glace qui a fondu."
+    ]
+  },
+  "soft-serve": {
+    "name": "Glace à l'italienne",
+    "aliases": [
+      "glace italienne",
+      "crème molle",
+      "glace à la machine",
+      "cornet italien",
+      "sundae",
+      "McFlurry"
+    ],
+    "summary": "Généralement sans problème dans les endroits fréquentés et propres, même si les machines mal nettoyées peuvent abriter la listeria.",
+    "details": "La glace à l'italienne est faite à partir d'un mélange pasteurisé, mais la listeria peut survivre dans les machines mal nettoyées, car elle est capable de se développer au froid. C'est un petit risque, mais la listériose peut être grave pendant la grossesse. La glace emballée est le choix le moins risqué.",
+    "tips": [
+      "Choisis des endroits avec beaucoup de passage et des machines visiblement propres."
+    ]
+  },
+  "parsley": {
+    "name": "Persil et herbes en grande quantité",
+    "aliases": [
+      "persil",
+      "jus de persil",
+      "tisane de persil",
+      "taboulé",
+      "coriandre",
+      "aneth"
+    ],
+    "summary": "Les herbes en quantités normales en cuisine ne posent pas de problème, mais évite les jus de persil, les « cures » et les tisanes d'herbes fortes en grande quantité.",
+    "details": "Utiliser du persil, de l'aneth, de la menthe, de la sauge ou de la coriandre dans des plats comme le kısır ou le taboulé est tout à fait sans danger. Les formes concentrées, c'est différent : jus, tisanes, huiles et extraits apportent des quantités bien plus importantes, et MotherToBaby note qu'il a été démontré que certains produits à base de plantes provoquent des contractions de l'utérus. Mieux vaut garder les remèdes de grand-mère comme les « cures » de persil pour après la grossesse.",
+    "tips": [
+      "Savoure les herbes comme aliments, pas comme remèdes ou cures détox."
+    ]
+  },
+  "cinnamon": {
+    "name": "Cannelle",
+    "aliases": [
+      "cannelle de Ceylan",
+      "casse",
+      "tisane à la cannelle",
+      "complément de cannelle",
+      "eau à la cannelle"
+    ],
+    "summary": "Oui, en quantités alimentaires normales, mais évite les compléments, les huiles et les grosses doses quotidiennes prises comme « remède ».",
+    "details": "La cannelle saupoudrée sur un sütlaç ou un porridge, ou utilisée en pâtisserie, ne pose pas de problème pendant la grossesse. Les compléments, les huiles concentrées et les remèdes quotidiens à « l'eau de cannelle » apportent des quantités bien plus importantes, et les produits à base de plantes à doses médicinales n'ont pas été bien étudiés pendant la grossesse. Parles-en à ton médecin avant d'utiliser la cannelle pour gérer ta glycémie.",
+    "tips": [
+      "Si tu as un diabète gestationnel, suis le plan de ton équipe soignante, pas les remèdes trouvés en ligne."
+    ]
+  },
+  "garlic": {
+    "name": "Ail",
+    "aliases": [
+      "ail cru",
+      "gousse d'ail",
+      "complément d'ail",
+      "gélules d'ail",
+      "ail noir"
+    ],
+    "summary": "Oui, l'ail en cuisine, même cru dans le cacık, ne pose pas de problème, mais demande conseil avant de prendre des compléments d'ail.",
+    "details": "L'ail en tant qu'aliment est sans danger pendant la grossesse et apporte beaucoup de saveur. Les compléments d'ail concentrés, c'est autre chose : les produits à base de plantes à doses médicinales n'ont pas été bien étudiés pendant la grossesse, et certains peuvent interagir avec des médicaments. Parle à ton médecin ou à ton pharmacien de tous les compléments que tu prends.",
+    "tips": [
+      "Laisse de côté les « cures » quotidiennes d'ail cru et garde l'ail comme ingrédient."
+    ]
+  },
+  "ginger": {
+    "name": "Gingembre",
+    "aliases": [
+      "tisane au gingembre",
+      "biscuits au gingembre",
+      "gingembre frais",
+      "gingembre confit",
+      "ginger ale",
+      "shot de gingembre"
+    ],
+    "summary": "Oui, le gingembre dans les aliments et les boissons est sans danger et peut aider contre les nausées de grossesse.",
+    "details": "Le NHS indique que certaines données suggèrent que les aliments ou boissons contenant du gingembre peuvent réduire les nausées et vomissements de la grossesse. La tisane au gingembre, les biscuits au gingembre ou le gingembre frais en cuisine ne posent aucun problème. Les compléments de gingembre sont plus concentrés, c'est pourquoi le NHS conseille de demander l'avis d'un pharmacien avant d'en prendre.",
+    "tips": [
+      "Quand tu as la nausée, bois lentement une tisane au gingembre ou grignote un biscuit au gingembre."
+    ]
+  },
+  "fenugreek": {
+    "name": "Fenugrec (çemen)",
+    "aliases": [
+      "fenugrec",
+      "methi",
+      "cemen",
+      "tisane de fenugrec",
+      "graines de fenugrec",
+      "gélules de fenugrec"
+    ],
+    "summary": "Pas de problème en quantités normales en cuisine, mais évite les tisanes, les gélules et les grosses doses médicinales de fenugrec.",
+    "details": "Le fenugrec est utilisé comme épice, notamment dans la pâte de çemen qui enrobe le pastırma, et les petites quantités utilisées en cuisine ne posent pas de souci. À doses médicinales, son innocuité pendant la grossesse n'a pas été démontrée, et MotherToBaby note que certains produits à base de plantes peuvent provoquer des contractions de l'utérus. Il est souvent vendu pour stimuler la production de lait maternel, ce qui concerne l'après-naissance, pas la grossesse.",
+    "tips": [
+      "Garde le fenugrec dans le placard à épices, pas dans celui des compléments, jusqu'après la naissance."
+    ]
+  },
+  "coffee": {
+    "name": "Café",
+    "aliases": [
+      "café filtre",
+      "café soluble",
+      "café crème",
+      "latte",
+      "cappuccino",
+      "caféine"
+    ],
+    "summary": "Oui, mais garde ton total de caféine sous 200 mg par jour, soit environ 2 grandes tasses de café soluble.",
+    "details": "Le NHS comme l'ACOG conseillent de rester sous 200 mg de caféine par jour, car un excès de caféine a été associé à un risque plus élevé de fausse couche. Le NHS estime qu'une grande tasse de café soluble contient environ 100 mg, alors que le café filtre et celui des coffee shops peuvent en contenir davantage. La caféine du thé, du cola, des boissons énergisantes et du chocolat compte aussi.",
+    "tips": [
+      "Dans les coffee shops, demande une seule dose d'espresso ou une plus petite taille.",
+      "Remplace certaines tasses par du décaféiné pour rester bien sous la limite."
+    ]
+  },
+  "turkish-coffee": {
+    "name": "Café turc",
+    "aliases": [
+      "café turc",
+      "café grec",
+      "café arabe",
+      "café cezve",
+      "menengiç",
+      "menengic"
+    ],
+    "summary": "Oui, une tasse ne pose pas de problème, mais elle compte dans ta limite de 200 mg de caféine par jour, avec le thé et les autres boissons.",
+    "details": "Le café turc est servi dans une petite tasse, mais il est fort, et sa teneur en caféine varie selon la quantité de café utilisée et la façon dont il est préparé. La limite de 200 mg de caféine par jour fixée par le NHS et l'ACOG couvre toutes les sources, donc deux tasses plus plusieurs verres de çay peuvent vite s'additionner. Le menengiç est fait à partir de térébinthe et non de grains de café, il est donc naturellement sans caféine, même si certains mélanges contiennent du café.",
+    "tips": [
+      "Limite-toi à une ou deux tasses et compte aussi ton çay.",
+      "Le menengiç ou le café turc décaféiné sont de bonnes alternatives."
+    ]
+  },
+  "espresso": {
+    "name": "Espresso",
+    "aliases": [
+      "expresso",
+      "double expresso",
+      "ristretto",
+      "macchiato",
+      "cortado",
+      "noisette"
+    ],
+    "summary": "Oui, mais compte chaque dose, car les doubles espressos et les grandes boissons de coffee shop épuisent vite ta limite de 200 mg.",
+    "details": "L'espresso est concentré, et beaucoup de boissons de coffee shop contiennent deux doses ou plus. Le NHS et l'ACOG conseillent tous deux de garder la caféine totale sous 200 mg par jour pendant la grossesse. La FDA note que la teneur en caféine varie beaucoup d'une boisson à l'autre, alors ça vaut la peine de vérifier les informations du café.",
+    "tips": [
+      "Commande des espressos simples, ou demande un mélange moitié décaféiné.",
+      "Beaucoup de chaînes publient la teneur en caféine de chaque boisson, alors vérifie avant de commander."
+    ]
+  },
+  "decaf": {
+    "name": "Café et thé décaféinés",
+    "aliases": [
+      "déca",
+      "deca",
+      "décaféiné",
+      "café déca",
+      "thé décaféiné",
+      "sans caféine"
+    ],
+    "summary": "Oui, le décaféiné ne contient qu'une petite quantité de caféine et c'est une bonne façon de profiter du café ou du thé pendant la grossesse.",
+    "details": "Le café et le thé décaféinés contiennent encore un peu de caféine, mais beaucoup moins que les versions classiques, ce qui laisse une bonne marge sous la limite de 200 mg par jour. MotherToBaby note que la caféine se trouve dans de nombreux aliments et boissons, donc remplacer certaines tasses par du déca est un moyen facile de réduire ta consommation.",
+    "tips": [
+      "Essaie les mélanges moitié-moitié si tu réduis progressivement."
+    ]
+  },
+  "cay": {
+    "name": "Thé noir (çay)",
+    "aliases": [
+      "thé",
+      "thé noir",
+      "thé turc",
+      "cay",
+      "earl grey",
+      "thé glacé"
+    ],
+    "summary": "Oui, mais le thé fort (demli) ajoute vite de la caféine, alors compte tes verres et bois-le entre les repas.",
+    "details": "Le NHS estime qu'une grande tasse de thé contient environ 75 mg de caféine, qui comptent dans la limite de 200 mg par jour. Un verre tulipe de thé turc est plus petit qu'une grande tasse, mais plusieurs verres de thé fort par jour peuvent s'additionner. Le thé pris pendant les repas peut aussi réduire la quantité de fer que tu absorbes, ce qui compte car les besoins en fer augmentent pendant la grossesse.",
+    "tips": [
+      "Choisis un thé açık (plus léger) et alterne avec de l'eau ou des tisanes.",
+      "Bois le thé entre les repas plutôt que pendant, pour aider l'absorption du fer."
+    ]
+  },
+  "green-tea": {
+    "name": "Thé vert",
+    "aliases": [
+      "the vert",
+      "sencha",
+      "thé au jasmin",
+      "extrait de thé vert",
+      "thé vert en sachet"
+    ],
+    "summary": "Oui, avec modération, mais le thé vert contient de la caféine qui compte dans ta limite de 200 mg.",
+    "details": "Le thé vert n'est pas sans caféine : le NHS estime qu'une tasse de thé noir ou vert en contient environ 75 mg. Quelques tasses par jour peuvent entrer dans la limite de 200 mg si tu comptes aussi tes autres boissons. Les extraits et compléments concentrés de thé vert, c'est autre chose : leur innocuité pendant la grossesse n'a pas été démontrée.",
+    "tips": [
+      "Laisse de côté les gélules d'extrait de thé vert et les mélanges minceur."
+    ]
+  },
+  "matcha": {
+    "name": "Matcha",
+    "aliases": [
+      "matcha latte",
+      "thé matcha",
+      "thé vert en poudre",
+      "matcha glacé"
+    ],
+    "summary": "Oui, avec modération, mais le matcha est généralement plus fort que le thé vert classique, alors compte-le dans tes 200 mg par jour.",
+    "details": "Le matcha est fait à partir de feuilles de thé entières réduites en poudre, donc une portion contient généralement plus de caféine qu'une tasse de thé vert infusé. La quantité dépend du nombre de cuillères utilisées. La FDA note que la teneur en caféine varie beaucoup d'une boisson à l'autre, alors considère un matcha latte plutôt comme un café que comme une tasse de thé.",
+    "tips": [
+      "Demande une seule cuillère et compte-le comme un café."
+    ]
+  },
+  "chamomile": {
+    "name": "Tisane de camomille",
+    "aliases": [
+      "camomille",
+      "infusion de camomille",
+      "tisane",
+      "infusion",
+      "tisane du soir"
+    ],
+    "summary": "Oui, avec modération ; le NHS conseille de ne pas dépasser 4 tasses de tisane par jour.",
+    "details": "Il existe peu de recherches sur les tisanes pendant la grossesse, c'est pourquoi le NHS conseille de les limiter à environ 4 tasses par jour. La camomille est naturellement sans caféine, ce qui en fait une boisson du soir populaire. Évite les mélanges qui contiennent de la racine de réglisse, et vérifie la présence d'autres plantes dans les tisanes composées.",
+    "tips": [
+      "Utilise des sachets de camomille pure plutôt que des mélanges « bien-être »."
+    ]
+  },
+  "peppermint-tea": {
+    "name": "Tisane de menthe poivrée",
+    "aliases": [
+      "menthe poivrée",
+      "tisane à la menthe",
+      "infusion de menthe",
+      "menthe fraîche",
+      "thé à la menthe"
+    ],
+    "summary": "Oui, avec modération, en respectant le repère du NHS de 4 tasses de tisane maximum par jour.",
+    "details": "La tisane de menthe poivrée est sans caféine et souvent choisie pendant la grossesse, mais comme il existe peu de recherches sur les tisanes, le NHS conseille de ne pas dépasser 4 tasses par jour. Certaines personnes la trouvent apaisante contre les nausées. Le nane-limon fait maison avec de la menthe fraîche et du citron ne pose pas de problème dans la même limite.",
+    "tips": [
+      "Quelques feuilles de menthe fraîche dans de l'eau chaude font une tisane douce et facile."
+    ]
+  },
+  "raspberry-leaf-tea": {
+    "name": "Tisane de feuilles de framboisier",
+    "aliases": [
+      "feuilles de framboisier",
+      "framboisier",
+      "tisane framboisier",
+      "tisane d'accouchement",
+      "gélules de framboisier"
+    ],
+    "summary": "Elle n'est destinée qu'à la fin de la grossesse, et seulement si ta sage-femme ou ton médecin est d'accord ; ne l'utilise pas plus tôt.",
+    "details": "La tisane de feuilles de framboisier est traditionnellement utilisée en fin de grossesse dans l'espoir de préparer l'utérus à l'accouchement, mais il y a peu de preuves solides de son efficacité. MotherToBaby note que certains produits à base de plantes peuvent provoquer des contractions de l'utérus, et la plupart de ces produits n'ont pas été bien étudiés pendant la grossesse. C'est pourquoi mieux vaut la réserver à la fin de la grossesse et en parler d'abord avec ta sage-femme.",
+    "tips": [
+      "Demande l'avis de ta sage-femme avant de commencer, surtout si tu as déjà eu une césarienne ou un travail prématuré."
+    ]
+  },
+  "sage-tea": {
+    "name": "Tisane de sauge (adaçayı)",
+    "aliases": [
+      "sauge",
+      "infusion de sauge",
+      "tisane sauge",
+      "adacayi",
+      "thé de montagne grec"
+    ],
+    "summary": "Mieux vaut l'éviter comme tisane régulière pendant la grossesse, même si un peu de sauge en cuisine ne pose pas de problème.",
+    "details": "La sauge contient de la thuyone, un composé qui peut être nocif en grande quantité, et l'innocuité de la tisane de sauge pendant la grossesse n'a pas été démontrée. En Turquie, l'adaçayı se boit souvent au verre, surtout contre les maux de gorge, donc les quantités peuvent s'additionner. Une pincée de sauge en cuisine représente une exposition différente et bien plus faible.",
+    "tips": [
+      "Pour un mal de gorge, essaie plutôt de l'eau tiède avec du miel et du citron.",
+      "Vérifie la présence de sauge dans les mélanges de tisanes et les pastilles."
+    ]
+  },
+  "linden-tea": {
+    "name": "Tisane de tilleul (ıhlamur)",
+    "aliases": [
+      "tilleul",
+      "infusion de tilleul",
+      "fleurs de tilleul",
+      "tilia",
+      "ihlamur"
+    ],
+    "summary": "Probablement sans problème avec modération, comme l'une de tes 4 tasses de tisane maximum par jour, même si elle est peu étudiée.",
+    "details": "L'ıhlamur est une boisson d'hiver très appréciée en Turquie, et aucune donnée précise n'indique qu'elle soit nocive en quantités normales. Comme la plupart des tisanes, elle n'a cependant pas été bien étudiée pendant la grossesse, donc le conseil du NHS de limiter les tisanes à environ 4 tasses par jour s'applique. Mieux vaut éviter les infusions fortes et concentrées prises comme remède.",
+    "tips": [
+      "Garde-la légère et limite-toi à une ou deux tasses, pas une théière entière."
+    ]
+  },
+  "fennel-tea": {
+    "name": "Tisane de fenouil (rezene)",
+    "aliases": [
+      "fenouil",
+      "tisane de fenouil",
+      "graines de fenouil",
+      "rezene",
+      "tisane d'anis",
+      "anis vert"
+    ],
+    "summary": "Une tasse de temps en temps a peu de chances de poser problème, mais évite la tisane de fenouil quotidienne ou forte et les compléments de fenouil.",
+    "details": "Le fenouil et l'anis contiennent des composés végétaux naturels dont l'innocuité pendant la grossesse n'a pas été établie à doses médicinales. Comme pour les autres tisanes, le NHS suggère de limiter les tisanes à environ 4 tasses par jour. Le fenouil utilisé comme épice en cuisine ne pose pas de problème.",
+    "tips": [
+      "Contre les ballonnements, essaie d'abord de petites marches tranquilles et des repas plus petits."
+    ]
+  },
+  "energy-drinks": {
+    "name": "Boissons énergisantes",
+    "aliases": [
+      "Red Bull",
+      "Monster",
+      "boisson énergisante",
+      "guarana",
+      "taurine",
+      "pré-workout"
+    ],
+    "summary": "Mieux vaut les éviter, car elles contiennent beaucoup de caféine, souvent avec d'autres stimulants et beaucoup de sucre.",
+    "details": "Le NHS estime qu'une canette de 250 ml contient environ 80 mg de caféine, et les canettes plus grandes en contiennent davantage, le tout comptant dans la limite de 200 mg par jour. Beaucoup contiennent aussi du guarana, qui ajoute de la caféine, ainsi que d'autres ingrédients dont l'innocuité pendant la grossesse n'a pas été étudiée. Si tu en bois une, compte-la dans ton total de caféine.",
+    "tips": [
+      "En cas de coup de fatigue, essaie plutôt un en-cas, de l'eau et une petite marche."
+    ]
+  },
+  "cola": {
+    "name": "Cola",
+    "aliases": [
+      "Coca-Cola",
+      "coca",
+      "Coca zéro",
+      "Pepsi",
+      "soda",
+      "boisson gazeuse"
+    ],
+    "summary": "Oui, de temps en temps : une canette contient environ 40 mg de caféine, alors compte-la dans ta limite de 200 mg.",
+    "details": "Le NHS estime qu'une canette de cola contient environ 40 mg de caféine, et les versions light en contiennent aussi. Le cola classique est également très sucré, ce qui compte si tu surveilles ta prise de poids ou si tu as un diabète gestationnel. Les boissons gazeuses peuvent aggraver les brûlures d'estomac chez certaines personnes.",
+    "tips": [
+      "Essaie l'eau gazeuse avec des fruits pour avoir les bulles sans la caféine."
+    ]
+  },
+  "alcohol": {
+    "name": "Alcool",
+    "aliases": [
+      "vin",
+      "bière",
+      "verre de vin",
+      "champagne",
+      "cocktail",
+      "alcools forts"
+    ],
+    "summary": "À éviter : aucune quantité d'alcool n'est reconnue comme sans danger, à aucun stade de la grossesse.",
+    "details": "L'alcool traverse le placenta et atteint le bébé, dont le foie ne peut pas bien l'éliminer. Boire pendant la grossesse peut causer des dommages durables, notamment des troubles du spectre de l'alcoolisation fœtale, et les CDC indiquent qu'il n'existe ni quantité ni moment connus où boire serait sans danger. Si tu as bu avant de savoir que tu étais enceinte, le risque de dommage est probablement faible, alors parles-en à ta sage-femme ou à ton médecin si tu t'inquiètes.",
+    "tips": [
+      "Les boissons sans alcool (0,0 %) et les mocktails sont de bonnes alternatives.",
+      "Si tu as du mal à arrêter, demande du soutien à ta sage-femme ou à ton médecin."
+    ]
+  },
+  "non-alcoholic-beer": {
+    "name": "Bière sans alcool",
+    "aliases": [
+      "bière 0,0",
+      "bière 0.0",
+      "bière désalcoolisée",
+      "bière légère",
+      "vin sans alcool",
+      "sans alcool"
+    ],
+    "summary": "Choisis des boissons étiquetées 0,0 %, car celles dites « sans alcool » peuvent contenir jusqu'à 0,5 % d'alcool.",
+    "details": "Les autorités de santé conseillent d'éviter complètement l'alcool pendant la grossesse, car aucune quantité sans danger n'est connue. Les boissons étiquetées « sans alcool » ou « désalcoolisées » peuvent contenir de petites quantités d'alcool selon les pays, tandis que les versions 0,0 % n'en contiennent pratiquement pas. Une boisson faiblement alcoolisée de temps en temps a très peu de chances de causer du tort, mais le 0,0 % évite de se poser la question.",
+    "tips": [
+      "Cherche « 0,0 % » sur l'étiquette plutôt que « sans alcool » ou « faiblement alcoolisée »."
+    ]
+  },
+  "mineral-water": {
+    "name": "Eau minérale et eau gazeuse",
+    "aliases": [
+      "eau gazeuse",
+      "eau pétillante",
+      "eau minérale",
+      "Perrier",
+      "San Pellegrino",
+      "Badoit"
+    ],
+    "summary": "Oui, l'eau minérale et l'eau gazeuse ne posent pas de problème, mais certaines marques sont riches en sodium, alors alterne avec de l'eau plate.",
+    "details": "Bien s'hydrater compte encore plus pendant la grossesse, et l'eau, y compris gazeuse et minérale, est un excellent choix. Certaines eaux minérales naturelles contiennent une quantité non négligeable de sodium, ce qui est bon à savoir si tu as de l'hypertension ou des gonflements. Les boissons gazeuses peuvent aggraver les ballonnements ou les brûlures d'estomac chez certaines personnes.",
+    "tips": [
+      "Vérifie la teneur en sodium sur l'étiquette et alterne les marques."
+    ]
+  },
+  "salep": {
+    "name": "Salep",
+    "aliases": [
+      "sahlep",
+      "sahlab",
+      "salep turc",
+      "boisson lactée chaude",
+      "lait chaud à l'orchidée"
+    ],
+    "summary": "Oui, le salep est une boisson chaude à base de lait et ne pose pas de problème pendant la grossesse ; fais juste attention au sucre.",
+    "details": "Le salep est préparé en chauffant du lait avec de la poudre de salep et du sucre, donc le lait est bien chauffé et le risque lié au lait cru ne se pose pas. Il est sans caféine et apporte un peu de calcium. Les préparations instantanées et les versions servies au café sont souvent très sucrées, ce qui compte si tu as un diabète gestationnel.",
+    "tips": [
+      "Prépare-le à la maison avec moins de sucre et une pincée de cannelle."
+    ]
+  },
+  "boza": {
+    "name": "Boza",
+    "aliases": [
+      "boza",
+      "bosa",
+      "boisson au millet fermenté",
+      "boisson de millet"
+    ],
+    "summary": "Un petit verre de temps en temps, d'un fabricant de confiance, a peu de chances de poser problème, mais la boza peut contenir un peu d'alcool.",
+    "details": "La boza est une boisson à base de céréales fermentées, et la fermentation peut produire de petites quantités d'alcool, qui varient d'un lot à l'autre. Comme aucun niveau d'alcool sans danger pendant la grossesse n'est connu, mieux vaut la garder occasionnelle. La boza est aussi riche en sucre et en calories.",
+    "tips": [
+      "Choisis une boza fraîche d'un fabricant connu et limite-toi à un petit verre."
+    ]
+  },
+  "fresh-juice": {
+    "name": "Jus frais non pasteurisé",
+    "aliases": [
+      "jus d'orange frais",
+      "jus pressé",
+      "jus pressé à froid",
+      "smoothie",
+      "bar à jus",
+      "jus non pasteurisé"
+    ],
+    "summary": "Pas de problème si tu le prépares toi-même avec des fruits lavés et que tu le bois tout de suite ; fais attention aux jus non pasteurisés vendus sur les stands.",
+    "details": "Les jus qui n'ont pas été pasteurisés ou traités autrement peuvent contenir des bactéries comme E. coli et les salmonelles, venues de la surface des fruits. La FDA conseille aux femmes enceintes de choisir des jus pasteurisés ou traités. Le jus que tu presses toi-même à partir de fruits bien lavés et que tu bois tout de suite présente moins de risques.",
+    "tips": [
+      "Lave bien les fruits avant de les presser, même les oranges.",
+      "Les jus du commerce sont généralement pasteurisés ; vérifie l'étiquette."
+    ]
+  },
+  "coconut-water": {
+    "name": "Eau de coco",
+    "aliases": [
+      "eau de coco",
+      "noix de coco fraîche",
+      "boisson à la noix de coco",
+      "coco"
+    ],
+    "summary": "Oui, l'eau de coco emballée ne pose pas de problème, et c'est une façon rafraîchissante de rester hydratée.",
+    "details": "L'eau de coco est naturellement peu calorique et contient un peu de potassium. Les versions emballées sont généralement pasteurisées ; les noix de coco fraîchement ouvertes ne posent pas de problème non plus si elles sont coupées proprement et bues tout de suite. L'eau plate reste la meilleure boisson au quotidien, et les versions aromatisées peuvent contenir du sucre ajouté.",
+    "tips": [
+      "Choisis des versions non sucrées et garde les briques ouvertes au réfrigérateur."
+    ]
+  },
+  "paracetamol": {
+    "name": "Paracétamol (acétaminophène)",
+    "aliases": [
+      "Doliprane",
+      "Efferalgan",
+      "Dafalgan",
+      "Tylenol",
+      "Panadol",
+      "paracetamol"
+    ],
+    "summary": "C'est généralement le premier choix contre la douleur ou la fièvre pendant la grossesse : utilise la dose efficace la plus faible, pendant la durée la plus courte.",
+    "details": "Le paracétamol est l'antidouleur le mieux étudié pendant la grossesse, et le NHS et l'ACOG le considèrent comme le premier choix contre la douleur ou la fièvre lorsqu'un traitement est nécessaire. Les recommandations officielles de certains pays ont été réexaminées en 2025, et les grandes instances médicales, dont l'ACOG et l'autorité britannique du médicament, continuent de le considérer comme approprié en cas de besoin. Une forte fièvre pendant la grossesse doit être traitée ; demande donc l'avis de ton médecin si tu as besoin de paracétamol pendant plus de quelques jours.",
+    "tips": [
+      "Utilise la dose efficace la plus faible, pendant la durée la plus courte possible.",
+      "Vérifie la composition des médicaments combinés contre le rhume pour ne pas prendre deux fois du paracétamol.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "ibuprofen": {
+    "name": "Ibuprofène",
+    "aliases": [
+      "Advil",
+      "Nurofen",
+      "Spedifen",
+      "Brufen",
+      "Motrin",
+      "AINS"
+    ],
+    "summary": "À éviter sauf avis médical, surtout à partir de 20 semaines, car il peut affecter le bébé et le liquide qui l'entoure.",
+    "details": "L'ibuprofène est un AINS (anti-inflammatoire non stéroïdien). La FDA avertit qu'à partir d'environ 20 semaines, les AINS peuvent provoquer chez le bébé des problèmes rénaux rares mais graves, entraînant une baisse du liquide amniotique, et que plus tard dans la grossesse, ils peuvent affecter le cœur et les vaisseaux sanguins du bébé. Au Royaume-Uni, on conseille d'éviter l'ibuprofène pendant la grossesse sauf recommandation d'un médecin, même si en avoir pris avant 20 semaines a peu de chances d'avoir causé du tort.",
+    "tips": [
+      "Le paracétamol est généralement le choix le plus sûr contre la douleur ou la fièvre.",
+      "Vérifie les médicaments contre le rhume et la grippe, qui peuvent contenir de l'ibuprofène.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "naproxen": {
+    "name": "Naproxène",
+    "aliases": [
+      "Apranax",
+      "Aleve",
+      "Antalnox",
+      "naproxène sodique",
+      "médicament règles douloureuses",
+      "AINS"
+    ],
+    "summary": "À éviter sauf si ton médecin le recommande expressément, car c'est un AINS comme l'ibuprofène.",
+    "details": "Le naproxène appartient à la même famille que l'ibuprofène et soulève les mêmes inquiétudes : la FDA conseille d'éviter les AINS à partir de 20 semaines, car ils peuvent réduire le liquide amniotique, et ils peuvent affecter la circulation du bébé plus tard dans la grossesse. Le NHS conseille d'éviter le naproxène pendant la grossesse, sauf avis d'un médecin ou d'un pharmacien. Il est souvent vendu contre les règles douloureuses, alors renseigne-toi avant de piocher dans d'anciennes boîtes.",
+    "tips": [
+      "Le paracétamol est généralement le premier choix contre la douleur pendant la grossesse.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "nsaids-other": {
+    "name": "Diclofénac et autres AINS",
+    "aliases": [
+      "Voltarène",
+      "Flector",
+      "Profénid",
+      "kétoprofène",
+      "Strefen",
+      "gel anti-inflammatoire"
+    ],
+    "summary": "À éviter sauf prescription médicale ; vérifie sur les étiquettes des antidouleurs la présence de diclofénac, de flurbiprofène ou de kétoprofène.",
+    "details": "Le diclofénac, le flurbiprofène, le dexkétoprofène, le kétoprofène et le méloxicam sont tous des AINS, donc le conseil de la FDA d'éviter les AINS à partir de 20 semaines s'applique aussi à eux. Le NHS indique que le diclofénac n'est généralement pas recommandé pendant la grossesse, car il peut affecter la circulation du bébé et réduire le liquide qui l'entoure. Les gels sont moins absorbés, mais mieux vaut quand même demander avant de les utiliser, surtout plus tard dans la grossesse ou sur de grandes surfaces.",
+    "tips": [
+      "Vérifie la substance active des antidouleurs, des gels et des médicaments contre les règles douloureuses.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "aspirin": {
+    "name": "Aspirine contre la douleur",
+    "aliases": [
+      "aspirine",
+      "Aspégic",
+      "Aspro",
+      "Aspirine du Rhône",
+      "acide acétylsalicylique",
+      "aspirine forte dose"
+    ],
+    "summary": "Évite l'aspirine aux doses antidouleur, sauf avis de ton médecin ; l'aspirine à faible dose prescrite pendant la grossesse, c'est différent.",
+    "details": "Aux doses utilisées contre la douleur ou la fièvre, l'aspirine agit comme un AINS, et la FDA conseille d'éviter les AINS à partir de 20 semaines de grossesse. La Mayo Clinic note que des doses plus élevées pourraient augmenter le risque de perte de grossesse en début de grossesse et, en cas d'utilisation prolongée, les risques de saignement chez les bébés prématurés. L'aspirine à faible dose, que les médecins prescrivent parfois pour réduire le risque de prééclampsie, est un cas à part.",
+    "tips": [
+      "Contre la douleur ou la fièvre, le paracétamol est généralement le premier choix.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "low-dose-aspirin": {
+    "name": "Aspirine à faible dose",
+    "aliases": [
+      "Kardégic",
+      "aspirine faible dose",
+      "petite aspirine",
+      "aspirine prééclampsie",
+      "aspirine pré-éclampsie",
+      "aspirine grossesse"
+    ],
+    "summary": "Seulement si ton médecin ou ta sage-femme la recommande, et si c'est le cas, continue à la prendre exactement comme indiqué.",
+    "details": "L'aspirine à faible dose est souvent prescrite pendant la grossesse aux femmes plus à risque de prééclampsie, et parfois pour d'autres problèmes de santé. La Mayo Clinic note que l'aspirine à faible dose est considérée comme sans danger pendant la grossesse lorsqu'elle est recommandée. C'est différent de l'aspirine prise contre la douleur, alors ne la commence pas de toi-même et ne l'arrête pas sans en parler à ton équipe soignante.",
+    "tips": [
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "antihistamines": {
+    "name": "Antihistaminiques",
+    "aliases": [
+      "loratadine",
+      "Clarityne",
+      "cétirizine",
+      "Zyrtec",
+      "rhume des foins",
+      "comprimés anti-allergie"
+    ],
+    "summary": "Certains, comme la loratadine et la cétirizine, sont couramment utilisés pendant la grossesse, mais demande d'abord l'avis d'un pharmacien.",
+    "details": "Le NHS indique que la loratadine est généralement recommandée si tu as besoin d'un antihistaminique pendant la grossesse, et que la cétirizine peut aussi être prise. Les anciens antihistaminiques qui font dormir, comme la chlorphénamine, sont parfois utilisés aussi, mais ils peuvent te rendre somnolente. Les solutions sans médicament, comme le spray nasal au sérum physiologique et l'éviction des déclencheurs, valent la peine d'être essayées d'abord.",
+    "tips": [
+      "Essaie d'abord le spray nasal au sérum physiologique et l'éviction de tes déclencheurs.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "decongestants": {
+    "name": "Décongestionnants (comprimés et sprays)",
+    "aliases": [
+      "pseudoéphédrine",
+      "Actifed",
+      "Dolirhume",
+      "Rhinadvil",
+      "Otrivin",
+      "nez bouché"
+    ],
+    "summary": "Au Royaume-Uni, on conseille d'éviter les comprimés et sprays décongestionnants pendant la grossesse ; essaie plutôt les sprays salins et la vapeur.",
+    "details": "Le NHS indique que la pseudoéphédrine n'est pas recommandée pendant la grossesse, car elle peut réduire le flux sanguin vers le bébé, et le service britannique BUMPS conseille d'éviter les comprimés, sprays et gouttes décongestionnants. Certaines sources américaines autorisent l'utilisation à court terme de certains décongestionnants après le premier trimestre, mais seulement sur avis médical. Beaucoup de médicaments contre le rhume contiennent des décongestionnants cachés, alors vérifie les étiquettes.",
+    "tips": [
+      "Les sprays salins, la vapeur et surélever ta tête la nuit peuvent soulager le nez bouché.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "cold-flu-remedies": {
+    "name": "Médicaments combinés contre le rhume et la grippe",
+    "aliases": [
+      "Fervex",
+      "Humex",
+      "Actifed jour et nuit",
+      "Theraflu",
+      "NyQuil",
+      "médicament rhume"
+    ],
+    "summary": "Mieux vaut les éviter, car les médicaments à plusieurs composants contiennent souvent des décongestionnants ou de la caféine en plus ; traite plutôt les symptômes un par un.",
+    "details": "Beaucoup de produits contre le rhume et la grippe associent le paracétamol à des décongestionnants, des antihistaminiques, de la caféine ou des médicaments contre la toux, et les décongestionnants sont à éviter pendant la grossesse. Il est aussi facile de prendre deux fois du paracétamol si tu prends un produit combiné en plus de comprimés simples. Le repos, l'hydratation et du paracétamol simple si besoin suffisent généralement pour un rhume, mais appelle ton médecin si tu penses avoir la grippe.",
+    "tips": [
+      "Lis les substances actives sur chaque boîte et chaque sachet.",
+      "Fais vérifier rapidement des symptômes de grippe, car un traitement antiviral peut t'être proposé.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "cough-syrup": {
+    "name": "Sirops contre la toux et pastilles",
+    "aliases": [
+      "sirop pour la toux",
+      "sirop contre la toux",
+      "dextrométhorphane",
+      "guaïfénésine",
+      "pastilles pour la gorge",
+      "Strepsils"
+    ],
+    "summary": "Certains remèdes simples peuvent être utilisés, mais évite les sirops à base de codéine et ceux à plusieurs composants, et demande d'abord l'avis d'un pharmacien.",
+    "details": "La toux liée au rhume disparaît généralement d'elle-même en 3 à 4 semaines, et du miel avec du citron dans de l'eau tiède peut l'apaiser. BUMPS indique que les pastilles Strepsils classiques peuvent être utilisées pendant la grossesse, tandis que les produits à plusieurs substances actives peuvent contenir des décongestionnants, qu'il vaut mieux éviter. Les médicaments contre la toux à base de codéine ne doivent être utilisés que si un médecin les recommande.",
+    "tips": [
+      "Essaie d'abord les boissons chaudes avec du miel et du citron.",
+      "Consulte un médecin si une toux dure plus de 3 semaines ou si tu es essoufflée.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "antacids": {
+    "name": "Antiacides (Gaviscon, Rennie)",
+    "aliases": [
+      "Gaviscon",
+      "Rennie",
+      "Maalox",
+      "Tums",
+      "antiacide",
+      "brûlures d'estomac"
+    ],
+    "summary": "Généralement sans problème contre les brûlures d'estomac pendant la grossesse, à condition de suivre la notice et de demander d'abord l'avis d'un pharmacien.",
+    "details": "Le NHS indique que tu peux prendre du Gaviscon pendant ta grossesse, et la plupart des antiacides sont considérés comme sans danger pendant la grossesse, même s'il vaut mieux demander conseil d'abord. Les antiacides peuvent modifier l'efficacité d'autres médicaments, dont les comprimés de fer, c'est pourquoi le NHS conseille d'espacer les prises de 2 à 4 heures. Si les brûlures d'estomac ne sont pas soulagées, ton médecin peut te proposer un autre médicament.",
+    "tips": [
+      "Des repas plus petits et éviter de manger tard le soir peuvent aussi soulager les brûlures d'estomac.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "omeprazole": {
+    "name": "Oméprazole et autres IPP",
+    "aliases": [
+      "Mopral",
+      "Inexium",
+      "Nexium",
+      "ésoméprazole",
+      "lansoprazole",
+      "pantoprazole"
+    ],
+    "summary": "Il peut généralement être utilisé pendant la grossesse si les antiacides ne suffisent pas contre les brûlures d'estomac, mais demande d'abord l'avis de ton médecin.",
+    "details": "Le NHS indique que tu peux généralement prendre de l'oméprazole pendant la grossesse, mais qu'il faut d'abord demander l'avis d'un pharmacien ou d'un médecin. BUMPS note que l'oméprazole est l'inhibiteur de la pompe à protons privilégié pendant la grossesse, car c'est celui pour lequel on dispose du plus de données de sécurité, et que les autres peuvent être utilisés sur avis médical. On essaie généralement d'abord des changements d'habitudes et des antiacides.",
+    "tips": [
+      "Surélever la tête de ton lit et dîner plus tôt peut aider.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "laxatives": {
+    "name": "Laxatifs",
+    "aliases": [
+      "lactulose",
+      "Duphalac",
+      "Forlax",
+      "Movicol",
+      "psyllium",
+      "constipation"
+    ],
+    "summary": "Les fibres, l'hydratation et l'activité physique passent en premier ; certains laxatifs peuvent ensuite être utilisés, alors demande lequel te convient.",
+    "details": "La constipation est très fréquente pendant la grossesse, et le NHS indique que le lactulose peut être pris si besoin, après avoir demandé l'avis d'un pharmacien ou d'un médecin. La Mayo Clinic note que les laxatifs de lest à base de fibres et les émollients fécaux sont généralement considérés comme sans danger, car ils sont très peu absorbés. Les comprimés de fer peuvent aggraver la constipation, alors signale-le si tu en prends.",
+    "tips": [
+      "Bois beaucoup d'eau et trouve tes fibres dans les fruits, les légumes et les céréales complètes.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "loperamide": {
+    "name": "Lopéramide (Imodium)",
+    "aliases": [
+      "Imodium",
+      "loperamide",
+      "médicament diarrhée",
+      "antidiarrhéique",
+      "diarrhée",
+      "gastro"
+    ],
+    "summary": "Ce n'est pas un premier choix pendant la grossesse : mise sur l'hydratation et ne le prends que si un médecin ou un pharmacien te le conseille.",
+    "details": "Le NHS indique que le lopéramide n'est généralement pas recommandé pendant la grossesse, car on ne dispose pas d'assez d'informations pour affirmer qu'il est sans danger. BUMPS note qu'il est parfois utilisé lorsqu'il n'existe pas d'alternative adaptée, et les courts épisodes de diarrhée se gèrent généralement avec du repos et beaucoup de liquides. Une diarrhée accompagnée de fièvre, de sang ou de signes de déshydratation nécessite un avis médical.",
+    "tips": [
+      "Bois de l'eau ou des solutions de réhydratation orale par petites gorgées, souvent.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "antibiotics": {
+    "name": "Antibiotiques",
+    "aliases": [
+      "amoxicilline",
+      "Augmentin",
+      "pénicilline",
+      "nitrofurantoïne",
+      "doxycycline",
+      "antibiotique infection urinaire"
+    ],
+    "summary": "Beaucoup d'antibiotiques sont sans danger et importants pendant la grossesse, mais pas tous ; ne prends que ceux qui te sont prescrits maintenant.",
+    "details": "Les pénicillines comme l'amoxicilline et les céphalosporines sont couramment utilisées pendant la grossesse, tandis que les tétracyclines comme la doxycycline sont généralement évitées, car elles peuvent affecter les os et les dents du bébé. Traiter rapidement les infections, comme les infections urinaires, est important pour toi et ton bébé. Dis toujours à la personne qui te prescrit que tu es enceinte, et ne prends pas de restes d'antibiotiques.",
+    "tips": [
+      "Prends-le exactement comme prescrit, et dis à chaque prescripteur que tu es enceinte.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "isotretinoin": {
+    "name": "Isotrétinoïne (Roaccutane)",
+    "aliases": [
+      "Roaccutane",
+      "Accutane",
+      "Curacné",
+      "Procuta",
+      "isotretinoine",
+      "médicament acné"
+    ],
+    "summary": "À éviter : l'isotrétinoïne peut provoquer de graves malformations congénitales, alors contacte immédiatement ton prescripteur si tu pourrais être enceinte.",
+    "details": "L'isotrétinoïne est un médicament contre l'acné dérivé de la vitamine A qui peut provoquer une fausse couche et de graves problèmes dans le développement du bébé. Au Royaume-Uni, elle n'est prescrite que dans le cadre d'un programme de prévention de la grossesse, et le NHS conseille d'attendre au moins un mois après la dernière prise avant d'essayer d'avoir un bébé. Si tu tombes enceinte pendant le traitement, ton prescripteur doit être prévenu en urgence.",
+    "tips": [
+      "Utilise une contraception fiable pendant le traitement, comme te le conseille ton prescripteur.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "oral-retinoids": {
+    "name": "Rétinoïdes en comprimés (acitrétine, alitrétinoïne)",
+    "aliases": [
+      "acitrétine",
+      "Soriatane",
+      "Neotigason",
+      "alitrétinoïne",
+      "Toctino",
+      "médicament psoriasis"
+    ],
+    "summary": "À éviter : ces comprimés dérivés de la vitamine A peuvent gravement nuire au bébé en développement et nécessitent une planification attentive de la grossesse.",
+    "details": "Comme l'isotrétinoïne, l'acitrétine orale (contre le psoriasis) et l'alitrétinoïne (contre l'eczéma sévère des mains) sont des rétinoïdes qui peuvent provoquer des malformations congénitales ; l'autorité britannique du médicament impose donc un programme de prévention de la grossesse. L'acitrétine reste longtemps dans l'organisme, et les tests de grossesse se poursuivent pendant 3 ans après l'arrêt du traitement. Parles-en à ton prescripteur avant de planifier une grossesse.",
+    "tips": [
+      "Si tu pourrais être enceinte pendant que tu en prends, contacte ton prescripteur en urgence.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "codeine": {
+    "name": "Codéine",
+    "aliases": [
+      "Codoliprane",
+      "Dafalgan codéine",
+      "paracétamol codéine",
+      "Tylenol avec codéine",
+      "Néo-Codion",
+      "sirop à la codéine"
+    ],
+    "summary": "Ne l'utilise pas sauf si ton médecin te la prescrit, car la codéine ne convient pas à l'automédication pendant la grossesse.",
+    "details": "La codéine est un opioïde. Le NHS conseille d'éviter les antidouleurs contenant de la codéine pendant la grossesse, sauf s'ils sont prescrits, et BUMPS note qu'une utilisation proche de l'accouchement peut provoquer des symptômes de sevrage et des problèmes respiratoires chez le nouveau-né. Parfois, un médecin décidera que c'est la bonne option après avoir pesé les risques et les bénéfices.",
+    "tips": [
+      "Vérifie la présence de codéine dans les antidouleurs combinés et les sirops contre la toux.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "tramadol": {
+    "name": "Tramadol",
+    "aliases": [
+      "Topalgic",
+      "Contramal",
+      "Ixprim",
+      "Zaldiar",
+      "antidouleur opioïde",
+      "antidouleur fort"
+    ],
+    "summary": "Seulement si ton médecin le prescrit contre une douleur intense, idéalement pour quelques jours seulement ; ne le prends jamais de toi-même.",
+    "details": "Le tramadol est un antidouleur opioïde. Le NHS indique qu'il peut parfois être la meilleure option contre une douleur intense pendant la grossesse et qu'il n'est pas connu pour causer de problèmes dans le développement du bébé, même si davantage de recherches sont nécessaires. Pris régulièrement, surtout près de la naissance, les opioïdes peuvent provoquer des symptômes de sevrage chez le nouveau-né.",
+    "tips": [
+      "N'utilise jamais les antidouleurs sur ordonnance de quelqu'un d'autre ni des restes d'anciennes ordonnances.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  },
+  "triptans": {
+    "name": "Triptans (sumatriptan)",
+    "aliases": [
+      "sumatriptan",
+      "Imigrane",
+      "Imitrex",
+      "Maxalt",
+      "Zomig",
+      "médicament migraine"
+    ],
+    "summary": "Le sumatriptan peut être utilisé pendant la grossesse si besoin, mais décide-le avec ton médecin plutôt que seule.",
+    "details": "BUMPS indique que le sumatriptan a été bien étudié et n'est pas connu pour présenter un risque pour le bébé, et rien n'indique que les autres triptans soient nocifs, même si on dispose de moins d'informations à leur sujet. Le NHS conseille de demander l'avis de ton médecin avant de prendre du sumatriptan pendant la grossesse. Les migraines s'atténuent souvent aux deuxième et troisième trimestres.",
+    "tips": [
+      "Tiens un journal de tes maux de tête pour repérer les déclencheurs comme les repas sautés ou le manque de sommeil.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament."
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "categories": {
+    "food": "Comida",
+    "drink": "Bebidas",
+    "medicine": "Medicamentos",
+    "supplement": "Suplementos",
+    "beauty": "Belleza",
+    "activity": "Actividades",
+    "travel": "Viajes",
+    "home": "Hogar"
+  },
+  "countries": {
+    "TR": "Turquía",
+    "US": "Estados Unidos",
+    "GB": "Reino Unido",
+    "DE": "Alemania",
+    "FR": "Francia",
+    "NL": "Países Bajos",
+    "ES": "España",
+    "IT": "Italia",
+    "AU": "Australia",
+    "CA": "Canadá",
+    "IE": "Irlanda",
+    "SE": "Suecia"
+  }
+}

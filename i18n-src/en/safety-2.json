@@ -1,0 +1,2154 @@
+{
+  "migraine": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Migraine treatment",
+    "aliases": [
+      "migraine",
+      "migraine medicine",
+      "migraine prevention",
+      "headache tablets",
+      "topiramate",
+      "propranolol"
+    ],
+    "summary": "Many migraine treatments can be used in pregnancy but some can't, so make a plan with your doctor early on.",
+    "details": "Paracetamol can be used throughout pregnancy, and triptans such as sumatriptan may be continued if they work well, while NSAIDs should be avoided from 20 weeks. BUMPS notes that some preventive medicines, including sodium valproate and topiramate, are avoided in pregnancy, while others such as propranolol or amitriptyline can be used. If you take a daily preventive, ask your doctor to review it urgently.",
+    "tips": [
+      "Get a severe or sudden headache, or one with vision changes or swelling, checked urgently.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "antidepressants": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Antidepressants",
+    "aliases": [
+      "sertraline",
+      "zoloft",
+      "lustral",
+      "fluoxetine",
+      "prozac",
+      "citalopram",
+      "escitalopram",
+      "cipralex",
+      "ssri",
+      "anxiety medication"
+    ],
+    "summary": "Don't stop suddenly: many antidepressants are used in pregnancy, so weigh up the benefits and risks with your doctor.",
+    "details": "The NHS says some antidepressants can be taken in pregnancy; sertraline, for example, can be used if needed. Coming off antidepressants should be done gradually with your doctor's help to avoid withdrawal symptoms, and untreated depression or anxiety can affect both you and your baby. Your doctor can help you weigh up the options and may adjust your treatment.",
+    "tips": [
+      "Tell your midwife how you're feeling, as emotional support is part of your care.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "thyroid-medication": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Thyroid medication (levothyroxine)",
+    "aliases": [
+      "levothyroxine",
+      "thyroxine",
+      "synthroid",
+      "eltroxin",
+      "euthyrox",
+      "underactive thyroid",
+      "hypothyroidism"
+    ],
+    "summary": "Keep taking it: levothyroxine can be taken in pregnancy, though your dose may need adjusting with extra blood tests.",
+    "details": "Thyroid hormone is important for your baby's development, and the NHS says levothyroxine can be taken during pregnancy if needed. You may need more frequent blood tests and a dose change, ideally as soon as your pregnancy is confirmed. Calcium and iron supplements can interfere with levothyroxine, so take them at different times.",
+    "tips": [
+      "Tell your doctor as soon as you know you're pregnant.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "insulin": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Insulin",
+    "aliases": [
+      "novorapid",
+      "humalog",
+      "lantus",
+      "levemir",
+      "gestational diabetes",
+      "type 1 diabetes",
+      "diabetes injections"
+    ],
+    "summary": "Keep taking it: insulin is widely used for diabetes in pregnancy, and your team will adjust your doses as you go.",
+    "details": "Insulin is used to treat type 1, type 2 and gestational diabetes in pregnancy, and BUMPS notes that it lowers the risks linked to poorly controlled blood sugar, such as miscarriage, a very large baby and delivery complications. Your doses usually change as pregnancy progresses. The NHS notes that tighter control can mean more hypos, which are harmless for the baby but need managing.",
+    "tips": [
+      "Keep hypo treatments with you and make sure your partner knows what to do.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "nasal-steroid-spray": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Steroid nasal sprays",
+    "aliases": [
+      "beclometasone",
+      "beconase",
+      "fluticasone",
+      "flonase",
+      "flixonase",
+      "avamys",
+      "mometasone",
+      "nasonex",
+      "hay fever spray"
+    ],
+    "summary": "They're generally fine in pregnancy because very little reaches your bloodstream, but check with a pharmacist first.",
+    "details": "The NHS says beclometasone nasal spray is safe to use in pregnancy because very little of the medicine gets into your blood and almost none reaches the baby. Mayo Clinic notes that steroid sprays such as fluticasone or mometasone may be recommended for moderate to severe allergy symptoms. Use the lowest dose that controls your symptoms.",
+    "tips": [
+      "Pregnancy itself can cause a stuffy nose, so mention it if it doesn't improve.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "hemorrhoid-cream": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Haemorrhoid (piles) creams",
+    "aliases": [
+      "hemorrhoid cream",
+      "haemorrhoid cream",
+      "piles cream",
+      "anusol",
+      "preparation h",
+      "hydrocortisone cream",
+      "suppositories"
+    ],
+    "summary": "Most piles creams can be used for short periods in pregnancy, but check with a pharmacist first.",
+    "details": "Piles are common in pregnancy and are often linked to constipation. The NHS says hydrocortisone creams, ointments and suppositories for piles can be used in pregnancy, as only a small amount gets into the blood. BUMPS notes there's no evidence that the available treatments pose a risk to the baby.",
+    "tips": [
+      "Fibre, fluids and not straining help stop piles from coming back.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "thrush-treatment": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Thrush treatment (clotrimazole)",
+    "aliases": [
+      "clotrimazole",
+      "canesten",
+      "miconazole",
+      "monistat",
+      "yeast infection cream",
+      "pessary",
+      "fluconazole",
+      "diflucan"
+    ],
+    "summary": "Creams and pessaries like clotrimazole are used in pregnancy, but avoid thrush tablets and see a doctor or midwife first.",
+    "details": "Thrush is common in pregnancy and isn't harmful to the baby. The NHS advises seeing a GP or midwife before treating it and says it can be treated with a clotrimazole cream or pessary, while anti-thrush tablets such as fluconazole shouldn't be taken in pregnancy. Mayo Clinic notes that seven-day vaginal treatments tend to work best.",
+    "tips": [
+      "Get any new discharge or itching checked, as other infections can look similar.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "lice-treatment": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Head lice treatment",
+    "aliases": [
+      "head lice",
+      "nits",
+      "lice shampoo",
+      "dimeticone",
+      "hedrin",
+      "permethrin",
+      "malathion",
+      "wet combing"
+    ],
+    "summary": "Wet combing is the first choice, and physical treatments like dimeticone can also be used in pregnancy.",
+    "details": "UK guidance suggests pregnant women use wet combing with conditioner and a fine-toothed comb, which avoids chemicals altogether. BUMPS says physical treatments such as dimeticone work by coating the lice and don't enter the bloodstream in amounts that could affect the baby. Chemical insecticides like malathion are best kept for when other methods haven't worked.",
+    "tips": [
+      "Check and treat everyone in the household at the same time.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "anti-sickness": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Anti-sickness medicines",
+    "aliases": [
+      "anti-sickness",
+      "nausea medicine",
+      "cyclizine",
+      "promethazine",
+      "metoclopramide",
+      "ondansetron",
+      "zofran",
+      "xonvea",
+      "diclegis",
+      "hyperemesis"
+    ],
+    "summary": "Several are safely prescribed in pregnancy, so if sickness is affecting your daily life, ask your doctor about treatment.",
+    "details": "Nausea and vomiting affect most pregnant women, and BUMPS notes there are several medicines that can be used safely when lifestyle changes aren't enough. Severe vomiting, where you can't keep food or fluids down, can be hyperemesis gravidarum and needs prompt medical care. You don't have to struggle on, and getting help early makes it easier to manage.",
+    "tips": [
+      "Small, frequent snacks and sipping fluids little and often can help.",
+      "Seek help if you can't keep food or fluids down for 24 hours.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "prescription-medicines": {
+    "category": "medicine",
+    "verdict": "caution",
+    "name": "Prescription medicines",
+    "aliases": [
+      "prescription",
+      "regular medication",
+      "long-term medicine",
+      "epilepsy medicine",
+      "blood pressure medicine",
+      "asthma inhaler",
+      "my medicine"
+    ],
+    "summary": "Ask before you start, stop or change any prescription, and never stop one suddenly on your own.",
+    "details": "Most medicines cross the placenta, so the NHS advises checking with your doctor, midwife or pharmacist before taking any medicine in pregnancy. But stopping a medicine that keeps you well, such as one for epilepsy, asthma or high blood pressure, can be more harmful than continuing it. Ideally, review long-term medicines before trying to conceive or as soon as you know you're pregnant.",
+    "tips": [
+      "Tell every doctor, dentist and pharmacist that you're pregnant.",
+      "Don't stop a prescribed medicine without talking to your doctor first.",
+      "Check with your doctor, midwife or pharmacist before taking any medicine."
+    ]
+  },
+  "flu-vaccine": {
+    "category": "medicine",
+    "verdict": "safe",
+    "name": "Flu vaccine",
+    "aliases": [
+      "flu jab",
+      "flu shot",
+      "influenza vaccine",
+      "seasonal flu vaccine"
+    ],
+    "summary": "Yes, the flu vaccine is recommended in pregnancy and helps protect both you and your newborn.",
+    "details": "Pregnant women are more likely to have complications from flu, such as pneumonia, and to need hospital care. The NHS recommends the inactivated flu vaccine in pregnancy, and BUMPS notes that thousands of vaccinated pregnant women have been studied without concerns for the baby. Antibodies also cross the placenta and help protect your baby in their first weeks.",
+    "tips": [
+      "Ask your midwife, GP or pharmacist about it as soon as flu season starts."
+    ]
+  },
+  "whooping-cough-vaccine": {
+    "category": "medicine",
+    "verdict": "safe",
+    "name": "Whooping cough vaccine (Tdap)",
+    "aliases": [
+      "whooping cough",
+      "pertussis vaccine",
+      "tdap",
+      "boostrix",
+      "repevax"
+    ],
+    "summary": "Yes, it's recommended in every pregnancy to protect your baby in their first weeks of life.",
+    "details": "Whooping cough can be very serious for young babies. Vaccination in pregnancy lets you pass antibodies to your baby until they can have their own vaccines. In the UK it's offered from 16 weeks, usually around 20 weeks, while US guidance recommends it between 27 and 36 weeks.",
+    "tips": [
+      "Ask your midwife or GP when it's due for you."
+    ]
+  },
+  "rsv-vaccine": {
+    "category": "medicine",
+    "verdict": "safe",
+    "name": "RSV vaccine",
+    "aliases": [
+      "abrysvo",
+      "respiratory syncytial virus",
+      "bronchiolitis vaccine",
+      "rsv jab"
+    ],
+    "summary": "Yes, it's recommended in pregnancy to protect your baby from serious RSV illness in their first months.",
+    "details": "RSV is a common virus that can cause serious lung infections such as bronchiolitis in young babies. Having the vaccine in pregnancy passes protection to your baby for about their first 6 months. The UK offers it from 28 weeks at any time of year, while in the US ACOG recommends it at 32 to 36 weeks during RSV season.",
+    "tips": [
+      "Ask your midwife whether it's offered where you live, and when."
+    ]
+  },
+  "folic-acid": {
+    "category": "supplement",
+    "verdict": "safe",
+    "name": "Folic acid",
+    "aliases": [
+      "folate",
+      "vitamin b9",
+      "methylfolate",
+      "neural tube",
+      "spina bifida"
+    ],
+    "summary": "Yes, it's recommended: take 400 micrograms a day from before conception until 12 weeks of pregnancy.",
+    "details": "Folic acid reduces the chance of neural tube defects such as spina bifida. The NHS recommends 400 micrograms a day while you're trying to conceive and until you're 12 weeks pregnant, and some women, such as those with diabetes or a family history of neural tube defects, need a higher dose prescribed by a doctor. If you didn't take it before conceiving, start as soon as you find out you're pregnant.",
+    "tips": [
+      "Pregnancy multivitamins usually contain the right amount, so check the label.",
+      "Ask your GP if you might need the higher dose."
+    ]
+  },
+  "vitamin-d": {
+    "category": "supplement",
+    "verdict": "safe",
+    "name": "Vitamin D",
+    "aliases": [
+      "vitamin d3",
+      "cholecalciferol",
+      "sunshine vitamin",
+      "vitamin d drops"
+    ],
+    "summary": "Yes: UK advice is 10 micrograms a day, at least from October to March, and all year if you get little sun.",
+    "details": "Vitamin D helps your baby's bones and teeth develop. The NHS recommends a daily 10 microgram supplement in autumn and winter, and all year if you usually cover most of your skin outdoors, spend a lot of time indoors or have darker skin. Don't take more than 100 micrograms a day, as too much can be harmful.",
+    "tips": [
+      "Many pregnancy multivitamins already include vitamin D, so don't double up.",
+      "Ask your midwife or doctor if you're unsure how much you need."
+    ]
+  },
+  "iron": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Iron supplements",
+    "aliases": [
+      "iron tablets",
+      "ferrous sulfate",
+      "ferrous fumarate",
+      "iron deficiency",
+      "anaemia",
+      "anemia"
+    ],
+    "summary": "Take them if they're recommended for you: iron needs rise in pregnancy, and low iron is common and treatable.",
+    "details": "Iron helps make red blood cells for you and your baby, and low levels can leave you very tired. In the UK, iron is checked with routine blood tests and supplements are recommended if levels are low, while in the US prenatal vitamins usually include iron routinely. Iron tablets can cause constipation, so tell your midwife if they upset your stomach.",
+    "tips": [
+      "Take it at a different time from tea, coffee and antacids.",
+      "Store iron tablets well out of children's reach."
+    ]
+  },
+  "prenatal-vitamins": {
+    "category": "supplement",
+    "verdict": "safe",
+    "name": "Pregnancy multivitamins",
+    "aliases": [
+      "prenatal vitamins",
+      "pregnancy vitamins",
+      "pregnacare",
+      "elevit",
+      "materna",
+      "multivitamin"
+    ],
+    "summary": "Yes, a pregnancy-specific multivitamin is an easy way to get folic acid and vitamin D, but avoid ones with retinol.",
+    "details": "The NHS recommends folic acid and vitamin D in pregnancy, and pregnancy multivitamins are designed to provide these without too much vitamin A. Ordinary multivitamins may contain retinol (vitamin A), which can harm a baby's development at high doses. A healthy, varied diet is still the main source of nutrients.",
+    "tips": [
+      "Check the label for vitamin A as retinol, and don't take two multivitamins together."
+    ]
+  },
+  "vitamin-a": {
+    "category": "supplement",
+    "verdict": "avoid",
+    "name": "Vitamin A (retinol) supplements",
+    "aliases": [
+      "vitamin a",
+      "retinol",
+      "retinyl palmitate",
+      "high-dose vitamin a",
+      "beta carotene"
+    ],
+    "summary": "Avoid supplements containing vitamin A as retinol, since too much can harm your baby's development.",
+    "details": "High intakes of vitamin A in the form of retinol have been linked to birth defects, so the NHS advises against vitamin A supplements in pregnancy and recommends always checking labels. Beta-carotene, the form found in carrots and other orange vegetables, isn't the same concern. Liver and cod liver oil are also very high in retinol.",
+    "tips": [
+      "Check every supplement label, including hair and skin vitamins, for retinol."
+    ]
+  },
+  "fish-oil": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Fish oil & omega-3",
+    "aliases": [
+      "omega-3",
+      "omega 3",
+      "fish oil capsules",
+      "dha",
+      "epa",
+      "algae oil",
+      "krill oil"
+    ],
+    "summary": "Fish body oil is generally fine, but avoid fish liver oil, such as cod liver oil, which is high in vitamin A.",
+    "details": "The NHS advises against cod liver oil and other supplements containing vitamin A (retinol) in pregnancy. Omega-3 supplements made from fish body oil or algae don't have this problem, though eating oily fish within the recommended limits is the main way to get omega-3. Choose a reputable brand and check the label for vitamin A.",
+    "tips": [
+      "If you don't eat fish, ask your midwife about an algae-based omega-3."
+    ]
+  },
+  "cod-liver-oil": {
+    "category": "supplement",
+    "verdict": "avoid",
+    "name": "Cod liver oil",
+    "aliases": [
+      "fish liver oil",
+      "halibut liver oil",
+      "shark liver oil"
+    ],
+    "summary": "Avoid it in pregnancy, because it's high in vitamin A (retinol), which can harm your baby's development.",
+    "details": "The NHS specifically advises against taking cod liver oil in pregnancy because of its high vitamin A content. Too much retinol has been linked to birth defects. If you'd like an omega-3 supplement, choose one made from fish body oil or algae instead.",
+    "tips": [
+      "Check family and children's supplements in the cupboard before taking them."
+    ]
+  },
+  "magnesium": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Magnesium",
+    "aliases": [
+      "magnesium citrate",
+      "magnesium glycinate",
+      "magnesium oxide",
+      "leg cramps",
+      "magnesium spray"
+    ],
+    "summary": "Food comes first, and a modest-dose magnesium supplement is unlikely to cause harm, but check with your midwife.",
+    "details": "Magnesium is found in leafy greens, nuts, seeds and wholegrains, and most people can get enough from a varied diet. The NHS says magnesium supplements at modest doses are unlikely to cause harm, while high doses can cause diarrhoea. It's sometimes suggested for leg cramps, so talk to your midwife about whether it's right for you.",
+    "tips": [
+      "Tell your midwife about every supplement you take, including sprays and powders."
+    ]
+  },
+  "calcium": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Calcium supplements",
+    "aliases": [
+      "calcium",
+      "calcium carbonate",
+      "calcium citrate",
+      "calcium and vitamin d"
+    ],
+    "summary": "Get calcium from food where you can; supplements help if your intake is low or your doctor recommends them.",
+    "details": "Calcium helps build your baby's bones and teeth, and dairy, fortified plant milks, tahini and leafy greens are good sources. The WHO recommends calcium supplements in pregnancy for women whose diets are low in calcium, to help lower the risk of pre-eclampsia. Check with your midwife before taking high doses.",
+    "tips": [
+      "Yoghurt, ayran, cheese and tahini are easy calcium boosts."
+    ]
+  },
+  "iodine": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Iodine",
+    "aliases": [
+      "potassium iodide",
+      "kelp",
+      "seaweed supplement",
+      "iodised salt",
+      "iodized salt"
+    ],
+    "summary": "You need more iodine in pregnancy, but advice differs: the UK says get it from food, the US says take a prenatal with iodine.",
+    "details": "Iodine is needed for your baby's brain development. The NHS says most people can get enough from a varied diet including dairy and fish, and warns against kelp or seaweed supplements because their iodine content can be too high. In the US, experts recommend a prenatal vitamin containing iodine, and in many countries, including Turkey, table salt is iodised.",
+    "tips": [
+      "Use iodised salt, but keep your overall salt intake moderate.",
+      "Skip kelp and seaweed supplements."
+    ]
+  },
+  "probiotics": {
+    "category": "supplement",
+    "verdict": "safe",
+    "name": "Probiotics",
+    "aliases": [
+      "probiotic",
+      "lactobacillus",
+      "bifidobacterium",
+      "gut health supplement",
+      "prebiotics"
+    ],
+    "summary": "Probiotic foods like yoghurt and kefir are fine, and supplements appear safe for most healthy people.",
+    "details": "The NHS says probiotics appear to be safe for most people with a healthy immune system, but because they're classed as food rather than medicine, they don't go through the same testing. Evidence for many of the claimed benefits is limited. Choose fermented foods made with pasteurised milk, and check that supplements don't contain added herbs.",
+    "tips": [
+      "Tell your midwife about any supplements you take, including probiotics."
+    ]
+  },
+  "melatonin": {
+    "category": "supplement",
+    "verdict": "avoid",
+    "name": "Melatonin",
+    "aliases": [
+      "melatonin gummies",
+      "sleep gummies",
+      "sleep supplement",
+      "circadin",
+      "jet lag pills"
+    ],
+    "summary": "Not usually recommended in pregnancy, because little is known about its effects on babies.",
+    "details": "The NHS says melatonin isn't usually recommended during pregnancy because little is known about its effect on babies. Sleep problems are very common in pregnancy, and simple changes like a regular routine, a cool dark room and side-sleeping with pillows often help. If you were taking melatonin when you became pregnant, talk to your doctor about whether to carry on.",
+    "tips": [
+      "Try winding down without screens for an hour before bed."
+    ]
+  },
+  "herbal-supplements": {
+    "category": "supplement",
+    "verdict": "avoid",
+    "name": "Herbal supplements & remedies",
+    "aliases": [
+      "herbal remedies",
+      "natural remedies",
+      "black cohosh",
+      "dong quai",
+      "echinacea",
+      "evening primrose oil",
+      "ashwagandha",
+      "detox tea"
+    ],
+    "summary": "Best avoided unless your doctor or pharmacist says a specific product is OK, because 'natural' doesn't mean safe.",
+    "details": "Most herbal products haven't been well studied in pregnancy, and MotherToBaby notes that some have been shown to cause hormone changes or uterine contractions. The NHS warns that some remedies may be of poor quality and can contain other substances, such as lead. Mixed remedies from herbal shops (aktar) can be especially hard to check.",
+    "tips": [
+      "Show your midwife or pharmacist the label of anything you're considering.",
+      "Avoid detox teas and weight-loss blends."
+    ]
+  },
+  "ginger-capsules": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Ginger supplements",
+    "aliases": [
+      "ginger capsules",
+      "ginger tablets",
+      "ginger extract",
+      "ginger supplement"
+    ],
+    "summary": "They may help with morning sickness, but check with a pharmacist before taking them, as the NHS advises.",
+    "details": "The NHS says there's some evidence that ginger may reduce nausea and vomiting in pregnancy, and advises checking with a pharmacist before taking ginger supplements. MotherToBaby has information on ginger in pregnancy, and the strength of supplements varies between products. Ginger in food and drinks is a gentler place to start.",
+    "tips": [
+      "If sickness stops you eating or drinking, see your doctor rather than relying on supplements."
+    ]
+  },
+  "collagen": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Collagen supplements",
+    "aliases": [
+      "collagen powder",
+      "collagen peptides",
+      "beauty supplement",
+      "hair skin nails"
+    ],
+    "summary": "There's little research in pregnancy; plain collagen is probably low risk, but check blends for vitamin A, herbs or caffeine.",
+    "details": "Collagen is a protein, and plain collagen powder hasn't been linked to specific harms, but it hasn't been studied in pregnancy either. Many 'beauty' blends add vitamin A, biotin, herbal extracts or caffeine, and the FDA notes that supplements don't need approval before they're sold. A varied diet with enough protein supports your skin and your baby.",
+    "tips": [
+      "If you use one, choose an unflavoured, single-ingredient product.",
+      "Show the label to your pharmacist or midwife."
+    ]
+  },
+  "protein-powder": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Protein powders & shakes",
+    "aliases": [
+      "whey protein",
+      "protein shake",
+      "meal replacement",
+      "plant protein",
+      "protein bar"
+    ],
+    "summary": "A plain protein powder is usually fine to top up your diet, but avoid blends with caffeine, herbs or 'fat burners'.",
+    "details": "Most people can meet their protein needs in pregnancy with foods such as meat, fish, eggs, dairy, beans and lentils. If you use a powder, choose a simple one without added caffeine, herbal extracts or weight-loss ingredients, as the FDA doesn't approve supplements before they're sold. Meal-replacement shakes aren't designed for pregnancy.",
+    "tips": [
+      "Look for third-party tested products with a short ingredient list."
+    ]
+  },
+  "st-johns-wort": {
+    "category": "supplement",
+    "verdict": "avoid",
+    "name": "St John's wort",
+    "aliases": [
+      "st john's wort",
+      "st johns wort",
+      "hypericum",
+      "herbal antidepressant"
+    ],
+    "summary": "Best avoided in pregnancy; if you're feeling low, talk to your doctor or midwife about treatments with more safety data.",
+    "details": "St John's wort is taken for low mood, but there's limited information on its safety in pregnancy, and it interacts with many medicines. MotherToBaby notes that herbal products aren't regulated like medicines, so their strength and contents can vary. Depression in pregnancy is common and treatable, so it's worth getting proper support.",
+    "tips": [
+      "Tell your doctor if you've been using it, especially alongside other medicines."
+    ]
+  },
+  "black-seed-oil": {
+    "category": "supplement",
+    "verdict": "caution",
+    "name": "Black seed oil (çörek otu)",
+    "aliases": [
+      "black seed",
+      "nigella sativa",
+      "black cumin oil",
+      "kalonji",
+      "corek otu"
+    ],
+    "summary": "The seeds sprinkled on bread are fine, but skip black seed oil and capsules in pregnancy unless your doctor agrees.",
+    "details": "Black seed is a common topping on simit and poğaça, and these small amounts aren't a concern. Concentrated oils and capsules provide much larger doses and, like most herbal products, haven't been well studied in pregnancy. MotherToBaby notes that some herbal products can cause uterine contractions, so medicinal amounts are best avoided.",
+    "tips": [
+      "Keep it as a seasoning rather than a daily spoonful."
+    ]
+  },
+  "hair-dye": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Hair dye",
+    "aliases": [
+      "hair colour",
+      "hair color",
+      "permanent dye",
+      "box dye",
+      "hair bleach",
+      "root touch-up",
+      "semi-permanent dye"
+    ],
+    "summary": "Generally fine, since very little dye is absorbed through the scalp, though some wait until after 12 weeks to be extra careful.",
+    "details": "The NHS says your scalp doesn't absorb much hair dye, especially if it's healthy, and some people choose to wait until after the first 12 weeks, when the risk of chemicals affecting the baby is lower. MotherToBaby notes that the amount absorbed through healthy skin is small when products are used as directed. Pregnancy can change how your hair takes colour, so results may differ.",
+    "tips": [
+      "Do a strand test and a patch test first.",
+      "Wear gloves, ventilate the room and don't leave dye on longer than instructed."
+    ]
+  },
+  "highlights": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Highlights & balayage",
+    "aliases": [
+      "highlights",
+      "lowlights",
+      "balayage",
+      "foils",
+      "streaks",
+      "ombre"
+    ],
+    "summary": "Yes, highlights are a lower-exposure option, because the colour goes on the hair rather than the scalp.",
+    "details": "The NHS says highlighting, where dye is applied only to strands of hair, reduces any risk, because the chemicals are absorbed by the hair rather than your scalp or bloodstream. MotherToBaby agrees that techniques like highlights, lowlights and streaking don't touch the skin. Salons can be heavy with fumes, so good ventilation helps if you feel queasy.",
+    "tips": [
+      "Tell your stylist you're pregnant and ask for a patch test."
+    ]
+  },
+  "keratin-treatment": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Keratin & Brazilian blowout",
+    "aliases": [
+      "keratin treatment",
+      "brazilian blowout",
+      "hair smoothing",
+      "chemical straightening",
+      "japanese straightening",
+      "formaldehyde hair"
+    ],
+    "summary": "Best avoided, as many smoothing treatments release formaldehyde when they're heated with straighteners.",
+    "details": "The FDA warns that some hair smoothing products release formaldehyde gas when heated, even when they're labelled formaldehyde-free. MotherToBaby notes that some studies of people who work around formaldehyde have suggested a higher chance of miscarriage. The fumes are strongest in the salon chair during flat-ironing, so it's best to wait until after pregnancy.",
+    "tips": [
+      "Ask for a regular blow-dry without chemicals instead."
+    ]
+  },
+  "henna": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Henna (kına)",
+    "aliases": [
+      "henna",
+      "mehndi",
+      "henna tattoo",
+      "black henna",
+      "kina",
+      "henna hair dye"
+    ],
+    "summary": "Pure natural henna is a gentler option, but avoid 'black henna', which can contain the harsh dye chemical PPD.",
+    "details": "The NHS suggests a semi-permanent pure vegetable dye like henna as a gentler alternative to hair dye. The FDA warns that temporary tattoos sold as 'black henna' often contain PPD, a hair-dye chemical that isn't meant for skin and can cause allergic reactions. Natural henna stains reddish-brown, so very dark or fast-staining pastes are a warning sign.",
+    "tips": [
+      "For a kına gecesi, use plain natural henna and skip dark 'black' pastes.",
+      "Patch test first, as your skin can be more sensitive in pregnancy."
+    ]
+  },
+  "nail-polish": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Nail polish & gel nails",
+    "aliases": [
+      "nail varnish",
+      "gel polish",
+      "gel manicure",
+      "shellac",
+      "manicure",
+      "pedicure",
+      "nail polish remover"
+    ],
+    "summary": "Yes, painting your nails is fine, as long as you use products in a well-ventilated room.",
+    "details": "Occasional use of nail polish and remover involves only small exposures. The FDA advises good ventilation when using nail products, and some polishes contain ingredients such as formaldehyde or toluene that some people prefer to avoid. MotherToBaby notes that the higher exposures are for salon workers who are around these products all day.",
+    "tips": [
+      "Open a window, and choose formaldehyde- and toluene-free polishes if you like.",
+      "Pick salons that are well ventilated."
+    ]
+  },
+  "acrylic-nails": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Acrylic & dip powder nails",
+    "aliases": [
+      "acrylic nails",
+      "acrylics",
+      "fake nails",
+      "nail extensions",
+      "dip powder",
+      "polygel"
+    ],
+    "summary": "Probably fine occasionally, but the strong fumes are worth limiting, so choose a well-ventilated salon.",
+    "details": "Acrylic and dip systems use methacrylate liquids, adhesives and solvents with strong smells. MotherToBaby notes that the air in nail salons can contain chemicals such as methyl methacrylate, toluene and formaldehyde, which are mainly a concern for workers exposed all day. For customers, short, well-ventilated visits keep exposure low.",
+    "tips": [
+      "Book quieter times and sit near an open window or extraction.",
+      "Consider plain polish until after the birth."
+    ]
+  },
+  "retinol": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Retinol & retinoid creams",
+    "aliases": [
+      "retinol",
+      "retinal",
+      "retinaldehyde",
+      "retinyl palmitate",
+      "adapalene",
+      "differin",
+      "anti-ageing cream",
+      "night serum"
+    ],
+    "summary": "Best avoided in pregnancy, so swap retinol and other retinoid creams for pregnancy-friendly alternatives.",
+    "details": "Retinoids are forms of vitamin A, and retinoid tablets are known to cause birth defects. Only small amounts are absorbed from creams, but ACOG advises avoiding topical retinoids in pregnancy as a precaution, and they're found in many over-the-counter products. If you used some before you knew you were pregnant, the risk is thought to be very low, but mention it to your midwife.",
+    "tips": [
+      "Check ingredient lists for retinol, retinal and retinyl.",
+      "Azelaic acid or glycolic acid products can be pregnancy-friendly swaps."
+    ]
+  },
+  "tretinoin": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Tretinoin (Retin-A)",
+    "aliases": [
+      "retin-a",
+      "tretinoin cream",
+      "tazarotene",
+      "prescription retinoid",
+      "acne cream",
+      "tri-luma"
+    ],
+    "summary": "Avoid prescription retinoid creams like tretinoin in pregnancy, and ask your doctor about alternatives.",
+    "details": "BUMPS says prescribed creams and gels containing retinoids such as tretinoin or adapalene shouldn't be used in pregnancy. While only tiny amounts usually reach the baby, some people absorb more than others, and case reports can't rule out a link with birth defects. Other acne treatments that aren't retinoids can be used instead.",
+    "tips": [
+      "Ask your dermatologist for a pregnancy-safe acne plan.",
+      "If you used it before you knew you were pregnant, mention it to your midwife."
+    ]
+  },
+  "salicylic-acid": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Salicylic acid",
+    "aliases": [
+      "bha",
+      "beta hydroxy acid",
+      "acne wash",
+      "spot treatment",
+      "salicylic peel",
+      "chemical peel"
+    ],
+    "summary": "Low-strength cleansers and spot treatments are fine, but skip strong salicylic acid peels and large-area use.",
+    "details": "ACOG lists topical salicylic acid among the over-the-counter acne ingredients that can be used in pregnancy. MotherToBaby notes that only a small amount of topical acne products is absorbed, but more can be absorbed over large areas, on broken skin or with frequent use. That's why strong professional peels are best saved for after pregnancy.",
+    "tips": [
+      "Use wash-off or spot products rather than all-over leave-on peels."
+    ]
+  },
+  "benzoyl-peroxide": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Benzoyl peroxide",
+    "aliases": [
+      "acne gel",
+      "spot gel",
+      "panoxyl",
+      "acnecide",
+      "clearasil"
+    ],
+    "summary": "Yes, ACOG lists benzoyl peroxide among the acne treatments that can be used in pregnancy.",
+    "details": "Very little benzoyl peroxide is absorbed through the skin, and ACOG includes it in its list of over-the-counter acne ingredients that can be used in pregnancy. The NHS says it can usually be used in pregnancy but suggests checking first. It can bleach fabrics and irritate skin, so start with a lower strength.",
+    "tips": [
+      "Start with a low-strength product a few times a week.",
+      "Check with your doctor or pharmacist if you're using a prescription strength."
+    ]
+  },
+  "azelaic-acid": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Azelaic acid",
+    "aliases": [
+      "finacea",
+      "skinoren",
+      "rosacea cream",
+      "pigmentation cream",
+      "acne cream"
+    ],
+    "summary": "Yes, azelaic acid is one of the acne treatments that can be used in pregnancy.",
+    "details": "ACOG lists azelaic acid among the over-the-counter acne ingredients that can be used in pregnancy, and Mayo Clinic mentions it as an option for pregnancy acne. Very little is absorbed through the skin. Using daily sunscreen alongside it helps stop pregnancy-related dark patches from getting worse.",
+    "tips": [
+      "Pair it with daily sunscreen to protect against pregnancy dark patches (melasma)."
+    ]
+  },
+  "glycolic-acid": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Glycolic acid & AHA peels",
+    "aliases": [
+      "glycolic acid",
+      "aha",
+      "alpha hydroxy acid",
+      "lactic acid",
+      "exfoliating toner",
+      "chemical peel"
+    ],
+    "summary": "Everyday glycolic acid products are fine, but save strong professional chemical peels for after pregnancy.",
+    "details": "ACOG lists glycolic acid among the over-the-counter skin ingredients that can be used in pregnancy. Absorption through the skin is low, but MotherToBaby notes that more is absorbed when products are used over large areas, often, or on irritated skin. Pregnancy skin can also be more sensitive, so patch test first.",
+    "tips": [
+      "Use AHAs a few nights a week, and always wear sunscreen the next day."
+    ]
+  },
+  "vitamin-c-serum": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Vitamin C serum",
+    "aliases": [
+      "vitamin c",
+      "ascorbic acid serum",
+      "brightening serum",
+      "antioxidant serum"
+    ],
+    "summary": "Yes, vitamin C serums are fine in pregnancy and can be part of a gentle skincare routine.",
+    "details": "Vitamin C is an everyday nutrient, and only a small amount is absorbed through the skin from a serum. It isn't on any list of skincare ingredients to avoid in pregnancy. Combined with daily sunscreen, it can be part of a routine to manage the dark patches (melasma) that pregnancy can bring.",
+    "tips": [
+      "Check that 'brightening' or 'anti-ageing' serums don't also contain retinol."
+    ]
+  },
+  "hyaluronic-acid": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Hyaluronic acid",
+    "aliases": [
+      "hydrating serum",
+      "moisturiser",
+      "moisturizer",
+      "sodium hyaluronate",
+      "stretch mark cream"
+    ],
+    "summary": "Yes, hyaluronic acid serums and moisturisers are fine to use in pregnancy.",
+    "details": "Hyaluronic acid is a moisturising ingredient that's naturally found in skin, and it isn't on any list of skincare ingredients to avoid in pregnancy. ACOG notes that moisturisers can help keep skin soft, though no cream has been shown to prevent stretch marks. Injectable hyaluronic acid fillers are a different matter.",
+    "tips": [
+      "Injectable fillers are best postponed until after pregnancy."
+    ]
+  },
+  "sunscreen": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Sunscreen",
+    "aliases": [
+      "sun cream",
+      "spf",
+      "mineral sunscreen",
+      "zinc oxide",
+      "titanium dioxide",
+      "sunblock"
+    ],
+    "summary": "Yes, use it every day, as sunscreen helps stop the dark patches (melasma) that pregnancy can trigger.",
+    "details": "Pregnancy hormones can cause melasma, brown patches on the face, and ACOG recommends sunscreen and a wide-brimmed hat every day outdoors to stop it getting worse. Mineral sunscreens with zinc oxide or titanium dioxide are a good option if your skin is sensitive. Reapply as directed, especially after sweating or swimming.",
+    "tips": [
+      "Choose a broad-spectrum, high-SPF sunscreen and add a wide-brimmed hat."
+    ]
+  },
+  "self-tanner": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Self-tanner & spray tan",
+    "aliases": [
+      "fake tan",
+      "self tan",
+      "spray tan",
+      "tanning lotion",
+      "tanning mousse",
+      "tanning drops"
+    ],
+    "summary": "Self-tan lotions are considered low risk, but avoid breathing in spray tans, so lotions are the better choice.",
+    "details": "The active ingredient in sunless tanners, DHA, stays mostly on the skin's surface, and MotherToBaby notes that less than 1% is absorbed. However, DHA isn't approved for inhalation or for use near the eyes and lips, so spray-tan booths and mists are harder to control. Self-tan doesn't protect you from the sun.",
+    "tips": [
+      "Choose a lotion or mousse and apply it in a ventilated room.",
+      "If you do have a spray tan, ask for eye, nose and lip protection."
+    ]
+  },
+  "sunbeds": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Sunbeds & tanning salons",
+    "aliases": [
+      "sunbed",
+      "tanning bed",
+      "solarium",
+      "tanning salon",
+      "sunlamp"
+    ],
+    "summary": "Best avoided: sunbeds carry skin cancer risks for anyone, and in pregnancy they add overheating and darker patches.",
+    "details": "The NHS says sunbeds can be more dangerous than natural sunlight because they use a concentrated source of UV radiation, and the advice is not to use them at all. In pregnancy, the heat can also push up your body temperature, which MotherToBaby says is worth limiting. UV exposure can make pregnancy-related dark patches (melasma) worse.",
+    "tips": [
+      "Try a self-tan lotion instead for a safer glow."
+    ]
+  },
+  "waxing": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Waxing (ağda)",
+    "aliases": [
+      "bikini wax",
+      "sugaring",
+      "hair removal",
+      "threading",
+      "tweezing",
+      "shaving",
+      "epilator"
+    ],
+    "summary": "Yes, ACOG says tweezing, waxing and shaving are safe ways to remove hair in pregnancy.",
+    "details": "Pregnancy hormones can make hair grow faster or in new places, and ACOG says it's safe to use tweezing, waxing and shaving during pregnancy. Your skin may be more sensitive than usual, so waxing can sting more. Avoid waxing over varicose veins, broken skin or rashes.",
+    "tips": [
+      "Test a small patch first, as sensitivity can change in pregnancy.",
+      "Check the temperature of hot wax first to avoid burns."
+    ]
+  },
+  "laser-hair-removal": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Laser hair removal",
+    "aliases": [
+      "laser epilation",
+      "ipl",
+      "diode laser",
+      "alexandrite laser",
+      "laser hair"
+    ],
+    "summary": "Best postponed, as there's little safety data in pregnancy and shaving, waxing or tweezing are recommended instead.",
+    "details": "Laser and IPL hair removal haven't been studied in pregnancy. ACOG lists tweezing, waxing and shaving as safe ways to remove unwanted hair during pregnancy. Extra hair growth from pregnancy usually settles within about 6 months of the birth, so waiting may also save you sessions.",
+    "tips": [
+      "Pause your course of treatment and pick it up again after the birth."
+    ]
+  },
+  "botox-fillers": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Botox & fillers",
+    "aliases": [
+      "botox",
+      "botulinum toxin",
+      "dermal fillers",
+      "lip filler",
+      "hyaluronic acid filler",
+      "anti-wrinkle injections"
+    ],
+    "summary": "Best postponed: cosmetic Botox isn't recommended in pregnancy, and fillers haven't been shown to be safe.",
+    "details": "BUMPS says that, as a precaution, cosmetic Botox treatments aren't recommended in pregnancy because they have no medical benefit, even though no risks have been identified. The FDA states that the safety of dermal fillers during pregnancy is unknown. Botox used for medical reasons, such as severe migraine, is a separate decision for your doctor.",
+    "tips": [
+      "If you had a treatment before you knew you were pregnant, mention it to your midwife."
+    ]
+  },
+  "teeth-whitening": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Teeth whitening",
+    "aliases": [
+      "tooth bleaching",
+      "whitening strips",
+      "whitening kit",
+      "laser whitening",
+      "whitening toothpaste"
+    ],
+    "summary": "Best postponed until after pregnancy, as the NHS notes whitening may not be suitable while you're pregnant.",
+    "details": "The NHS lists pregnancy and breastfeeding among the reasons teeth whitening may not be suitable. It's a cosmetic treatment with no medical benefit, and pregnancy can make gums more sensitive. Regular check-ups and cleaning are still important, so keep up your dental care.",
+    "tips": [
+      "Keep up regular dental check-ups, and tell your dentist you're pregnant."
+    ]
+  },
+  "perfume": {
+    "category": "beauty",
+    "verdict": "safe",
+    "name": "Perfume & fragrance",
+    "aliases": [
+      "perfume",
+      "fragrance",
+      "body spray",
+      "eau de toilette",
+      "scented products",
+      "deodorant"
+    ],
+    "summary": "Yes, everyday perfume is fine, though you may find strong scents harder to tolerate.",
+    "details": "BUMPS notes that the small amounts of essential oils in everyday perfumes, cosmetics and toiletries are very unlikely to harm a baby. Many people develop a stronger sense of smell in pregnancy, and some fragrances can trigger nausea or headaches. The FDA notes that fragrance ingredients can cause allergic reactions in some people.",
+    "tips": [
+      "Spray it on clothes rather than skin if your skin feels sensitive."
+    ]
+  },
+  "essential-oils": {
+    "category": "beauty",
+    "verdict": "caution",
+    "name": "Essential oils & aromatherapy",
+    "aliases": [
+      "essential oils",
+      "aromatherapy",
+      "diffuser",
+      "lavender oil",
+      "peppermint oil",
+      "eucalyptus oil",
+      "tea tree oil",
+      "clary sage"
+    ],
+    "summary": "Diluted oils in massage or a diffuser are generally fine, but never swallow them or use them undiluted on skin.",
+    "details": "BUMPS says diluted essential oils are commonly used in pregnancy massage without problems, but a few specific oils are best avoided at any stage because of a theoretical risk of contractions. Undiluted oils can irritate skin and are toxic if swallowed. The NHS advises telling your midwife if you use aromatherapy and seeing a qualified practitioner.",
+    "tips": [
+      "Tell your massage therapist or aromatherapist that you're pregnant.",
+      "Keep bottles away from children, as swallowing even small amounts is dangerous."
+    ]
+  },
+  "tattoos-piercings": {
+    "category": "beauty",
+    "verdict": "avoid",
+    "name": "Tattoos & piercings",
+    "aliases": [
+      "tattoo",
+      "piercing",
+      "belly button piercing",
+      "microblading",
+      "permanent makeup",
+      "cosmetic tattoo"
+    ],
+    "summary": "Best postponed until after the birth, mainly because of the infection risk from needles and inks.",
+    "details": "Tattoos, permanent make-up and piercings haven't been studied in pregnancy. The FDA warns that unsterile equipment and contaminated inks can cause infections, and the NHS notes that infections such as hepatitis B, hepatitis C and HIV spread through contact with infected blood and can be passed to a baby. New piercings near the bump can also become uncomfortable as it grows.",
+    "tips": [
+      "If you had one done before you knew you were pregnant, tell your midwife so they can check for infection."
+    ]
+  },
+  "walking": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Walking",
+    "aliases": [
+      "walk",
+      "brisk walking",
+      "hiking",
+      "nordic walking",
+      "steps"
+    ],
+    "summary": "Yes, walking is one of the best exercises in pregnancy and is easy on your joints.",
+    "details": "The NHS and ACOG recommend about 150 minutes of moderate activity a week in pregnancy, and brisk walking is a simple way to get there. Moderate means you can talk but not sing. Regular activity may lower the risk of gestational diabetes and pre-eclampsia and can help with sleep and mood.",
+    "tips": [
+      "Wear supportive shoes and take water with you.",
+      "Short walks spread over the day count too."
+    ]
+  },
+  "running": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Running & jogging",
+    "aliases": [
+      "running",
+      "jogging",
+      "treadmill",
+      "parkrun",
+      "marathon training"
+    ],
+    "summary": "If you ran before pregnancy, you can usually keep going at a comfortable pace, but don't start running now.",
+    "details": "ACOG says experienced runners may be able to keep running in pregnancy with their ob-gyn's agreement, while the NHS advises against starting a new vigorous activity such as running. As your bump grows, your balance shifts and your joints loosen, so many people switch to brisk walking later on. Stop if you feel pain, dizziness or leak fluid.",
+    "tips": [
+      "Run at a pace where you can still hold a conversation.",
+      "Avoid running in the heat and drink plenty of water."
+    ]
+  },
+  "swimming": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Swimming",
+    "aliases": [
+      "swim",
+      "aqua aerobics",
+      "aquanatal",
+      "water aerobics",
+      "pool"
+    ],
+    "summary": "Yes, swimming is ideal in pregnancy, because the water supports your weight and eases pressure on your joints.",
+    "details": "ACOG lists swimming and water workouts among the safest exercises in pregnancy, and the NHS notes that water relieves pressure on your muscles and joints. Aquanatal classes are designed for pregnancy. Avoid diving or jumping in, and choose comfortably cool pools rather than very warm ones.",
+    "tips": [
+      "Use the steps rather than jumping in.",
+      "Take care on slippery poolside floors."
+    ]
+  },
+  "yoga": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Prenatal yoga",
+    "aliases": [
+      "yoga",
+      "pregnancy yoga",
+      "prenatal yoga",
+      "stretching",
+      "breathing exercises"
+    ],
+    "summary": "Yes, especially prenatal classes, but avoid hot yoga and long spells lying flat on your back later on.",
+    "details": "ACOG says modified yoga reduces stress, improves flexibility and encourages focused breathing, and prenatal classes adapt poses to your changing balance. Avoid poses that keep you still or flat on your back for long periods, and don't overstretch, as pregnancy hormones loosen your joints. The NHS suggests prenatal yoga can help ease back pain.",
+    "tips": [
+      "Tell your teacher you're pregnant and how many weeks you are."
+    ]
+  },
+  "hot-yoga": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Hot yoga & hot Pilates",
+    "aliases": [
+      "bikram",
+      "bikram yoga",
+      "hot pilates",
+      "heated yoga",
+      "infrared yoga"
+    ],
+    "summary": "Avoid it, because exercising in a heated room can raise your body temperature too much.",
+    "details": "ACOG specifically advises avoiding hot yoga and hot Pilates in pregnancy because they can cause overheating. MotherToBaby notes that a high body temperature in early pregnancy has been linked to a small increase in the chance of neural tube defects. Regular, room-temperature prenatal yoga gives you the same benefits.",
+    "tips": [
+      "Switch to a regular prenatal class in a cool, airy room."
+    ]
+  },
+  "pilates": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Pilates",
+    "aliases": [
+      "pilates",
+      "reformer pilates",
+      "mat pilates",
+      "core workout",
+      "prenatal pilates"
+    ],
+    "summary": "Yes, modified or prenatal Pilates is one of the exercises ACOG considers safest in pregnancy.",
+    "details": "ACOG includes modified Pilates among the safest forms of exercise in pregnancy, and prenatal classes adapt moves to your shifting balance. Avoid exercises that keep you lying flat on your back for long periods, especially later on. Skip intense abdominal crunches, and stop if anything causes pain.",
+    "tips": [
+      "Choose an instructor trained in pregnancy Pilates."
+    ]
+  },
+  "weight-lifting": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Weight lifting & strength training",
+    "aliases": [
+      "weights",
+      "gym",
+      "strength training",
+      "resistance training",
+      "squats",
+      "deadlifts",
+      "crossfit"
+    ],
+    "summary": "Yes, strength training is encouraged, but use moderate weights, avoid straining and adapt moves as your bump grows.",
+    "details": "The NHS recommends 2 muscle-strengthening sessions a week, including gym strength training if you already do it. ACOG advises avoiding jerky, high-impact movements because pregnancy hormones loosen your joints, and avoiding lying flat on your back for long periods. Holding your breath while straining and lifting very heavy loads are best avoided.",
+    "tips": [
+      "Tell your trainer you're pregnant.",
+      "Breathe out on the effort and keep a weight you can lift with good form."
+    ]
+  },
+  "hiit": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "HIIT & intense workouts",
+    "aliases": [
+      "hiit",
+      "high intensity interval training",
+      "bootcamp",
+      "circuit training",
+      "burpees",
+      "tabata"
+    ],
+    "summary": "If you're used to it, a modified version is usually OK, but don't start HIIT now and avoid jumping and overheating.",
+    "details": "ACOG says very active women can usually continue their workouts with their ob-gyn's approval, but advises avoiding jerky, bouncy or high-impact moves and overheating. The NHS says it's not recommended to start a new vigorous activity in pregnancy. Keep the intensity where you can still talk, and swap jumps for low-impact versions.",
+    "tips": [
+      "Swap burpees and jumps for step-outs and marching.",
+      "Stop if you feel dizzy, breathless before starting, or have pain."
+    ]
+  },
+  "cycling": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Cycling (outdoors)",
+    "aliases": [
+      "cycling",
+      "bike ride",
+      "road cycling",
+      "mountain biking",
+      "e-bike",
+      "cycle to work"
+    ],
+    "summary": "Outdoor cycling carries a fall risk as your balance changes, so a stationary bike is the safer choice.",
+    "details": "ACOG notes that your growing bump affects your balance and makes falls more likely, so riding a standard bicycle can be risky and a stationary bike is a better choice. The NHS advises avoiding activities with a risk of falling, such as mountain biking. If you're an experienced cyclist, quiet, flat routes in early pregnancy are lower risk than busy roads or trails.",
+    "tips": [
+      "Swap mountain biking for a stationary bike or spin class.",
+      "Always wear a helmet if you do ride outdoors."
+    ]
+  },
+  "spinning": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Spinning & stationary bike",
+    "aliases": [
+      "spin class",
+      "stationary bike",
+      "exercise bike",
+      "peloton",
+      "indoor cycling"
+    ],
+    "summary": "Yes, a stationary bike is one of the safest ways to do cardio in pregnancy, as long as you don't overheat.",
+    "details": "ACOG recommends stationary cycling over outdoor riding because there's no risk of falling. Spin classes can be hot and intense, and ACOG advises avoiding overheating, staying hydrated and exercising in a temperature-controlled room. Raise the handlebars as your bump grows, and keep to a pace where you can still talk.",
+    "tips": [
+      "Bring water, sit near a fan and ease off rather than following the class at full intensity."
+    ]
+  },
+  "horse-riding": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Horse riding",
+    "aliases": [
+      "horseback riding",
+      "equestrian",
+      "riding lessons",
+      "pony trekking"
+    ],
+    "summary": "Best avoided, because a fall from a horse could seriously injure you and your baby.",
+    "details": "ACOG lists horseback riding among the activities to avoid in pregnancy because of the risk of falling. Mayo Clinic notes that falls later in pregnancy, especially onto the belly, can lead to serious problems such as placental abruption. Even experienced riders can't control a horse's sudden movements.",
+    "tips": [
+      "Groundwork with horses, without riding, is a gentler way to stay involved."
+    ]
+  },
+  "skiing": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Skiing & snowboarding",
+    "aliases": [
+      "downhill skiing",
+      "snowboarding",
+      "ski holiday",
+      "water skiing",
+      "sledging"
+    ],
+    "summary": "Best avoided, as downhill skiing and snowboarding carry a high risk of falls and collisions.",
+    "details": "ACOG lists downhill snow skiing and water skiing among the activities to avoid in pregnancy because of the risk of falling. Many ski resorts are also above 6,000 feet (about 1,800 metres), and ACOG advises avoiding exercise at that altitude if you don't already live high up. Gentle walks in the snow are a safer way to enjoy the mountains.",
+    "tips": [
+      "Enjoy the resort with gentle walks and plenty of rest at lower altitudes."
+    ]
+  },
+  "scuba-diving": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Scuba diving",
+    "aliases": [
+      "scuba",
+      "diving",
+      "deep sea diving",
+      "padi",
+      "free diving"
+    ],
+    "summary": "Avoid it in pregnancy, as the NHS and CDC advise against scuba diving because of possible risks to the baby.",
+    "details": "The NHS advises not to scuba dive in pregnancy because it may be unsafe for your baby, and the CDC notes that diving's safety in pregnancy hasn't been established. The baby isn't protected from decompression problems the way you might be. Snorkelling at the surface is a lovely alternative.",
+    "tips": [
+      "Try snorkelling instead, staying at the surface and in calm water."
+    ]
+  },
+  "contact-sports": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Contact sports",
+    "aliases": [
+      "football",
+      "soccer",
+      "basketball",
+      "rugby",
+      "hockey",
+      "boxing",
+      "martial arts",
+      "kickboxing",
+      "volleyball"
+    ],
+    "summary": "Best avoided, because sports with a risk of being hit in the belly or falling could injure you or your baby.",
+    "details": "ACOG advises avoiding contact sports such as ice hockey, boxing, soccer and basketball in pregnancy, and the NHS lists hockey and rugby among activities with a risk of bumping your tummy. Later in pregnancy, a blow to the abdomen can cause problems such as placental abruption. Non-contact training and skills drills can keep you involved.",
+    "tips": [
+      "Swap matches for walking, swimming or a stationary bike."
+    ]
+  },
+  "sauna": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Sauna & steam room",
+    "aliases": [
+      "sauna",
+      "steam room",
+      "infrared sauna",
+      "spa",
+      "banya"
+    ],
+    "summary": "Best avoided, especially in the first trimester, because overheating can be harmful in early pregnancy.",
+    "details": "MotherToBaby notes that a high body temperature before about 6 weeks of pregnancy has been linked to a small increase in the chance of neural tube defects, and advises limiting hot tub and sauna use. ACOG says a high body temperature in pregnancy is linked to birth defects and other complications. Saunas can also make you dizzy or faint, which raises the risk of falling.",
+    "tips": [
+      "If you're not sure you can skip it, keep any visit very short and leave if you feel hot or dizzy."
+    ]
+  },
+  "hot-tub": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Hot tub & jacuzzi",
+    "aliases": [
+      "hot tub",
+      "jacuzzi",
+      "spa pool",
+      "whirlpool",
+      "hot spring",
+      "thermal pool"
+    ],
+    "summary": "Best avoided, as sitting in hot water raises your core temperature quickly, which matters most in early pregnancy.",
+    "details": "Hot tubs and thermal pools surround most of your body with hot water, so your core temperature can rise quickly. MotherToBaby advises limiting hot tub use in pregnancy, and notes that a high body temperature in early pregnancy has been linked to neural tube defects. Turkish kaplıca (thermal springs) are often very hot, so the same applies.",
+    "tips": [
+      "Dangle your legs in the water or choose a normal-temperature pool instead."
+    ]
+  },
+  "hamam": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Turkish bath (hamam)",
+    "aliases": [
+      "hammam",
+      "turkish bath",
+      "hamam",
+      "steam bath",
+      "kese",
+      "foam massage"
+    ],
+    "summary": "Skip the hottest rooms and the heated marble (göbek taşı); a short visit to the warm, not hot, area is the most to aim for.",
+    "details": "A traditional hamam combines hot, humid air with a heated marble slab, which can raise your body temperature much like a sauna. MotherToBaby advises limiting hot tub and sauna use, as a high body temperature in early pregnancy has been linked to neural tube defects. Wet marble floors are also slippery, and heat can make you dizzy, so falls are a real risk.",
+    "tips": [
+      "Avoid lying on the göbek taşı and keep to lukewarm water.",
+      "Go with someone, keep it short and drink water.",
+      "Ask for a gentle kese and no pressure on your bump."
+    ]
+  },
+  "hot-bath": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Hot baths",
+    "aliases": [
+      "bath",
+      "warm bath",
+      "bathtub",
+      "bubble bath",
+      "soak"
+    ],
+    "summary": "A warm bath is fine and can ease aches, but keep the water warm rather than hot and don't overheat.",
+    "details": "The NHS suggests a warm bath as a way to ease back pain in pregnancy. Very hot water can raise your body temperature, and MotherToBaby notes that high temperatures in early pregnancy have been linked to neural tube defects. Hot baths can also make you feel faint when you stand up, so get out slowly.",
+    "tips": [
+      "Test the water with your elbow: it should feel warm, not hot.",
+      "Use a non-slip mat and get out slowly."
+    ]
+  },
+  "sex": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Sex",
+    "aliases": [
+      "sex during pregnancy",
+      "intercourse",
+      "making love",
+      "intimacy",
+      "penetration"
+    ],
+    "summary": "Yes, in a healthy pregnancy sex is safe and won't harm your baby, unless your doctor has advised otherwise.",
+    "details": "In most pregnancies, sex isn't a risk to you or your baby, who is protected by the amniotic fluid and the muscles of the womb. A doctor may advise against it in some situations, such as a placenta lying over the cervix (placenta praevia) or a risk of bleeding. It's normal for your sex drive to change, and new positions may feel more comfortable as your bump grows.",
+    "tips": [
+      "Use condoms with a new partner, as some infections can affect your baby.",
+      "Contact your maternity team if you have bleeding, pain or leaking fluid afterwards."
+    ]
+  },
+  "orgasm": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Orgasm",
+    "aliases": [
+      "orgasm in pregnancy",
+      "climax",
+      "braxton hicks after sex",
+      "contractions after sex"
+    ],
+    "summary": "Yes, orgasms are safe in a healthy pregnancy, and mild tightening afterwards is normal.",
+    "details": "Later in pregnancy, an orgasm, or sex itself, can set off practice contractions known as Braxton Hicks. NI Direct says this is perfectly normal and nothing to worry about, and resting quietly usually helps them pass. If your doctor has advised you to avoid sex, ask whether that includes orgasm too.",
+    "tips": [
+      "Call your maternity team if tightenings become regular and painful before 37 weeks."
+    ]
+  },
+  "massage": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Massage",
+    "aliases": [
+      "pregnancy massage",
+      "prenatal massage",
+      "back massage",
+      "foot massage",
+      "spa treatment",
+      "reflexology"
+    ],
+    "summary": "Yes, a gentle massage from a therapist trained in pregnancy is a good way to ease aches and stress.",
+    "details": "The NHS suggests massage as one way to ease back pain in pregnancy, and Mayo Clinic lists it among relaxation techniques for headaches. Lie on your side rather than face down, and make sure the therapist knows you're pregnant. If essential oils are used, they should be diluted and suitable for pregnancy.",
+    "tips": [
+      "Book with a therapist trained in pregnancy massage.",
+      "Ask for side-lying positions with pillows for support."
+    ]
+  },
+  "chiropractor": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Chiropractor & osteopath",
+    "aliases": [
+      "chiropractic",
+      "chiropractor",
+      "osteopath",
+      "spinal manipulation",
+      "back cracking",
+      "adjustment"
+    ],
+    "summary": "For back or pelvic pain, start with your midwife or a physiotherapist; if you see a chiropractor, choose one experienced in pregnancy.",
+    "details": "Spinal manipulation hasn't been well studied in pregnancy. For back pain, the NHS suggests your GP or midwife may refer you to an obstetric physiotherapist, and ACOG suggests a physical therapist once other causes have been ruled out. Back pain can sometimes signal labour or a urine infection, so get it checked first.",
+    "tips": [
+      "Tell any practitioner how many weeks pregnant you are.",
+      "Stop if a treatment causes pain or tightening."
+    ]
+  },
+  "sleeping-on-back": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Sleeping on your back",
+    "aliases": [
+      "sleep position",
+      "back sleeping",
+      "lying on back",
+      "supine",
+      "sleeping position third trimester"
+    ],
+    "summary": "From 28 weeks, go to sleep on your side, as back-sleeping is linked to a higher risk of stillbirth; before that, it's fine.",
+    "details": "The NHS advises avoiding going to sleep on your back after 28 weeks because it has been linked to a higher risk of stillbirth. Lying on your back later in pregnancy lets the womb press on a large blood vessel, which can make you feel faint and reduce blood flow. If you wake up on your back, don't worry: just turn onto your side.",
+    "tips": [
+      "Put a pillow behind your back to help you stay on your side.",
+      "Either side is fine, so choose whichever is more comfortable."
+    ]
+  },
+  "sleeping-on-stomach": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Sleeping on your stomach",
+    "aliases": [
+      "front sleeping",
+      "stomach sleeping",
+      "lying on belly",
+      "prone"
+    ],
+    "summary": "Fine for as long as it's comfortable, as your baby is well protected, and most people switch to side-sleeping as the bump grows.",
+    "details": "In early pregnancy, the womb sits low behind the pelvic bone and your baby is cushioned by fluid, so lying on your front won't harm them. As your bump grows, front-sleeping usually becomes uncomfortable on its own. ACOG notes that side-sleeping with bent knees and pillows is the most comfortable position later in pregnancy.",
+    "tips": [
+      "Try a pregnancy pillow to make the switch to side-sleeping easier."
+    ]
+  },
+  "roller-coasters": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Roller coasters & fairground rides",
+    "aliases": [
+      "roller coaster",
+      "theme park",
+      "fairground rides",
+      "amusement park",
+      "water slides",
+      "bumper cars",
+      "go-karts"
+    ],
+    "summary": "Best avoided, as sudden jolts, stops and impacts could harm your pregnancy.",
+    "details": "Rides with sudden starts, stops and jolts can put force on your abdomen, much like a fall or a knock. Mayo Clinic notes that abdominal impacts later in pregnancy can cause problems such as placental abruption, and MotherToBaby explains how physical trauma can affect a pregnancy. Most theme parks advise pregnant visitors not to ride.",
+    "tips": [
+      "Choose gentle rides like the carousel or Ferris wheel instead."
+    ]
+  },
+  "trampolines": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Trampolines & bouncy castles",
+    "aliases": [
+      "trampoline",
+      "trampoline park",
+      "bouncy castle",
+      "rebounder",
+      "jumping"
+    ],
+    "summary": "Best avoided, because bouncing adds jolting and a real chance of falling or being knocked.",
+    "details": "ACOG advises avoiding jerky, bouncy and high-impact movements in pregnancy, as hormones loosen your joints and your changing balance makes falls more likely. Falls and knocks to the belly later in pregnancy can cause problems such as placental abruption. Bouncing alongside children also increases the chance of collisions.",
+    "tips": [
+      "Cheer from the side, and bring the kids' snacks."
+    ]
+  },
+  "lifting-toddler": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Lifting a toddler",
+    "aliases": [
+      "lifting children",
+      "carrying toddler",
+      "lifting heavy things",
+      "carrying shopping",
+      "picking up child"
+    ],
+    "summary": "Usually fine with good technique: bend your knees, keep your back straight and avoid very heavy lifting.",
+    "details": "The NHS counts carrying children and shopping as everyday muscle-strengthening activity, but advises bending your knees and keeping your back straight when lifting, and avoiding heavy objects. Pregnancy hormones loosen your ligaments, so your back and pelvis are more easily strained. If you have complications or pelvic pain, ask your midwife what's safe for you.",
+    "tips": [
+      "Squat down to your toddler's level and let them climb onto your lap instead.",
+      "Share the lifting with your partner where you can."
+    ]
+  },
+  "cleaning-products": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Household cleaning",
+    "aliases": [
+      "cleaning products",
+      "cleaning",
+      "oven cleaner",
+      "disinfectant",
+      "bathroom cleaner",
+      "air freshener",
+      "spray cleaner"
+    ],
+    "summary": "Everyday cleaning is fine with ventilation and gloves, but hand over oven cleaners and strong aerosols if you can.",
+    "details": "Nemours KidsHealth notes that some household chemicals are safe to use in pregnancy while others, such as oven cleaners, paint thinners, air fresheners and aerosols, may be hazardous. Strong smells can also make nausea worse. Reading labels, opening windows and wearing rubber gloves keeps exposure low.",
+    "tips": [
+      "Open windows, wear gloves and wash your hands afterwards.",
+      "Simple options like soap, vinegar and baking soda handle most jobs."
+    ]
+  },
+  "painting": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Painting & decorating",
+    "aliases": [
+      "painting nursery",
+      "paint fumes",
+      "decorating",
+      "wallpaper stripping",
+      "varnish",
+      "lead paint"
+    ],
+    "summary": "Light painting with water-based paint in a ventilated room is low risk, but let someone else strip old paint or use solvents.",
+    "details": "MotherToBaby notes that a one-off household paint job usually means far less exposure than painting for work, and recommends good ventilation and airing the room for 2 to 3 days afterwards. Pregnant women shouldn't scrape, sand or strip old paint, because older homes may have lead paint. Ladders are also a fall risk as your balance changes.",
+    "tips": [
+      "Choose water-based, low-VOC paint and keep windows open.",
+      "Stay off ladders and let the room air out before you sleep in it."
+    ]
+  },
+  "gardening": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Gardening",
+    "aliases": [
+      "gardening",
+      "soil",
+      "weeding",
+      "digging",
+      "allotment",
+      "potting plants"
+    ],
+    "summary": "Yes, gardening is good exercise, but wear gloves and wash your hands, as soil can carry toxoplasma.",
+    "details": "ACOG counts general gardening like raking, weeding and digging as moderate activity. Soil can be contaminated with cat faeces carrying toxoplasma, so the NHS advises wearing gloves even if you don't have a cat, and washing your hands and gloves afterwards. Avoid using garden pesticides yourself.",
+    "tips": [
+      "Wear gloves and wash your hands well after gardening.",
+      "Bend your knees when lifting pots and bags of compost."
+    ]
+  },
+  "cat-litter": {
+    "category": "activity",
+    "verdict": "avoid",
+    "name": "Cleaning cat litter",
+    "aliases": [
+      "cat litter",
+      "litter box",
+      "litter tray",
+      "cat poop",
+      "toxoplasmosis",
+      "cats"
+    ],
+    "summary": "Ask someone else to do it; if you must, wear gloves and clean the tray every day.",
+    "details": "Cat faeces can contain toxoplasma, a parasite that can harm your baby if you catch it for the first time in pregnancy. The NHS advises avoiding emptying cat litter trays while pregnant, or using disposable gloves and cleaning the tray daily if nobody else can. The CDC explains that the parasite only becomes infectious 1 to 5 days after it's passed, which is why daily cleaning helps.",
+    "tips": [
+      "You don't need to rehome your cat; just hand over litter duty.",
+      "Wash your hands after stroking cats and before eating."
+    ]
+  },
+  "standing-long": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Standing for long periods",
+    "aliases": [
+      "standing all day",
+      "standing at work",
+      "on my feet",
+      "shop work",
+      "long shifts"
+    ],
+    "summary": "It's fine in short spells, but standing still for long periods can make you dizzy and worsen swelling, so move often.",
+    "details": "ACOG explains that standing still can cause blood to pool in your legs and feet, which can briefly lower your blood pressure and make you feel faint. It also advises moving around regularly if you must sit or stand for long periods, to ease varicose veins and swelling. If your job keeps you on your feet, ask your employer about breaks and adjustments.",
+    "tips": [
+      "Shift your weight, flex your calves and rest one foot on a low stool.",
+      "Sit down quickly if you feel faint."
+    ]
+  },
+  "sunbathing": {
+    "category": "activity",
+    "verdict": "caution",
+    "name": "Sunbathing",
+    "aliases": [
+      "sunbathing",
+      "tanning",
+      "beach",
+      "lying in the sun",
+      "heat"
+    ],
+    "summary": "Enjoy the outdoors in short spells, but avoid overheating and use sunscreen to prevent pregnancy dark patches.",
+    "details": "ACOG notes that your body works harder to keep cool in pregnancy and that a high body temperature has been linked to complications, so avoid long spells in strong sun and heat. Sun exposure can also trigger or darken melasma, the brown patches pregnancy can cause. Shade, water and a hat make beach days much safer.",
+    "tips": [
+      "Avoid the midday sun and sit in the shade.",
+      "Drink water regularly and wear a wide-brimmed hat."
+    ]
+  },
+  "pelvic-floor-exercises": {
+    "category": "activity",
+    "verdict": "safe",
+    "name": "Pelvic floor (Kegel) exercises",
+    "aliases": [
+      "kegels",
+      "kegel exercises",
+      "pelvic floor",
+      "squeezes",
+      "bladder leaks"
+    ],
+    "summary": "Yes, they're recommended in pregnancy and help prevent leaking when you cough, sneeze or laugh.",
+    "details": "Your pelvic floor muscles support your bladder, bowel and womb, and pregnancy and birth put extra strain on them. The NHS recommends pelvic floor exercises in pregnancy to help prevent leaks of urine, which are common. You can do them anywhere, sitting, standing or lying on your side.",
+    "tips": [
+      "Squeeze as if stopping a wee, hold, then fully relax; repeat a few times a day.",
+      "Ask your midwife to check your technique if you're unsure."
+    ]
+  },
+  "flying": {
+    "category": "travel",
+    "verdict": "safe",
+    "name": "Flying",
+    "aliases": [
+      "air travel",
+      "plane",
+      "flight",
+      "flying pregnant",
+      "airline",
+      "fit to fly letter"
+    ],
+    "summary": "Yes, flying isn't harmful in a healthy pregnancy, but airlines restrict travel late on, so check before you book.",
+    "details": "The NHS says flying isn't harmful to you or your baby, and the RCOG agrees that air travel is usually safe in an uncomplicated pregnancy. Many airlines don't let you fly after about 36 weeks (32 weeks with twins), and some ask for a letter confirming your due date after 28 weeks. Mid-pregnancy is often the most comfortable time to travel.",
+    "tips": [
+      "Check your airline's pregnancy policy before booking.",
+      "Carry your pregnancy notes, plus a doctor's letter if you're past 28 weeks."
+    ]
+  },
+  "long-haul-flights": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "Long-haul flights & blood clots",
+    "aliases": [
+      "long flight",
+      "long-haul",
+      "dvt",
+      "deep vein thrombosis",
+      "compression stockings",
+      "flight socks"
+    ],
+    "summary": "Usually fine, but pregnancy raises the risk of blood clots on journeys over 4 hours, so keep moving and drink water.",
+    "details": "Travel lasting 4 hours or more increases the risk of deep vein thrombosis (DVT), and pregnancy adds to that risk. ACOG and the RCOG advise drinking plenty of water, wearing loose clothing, and walking and flexing your legs regularly. Graduated compression stockings can help, but check with your doctor first, especially if you have other risk factors.",
+    "tips": [
+      "Book an aisle seat and walk around every 30 minutes or so.",
+      "Get urgent help for a painful, swollen leg or sudden breathlessness."
+    ]
+  },
+  "travel-insurance": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "Travel insurance",
+    "aliases": [
+      "health insurance abroad",
+      "medical evacuation",
+      "travel cover",
+      "ehic",
+      "ghic"
+    ],
+    "summary": "Get a policy that clearly covers pregnancy, early birth and newborn care, as many standard policies don't.",
+    "details": "The CDC notes that many insurance policies don't cover pregnancy-related or newborn care abroad, and strongly recommends cover for these and for medical evacuation. ACOG suggests calling your insurer 4 to 6 weeks before an international trip to check what's included. Look out for week limits, as some policies stop covering pregnancy after a certain point.",
+    "tips": [
+      "Ask specifically about premature birth and newborn intensive care.",
+      "Carry your policy details and your pregnancy notes."
+    ]
+  },
+  "zika-areas": {
+    "category": "travel",
+    "verdict": "avoid",
+    "name": "Travel to Zika areas",
+    "aliases": [
+      "zika",
+      "zika virus",
+      "mosquito areas",
+      "caribbean travel",
+      "brazil",
+      "central america"
+    ],
+    "summary": "Postpone non-essential travel to areas with Zika, because infection in pregnancy can cause serious birth defects.",
+    "details": "Zika is spread mainly by mosquitoes and can also be passed on through sex. Infection in pregnancy can cause birth defects, including microcephaly, so the NHS recommends postponing non-essential travel to high-risk areas. The risk varies by country and over time, so check up-to-date travel health advice before booking.",
+    "tips": [
+      "If your partner travels to a Zika area, use condoms for the rest of your pregnancy.",
+      "If you must go, use DEET repellent and cover your arms and legs."
+    ]
+  },
+  "malaria-areas": {
+    "category": "travel",
+    "verdict": "avoid",
+    "name": "Travel to malaria areas",
+    "aliases": [
+      "malaria",
+      "malaria tablets",
+      "antimalarials",
+      "africa travel",
+      "tropical travel",
+      "safari"
+    ],
+    "summary": "Avoid or delay travel to malaria areas if you can, as malaria is more dangerous in pregnancy and some tablets aren't suitable.",
+    "details": "Malaria can be more severe in pregnancy and can harm the baby. The CDC advises avoiding or delaying travel to malaria areas in pregnancy, and the NHS notes that some anti-malaria tablets aren't safe to take while you're pregnant. If travel is unavoidable, get specialist advice well in advance.",
+    "tips": [
+      "See a travel clinic 4 to 6 weeks before you go.",
+      "Sleep under a treated net and use DEET repellent."
+    ]
+  },
+  "seatbelt": {
+    "category": "travel",
+    "verdict": "safe",
+    "name": "Wearing a seatbelt",
+    "aliases": [
+      "seat belt",
+      "car safety",
+      "lap belt",
+      "pregnancy belt adapter",
+      "car crash"
+    ],
+    "summary": "Yes, always wear it, with the lap belt below your bump and the shoulder strap between your breasts.",
+    "details": "Seatbelts protect you and your baby in a crash, and road accidents are among the most common causes of injury in pregnancy. The NHS advises placing the cross strap between your breasts and the lap strap across your pelvis under your bump, not across it. ACOG adds that you should wear your seatbelt at all times.",
+    "tips": [
+      "Get checked by your maternity team after any car accident, even if you feel fine."
+    ]
+  },
+  "driving": {
+    "category": "travel",
+    "verdict": "safe",
+    "name": "Driving",
+    "aliases": [
+      "driving pregnant",
+      "car",
+      "commute",
+      "driving third trimester",
+      "steering wheel"
+    ],
+    "summary": "Yes, you can drive throughout pregnancy if you feel well, but take breaks and adjust your seat as your bump grows.",
+    "details": "Tiredness and dizziness are common in pregnancy, so the NHS suggests stopping regularly, drinking water and eating snacks on long drives. Keep your seatbelt correctly positioned and move your seat back as far as you comfortably can while still reaching the pedals. Avoid driving if you feel faint or very tired.",
+    "tips": [
+      "On long trips, share the driving and stop every hour or two to stretch."
+    ]
+  },
+  "airport-scanners": {
+    "category": "travel",
+    "verdict": "safe",
+    "name": "Airport security scanners",
+    "aliases": [
+      "body scanner",
+      "airport security",
+      "x-ray scanner",
+      "millimeter wave",
+      "metal detector"
+    ],
+    "summary": "Yes, metal detectors and body scanners are considered safe in pregnancy, as they use little or no radiation.",
+    "details": "The CDC notes that metal detectors aren't harmful in pregnancy and that the risk from body scanners is extremely low. The FDA explains that millimetre-wave scanners use non-ionising energy, and that the dose from an X-ray body scanner is less than you get from about 42 minutes of everyday natural background radiation. You can ask for a pat-down instead if you prefer.",
+    "tips": [
+      "If it reassures you, ask for a hand search instead."
+    ]
+  },
+  "high-altitude": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "High altitude",
+    "aliases": [
+      "altitude",
+      "mountains",
+      "hiking at altitude",
+      "altitude sickness",
+      "trekking"
+    ],
+    "summary": "Short visits are usually fine, but avoid exercising above about 1,800 metres (6,000 feet) unless you live at altitude.",
+    "details": "ACOG advises against exercising above 6,000 feet (about 1,800 metres) in pregnancy if you don't already live at high altitude. The CDC recommends going up slowly and allowing time to acclimatise, and notes that remote areas may be far from medical care. Very high-altitude trekking is best postponed.",
+    "tips": [
+      "Go up gradually and rest more than usual for the first few days.",
+      "Get help for a severe headache, breathlessness or swelling."
+    ]
+  },
+  "cruise": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "Cruises & boat trips",
+    "aliases": [
+      "cruise ship",
+      "ferry",
+      "boat trip",
+      "seasickness",
+      "sailing"
+    ],
+    "summary": "Often possible earlier in pregnancy, but most cruise lines won't carry you after about 24 weeks, and seasickness can be tough.",
+    "details": "The CDC notes that most cruise lines restrict travel beyond 24 weeks and may ask for a doctor's note, and ferry companies have their own limits too. ACOG suggests checking that there's a doctor or nurse on board and medical facilities at the ports. Seasickness can make a cruise harder in pregnancy, so ask in advance which remedies you can use.",
+    "tips": [
+      "Check the cruise line's pregnancy policy before booking.",
+      "Wash your hands often and carry hand sanitiser."
+    ]
+  },
+  "road-trips": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "Long car journeys",
+    "aliases": [
+      "road trip",
+      "long drive",
+      "car journey",
+      "bus journey",
+      "coach travel",
+      "train travel"
+    ],
+    "summary": "They're fine with planning: stop regularly to stretch, drink water and keep your seatbelt below your bump.",
+    "details": "The NHS suggests avoiding long car journeys where you can and, if you can't, stopping regularly to walk around. ACOG notes that any journey of 4 hours or more, by car, bus, train or plane, raises your risk of blood clots, and pregnancy adds to it. Flexing your feet and wiggling your toes while you're a passenger helps keep the blood moving.",
+    "tips": [
+      "Plan stops every hour or two and walk for a few minutes.",
+      "Pack water and healthy snacks, and try not to travel alone."
+    ]
+  },
+  "travel-vaccines": {
+    "category": "travel",
+    "verdict": "caution",
+    "name": "Travel vaccinations",
+    "aliases": [
+      "travel vaccines",
+      "yellow fever vaccine",
+      "typhoid vaccine",
+      "hepatitis a vaccine",
+      "live vaccines",
+      "travel jabs"
+    ],
+    "summary": "Non-live vaccines are generally safe in pregnancy, but most live vaccines aren't recommended, so get advice early.",
+    "details": "The NHS says inactivated (non-live) vaccines are safe in pregnancy, while most live vaccines aren't recommended, although some may be considered if the risk of infection is high. The CDC lists MMR, chickenpox and live typhoid among vaccines to avoid, with yellow fever needing a case-by-case decision. Plan a travel health appointment 4 to 6 weeks before your trip.",
+    "tips": [
+      "Tell the travel clinic you're pregnant before any vaccine is given."
+    ]
+  },
+  "insect-repellent": {
+    "category": "travel",
+    "verdict": "safe",
+    "name": "Insect repellent (DEET)",
+    "aliases": [
+      "deet",
+      "mosquito repellent",
+      "insect spray",
+      "icaridin",
+      "picaridin",
+      "bug spray",
+      "ir3535"
+    ],
+    "summary": "Yes, repellents like DEET are recommended in pregnancy where insect bites could spread serious illness.",
+    "details": "BUMPS says there's no evidence that insect repellents harm the baby, and recommends using them in pregnancy where bites can spread illnesses such as malaria or Zika. Common active ingredients include DEET, icaridin, lemon eucalyptus oil and IR3535, and travel health services can advise which suits your destination. Use them as directed on the label.",
+    "tips": [
+      "Cover up with long, loose sleeves and trousers, especially at dusk and dawn."
+    ]
+  },
+  "microwave": {
+    "category": "home",
+    "verdict": "safe",
+    "name": "Microwave ovens",
+    "aliases": [
+      "microwave",
+      "microwave radiation",
+      "standing near microwave",
+      "reheating food"
+    ],
+    "summary": "Yes, using a microwave that's in good condition is safe in pregnancy.",
+    "details": "The FDA says microwave ovens that meet safety standards and are used according to the instructions are safe. The WHO notes that evaluations of everyday electromagnetic fields haven't found an increased risk of miscarriage, birth defects or other pregnancy problems. Microwaves can heat unevenly, so make sure food is steaming hot all the way through.",
+    "tips": [
+      "Stir food halfway through and let it stand so it heats evenly.",
+      "Don't use an oven with a damaged door or seal."
+    ]
+  },
+  "mobile-phone-wifi": {
+    "category": "home",
+    "verdict": "safe",
+    "name": "Mobile phones, laptops & Wi-Fi",
+    "aliases": [
+      "mobile phone",
+      "cell phone",
+      "wifi",
+      "wi-fi",
+      "laptop on lap",
+      "5g",
+      "phone radiation",
+      "bluetooth"
+    ],
+    "summary": "Yes, everyday use of phones, laptops and Wi-Fi hasn't been shown to harm a pregnancy.",
+    "details": "The FDA says the weight of scientific evidence hasn't linked radio waves from mobile phones with health problems. The WHO notes that exposure to electromagnetic fields at typical everyday levels, from sources such as computer screens, hasn't been found to increase the risk of miscarriage, birth defects or low birth weight. A laptop resting on your lap can get warm, so use a table or cushion for comfort.",
+    "tips": [
+      "Put your phone down an hour before bed to help you sleep."
+    ]
+  },
+  "electric-blanket": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "Electric blankets & heating pads",
+    "aliases": [
+      "electric blanket",
+      "heated blanket",
+      "heating pad",
+      "hot water bottle",
+      "heated mattress pad"
+    ],
+    "summary": "Fine for warming the bed, but switch it off before you sleep so you don't overheat, and keep heating pads on low.",
+    "details": "The WHO notes that electric blankets are among the everyday sources of electromagnetic fields that have been evaluated without finding an increased risk to pregnancy. The main thing to avoid is overheating, as MotherToBaby notes that a high body temperature in early pregnancy has been linked to neural tube defects. Heating pads are best used on a low setting, wrapped in a towel, for short periods.",
+    "tips": [
+      "Warm the bed, then switch the blanket off before you get in."
+    ]
+  },
+  "x-rays": {
+    "category": "home",
+    "verdict": "safe",
+    "name": "X-rays, including dental",
+    "aliases": [
+      "x-ray",
+      "dental x-ray",
+      "chest x-ray",
+      "radiograph",
+      "panoramic x-ray",
+      "bitewing",
+      "mammogram"
+    ],
+    "summary": "Yes, if you need one: most X-rays, including dental ones, use very low doses and don't target your bump.",
+    "details": "Mayo Clinic says the chance of an X-ray harming a baby is very small, and that X-rays of the teeth, head, arms, legs or chest don't directly expose the womb. X-rays of the abdomen or pelvis are different, but the FDA notes that even then the risk is very small and often outweighed by the benefit. Always tell staff you're pregnant so they can plan the safest approach.",
+    "tips": [
+      "Don't put off necessary dental care, and tell your dentist you're pregnant."
+    ]
+  },
+  "mri": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "MRI scans",
+    "aliases": [
+      "mri scan",
+      "magnetic resonance",
+      "gadolinium",
+      "contrast dye",
+      "fetal mri"
+    ],
+    "summary": "MRI can be used in pregnancy when needed, as it uses no radiation, but contrast dye is only given if really necessary.",
+    "details": "MRI uses magnets and radio waves rather than ionising radiation, and ACOG describes ultrasound and MRI as the imaging techniques of choice in pregnancy. MotherToBaby notes that a study of more than 1,700 pregnancies exposed to MRI in the first trimester didn't find an increased chance of birth defects. Contrast dye is used only when the expected benefit outweighs the possible risks.",
+    "tips": [
+      "Tell the radiographer you're pregnant, and ask whether contrast is needed."
+    ]
+  },
+  "ct-scan": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "CT scans",
+    "aliases": [
+      "ct scan",
+      "cat scan",
+      "computed tomography",
+      "ct with contrast"
+    ],
+    "summary": "If a CT is medically needed it shouldn't be delayed, but tell staff you're pregnant so they can keep the dose low.",
+    "details": "CT scans use X-rays, but ACOG notes that, with few exceptions, the radiation dose from diagnostic imaging is much lower than the level associated with harm to a baby, and that necessary scans shouldn't be withheld. Scans of the head, chest or limbs expose the womb much less than scans of the abdomen or pelvis. Your team may suggest ultrasound or MRI instead if they can answer the same question.",
+    "tips": [
+      "Mention your pregnancy every time imaging is discussed, including in emergencies."
+    ]
+  },
+  "bleach": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "Cleaning with bleach",
+    "aliases": [
+      "bleach",
+      "chlorine",
+      "domestos",
+      "disinfectant",
+      "mould spray",
+      "ammonia"
+    ],
+    "summary": "Using diluted bleach in a ventilated room is generally fine, but never mix it with other cleaners.",
+    "details": "Nemours KidsHealth, citing the March of Dimes, notes that chemicals like chlorine and ammonia may make you feel sick because of the smell but aren't toxic when used normally. Mixing bleach with ammonia or acidic cleaners such as limescale removers releases dangerous gases. Gloves and open windows keep exposure low.",
+    "tips": [
+      "Never combine bleach with other products, especially limescale removers.",
+      "Open windows, wear gloves and rinse surfaces well."
+    ]
+  },
+  "mould": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "Mould & damp",
+    "aliases": [
+      "mold",
+      "mould",
+      "damp",
+      "black mould",
+      "black mold",
+      "condensation",
+      "musty smell"
+    ],
+    "summary": "Get mould removed promptly, ideally by someone else, and avoid scrubbing large patches yourself.",
+    "details": "MotherToBaby notes that mould hasn't been well studied in pregnancy, but some moulds can cause symptoms like a stuffy nose, wheezing or skin irritation, especially if you have asthma. It advises having mould in your home removed as soon as possible. Fixing the source of the damp stops it coming back.",
+    "tips": [
+      "Air rooms daily, especially kitchens and bathrooms.",
+      "Ask someone else to clean visible mould, wearing gloves and a mask."
+    ]
+  },
+  "pets": {
+    "category": "home",
+    "verdict": "safe",
+    "name": "Pets & dogs",
+    "aliases": [
+      "dog",
+      "pets",
+      "cat",
+      "puppy",
+      "rabbit",
+      "reptiles",
+      "farm animals",
+      "lambing",
+      "sheep"
+    ],
+    "summary": "Yes, living with dogs and other pets is fine with good hygiene, though cat litter and lambing need extra care.",
+    "details": "Most pets pose little risk in pregnancy if you wash your hands after handling them, their food or their mess. The NHS advises avoiding emptying cat litter because of toxoplasma, and avoiding lambing, milking ewes and contact with newborn lambs. Big, bouncy dogs can knock you over as your balance changes, so take care on walks.",
+    "tips": [
+      "Wash your hands after cleaning up after pets.",
+      "Let someone else handle cat litter."
+    ]
+  },
+  "pesticides": {
+    "category": "home",
+    "verdict": "caution",
+    "name": "Pesticides & insect sprays",
+    "aliases": [
+      "pesticides",
+      "bug spray",
+      "insecticide",
+      "weed killer",
+      "fumigation",
+      "flea treatment",
+      "pest control"
+    ],
+    "summary": "Avoid mixing or applying pesticides yourself; a professional treatment is unlikely to be a problem if you follow their advice.",
+    "details": "MotherToBaby advises avoiding mixing and applying pesticides yourself in pregnancy if possible. It notes that having your home treated by a professional exterminator is unlikely to lead to a high enough exposure to increase risks to a pregnancy. Washing produce and your hands before eating lowers exposure from food.",
+    "tips": [
+      "Stay out of treated rooms for as long as the label or technician advises, and air them well.",
+      "Wear gloves when applying pet flea treatments."
+    ]
+  },
+  "smoking": {
+    "category": "home",
+    "verdict": "avoid",
+    "name": "Smoking",
+    "aliases": [
+      "cigarettes",
+      "tobacco",
+      "rolling tobacco",
+      "nicotine",
+      "quit smoking",
+      "heated tobacco",
+      "iqos",
+      "cigars"
+    ],
+    "summary": "Avoid it: stopping smoking is one of the best things you can do for your baby, and it's never too late to quit.",
+    "details": "Smoking in pregnancy increases the risk of miscarriage, stillbirth, premature birth and a baby who doesn't grow well, as well as sudden infant death. The WHO says all forms of tobacco use are harmful, including heated tobacco. The NHS says nicotine replacement therapy, such as patches or gum, can be used in pregnancy if it helps you stop.",
+    "tips": [
+      "Ask your midwife or GP about free stop-smoking support.",
+      "Make your home and car smoke-free for everyone."
+    ]
+  },
+  "vaping": {
+    "category": "home",
+    "verdict": "avoid",
+    "name": "Vaping & e-cigarettes",
+    "aliases": [
+      "vape",
+      "e-cigarette",
+      "e-cig",
+      "juul",
+      "elf bar",
+      "disposable vape",
+      "nicotine pouches"
+    ],
+    "summary": "Not recommended in pregnancy, though if it's helping you stay off cigarettes, it's far less harmful than smoking.",
+    "details": "BUMPS says vaping isn't recommended in pregnancy and might increase the risk of premature birth and low birth weight. The NHS notes that e-cigarettes are much less risky than smoking, so if vaping has helped you quit cigarettes, it's still safer than going back to smoking. Nicotine replacement, such as patches or gum, is the recommended way to stop.",
+    "tips": [
+      "Talk to your midwife about switching to patches or gum to come off nicotine."
+    ]
+  },
+  "second-hand-smoke": {
+    "category": "home",
+    "verdict": "avoid",
+    "name": "Second-hand smoke",
+    "aliases": [
+      "passive smoking",
+      "secondhand smoke",
+      "smoky rooms",
+      "partner smoking",
+      "third-hand smoke"
+    ],
+    "summary": "Avoid it as much as you can, as other people's smoke can lower your baby's birth weight and affect their health.",
+    "details": "The NHS says second-hand smoke can reduce your baby's birth weight and increase the risk of sudden infant death syndrome. The WHO states that there's no safe level of exposure to second-hand tobacco smoke. A smoke-free home and car protects you now and your baby after the birth.",
+    "tips": [
+      "Ask partners and visitors to smoke outside, away from doors and windows.",
+      "Choose smoke-free cafés and restaurants."
+    ]
+  },
+  "shisha": {
+    "category": "home",
+    "verdict": "avoid",
+    "name": "Shisha (hookah)",
+    "aliases": [
+      "hookah",
+      "shisha",
+      "waterpipe",
+      "hubble bubble",
+      "narghile",
+      "shisha cafe"
+    ],
+    "summary": "Avoid it: shisha is tobacco smoking, and the charcoal adds carbon monoxide, so steer clear of shisha cafés too.",
+    "details": "The WHO lists waterpipe tobacco among tobacco products and says all forms of tobacco use are harmful, whatever the flavour. The charcoal used to heat shisha produces carbon monoxide, which MotherToBaby notes takes much longer to clear from a baby's blood than from an adult's. Smoky, enclosed shisha lounges also expose you to second-hand smoke.",
+    "tips": [
+      "Meet friends in smoke-free places for now."
+    ]
+  },
+  "carbon-monoxide": {
+    "category": "home",
+    "verdict": "avoid",
+    "name": "Carbon monoxide (stoves & heaters)",
+    "aliases": [
+      "carbon monoxide",
+      "co poisoning",
+      "gas heater",
+      "boiler",
+      "coal stove",
+      "co alarm",
+      "fumes"
+    ],
+    "summary": "Make sure stoves, boilers and water heaters are safe and fit a CO alarm, as carbon monoxide is especially harmful in pregnancy.",
+    "details": "Carbon monoxide is an invisible, odourless gas released by faulty fuel-burning appliances such as stoves, boilers and gas water heaters. MotherToBaby notes that once it reaches the baby's blood, it takes much longer to clear than it does for an adult. Headaches, dizziness or nausea that ease when you leave the house can be a warning sign.",
+    "tips": [
+      "Have stoves, chimneys and water heaters checked every year.",
+      "If you suspect carbon monoxide, get into fresh air and seek urgent medical help."
+    ]
+  }
+}

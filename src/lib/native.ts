@@ -27,7 +27,7 @@ export async function syncWidget(profile: Profile, lang: LangCode): Promise<void
   const t = (k: string) => translate(lang, k);
   const weeks = Array.from({ length: 42 }).map((_, i) => {
     const w = getWeek(i + 1);
-    return { w: i + 1, e: w.size.emoji, n: sizePhrase(w.size.name, lang) };
+    return { w: i + 1, e: w.size.emoji, n: sizePhrase(w.size, lang) };
   });
   const payload = {
     dueDate: profile.dueDate,

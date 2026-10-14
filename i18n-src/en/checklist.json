@@ -1,0 +1,154 @@
+{
+  "take-pregnancy-test": {
+    "title": "Take a home pregnancy test",
+    "detail": "Most tests are reliable from the first day of a missed period. If it's negative but your period still doesn't come, test again a few days later."
+  },
+  "start-folic-acid": {
+    "title": "Take folic acid every day",
+    "detail": "400 micrograms a day, ideally from before conception until 12 weeks. Your doctor may advise a higher dose in some situations."
+  },
+  "review-medicines": {
+    "title": "Review your medicines and supplements",
+    "detail": "Ask a doctor or pharmacist before starting or stopping anything, and avoid supplements containing vitamin A (retinol)."
+  },
+  "stop-alcohol-and-smoking": {
+    "title": "Stop alcohol and smoking",
+    "detail": "No amount of alcohol is known to be safe in pregnancy. If you smoke, ask your doctor or midwife about support to quit."
+  },
+  "limit-caffeine": {
+    "title": "Keep caffeine under 200 mg a day",
+    "detail": "That's about two mugs of instant coffee. Tea, cola, energy drinks and chocolate contain caffeine too."
+  },
+  "learn-food-safety": {
+    "title": "Learn which foods to avoid",
+    "detail": "Such as unpasteurised dairy, raw or undercooked meat, liver, and fish high in mercury like shark and swordfish."
+  },
+  "book-first-appointment": {
+    "title": "Book your first pregnancy appointment",
+    "detail": "Often called the booking appointment, it usually happens between 8 and 12 weeks and covers your health history, tests and care options."
+  },
+  "ask-about-vitamin-d": {
+    "title": "Ask about vitamin D",
+    "detail": "Many people are advised to take a daily vitamin D supplement in pregnancy. Recommended amounts vary by country."
+  },
+  "first-blood-tests": {
+    "title": "Have your first blood tests",
+    "detail": "These usually check your blood group and Rh (D) status, iron levels and infections such as HIV, hepatitis B and syphilis."
+  },
+  "flu-and-covid-vaccines": {
+    "title": "Ask about flu and COVID-19 vaccines",
+    "detail": "The flu vaccine can be given at any stage of pregnancy during flu season. Ask whether a COVID-19 vaccine is advised for you."
+  },
+  "decide-on-screening": {
+    "title": "Decide about screening tests",
+    "detail": "You may be offered the combined test (about 10 to 14 weeks) or NIPT (from 10 weeks). Whether to have screening is your choice."
+  },
+  "dating-scan": {
+    "title": "Have your dating scan",
+    "detail": "Usually between 10 and 14 weeks, it checks your baby's development and confirms your due date."
+  },
+  "dental-check-up": {
+    "title": "Book a dental check-up",
+    "detail": "Gum problems are common in pregnancy. Let your dentist know you're pregnant."
+  },
+  "pelvic-floor-exercises": {
+    "title": "Start daily pelvic floor exercises",
+    "detail": "Squeeze and lift the muscles you'd use to hold in pee, hold for a few seconds, then relax. They help prevent leaks now and after birth."
+  },
+  "whooping-cough-vaccine": {
+    "title": "Ask about the whooping cough vaccine",
+    "detail": "Usually given between 16 and 32 weeks in the UK or 27–36 weeks in the US. It helps protect your baby in the first weeks of life."
+  },
+  "choose-birth-place": {
+    "title": "Think about where to give birth",
+    "detail": "Options such as a hospital, birth centre or home birth vary by area. You can change your mind later."
+  },
+  "maternity-leave-rights": {
+    "title": "Look into maternity leave and pay",
+    "detail": "Rules and deadlines vary by country and employer. Note when you need to tell your employer and claim any pay."
+  },
+  "anomaly-scan": {
+    "title": "Have your anomaly (anatomy) scan",
+    "detail": "This detailed scan, usually between about 18 and 22 weeks, checks how your baby is growing and developing."
+  },
+  "pregnancy-certificate": {
+    "title": "Get a pregnancy certificate for work",
+    "detail": "Some employers and benefit schemes need a certificate from your doctor or midwife, such as the MAT B1 form in the UK."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Learn the warning signs of pre-eclampsia",
+    "detail": "A severe headache, vision problems, pain just below the ribs or sudden swelling of the face, hands or feet need urgent checking."
+  },
+  "book-antenatal-classes": {
+    "title": "Book antenatal classes",
+    "detail": "Classes on labour, birth and feeding can help you feel prepared. Popular ones fill up early."
+  },
+  "glucose-test": {
+    "title": "Glucose test for gestational diabetes",
+    "detail": "Often done between 24 and 28 weeks, either for everyone or if you have risk factors, depending on where you live."
+  },
+  "know-baby-movements": {
+    "title": "Get to know your baby's movements",
+    "detail": "There's no set number of kicks to count. If movements slow down, change or stop, call your maternity unit straight away."
+  },
+  "partner-leave": {
+    "title": "Check leave for your partner",
+    "detail": "If your partner plans time off around the birth, they may need to tell their employer by a set date."
+  },
+  "baby-essentials-list": {
+    "title": "Make a list of baby essentials",
+    "detail": "Start with a safe place to sleep, a car seat, clothes, nappies and feeding supplies. Borrowed items are fine, but use a new mattress if you can."
+  },
+  "anti-d-if-rh-negative": {
+    "title": "Anti-D if you're Rh (D) negative",
+    "detail": "If your blood group is Rh (D) negative, you may be offered anti-D injections, often around 28 weeks."
+  },
+  "rsv-vaccine": {
+    "title": "Ask about the RSV vaccine",
+    "detail": "Offered from 28 weeks in the UK, or at 32 to 36 weeks during RSV season in the US. It helps protect your baby in their first months."
+  },
+  "sleep-on-side": {
+    "title": "Go to sleep on your side",
+    "detail": "From 28 weeks, side-sleeping is safest for your baby, including naps. If you wake on your back, just turn onto your side."
+  },
+  "safe-sleep-space": {
+    "title": "Prepare a safe sleep space",
+    "detail": "A cot or Moses basket with a firm, flat, well-fitting mattress, and no pillows, bumpers or duvets."
+  },
+  "feeding-plan": {
+    "title": "Think about feeding your baby",
+    "detail": "Learn about breastfeeding, bottle feeding or both, and where to find support in the first days."
+  },
+  "write-birth-plan": {
+    "title": "Write your birth plan",
+    "detail": "Note your preferences for pain relief, birth partners and the first hours after birth, and share it with your midwife or doctor."
+  },
+  "save-key-contacts": {
+    "title": "Save key numbers and plan your journey",
+    "detail": "Keep your maternity unit, birth partner and transport details in your phone and on paper. It isn't safe to drive yourself in labour."
+  },
+  "install-car-seat": {
+    "title": "Install the car seat",
+    "detail": "Choose a rear-facing seat that suits your baby's weight, fit it in advance and practise taking it in and out."
+  },
+  "pack-hospital-bag": {
+    "title": "Pack your hospital bag",
+    "detail": "Include your notes, comfy clothes, nightwear, maternity pads, snacks, a phone charger, baby clothes and nappies."
+  },
+  "group-b-strep": {
+    "title": "Ask about group B strep",
+    "detail": "In the US, testing is usually done between 36 and 38 weeks; in the UK it isn't routine. Ask what applies to you."
+  },
+  "learn-labour-signs": {
+    "title": "Learn the signs of labour",
+    "detail": "Regular contractions, a show, backache or your waters breaking. Know when your maternity unit wants you to call."
+  },
+  "postnatal-support-plan": {
+    "title": "Plan support for after the birth",
+    "detail": "Think about meals, help at home and who you can call. Learn the signs of postnatal depression, which can affect anyone."
+  },
+  "past-due-date-options": {
+    "title": "Discuss going past your due date",
+    "detail": "Ask about membrane sweeps, induction and extra monitoring, so you know your options before 41 weeks."
+  }
+}

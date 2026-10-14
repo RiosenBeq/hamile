@@ -1,0 +1,573 @@
+{
+  "1": {
+    "sizeTitle": "Nouveau départ",
+    "sizePhrase": "d'un nouveau départ",
+    "baby": "La grossesse se compte à partir du premier jour de tes dernières règles : en semaine 1, il n'y a donc pas encore de bébé. La conception a généralement lieu environ deux semaines plus tard. En ce moment, ton corps commence un nouveau cycle et, dans tes ovaires, plusieurs minuscules follicules, contenant chacun un ovule, commencent à se développer.",
+    "body": "Cette semaine, tu as tes règles : ton corps élimine la muqueuse de l'utérus et commence à en construire une nouvelle. Si tu espères concevoir, c'est un bon moment pour prendre soin de ta santé et de tes habitudes. La fatigue, les crampes ou le moral en baisse autour des règles sont fréquents et passent généralement en quelques jours.",
+    "tips": [
+      "Si tu essaies de concevoir, prends 400 µg d'acide folique par jour et continue jusqu'à 12 semaines de grossesse.",
+      "Arrêter l'alcool et le tabac avant de concevoir offre à ton futur bébé le meilleur départ.",
+      "Si tu prends des médicaments au long cours, parles-en à ton médecin avant d'essayer, plutôt que de les arrêter toi-même."
+    ],
+    "todo": [
+      "Note la date de début de tes dernières règles ; elle sert à estimer la date prévue d'accouchement."
+    ]
+  },
+  "2": {
+    "sizeTitle": "Étincelle d'espoir",
+    "sizePhrase": "d'une étincelle d'espoir",
+    "baby": "Toujours pas de bébé cette semaine, mais un ovule se prépare. L'ovulation, c'est-à-dire la libération d'un ovule mature par un ovaire, a généralement lieu environ 14 jours avant la date prévue des règles suivantes, donc vers la fin de cette semaine pour un cycle de 28 jours. Une fois libéré, l'ovule peut être fécondé pendant environ 12 à 24 heures.",
+    "body": "La muqueuse de ton utérus s'épaissit, prête à accueillir un ovule fécondé. Autour de l'ovulation, certaines personnes remarquent des pertes plus claires et glissantes, ou un bref tiraillement d'un côté du bas-ventre. Beaucoup ne remarquent rien du tout, et c'est tout à fait normal.",
+    "tips": [
+      "Tu essaies naturellement ? Avoir des rapports tous les 2 à 3 jours couvre ta période fertile sans avoir à viser le moment parfait.",
+      "Continue de prendre 400 µg d'acide folique par jour ; c'est dans les toutes premières semaines que c'est le plus important.",
+      "Les tests d'ovulation peuvent aider, mais les cycles varient : ne te mets pas trop la pression si le timing devient stressant."
+    ],
+    "todo": []
+  },
+  "3": {
+    "sizeTitle": "Minuscule boule de cellules",
+    "sizePhrase": "d'une minuscule boule de cellules",
+    "baby": "Si un ovule et un spermatozoïde se rencontrent dans une trompe, la fécondation crée une seule cellule qui porte un ensemble complet d'instructions génétiques. Au cours des jours suivants, elle se divise encore et encore tout en voyageant vers l'utérus, et devient une minuscule boule de cellules appelée blastocyste. Vers la fin de cette semaine ou au début de la suivante, elle commence à s'accrocher à la muqueuse de l'utérus : c'est ce qu'on appelle la nidation.",
+    "body": "La plupart des personnes ne ressentent aucune différence cette semaine, et il est encore trop tôt pour qu'un test de grossesse à domicile donne un résultat fiable. Certaines remarquent de légères crampes ou de petits saignements au moment de la nidation, mais beaucoup non. Si tu attends de savoir, essaie de remplir tes journées avec des choses qui t'apaisent.",
+    "tips": [
+      "Les tests à domicile sont plus fiables à partir du premier jour de retard des règles : attendre un peu peut t'éviter des inquiétudes.",
+      "Continue l'acide folique chaque jour ; le tube neural de ton bébé se forme au cours des prochaines semaines.",
+      "Évite l'alcool en attendant de savoir ; aucune quantité n'est reconnue comme sans danger pendant la grossesse."
+    ],
+    "todo": []
+  },
+  "4": {
+    "sizeTitle": "Graine de pavot",
+    "sizePhrase": "d'une graine de pavot",
+    "baby": "Ton bébé, qu'on appelle maintenant un embryon, s'est installé dans la muqueuse de ton utérus et mesure environ 2 mm. Il est protégé par un sac amniotique rempli de liquide, et une minuscule vésicule vitelline le nourrit pour l'instant. La couche externe de cellules commence à former le placenta, qui fournira plus tard l'oxygène et les nutriments.",
+    "body": "Tes règles devraient arriver à peu près maintenant, et leur retard est souvent le premier signe. Certaines personnes remarquent des seins sensibles, de la fatigue, de légères crampes ou de petits saignements, tandis que d'autres ne ressentent encore rien. En cas de saignements, ou de douleurs au ventre qui t'inquiètent, surtout d'un seul côté, contacte un médecin ou une sage-femme.",
+    "tips": [
+      "Si ce n'est pas déjà fait, commence dès maintenant 400 µg d'acide folique par jour et continue jusqu'à 12 semaines.",
+      "Garde la caféine sous 200 mg par jour, soit environ deux grandes tasses de café instantané.",
+      "Si tu prends des médicaments au long cours, dis à ton médecin que tu es enceinte, et ne les arrête pas sans avis médical."
+    ],
+    "todo": [
+      "Fais un test de grossesse à domicile si tes règles sont en retard.",
+      "Contacte un médecin ou une sage-femme pour commencer ton suivi de grossesse."
+    ]
+  },
+  "5": {
+    "sizeTitle": "Graine de sésame",
+    "sizePhrase": "d'une graine de sésame",
+    "baby": "Le tube neural de ton bébé, qui deviendra le cerveau et la moelle épinière, se forme rapidement. Un cœur rudimentaire prend forme et peut commencer à battre vers cette période, même s'il est généralement trop tôt pour le voir à l'échographie. De minuscules vaisseaux sanguins apparaissent aussi, et certains formeront le cordon ombilical.",
+    "body": "Beaucoup de personnes découvrent leur grossesse à peu près maintenant. La hausse des hormones peut entraîner de la fatigue ou des nausées, des envies plus fréquentes de faire pipi ou des seins douloureux. Il est normal de ressentir un mélange d'excitation et d'inquiétude : parles-en à une personne de confiance si ça fait beaucoup.",
+    "tips": [
+      "Continue de prendre 400 µg d'acide folique par jour pour soutenir le développement du système nerveux de ton bébé.",
+      "Évite l'alcool et le tabac ; si tu veux de l'aide pour arrêter, ton médecin ou ta sage-femme peut t'accompagner.",
+      "Repose-toi quand tu peux ; la fatigue du début est bien réelle et s'atténue souvent après le premier trimestre."
+    ],
+    "todo": [
+      "Fais la liste des médicaments et compléments que tu prends, pour en parler lors de ton premier rendez-vous."
+    ]
+  },
+  "6": {
+    "sizeTitle": "Petit pois",
+    "sizePhrase": "d'un petit pois",
+    "baby": "Ton bébé mesure environ 6 mm, avec une forme recourbée et une petite queue qui disparaîtra plus tard. Les bourgeons qui deviendront les bras et les jambes apparaissent, et de minuscules creux marquent l'emplacement des futures oreilles. Les battements du cœur, qui scintillent à l'écran, sont parfois visibles lors d'une échographie endovaginale précoce.",
+    "body": "Les nausées commencent souvent vers cette période et peuvent survenir à tout moment de la journée, pas seulement le matin. Manger de petites quantités souvent, te reposer et boire par petites gorgées peut aider, et certaines personnes trouvent le gingembre utile. Si tu n'arrives pas à garder la nourriture ou les boissons, contacte ton médecin ou ta sage-femme : des traitements sans danger existent.",
+    "tips": [
+      "Garde quelques biscuits secs près de ton lit et grignotes-en quelques-uns avant de te lever si les matins sont difficiles.",
+      "Essaie une infusion ou des biscuits au gingembre ; beaucoup de personnes trouvent que le gingembre calme les nausées.",
+      "Bois de l'eau par petites gorgées tout au long de la journée ; de petites quantités fréquentes passent mieux quand tu as la nausée."
+    ],
+    "todo": [
+      "Prends rendez-vous pour ta première consultation de grossesse ; elle a généralement lieu entre 8 et 12 semaines."
+    ]
+  },
+  "7": {
+    "sizeTitle": "Myrtille",
+    "sizePhrase": "d'une myrtille",
+    "baby": "Ton bébé mesure maintenant environ 1 cm de la tête aux fesses. Le cerveau grandit vite, si bien que la tête paraît grosse par rapport au corps, et de petites fossettes marquent l'endroit où se formeront le nez et les oreilles. Les bourgeons des bras s'allongent, et leurs extrémités aplaties deviendront bientôt des mains.",
+    "body": "Ton volume sanguin augmente pour soutenir la grossesse, ce qui peut te donner plus soif que d'habitude. Fatigue, nausées et sautes d'humeur peuvent rendre cette semaine éprouvante, et c'est très courant. Ton utérus grandit aussi, même si la plupart des personnes n'ont pas l'air enceintes avant plusieurs semaines encore.",
+    "tips": [
+      "Vise environ 8 verres de liquide par jour ; l'eau, le lait et les infusions de fruits comptent tous.",
+      "Mange peu mais souvent pour garder les nausées sous contrôle ; avoir l'estomac vide peut les aggraver.",
+      "Le moment où tu annonces la nouvelle ne dépend que de toi."
+    ],
+    "todo": [
+      "Renseigne-toi sur les examens de dépistage qui te seront proposés au premier trimestre, pour avoir le temps d'y réfléchir."
+    ]
+  },
+  "8": {
+    "sizeTitle": "Haricot rouge",
+    "sizePhrase": "d'un haricot rouge",
+    "baby": "Ton bébé mesure environ 1,6 cm et grandit très vite. Les bras et les jambes s'allongent, et les doigts commencent à se former. Le placenta développe de minuscules ramifications qui l'aident à s'ancrer solidement dans la paroi de ton utérus.",
+    "body": "Tu as peut-être des ballonnements, et tes seins te semblent plus pleins ou sensibles. En grandissant, ton utérus appuie sur ta vessie : avoir plus souvent envie de faire pipi est donc fréquent. Avoir parfois le moral en baisse ou de l'anxiété est normal aussi, et ta sage-femme ou ton médecin est là pour en parler avec toi.",
+    "tips": [
+      "Si les envies d'aller aux toilettes te réveillent la nuit, bois davantage plus tôt dans la journée et un peu moins le soir.",
+      "Choisis du lait et du fromage pasteurisés, et cuis la viande jusqu'à ce qu'elle soit fumante à cœur, sans partie rosée.",
+      "Évite le foie et les compléments contenant de la vitamine A (rétinol), car un excès peut nuire à ton bébé."
+    ],
+    "todo": [
+      "Ta première consultation prénatale a généralement lieu entre 8 et 12 semaines ; vérifie que la tienne est bien prévue."
+    ]
+  },
+  "9": {
+    "sizeTitle": "Cerise",
+    "sizePhrase": "d'une cerise",
+    "baby": "Ton bébé mesure maintenant environ 2,3 cm, et son visage devient plus reconnaissable, avec des paupières, une petite bouche et une langue dotée de minuscules papilles gustatives. Les mains et les pieds se développent, et tous les organes principaux, dont le cœur, le cerveau, les poumons et les reins, grandissent. Les os commencent à se former.",
+    "body": "Les hormones de grossesse comme l'hCG sont proches de leur pic, ce qui explique peut-être pourquoi les nausées et la fatigue peuvent sembler plus fortes maintenant. Tes seins ont peut-être grossi et ta taille s'est un peu épaissie. Pour beaucoup de personnes, les symptômes commencent à s'atténuer au cours des semaines suivantes.",
+    "tips": [
+      "Des en-cas sains comme du houmous avec des bâtonnets de carotte ou un œuf dur peuvent t'aider à garder une énergie stable.",
+      "Accepte l'aide qu'on te propose ; c'est normal d'en faire moins pendant que ton corps travaille autant.",
+      "Lave bien les fruits, les légumes et la salade, et lave-toi les mains après avoir manipulé de la viande crue."
+    ],
+    "todo": []
+  },
+  "10": {
+    "sizeTitle": "Fraise",
+    "sizePhrase": "d'une fraise",
+    "baby": "Ton bébé mesure environ 3 cm et est passé du stade d'embryon à celui de fœtus. Les doigts et les orteils ne sont plus palmés, les coudes peuvent se plier, et de minuscules bourgeons des futures dents se trouvent dans la mâchoire. De petits mouvements saccadés sont visibles à l'échographie, même si tu ne les sentiras pas avant un moment.",
+    "body": "Les ballonnements, les gaz et les brûlures d'estomac sont fréquents, car une hormone, la progestérone, détend les muscles de ton système digestif. Des repas plus petits, manger lentement et une courte marche après le repas peuvent aider. Tes vêtements commencent peut-être à te serrer à la taille, avant même que ton ventre ne se voie.",
+    "tips": [
+      "Essaie six petits repas par jour au lieu de trois gros, et évite de manger juste avant d'aller te coucher.",
+      "Si c'est confortable pour toi, la marche douce ou la natation comptent dans les quelque 150 minutes d'activité par semaine.",
+      "Note tes questions au fur et à mesure, pour les avoir sous la main à ton prochain rendez-vous."
+    ],
+    "todo": [
+      "Renseigne-toi sur le dépistage du premier trimestre : le test combiné (généralement entre 10 et 14 semaines) ou le DPNI, possible dès 10 semaines."
+    ]
+  },
+  "11": {
+    "sizeTitle": "Châtaigne",
+    "sizePhrase": "d'une châtaigne",
+    "baby": "Ton bébé mesure environ 4 cm. Sa tête est encore grosse par rapport au corps, mais le corps rattrape vite son retard. Les doigts et les orteils sont séparés, de minuscules ongles commencent à se former, et ton bébé peut ouvrir et fermer les mains, même si tu ne sens encore aucun mouvement.",
+    "body": "Ton corps pompe maintenant beaucoup plus de sang qu'avant, ce qui peut parfois te donner chaud ou de légers vertiges. À mesure que ton utérus grandit, l'étirement des muscles et des ligaments peut provoquer de légères douleurs dans le bas du ventre. Si la douleur est intense ou ne passe pas, ou en cas de saignement, contacte ton médecin ou ta sage-femme.",
+    "tips": [
+      "Lève-toi lentement et assieds-toi si tu as l'impression de faire un malaise ; garde de l'eau et un en-cas à portée de main.",
+      "Demande à quelqu'un d'autre de vider la litière du chat, ou porte des gants et lave-toi les mains après.",
+      "Jusqu'à 2 portions de poisson gras par semaine, c'est bon pour toi ; évite le requin, l'espadon et le marlin."
+    ],
+    "todo": []
+  },
+  "12": {
+    "sizeTitle": "Kiwi",
+    "sizePhrase": "d'un kiwi",
+    "baby": "Ton bébé mesure environ 5,4 cm et pèse environ 14 g. Tous les organes principaux, les muscles et les membres sont en place et vont continuer de grandir et de mûrir. Les ongles se forment, et les battements du cœur peuvent être captés à l'échographie.",
+    "body": "Beaucoup de personnes commencent à se sentir un peu mieux vers cette période, quand les nausées et la fatigue s'atténuent, même si pour certaines cela prend encore quelques semaines. Ta taille s'épaissit peut-être, et tu as peut-être plus faim. Inutile de manger pour deux : c'est une alimentation variée et équilibrée qui compte.",
+    "tips": [
+      "L'acide folique est surtout important jusqu'à 12 semaines ; demande s'il faut continuer une multivitamine de grossesse ensuite.",
+      "Renseigne-toi sur la vitamine D ; on recommande à beaucoup de personnes un complément quotidien pendant la grossesse.",
+      "Commence les exercices du périnée : contracte et remonte, tiens quelques secondes, puis relâche. À répéter chaque jour."
+    ],
+    "todo": [
+      "Ton échographie de datation (généralement entre 10 et 14 semaines) vérifie le développement de ton bébé et confirme la date prévue d'accouchement.",
+      "Commence à réfléchir à l'endroit où tu aimerais accoucher ; tu pourras toujours changer d'avis plus tard."
+    ]
+  },
+  "13": {
+    "sizeTitle": "Pêche",
+    "sizePhrase": "d'une pêche",
+    "baby": "Ton bébé mesure environ 7,4 cm, et son corps commence à grandir plus vite que sa tête. Les cordes vocales se forment, et les os commencent à durcir, à commencer par le crâne et les os longs des bras et des jambes. Ton bébé bouge beaucoup, et certains bébés sucent déjà leur pouce.",
+    "body": "Tu approches de la fin du premier trimestre, et beaucoup de personnes ont plus d'énergie maintenant. Comme ton utérus remonte au-dessus du bassin, un petit ventre peut apparaître et les envies fréquentes de faire pipi peuvent s'atténuer. Les gencives gonflées ou qui saignent sont fréquentes pendant la grossesse : continue de te brosser les dents doucement deux fois par jour.",
+    "tips": [
+      "Utilise une brosse à dents souple et consulte un dentiste pour un contrôle ; dis-lui que tu es enceinte.",
+      "Si tu vomis, rince-toi la bouche à l'eau claire pour protéger tes dents.",
+      "Évite les personnes qui ont la varicelle ou la rubéole et, en cas de contact, préviens ta sage-femme ou ton médecin."
+    ],
+    "todo": []
+  },
+  "14": {
+    "sizeTitle": "Citron",
+    "sizePhrase": "d'un citron",
+    "baby": "Bienvenue au deuxième trimestre. Ton bébé mesure environ 8,5 cm, et sa tête s'arrondit et devient plus proportionnée au corps. Ton bébé avale de petites quantités de liquide amniotique, que ses reins rejettent ensuite sous forme d'urine : un bon entraînement pour plus tard.",
+    "body": "Beaucoup de personnes se sentent plus en forme au deuxième trimestre, et ton appétit revient peut-être. Ton bébé n'a pas encore besoin de calories supplémentaires : des en-cas sains sont donc un bon moyen de gérer la faim entre les repas. Tu remarqueras peut-être des taches jaunâtres dans ton soutien-gorge ; il s'agit généralement du colostrum, le premier lait.",
+    "tips": [
+      "Quand la faim se fait sentir entre les repas, opte pour un yaourt, un fruit ou une poignée de fruits à coque non salés.",
+      "Garde une activité physique qui te plaît, et arrête-toi si tu as trop chaud, la tête qui tourne ou si tu te sens mal.",
+      "Si des inquiétudes te pèsent, en parler avec ton ou ta partenaire, un proche ou ta sage-femme peut aider."
+    ],
+    "todo": [
+      "Tu as manqué le dépistage du premier trimestre ? Renseigne-toi sur la prise de sang du deuxième trimestre, généralement faite vers 15 à 20 semaines."
+    ]
+  },
+  "15": {
+    "sizeTitle": "Pomme",
+    "sizePhrase": "d'une pomme",
+    "baby": "Ton bébé mesure environ 10 cm et se couvre d'une fine couche de poils doux appelée lanugo. Les sourcils et les cils commencent à se développer, et les yeux sont sensibles à la lumière même si les paupières sont fermées. Vers cette période, ton bébé peut commencer à entendre des sons, comme les battements de ton cœur.",
+    "body": "À mesure que ton ventre s'arrondit, tu peux ressentir de brefs tiraillements vifs sur les côtés du ventre, appelés douleurs ligamentaires ; le repos aide généralement. Des pertes vaginales plus abondantes sont fréquentes aussi. Consulte ton médecin ou ta sage-femme si elles changent de couleur, sentent mauvais, ou si tu as des démangeaisons ou une irritation.",
+    "tips": [
+      "Des vêtements amples en coton et une crème hydratante sans parfum peuvent apaiser la peau qui tiraille et qui gratte.",
+      "Change de position lentement pour limiter les tiraillements ligamentaires.",
+      "N'hésite pas à demander une place assise dans les transports en commun ; ton équilibre change."
+    ],
+    "todo": []
+  },
+  "16": {
+    "sizeTitle": "Avocat",
+    "sizePhrase": "d'un avocat",
+    "baby": "Ton bébé mesure environ 11,6 cm et pèse environ 100 g. Le système nerveux se développe vite : les bras et les jambes bougent davantage, et ton bébé peut serrer les poings. Des expressions passent aussi sur son visage, même si elles sont encore aléatoires pendant que le contrôle des muscles se développe.",
+    "body": "Tu as peut-être une consultation prénatale vers cette période, avec prise de tension et analyse d'urine. La constipation est fréquente, et les fibres, l'hydratation et une activité physique douce peuvent aider. Certaines personnes sentent les premiers frémissements entre 16 et 24 semaines, souvent plus tard lors d'une première grossesse.",
+    "tips": [
+      "Fais le plein de fibres : céréales complètes, fruits, légumes, haricots et lentilles aident ton transit.",
+      "Teste le détecteur de monoxyde de carbone de ton logement ; il vous protège, toi et ton bébé.",
+      "Les rapports sexuels sont sans danger pendant la grossesse, sauf avis contraire de ton médecin ou de ta sage-femme."
+    ],
+    "todo": [
+      "Renseigne-toi sur le vaccin contre la coqueluche, généralement administré entre 16 et 32 semaines au Royaume-Uni ou entre 27 et 36 semaines aux États-Unis."
+    ]
+  },
+  "17": {
+    "sizeTitle": "Poire",
+    "sizePhrase": "d'une poire",
+    "baby": "Ton bébé mesure environ 13 cm et commence à constituer un peu de graisse sous la peau. Les ongles poussent, et les sillons qui deviendront des empreintes digitales uniques se forment. Ton bébé peut bouger les yeux et réagir aux bruits forts.",
+    "body": "Ta taille s'efface peu à peu à mesure que ton utérus monte et s'avance : ta grossesse se voit peut-être davantage. Des vergetures peuvent apparaître sur ton ventre, tes seins ou tes cuisses ; elles sont très fréquentes et s'estompent généralement après la naissance. Les hormones peuvent faire paraître plus grands de petits soucis : partage ce que tu ressens.",
+    "tips": [
+      "Hydrater ta peau n'empêchera pas les vergetures, mais peut soulager une peau sèche qui gratte.",
+      "Commence à comparer les lieux où tu aimerais accoucher : maternité, maison de naissance ou domicile, selon ce qui existe près de chez toi.",
+      "Porte un soutien-gorge confortable qui maintient bien ; tes seins ont peut-être pris une taille."
+    ],
+    "todo": [
+      "Si tu travailles, renseigne-toi sur tes droits au congé maternité et sur le moment où tu dois prévenir ton employeur."
+    ]
+  },
+  "18": {
+    "sizeTitle": "Poivron",
+    "sizePhrase": "d'un poivron",
+    "baby": "Ton bébé mesure environ 14 cm et il est très actif : il se tortille et bouge les bras et les jambes. L'audition se développe, ainsi que des réflexes comme la déglutition et la succion. Ton bébé peut avoir des périodes de sommeil et d'éveil, et les bruits forts peuvent le réveiller.",
+    "body": "Tu sentiras peut-être ton bébé bouger pour la première fois, souvent comme des frémissements ou des bulles, faciles à confondre avec des gaz. Ta tension peut être un peu plus basse que d'habitude : lève-toi lentement si tu as des vertiges. Une ligne foncée sur le ventre, appelée ligne brune, est normale et s'estompe généralement après la naissance.",
+    "tips": [
+      "Pour sortir du lit, roule d'abord sur le côté, puis redresse-toi en poussant avec les bras.",
+      "Si tu préfères ne pas connaître le sexe de ton bébé à l'échographie, dis-le à l'échographiste avant de commencer.",
+      "Dors avec un coussin entre les genoux si tes hanches ou ton dos te font mal la nuit."
+    ],
+    "todo": [
+      "Ton échographie morphologique détaillée a généralement lieu entre 18 et 22 semaines environ ; vérifie qu'elle est bien prévue."
+    ]
+  },
+  "19": {
+    "sizeTitle": "Grosse tomate",
+    "sizePhrase": "d'une grosse tomate",
+    "baby": "Ton bébé mesure environ 15 cm et prend régulièrement du poids. Un enduit protecteur et cireux appelé vernix commence à recouvrir sa peau. Derrière les premiers bourgeons dentaires, ceux des dents définitives commencent à se former.",
+    "body": "Une hormone, la relaxine, assouplit tes ligaments : certaines activités, comme la course à pied, peuvent devenir inconfortables. Le sommeil peut être plus difficile à trouver, et les douleurs au dos, aux hanches ou au bassin sont fréquentes. Si une douleur au bassin rend difficile la marche ou le fait de te retourner dans le lit, parles-en : la kinésithérapie peut aider.",
+    "tips": [
+      "Remplace les exercices à fort impact par la natation, la marche ou le yoga prénatal si tes articulations te semblent relâchées.",
+      "Utilise des coussins pour soutenir ton ventre et ton dos ; la position sur le côté, genoux pliés, est souvent la plus confortable.",
+      "Porte des chaussures plates qui maintiennent bien le pied, pour t'aider à garder l'équilibre et soulager ton dos."
+    ],
+    "todo": []
+  },
+  "20": {
+    "sizeTitle": "Banane",
+    "sizePhrase": "d'une banane",
+    "baby": "Te voilà à mi-parcours. À partir de maintenant, les bébés sont généralement mesurés de la tête aux talons : le tien mesure environ 25,6 cm et pèse environ 300 g. Ton bébé est recouvert d'une couche crémeuse appelée vernix et suce peut-être son pouce, ce qui aide à développer le réflexe de succion.",
+    "body": "Ton ventre s'arrondit régulièrement, et tu peux te réveiller la nuit avec de brusques crampes dans les mollets ; ramener tes orteils vers toi peut les soulager. Beaucoup de personnes sentent plus nettement les mouvements de leur bébé à partir de cette période. Si ton échographie morphologique n'a pas encore eu lieu, elle devrait se faire à peu près maintenant.",
+    "tips": [
+      "Étire doucement tes mollets avant de te coucher et bouge pendant la journée pour aider à prévenir les crampes.",
+      "Les aliments riches en fer, comme la viande rouge, les haricots, les lentilles et les légumes verts à feuilles, aident à garder ton énergie.",
+      "Parle ou chante à ton ventre si tu en as envie ; ton bébé commence à entendre les sons de l'extérieur."
+    ],
+    "todo": [
+      "Si tu travailles, demande à ton médecin ou à ta sage-femme les certificats de grossesse dont tu as besoin pour ton congé ou tes indemnités de maternité.",
+      "Pas encore reçu le vaccin contre la coqueluche ? Au Royaume-Uni, il est souvent proposé vers cette période : renseigne-toi."
+    ]
+  },
+  "21": {
+    "sizeTitle": "Carotte",
+    "sizePhrase": "d'une carotte",
+    "baby": "Ton bébé mesure environ 26,7 cm et pèse maintenant plus lourd que le placenta. Ses mouvements deviennent plus forts et mieux coordonnés, et il prend peu à peu des rythmes de sommeil et d'éveil. Ton bébé entend maintenant les bruits et les voix venant de l'extérieur de l'utérus.",
+    "body": "Ton centre de gravité se déplace et tes articulations sont plus souples : tu peux te sentir un peu moins stable. En cas de chute, essaie de ne pas paniquer, car ton bébé est bien protégé, mais préviens quand même ta sage-femme ou ton médecin. Tu remarqueras peut-être aussi que ton bébé est le plus actif juste au moment où tu t'installes pour te reposer.",
+    "tips": [
+      "Vise au moins 5 portions de fruits et légumes par jour, en choisissant des céréales complètes quand tu peux.",
+      "Fais la sieste quand tu peux pour compenser les nuits agitées.",
+      "Tiens la rampe dans les escaliers et fais très attention sur un sol mouillé ou verglacé."
+    ],
+    "todo": []
+  },
+  "22": {
+    "sizeTitle": "Patate douce",
+    "sizePhrase": "d'une patate douce",
+    "baby": "Ton bébé mesure environ 27,8 cm. Ses poumons se développent, et il s'exerce à des mouvements respiratoires et avale de petites quantités de liquide amniotique. Ses papilles gustatives se développent aussi, et sa poigne se renforce.",
+    "body": "Vergetures, douleurs dans le dos et durcissements occasionnels du ventre sont tous fréquents maintenant. Les petites douleurs sont normales pendant la grossesse, mais si tu ne sais pas si quelque chose est grave, vérifie auprès de ta sage-femme ou de ton médecin. Appelle immédiatement en cas de douleur intense ou de tout saignement vaginal.",
+    "tips": [
+      "Assieds-toi le dos bien soutenu et fais des pauses quand tu restes debout, pour soulager le mal de dos.",
+      "Prépare un petit plan bien-être : ce qui t'apaise, et qui tu peux appeler les jours difficiles.",
+      "Si tu fumes, il n'est jamais trop tard pour arrêter, et les services d'aide peuvent beaucoup te faciliter les choses."
+    ],
+    "todo": [
+      "Renseigne-toi sur les séances de préparation à la naissance ; beaucoup sont complètes plusieurs semaines à l'avance."
+    ]
+  },
+  "23": {
+    "sizeTitle": "Grosse mangue",
+    "sizePhrase": "d'une grosse mangue",
+    "baby": "Ton bébé mesure environ 28,9 cm, et ses membres sont maintenant proportionnés au corps. Il s'entraîne à respirer, prend des rythmes de sommeil et d'éveil, et commence à prendre de la graisse plus rapidement. Dans les semaines à venir, tu verras peut-être ton ventre bouger quand ton bébé donne des coups de pied.",
+    "body": "Tu peux avoir le souffle plus court, car ton utérus qui grandit appuie vers le haut, et tes côtes peuvent te faire mal à mesure que ta cage thoracique s'élargit. Tes seins peuvent laisser couler un peu de colostrum. Commence à apprendre à connaître le rythme habituel des mouvements de ton bébé, et contacte ta sage-femme ou ta maternité s'il ralentit ou change.",
+    "tips": [
+      "Remplace quelques tasses de thé ou de café par de l'eau ou une infusion de fruits pour rester sous 200 mg de caféine par jour.",
+      "Ta peau brûle plus facilement pendant la grossesse : utilise une crème solaire à indice élevé et cherche l'ombre vers midi.",
+      "Surélève tes pieds et repose-toi quand tu manques de souffle."
+    ],
+    "todo": []
+  },
+  "24": {
+    "sizeTitle": "Épi de maïs",
+    "sizePhrase": "d'un épi de maïs",
+    "baby": "Ton bébé mesure environ 30 cm et pèse environ 600 g. Les poumons sont formés mais pas encore prêts à fonctionner seuls, et la peau est encore fine et un peu fripée pendant que la graisse s'accumule en dessous. Les bébés nés à partir de cette période environ peuvent être pris en charge en service de néonatalogie, mais chaque semaine de plus dans l'utérus fait une vraie différence.",
+    "body": "Les douleurs autour des côtes, du dos ou du ventre sont fréquentes, car tes ligaments se relâchent et ton bébé grandit. À partir de maintenant, demande un avis en urgence si tu as un violent mal de tête, une vision trouble ou des éclairs lumineux, une douleur juste sous les côtes, ou un gonflement soudain du visage, des mains ou des pieds. Ce peuvent être des signes de prééclampsie, qui doit être vérifiée rapidement.",
+    "tips": [
+      "N'utilise pas de doppler à domicile pour surveiller ton bébé ; si les mouvements t'inquiètent, appelle ta maternité.",
+      "Enregistre le numéro de ta maternité dans ton téléphone et garde-en une copie dans ton sac.",
+      "C'est un bon moment pour commencer à réfléchir à ce qui compte pour toi pour l'accouchement."
+    ],
+    "todo": [
+      "Un test au glucose pour dépister le diabète gestationnel est souvent réalisé entre 24 et 28 semaines ; demande s'il est recommandé dans ton cas."
+    ]
+  },
+  "25": {
+    "sizeTitle": "Concombre",
+    "sizePhrase": "d'un concombre",
+    "baby": "Ton bébé mesure environ 34,6 cm et s'étoffe à mesure que la graisse s'accumule : sa peau paraît donc plus lisse. Un bruit fort peut le faire sursauter, et tu sentiras peut-être de temps en temps les petites secousses rythmées du hoquet. Ton bébé urine dans le liquide amniotique, ce qui aide à le maintenir au bon niveau.",
+    "body": "Un léger gonflement des pieds et des chevilles est fréquent, surtout quand il fait chaud ou en fin de journée. Signale tout gonflement à ta sage-femme ou à ton médecin, et demande un avis en urgence s'il apparaît brusquement ou touche ton visage ou tes mains. Les brûlures d'estomac peuvent aussi s'intensifier, car ton bébé prend plus de place.",
+    "tips": [
+      "Surélève tes pieds quand tu peux, et évite de rester longtemps debout sans bouger.",
+      "Contre les brûlures d'estomac, fais des repas plus petits, mange le dos bien droit et évite de t'allonger juste après.",
+      "Si ton ou ta partenaire prévoit de prendre un congé autour de la naissance, c'est le bon moment pour vérifier ses droits."
+    ],
+    "todo": [
+      "Si tu travailles, vérifie que tu as prévenu ton employeur à temps pour ton congé et tes indemnités de maternité ; les délais varient selon les pays."
+    ]
+  },
+  "26": {
+    "sizeTitle": "Grappe de raisin",
+    "sizePhrase": "d'une grappe de raisin",
+    "baby": "Ton bébé mesure environ 35,6 cm, et ses yeux s'ouvrent pour la première fois vers cette période. Les poumons commencent à produire du surfactant, une substance qui l'aidera à respirer après la naissance. Ton bébé fabrique aussi de la mélanine, qui donne sa couleur à la peau et aux yeux.",
+    "body": "À l'approche du troisième trimestre, tu peux ressentir plus de fatigue, de maladresse ou des trous de mémoire, ce qui se comprend avec tout ce qui se passe. Des crampes dans les jambes peuvent te réveiller la nuit. Si tu sens un jour que les mouvements de ton bébé ralentissent ou s'arrêtent, contacte immédiatement ta sage-femme ou ta maternité, sans attendre.",
+    "tips": [
+      "Accorde-toi plus de temps pour les choses du quotidien ; ton corps fait énormément.",
+      "Fais des cercles avec tes pieds et fléchis tes chevilles plusieurs fois par jour pour soulager crampes et gonflements.",
+      "Les listes et les rappels sur ton téléphone peuvent aider en cas d'oublis."
+    ],
+    "todo": []
+  },
+  "27": {
+    "sizeTitle": "Tête de brocoli",
+    "sizePhrase": "d'une tête de brocoli",
+    "baby": "Ton bébé mesure environ 36,6 cm et s'arrondit chaque jour à mesure que la graisse remplit sa peau. Les poumons et le système nerveux continuent de mûrir, et ton bébé peut ouvrir les yeux et cligner des paupières. C'est la dernière semaine du deuxième trimestre.",
+    "body": "Ballonnements et constipation sont fréquents maintenant, car ton bébé qui grandit comprime ton estomac et la progestérone ralentit la digestion. Tu peux aussi commencer à ronfler, car la muqueuse du nez peut gonfler pendant la grossesse. Fais la sieste quand tu peux si la fatigue te rattrape.",
+    "tips": [
+      "À partir de 28 semaines, endors-toi sur le côté ; si tu te réveilles sur le dos, tourne-toi simplement.",
+      "Tu prévois de prendre l'avion ? Vérifie les règles de ta compagnie aérienne : beaucoup demandent un certificat de ton médecin ou de ta sage-femme en fin de grossesse.",
+      "Choisis du pain et des pâtes complets et bois beaucoup d'eau pour aider contre la constipation."
+    ],
+    "todo": [
+      "Si ton groupe sanguin est Rhésus (D) négatif, renseigne-toi sur l'anti-D ; il est souvent proposé vers 28 semaines."
+    ]
+  },
+  "28": {
+    "sizeTitle": "Aubergine",
+    "sizePhrase": "d'une aubergine",
+    "baby": "Bienvenue au troisième trimestre. Ton bébé mesure environ 37,6 cm et pèse environ 1 kg. Son cœur bat à environ 140 battements par minute, encore bien plus vite que le tien, et ses paupières peuvent s'ouvrir et se fermer.",
+    "body": "Dans les semaines à venir, tu ressentiras peut-être plus de fatigue et d'inconfort, avec des brûlures d'estomac, un mal de dos ou des saignements de nez. Le gonflement des chevilles, des pieds ou du visage est souvent dû à la rétention d'eau, mais fais-le vérifier au cas où il s'agirait d'une prééclampsie. Le repos aide pour beaucoup de symptômes, et ta sage-femme ou ton médecin est là si quelque chose t'inquiète.",
+    "tips": [
+      "Endors-toi sur le côté, y compris pour les siestes ; la recherche montre que c'est plus sûr pour ton bébé.",
+      "Lave-toi souvent les mains, surtout après un contact avec de jeunes enfants, pour réduire ton risque d'infections.",
+      "En cas de saignement de nez, assieds-toi, penche-toi en avant et pince juste au-dessus des narines pendant 10 à 15 minutes."
+    ],
+    "todo": [
+      "Renseigne-toi sur le vaccin contre le VRS : proposé dès 28 semaines au Royaume-Uni, ou entre 32 et 36 semaines pendant la saison du VRS aux États-Unis.",
+      "Si ton groupe sanguin est Rhésus (D) négatif, on peut te proposer l'anti-D vers cette période."
+    ]
+  },
+  "29": {
+    "sizeTitle": "Noix de coco",
+    "sizePhrase": "d'une noix de coco",
+    "baby": "Ton bébé mesure environ 38,6 cm et il est entièrement formé ; les semaines à venir servent à faire mûrir ses organes et à prendre du poids. Le fin duvet appelé lanugo commence à disparaître. Ses coups de pied peuvent ressembler davantage à des petits coups secs et des poussées à mesure que la place se réduit.",
+    "body": "Tu peux manquer de souffle, car ton bébé appuie sur tes poumons, et avoir plus souvent besoin d'aller aux toilettes la nuit. Ton bébé a son propre rythme de sommeil et d'éveil, et il est souvent plus actif quand tu t'allonges. Apprends à connaître ce rythme, et contacte immédiatement ta sage-femme ou ta maternité s'il change ou ralentit.",
+    "tips": [
+      "Soutiens ton ventre avec un coussin et places-en un autre entre tes genoux pour dormir plus confortablement.",
+      "Commence ton projet de naissance : réfléchis aux options pour soulager la douleur et à la personne que tu aimerais avoir à tes côtés pendant l'accouchement.",
+      "Les aliments riches en calcium, comme les produits laitiers ou les alternatives enrichies, soutiennent la croissance des os de ton bébé."
+    ],
+    "todo": []
+  },
+  "30": {
+    "sizeTitle": "Chou",
+    "sizePhrase": "d'un chou",
+    "baby": "Ton bébé mesure environ 39,9 cm, et ses yeux peuvent maintenant faire la mise au point, même si sa vision continuera de se développer après la naissance. Le cerveau grandit rapidement, et ton bébé régule de mieux en mieux sa propre température. La graisse continue de s'accumuler sous la peau.",
+    "body": "Monter les escaliers peut te laisser à bout de souffle, et le sommeil peut être haché. Les rêves intenses ou troublants sont fréquents, nourris par les hormones et les grands changements à venir, et en parler peut aider. Si le stress ou le moral en baisse s'installe, parles-en à ta sage-femme ou à ton médecin.",
+    "tips": [
+      "Renseigne-toi sur les étapes du travail pour savoir à quoi t'attendre ; chaque naissance est différente.",
+      "Rassemble quelques essentiels pour le nouveau-né ; les bébés sortent vite des premières tailles, donc pas besoin d'en avoir beaucoup.",
+      "Une courte marche le soir ou des étirements doux peuvent t'aider à mieux dormir."
+    ],
+    "todo": [
+      "Prévois où ton bébé dormira : un lit à barreaux ou un couffin avec un matelas ferme, plat et bien ajusté est le plus sûr."
+    ]
+  },
+  "31": {
+    "sizeTitle": "Ananas",
+    "sizePhrase": "d'un ananas",
+    "baby": "Ton bébé mesure environ 41,1 cm et il est très actif : galipettes, étirements et doigts dans la bouche. Jour après jour, il s'arrondit et paraît moins fripé. Ton bébé commence à reconnaître les voix venant de l'extérieur de l'utérus : tes proches peuvent aussi parler à ton ventre.",
+    "body": "Tu remarqueras peut-être que ton ventre se durcit pendant 20 à 30 secondes avant de se relâcher. Ce sont les contractions de Braxton Hicks, ou contractions d'entraînement, et elles ne devraient pas faire mal. Si ces durcissements deviennent douloureux ou réguliers avant 37 semaines, contacte ta sage-femme ou ta maternité, car il pourrait s'agir d'un début de travail prématuré.",
+    "tips": [
+      "Réfléchis à la façon dont tu aimerais nourrir ton bébé ; ta sage-femme peut te parler de l'allaitement, du biberon ou des deux.",
+      "Si les contractions de Braxton Hicks sont inconfortables, essaie de changer de position ou de prendre un bain tiède.",
+      "Continue une activité physique douce si ça te fait du bien ; la natation soulage tes articulations du poids."
+    ],
+    "todo": []
+  },
+  "32": {
+    "sizeTitle": "Petit melon",
+    "sizePhrase": "d'un petit melon",
+    "baby": "Ton bébé mesure environ 42,4 cm ; il est entièrement formé et prend maintenant surtout du poids. Une grande partie de la graisse accumulée dans les prochaines semaines l'aidera à garder sa chaleur après la naissance. Beaucoup de bébés se sont déjà retournés la tête en bas, mais il reste du temps si ce n'est pas le cas du tien.",
+    "body": "Ta démarche ressemble peut-être davantage à celle d'un canard, le temps que ton corps s'adapte au poids supplémentaire. Ton bébé a moins de place, mais tu dois continuer à sentir ses mouvements selon le même rythme jusqu'au début du travail. Si les mouvements ralentissent, changent ou s'arrêtent, contacte immédiatement ta sage-femme ou ta maternité, de jour comme de nuit.",
+    "tips": [
+      "Évite de porter des charges lourdes, et demande des pauses supplémentaires et un siège au travail si tu en as besoin.",
+      "Renseigne-toi sur la vitamine K pour les nouveau-nés, afin de décider à l'avance comment tu aimerais qu'elle soit administrée.",
+      "Repose-toi les pieds surélevés un moment chaque jour."
+    ],
+    "todo": [
+      "Rédige ton projet de naissance et partage-le avec ta sage-femme ou ton médecin ; tu peux le modifier à tout moment.",
+      "Si tu n'as pas encore reçu le vaccin contre la coqueluche, renseigne-toi dès maintenant."
+    ]
+  },
+  "33": {
+    "sizeTitle": "Laitue romaine",
+    "sizePhrase": "d'une laitue romaine",
+    "baby": "Ton bébé mesure environ 43,7 cm, et son cerveau et son système nerveux sont bien développés. Les os durcissent, sauf ceux du crâne, qui restent souples et malléables pour aider ton bébé à passer au moment de la naissance. Ses pupilles peuvent maintenant changer de taille en réaction à la lumière.",
+    "body": "Une sensation de lourdeur et de fatigue est tout à fait compréhensible maintenant. Les contractions de Braxton Hicks peuvent devenir plus fréquentes, car ton utérus se prépare à la naissance. Une sensation de pesanteur dans le bas du bassin peut être le signe que ton bébé s'installe la tête en bas.",
+    "tips": [
+      "Enregistre dans ton téléphone le numéro de ta maternité, celui de la personne qui t'accompagnera pour l'accouchement et l'adresse de l'hôpital.",
+      "Prévois comment tu iras à l'hôpital ; il n'est pas prudent de conduire toi-même pendant le travail.",
+      "Des pauses courtes et fréquentes, c'est très bien ; inutile de lutter contre la fatigue."
+    ],
+    "todo": [
+      "Commence à préparer ta valise de maternité, au cas où ton bébé arriverait plus tôt.",
+      "Choisis un siège auto pour le trajet du retour, idéalement neuf, et entraîne-toi à l'installer."
+    ]
+  },
+  "34": {
+    "sizeTitle": "Melon cantaloup",
+    "sizePhrase": "d'un melon cantaloup",
+    "baby": "Ton bébé mesure environ 45 cm et il est recroquevillé, les jambes repliées vers la poitrine, car la place se fait rare. Les ongles des mains atteignent le bout des doigts. Tu devrais toujours sentir ton bébé bouger et voir ton ventre changer de forme.",
+    "body": "Si ton bébé descend dans ton bassin, la respiration et les brûlures d'estomac peuvent s'améliorer, même si tu auras peut-être plus souvent envie de faire pipi. Cela ne veut pas dire que la naissance est imminente ; elle peut encore être à plusieurs semaines. Laisser couler un peu de colostrum est normal, et un soutien-gorge qui maintient bien peut aider si tes seins sont sensibles.",
+    "tips": [
+      "Continue de bouger doucement chaque jour, même si ce n'est qu'une courte marche.",
+      "Si tu travailles, prévois la date de début de ton congé maternité ; beaucoup de personnes s'arrêtent vers cette période.",
+      "Fais des réserves de serviettes hygiéniques de maternité pour l'après-naissance."
+    ],
+    "todo": [
+      "Parle des options pour soulager la douleur pendant le travail avec ta sage-femme ou ton médecin, et note tes préférences dans ton projet de naissance."
+    ]
+  },
+  "35": {
+    "sizeTitle": "Petite citrouille",
+    "sizePhrase": "d'une petite citrouille",
+    "baby": "Ton bébé mesure environ 46,2 cm et s'arrondit, ce qui l'aidera à garder sa chaleur après la naissance. Le cerveau grandit encore vite. La place manque maintenant, mais tu devrais sentir des mouvements aussi forts et réguliers qu'avant.",
+    "body": "Les côtes douloureuses sont fréquentes, car ton bébé donne des coups de pied depuis sa position tête en bas. Une douleur intense sous les côtes peut toutefois être un signe de prééclampsie : appelle ta sage-femme ou ton médecin si tu la remarques. Beaucoup de personnes commencent leur congé maternité vers cette période ; fais ce qui te semble juste pour toi.",
+    "tips": [
+      "Entraîne-toi dès maintenant à respirer lentement, en inspirant par le nez et en expirant par la bouche ; cela peut aider pendant le travail.",
+      "Pense à un soutien-gorge d'allaitement bien ajusté et à quelques coussinets d'allaitement.",
+      "Cuisine quelques plats en grande quantité pour le congélateur tant que tu as de l'énergie."
+    ],
+    "todo": [
+      "Prépare ta valise de maternité : dossier de suivi, vêtements confortables, tenues de nuit, serviettes de maternité, en-cas, vêtements de bébé et couches."
+    ]
+  },
+  "36": {
+    "sizeTitle": "Mini pastèque",
+    "sizePhrase": "d'une mini pastèque",
+    "baby": "Ton bébé mesure environ 47,4 cm, et ses poumons sont probablement assez matures pour respirer sans aide. Le fin duvet de lanugo a presque disparu, et ton bébé a peut-être des cheveux. Beaucoup de bébés se sont maintenant placés la tête en bas, prêts pour la naissance.",
+    "body": "Ton rendez-vous de suivi vers cette période portera sur ta tension, ton analyse d'urine et la taille de ton ventre : essaie de ne pas manquer ces consultations, même quand t'y rendre te demande un effort. Si ton bébé n'est pas la tête en bas, on peut te proposer une manœuvre pour l'aider à se retourner. De petites fuites d'urine quand tu ris ou tousses sont fréquentes, et les exercices du périnée aident.",
+    "tips": [
+      "Garde ton dossier, ton projet de naissance et tes numéros importants à un endroit facile d'accès.",
+      "Fais tes exercices du périnée chaque jour ; ils aident maintenant et pour la récupération après la naissance.",
+      "Prends quelques minutes au calme chaque jour pour détendre ton corps et ton esprit."
+    ],
+    "todo": [
+      "Vérifie que ta valise de maternité est prête et que le siège auto est installé pour le trajet du retour.",
+      "Renseigne-toi sur le streptocoque du groupe B (SGB) ; aux États-Unis, le dépistage est généralement fait entre 36 et 38 semaines."
+    ]
+  },
+  "37": {
+    "sizeTitle": "Botte de blettes",
+    "sizePhrase": "d'une botte de blettes",
+    "baby": "Ton bébé mesure environ 48,6 cm et, s'il naissait maintenant, il ne serait plus considéré comme prématuré. Environ 95 % des bébés ont la tête en bas à ce stade. Ton bébé essaie des expressions comme froncer les sourcils ou sourire, et les ongles des orteils atteignent le bout des orteils.",
+    "body": "Tu remarqueras peut-être plus de pertes et plus de contractions de Braxton Hicks, ainsi qu'une envie soudaine de nettoyer et de tout ranger, qu'on appelle l'instinct de nidification. Parmi les signes que le travail commence peut-être : des contractions régulières, la perte du bouchon muqueux (des glaires collantes), un mal de dos ou la rupture de la poche des eaux. Appelle ta sage-femme ou ta maternité si tu perds les eaux, en cas de saignement, ou si les mouvements de ton bébé changent.",
+    "tips": [
+      "L'instinct de nidification est naturel, mais dose tes efforts et repose-toi autant que possible.",
+      "Apprends les signes du travail et à quel moment ta maternité souhaite que tu appelles.",
+      "Renseigne-toi sur le baby blues et la dépression post-partum, et partage ce que tu apprends avec ton ou ta partenaire ou un proche."
+    ],
+    "todo": [
+      "Prévois qui s'occupera des autres enfants ou des animaux quand le travail commencera."
+    ]
+  },
+  "38": {
+    "sizeTitle": "Melon miel",
+    "sizePhrase": "d'un melon miel",
+    "baby": "Ton bébé mesure environ 49,8 cm et pèse environ 3 kg. Le lanugo a presque entièrement disparu, et les intestins stockent le méconium, qui sera le premier caca de ton bébé. Les réflexes comme l'agrippement et la succion sont prêts pour la vie à l'extérieur.",
+    "body": "L'attente peut mêler impatience, excitation et nervosité, et tout cela est normal. Lors de ton rendez-vous vers cette période, on contrôlera ta tension, ton urine et ton ventre, et vous parlerez peut-être de ce qui se passe si tu dépasses le terme. Une courte marche et un peu d'air frais peuvent aider le temps à passer.",
+    "tips": [
+      "Emporte ton dossier de grossesse dès que tu sors.",
+      "Garde des en-cas et des boissons faciles à portée de main pour le début du travail, comme des bananes ou des yaourts.",
+      "Mets une alèse imperméable sur ton matelas si tu crains de perdre les eaux pendant la nuit."
+    ],
+    "todo": [
+      "Demande ce que ton équipe soignante propose si tu dépasses le terme, comme un décollement des membranes ou un déclenchement."
+    ]
+  },
+  "39": {
+    "sizeTitle": "Petite pastèque",
+    "sizePhrase": "d'une petite pastèque",
+    "baby": "Ton bébé mesure environ 50,7 cm et il est maintenant à terme. Sa peau a développé une couche externe plus épaisse qui aide à protéger le corps et à réguler la température. Il peut rester un peu de vernix sur sa peau à la naissance, ou il peut avoir presque entièrement disparu.",
+    "body": "Plus de pertes, une pression dans le bas du ventre et un mal de dos sont fréquents, car ton bébé descend. Appelle ta sage-femme ou ta maternité si tu perds les eaux, en cas de saignement, ou si les mouvements de ton bébé changent. Appelle aussi en urgence en cas de violent mal de tête, de troubles de la vue, de douleur sous les côtes, de gonflement soudain, de fortes démangeaisons ou de fièvre.",
+    "tips": [
+      "Des contractions d'environ 60 secondes, toutes les 5 minutes, sont un repère fréquent pour appeler ; suis les consignes de ta maternité.",
+      "Si tu perds les eaux, note l'heure et la couleur du liquide, puis appelle ta maternité.",
+      "Repose-toi quand tu peux ; le début du travail peut durer un moment, et dormir t'aide à économiser ton énergie."
+    ],
+    "todo": [
+      "Confirme comment tu iras à l'hôpital et qui t'accompagnera."
+    ]
+  },
+  "40": {
+    "sizeTitle": "Citrouille",
+    "sizePhrase": "d'une citrouille",
+    "baby": "Ton bébé mesure environ 51,2 cm et pèse environ 3,4 kg, même si les bébés en bonne santé ont des tailles très variées. Il est bien à l'étroit, mais ton bébé devrait continuer à bouger selon son rythme habituel. Seul environ 1 bébé sur 20 naît à la date prévue : n'importe quel jour autour de maintenant est donc pile à l'heure.",
+    "body": "Si c'est ton premier bébé, tu auras généralement un contrôle cette semaine, avec prise de tension, analyse d'urine et mesure du ventre. Les vraies contractions ont tendance à devenir plus fortes, plus longues et plus rapprochées, alors que les contractions de Braxton Hicks restent irrégulières. Les mouvements de ton bébé ne doivent ni ralentir ni s'arrêter ; si c'est le cas, contacte immédiatement ta maternité, à toute heure.",
+    "tips": [
+      "Si les contractions commencent la nuit, essaie de te reposer ou de dormir pendant les premières.",
+      "Pendant la journée, rester debout et bouger peut aider le travail à progresser.",
+      "Il n'existe aucune méthode prouvée pour déclencher le travail sans danger à la maison : demande l'avis de ta sage-femme avant d'essayer quoi que ce soit."
+    ],
+    "todo": [
+      "Parle d'un décollement des membranes avec ta sage-femme ou ton médecin ; il est souvent proposé vers 40 à 41 semaines."
+    ]
+  },
+  "41": {
+    "sizeTitle": "Pastèque",
+    "sizePhrase": "d'une pastèque",
+    "baby": "Ton bébé prend simplement un peu plus de temps, ce qui est fréquent, surtout lors d'une première grossesse. La plupart des bébés pèsent maintenant environ 3 à 4 kg, et la croissance la plus rapide est derrière eux. Les bébés nés après la date prévue ont souvent la peau sèche qui pèle, ce qui s'arrange tout seul en quelques jours.",
+    "body": "Dépasser la date prévue peut être frustrant, alors ménage-toi. À partir de 41 semaines, les risques, même s'ils restent faibles, commencent à augmenter : ta sage-femme ou ton médecin parlera donc avec toi d'une surveillance renforcée, d'un décollement des membranes ou d'un déclenchement. Continue de faire attention aux mouvements de ton bébé, et appelle immédiatement s'ils changent.",
+    "tips": [
+      "Pose toutes les questions dont tu as besoin sur le déclenchement ; c'est une décision que tu prends avec ton équipe soignante.",
+      "Garde ton téléphone chargé et ta valise près de la porte.",
+      "De petites marches, des bains tièdes et beaucoup de repos peuvent t'aider à rester à l'aise pendant l'attente."
+    ],
+    "todo": [
+      "Fais le point sur tes options avec ta sage-femme ou ton médecin : surveillance renforcée, décollement des membranes ou date de déclenchement."
+    ]
+  },
+  "42": {
+    "sizeTitle": "Grosse citrouille",
+    "sizePhrase": "d'une grosse citrouille",
+    "baby": "Ton bébé est entièrement développé et prend simplement son temps. Les bébés nés après 42 semaines peuvent avoir de longs ongles, la peau sèche ou qui pèle et peu de vernix ; la peau s'arrange généralement en quelques jours. Ton équipe soignante va vous surveiller de près, tous les deux.",
+    "body": "Une grossesse qui se poursuit au-delà de 42 semaines est dite prolongée (ou post-terme), et un déclenchement est généralement recommandé à ce stade. Si tu as choisi d'attendre, on te proposera généralement une surveillance plus étroite, comme des contrôles du rythme cardiaque de ton bébé et du liquide qui l'entoure. Contacte immédiatement ta maternité si les mouvements de ton bébé changent, si tu perds les eaux ou en cas de saignement.",
+    "tips": [
+      "C'est normal d'être à bout de patience ou d'en avoir assez ; appuie-toi sur les personnes qui te soutiennent.",
+      "Demande à ton équipe soignante de t'expliquer chaque option, avec ses bénéfices et ses risques, pour que vous puissiez décider ensemble.",
+      "Continue de manger régulièrement et de boire de l'eau pour avoir de l'énergie pour le travail."
+    ],
+    "todo": [
+      "Si ce n'est pas déjà fait, mets-toi d'accord avec ton équipe soignante sur un plan : déclenchement ou surveillance plus étroite."
+    ]
+  }
+}

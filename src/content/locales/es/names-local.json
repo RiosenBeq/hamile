@@ -1,0 +1,564 @@
+{
+  "basis": "Spain: INE (Instituto Nacional de Estadística), 'Nacimientos según el nombre del nacido', año 2024, datos definitivos (published November 2025): national top 30 for girls and boys (https://www.ine.es/daco/daco42/nombyapel/nomnac24.xlsx). Mexico: RENAPO/INEGI publish no national ranking of baby names, so the Mexican picks come from the Registro Civil del Estado de México lists of most-registered names for January–March 2025 and January–March 2026, as reported in the press. Names already in names.json are listed in alsoPopular under their existing spelling (Sofia = Sofía, Mia = Mía, Sebastian = Sebastián).",
+  "add": [
+    {
+      "name": "Lucía",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Light",
+        "tr": "Işık",
+        "es": "Luz",
+        "de": "Licht",
+        "fr": "Lumière",
+        "pt": "Luz"
+      }
+    },
+    {
+      "name": "Martina",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Of Mars; warlike",
+        "tr": "Mars'a ait; savaşçı",
+        "es": "Consagrada a Marte; guerrera",
+        "de": "Dem Mars geweiht; kriegerisch",
+        "fr": "Consacrée à Mars ; guerrière",
+        "pt": "Consagrada a Marte; guerreira"
+      }
+    },
+    {
+      "name": "María",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Beloved (from Miriam); the Virgin Mary",
+        "tr": "Sevilen (Miryam'dan); Meryem Ana",
+        "es": "Amada (de Miriam); la Virgen María",
+        "de": "Geliebt (von Mirjam); die Jungfrau Maria",
+        "fr": "Aimée (de Myriam) ; la Vierge Marie",
+        "pt": "Amada (de Miriam); a Virgem Maria"
+      }
+    },
+    {
+      "name": "Vega",
+      "gender": "f",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Fertile meadow; also the bright star Vega",
+        "tr": "Verimli ova; aynı zamanda parlak Vega yıldızı",
+        "es": "Llanura fértil; también la brillante estrella Vega",
+        "de": "Fruchtbare Aue; auch der helle Stern Wega",
+        "fr": "Plaine fertile ; aussi l'étoile brillante Véga",
+        "pt": "Várzea fértil; também a estrela brilhante Vega"
+      }
+    },
+    {
+      "name": "Julia",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Youthful; from the Roman family name Julius",
+        "tr": "Genç; Romalı Julius ailesinin adından",
+        "es": "Juvenil; del nombre de la familia romana Julia",
+        "de": "Jugendlich; vom römischen Familiennamen Julius",
+        "fr": "Jeune ; du nom de famille romain Julius",
+        "pt": "Jovem; do nome de família romano Julius"
+      }
+    },
+    {
+      "name": "Valeria",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Strong, healthy",
+        "tr": "Güçlü, sağlıklı",
+        "es": "Fuerte, sana",
+        "de": "Stark, gesund",
+        "fr": "Forte, en bonne santé",
+        "pt": "Forte, saudável"
+      }
+    },
+    {
+      "name": "Paula",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Small, humble",
+        "tr": "Küçük, alçakgönüllü",
+        "es": "Pequeña, humilde",
+        "de": "Klein, bescheiden",
+        "fr": "Petite, humble",
+        "pt": "Pequena, humilde"
+      }
+    },
+    {
+      "name": "Carmen",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Garden, orchard (from Mount Carmel)",
+        "tr": "Bahçe, meyve bahçesi (Karmel Dağı'ndan)",
+        "es": "Jardín, huerto (del monte Carmelo)",
+        "de": "Garten, Obstgarten (vom Berg Karmel)",
+        "fr": "Jardin, verger (du mont Carmel)",
+        "pt": "Jardim, pomar (do Monte Carmelo)"
+      }
+    },
+    {
+      "name": "Alma",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Nurturing, kind; also 'soul' in Spanish",
+        "tr": "Besleyen, şefkatli; İspanyolcada 'ruh' anlamına da gelir",
+        "es": "Que nutre, bondadosa; también «alma» en español",
+        "de": "Nährend, gütig; auf Spanisch auch „Seele“",
+        "fr": "Nourricière, bienveillante ; aussi « âme » en espagnol",
+        "pt": "Que nutre, bondosa; também 'alma' em espanhol"
+      }
+    },
+    {
+      "name": "Carla",
+      "gender": "f",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Free woman (feminine of Carl)",
+        "tr": "Özgür kadın (Carl'ın kadın biçimi)",
+        "es": "Mujer libre (femenino de Carlos)",
+        "de": "Freie Frau (weibliche Form von Carl)",
+        "fr": "Femme libre (féminin de Carl)",
+        "pt": "Mulher livre (feminino de Carl)"
+      }
+    },
+    {
+      "name": "Lola",
+      "gender": "f",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Short for Dolores, 'sorrows', after Our Lady of Sorrows",
+        "tr": "Dolores'in kısaltması; Acılı Meryem Ana'ya atfen 'acılar' anlamına gelir",
+        "es": "Diminutivo de Dolores, por la Virgen de los Dolores",
+        "de": "Kurzform von Dolores, „Schmerzen“, nach der Schmerzensmutter Maria",
+        "fr": "Diminutif de Dolores, « douleurs », en référence à Notre-Dame des Douleurs",
+        "pt": "Forma curta de Dolores, 'dores', em referência a Nossa Senhora das Dores"
+      }
+    },
+    {
+      "name": "Daniela",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is my judge",
+        "tr": "Tanrı benim yargıcımdır",
+        "es": "Dios es mi juez",
+        "de": "Gott ist mein Richter",
+        "fr": "Dieu est mon juge",
+        "pt": "Deus é meu juiz"
+      }
+    },
+    {
+      "name": "Sara",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Princess",
+        "tr": "Prenses",
+        "es": "Princesa",
+        "de": "Prinzessin",
+        "fr": "Princesse",
+        "pt": "Princesa"
+      }
+    },
+    {
+      "name": "Jimena",
+      "gender": "f",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Medieval Spanish name, often linked to Simeon, 'he has heard'",
+        "tr": "Orta Çağ İspanyol adı; genellikle 'işitti' anlamındaki Simeon ile ilişkilendirilir",
+        "es": "Nombre medieval español, a menudo relacionado con Simeón, «el que ha escuchado»",
+        "de": "Mittelalterlicher spanischer Name, oft mit Simeon verbunden, „er hat gehört“",
+        "fr": "Prénom espagnol médiéval, souvent rapproché de Siméon, « il a entendu »",
+        "pt": "Nome espanhol medieval, muitas vezes ligado a Simeão, 'ele ouviu'"
+      }
+    },
+    {
+      "name": "Claudia",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Claudius",
+        "tr": "Romalı Claudius ailesinin adından",
+        "es": "Del nombre de la familia romana Claudia",
+        "de": "Vom römischen Familiennamen Claudius",
+        "fr": "Du nom de famille romain Claudius",
+        "pt": "Do nome de família romano Claudius"
+      }
+    },
+    {
+      "name": "Noa",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Movement",
+        "tr": "Hareket",
+        "es": "Movimiento",
+        "de": "Bewegung",
+        "fr": "Mouvement",
+        "pt": "Movimento"
+      }
+    },
+    {
+      "name": "Alba",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Dawn; white",
+        "tr": "Şafak; beyaz",
+        "es": "Amanecer; blanca",
+        "de": "Morgendämmerung; weiß",
+        "fr": "Aube ; blanche",
+        "pt": "Alvorada; branca"
+      }
+    },
+    {
+      "name": "Regina",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Queen",
+        "tr": "Kraliçe",
+        "es": "Reina",
+        "de": "Königin",
+        "fr": "Reine",
+        "pt": "Rainha"
+      }
+    },
+    {
+      "name": "Romina",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Roman woman; from Rome",
+        "tr": "Romalı kadın; Roma'dan",
+        "es": "Romana; de Roma",
+        "de": "Römerin; aus Rom",
+        "fr": "Romaine ; de Rome",
+        "pt": "Romana; de Roma"
+      }
+    },
+    {
+      "name": "María José",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Compound of María (beloved) and José (God will add)",
+        "tr": "María (sevilen) ve José (Tanrı ekleyecek) adlarının birleşimi",
+        "es": "Compuesto de María (amada) y José (Dios añadirá)",
+        "de": "Zusammensetzung aus María (geliebt) und José (Gott wird hinzufügen)",
+        "fr": "Composé de María (aimée) et José (Dieu ajoutera)",
+        "pt": "Composto de María (amada) e José (Deus acrescentará)"
+      }
+    },
+    {
+      "name": "Ailani",
+      "gender": "f",
+      "origin": "Hawaiian",
+      "meaning": {
+        "en": "High chief",
+        "tr": "Yüce reis",
+        "es": "Gran jefa",
+        "de": "Hohe Anführerin",
+        "fr": "Grande cheffe",
+        "pt": "Grande chefe"
+      }
+    },
+    {
+      "name": "Martín",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Of Mars; warrior",
+        "tr": "Mars'a ait; savaşçı",
+        "es": "Consagrado a Marte; guerrero",
+        "de": "Dem Mars geweiht; Krieger",
+        "fr": "Consacré à Mars ; guerrier",
+        "pt": "Consagrado a Marte; guerreiro"
+      }
+    },
+    {
+      "name": "Manuel",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is with us (from Emmanuel)",
+        "tr": "Tanrı bizimle (Emmanuel'den)",
+        "es": "Dios está con nosotros (de Emmanuel)",
+        "de": "Gott ist mit uns (von Emmanuel)",
+        "fr": "Dieu est avec nous (d'Emmanuel)",
+        "pt": "Deus está conosco (de Emanuel)"
+      }
+    },
+    {
+      "name": "Pablo",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Small, humble",
+        "tr": "Küçük, alçakgönüllü",
+        "es": "Pequeño, humilde",
+        "de": "Klein, bescheiden",
+        "fr": "Petit, humble",
+        "pt": "Pequeno, humilde"
+      }
+    },
+    {
+      "name": "Alejandro",
+      "gender": "m",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Defender of the people",
+        "tr": "Halkın koruyucusu",
+        "es": "Defensor del pueblo",
+        "de": "Verteidiger des Volkes",
+        "fr": "Défenseur du peuple",
+        "pt": "Defensor do povo"
+      }
+    },
+    {
+      "name": "Enzo",
+      "gender": "m",
+      "origin": "Italian",
+      "meaning": {
+        "en": "Italian name linked to Henry, 'ruler of the home'",
+        "tr": "Henry ile ilişkilendirilen İtalyan adı: 'evin hükümdarı'",
+        "es": "Nombre italiano relacionado con Enrique, «señor del hogar»",
+        "de": "Italienischer Name, verwandt mit Heinrich, „Herr des Hauses“",
+        "fr": "Prénom italien lié à Henri, « maître de la maison »",
+        "pt": "Nome italiano ligado a Henrique, 'senhor do lar'"
+      }
+    },
+    {
+      "name": "Álvaro",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Guardian of all; wise",
+        "tr": "Herkesin koruyucusu; bilge",
+        "es": "Guardián de todos; sabio",
+        "de": "Hüter aller; weise",
+        "fr": "Gardien de tous ; sage",
+        "pt": "Guardião de todos; sábio"
+      }
+    },
+    {
+      "name": "Thiago",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Form of Santiago, Saint James (from Jacob)",
+        "tr": "Santiago'nun bir biçimi; Aziz Yakup (Jacob'dan)",
+        "es": "Forma de Santiago (de Jacob)",
+        "de": "Form von Santiago, dem heiligen Jakobus (von Jakob)",
+        "fr": "Forme de Santiago, saint Jacques (de Jacob)",
+        "pt": "Forma de Santiago, São Tiago (de Jacó)"
+      }
+    },
+    {
+      "name": "Gonzalo",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Ready for battle; warrior",
+        "tr": "Savaşa hazır; savaşçı",
+        "es": "Dispuesto para la batalla; guerrero",
+        "de": "Kampfbereit; Krieger",
+        "fr": "Prêt au combat ; guerrier",
+        "pt": "Pronto para a batalha; guerreiro"
+      }
+    },
+    {
+      "name": "Mario",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Marius; manly",
+        "tr": "Romalı Marius ailesinin adından; erkeksi",
+        "es": "Del nombre de la familia romana Mario; varonil",
+        "de": "Vom römischen Familiennamen Marius; männlich",
+        "fr": "Du nom de famille romain Marius ; viril",
+        "pt": "Do nome de família romano Marius; viril"
+      }
+    },
+    {
+      "name": "Adrián",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From Hadria, by the Adriatic Sea",
+        "tr": "Adriyatik kıyısındaki Hadria'dan",
+        "es": "De Hadria, junto al mar Adriático",
+        "de": "Aus Hadria, an der Adria",
+        "fr": "De Hadria, au bord de l'Adriatique",
+        "pt": "De Hadria, junto ao mar Adriático"
+      }
+    },
+    {
+      "name": "Bruno",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Brown",
+        "tr": "Kahverengi",
+        "es": "Moreno, de color pardo",
+        "de": "Braun",
+        "fr": "Brun",
+        "pt": "Castanho, moreno"
+      }
+    },
+    {
+      "name": "Diego",
+      "gender": "m",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Medieval Spanish name, often linked to James (Santiago)",
+        "tr": "Orta Çağ İspanyol adı; genellikle James (Santiago) ile ilişkilendirilir",
+        "es": "Nombre medieval español, a menudo relacionado con Santiago",
+        "de": "Mittelalterlicher spanischer Name, oft mit Jakobus (Santiago) verbunden",
+        "fr": "Prénom espagnol médiéval, souvent rapproché de Jacques (Santiago)",
+        "pt": "Nome espanhol medieval, muitas vezes ligado a Tiago (Santiago)"
+      }
+    },
+    {
+      "name": "Gael",
+      "gender": "m",
+      "origin": "Celtic",
+      "meaning": {
+        "en": "A Gael; generous (Breton)",
+        "tr": "Bir Gael; cömert (Bretonca)",
+        "es": "Gaélico; generoso (bretón)",
+        "de": "Ein Gäle; großzügig (bretonisch)",
+        "fr": "Un Gaël ; généreux (breton)",
+        "pt": "Um gaélico; generoso (bretão)"
+      }
+    },
+    {
+      "name": "Marcos",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Of Mars; warlike",
+        "tr": "Mars'a ait; savaşçı",
+        "es": "Consagrado a Marte; guerrero",
+        "de": "Dem Mars geweiht; kriegerisch",
+        "fr": "Consacré à Mars ; guerrier",
+        "pt": "Consagrado a Marte; guerreiro"
+      }
+    },
+    {
+      "name": "Izan",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Spanish form of Ethan, 'solid, enduring'",
+        "tr": "Ethan'ın İspanyolca biçimi: 'sağlam, kalıcı'",
+        "es": "Forma española de Ethan, «firme, duradero»",
+        "de": "Spanische Form von Ethan, „fest, beständig“",
+        "fr": "Forme espagnole d'Ethan, « solide, durable »",
+        "pt": "Forma espanhola de Ethan, 'firme, duradouro'"
+      }
+    },
+    {
+      "name": "Matías",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Gift of God",
+        "tr": "Tanrı'nın armağanı",
+        "es": "Regalo de Dios",
+        "de": "Geschenk Gottes",
+        "fr": "Don de Dieu",
+        "pt": "Presente de Deus"
+      }
+    },
+    {
+      "name": "Leonardo",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Brave as a lion",
+        "tr": "Aslan gibi cesur",
+        "es": "Valiente como un león",
+        "de": "Tapfer wie ein Löwe",
+        "fr": "Courageux comme un lion",
+        "pt": "Valente como um leão"
+      }
+    },
+    {
+      "name": "Emiliano",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman Aemilius family; eager, striving",
+        "tr": "Romalı Aemilius ailesinden; gayretli",
+        "es": "De la familia romana Emilia; esforzado",
+        "de": "Von der römischen Familie Aemilius; eifrig, strebsam",
+        "fr": "De la famille romaine Aemilius ; ardent, travailleur",
+        "pt": "Da família romana Aemilius; esforçado, dedicado"
+      }
+    },
+    {
+      "name": "Rodrigo",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Famous ruler",
+        "tr": "Ünlü hükümdar",
+        "es": "Gobernante famoso",
+        "de": "Berühmter Herrscher",
+        "fr": "Souverain célèbre",
+        "pt": "Governante famoso"
+      }
+    },
+    {
+      "name": "Antonio",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Antonius",
+        "tr": "Romalı Antonius ailesinin adından",
+        "es": "Del nombre de la familia romana Antonia",
+        "de": "Vom römischen Familiennamen Antonius",
+        "fr": "Du nom de famille romain Antonius",
+        "pt": "Do nome de família romano Antonius"
+      }
+    }
+  ],
+  "alsoPopular": [
+    "Sofia",
+    "Olivia",
+    "Mia",
+    "Emma",
+    "Lara",
+    "Chloe",
+    "Valentina",
+    "Victoria",
+    "Camila",
+    "Isabella",
+    "Emily",
+    "Mateo",
+    "Hugo",
+    "Leo",
+    "Lucas",
+    "Daniel",
+    "Luca",
+    "Liam",
+    "Oliver",
+    "David",
+    "Gabriel",
+    "Santiago",
+    "Sebastian"
+  ],
+  "newOrigins": {}
+}

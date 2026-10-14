@@ -1,0 +1,1147 @@
+[
+  {
+    "id": "jamon-curado",
+    "category": "food",
+    "emoji": "🍖",
+    "verdict": "caution",
+    "name": {
+      "en": "Jamón serrano & ibérico (cured ham)",
+      "tr": "Jamón serrano ve ibérico (kurutulmuş jambon)",
+      "es": "Jamón serrano e ibérico",
+      "de": "Jamón serrano & ibérico (spanischer Rohschinken)",
+      "fr": "Jamón serrano & ibérico (jambon cru espagnol)",
+      "pt": "Jamón serrano e ibérico (presunto cru espanhol)"
+    },
+    "aliases": {
+      "en": [
+        "jamon",
+        "serrano ham",
+        "iberico ham",
+        "pata negra",
+        "cured ham",
+        "spanish ham"
+      ],
+      "tr": [
+        "jamon",
+        "serrano jambonu",
+        "iberico jambonu",
+        "kurutulmuş jambon",
+        "ispanyol jambonu"
+      ],
+      "es": [
+        "jamón",
+        "jamón serrano",
+        "jamón ibérico",
+        "pata negra",
+        "paleta ibérica",
+        "embutido curado"
+      ],
+      "de": [
+        "Jamón",
+        "Serrano-Schinken",
+        "Ibérico-Schinken",
+        "Pata Negra",
+        "spanischer Schinken",
+        "Rohschinken"
+      ],
+      "fr": [
+        "jamón",
+        "jambon serrano",
+        "jambon ibérique",
+        "pata negra",
+        "jambon cru",
+        "jambon espagnol"
+      ],
+      "pt": [
+        "jamón",
+        "presunto serrano",
+        "presunto ibérico",
+        "pata negra",
+        "presunto cru",
+        "presunto espanhol"
+      ]
+    },
+    "summary": {
+      "en": "Only cooked until very hot, as in croquetas or on a pizza, unless your doctor confirms you're immune to toxoplasmosis.",
+      "tr": "Doktorun toksoplazmaya karşı bağışık olduğunu doğrulamadıkça, yalnızca kroket ya da pizzadaki gibi iyice ısınana kadar pişmiş halde ye.",
+      "es": "Solo cocinado hasta que esté muy caliente, como en croquetas o en una pizza, salvo que tu médico confirme que eres inmune a la toxoplasmosis.",
+      "de": "Nur gegart, bis er sehr heiß ist, etwa in Croquetas oder auf einer Pizza – es sei denn, deine Ärztin oder dein Arzt bestätigt, dass du gegen Toxoplasmose immun bist.",
+      "fr": "Seulement cuit jusqu'à être très chaud, comme dans des croquetas ou sur une pizza, sauf si ton médecin confirme que tu es immunisée contre la toxoplasmose.",
+      "pt": "Só cozido até ficar bem quente, como em croquetes ou na pizza, a menos que seu médico confirme que você é imune à toxoplasmose."
+    },
+    "details": {
+      "en": "Jamón is cured, not cooked, so it can carry the toxoplasma parasite. AESAN, Spain's food safety agency, advises pregnant women who aren't immune to toxoplasmosis to avoid raw cured meats such as jamón, chorizo, salchichón and salami. They're fine once cooked to over 70 °C for 2 minutes in the centre, for example in croquetas, sautéed dishes or pizza. AESAN's leaflets mention cooking, not freezing, as the way to make them safe.",
+      "tr": "Jamón pişirilmez, kürlenir; bu yüzden toksoplazma parazitini taşıyabilir. İspanya'nın gıda güvenliği ajansı AESAN, toksoplazmaya karşı bağışık olmayan hamilelere jamón, chorizo, salchichón ve salami gibi çiğ kürlenmiş et ürünlerinden kaçınmalarını öneriyor. Ortası 2 dakika boyunca 70 °C'nin üzerine çıkacak şekilde pişirildiğinde, örneğin kroket, sote ya da pizzada, sorun olmaz. AESAN broşürleri bunları güvenli hale getirmenin yolu olarak dondurmayı değil, pişirmeyi gösteriyor.",
+      "es": "El jamón se cura, no se cocina, por lo que puede transmitir el parásito de la toxoplasmosis. La AESAN, la agencia española de seguridad alimentaria, aconseja a las embarazadas que no son inmunes a la toxoplasmosis evitar los productos cárnicos crudos curados, como el jamón, el chorizo, el salchichón o el salami. Se pueden tomar si se cocinan a más de 70 °C durante 2 minutos en el centro del producto, por ejemplo en croquetas, rehogados o pizzas. Los folletos de la AESAN mencionan el cocinado, no la congelación, como forma de hacerlos seguros.",
+      "de": "Jamón wird gereift, nicht gegart, deshalb kann er den Toxoplasmose-Erreger enthalten. Die AESAN, die spanische Behörde für Lebensmittelsicherheit, rät Schwangeren, die nicht gegen Toxoplasmose immun sind, rohe gereifte Fleischwaren wie Jamón, Chorizo, Salchichón und Salami zu meiden. In Ordnung sind sie, wenn sie im Kern 2 Minuten lang auf über 70 °C erhitzt wurden, zum Beispiel in Croquetas, Pfannengerichten oder auf Pizza. In den Merkblättern der AESAN wird das Garen, nicht das Einfrieren, als Weg genannt, sie sicher zu machen.",
+      "fr": "Le jamón est affiné, pas cuit : il peut donc transmettre le parasite de la toxoplasmose. L'AESAN, l'agence espagnole de sécurité alimentaire, conseille aux femmes enceintes non immunisées contre la toxoplasmose d'éviter les charcuteries crues affinées comme le jamón, le chorizo, le salchichón et le salami. Elles ne posent pas de problème une fois cuites à plus de 70 °C pendant 2 minutes à cœur, par exemple dans des croquetas, des plats sautés ou une pizza. Les brochures de l'AESAN mentionnent la cuisson, et non la congélation, comme moyen de les rendre sûres.",
+      "pt": "O jamón é curado, não cozido, por isso pode transmitir o parasita da toxoplasmose. A AESAN, agência espanhola de segurança alimentar, orienta gestantes que não são imunes à toxoplasmose a evitar carnes cruas curadas, como jamón, chorizo, salchichón e salame. Elas podem ser consumidas depois de cozidas a mais de 70 °C por 2 minutos no centro, por exemplo em croquetes, refogados ou pizza. Os folhetos da AESAN citam o cozimento, e não o congelamento, como forma de torná-las seguras."
+    },
+    "tips": {
+      "en": [
+        "Ask your doctor or midwife whether your blood tests show you're immune to toxoplasmosis.",
+        "Enjoy jamón in hot dishes: croquetas, sautéed dishes or a freshly baked pizza."
+      ],
+      "tr": [
+        "Kan tahlillerinin toksoplazmaya karşı bağışık olduğunu gösterip göstermediğini doktoruna ya da ebene sor.",
+        "Jamón'u sıcak yemeklerde ye: kroket, sote yemekler ya da fırından yeni çıkmış pizza."
+      ],
+      "es": [
+        "Pregunta a tu médico o a tu matrona si tus análisis muestran que eres inmune a la toxoplasmosis.",
+        "Disfruta del jamón en platos calientes: croquetas, rehogados o una pizza recién horneada."
+      ],
+      "de": [
+        "Frag deine Ärztin, deinen Arzt oder deine Hebamme, ob deine Blutwerte zeigen, dass du gegen Toxoplasmose immun bist.",
+        "Genieß Jamón in warmen Gerichten: Croquetas, Pfannengerichte oder eine frisch gebackene Pizza."
+      ],
+      "fr": [
+        "Demande à ton médecin ou à ta sage-femme si tes analyses de sang montrent que tu es immunisée contre la toxoplasmose.",
+        "Savoure le jamón dans des plats chauds : croquetas, plats sautés ou pizza tout juste sortie du four."
+      ],
+      "pt": [
+        "Pergunte ao seu médico ou à sua obstetra se seus exames de sangue mostram que você é imune à toxoplasmose.",
+        "Aproveite o jamón em pratos quentes: croquetes, refogados ou uma pizza recém-assada."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      },
+      {
+        "name": "AESAN: Evita la listeriosis, consejos prácticos para grupos de riesgo",
+        "url": "https://www.aesan.gob.es/dam/jcr:b8fc1e69-c7a5-4d6c-98c0-e3b9fec5c4d6/Folleto_LISTERIOSIS.pdf"
+      }
+    ]
+  },
+  {
+    "id": "boquerones-en-vinagre",
+    "category": "food",
+    "emoji": "🐟",
+    "verdict": "avoid",
+    "name": {
+      "en": "Boquerones en vinagre (marinated anchovies)",
+      "tr": "Boquerones en vinagre (sirkeli hamsi)",
+      "es": "Boquerones en vinagre",
+      "de": "Boquerones en vinagre (marinierte Sardellen)",
+      "fr": "Boquerones en vinagre (anchois marinés)",
+      "pt": "Boquerones en vinagre (anchovas marinadas)"
+    },
+    "aliases": {
+      "en": [
+        "boquerones",
+        "marinated anchovies",
+        "pickled anchovies",
+        "white anchovies",
+        "anchovies in vinegar"
+      ],
+      "tr": [
+        "sirkeli hamsi",
+        "marine hamsi",
+        "hamsi turşusu",
+        "boquerones"
+      ],
+      "es": [
+        "boquerones",
+        "boquerones en vinagre",
+        "anchoas en vinagre",
+        "pescado en vinagre",
+        "pescado marinado",
+        "arenques marinados"
+      ],
+      "de": [
+        "Boquerones",
+        "marinierte Sardellen",
+        "eingelegte Sardellen",
+        "Sardellen in Essig",
+        "weiße Sardellen",
+        "Boquerones en vinagre"
+      ],
+      "fr": [
+        "boquerones",
+        "anchois marinés",
+        "anchois au vinaigre",
+        "anchois blancs",
+        "boquerones en vinagre"
+      ],
+      "pt": [
+        "boquerones",
+        "anchovas marinadas",
+        "anchovas no vinagre",
+        "aliche marinado",
+        "boquerones en vinagre"
+      ]
+    },
+    "summary": {
+      "en": "Avoid them in pregnancy, as they're raw fish marinated in vinegar; fried or cooked boquerones are a great choice.",
+      "tr": "Sirkeyle marine edilmiş çiğ balık oldukları için hamilelikte kaçın; kızartılmış ya da pişmiş hamsi ise harika bir seçim.",
+      "es": "Mejor evitarlos durante el embarazo, porque son pescado crudo marinado en vinagre; los boquerones fritos o cocinados son una gran opción.",
+      "de": "Meide sie in der Schwangerschaft, denn das ist roher, in Essig marinierter Fisch; frittierte oder gegarte Boquerones sind eine tolle Wahl.",
+      "fr": "Évite-les pendant la grossesse, car c'est du poisson cru mariné dans du vinaigre ; les boquerones frits ou cuits sont un excellent choix.",
+      "pt": "Evite na gravidez, porque são peixe cru marinado no vinagre; boquerones fritos ou cozidos são uma ótima opção."
+    },
+    "details": {
+      "en": "Vinegar doesn't cook fish, so boquerones en vinagre are still raw. AESAN lists marinated fish such as boquerones en vinagre among the foods to avoid in pregnancy, alongside other raw fish. Freezing the fish for 5 days at −20 °C protects against the anisakis parasite, but it doesn't change that pregnancy advice. Anchovies themselves are on AESAN's low-mercury list, so cooked ones are a healthy choice.",
+      "tr": "Sirke balığı pişirmez; bu yüzden sirkeli hamsi hâlâ çiğdir. AESAN, sirkeli hamsi gibi marine edilmiş balıkları diğer çiğ balıklarla birlikte hamilelikte kaçınılması gereken yiyecekler arasında sayıyor. Balığı −20 °C'de 5 gün dondurmak anisakis parazitine karşı korur, ama hamilelik için bu öneriyi değiştirmez. Hamsi, AESAN'ın düşük cıvalı balıklar listesinde yer alıyor; pişmiş hali sağlıklı bir seçim.",
+      "es": "El vinagre no cocina el pescado, así que los boquerones en vinagre siguen estando crudos. La AESAN incluye el pescado marinado, como los boquerones en vinagre, entre los alimentos que hay que evitar en el embarazo, junto con el resto del pescado crudo. Congelar el pescado 5 días a −20 °C protege frente al parásito anisakis, pero no cambia esa recomendación para el embarazo. El boquerón está en la lista de pescados con bajo contenido en mercurio de la AESAN, así que cocinado es una opción saludable.",
+      "de": "Essig gart Fisch nicht, Boquerones en vinagre sind also weiterhin roh. Die AESAN zählt marinierten Fisch wie Boquerones en vinagre zusammen mit anderem rohem Fisch zu den Lebensmitteln, die in der Schwangerschaft gemieden werden sollten. Fisch 5 Tage bei −20 °C einzufrieren schützt vor dem Parasiten Anisakis, ändert aber nichts an dieser Empfehlung für die Schwangerschaft. Sardellen selbst stehen auf der Liste der AESAN für Fische mit wenig Quecksilber, gegart sind sie also eine gesunde Wahl.",
+      "fr": "Le vinaigre ne cuit pas le poisson : les boquerones en vinagre restent donc crus. L'AESAN classe le poisson mariné, comme les boquerones en vinagre, parmi les aliments à éviter pendant la grossesse, avec les autres poissons crus. Congeler le poisson 5 jours à −20 °C protège contre le parasite anisakis, mais ne change rien à cette recommandation pour la grossesse. L'anchois lui-même figure sur la liste des poissons pauvres en mercure de l'AESAN : cuit, c'est donc un choix sain.",
+      "pt": "O vinagre não cozinha o peixe, então os boquerones en vinagre continuam crus. A AESAN inclui peixes marinados, como os boquerones en vinagre, entre os alimentos a evitar na gravidez, junto com outros peixes crus. Congelar o peixe por 5 dias a −20 °C protege contra o parasita anisakis, mas não muda essa orientação para a gravidez. A anchova em si está na lista de peixes com pouco mercúrio da AESAN, então cozida é uma escolha saudável."
+    },
+    "tips": {
+      "en": [
+        "At tapas bars, order boquerones fritos instead of en vinagre.",
+        "Canned smoked fish that doesn't need refrigerating is a safer swap, according to AESAN."
+      ],
+      "tr": [
+        "Tapas barında sirkeli yerine kızarmış hamsi (boquerones fritos) iste.",
+        "AESAN'a göre buzdolabında saklanması gerekmeyen konserve tütsülenmiş balık daha güvenli bir alternatif."
+      ],
+      "es": [
+        "En el bar de tapas, pide boquerones fritos en lugar de en vinagre.",
+        "El pescado ahumado en conserva que no necesita frío es una alternativa más segura, según la AESAN."
+      ],
+      "de": [
+        "Bestell in der Tapas-Bar lieber Boquerones fritos statt en vinagre.",
+        "Geräucherter Fisch aus der Konserve, der nicht gekühlt werden muss, ist laut AESAN eine sicherere Alternative."
+      ],
+      "fr": [
+        "Au bar à tapas, commande des boquerones fritos plutôt qu'en vinagre.",
+        "Selon l'AESAN, le poisson fumé en conserve qui n'a pas besoin d'être réfrigéré est une alternative plus sûre."
+      ],
+      "pt": [
+        "No bar de tapas, peça boquerones fritos em vez de en vinagre.",
+        "Segundo a AESAN, peixe defumado em conserva que não precisa de refrigeração é uma troca mais segura."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Evita la listeriosis, consejos prácticos para grupos de riesgo",
+        "url": "https://www.aesan.gob.es/dam/jcr:b8fc1e69-c7a5-4d6c-98c0-e3b9fec5c4d6/Folleto_LISTERIOSIS.pdf"
+      },
+      {
+        "name": "AESAN: Anisakis, comer pescado es seguro y saludable",
+        "url": "https://www.aesan.gob.es/dam/jcr:c8003148-9c17-49eb-b343-7ee61eb2396c/cartel_anisakis_18.pdf.pdf"
+      },
+      {
+        "name": "AESAN: Recomendaciones de consumo de pescado por presencia de mercurio",
+        "url": "https://www.aesan.gob.es/dam/jcr:37655af5-1ba6-4a9e-a756-79a51810aac7/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.pdf"
+      }
+    ]
+  },
+  {
+    "id": "carne-de-caza",
+    "category": "food",
+    "emoji": "🦌",
+    "verdict": "avoid",
+    "name": {
+      "en": "Wild game (boar, venison)",
+      "tr": "Av eti (yaban domuzu, geyik)",
+      "es": "Carne de caza silvestre",
+      "de": "Wildfleisch (Wildschwein, Hirsch)",
+      "fr": "Gibier sauvage (sanglier, cerf)",
+      "pt": "Carne de caça (javali, cervo)"
+    },
+    "aliases": {
+      "en": [
+        "game meat",
+        "wild boar",
+        "venison",
+        "deer",
+        "partridge",
+        "hare"
+      ],
+      "tr": [
+        "av eti",
+        "yaban domuzu",
+        "geyik eti",
+        "keklik",
+        "tavşan eti",
+        "yaban eti"
+      ],
+      "es": [
+        "carne de caza",
+        "jabalí",
+        "venado",
+        "ciervo",
+        "perdiz",
+        "liebre"
+      ],
+      "de": [
+        "Wild",
+        "Wildschwein",
+        "Hirsch",
+        "Reh",
+        "Rebhuhn",
+        "Hase"
+      ],
+      "fr": [
+        "gibier",
+        "sanglier",
+        "cerf",
+        "chevreuil",
+        "perdrix",
+        "lièvre"
+      ],
+      "pt": [
+        "carne de caça",
+        "javali",
+        "cervo",
+        "veado",
+        "perdiz",
+        "lebre"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided in pregnancy, because game shot with lead ammunition can contain lead fragments.",
+      "tr": "Kurşunlu mühimmatla avlanan hayvanların etinde kurşun parçacıkları olabileceği için hamilelikte kaçınmak en iyisi.",
+      "es": "Mejor evitarla durante el embarazo, porque la caza abatida con munición de plomo puede contener fragmentos de plomo.",
+      "de": "In der Schwangerschaft besser meiden, denn mit Bleimunition erlegtes Wild kann Bleisplitter enthalten.",
+      "fr": "Mieux vaut l'éviter pendant la grossesse, car le gibier abattu avec des munitions au plomb peut contenir des fragments de plomb.",
+      "pt": "Melhor evitar na gravidez, porque a caça abatida com munição de chumbo pode conter fragmentos de chumbo."
+    },
+    "details": {
+      "en": "When an animal is shot with lead ammunition, tiny lead fragments can spread through the meat. Lead mainly harms the nervous system, and the developing brain of a fetus is especially sensitive to it. AESAN lists wild game such as boar and venison among the foods to avoid in pregnancy, and advises women who are pregnant, planning a pregnancy or breastfeeding to avoid it or limit it to animals not shot with lead ammunition.",
+      "tr": "Kurşunlu mühimmatla vurulan bir hayvanın etine küçük kurşun parçacıkları yayılabilir. Kurşun özellikle sinir sistemine zarar verir ve bebeğin gelişen beyni buna karşı çok hassastır. AESAN, yaban domuzu ve geyik gibi av etlerini hamilelikte kaçınılması gereken yiyecekler arasında sayıyor; hamile olan, hamilelik planlayan ya da emziren kadınlara bundan kaçınmalarını ya da kurşunlu mühimmatla vurulmamış hayvanlarla sınırlamalarını öneriyor.",
+      "es": "Cuando se abate un animal con munición de plomo, pueden quedar pequeños fragmentos de plomo repartidos por la carne. El plomo afecta sobre todo al sistema nervioso, y el cerebro en desarrollo del feto es especialmente sensible. La AESAN incluye la carne de caza silvestre, como el jabalí o el venado, entre los alimentos que hay que evitar en el embarazo, y aconseja a las mujeres embarazadas, que planean estarlo o en lactancia evitarla o limitarla a piezas no abatidas con munición de plomo.",
+      "de": "Wird ein Tier mit Bleimunition erlegt, können sich winzige Bleisplitter im Fleisch verteilen. Blei schädigt vor allem das Nervensystem, und das sich entwickelnde Gehirn eines Ungeborenen ist besonders empfindlich dafür. Die AESAN zählt Wild wie Wildschwein und Hirsch zu den Lebensmitteln, die in der Schwangerschaft gemieden werden sollten, und rät Frauen, die schwanger sind, eine Schwangerschaft planen oder stillen, darauf zu verzichten oder sich auf Tiere zu beschränken, die nicht mit Bleimunition erlegt wurden.",
+      "fr": "Quand un animal est abattu avec des munitions au plomb, de minuscules fragments de plomb peuvent se disperser dans la viande. Le plomb agit surtout sur le système nerveux, et le cerveau en développement du fœtus y est particulièrement sensible. L'AESAN classe le gibier sauvage, comme le sanglier et le cerf, parmi les aliments à éviter pendant la grossesse, et conseille aux femmes enceintes, qui prévoient une grossesse ou qui allaitent de l'éviter ou de se limiter aux animaux qui n'ont pas été abattus avec des munitions au plomb.",
+      "pt": "Quando um animal é abatido com munição de chumbo, pequenos fragmentos de chumbo podem se espalhar pela carne. O chumbo afeta principalmente o sistema nervoso, e o cérebro em desenvolvimento do feto é especialmente sensível a ele. A AESAN inclui a carne de caça, como javali e cervo, entre os alimentos a evitar na gravidez, e orienta mulheres grávidas, que planejam engravidar ou que estão amamentando a evitá-la ou a se limitar a animais que não foram abatidos com munição de chumbo."
+    },
+    "tips": {
+      "en": [
+        "If you're offered game, ask whether it was shot with lead ammunition.",
+        "For stews and casseroles, well-cooked beef, pork or chicken are good alternatives."
+      ],
+      "tr": [
+        "Sana av eti ikram edilirse kurşunlu mühimmatla avlanıp avlanmadığını sor.",
+        "Güveç ve yahniler için iyice pişmiş dana, kuzu ya da tavuk iyi alternatifler."
+      ],
+      "es": [
+        "Si te ofrecen carne de caza, pregunta si se abatió con munición de plomo.",
+        "Para guisos y estofados, la ternera, el cerdo o el pollo bien cocinados son buenas alternativas."
+      ],
+      "de": [
+        "Wenn dir Wild angeboten wird, frag nach, ob es mit Bleimunition erlegt wurde.",
+        "Für Eintöpfe und Schmorgerichte sind gut durchgegartes Rind-, Schweine- oder Hähnchenfleisch gute Alternativen."
+      ],
+      "fr": [
+        "Si on te propose du gibier, demande s'il a été abattu avec des munitions au plomb.",
+        "Pour les ragoûts et les plats mijotés, le bœuf, le porc ou le poulet bien cuits sont de bonnes alternatives."
+      ],
+      "pt": [
+        "Se alguém oferecer carne de caça, pergunte se o animal foi abatido com munição de chumbo.",
+        "Para ensopados e cozidos, carne bovina, de porco ou frango bem cozidos são boas alternativas."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      },
+      {
+        "name": "AESAN: Recomendaciones sobre el autoconsumo de carne de caza silvestre (plomo)",
+        "url": "https://www.aesan.gob.es/actualidad/actualidad-noticias/caza_silvestre"
+      }
+    ]
+  },
+  {
+    "id": "atun-rojo",
+    "category": "food",
+    "emoji": "🍣",
+    "verdict": "avoid",
+    "name": {
+      "en": "Bluefin tuna (atún rojo)",
+      "tr": "Mavi yüzgeçli orkinos (atún rojo)",
+      "es": "Atún rojo",
+      "de": "Roter Thun (atún rojo)",
+      "fr": "Thon rouge (atún rojo)",
+      "pt": "Atum-azul (atún rojo)"
+    },
+    "aliases": {
+      "en": [
+        "bluefin tuna",
+        "atlantic bluefin",
+        "toro",
+        "otoro",
+        "tuna belly",
+        "thunnus thynnus"
+      ],
+      "tr": [
+        "mavi yüzgeçli orkinos",
+        "orkinos",
+        "toro",
+        "atún rojo"
+      ],
+      "es": [
+        "atún rojo",
+        "atún de almadraba",
+        "toro",
+        "ventresca de atún rojo",
+        "tataki de atún rojo",
+        "Thunnus thynnus"
+      ],
+      "de": [
+        "Roter Thun",
+        "Blauflossen-Thunfisch",
+        "Toro",
+        "Otoro",
+        "Thunfischbauch",
+        "Thunnus thynnus"
+      ],
+      "fr": [
+        "thon rouge",
+        "thon rouge de l'Atlantique",
+        "toro",
+        "otoro",
+        "ventrèche de thon",
+        "Thunnus thynnus"
+      ],
+      "pt": [
+        "atum-azul",
+        "atum-rabilho",
+        "atum vermelho",
+        "toro",
+        "barriga de atum",
+        "Thunnus thynnus"
+      ]
+    },
+    "summary": {
+      "en": "Avoid it in pregnancy; Spain's AESAN lists bluefin tuna among the high-mercury fish to skip.",
+      "tr": "Hamilelikte kaçın; İspanya'nın gıda güvenliği ajansı AESAN, mavi yüzgeçli orkinosu kaçınılması gereken yüksek cıvalı balıklar arasında sayıyor.",
+      "es": "Evítalo durante el embarazo; la AESAN incluye el atún rojo entre los pescados con alto contenido en mercurio que conviene evitar.",
+      "de": "In der Schwangerschaft meiden; die spanische AESAN zählt Roten Thun zu den Fischen mit hohem Quecksilbergehalt, auf die man verzichten sollte.",
+      "fr": "À éviter pendant la grossesse : l'AESAN espagnole classe le thon rouge parmi les poissons riches en mercure à éviter.",
+      "pt": "Evite na gravidez; a AESAN, da Espanha, inclui o atum-azul entre os peixes com muito mercúrio que devem ser evitados."
+    },
+    "details": {
+      "en": "Large, long-lived predatory fish such as bluefin tuna build up more mercury, which can cross the placenta and affect the baby's developing nervous system. AESAN advises women who are pregnant, planning a pregnancy or breastfeeding to avoid bluefin tuna, swordfish, shark (including cazón) and pike. The advice covers bluefin however it's prepared, raw or cooked. Fish is still very good for you: AESAN recommends 3 to 4 portions a week of fish lower in mercury.",
+      "tr": "Mavi yüzgeçli orkinos gibi büyük ve uzun ömürlü yırtıcı balıklar daha fazla cıva biriktirir; cıva plasentayı geçip bebeğin gelişen sinir sistemini etkileyebilir. AESAN, hamile olan, hamilelik planlayan ya da emziren kadınlara mavi yüzgeçli orkinos, kılıç balığı, köpek balığı ve turna balığından kaçınmalarını öneriyor. Bu öneri, çiğ ya da pişmiş, nasıl hazırlanırsa hazırlansın mavi yüzgeçli orkinos için geçerli. Balık yine de çok faydalı: AESAN haftada 3-4 porsiyon daha az cıvalı balık öneriyor.",
+      "es": "Los peces depredadores grandes y longevos, como el atún rojo, acumulan más mercurio, que puede atravesar la placenta y afectar al sistema nervioso en desarrollo del bebé. La AESAN aconseja a las mujeres embarazadas, que planean estarlo o en lactancia evitar el atún rojo, el pez espada o emperador, el tiburón (incluido el cazón) y el lucio. La recomendación se aplica al atún rojo preparado de cualquier forma, crudo o cocinado. El pescado sigue siendo muy recomendable: la AESAN aconseja 3 o 4 raciones a la semana de especies con menos mercurio.",
+      "de": "Große, langlebige Raubfische wie Roter Thun reichern mehr Quecksilber an, das die Plazenta passieren und das sich entwickelnde Nervensystem des Babys beeinträchtigen kann. Die AESAN rät Frauen, die schwanger sind, eine Schwangerschaft planen oder stillen, Roten Thun, Schwertfisch, Hai (einschließlich Cazón) und Hecht zu meiden. Die Empfehlung gilt für Roten Thun in jeder Zubereitung, roh oder gegart. Fisch ist trotzdem sehr gesund: Die AESAN empfiehlt 3 bis 4 Portionen pro Woche von Fischarten mit weniger Quecksilber.",
+      "fr": "Les grands poissons prédateurs à longue durée de vie, comme le thon rouge, accumulent davantage de mercure, qui peut traverser le placenta et affecter le système nerveux en développement du bébé. L'AESAN conseille aux femmes enceintes, qui prévoient une grossesse ou qui allaitent d'éviter le thon rouge, l'espadon, le requin (y compris le cazón) et le brochet. La recommandation s'applique au thon rouge quelle que soit sa préparation, cru ou cuit. Le poisson reste très bon pour la santé : l'AESAN recommande 3 à 4 portions par semaine de poissons moins riches en mercure.",
+      "pt": "Peixes predadores grandes e de vida longa, como o atum-azul, acumulam mais mercúrio, que pode atravessar a placenta e afetar o sistema nervoso em desenvolvimento do bebê. A AESAN orienta mulheres grávidas, que planejam engravidar ou que estão amamentando a evitar atum-azul, peixe-espada, tubarão (incluindo o cazón) e lúcio. A orientação vale para o atum-azul preparado de qualquer forma, cru ou cozido. O peixe continua fazendo muito bem: a AESAN recomenda de 3 a 4 porções por semana de peixes com menos mercúrio."
+    },
+    "tips": {
+      "en": [
+        "Other tuna species aren't on AESAN's high-mercury list; check menus and labels for 'atún rojo' or 'Thunnus thynnus'.",
+        "Good low-mercury choices include sardines, hake, salmon and cooked anchovies."
+      ],
+      "tr": [
+        "Diğer ton balığı türleri AESAN'ın yüksek cıva listesinde yok; menülerde ve etiketlerde 'atún rojo' ya da 'Thunnus thynnus' ibaresine bak.",
+        "Sardalya, berlam (merluza), somon ve pişmiş hamsi düşük cıvalı iyi seçenekler."
+      ],
+      "es": [
+        "Las demás especies de atún no están en la lista de alto contenido en mercurio de la AESAN; busca «atún rojo» o «Thunnus thynnus» en cartas y etiquetas.",
+        "Buenas opciones con poco mercurio son la sardina, la merluza, el salmón o el boquerón cocinado."
+      ],
+      "de": [
+        "Andere Thunfischarten stehen nicht auf der Liste der AESAN für Fische mit hohem Quecksilbergehalt; achte auf Speisekarten und Etiketten auf „atún rojo“ oder „Thunnus thynnus“.",
+        "Gute Optionen mit wenig Quecksilber sind zum Beispiel Sardinen, Seehecht, Lachs und gegarte Sardellen."
+      ],
+      "fr": [
+        "Les autres espèces de thon ne figurent pas sur la liste des poissons riches en mercure de l'AESAN ; cherche « atún rojo » ou « Thunnus thynnus » sur les cartes et les étiquettes.",
+        "Parmi les bons choix pauvres en mercure : la sardine, le merlu, le saumon et l'anchois cuit."
+      ],
+      "pt": [
+        "As outras espécies de atum não estão na lista de peixes com muito mercúrio da AESAN; procure 'atún rojo' ou 'Thunnus thynnus' nos cardápios e rótulos.",
+        "Boas opções com pouco mercúrio incluem sardinha, merluza, salmão e anchova cozida."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Recomendaciones de consumo de pescado por presencia de mercurio",
+        "url": "https://www.aesan.gob.es/dam/jcr:37655af5-1ba6-4a9e-a756-79a51810aac7/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.pdf"
+      },
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      }
+    ]
+  },
+  {
+    "id": "queso-loncheado-rallado",
+    "category": "food",
+    "emoji": "🧀",
+    "verdict": "caution",
+    "name": {
+      "en": "Pre-sliced & grated cheese",
+      "tr": "Hazır dilimlenmiş ve rendelenmiş peynir",
+      "es": "Queso loncheado y rallado",
+      "de": "Scheibenkäse & Reibekäse",
+      "fr": "Fromage en tranches & fromage râpé",
+      "pt": "Queijo fatiado e ralado"
+    },
+    "aliases": {
+      "en": [
+        "sliced cheese",
+        "cheese slices",
+        "grated cheese",
+        "shredded cheese",
+        "packaged cheese",
+        "sandwich cheese"
+      ],
+      "tr": [
+        "dilim peynir",
+        "dilimli peynir",
+        "rendelenmiş peynir",
+        "paket peynir",
+        "tost peyniri"
+      ],
+      "es": [
+        "queso loncheado",
+        "queso en lonchas",
+        "queso rallado",
+        "queso rallado industrial",
+        "queso para sándwich",
+        "lonchas de queso"
+      ],
+      "de": [
+        "Scheibenkäse",
+        "Käsescheiben",
+        "Reibekäse",
+        "geriebener Käse",
+        "abgepackter Käse",
+        "Sandwichkäse"
+      ],
+      "fr": [
+        "fromage en tranches",
+        "tranches de fromage",
+        "fromage râpé",
+        "fromage préemballé",
+        "fromage pour sandwich",
+        "queso loncheado"
+      ],
+      "pt": [
+        "queijo fatiado",
+        "fatias de queijo",
+        "queijo ralado",
+        "queijo ralado de pacote",
+        "queijo para sanduíche",
+        "queijo embalado"
+      ]
+    },
+    "summary": {
+      "en": "Spain's AESAN advises skipping pre-sliced and industrially grated cheese unless it's cooked until piping hot.",
+      "tr": "AESAN, iyice ısınana kadar pişirilmedikçe hazır dilimlenmiş ve fabrikada rendelenmiş peynirden kaçınmayı öneriyor.",
+      "es": "La AESAN aconseja evitar el queso loncheado y el rallado industrial, salvo que se cocine hasta que esté muy caliente.",
+      "de": "Die spanische AESAN rät, auf vorgeschnittenen und industriell geriebenen Käse zu verzichten, außer er wird erhitzt, bis er durch und durch heiß ist.",
+      "fr": "L'AESAN espagnole conseille d'éviter le fromage prétranché et le fromage râpé industriel, sauf s'il est cuit jusqu'à être brûlant.",
+      "pt": "A AESAN, da Espanha, orienta evitar queijo já fatiado e queijo ralado industrializado, a menos que seja cozido até ficar bem quente."
+    },
+    "details": {
+      "en": "AESAN, Spain's food safety agency, lists pre-sliced cheese and industrially grated cheese among the foods to avoid in pregnancy because of the risk of listeria. Chilled ready-to-eat foods with a long shelf life are a particular listeria risk. Instead, AESAN suggests cheese made from pasteurised milk, cheese grated just before eating, or any cheese cooked to over 70 °C for at least 2 minutes. It also advises removing the rind from all cheeses.",
+      "tr": "İspanya'nın gıda güvenliği ajansı AESAN, hazır dilimlenmiş peyniri ve fabrikada rendelenmiş peyniri listeria riski nedeniyle hamilelikte kaçınılması gereken yiyecekler arasında sayıyor. Uzun raf ömrüne sahip, soğukta saklanan hazır yiyecekler listeria açısından özellikle risklidir. AESAN bunun yerine pastörize sütten yapılmış peynirleri, yemeden hemen önce rendelenmiş peyniri ya da en az 2 dakika boyunca 70 °C'nin üzerinde pişirilmiş herhangi bir peyniri öneriyor. Ayrıca tüm peynirlerin kabuğunun çıkarılmasını tavsiye ediyor.",
+      "es": "La AESAN, la agencia española de seguridad alimentaria, incluye el queso loncheado y el queso rallado industrial entre los alimentos que hay que evitar en el embarazo por el riesgo de listeria. Los alimentos refrigerados listos para consumir y con una vida útil larga suponen un riesgo especial. En su lugar, la AESAN propone quesos elaborados con leche pasteurizada, queso rallado en el momento de consumirlo o cualquier queso cocinado a más de 70 °C durante al menos 2 minutos. También aconseja quitar la corteza de todos los quesos.",
+      "de": "Die AESAN, die spanische Behörde für Lebensmittelsicherheit, zählt vorgeschnittenen Käse und industriell geriebenen Käse wegen des Listerienrisikos zu den Lebensmitteln, die in der Schwangerschaft gemieden werden sollten. Gekühlte, verzehrfertige Lebensmittel mit langer Haltbarkeit sind ein besonderes Listerienrisiko. Stattdessen schlägt die AESAN Käse aus pasteurisierter Milch vor, Käse, der erst kurz vor dem Essen gerieben wird, oder jeden Käse, der mindestens 2 Minuten lang auf über 70 °C erhitzt wurde. Außerdem rät sie, bei allen Käsesorten die Rinde zu entfernen.",
+      "fr": "L'AESAN, l'agence espagnole de sécurité alimentaire, classe le fromage prétranché et le fromage râpé industriel parmi les aliments à éviter pendant la grossesse, à cause du risque de listeria. Les aliments réfrigérés prêts à consommer à longue durée de conservation présentent un risque particulier de listeria. À la place, l'AESAN propose du fromage au lait pasteurisé, du fromage râpé juste avant de le manger, ou tout fromage cuit à plus de 70 °C pendant au moins 2 minutes. Elle conseille aussi de retirer la croûte de tous les fromages.",
+      "pt": "A AESAN, agência espanhola de segurança alimentar, inclui o queijo já fatiado e o queijo ralado industrializado entre os alimentos a evitar na gravidez, por causa do risco de listeria. Alimentos refrigerados prontos para consumo e com validade longa representam um risco especial de listeria. Em vez disso, a AESAN sugere queijos feitos com leite pasteurizado, queijo ralado na hora de comer ou qualquer queijo cozido a mais de 70 °C por pelo menos 2 minutos. Ela também orienta retirar a casca de todos os queijos."
+    },
+    "tips": {
+      "en": [
+        "Buy a piece of pasteurised cheese and slice or grate it yourself just before eating.",
+        "Melted cheese in a hot toastie, pizza or gratin is fine once it's piping hot."
+      ],
+      "tr": [
+        "Pastörize peyniri parça halinde al, yemeden hemen önce kendin dilimle ya da rendele.",
+        "Sıcak tost, pizza ya da graten içinde eriyip iyice ısınmış peynir sorun değil."
+      ],
+      "es": [
+        "Compra una cuña de queso pasteurizado y córtalo o rállalo tú justo antes de comerlo.",
+        "El queso fundido en un sándwich caliente, una pizza o un gratinado está bien si está muy caliente."
+      ],
+      "de": [
+        "Kauf ein Stück Käse aus pasteurisierter Milch und schneide oder reib ihn selbst, direkt bevor du ihn isst.",
+        "Geschmolzener Käse in einem warmen Toast, auf Pizza oder im Auflauf ist in Ordnung, wenn alles durch und durch heiß ist."
+      ],
+      "fr": [
+        "Achète un morceau de fromage au lait pasteurisé et coupe-le ou râpe-le toi-même juste avant de le manger.",
+        "Le fromage fondu dans un croque-monsieur, une pizza ou un gratin ne pose pas de problème une fois brûlant."
+      ],
+      "pt": [
+        "Compre um pedaço de queijo pasteurizado e fatie ou rale você mesma logo antes de comer.",
+        "Queijo derretido em um misto-quente, pizza ou gratinado não tem problema quando está bem quente."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Evita la listeriosis, consejos prácticos para grupos de riesgo",
+        "url": "https://www.aesan.gob.es/dam/jcr:b8fc1e69-c7a5-4d6c-98c0-e3b9fec5c4d6/Folleto_LISTERIOSIS.pdf"
+      },
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      }
+    ]
+  },
+  {
+    "id": "tortilla-de-patatas",
+    "category": "food",
+    "emoji": "🍳",
+    "verdict": "caution",
+    "name": {
+      "en": "Spanish omelette (tortilla de patatas)",
+      "tr": "İspanyol omleti (tortilla de patatas)",
+      "es": "Tortilla de patatas",
+      "de": "Spanische Tortilla (tortilla de patatas)",
+      "fr": "Omelette espagnole (tortilla de patatas)",
+      "pt": "Omelete espanhola (tortilla de patatas)"
+    },
+    "aliases": {
+      "en": [
+        "tortilla",
+        "spanish omelette",
+        "spanish omelet",
+        "potato omelette",
+        "runny tortilla"
+      ],
+      "tr": [
+        "ispanyol omleti",
+        "patatesli omlet",
+        "tortilla"
+      ],
+      "es": [
+        "tortilla",
+        "tortilla española",
+        "tortilla de papas",
+        "tortilla jugosa",
+        "tortilla poco hecha",
+        "tortilla poco cuajada"
+      ],
+      "de": [
+        "Tortilla",
+        "spanische Tortilla",
+        "spanisches Omelett",
+        "Kartoffelomelett",
+        "Tortilla de patatas"
+      ],
+      "fr": [
+        "tortilla",
+        "omelette espagnole",
+        "omelette aux pommes de terre",
+        "tortilla de patatas",
+        "tortilla baveuse"
+      ],
+      "pt": [
+        "tortilla",
+        "omelete espanhola",
+        "omelete de batata",
+        "tortilla de patatas",
+        "tortilha espanhola"
+      ]
+    },
+    "summary": {
+      "en": "Yes, if it's well set all the way through; skip runny, 'jugosa' tortilla while you're pregnant.",
+      "tr": "İçi tamamen pişmişse evet; hamileyken içi akışkan, 'jugosa' tortilladan kaçın.",
+      "es": "Sí, si está bien cuajada por dentro; durante el embarazo evita la tortilla jugosa o poco cuajada.",
+      "de": "Ja, wenn sie durch und durch gestockt ist; verzichte in der Schwangerschaft auf flüssige, „jugosa“ Tortilla.",
+      "fr": "Oui, si elle est bien prise jusqu'au centre ; évite la tortilla baveuse (« jugosa ») pendant ta grossesse.",
+      "pt": "Sim, se estiver bem firme por inteiro; evite a tortilla mole ('jugosa') durante a gravidez."
+    },
+    "details": {
+      "en": "A runny tortilla has egg in the centre that hasn't fully cooked. AESAN lists undercooked ('poco cuajada') tortilla among the foods to avoid in pregnancy and suggests a well-set one instead. It also advises cooking eggs completely, because heat kills the germs that undercooked egg can carry.",
+      "tr": "Akışkan bir tortillada ortadaki yumurta tam pişmemiştir. AESAN, az pişmiş ('poco cuajada') tortillayı hamilelikte kaçınılması gereken yiyecekler arasında sayıyor ve yerine iyice pişmiş olanı öneriyor. Ayrıca yumurtaların tamamen pişirilmesini tavsiye ediyor, çünkü ısı az pişmiş yumurtanın taşıyabileceği mikropları öldürür.",
+      "es": "En una tortilla jugosa, el huevo del centro no se ha cocinado del todo. La AESAN incluye las tortillas poco cuajadas entre los alimentos que hay que evitar en el embarazo y recomienda tomarlas bien cuajadas. También aconseja cocinar completamente los huevos, porque el calor elimina los gérmenes que puede llevar el huevo poco hecho.",
+      "de": "Bei einer flüssigen Tortilla ist das Ei in der Mitte nicht vollständig gegart. Die AESAN zählt nicht durchgegarte („poco cuajada“) Tortilla zu den Lebensmitteln, die in der Schwangerschaft gemieden werden sollten, und empfiehlt stattdessen eine gut gestockte. Außerdem rät sie, Eier vollständig zu garen, weil Hitze die Keime abtötet, die nicht durchgegartes Ei enthalten kann.",
+      "fr": "Dans une tortilla baveuse, l'œuf du centre n'est pas complètement cuit. L'AESAN classe la tortilla pas assez cuite (« poco cuajada ») parmi les aliments à éviter pendant la grossesse et conseille plutôt une tortilla bien prise. Elle recommande aussi de cuire complètement les œufs, car la chaleur tue les germes que peut contenir un œuf pas assez cuit.",
+      "pt": "Na tortilla mole, o ovo do centro não cozinhou totalmente. A AESAN inclui a tortilla malcozida ('poco cuajada') entre os alimentos a evitar na gravidez e sugere uma bem firme no lugar. Ela também orienta cozinhar bem os ovos, porque o calor elimina os germes que o ovo malcozido pode ter."
+    },
+    "tips": {
+      "en": [
+        "At home, cook it a little longer on each side until the centre is firm.",
+        "When eating out, ask for it 'bien cuajada' (well set)."
+      ],
+      "tr": [
+        "Evde ortası sertleşene kadar her iki tarafını biraz daha uzun pişir.",
+        "Dışarıda yerken 'bien cuajada' (iyice pişmiş) iste."
+      ],
+      "es": [
+        "En casa, déjala un poco más por cada lado hasta que el centro esté firme.",
+        "Cuando comas fuera, pídela bien cuajada."
+      ],
+      "de": [
+        "Brate sie zu Hause auf jeder Seite etwas länger, bis die Mitte fest ist.",
+        "Bestell sie auswärts „bien cuajada“ (gut gestockt)."
+      ],
+      "fr": [
+        "À la maison, laisse-la cuire un peu plus longtemps de chaque côté jusqu'à ce que le centre soit ferme.",
+        "Au restaurant, demande-la « bien cuajada » (bien prise)."
+      ],
+      "pt": [
+        "Em casa, deixe dourar um pouco mais de cada lado até o centro ficar firme.",
+        "Quando comer fora, peça 'bien cuajada' (bem firme)."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Evita la listeriosis, consejos prácticos para grupos de riesgo",
+        "url": "https://www.aesan.gob.es/dam/jcr:b8fc1e69-c7a5-4d6c-98c0-e3b9fec5c4d6/Folleto_LISTERIOSIS.pdf"
+      },
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      }
+    ]
+  },
+  {
+    "id": "yerba-mate",
+    "category": "drink",
+    "emoji": "🧉",
+    "verdict": "caution",
+    "name": {
+      "en": "Yerba mate",
+      "tr": "Yerba mate (mate çayı)",
+      "es": "Yerba mate",
+      "de": "Mate-Tee (Yerba Mate)",
+      "fr": "Maté (yerba mate)",
+      "pt": "Erva-mate"
+    },
+    "aliases": {
+      "en": [
+        "mate",
+        "yerba mate",
+        "mate tea",
+        "terere",
+        "chimarrao",
+        "mate cocido"
+      ],
+      "tr": [
+        "mate",
+        "mate çayı",
+        "yerba mate",
+        "terere"
+      ],
+      "es": [
+        "mate",
+        "yerba mate",
+        "mate cocido",
+        "tereré",
+        "chimarrão",
+        "mate amargo"
+      ],
+      "de": [
+        "Mate",
+        "Mate-Tee",
+        "Yerba Mate",
+        "Tereré",
+        "Chimarrão",
+        "Mate cocido"
+      ],
+      "fr": [
+        "maté",
+        "mate",
+        "yerba mate",
+        "thé maté",
+        "tereré",
+        "chimarrão"
+      ],
+      "pt": [
+        "mate",
+        "erva-mate",
+        "chimarrão",
+        "tereré",
+        "chá mate",
+        "mate cocido"
+      ]
+    },
+    "summary": {
+      "en": "Yes, in moderation: mate contains caffeine, so count it toward your 200 mg daily limit.",
+      "tr": "Ölçülü olmak şartıyla evet: mate kafein içerir, bu yüzden günlük 200 mg sınırına dahil et.",
+      "es": "Sí, con moderación: el mate tiene cafeína, así que cuéntalo dentro de tu límite de 200 mg al día.",
+      "de": "Ja, in Maßen: Mate enthält Koffein, also rechne ihn in deine Tagesgrenze von 200 mg ein.",
+      "fr": "Oui, avec modération : le maté contient de la caféine, alors compte-le dans ta limite de 200 mg par jour.",
+      "pt": "Sim, com moderação: o mate tem cafeína, então conte no seu limite diário de 200 mg."
+    },
+    "details": {
+      "en": "Yerba mate naturally contains caffeine, and AESAN, Spain's food safety agency, names it alongside coffee, tea, chocolate and cola as a caffeine source to moderate in pregnancy. The European Food Safety Authority (EFSA) says up to 200 mg of caffeine a day from all sources doesn't raise safety concerns for the fetus. How much you get from mate depends on how strong you make it and how much you drink.",
+      "tr": "Yerba mate doğal olarak kafein içerir; İspanya'nın gıda güvenliği ajansı AESAN da onu kahve, çay, çikolata ve kolayla birlikte hamilelikte ölçülü tüketilmesi gereken kafein kaynakları arasında sayıyor. Avrupa Gıda Güvenliği Otoritesi (EFSA), tüm kaynaklardan günde 200 mg'a kadar kafeinin bebek için güvenlik endişesi yaratmadığını belirtiyor. Mateden ne kadar kafein aldığın, onu ne kadar koyu hazırladığına ve ne kadar içtiğine bağlı.",
+      "es": "La yerba mate contiene cafeína de forma natural, y la AESAN la menciona junto al café, el té, el chocolate y los refrescos de cola como fuente de cafeína que conviene moderar en el embarazo. La Autoridad Europea de Seguridad Alimentaria (EFSA) indica que hasta 200 mg de cafeína al día, sumando todas las fuentes, no plantean problemas de seguridad para el feto. La cantidad que tomas con el mate depende de lo cargado que lo prepares y de cuánto bebas.",
+      "de": "Yerba Mate enthält von Natur aus Koffein, und die AESAN, die spanische Behörde für Lebensmittelsicherheit, nennt Mate neben Kaffee, Tee, Schokolade und Cola als Koffeinquelle, die in der Schwangerschaft maßvoll genossen werden sollte. Laut der Europäischen Behörde für Lebensmittelsicherheit (EFSA) geben bis zu 200 mg Koffein pro Tag aus allen Quellen keinen Anlass zu Sicherheitsbedenken für das Ungeborene. Wie viel du über Mate aufnimmst, hängt davon ab, wie stark du ihn zubereitest und wie viel du trinkst.",
+      "fr": "La yerba mate contient naturellement de la caféine, et l'AESAN, l'agence espagnole de sécurité alimentaire, la cite avec le café, le thé, le chocolat et le cola parmi les sources de caféine à modérer pendant la grossesse. L'Autorité européenne de sécurité des aliments (EFSA) estime que jusqu'à 200 mg de caféine par jour, toutes sources confondues, ne posent pas de problème de sécurité pour le fœtus. La quantité apportée par le maté dépend de la force de ta préparation et de la quantité que tu bois.",
+      "pt": "A erva-mate tem cafeína naturalmente, e a AESAN, agência espanhola de segurança alimentar, a cita junto com café, chá, chocolate e refrigerante de cola como fonte de cafeína que deve ser moderada na gravidez. A Autoridade Europeia para a Segurança dos Alimentos (EFSA) diz que até 200 mg de cafeína por dia, somando todas as fontes, não levantam preocupações de segurança para o feto. Quanto você ingere com o mate depende de quão forte você o prepara e de quanto bebe."
+    },
+    "tips": {
+      "en": [
+        "Coffee, tea, cola and chocolate count toward the same 200 mg, so add them up.",
+        "Let it cool a little: the WHO's cancer agency links drinks hotter than 65 °C to oesophageal cancer."
+      ],
+      "tr": [
+        "Kahve, çay, kola ve çikolata da aynı 200 mg'a dahil, bu yüzden hepsini topla.",
+        "Biraz soğumasını bekle: Dünya Sağlık Örgütü'nün kanser ajansı 65 °C'den sıcak içecekleri yemek borusu kanseriyle ilişkilendiriyor."
+      ],
+      "es": [
+        "El café, el té, la cola y el chocolate suman dentro de los mismos 200 mg, así que tenlos en cuenta.",
+        "Déjalo enfriar un poco: la agencia contra el cáncer de la OMS relaciona las bebidas a más de 65 °C con el cáncer de esófago."
+      ],
+      "de": [
+        "Kaffee, Tee, Cola und Schokolade zählen zu denselben 200 mg – rechne also alles zusammen.",
+        "Lass ihn etwas abkühlen: Die Krebsforschungsagentur der WHO bringt Getränke, die heißer als 65 °C sind, mit Speiseröhrenkrebs in Verbindung."
+      ],
+      "fr": [
+        "Le café, le thé, le cola et le chocolat comptent dans les mêmes 200 mg : additionne-les.",
+        "Laisse-le refroidir un peu : l'agence de l'OMS spécialisée dans le cancer associe les boissons à plus de 65 °C au cancer de l'œsophage."
+      ],
+      "pt": [
+        "Café, chá, refrigerante de cola e chocolate entram nos mesmos 200 mg, então some tudo.",
+        "Deixe esfriar um pouco: a agência de câncer da OMS associa bebidas acima de 65 °C ao câncer de esôfago."
+      ]
+    },
+    "sources": [
+      {
+        "name": "AESAN: Alimentación segura durante el embarazo",
+        "url": "https://www.aesan.gob.es/dam/jcr:6f57a77f-541c-4c54-a124-543d65b1aaf1/alimentacion_segura_embarazo.pdf"
+      },
+      {
+        "name": "EFSA: Cafeína",
+        "url": "https://www.efsa.europa.eu/es/topics/topic/caffeine"
+      },
+      {
+        "name": "OMS/IARC: Evaluación del café, el mate y las bebidas muy calientes (comunicado 244)",
+        "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr244_S.pdf"
+      }
+    ]
+  },
+  {
+    "id": "te-de-ruda",
+    "category": "drink",
+    "emoji": "🌿",
+    "verdict": "avoid",
+    "name": {
+      "en": "Rue tea (ruda)",
+      "tr": "Sedef otu çayı (ruda)",
+      "es": "Té de ruda",
+      "de": "Rautentee (ruda)",
+      "fr": "Tisane de rue (ruda)",
+      "pt": "Chá de arruda (ruda)"
+    },
+    "aliases": {
+      "en": [
+        "rue",
+        "rue tea",
+        "ruda",
+        "common rue",
+        "herb of grace",
+        "ruta graveolens"
+      ],
+      "tr": [
+        "sedef otu",
+        "sedef otu çayı",
+        "ruda",
+        "ruta"
+      ],
+      "es": [
+        "ruda",
+        "té de ruda",
+        "infusión de ruda",
+        "agua de ruda",
+        "ruda de Castilla",
+        "Ruta graveolens"
+      ],
+      "de": [
+        "Raute",
+        "Weinraute",
+        "Rautentee",
+        "Ruda",
+        "Gartenraute",
+        "Ruta graveolens"
+      ],
+      "fr": [
+        "rue",
+        "rue officinale",
+        "tisane de rue",
+        "ruda",
+        "herbe de grâce",
+        "Ruta graveolens"
+      ],
+      "pt": [
+        "arruda",
+        "chá de arruda",
+        "ruda",
+        "arruda-doméstica",
+        "Ruta graveolens"
+      ]
+    },
+    "summary": {
+      "en": "Avoid rue tea and rue remedies while you're pregnant.",
+      "tr": "Hamileyken sedef otu (ruda) çayından ve sedef otlu karışımlardan uzak dur.",
+      "es": "Evita el té de ruda y los remedios con ruda durante el embarazo.",
+      "de": "Meide in der Schwangerschaft Rautentee und Mittel mit Raute.",
+      "fr": "Évite la tisane de rue et les remèdes à base de rue pendant ta grossesse.",
+      "pt": "Evite chá de arruda e remédios com arruda durante a gravidez."
+    },
+    "details": {
+      "en": "Rue (Ruta graveolens) is a medicinal plant that can be toxic. In Mexico, the Secretaría de Salud requires teas made with rue to carry the warning 'do not consume during pregnancy', and applies the same warning to zoapatle teas. In Spain, the Ministry of Health bans the sale of rue to the public because of its toxicity.",
+      "tr": "Sedef otu (Ruta graveolens) zehirli olabilen tıbbi bir bitkidir. Meksika Sağlık Bakanlığı, sedef otuyla yapılan çayların 'hamilelikte tüketmeyin' uyarısı taşımasını zorunlu tutuyor ve aynı uyarıyı zoapatle çayları için de uyguluyor. İspanya Sağlık Bakanlığı ise toksik olduğu için sedef otunun halka satışını yasaklıyor.",
+      "es": "La ruda (Ruta graveolens) es una planta medicinal que puede ser tóxica. En México, la Secretaría de Salud exige que los tés elaborados con ruda lleven la advertencia «No consumirse durante el embarazo», y aplica la misma advertencia a los tés de zoapatle. En España, el Ministerio de Sanidad prohíbe la venta de ruda al público por su toxicidad.",
+      "de": "Die Weinraute (Ruta graveolens) ist eine Heilpflanze, die giftig sein kann. In Mexiko schreibt die Secretaría de Salud vor, dass Tees mit Raute den Warnhinweis „nicht während der Schwangerschaft verzehren“ tragen müssen, und dieselbe Warnung gilt für Zoapatle-Tees. In Spanien verbietet das Gesundheitsministerium wegen der Giftigkeit den Verkauf von Raute an die Öffentlichkeit.",
+      "fr": "La rue (Ruta graveolens) est une plante médicinale qui peut être toxique. Au Mexique, la Secretaría de Salud impose aux tisanes à base de rue l'avertissement « ne pas consommer pendant la grossesse », et applique le même avertissement aux tisanes de zoapatle. En Espagne, le ministère de la Santé interdit la vente de rue au public en raison de sa toxicité.",
+      "pt": "A arruda (Ruta graveolens) é uma planta medicinal que pode ser tóxica. No México, a Secretaría de Salud exige que chás feitos com arruda tragam o alerta 'não consumir durante a gravidez', e aplica o mesmo alerta aos chás de zoapatle. Na Espanha, o Ministério da Saúde proíbe a venda de arruda ao público por causa da sua toxicidade."
+    },
+    "tips": {
+      "en": [
+        "Check the label of herbal blends and 'women's teas' for ruda or Ruta graveolens.",
+        "Ask your doctor or midwife before using any herbal remedy, even a traditional one."
+      ],
+      "tr": [
+        "Bitki çayı karışımlarının ve 'kadın çaylarının' etiketinde ruda ya da Ruta graveolens olup olmadığına bak.",
+        "Geleneksel olsa bile herhangi bir bitkisel ilacı kullanmadan önce doktoruna ya da ebene danış."
+      ],
+      "es": [
+        "Revisa la etiqueta de las mezclas de hierbas y los «tés para la mujer» por si llevan ruda o Ruta graveolens.",
+        "Consulta a tu médico o a tu matrona antes de usar cualquier remedio de hierbas, aunque sea tradicional."
+      ],
+      "de": [
+        "Prüf bei Kräutermischungen und „Frauentees“ auf dem Etikett, ob Ruda oder Ruta graveolens enthalten ist.",
+        "Frag deine Ärztin, deinen Arzt oder deine Hebamme, bevor du ein pflanzliches Mittel nimmst – auch ein traditionelles."
+      ],
+      "fr": [
+        "Vérifie sur l'étiquette des mélanges de plantes et des « tisanes pour femmes » s'ils contiennent de la ruda ou de la Ruta graveolens.",
+        "Demande l'avis de ton médecin ou de ta sage-femme avant d'utiliser un remède à base de plantes, même traditionnel."
+      ],
+      "pt": [
+        "Confira no rótulo de misturas de ervas e 'chás para mulheres' se contêm arruda (ruda) ou Ruta graveolens.",
+        "Pergunte ao seu médico ou à sua obstetra antes de usar qualquer remédio de ervas, mesmo um tradicional."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Secretaría de Salud (México): Acuerdo sobre plantas prohibidas o permitidas para tés e infusiones",
+        "url": "https://farmacopea.org.mx/Repositorio/LegislacionFiles/Acuerdoplantprohibidas15dic99.pdf"
+      },
+      {
+        "name": "Ministerio de Sanidad (BOE): Orden SCO/190/2004, plantas de venta prohibida por su toxicidad",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-2225"
+      }
+    ]
+  },
+  {
+    "id": "epazote",
+    "category": "food",
+    "emoji": "🌱",
+    "verdict": "caution",
+    "name": {
+      "en": "Epazote",
+      "tr": "Epazote",
+      "es": "Epazote",
+      "de": "Epazote",
+      "fr": "Épazote",
+      "pt": "Epazote"
+    },
+    "aliases": {
+      "en": [
+        "epazote",
+        "mexican tea",
+        "wormseed",
+        "epazote tea",
+        "chenopodium"
+      ],
+      "tr": [
+        "epazote",
+        "meksika çayı",
+        "epazote çayı"
+      ],
+      "es": [
+        "epazote",
+        "té de epazote",
+        "pazote",
+        "paico",
+        "Chenopodium ambrosioides"
+      ],
+      "de": [
+        "Epazote",
+        "Mexikanischer Tee",
+        "Wohlriechender Gänsefuß",
+        "Jesuitentee",
+        "Wurmsamen",
+        "Chenopodium"
+      ],
+      "fr": [
+        "épazote",
+        "epazote",
+        "thé du Mexique",
+        "ansérine",
+        "chénopode",
+        "Chenopodium"
+      ],
+      "pt": [
+        "epazote",
+        "erva-de-santa-maria",
+        "mastruz",
+        "mastruço",
+        "chá de epazote",
+        "Chenopodium"
+      ]
+    },
+    "summary": {
+      "en": "Skip epazote tea and remedies; a sprig to season cooked beans is a much smaller amount, but keep it modest.",
+      "tr": "Epazote çayından ve epazotlu karışımlardan kaçın; pişmiş fasulyeye tat vermek için kullanılan bir dal çok daha küçük bir miktar, yine de ölçülü kullan.",
+      "es": "Evita el té de epazote y los remedios con epazote; una ramita para dar sabor a los frijoles es una cantidad mucho menor, pero úsalo con moderación.",
+      "de": "Verzichte auf Epazote-Tee und Hausmittel mit Epazote; ein Zweig zum Würzen von gekochten Bohnen ist eine viel kleinere Menge, aber bleib trotzdem sparsam.",
+      "fr": "Évite la tisane et les remèdes à l'épazote ; un brin pour parfumer des haricots cuits représente une quantité bien plus faible, mais reste modérée.",
+      "pt": "Evite chá e remédios de epazote; um raminho para temperar feijão cozido é uma quantidade bem menor, mas use com moderação."
+    },
+    "details": {
+      "en": "Epazote (Chenopodium ambrosioides) is a classic herb in Mexican cooking, but it is also brewed as a tea. Mexico's Secretaría de Salud bans epazote in teas, infusions and food supplements, and Spain bans its sale to the public as a medicinal plant because of its toxicity. These rules target concentrated preparations rather than seasoning, but there's no official guidance on cooking amounts, so it's best to keep them small.",
+      "tr": "Epazote (Chenopodium ambrosioides) Meksika mutfağının klasik bir otudur, ama çay olarak da demlenir. Meksika Sağlık Bakanlığı epazotun çay, bitki çayı ve gıda takviyelerinde kullanılmasını yasaklıyor; İspanya da toksik olduğu için tıbbi bitki olarak halka satışını yasaklıyor. Bu kurallar baharat olarak kullanımı değil, yoğun hazırlanmış ürünleri hedefliyor; ancak yemekteki miktarlar için resmi bir öneri yok, bu yüzden az kullanmak en iyisi.",
+      "es": "El epazote (Chenopodium ambrosioides) es una hierba clásica de la cocina mexicana, pero también se toma en té. La Secretaría de Salud de México prohíbe usar epazote en tés, infusiones y suplementos alimenticios, y en España está prohibida su venta al público como planta medicinal por su toxicidad. Estas normas se refieren a preparados concentrados y no a su uso como condimento, pero no hay recomendaciones oficiales sobre las cantidades en la cocina, así que lo mejor es usar poco.",
+      "de": "Epazote (Chenopodium ambrosioides) ist ein klassisches Kraut der mexikanischen Küche, wird aber auch als Tee aufgebrüht. Die mexikanische Secretaría de Salud verbietet Epazote in Tees, Aufgüssen und Nahrungsergänzungsmitteln, und in Spanien ist der Verkauf als Heilpflanze an die Öffentlichkeit wegen seiner Giftigkeit verboten. Diese Regeln zielen auf konzentrierte Zubereitungen und nicht aufs Würzen, es gibt aber keine offiziellen Empfehlungen zu Mengen beim Kochen – am besten bleibst du also bei kleinen Mengen.",
+      "fr": "L'épazote (Chenopodium ambrosioides) est une herbe classique de la cuisine mexicaine, mais on la prépare aussi en tisane. Au Mexique, la Secretaría de Salud interdit l'épazote dans les thés, les infusions et les compléments alimentaires, et l'Espagne interdit sa vente au public comme plante médicinale en raison de sa toxicité. Ces règles visent les préparations concentrées plutôt que l'assaisonnement, mais il n'existe pas de recommandation officielle sur les quantités en cuisine : mieux vaut donc en mettre peu.",
+      "pt": "O epazote (Chenopodium ambrosioides) é uma erva clássica da culinária mexicana, mas também é preparado como chá. A Secretaría de Salud do México proíbe o epazote em chás, infusões e suplementos alimentares, e a Espanha proíbe sua venda ao público como planta medicinal por causa da toxicidade. Essas regras se referem a preparados concentrados, não ao uso como tempero, mas não há orientação oficial sobre quantidades na cozinha, então o melhor é usar pouco."
+    },
+    "tips": {
+      "en": [
+        "Don't drink epazote tea or use epazote oil as a home remedy.",
+        "If you're unsure about a recipe or a remedy, ask your doctor or midwife."
+      ],
+      "tr": [
+        "Epazote çayı içme ve epazote yağını evde ilaç olarak kullanma.",
+        "Bir tarif ya da ev ilacı konusunda emin değilsen doktoruna ya da ebene sor."
+      ],
+      "es": [
+        "No tomes té de epazote ni uses aceite de epazote como remedio casero.",
+        "Si tienes dudas sobre una receta o un remedio, consulta a tu médico o a tu matrona."
+      ],
+      "de": [
+        "Trink keinen Epazote-Tee und verwende kein Epazote-Öl als Hausmittel.",
+        "Wenn du bei einem Rezept oder einem Mittel unsicher bist, frag deine Ärztin, deinen Arzt oder deine Hebamme."
+      ],
+      "fr": [
+        "Ne bois pas de tisane d'épazote et n'utilise pas d'huile d'épazote comme remède maison.",
+        "En cas de doute sur une recette ou un remède, demande à ton médecin ou à ta sage-femme."
+      ],
+      "pt": [
+        "Não tome chá de epazote nem use óleo de epazote como remédio caseiro.",
+        "Se tiver dúvidas sobre uma receita ou um remédio, pergunte ao seu médico ou à sua obstetra."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Secretaría de Salud (México): Acuerdo sobre plantas prohibidas o permitidas para tés e infusiones",
+        "url": "https://farmacopea.org.mx/Repositorio/LegislacionFiles/Acuerdoplantprohibidas15dic99.pdf"
+      },
+      {
+        "name": "Ministerio de Sanidad (BOE): Orden SCO/190/2004, plantas de venta prohibida por su toxicidad",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2004-2225"
+      }
+    ]
+  },
+  {
+    "id": "barro-vidriado",
+    "category": "home",
+    "emoji": "🏺",
+    "verdict": "avoid",
+    "name": {
+      "en": "Glazed clay pots (barro vidriado)",
+      "tr": "Sırlı toprak kaplar (barro vidriado)",
+      "es": "Ollas y loza de barro vidriado",
+      "de": "Glasierte Tontöpfe (barro vidriado)",
+      "fr": "Poteries en terre vernissée (barro vidriado)",
+      "pt": "Panelas de barro vitrificado (barro vidriado)"
+    },
+    "aliases": {
+      "en": [
+        "clay pot",
+        "glazed pottery",
+        "lead-glazed pottery",
+        "traditional pottery",
+        "olla de barro",
+        "bean pot"
+      ],
+      "tr": [
+        "toprak kap",
+        "sırlı toprak kap",
+        "toprak tencere",
+        "güveç kabı",
+        "çömlek"
+      ],
+      "es": [
+        "olla de barro",
+        "barro vidriado",
+        "loza vidriada",
+        "cazuela de barro",
+        "jarrito de barro",
+        "café de olla"
+      ],
+      "de": [
+        "Tontopf",
+        "glasierte Keramik",
+        "bleiglasierte Keramik",
+        "traditionelle Töpferware",
+        "Olla de barro",
+        "Bohnentopf"
+      ],
+      "fr": [
+        "pot en terre",
+        "poterie vernissée",
+        "céramique émaillée au plomb",
+        "poterie traditionnelle",
+        "olla de barro",
+        "marmite en terre"
+      ],
+      "pt": [
+        "panela de barro",
+        "cerâmica vitrificada",
+        "cerâmica com chumbo",
+        "louça de barro",
+        "olla de barro",
+        "caneca de barro"
+      ]
+    },
+    "summary": {
+      "en": "Avoid cooking, serving or storing food in traditional glazed clay unless it's certified lead-free.",
+      "tr": "Kurşunsuz olduğu belgelenmedikçe geleneksel sırlı toprak kaplarda yemek pişirme, servis etme ya da saklama.",
+      "es": "Evita cocinar, servir o guardar alimentos en barro vidriado tradicional, salvo que esté certificado como libre de plomo.",
+      "de": "Koch, serviere oder bewahre keine Lebensmittel in traditionell glasierter Keramik auf, außer sie ist als bleifrei zertifiziert.",
+      "fr": "Évite de cuisiner, servir ou conserver des aliments dans de la poterie vernissée traditionnelle, sauf si elle est certifiée sans plomb.",
+      "pt": "Evite cozinhar, servir ou guardar alimentos em barro vitrificado tradicional, a menos que seja certificado como livre de chumbo."
+    },
+    "details": {
+      "en": "Some traditional glazed pottery is made with lead glaze, and lead can get into food and drinks. The FDA notes that a developing fetus can be affected by ongoing exposure to amounts of lead that cause no obvious symptoms, and that no amount of washing or boiling removes lead from pottery. Mexico's Secretaría de Salud warns that lead can affect brain development and hearing.",
+      "tr": "Bazı geleneksel sırlı toprak kaplar kurşunlu sırla yapılır ve kurşun yiyecek ve içeceklere geçebilir. FDA, gelişmekte olan bebeğin belirgin bir belirti yaratmayan miktarlarda kurşuna sürekli maruz kalmaktan etkilenebileceğini ve hiçbir yıkama ya da kaynatmanın toprak kaptaki kurşunu gidermediğini belirtiyor. Meksika Sağlık Bakanlığı da kurşunun beyin gelişimini ve işitmeyi etkileyebileceği konusunda uyarıyor.",
+      "es": "Algunas piezas de barro vidriado tradicional se esmaltan con plomo, que puede pasar a los alimentos y las bebidas. La FDA señala que el feto en desarrollo puede verse afectado por una exposición continuada a cantidades de plomo que no causan síntomas evidentes, y que ningún lavado ni hervido elimina el plomo de la loza. La Secretaría de Salud de México advierte que el plomo puede alterar el desarrollo neurológico y la audición.",
+      "de": "Manche traditionell glasierte Keramik wird mit Bleiglasur hergestellt, und Blei kann in Speisen und Getränke übergehen. Die FDA weist darauf hin, dass ein Ungeborenes durch eine anhaltende Belastung mit Bleimengen beeinträchtigt werden kann, die keine offensichtlichen Beschwerden verursachen, und dass weder Waschen noch Auskochen Blei aus der Keramik entfernt. Die mexikanische Secretaría de Salud warnt, dass Blei die Gehirnentwicklung und das Hörvermögen beeinträchtigen kann.",
+      "fr": "Certaines poteries vernissées traditionnelles sont émaillées au plomb, et le plomb peut passer dans les aliments et les boissons. La FDA souligne qu'un fœtus en développement peut être affecté par une exposition continue à des quantités de plomb qui ne provoquent aucun symptôme évident, et qu'aucun lavage ni aucune ébullition n'élimine le plomb des poteries. Au Mexique, la Secretaría de Salud avertit que le plomb peut affecter le développement du cerveau et l'audition.",
+      "pt": "Algumas peças tradicionais de barro vitrificado são feitas com esmalte de chumbo, e o chumbo pode passar para os alimentos e as bebidas. A FDA observa que o feto em desenvolvimento pode ser afetado pela exposição contínua a quantidades de chumbo que não causam sintomas evidentes, e que nenhuma lavagem ou fervura remove o chumbo da cerâmica. A Secretaría de Salud do México alerta que o chumbo pode afetar o desenvolvimento do cérebro e a audição."
+    },
+    "tips": {
+      "en": [
+        "Look for Mexico's official 'Sin plomo' (lead-free) seal, or use stainless steel, glass or enamelled steel pans instead.",
+        "Be extra careful with old, chipped, handmade or bright orange, red or yellow pieces."
+      ],
+      "tr": [
+        "Meksika'daki resmi 'Sin plomo' (kurşunsuz) mührünü ara ya da bunun yerine paslanmaz çelik, cam veya emaye tencere kullan.",
+        "Eski, çatlak, el yapımı ya da parlak turuncu, kırmızı veya sarı renkli kaplara özellikle dikkat et."
+      ],
+      "es": [
+        "Busca el sello oficial «Sin plomo» o usa en su lugar ollas de acero inoxidable, vidrio o acero esmaltado.",
+        "Ten especial cuidado con las piezas antiguas, desportilladas, hechas a mano o de colores naranja, rojo o amarillo intensos."
+      ],
+      "de": [
+        "Achte auf das offizielle mexikanische Siegel „Sin plomo“ (bleifrei) oder nimm stattdessen Töpfe aus Edelstahl, Glas oder emailliertem Stahl.",
+        "Sei besonders vorsichtig bei alten, angeschlagenen, handgemachten oder leuchtend orangen, roten oder gelben Stücken."
+      ],
+      "fr": [
+        "Cherche le label officiel mexicain « Sin plomo » (sans plomb), ou utilise plutôt des casseroles en inox, en verre ou en acier émaillé.",
+        "Sois particulièrement prudente avec les pièces anciennes, ébréchées, faites main ou d'un orange, rouge ou jaune vif."
+      ],
+      "pt": [
+        "Procure o selo oficial mexicano 'Sin plomo' (sem chumbo) ou use panelas de aço inoxidável, vidro ou aço esmaltado.",
+        "Tenha cuidado redobrado com peças antigas, lascadas, feitas à mão ou de cor laranja, vermelha ou amarela intensa."
+      ]
+    },
+    "sources": [
+      {
+        "name": "FDA: Questions and Answers on Lead-Glazed Traditional Pottery",
+        "url": "https://www.fda.gov/food/environmental-contaminants-food/questions-and-answers-lead-glazed-traditional-pottery"
+      },
+      {
+        "name": "Cofepris (Secretaría de Salud): Estrategia para proteger la salud de alfareros y población usuaria de loza vidriada",
+        "url": "https://www.gob.mx/cofepris/prensa/estrategia-para-proteger-la-salud-de-alfareros-y-poblacion-usuaria-de-loza-vidriada"
+      },
+      {
+        "name": "Gobierno de México: Barro vidriado libre de plomo y sello «Sin Plomo»",
+        "url": "https://www.gob.mx/cultura/prensa/arranca-la-tercera-edicion-de-la-feria-artesanal-lo-bello-y-lo-util-barro-vidriado-libre-de-plomo"
+      }
+    ]
+  }
+]

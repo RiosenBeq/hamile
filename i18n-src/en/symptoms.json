@@ -1,0 +1,1237 @@
+{
+  "morning-sickness": {
+    "name": "Nausea and vomiting (morning sickness)",
+    "aliases": [
+      "morning sickness",
+      "nausea",
+      "feeling sick",
+      "vomiting",
+      "throwing up",
+      "NVP"
+    ],
+    "about": "Feeling sick is one of the most common pregnancy symptoms, affecting around 8 in 10 people. Rising hormones are the likely cause, and despite the name it can strike at any time of day or night. It usually starts between weeks 4 and 7 and settles by weeks 16 to 20 for most, and it does not harm your baby.",
+    "relief": [
+      "Eat small, frequent snacks so your stomach is never empty; plain, starchy foods like crackers or toast are often easiest.",
+      "Keep a plain biscuit by your bed and nibble it before you get up.",
+      "Sip fluids little and often between meals rather than with them.",
+      "Try ginger foods or drinks, and avoid smells that set you off; cold food often smells less.",
+      "Rest when you can, as tiredness can make nausea worse."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor the same day if you can't keep food or fluids down for 24 hours.",
+      "Call the same day if your pee is very dark, you haven't peed for 8 hours, or you feel faint when you stand up.",
+      "Call the same day if you have tummy pain or a fever with the sickness, or you're losing weight.",
+      "Call your doctor straight away if you vomit blood."
+    ]
+  },
+  "severe-vomiting": {
+    "name": "Severe vomiting (hyperemesis gravidarum)",
+    "aliases": [
+      "hyperemesis gravidarum",
+      "HG",
+      "severe morning sickness",
+      "can't keep water down",
+      "dehydration",
+      "vomiting all day"
+    ],
+    "about": "Hyperemesis gravidarum is a severe form of pregnancy sickness that affects up to 3 in 100 pregnancies. Being sick many times a day can quickly leave you dehydrated and drained, so it needs medical treatment rather than just toughing it out. Effective, pregnancy-safe treatments exist, and asking for help early makes a real difference.",
+    "relief": [
+      "Sip small amounts of water, diluted juice or ice chips often rather than drinking a lot at once.",
+      "Rest as much as you can and accept practical help with work, meals and childcare.",
+      "Keep a simple note of how often you're sick and what stays down, to share with your doctor.",
+      "Ask your doctor about pregnancy-safe anti-sickness treatment; you don't have to wait until it's unbearable."
+    ],
+    "callDoctor": [
+      "Call your doctor or midwife now if you can't keep food or fluids down for 24 hours.",
+      "Call now if your pee is dark or you haven't peed for 8 hours; these are signs of dehydration.",
+      "Get help now if you feel very weak, dizzy or faint, or you're losing weight.",
+      "Call emergency services if you vomit blood, faint, or feel confused."
+    ]
+  },
+  "tiredness": {
+    "name": "Tiredness and exhaustion",
+    "aliases": [
+      "tiredness",
+      "fatigue",
+      "exhausted",
+      "always sleepy",
+      "no energy"
+    ],
+    "about": "Feeling wiped out is very common, especially in the first 12 weeks, when hormone changes and all the extra work your body is doing can leave you exhausted. Energy often returns in the second trimester, then dips again as your bump grows and sleep gets harder. Tiredness itself won't harm you or your baby.",
+    "relief": [
+      "Rest whenever you can, even 15 minutes with your feet up, and try going to bed a little earlier.",
+      "Accept offers of help from family, friends and colleagues.",
+      "Eat regular, balanced meals and keep healthy snacks handy to steady your energy.",
+      "A short walk or gentle exercise can actually lift your energy."
+    ],
+    "callDoctor": [
+      "Tell your midwife or doctor if you're also breathless, pale, dizzy or have a racing heart; they may check for anaemia.",
+      "Talk to your midwife or doctor if tiredness comes with low mood, hopelessness or losing interest in things.",
+      "Call the same day if exhaustion feels overwhelming or comes with fever, vomiting or feeling very unwell."
+    ]
+  },
+  "breast-tenderness": {
+    "name": "Sore or tender breasts",
+    "aliases": [
+      "breast tenderness",
+      "sore breasts",
+      "sore nipples",
+      "swollen breasts",
+      "breast changes"
+    ],
+    "about": "Tender, fuller, tingly breasts are often one of the very first signs of pregnancy. Rising hormones increase blood flow and start preparing your milk glands, so you may also notice more visible veins and darker nipples. The soreness usually eases after the first trimester as your body adjusts.",
+    "relief": [
+      "Wear a soft, well-fitting, supportive bra; many find a cotton or sports bra comfier, including at night.",
+      "A warm shower or a cool compress can ease the soreness.",
+      "Ask your partner to be gentle, and sleep on your side rather than your front."
+    ],
+    "callDoctor": [
+      "See your doctor if you notice a new lump, dimpled skin, or a red, hot, painful area on your breast.",
+      "See your doctor if you have bloody or unusual nipple discharge, or a nipple that has newly turned inward."
+    ]
+  },
+  "frequent-urination": {
+    "name": "Needing to pee a lot",
+    "aliases": [
+      "frequent urination",
+      "peeing a lot",
+      "weeing a lot",
+      "always need the toilet",
+      "night-time peeing"
+    ],
+    "about": "Needing the loo more often usually starts early in pregnancy, as hormones and extra blood flow make your kidneys work harder. It often eases in the middle months, then returns later when your baby's head presses on your bladder. It's a normal, if annoying, part of pregnancy.",
+    "relief": [
+      "Keep drinking plenty during the day, but cut down on drinks in the late evening.",
+      "Cut back on caffeine (tea, coffee, cola), which makes you pee more.",
+      "Lean forward or gently rock while peeing to help empty your bladder fully.",
+      "Do pelvic floor exercises daily to help with leaks when you cough or sneeze."
+    ],
+    "callDoctor": [
+      "Contact your doctor within 24 hours if peeing burns or stings, or you see blood in your pee; it could be an infection.",
+      "Call straight away if you also have a fever, shivers, or pain in your back or side.",
+      "Mention it to your doctor if you're also very thirsty all the time; they may check your blood sugar."
+    ]
+  },
+  "spotting": {
+    "name": "Spotting or light bleeding",
+    "aliases": [
+      "spotting",
+      "light bleeding",
+      "brown discharge",
+      "pink discharge",
+      "implantation bleeding",
+      "bleeding after sex"
+    ],
+    "about": "Light bleeding is fairly common, especially in early pregnancy, and many people who have it go on to have a healthy pregnancy. It can come from the embryo implanting, from a more sensitive cervix after sex or an internal exam, or from an infection. Because bleeding can sometimes signal a problem, it's always worth getting checked.",
+    "relief": [
+      "Use a pad, not a tampon, so you can see how much you're bleeding and what colour it is.",
+      "Note when it started, the colour and roughly how much, to tell your midwife or doctor.",
+      "Rest, and avoid sex until you've been checked and know the cause."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor the same day about any bleeding in pregnancy, even if it has stopped.",
+      "Call straight away if bleeding comes with cramps, low back pain, pain when you pee or poo, or fluid leaking.",
+      "Call emergency services if bleeding is heavy, or you have severe tummy pain, shoulder-tip pain or feel faint."
+    ]
+  },
+  "heavy-bleeding": {
+    "name": "Heavy bleeding",
+    "aliases": [
+      "heavy bleeding",
+      "bleeding with clots",
+      "soaking a pad",
+      "haemorrhage",
+      "hemorrhage",
+      "miscarriage signs"
+    ],
+    "about": "Heavy bleeding means red blood that soaks a pad or comes with clots. It needs urgent assessment at any stage of pregnancy, because it can be linked to miscarriage, an ectopic pregnancy or problems with the placenta. Getting help fast gives you and your baby the best care, and you will never be wasting anyone's time.",
+    "relief": [
+      "Call for help first, then lie down on your side while you wait.",
+      "Use pads, not tampons, so the amount of bleeding can be judged.",
+      "Don't drive yourself; ask someone to take you, or wait for the ambulance.",
+      "Bring your pregnancy notes if you have them."
+    ],
+    "callDoctor": [
+      "Call emergency services if you're soaking a pad soon after putting it on, or passing large clots.",
+      "Call emergency services if bleeding comes with severe tummy pain, shoulder-tip pain, dizziness or fainting.",
+      "Call your maternity unit or doctor straight away about any bleeding in the second half of pregnancy, even if light."
+    ]
+  },
+  "period-like-cramps": {
+    "name": "Cramps and period-like pain",
+    "aliases": [
+      "cramps",
+      "cramping",
+      "period pain",
+      "tummy ache",
+      "stomach pain",
+      "lower abdominal pain"
+    ],
+    "about": "Mild cramps are common, especially early on as your womb grows and stretches. Trapped wind, constipation and stretching ligaments can also cause aches that come and go. Pain that's mild and eases when you rest, change position, pee, poo or pass wind is usually nothing to worry about.",
+    "relief": [
+      "Rest, lie on your side or change position.",
+      "Have a warm (not hot) bath or shower.",
+      "Drink plenty of water and eat fibre to keep constipation and wind at bay.",
+      "Empty your bladder regularly."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor straight away if pain comes with bleeding, unusual discharge or fluid leaking.",
+      "Call straight away if the pain is severe or doesn't ease after resting for 30 to 60 minutes.",
+      "Call straight away if you're under 37 weeks and having regular cramps or tightenings.",
+      "Call straight away if it hurts to pee, or your pee is cloudy, pink, red or brown."
+    ]
+  },
+  "round-ligament-pain": {
+    "name": "Round ligament pain",
+    "aliases": [
+      "round ligament pain",
+      "growing pains",
+      "sharp pain in groin",
+      "stabbing side pain",
+      "pulling pain in belly"
+    ],
+    "about": "The round ligaments are rope-like bands that support your womb. As your bump grows they stretch, which can cause a brief, sharp or pulling pain on one or both sides of your lower belly or groin, often when you move suddenly, cough or stand up. It's very common in the second trimester and harmless.",
+    "relief": [
+      "Move slowly when you stand up, turn over in bed, or get out of a chair.",
+      "Bend and flex your hips slightly before you cough, sneeze or laugh.",
+      "Rest, use a warm (not hot) compress or bath, or try a maternity support belt."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor if the pain doesn't ease with rest or changing position.",
+      "Call straight away if pain comes with bleeding, fever, chills, pain when peeing, or regular tightenings.",
+      "Before 12 weeks, get one-sided pain checked the same day to rule out an ectopic pregnancy."
+    ]
+  },
+  "back-pain": {
+    "name": "Back pain",
+    "aliases": [
+      "back pain",
+      "backache",
+      "lower back pain",
+      "sciatica",
+      "aching back"
+    ],
+    "about": "Backache is very common in pregnancy. Hormones soften your ligaments to prepare for birth, which strains the joints of your lower back and pelvis, and your growing bump shifts your posture. It's uncomfortable but usually not a sign that anything is wrong.",
+    "relief": [
+      "Bend your knees and keep your back straight when lifting, and avoid heavy lifting.",
+      "Wear flat, supportive shoes and sit with your back well supported.",
+      "Try a warm bath, a massage, pregnancy yoga or swimming.",
+      "Sleep on your side with a pillow between your knees and one under your bump."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor urgently if back pain comes in waves or with tightenings; it can be a sign of early labour.",
+      "Call urgently if you also have a fever, bleeding from your vagina, pain when peeing, or pain under your ribs.",
+      "Call emergency services if you lose feeling in your legs, bottom or genitals."
+    ]
+  },
+  "pelvic-girdle-pain": {
+    "name": "Pelvic girdle pain (SPD)",
+    "aliases": [
+      "pelvic girdle pain",
+      "PGP",
+      "SPD",
+      "symphysis pubis dysfunction",
+      "pubic bone pain",
+      "pelvic pain"
+    ],
+    "about": "Pelvic girdle pain comes from stiffness or uneven movement of your pelvic joints. You may feel it over your pubic bone, across your lower back, between your legs or down your thighs, and it can be worse when walking, on stairs or turning over in bed. It's common, it doesn't harm your baby, and physiotherapy really helps.",
+    "relief": [
+      "Keep your knees together when getting in and out of the car or bed.",
+      "Sit down to get dressed, and avoid standing on one leg.",
+      "Take stairs one step at a time, and avoid heavy lifting.",
+      "Sleep with a pillow between your legs, and stay active within what feels comfortable."
+    ],
+    "callDoctor": [
+      "Ask your midwife or doctor for a physiotherapy referral if it's hard to walk, climb stairs or turn over in bed.",
+      "Tell your midwife or doctor if the pain is affecting your sleep or mood; more support is available."
+    ]
+  },
+  "headache": {
+    "name": "Headaches",
+    "aliases": [
+      "headache",
+      "migraine",
+      "head pain",
+      "tension headache"
+    ],
+    "about": "Headaches are common in early pregnancy and usually improve as it goes on. Hormone changes, tiredness, dehydration, hunger and cutting down on caffeine can all play a part. They don't harm your baby, but a severe headache in the second half of pregnancy always needs checking.",
+    "relief": [
+      "Drink plenty of water and eat regular meals and snacks.",
+      "Rest in a quiet, dark room and try relaxation or gentle neck and shoulder stretches.",
+      "Get enough sleep and fresh air, and try a cool cloth on your forehead.",
+      "Ask your pharmacist or midwife which pain relief is safe in pregnancy."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor straight away if you have a severe headache that won't go away, especially after 20 weeks.",
+      "Call straight away if a headache comes with blurred vision, flashing lights, pain under your ribs or sudden swelling.",
+      "Call emergency services if a headache is sudden and extremely severe, or comes with a fit, confusion or weakness."
+    ]
+  },
+  "severe-headache-vision": {
+    "name": "Severe headache or vision changes (pre-eclampsia signs)",
+    "aliases": [
+      "pre-eclampsia",
+      "preeclampsia",
+      "blurred vision",
+      "flashing lights",
+      "high blood pressure",
+      "pain under ribs",
+      "toxaemia"
+    ],
+    "about": "A severe headache that won't go away, blurred vision or flashing lights, pain just below your ribs, or sudden swelling of your face, hands or feet can be signs of pre-eclampsia. This blood pressure condition usually appears after 20 weeks and can also start in the weeks after birth. It's very treatable when caught early, so these symptoms always need checking straight away.",
+    "relief": [
+      "Stop what you're doing and call for help; don't wait to see if it passes.",
+      "Rest lying on your side while you wait to be seen.",
+      "Bring your pregnancy notes and any blood pressure readings you have.",
+      "Don't drive yourself; ask someone to take you."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor straight away if you have any of these symptoms, day or night.",
+      "Call straight away if you have heartburn that doesn't ease with the usual remedies, vomiting, or feel very unwell.",
+      "Call emergency services if you have a fit (seizure), severe chest or tummy pain, or trouble breathing."
+    ]
+  },
+  "dizziness-fainting": {
+    "name": "Dizziness and feeling faint",
+    "aliases": [
+      "dizziness",
+      "lightheaded",
+      "feeling faint",
+      "fainting",
+      "vertigo",
+      "blacking out"
+    ],
+    "about": "Feeling lightheaded is common in pregnancy. Hormones relax your blood vessels while your circulation works harder, so getting up quickly, standing for a long time, getting hot or going too long without food can make you woozy. Later on, lying flat on your back can do it too.",
+    "relief": [
+      "Get up slowly after sitting or lying down.",
+      "If you feel faint, sit down or lie on your side straight away.",
+      "Eat regularly, carry a snack, and drink plenty of water, especially when it's hot.",
+      "From the third trimester, avoid lying flat on your back; turn onto your side."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor the same day if you actually faint, or the dizziness keeps coming back.",
+      "Call emergency services if dizziness or fainting comes with bleeding, severe tummy or shoulder-tip pain, or chest pain.",
+      "Call emergency services if you're struggling to breathe, have a racing heart, or feel confused."
+    ]
+  },
+  "heartburn": {
+    "name": "Heartburn and indigestion",
+    "aliases": [
+      "heartburn",
+      "indigestion",
+      "acid reflux",
+      "reflux",
+      "burning chest",
+      "burping"
+    ],
+    "about": "Heartburn is a burning feeling in your chest, often soon after eating. Pregnancy hormones relax the valve at the top of your stomach, and later your growing baby presses on your stomach, so acid comes back up more easily. It's very common from around 12 weeks and usually goes after the birth.",
+    "relief": [
+      "Eat small meals often instead of three big ones, and sit up straight while you eat.",
+      "Try not to eat in the 3 hours before bed.",
+      "Cut down on rich, spicy or fatty foods and caffeine if they set you off.",
+      "Raise your head and shoulders in bed, and try sleeping on your left side.",
+      "Ask your pharmacist about pregnancy-safe heartburn remedies."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor straight away if heartburn doesn't ease with the usual remedies, especially after 20 weeks.",
+      "Call straight away if you also have pain just below your ribs, a severe headache, vision problems or vomiting.",
+      "See your doctor if you have trouble swallowing, are losing weight, or your vomit or poo looks black or bloody."
+    ]
+  },
+  "constipation": {
+    "name": "Constipation",
+    "aliases": [
+      "constipation",
+      "can't poo",
+      "hard stools",
+      "straining",
+      "bowel problems"
+    ],
+    "about": "Constipation is very common and can start early in pregnancy. Hormones relax the muscles of your gut so food moves through more slowly, and later your womb presses on your bowel. Iron supplements can make it worse too.",
+    "relief": [
+      "Eat plenty of fibre: wholegrain bread and cereals, fruit, vegetables, beans and lentils.",
+      "Drink plenty of water through the day.",
+      "Keep active; a daily walk or swim helps keep things moving.",
+      "Don't ignore the urge to go, and try resting your feet on a small stool on the toilet.",
+      "If you take iron supplements, ask your doctor or pharmacist about gentler options."
+    ],
+    "callDoctor": [
+      "Talk to your midwife, doctor or pharmacist if diet changes haven't helped after a week or so; don't take laxatives without asking.",
+      "Call your doctor if you have bleeding from your bottom, severe tummy pain, or vomiting."
+    ]
+  },
+  "piles": {
+    "name": "Piles (haemorrhoids)",
+    "aliases": [
+      "piles",
+      "haemorrhoids",
+      "hemorrhoids",
+      "itchy bottom",
+      "bleeding when pooing",
+      "lump near anus"
+    ],
+    "about": "Piles are swollen blood vessels in or around your bottom. Pregnancy hormones, extra pressure from your womb and constipation all make them more likely, especially in the third trimester. They can itch, ache or bleed a little after a poo, but they're harmless and usually shrink after the birth.",
+    "relief": [
+      "Keep your poo soft with plenty of fibre and water, and avoid straining.",
+      "Hold a cloth wrung out in iced water gently against the area to ease pain.",
+      "Use moist toilet paper, and pat rather than rub.",
+      "Avoid standing or sitting for long periods.",
+      "Ask your pharmacist or midwife about pregnancy-safe creams before using any."
+    ],
+    "callDoctor": [
+      "See your doctor or midwife if piles are very painful, or a lump outside your bottom is hard and won't go back in.",
+      "Call your doctor if you're bleeding a lot from your bottom, or the blood is dark or mixed into your poo."
+    ]
+  },
+  "bloating-gas": {
+    "name": "Bloating and wind",
+    "aliases": [
+      "bloating",
+      "gas",
+      "wind",
+      "farting",
+      "trapped wind",
+      "swollen belly"
+    ],
+    "about": "Feeling bloated and gassy is very common, especially early on. Pregnancy hormones slow down digestion, so food and gas linger in your gut, and constipation can add to it. Trapped wind can even cause sharp, crampy pains that ease once it passes.",
+    "relief": [
+      "Eat smaller meals slowly, and chew well.",
+      "Notice your triggers: fizzy drinks, beans, onions and cabbage are common culprits.",
+      "Stay active; a gentle walk after meals helps move gas along.",
+      "Keep constipation at bay with fibre and plenty of water."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor if tummy pain is severe, doesn't ease after 30 to 60 minutes of rest, or comes with bleeding.",
+      "Call straight away if you're under 37 weeks and the pain comes in regular waves or tightenings.",
+      "See your doctor if you also have a fever, or diarrhoea or vomiting that won't settle."
+    ]
+  },
+  "cravings-aversions": {
+    "name": "Food cravings and aversions",
+    "aliases": [
+      "cravings",
+      "food cravings",
+      "food aversions",
+      "can't stand the smell of food",
+      "pica",
+      "craving ice"
+    ],
+    "about": "Suddenly longing for certain foods, or not being able to face others, is very common and thought to be linked to pregnancy hormones and a sharper sense of smell. Around 7 in 10 people go off at least one food. It's fine to follow your cravings in moderation as long as your overall diet stays balanced.",
+    "relief": [
+      "Swap sugary cravings for fruit or yoghurt sometimes, and keep healthy snacks handy.",
+      "If you can't face a food, choose another with similar nutrients, like beans or eggs instead of meat.",
+      "Keep cravings pregnancy-safe: choose pasteurised cheese and well-cooked meat and eggs.",
+      "Cold or bland foods can be easier when smells put you off."
+    ],
+    "callDoctor": [
+      "Tell your midwife or doctor if you crave things that aren't food, like ice, soil, clay, chalk or soap; it can be linked to low iron.",
+      "Talk to your midwife or doctor if aversions mean you're barely eating or are losing weight."
+    ]
+  },
+  "metallic-taste": {
+    "name": "Metallic taste in your mouth",
+    "aliases": [
+      "metallic taste",
+      "metal taste",
+      "taste of coins",
+      "dysgeusia",
+      "strange taste",
+      "bitter taste"
+    ],
+    "about": "A sour or metallic taste, as if you've been sucking coins, is a common early pregnancy change. It's thought to be caused by hormones affecting your sense of taste. It isn't harmful and usually fades as you move into the second trimester.",
+    "relief": [
+      "Try sharp, tangy flavours like citrus, pickles or foods with a vinegar dressing.",
+      "Brush your teeth and tongue regularly, and rinse with a mild salt-water mouthwash.",
+      "Use plastic or wooden cutlery if metal makes it worse.",
+      "Chew sugar-free gum or suck sugar-free mints."
+    ],
+    "callDoctor": [
+      "Mention it to your doctor if the taste lasts beyond the first trimester or comes with a dry or burning mouth.",
+      "Tell your doctor or pharmacist if it started after a new medicine or supplement."
+    ]
+  },
+  "excess-saliva": {
+    "name": "Excess saliva",
+    "aliases": [
+      "excess saliva",
+      "drooling",
+      "too much spit",
+      "ptyalism",
+      "hypersalivation"
+    ],
+    "about": "Some people make much more saliva in pregnancy, often alongside nausea. It's thought to happen because hormones overstimulate the salivary glands, and feeling sick can make it worse because swallowing becomes unpleasant. It's harmless, if unpleasant, and usually settles with time.",
+    "relief": [
+      "Chew sugar-free gum or suck sugar-free sweets to make swallowing easier.",
+      "Brush your teeth and rinse with an alcohol-free mouthwash a few times a day.",
+      "Eat small, frequent meals to keep nausea down.",
+      "Keep sipping water so you don't get dehydrated, and carry tissues if you need to spit."
+    ],
+    "callDoctor": [
+      "Tell your midwife or doctor if it comes with severe vomiting, or you can't keep fluids down.",
+      "See your doctor if your mouth or glands are swollen or painful, or it's affecting your sleep or eating."
+    ]
+  },
+  "nosebleeds": {
+    "name": "Nosebleeds",
+    "aliases": [
+      "nosebleed",
+      "nose bleeding",
+      "bloody nose",
+      "epistaxis"
+    ],
+    "about": "Nosebleeds are more common in pregnancy, because extra blood volume and hormones make the tiny blood vessels inside your nose swell and break more easily. They're usually brief and harmless.",
+    "relief": [
+      "Sit up, lean forward and pinch the soft part of your nose for 10 to 15 minutes, breathing through your mouth.",
+      "Don't tip your head back, and avoid blowing or picking your nose for a day afterwards.",
+      "Use a humidifier or a salt-water (saline) spray to keep the inside of your nose moist."
+    ],
+    "callDoctor": [
+      "Get urgent medical help if bleeding hasn't stopped after 10 to 15 minutes of pressure, or it's very heavy.",
+      "Get urgent help if you feel weak or dizzy, or are having trouble breathing.",
+      "See your doctor if you get nosebleeds often, or bruise easily."
+    ]
+  },
+  "bleeding-gums": {
+    "name": "Swollen or bleeding gums",
+    "aliases": [
+      "bleeding gums",
+      "swollen gums",
+      "pregnancy gingivitis",
+      "sore gums",
+      "gum disease"
+    ],
+    "about": "Pregnancy hormones increase blood flow to your gums and make them react more strongly to plaque, so they may look puffy and bleed when you brush. This pregnancy gingivitis affects more than half of pregnancies and usually settles after the birth.",
+    "relief": [
+      "Brush gently twice a day with a soft toothbrush and fluoride toothpaste.",
+      "Floss or use interdental brushes once a day.",
+      "See your dentist for a check-up and clean while you're pregnant, and tell them you're pregnant.",
+      "Cut down on sugary snacks and drinks."
+    ],
+    "callDoctor": [
+      "See your dentist if your gums are very swollen or painful, bleed a lot, or a tooth feels loose.",
+      "See your dentist or doctor if a lump grows on your gum, or you have bad breath or pus that won't go away."
+    ]
+  },
+  "stuffy-nose": {
+    "name": "Stuffy nose (pregnancy rhinitis)",
+    "aliases": [
+      "stuffy nose",
+      "blocked nose",
+      "congestion",
+      "pregnancy rhinitis",
+      "runny nose",
+      "snoring"
+    ],
+    "about": "A blocked or runny nose that lasts for weeks without a cold or allergy is called pregnancy rhinitis. Hormones and extra blood flow make the lining of your nose swell and produce more mucus. It's harmless, often worse at night, and usually clears within two weeks of giving birth.",
+    "relief": [
+      "Use a salt-water (saline) nasal spray or rinse.",
+      "Raise the head of your bed or use an extra pillow at night.",
+      "Drink plenty of water, and try a humidifier or a steamy shower.",
+      "Gentle exercise can help ease congestion.",
+      "Ask your pharmacist about pregnancy-safe options before using any medicated nasal spray or cold remedy."
+    ],
+    "callDoctor": [
+      "See your doctor if you have a fever, facial pain, or thick yellow or green mucus; it could be an infection.",
+      "Talk to your doctor if loud snoring or a blocked nose is badly disturbing your sleep."
+    ]
+  },
+  "breathlessness": {
+    "name": "Feeling short of breath",
+    "aliases": [
+      "shortness of breath",
+      "breathless",
+      "out of breath",
+      "can't take a deep breath",
+      "puffed out"
+    ],
+    "about": "Mild breathlessness is common. Early on, hormones make you breathe more deeply, so you notice your breathing more; later, your growing womb pushes up under your diaphragm and leaves your lungs less room. It's usually most noticeable when you exert yourself, and often eases a little when your baby moves down before birth.",
+    "relief": [
+      "Slow down, take breaks, and pace yourself on stairs.",
+      "Sit and stand up straight to give your lungs more room.",
+      "Prop yourself up with pillows at night.",
+      "Gentle, regular exercise like walking or swimming can help."
+    ],
+    "callDoctor": [
+      "Call emergency services if breathlessness comes on suddenly, or comes with chest pain or coughing up blood.",
+      "Call your doctor the same day if you're breathless at rest or lying down, or it wakes you at night.",
+      "Call the same day if you also have a racing heart or dizziness, or feel very tired and look pale."
+    ]
+  },
+  "sudden-breathlessness": {
+    "name": "Sudden breathlessness or chest pain",
+    "aliases": [
+      "sudden shortness of breath",
+      "chest pain",
+      "can't breathe",
+      "pulmonary embolism",
+      "blood clot in lung",
+      "coughing up blood"
+    ],
+    "about": "Breathlessness that comes on suddenly, chest pain or coughing up blood is different from the gradual puffiness of pregnancy. Pregnancy makes blood clot more easily, and a clot that travels to the lungs (pulmonary embolism) is rare but serious. Heart problems and severe infections can cause these symptoms too, so get help immediately.",
+    "relief": [
+      "Call emergency services first, then sit upright and try to stay calm.",
+      "Don't drive yourself to hospital.",
+      "Unlock the door and keep your phone and pregnancy notes close."
+    ],
+    "callDoctor": [
+      "Call emergency services if you suddenly can't catch your breath, or have chest pain or tightness.",
+      "Call emergency services if you cough up blood, or feel faint with a racing or pounding heart.",
+      "Call emergency services if you're breathless and also have a painful, swollen leg."
+    ]
+  },
+  "palpitations": {
+    "name": "Heart palpitations",
+    "aliases": [
+      "palpitations",
+      "racing heart",
+      "heart pounding",
+      "fluttering heart",
+      "skipped beats",
+      "fast heartbeat"
+    ],
+    "about": "Your blood volume rises a lot in pregnancy and your heart works harder to pump it, so a faster resting heartbeat and the odd flutter or pounding beat are common. Palpitations are usually harmless, especially if they're brief and you otherwise feel well.",
+    "relief": [
+      "Sit, or lie down on your side, and breathe slowly until it settles.",
+      "Drink plenty of water and cut down on caffeine.",
+      "Get up slowly, and avoid getting overheated."
+    ],
+    "callDoctor": [
+      "Call emergency services if palpitations come with chest pain, trouble breathing, fainting or confusion.",
+      "Call your doctor the same day if palpitations last several minutes, keep coming back, or make you dizzy.",
+      "Tell your doctor or midwife if you have a heart condition or have had palpitations before."
+    ]
+  },
+  "swelling": {
+    "name": "Swollen feet, ankles and fingers",
+    "aliases": [
+      "swelling",
+      "swollen feet",
+      "swollen ankles",
+      "oedema",
+      "edema",
+      "puffy hands",
+      "tight rings"
+    ],
+    "about": "Mild swelling is very common, especially in the evening, in hot weather and later in pregnancy. Your body holds more water than usual, and your growing womb slows the blood flow back from your legs. Swelling that builds up gradually isn't harmful, but sudden swelling of your face, hands or feet needs checking straight away.",
+    "relief": [
+      "Rest with your feet up when you can, and avoid standing for long periods.",
+      "Walk regularly and do foot exercises: flex each foot up and down 30 times, then circle it 8 times each way.",
+      "Wear comfortable shoes and socks without tight straps, and take off rings that are getting tight."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor straight away if swelling in your face, hands or feet comes on suddenly.",
+      "Call straight away if swelling comes with a severe headache, vision problems, pain under your ribs or vomiting.",
+      "Call your doctor the same day if one leg is swollen, painful, warm or red; it could be a blood clot."
+    ]
+  },
+  "leg-cramps": {
+    "name": "Leg cramps",
+    "aliases": [
+      "leg cramps",
+      "calf cramps",
+      "charley horse",
+      "night cramps",
+      "foot cramps"
+    ],
+    "about": "Sudden, painful tightening in your calf or foot, often at night, affects many pregnant people, perhaps as many as 4 in 10. The exact cause isn't clear, but the extra weight you're carrying and changes in circulation may play a part. Cramps are harmless and usually pass within minutes.",
+    "relief": [
+      "During a cramp, pull your toes up towards your shin and rub the muscle firmly.",
+      "Do foot and ankle exercises every day, and stretch your calves before bed.",
+      "Stay active with regular walks, and drink plenty of water.",
+      "A warm bath or gentle heat can help the muscle relax afterwards."
+    ],
+    "callDoctor": [
+      "Call your doctor the same day if pain in one calf doesn't go away, or the leg is swollen, warm or red.",
+      "Tell your midwife or doctor if cramps are frequent and disturbing your sleep."
+    ]
+  },
+  "restless-legs": {
+    "name": "Restless legs",
+    "aliases": [
+      "restless legs",
+      "restless legs syndrome",
+      "RLS",
+      "creepy crawly legs",
+      "urge to move legs"
+    ],
+    "about": "Restless legs syndrome is an uncomfortable crawling or tingling feeling with an irresistible urge to move your legs, usually in the evening or at night. It's common in pregnancy, especially in the third trimester, and can be linked to low iron. Symptoms usually go away after the birth.",
+    "relief": [
+      "Keep a regular sleep routine and cut down on caffeine, especially later in the day.",
+      "Stretch or massage your legs, or try a warm bath before bed.",
+      "Get up and walk around for a few minutes when the urge hits.",
+      "Gentle daytime exercise like walking or swimming may help."
+    ],
+    "callDoctor": [
+      "Ask your doctor or midwife to check your iron levels if restless legs are bothering you.",
+      "Talk to your doctor if it's badly disturbing your sleep, and don't take sleep aids without checking first."
+    ]
+  },
+  "varicose-veins": {
+    "name": "Varicose veins",
+    "aliases": [
+      "varicose veins",
+      "swollen veins",
+      "spider veins",
+      "vulval varicose veins",
+      "aching legs"
+    ],
+    "about": "Varicose veins are swollen, bulging veins, usually in the legs, though they can also appear around the vulva. Extra blood volume, hormones that relax vein walls and pressure from your womb all contribute. They can ache or itch but aren't harmful, and usually improve after the birth.",
+    "relief": [
+      "Avoid standing for long periods, and try not to sit with your legs crossed.",
+      "Put your feet up when sitting, and raise your legs on pillows in bed.",
+      "Try maternity compression stockings; they can ease aching and swelling.",
+      "Walk, swim and do foot exercises to keep your blood moving."
+    ],
+    "callDoctor": [
+      "Call your doctor the same day if a vein becomes hard, hot, red or painful, or one leg swells; it could be a clot.",
+      "Call emergency services if a leg is painful and swollen and you're also breathless or have chest pain.",
+      "See your doctor if a varicose vein bleeds, or the skin over it changes or breaks down."
+    ]
+  },
+  "skin-changes": {
+    "name": "Skin darkening (melasma and linea nigra)",
+    "aliases": [
+      "melasma",
+      "chloasma",
+      "mask of pregnancy",
+      "linea nigra",
+      "dark line on belly",
+      "darker nipples",
+      "dark patches"
+    ],
+    "about": "Pregnancy hormones boost melanin, the pigment in your skin. You may notice a dark line down your belly (linea nigra), darker nipples, freckles and moles, or brownish patches on your face called melasma, the mask of pregnancy. These changes are harmless and usually fade gradually after the birth.",
+    "relief": [
+      "Use a high-factor sunscreen every day and wear a wide-brimmed hat, as sun makes the patches darker.",
+      "Choose gentle, fragrance-free skincare.",
+      "Ask your pharmacist or doctor before using any skin-lightening or spot creams in pregnancy."
+    ],
+    "callDoctor": [
+      "See your doctor if a mole changes shape, size or colour, or starts to bleed or itch.",
+      "See your doctor about a new rash, or patches that are spreading quickly."
+    ]
+  },
+  "stretch-marks": {
+    "name": "Stretch marks",
+    "aliases": [
+      "stretch marks",
+      "striae",
+      "striae gravidarum",
+      "tiger stripes",
+      "skin stretching"
+    ],
+    "about": "Stretch marks are narrow streaks that can be pink, red, purple or brown, depending on your skin tone. They affect around 8 in 10 pregnant people, usually on the tummy, thighs or breasts, and whether you get them depends a lot on your skin type. They're harmless and usually fade to paler lines after the birth.",
+    "relief": [
+      "Moisturise regularly to ease itching; no cream is proven to prevent stretch marks, but it can feel soothing.",
+      "Aim for steady, healthy weight gain, which may help reduce new marks.",
+      "Stay active and drink plenty of water to keep your skin comfortable."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor the same day if itching is intense, especially on your palms or soles."
+    ]
+  },
+  "itchy-skin": {
+    "name": "Itchy skin",
+    "aliases": [
+      "itchy skin",
+      "itching",
+      "itchy belly",
+      "itchy bump",
+      "rash",
+      "PUPPP"
+    ],
+    "about": "Mild itching is common, affecting around 1 in 4 pregnant people, as hormones change and the skin over your bump stretches. Some people also get an itchy rash late in pregnancy that's uncomfortable but harmless to the baby. Itching usually stops after the birth, but intense itching of the hands or feet needs checking.",
+    "relief": [
+      "Pat or tap itchy skin instead of scratching, and keep your nails short.",
+      "Have cool or warm (not hot) showers, for no longer than 20 minutes.",
+      "Use an unperfumed moisturiser often, and avoid perfumed soaps.",
+      "Wear loose cotton clothes, and cut down on spicy food and caffeine if they make it worse.",
+      "Ask your pharmacist about creams that are safe in pregnancy."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor the same day if your palms or soles itch, or the itching is worse at night.",
+      "Call the same day if the itching keeps you awake, or comes with dark pee or pale poo.",
+      "See your doctor about a new rash, blisters, or itching that's affecting your daily life."
+    ]
+  },
+  "itching-hands-feet": {
+    "name": "Intense itching of hands and feet (possible ICP)",
+    "aliases": [
+      "intrahepatic cholestasis of pregnancy",
+      "ICP",
+      "obstetric cholestasis",
+      "itchy palms",
+      "itchy feet",
+      "itching at night"
+    ],
+    "about": "Itching on the palms of your hands or soles of your feet, often worse at night and without a rash, can be a sign of intrahepatic cholestasis of pregnancy (ICP). In ICP the liver doesn't handle bile as it should, so bile acids build up in your blood. It affects fewer than 1 in 100 pregnancies and is very manageable, but it needs a blood test and close monitoring because it can affect your baby.",
+    "relief": [
+      "Keep your skin cool with lukewarm showers, cool flannels and loose cotton clothing.",
+      "Use an unperfumed moisturiser, and pat rather than scratch.",
+      "Keep your nails short to protect your skin at night.",
+      "Keep track of your baby's movements and report any change straight away."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor today if your palms or soles itch, even without a rash, and ask for a blood test.",
+      "Call straight away if the itching is so bad it keeps you awake at night.",
+      "Call straight away if you notice yellowing of your skin or eyes, dark pee or pale poo.",
+      "Call your maternity unit immediately if your baby is moving less than usual."
+    ]
+  },
+  "acne": {
+    "name": "Spots and acne",
+    "aliases": [
+      "acne",
+      "spots",
+      "pimples",
+      "breakouts",
+      "oily skin",
+      "pregnancy acne"
+    ],
+    "about": "Hormone changes in pregnancy can make your skin oilier and trigger breakouts, even if you haven't had spots for years. It's most common in the first and second trimesters and usually settles after the birth.",
+    "relief": [
+      "Wash your face twice a day with a mild, fragrance-free cleanser and lukewarm water.",
+      "Choose oil-free, non-comedogenic moisturiser and make-up.",
+      "Try not to pick or squeeze spots, which can cause scarring.",
+      "Check with your pharmacist or doctor before using any acne product, as some aren't safe in pregnancy."
+    ],
+    "callDoctor": [
+      "See your doctor if acne is severe, painful or scarring, so you can find a pregnancy-safe treatment.",
+      "If you were using a prescription acne treatment when you got pregnant, stop it and check with your doctor straight away."
+    ]
+  },
+  "vaginal-discharge": {
+    "name": "Changes in vaginal discharge",
+    "aliases": [
+      "vaginal discharge",
+      "discharge",
+      "white discharge",
+      "mucus",
+      "show",
+      "mucus plug"
+    ],
+    "about": "Having more discharge than usual is normal in pregnancy and helps stop infections travelling up into the womb. Healthy discharge is thin, clear or milky white and doesn't smell unpleasant. Near the end you may notice thick, jelly-like mucus, sometimes streaked with pink: this is the show, a sign your body is getting ready for labour.",
+    "relief": [
+      "Wear cotton underwear and loose clothes, and change panty liners often.",
+      "Wash the outside of your vulva with plain water; avoid perfumed soaps, wipes and douching.",
+      "Wipe from front to back after using the toilet.",
+      "Use panty liners rather than tampons while you're pregnant."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor if discharge smells unpleasant, is green or yellow, or you feel itchy or sore.",
+      "Call your midwife or doctor if it hurts to pee.",
+      "Call straight away if you have any bleeding, or a gush or steady trickle of watery fluid."
+    ]
+  },
+  "thrush": {
+    "name": "Thrush (yeast infection)",
+    "aliases": [
+      "thrush",
+      "yeast infection",
+      "candida",
+      "vaginal itching",
+      "cottage cheese discharge"
+    ],
+    "about": "Thrush is a common yeast infection that's more likely in pregnancy, especially in the third trimester, because hormones change the natural balance in the vagina. It can cause thick white discharge, itching, soreness and stinging. It's easily treated, and there's no evidence it harms your baby.",
+    "relief": [
+      "Wear loose cotton underwear, and avoid tight trousers or tights.",
+      "Wash with plain water or an unperfumed emollient cream instead of soap, and skip bubble baths.",
+      "Pat the area dry gently after washing.",
+      "See your doctor, midwife or pharmacist before using any thrush treatment, as not all are suitable in pregnancy."
+    ],
+    "callDoctor": [
+      "See your doctor or midwife before treating it yourself, especially if it's the first time you've had these symptoms.",
+      "See your doctor if treatment hasn't worked within a week, or it keeps coming back.",
+      "Call your midwife or doctor if discharge smells bad, is green or yellow, or it hurts to pee."
+    ]
+  },
+  "uti-symptoms": {
+    "name": "Burning when you pee (UTI)",
+    "aliases": [
+      "UTI",
+      "urinary tract infection",
+      "burning pee",
+      "cystitis",
+      "bladder infection",
+      "kidney infection",
+      "blood in urine"
+    ],
+    "about": "Urinary tract infections are more common in pregnancy because hormones relax the urinary tract and your growing womb presses on your bladder. Signs include burning or stinging when you pee, needing to go urgently, and cloudy, smelly or bloody pee. A UTI in pregnancy should always be treated promptly, because it can spread to the kidneys.",
+    "relief": [
+      "Drink plenty of water to help flush your system and dilute your pee.",
+      "Pee when you need to and empty your bladder fully, including after sex.",
+      "Wipe from front to back, and wear cotton underwear.",
+      "Don't take any medicines without checking they're safe in pregnancy."
+    ],
+    "callDoctor": [
+      "Contact your doctor or midwife within 24 hours if peeing burns or stings, or you see blood in your pee.",
+      "Call your doctor straight away if you have a fever, shivers, or pain in your back or side; it may be a kidney infection.",
+      "Call your maternity unit straight away if you also have cramps or regular tightenings."
+    ]
+  },
+  "leaking-urine": {
+    "name": "Leaking urine",
+    "aliases": [
+      "leaking urine",
+      "incontinence",
+      "stress incontinence",
+      "wetting myself",
+      "pee when I sneeze",
+      "bladder leaks"
+    ],
+    "about": "Leaking a little pee when you cough, sneeze, laugh or move suddenly is common in pregnancy. Hormones relax your pelvic floor muscles, and your growing baby presses on your bladder. It often improves after the birth, and pelvic floor exercises help a lot.",
+    "relief": [
+      "Do pelvic floor exercises every day: squeeze as if holding in wind and pee, hold for a few seconds, then relax.",
+      "Empty your bladder regularly, and lean forward to empty it fully.",
+      "Keep drinking plenty; cutting back makes pee more concentrated, which can irritate your bladder.",
+      "Cut down on caffeine and fizzy drinks, which can irritate your bladder."
+    ],
+    "callDoctor": [
+      "Call your maternity unit straight away if you're not sure whether it's pee or your waters, especially if it keeps trickling.",
+      "Call your doctor if it burns or stings when you pee, or your pee is cloudy or bloody.",
+      "Ask your midwife or doctor about pelvic floor physiotherapy if leaks are bothering you."
+    ]
+  },
+  "insomnia": {
+    "name": "Trouble sleeping",
+    "aliases": [
+      "insomnia",
+      "can't sleep",
+      "trouble sleeping",
+      "waking at night",
+      "sleep problems",
+      "sleeping position"
+    ],
+    "about": "Sleep problems are very common, affecting around a quarter of people early in pregnancy and most by the end. Hormones, needing to pee, heartburn, cramps, a busy mind and a growing bump all make it harder to get comfortable. Poor sleep is frustrating, but it won't harm your baby.",
+    "relief": [
+      "From 28 weeks, go to sleep on your side; if you wake up on your back, just turn over.",
+      "Support your bump with pillows and put one between your knees.",
+      "Avoid caffeine in the evening and long naps late in the day.",
+      "Wind down with a relaxing routine, breathing exercises or a warm bath.",
+      "Gentle daytime activity, like a lunchtime walk, can help you sleep."
+    ],
+    "callDoctor": [
+      "Talk to your midwife or doctor if lack of sleep is making it hard to cope, or comes with anxiety or low mood.",
+      "Mention loud snoring, gasping or pauses in your breathing at night, or very restless legs.",
+      "Check with your doctor before taking any sleep aid, including herbal remedies."
+    ]
+  },
+  "vivid-dreams": {
+    "name": "Vivid dreams and nightmares",
+    "aliases": [
+      "vivid dreams",
+      "strange dreams",
+      "nightmares",
+      "weird dreams",
+      "pregnancy dreams"
+    ],
+    "about": "Many people have unusually vivid, strange or worrying dreams in pregnancy, often about the baby or the birth. Hormones, waking more often (so you remember your dreams) and the big emotional changes you're going through all play a part. It's normal, and dreaming something doesn't mean it will happen.",
+    "relief": [
+      "Talk about your dreams with your partner, a friend or your midwife.",
+      "Try relaxation or breathing exercises before bed, and keep a calm bedtime routine.",
+      "Writing your worries down before sleep can help clear your mind."
+    ],
+    "callDoctor": [
+      "Talk to your midwife or doctor if nightmares are frequent and distressing, or come with constant worry or low mood."
+    ]
+  },
+  "mood-swings": {
+    "name": "Mood swings",
+    "aliases": [
+      "mood swings",
+      "emotional",
+      "crying a lot",
+      "irritable",
+      "feeling overwhelmed",
+      "weepy"
+    ],
+    "about": "Feeling tearful one minute and irritable or elated the next is very common, especially in the first trimester and towards the end. Shifting hormones, tiredness, physical discomfort and the sheer size of this life change all play a part. Ups and downs are normal, but feeling low most of the time is not something you just have to put up with.",
+    "relief": [
+      "Tell the people close to you how you're feeling; you don't have to explain every tear.",
+      "Rest, eat regularly, and get outdoors for some daylight and gentle movement.",
+      "Make time for small things you enjoy, and lower the bar on chores.",
+      "Antenatal classes or groups can connect you with people going through the same thing."
+    ],
+    "callDoctor": [
+      "Talk to your midwife or doctor if you feel low, hopeless or anxious most days for two weeks or more.",
+      "Get help the same day if you're struggling to cope with daily life, to eat or to sleep.",
+      "If you have thoughts of harming yourself or your baby, call emergency services or a crisis line now."
+    ]
+  },
+  "anxiety": {
+    "name": "Anxiety and worry",
+    "aliases": [
+      "anxiety",
+      "worry",
+      "panic attacks",
+      "stress",
+      "nervous",
+      "perinatal anxiety"
+    ],
+    "about": "Some worry in pregnancy is natural, whether about the baby, the birth, money or how life will change. When anxiety is there most of the time, is hard to control or stops you doing everyday things, it's called perinatal anxiety, and it's common and treatable. You may notice a racing heart, restlessness, poor sleep or a constant sense that something bad will happen.",
+    "relief": [
+      "Share your worries with your partner, a friend or your midwife; saying them out loud often helps.",
+      "Try slow breathing for a few minutes: breathe in for a count of 4, out for a count of 6.",
+      "Stay active: walking, swimming or pregnancy yoga can ease stress.",
+      "Limit endless scrolling, and stick to trusted sources of pregnancy information."
+    ],
+    "callDoctor": [
+      "Talk to your midwife or doctor if you feel anxious most of the time, or worry is affecting your daily life.",
+      "Get help the same day if you're having panic attacks, or can't eat or sleep because of worry.",
+      "Call emergency services now if you have thoughts of harming yourself, or feel you can't keep yourself safe."
+    ]
+  },
+  "low-mood": {
+    "name": "Low mood and depression",
+    "aliases": [
+      "depression",
+      "low mood",
+      "antenatal depression",
+      "perinatal depression",
+      "feeling hopeless",
+      "sad all the time"
+    ],
+    "about": "Depression during pregnancy (antenatal or perinatal depression) is common, affecting about 1 in 10 pregnant people. It isn't your fault and it doesn't mean you'll be a bad parent. Signs include feeling sad, tearful, hopeless or numb much of the time, losing interest in things, and changes in sleep and appetite. It's treatable, and getting help early protects both you and your baby.",
+    "relief": [
+      "Tell someone you trust how you really feel; you don't have to carry this alone.",
+      "Gentle activity, daylight and regular meals can lift your mood a little each day.",
+      "Ask your midwife or doctor about talking therapies and local perinatal mental health support.",
+      "Contact a mental health helpline or peer support group if you need to talk to someone today."
+    ],
+    "callDoctor": [
+      "Talk to your midwife or doctor if you've felt low or lost interest in things for more than two weeks.",
+      "Contact your doctor urgently if you see or hear things others don't, or have strong beliefs others don't share.",
+      "Call emergency services now if you think you might harm yourself or your baby."
+    ]
+  },
+  "self-harm-thoughts": {
+    "name": "Thoughts of harming yourself or your baby",
+    "aliases": [
+      "suicidal thoughts",
+      "thoughts of self-harm",
+      "wanting to die",
+      "harming the baby",
+      "intrusive thoughts",
+      "crisis"
+    ],
+    "about": "If you're having thoughts of ending your life, hurting yourself or harming your baby, you are not alone and you are not a bad person. These thoughts can be a symptom of a treatable illness such as perinatal depression, anxiety or, rarely, psychosis. Help works, and reaching out right now is the strongest, safest thing you can do.",
+    "relief": [
+      "Tell someone near you now, such as a partner, friend, family member or neighbour, and ask them to stay with you.",
+      "Move away from anything you could use to hurt yourself.",
+      "Call a crisis line or mental health helpline if you need to talk to someone straight away."
+    ],
+    "callDoctor": [
+      "Call emergency services now if you feel you might act on these thoughts, or can't keep yourself safe.",
+      "Contact your doctor or midwife today if these thoughts come and go, even if you don't plan to act on them.",
+      "Get emergency help if you're seeing or hearing things others don't, or feel very confused."
+    ]
+  },
+  "baby-brain": {
+    "name": "Forgetfulness (baby brain)",
+    "aliases": [
+      "baby brain",
+      "pregnancy brain",
+      "forgetfulness",
+      "brain fog",
+      "can't concentrate",
+      "momnesia"
+    ],
+    "about": "Feeling foggy, forgetful or easily distracted is something many pregnant people notice. Hormone changes, poor sleep, tiredness and having a lot on your mind are all likely to play a part. It's real, it's common, and it's temporary.",
+    "relief": [
+      "Use lists, calendar reminders and phone alarms for appointments and tasks.",
+      "Keep your keys, wallet and phone in the same place every time.",
+      "Prioritise sleep and rest where you can.",
+      "Be kind to yourself, and let others help carry the mental load."
+    ],
+    "callDoctor": [
+      "Talk to your doctor if forgetfulness is severe, getting worse, or comes with low mood or anxiety.",
+      "Call emergency services if you suddenly become confused, especially with a severe headache or vision changes."
+    ]
+  },
+  "carpal-tunnel": {
+    "name": "Tingling or numb hands (carpal tunnel)",
+    "aliases": [
+      "carpal tunnel syndrome",
+      "numb hands",
+      "tingling fingers",
+      "pins and needles",
+      "wrist pain",
+      "weak grip"
+    ],
+    "about": "Swelling in pregnancy can squeeze the nerve that runs through your wrist, causing tingling, numbness or pain in your thumb and fingers, often worse at night or first thing in the morning. Carpal tunnel syndrome is common later in pregnancy and usually gets better on its own after the birth.",
+    "relief": [
+      "Wear a wrist splint at night to keep your wrist straight; ask a pharmacist or physiotherapist.",
+      "Avoid bending your wrist repeatedly or gripping hard, and take breaks from typing or phone use.",
+      "Shake out your hands, or gently move your fingers and wrists, when symptoms come on.",
+      "Raise your hands on a pillow when you rest."
+    ],
+    "callDoctor": [
+      "See your doctor or midwife if numbness is constant, your hand feels weak, or you keep dropping things.",
+      "Call your midwife or doctor straight away if tingling comes with sudden swelling of your face or hands, or a severe headache."
+    ]
+  },
+  "braxton-hicks": {
+    "name": "Braxton Hicks (practice contractions)",
+    "aliases": [
+      "Braxton Hicks",
+      "practice contractions",
+      "false labour",
+      "false labor",
+      "tightening of bump",
+      "hard belly"
+    ],
+    "about": "Braxton Hicks are irregular tightenings of your womb, when your bump goes hard for a minute or so and then relaxes. They're your body's practice for labour and can start in the second trimester, becoming more noticeable later on. Unlike labour contractions, they're usually painless or only mildly uncomfortable, don't get stronger or closer together, and ease when you change what you're doing.",
+    "relief": [
+      "Change position: walk if you've been sitting, or lie down on your side if you've been active.",
+      "Drink a glass or two of water, as being dehydrated can trigger them.",
+      "Empty your bladder, and try a warm bath or slow breathing.",
+      "If you're unsure, time them for an hour: labour contractions become regular, longer and stronger."
+    ],
+    "callDoctor": [
+      "Call your maternity unit straight away if you're under 37 weeks and the tightenings become regular or painful.",
+      "Call straight away if tightenings come with bleeding, fluid leaking, or your baby moving less.",
+      "Call if contractions are about 5 minutes apart or closer, or too strong to talk through."
+    ]
+  },
+  "reduced-movements": {
+    "name": "Baby moving less than usual",
+    "aliases": [
+      "reduced fetal movements",
+      "baby not moving",
+      "fewer kicks",
+      "baby quiet",
+      "kick counts",
+      "change in movements"
+    ],
+    "about": "You'll usually start to feel your baby move between 16 and 24 weeks, and from then on you'll get to know their own pattern. There's no set number of kicks to count, but fewer movements, or a change in the pattern, can be an early sign that your baby needs checking. Most of the time all is well, but checking quickly could save your baby's life. You should feel movements right up to and during labour.",
+    "relief": [
+      "Call straight away, even in the middle of the night; don't wait until tomorrow.",
+      "Don't use a home heartbeat monitor (doppler) to reassure yourself; it isn't reliable.",
+      "Don't wait to see whether a cold drink, a snack or lying down gets your baby moving."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor immediately if your baby is moving less, or the pattern of movements has changed.",
+      "Call immediately if you can't feel your baby moving at all.",
+      "Call again every time it happens, however often; you are never wasting anyone's time.",
+      "Tell your midwife or doctor if you haven't felt any movements by 24 weeks."
+    ]
+  },
+  "fluid-leaking": {
+    "name": "Fluid leaking (waters breaking)",
+    "aliases": [
+      "waters breaking",
+      "water breaking",
+      "water broke",
+      "leaking fluid",
+      "amniotic fluid",
+      "PROM",
+      "gush of fluid",
+      "trickle of fluid"
+    ],
+    "about": "Your waters (the fluid around your baby) can break with a sudden gush or a slow, steady trickle. Near your due date it's often a sign that labour is starting, but before 37 weeks it can mean premature labour and a higher risk of infection, so it always needs checking straight away. Waters are usually clear or pale straw-coloured. Leaking a little pee is also common in pregnancy, so if you're unsure, get checked.",
+    "relief": [
+      "Put on a pad, not a tampon, so you can see the colour and amount of fluid.",
+      "Note the time it started and what colour it is.",
+      "Avoid sex until you've been checked."
+    ],
+    "callDoctor": [
+      "Call your maternity unit or doctor straight away if your waters break or you think you're leaking fluid, at any stage.",
+      "Call immediately if the fluid is green, brown, bloody or smelly, or you have a fever or feel unwell.",
+      "If you're under 37 weeks, call your maternity unit now; don't wait for contractions to start.",
+      "Call emergency services if you can feel or see the umbilical cord, or you're bleeding heavily."
+    ]
+  },
+  "fever": {
+    "name": "Fever or high temperature",
+    "aliases": [
+      "fever",
+      "high temperature",
+      "chills",
+      "shivering",
+      "flu",
+      "infection",
+      "sepsis"
+    ],
+    "about": "A temperature of 38°C (100.4°F) or above usually means your body is fighting an infection. Most infections are minor, but in pregnancy they can become serious more quickly and a high fever can affect your baby, so it's important to get checked rather than wait it out. Feeling hot and shivery, or very unwell, counts too, even if you haven't measured it.",
+    "relief": [
+      "Rest, and drink plenty of fluids little and often.",
+      "Wear light clothing and keep the room cool.",
+      "Ask your pharmacist or doctor which medicine is safe to bring a temperature down in pregnancy.",
+      "Keep track of your baby's movements and report any change."
+    ],
+    "callDoctor": [
+      "Call your midwife or doctor the same day if your temperature is 38°C (100.4°F) or above, or you feel hot and shivery.",
+      "Call straight away if fever comes with tummy pain, smelly discharge, leaking fluid or your baby moving less.",
+      "Call straight away if you have a fever with pain when peeing, back pain, a rash or a bad cough.",
+      "Call emergency services if you're breathless, confused, very drowsy, have cold blotchy skin, or feel extremely unwell."
+    ]
+  },
+  "signs-of-labour": {
+    "name": "Signs of labour",
+    "aliases": [
+      "labour",
+      "labor",
+      "contractions",
+      "the show",
+      "mucus plug",
+      "going into labour",
+      "early labour"
+    ],
+    "about": "Labour often starts gradually. Signs include tightenings that become regular, stronger and closer together, a show (the plug of mucus from your cervix coming away), backache, an urge to poo as your baby's head presses down, and your waters breaking. The early (latent) phase can last hours or even days, and you're usually best at home for much of it.",
+    "relief": [
+      "Time your contractions from the start of one to the start of the next.",
+      "Stay upright and moving, and try a warm bath or shower.",
+      "Keep sipping water, and eat light snacks if you feel like it.",
+      "Use slow breathing, massage and a calm, dim space to help you relax."
+    ],
+    "callDoctor": [
+      "Call your maternity unit if your contractions are regular and about every 5 minutes, or you think you're in labour.",
+      "Call straight away if your waters break, you're bleeding, or your baby is moving less than usual.",
+      "Call straight away if labour starts before 37 weeks, a contraction lasts over 2 minutes, or you have 6 or more in 10 minutes.",
+      "Call emergency services if you have a strong urge to push and think your baby is coming now."
+    ]
+  },
+  "calf-pain": {
+    "name": "Pain or swelling in one calf (possible blood clot)",
+    "aliases": [
+      "DVT",
+      "deep vein thrombosis",
+      "blood clot",
+      "calf pain",
+      "swollen leg",
+      "one leg swollen",
+      "leg pain"
+    ],
+    "about": "Throbbing pain, swelling, warmth or redness in one leg, usually in the calf or thigh, can be a sign of deep vein thrombosis (DVT), a blood clot in a vein. Pregnancy and the first weeks after birth make clots more likely, although they are still uncommon. A clot can travel to the lungs, so it needs checking the same day; treatment is safe and effective in pregnancy.",
+    "relief": [
+      "Don't rub or massage the painful leg.",
+      "Stay active day to day and drink plenty of water to lower your risk of clots.",
+      "On journeys over 4 hours, walk around when you can, wear loose clothing and keep drinking water."
+    ],
+    "callDoctor": [
+      "Call your doctor or maternity unit the same day if one leg is painful, swollen, warm or red.",
+      "Call emergency services if you also feel short of breath, have chest pain or cough up blood."
+    ]
+  },
+  "one-sided-pain-early": {
+    "name": "One-sided tummy pain in early pregnancy (possible ectopic)",
+    "aliases": [
+      "ectopic pregnancy",
+      "tubal pregnancy",
+      "one-sided pain",
+      "pain on one side",
+      "shoulder tip pain",
+      "early pregnancy pain"
+    ],
+    "about": "Pain low down on one side of your tummy between about 4 and 12 weeks, especially with spotting or a brown watery discharge, can be a sign of an ectopic pregnancy, where the pregnancy grows outside the womb, usually in a fallopian tube. It affects around 1 in 90 pregnancies. Pain can have harmless causes too, but because an ectopic pregnancy can be serious, it always needs checking promptly.",
+    "relief": [
+      "Don't wait to see if the pain settles; get checked the same day.",
+      "Ask someone to take you rather than driving yourself.",
+      "Note when the pain started, where it is and any bleeding, to tell the medical team."
+    ],
+    "callDoctor": [
+      "Call your doctor or early pregnancy unit the same day if you have one-sided tummy pain in early pregnancy.",
+      "Call the same day if pain or spotting comes with shoulder-tip pain, or discomfort when you pee or poo.",
+      "Call emergency services for sudden, sharp, severe tummy pain, or if you feel very dizzy, faint, sick or look very pale."
+    ]
+  }
+}

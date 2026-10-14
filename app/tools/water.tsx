@@ -31,10 +31,11 @@ const GOAL_MAX = 16;
 const CHART_H = 112;
 const SOURCE_URL = 'https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/';
 
-/** "1,250 ml" (en) / "1.250 ml" (tr), or fluid ounces for imperial users. */
+/** "1,250 ml" (en) / "1.250 ml" (tr, de…), or fluid ounces for imperial users. */
 function formatVolume(ml: number, units: Units | undefined, lang: LangCode): string {
   if (units === 'imperial') return `${Math.round(ml / 29.5735)} fl oz`;
-  const sep = lang === 'tr' ? '.' : ',';
+  // en uses a comma; tr/es/de/pt a dot; fr a (narrow) space.
+  const sep = lang === 'en' ? ',' : lang === 'fr' ? '\u202f' : '.';
   return `${String(Math.round(ml)).replace(/\B(?=(\d{3})+(?!\d))/g, sep)} ml`;
 }
 

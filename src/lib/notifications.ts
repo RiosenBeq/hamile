@@ -14,7 +14,7 @@ import * as Notifications from 'expo-notifications';
 import { Platform } from 'react-native';
 import { useAppStore } from '@/store/useAppStore';
 import type { Appointment, NotificationPrefs, NotificationTimes, Pill, Profile } from '@/store/types';
-import { translate } from '@/i18n';
+import { localeFor, translate, type LangCode } from '@/i18n';
 import { addDays, pregnancyStatus, startOfDay } from '@/lib/pregnancy';
 import { affirmationFor, getWeek, sizePhrase } from '@/content';
 
@@ -110,7 +110,7 @@ function buildSpecs(
   times: NotificationTimes,
   appointments: Appointment[],
   pills: Pill[],
-  lang: 'en' | 'tr',
+  lang: LangCode,
 ): Spec[] {
   const [weekH, weekM] = hm(times.week, [9, 0]);
   const [thH, thM] = hm(times.thought, [8, 30]);
@@ -134,7 +134,7 @@ function buildSpecs(
         title: t('notif.week.title', { n: week }),
         body:
           week >= 4
-            ? t('notif.week.body', { item: sizePhrase(content.size.name, lang) })
+            ? t('notif.week.body', { item: sizePhrase(content.size, lang) })
             : t('notif.week.bodyEarly'),
         trigger: at(when),
         url: `/(tabs)/weeks?w=${Math.min(42, week)}`,
@@ -148,10 +148,11 @@ function buildSpecs(
       const day = addDays(startOfDay(now), i);
       const when = atTime(day, thH, thM);
       if (when <= now) continue;
+      const thought = affirmationFor(day);
       specs.push({
         id: `${TAG}-thought-${i}`,
         title: t('notif.thought.title'),
-        body: affirmationFor(day)[lang],
+        body: thought[lang] ?? thought.en,
         trigger: at(when),
         url: '/(tabs)',
       });
@@ -205,7 +206,7 @@ function buildSpecs(
       .sort((a, b) => a.at - b.at)
       .slice(0, MAX_APPOINTMENTS);
     for (const a of upcoming) {
-      const time = new Date(a.at).toLocaleTimeString(lang === 'tr' ? 'tr-TR' : 'en-US', { hour: '2-digit', minute: '2-digit' });
+      const time = new Date(a.at).toLocaleTimeString(localeFor(lang), { hour: '2-digit', minute: '2-digit' });
       if (a.remind === '1d' || a.remind === 'both') {
         const when = new Date(a.at - 24 * 3600 * 1000);
         if (when > now)

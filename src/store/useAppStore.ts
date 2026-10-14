@@ -95,8 +95,11 @@ type State = {
   /** First launch (epoch ms) — the gentle Plus offer waits a few days. */
   firstOpenAt: number;
   paywallNudged: boolean;
+  /** When the user accepted the medical disclaimer + Terms/Privacy, and which version. */
+  legal: { acceptedAt: number | null; version: string };
 
   setOnboarded: (v: boolean) => void;
+  acceptLegal: (version: string) => void;
   setLanguage: (l: LangCode) => void;
   patchProfile: (p: Partial<Profile>) => void;
   setDueDate: (iso: string) => void;
@@ -207,6 +210,7 @@ const initialData = () => ({
   lastSeenWeek: 0,
   firstOpenAt: Date.now(),
   paywallNudged: false,
+  legal: { acceptedAt: null as number | null, version: '' },
 });
 
 const MAX_DAYS_KEPT = 120;
@@ -352,6 +356,7 @@ export const useAppStore = create<State>()(
       setPremium: (p) => set({ premium: p }),
       setLastSeenWeek: (w) => set({ lastSeenWeek: w }),
       markPaywallNudged: () => set({ paywallNudged: true }),
+      acceptLegal: (version) => set({ legal: { acceptedAt: Date.now(), version } }),
       resetAll: () => set({ ...initialData(), language: get().language, languageSet: get().languageSet }),
     }),
     {
@@ -369,6 +374,7 @@ export const useAppStore = create<State>()(
           notifPrefs: { ...current.notifPrefs, ...(p.notifPrefs ?? {}) },
           notifTimes: { ...current.notifTimes, ...(p.notifTimes ?? {}) },
           premium: { ...current.premium, ...(p.premium ?? {}) },
+          legal: { ...current.legal, ...(p.legal ?? {}) },
         } as State;
       },
       onRehydrateStorage: () => () => {

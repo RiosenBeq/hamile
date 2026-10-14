@@ -1,0 +1,50 @@
+{
+  "heavy-bleeding": {
+    "title": "Sangramento vaginal intenso",
+    "detail": "Sangramento que encharca um absorvente logo depois de colocado, ou que vem com coágulos, dor forte, tontura ou desmaio. Ligue para o serviço de emergência."
+  },
+  "severe-tummy-pain": {
+    "title": "Dor na barriga forte ou constante",
+    "detail": "Dor forte que não melhora com repouso, principalmente com sangramento, barriga endurecida, dor na ponta do ombro ou sensação de desmaio. Ligue agora para a maternidade ou para o serviço de emergência."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Dor de cabeça forte, alterações na visão ou inchaço repentino",
+    "detail": "Dor de cabeça que não passa, visão embaçada ou luzes piscando, dor abaixo das costelas, ou inchaço repentino do rosto, das mãos ou dos pés. Podem ser sinais de pré-eclâmpsia: ligue agora para a maternidade ou para seu médico."
+  },
+  "reduced-movements": {
+    "title": "Bebê se mexendo menos, ou sem se mexer",
+    "detail": "Qualquer mudança no padrão habitual de movimentos do seu bebê. Ligue imediatamente para a maternidade, mesmo à noite. Não espere até amanhã e não confie em um monitor de batimentos cardíacos caseiro."
+  },
+  "waters-before-37-weeks": {
+    "title": "Bolsa rompida ou contrações antes de 37 semanas",
+    "detail": "Um jato ou um escorrer de líquido, ou endurecimentos regulares da barriga ou dores parecidas com cólica menstrual antes de 37 semanas. Use um absorvente externo, não um interno, e ligue agora para a maternidade."
+  },
+  "fever": {
+    "title": "Febre de 38 °C (100,4 °F) ou mais",
+    "detail": "Sentir calor, calafrios e se sentir muito mal também conta. Infecções precisam de tratamento rápido na gravidez, então ligue hoje para seu médico ou para a maternidade."
+  },
+  "breathlessness-chest-pain": {
+    "title": "Falta de ar repentina ou dor no peito",
+    "detail": "Dificuldade para respirar, dor ou aperto no peito, tosse com sangue ou coração acelerado com sensação de desmaio. Ligue para o serviço de emergência."
+  },
+  "swollen-calf": {
+    "title": "Perna dolorida e inchada de um lado só",
+    "detail": "Dor latejante, inchaço, calor ou vermelhidão em uma panturrilha ou coxa pode ser um coágulo. Procure atendimento no mesmo dia, ou ligue para o serviço de emergência se também estiver com falta de ar."
+  },
+  "fainting": {
+    "title": "Desmaio, colapso ou convulsão",
+    "detail": "Desmaiar, ter uma convulsão ou sentir tanta tontura que não consegue ficar em pé, principalmente com dor ou sangramento. Ligue para o serviço de emergência."
+  },
+  "intense-itching": {
+    "title": "Coceira intensa, principalmente nas mãos e nos pés",
+    "detail": "Coceira nas palmas das mãos ou nas solas dos pés, muitas vezes pior à noite e sem manchas na pele, pode ser uma doença do fígado chamada colestase intra-hepática da gravidez (ICP). Ligue hoje para a maternidade ou para seu médico para fazer um exame de sangue."
+  },
+  "thoughts-of-harm": {
+    "title": "Pensamentos de se machucar ou de machucar o bebê",
+    "detail": "Você não está só, e a culpa não é sua. Conte para alguém perto de você e ligue agora para o serviço de emergência ou para uma linha de apoio emocional se você se sentir em perigo."
+  },
+  "severe-vomiting": {
+    "title": "Vômitos e não consegue manter líquidos",
+    "detail": "Vomitar tanto que não consegue manter comida nem líquidos por 24 horas, xixi muito escuro, ficar 8 horas sem fazer xixi ou sensação de desmaio. Você pode precisar de hidratação: ligue agora para seu médico."
+  }
+}

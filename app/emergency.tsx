@@ -9,7 +9,7 @@ import { Body, Chip, Eyebrow, Field, H1, MedicalNote, NavBar, Page, Surface } fr
 import { Btn } from '@/components/Btn';
 import { useAppStore } from '@/store/useAppStore';
 import { EMERGENCY_NUMBERS, RED_FLAGS } from '@/content';
-import { useL10n, useT } from '@/i18n';
+import { useL10n, useLang, useT } from '@/i18n';
 import { resolveCountry } from '@/lib/country';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -19,13 +19,23 @@ export default function Emergency() {
   const L = useL10n();
   const profile = useAppStore((s) => s.profile);
   const patchProfile = useAppStore((s) => s.patchProfile);
-  const [country, setCountry] = useState(resolveCountry(profile.country));
+  const lang = useLang();
+  const [country, setCountry] = useState(() => resolveCountry(profile.country, lang));
   const [editing, setEditing] = useState(false);
   const [careName, setCareName] = useState(profile.careName ?? '');
   const [carePhone, setCarePhone] = useState(profile.carePhone ?? '');
-  const emergency = EMERGENCY_NUMBERS[country] ?? { country: { en: '', tr: '' }, number: '112' };
+  const emergency = EMERGENCY_NUMBERS[country] ?? { country: { en: '' }, number: '112' };
 
-  const countries = useMemo(() => Object.keys(EMERGENCY_NUMBERS), []);
+  // The user's country first, then the rest alphabetically in their language.
+  // Computed once per language so the chips don't jump around on tap.
+  const countries = useMemo(() => {
+    const initial = resolveCountry(profile.country, lang);
+    const rest = Object.keys(EMERGENCY_NUMBERS)
+      .filter((c) => c !== initial)
+      .sort((a, b) => L(EMERGENCY_NUMBERS[a].country).localeCompare(L(EMERGENCY_NUMBERS[b].country), lang));
+    return [initial, ...rest];
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lang]);
 
   const call = (num: string) => {
     Haptics.notificationAsync(Haptics.NotificationFeedbackType.Warning).catch(() => {});

@@ -44,7 +44,11 @@ export default function Check() {
   const results = useMemo(() => (searching ? searchSafety(query, cat) : []), [query, cat, searching]);
   const recents = useMemo(() => recentIds.map(getSafetyItem).filter(Boolean) as SafetyItem[], [recentIds]);
   const saved = useMemo(() => savedIds.map(getSafetyItem).filter(Boolean) as SafetyItem[], [savedIds]);
-  const popular = useMemo(() => popularSafety(lang), [lang]);
+  // Skip anything already shown under Saved / Recent so the lists don't repeat.
+  const popular = useMemo(() => {
+    const shown = new Set([...savedIds, ...recentIds.slice(0, 5)]);
+    return popularSafety(lang).filter((i) => !shown.has(i.id));
+  }, [lang, savedIds, recentIds]);
 
   const open = (item: SafetyItem) => {
     Keyboard.dismiss();
@@ -76,7 +80,7 @@ export default function Check() {
         <Text style={{ fontFamily: fonts.bodyBold, fontSize: 15.5, color: colors.ink }} numberOfLines={1}>{L(item.name)}</Text>
         <Text style={{ fontFamily: fonts.body, fontSize: 13, color: colors.mute, marginTop: 2 }} numberOfLines={1}>{L(item.summary)}</Text>
       </View>
-      <VerdictPill kind={item.verdict} size="sm" />
+      <VerdictPill kind={item.verdict} size="sm" style={{ alignSelf: 'center' }} />
     </Pressable>
   );
 
@@ -122,7 +126,7 @@ export default function Check() {
 
       <FlatList
         horizontal
-        data={[{ key: 'all' as const, emoji: '✨', label: { en: 'All', tr: 'Tümü' } }, ...SAFETY_CATEGORIES]}
+        data={[{ key: 'all' as const, emoji: '✨', label: { en: t('common.all') } }, ...SAFETY_CATEGORIES]}
         keyExtractor={(c) => c.key}
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ paddingHorizontal: 20, gap: 8, paddingVertical: 14 }}
@@ -195,7 +199,7 @@ export default function Check() {
               >
                 <EmojiBadge emoji={item.emoji} size={40} />
                 <Text style={{ flex: 1, fontFamily: fonts.bodyBold, fontSize: 15, color: colors.ink }} numberOfLines={1}>{L(item.name)}</Text>
-                <VerdictPill kind={item.verdict} size="sm" />
+                <VerdictPill kind={item.verdict} size="sm" style={{ alignSelf: 'center' }} />
               </Pressable>
             ))}
           </Surface>

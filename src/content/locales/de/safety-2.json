@@ -1,0 +1,1903 @@
+{
+  "migraine": {
+    "name": "Migränemittel",
+    "aliases": [
+      "Migräne",
+      "Migränetabletten",
+      "Migräneprophylaxe",
+      "Kopfschmerztabletten",
+      "Topiramat",
+      "Propranolol"
+    ],
+    "summary": "Viele Migränemittel können in der Schwangerschaft verwendet werden, manche aber nicht – mach deshalb früh einen Plan mit deiner Ärztin oder deinem Arzt.",
+    "details": "Paracetamol kann während der gesamten Schwangerschaft verwendet werden, und Triptane wie Sumatriptan können weiter genommen werden, wenn sie gut wirken, während nichtsteroidale Entzündungshemmer (NSAR) ab der 20. Woche gemieden werden sollten. BUMPS weist darauf hin, dass einige vorbeugende Mittel, darunter Natriumvalproat und Topiramat, in der Schwangerschaft gemieden werden, während andere wie Propranolol oder Amitriptylin verwendet werden können. Wenn du täglich ein vorbeugendes Mittel nimmst, bitte deine Ärztin oder deinen Arzt, es dringend zu überprüfen.",
+    "tips": [
+      "Lass starke oder plötzliche Kopfschmerzen oder Kopfschmerzen mit Sehstörungen oder Schwellungen dringend abklären.",
+      "Setze ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "antidepressants": {
+    "name": "Antidepressiva",
+    "aliases": [
+      "Sertralin",
+      "Fluoxetin",
+      "Citalopram",
+      "Escitalopram",
+      "Cipralex",
+      "SSRI"
+    ],
+    "summary": "Nicht plötzlich absetzen: Viele Antidepressiva werden in der Schwangerschaft verwendet – wäge Nutzen und Risiken mit deiner Ärztin oder deinem Arzt ab.",
+    "details": "Laut NHS können einige Antidepressiva in der Schwangerschaft eingenommen werden; Sertralin zum Beispiel kann bei Bedarf verwendet werden. Antidepressiva sollten schrittweise und mit ärztlicher Unterstützung abgesetzt werden, um Absetzsymptome zu vermeiden, und eine unbehandelte Depression oder Angststörung kann sowohl dich als auch dein Baby beeinträchtigen. Deine Ärztin oder dein Arzt kann dir helfen, die Möglichkeiten abzuwägen, und deine Behandlung eventuell anpassen.",
+    "tips": [
+      "Erzähl deiner Hebamme, wie es dir geht – emotionale Unterstützung gehört zu deiner Betreuung.",
+      "Setze ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "thyroid-medication": {
+    "name": "Schilddrüsenmedikamente (Levothyroxin)",
+    "aliases": [
+      "L-Thyroxin",
+      "Levothyroxin",
+      "Euthyrox",
+      "Thyroxin",
+      "Schilddrüsenunterfunktion",
+      "Hypothyreose"
+    ],
+    "summary": "Nimm es weiter: Levothyroxin kann in der Schwangerschaft eingenommen werden, deine Dosis muss aber eventuell mit zusätzlichen Blutuntersuchungen angepasst werden.",
+    "details": "Schilddrüsenhormon ist wichtig für die Entwicklung deines Babys, und laut NHS kann Levothyroxin bei Bedarf während der Schwangerschaft eingenommen werden. Möglicherweise brauchst du häufigere Blutuntersuchungen und eine Dosisanpassung, idealerweise sobald deine Schwangerschaft bestätigt ist. Kalzium- und Eisenpräparate können die Wirkung von Levothyroxin stören, nimm sie deshalb zu unterschiedlichen Zeiten ein.",
+    "tips": [
+      "Sag deiner Ärztin oder deinem Arzt Bescheid, sobald du weißt, dass du schwanger bist.",
+      "Setze ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "insulin": {
+    "name": "Insulin",
+    "aliases": [
+      "Schwangerschaftsdiabetes",
+      "Gestationsdiabetes",
+      "Typ-1-Diabetes",
+      "NovoRapid",
+      "Lantus",
+      "Insulinspritze"
+    ],
+    "summary": "Nimm es weiter: Insulin wird in der Schwangerschaft häufig bei Diabetes eingesetzt, und dein Behandlungsteam passt deine Dosen im Verlauf an.",
+    "details": "Insulin wird in der Schwangerschaft zur Behandlung von Typ-1-, Typ-2- und Schwangerschaftsdiabetes eingesetzt, und BUMPS weist darauf hin, dass es die Risiken eines schlecht eingestellten Blutzuckers senkt, etwa Fehlgeburt, ein sehr großes Baby und Komplikationen bei der Geburt. Deine Dosen ändern sich meist im Laufe der Schwangerschaft. Der NHS weist darauf hin, dass eine strengere Einstellung zu mehr Unterzuckerungen führen kann, die für das Baby harmlos sind, aber behandelt werden müssen.",
+    "tips": [
+      "Hab immer etwas gegen Unterzuckerung dabei und sorg dafür, dass dein Partner oder deine Partnerin weiß, was zu tun ist.",
+      "Setze ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "nasal-steroid-spray": {
+    "name": "Kortison-Nasensprays",
+    "aliases": [
+      "Beclometason",
+      "Fluticason",
+      "Avamys",
+      "Mometason",
+      "Nasonex",
+      "Heuschnupfenspray"
+    ],
+    "summary": "Sie sind in der Schwangerschaft im Allgemeinen unbedenklich, weil nur sehr wenig in deinen Blutkreislauf gelangt – frag aber vorher in der Apotheke nach.",
+    "details": "Laut NHS ist Beclometason-Nasenspray in der Schwangerschaft sicher, weil nur sehr wenig des Wirkstoffs ins Blut gelangt und fast nichts das Baby erreicht. Mayo Clinic weist darauf hin, dass Kortisonsprays wie Fluticason oder Mometason bei mittelschweren bis schweren Allergiebeschwerden empfohlen werden können. Verwende die niedrigste Dosis, mit der deine Beschwerden unter Kontrolle sind.",
+    "tips": [
+      "Die Schwangerschaft selbst kann eine verstopfte Nase verursachen – sprich es an, wenn es nicht besser wird.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "hemorrhoid-cream": {
+    "name": "Hämorrhoidensalben",
+    "aliases": [
+      "Hämorrhoiden",
+      "Haemorrhoiden",
+      "Hämorrhoidencreme",
+      "Posterisan",
+      "Hydrocortison Creme",
+      "Zäpfchen"
+    ],
+    "summary": "Die meisten Hämorrhoidensalben können in der Schwangerschaft für kurze Zeit verwendet werden – frag aber vorher in der Apotheke nach.",
+    "details": "Hämorrhoiden sind in der Schwangerschaft häufig und hängen oft mit Verstopfung zusammen. Laut NHS können Hydrocortison-Cremes, -Salben und -Zäpfchen gegen Hämorrhoiden in der Schwangerschaft verwendet werden, da nur eine kleine Menge ins Blut gelangt. BUMPS weist darauf hin, dass es keine Hinweise darauf gibt, dass die verfügbaren Behandlungen ein Risiko für das Baby darstellen.",
+    "tips": [
+      "Ballaststoffe, ausreichend Flüssigkeit und nicht zu pressen helfen, dass Hämorrhoiden nicht wiederkommen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "thrush-treatment": {
+    "name": "Mittel gegen Scheidenpilz (Clotrimazol)",
+    "aliases": [
+      "Scheidenpilz",
+      "Vaginalpilz",
+      "Clotrimazol",
+      "Canesten",
+      "Kadefungin",
+      "Fluconazol"
+    ],
+    "summary": "Cremes und Vaginaltabletten wie Clotrimazol werden in der Schwangerschaft verwendet – meide aber Pilztabletten zum Einnehmen und geh zuerst zu deiner Ärztin, deinem Arzt oder deiner Hebamme.",
+    "details": "Scheidenpilz ist in der Schwangerschaft häufig und schadet dem Baby nicht. Der NHS rät, vor der Behandlung zur Hausärztin oder zum Hausarzt oder zur Hebamme zu gehen, und sagt, dass er mit einer Clotrimazol-Creme oder -Vaginaltablette behandelt werden kann, während Pilztabletten zum Einnehmen wie Fluconazol in der Schwangerschaft nicht genommen werden sollten. Mayo Clinic weist darauf hin, dass siebentägige vaginale Behandlungen meist am besten wirken.",
+    "tips": [
+      "Lass neuen Ausfluss oder Juckreiz abklären, da andere Infektionen ähnlich aussehen können.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "lice-treatment": {
+    "name": "Mittel gegen Kopfläuse",
+    "aliases": [
+      "Kopfläuse",
+      "Läuse",
+      "Nissen",
+      "Läuseshampoo",
+      "Dimeticon",
+      "Nyda"
+    ],
+    "summary": "Nasses Auskämmen ist die erste Wahl, und physikalisch wirkende Mittel wie Dimeticon können in der Schwangerschaft ebenfalls verwendet werden.",
+    "details": "Britische Leitlinien empfehlen Schwangeren das nasse Auskämmen mit Pflegespülung und einem feinzinkigen Kamm, wodurch Chemikalien ganz vermieden werden. Laut BUMPS wirken physikalische Mittel wie Dimeticon, indem sie die Läuse umhüllen, und sie gelangen nicht in Mengen in den Blutkreislauf, die das Baby beeinträchtigen könnten. Chemische Insektizide wie Malathion sollten am besten erst eingesetzt werden, wenn andere Methoden nicht gewirkt haben.",
+    "tips": [
+      "Untersuche und behandle alle im Haushalt gleichzeitig.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "anti-sickness": {
+    "name": "Mittel gegen Übelkeit",
+    "aliases": [
+      "Schwangerschaftsübelkeit",
+      "Übelkeit Medikament",
+      "Ondansetron",
+      "Metoclopramid",
+      "Promethazin",
+      "Hyperemesis"
+    ],
+    "summary": "Mehrere werden in der Schwangerschaft sicher verschrieben – wenn die Übelkeit deinen Alltag beeinträchtigt, frag deine Ärztin oder deinen Arzt nach einer Behandlung.",
+    "details": "Übelkeit und Erbrechen betreffen die meisten Schwangeren, und BUMPS weist darauf hin, dass es mehrere Medikamente gibt, die sicher eingesetzt werden können, wenn Veränderungen im Alltag nicht ausreichen. Starkes Erbrechen, bei dem du weder Essen noch Flüssigkeit bei dir behalten kannst, kann eine Hyperemesis gravidarum sein und braucht rasch ärztliche Behandlung. Du musst dich nicht durchkämpfen, und frühe Hilfe macht es leichter, damit umzugehen.",
+    "tips": [
+      "Kleine, häufige Snacks und Flüssigkeit in kleinen Schlucken über den Tag verteilt können helfen.",
+      "Hol dir Hilfe, wenn du 24 Stunden lang weder Essen noch Flüssigkeit bei dir behalten kannst.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "prescription-medicines": {
+    "name": "Verschreibungspflichtige Medikamente",
+    "aliases": [
+      "Rezept",
+      "Dauermedikation",
+      "meine Medikamente",
+      "Epilepsie Medikament",
+      "Blutdruckmedikament",
+      "Asthmaspray"
+    ],
+    "summary": "Frag nach, bevor du ein verschriebenes Medikament beginnst, absetzt oder änderst – und setze es nie eigenmächtig plötzlich ab.",
+    "details": "Die meisten Medikamente gehen über die Plazenta, deshalb rät der NHS, vor der Einnahme jedes Medikaments in der Schwangerschaft bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nachzufragen. Ein Medikament abzusetzen, das dich gesund hält, etwa gegen Epilepsie, Asthma oder Bluthochdruck, kann aber schädlicher sein, als es weiter zu nehmen. Idealerweise werden Dauermedikamente überprüft, bevor du versuchst, schwanger zu werden, oder sobald du weißt, dass du schwanger bist.",
+    "tips": [
+      "Sag jeder Ärztin und jedem Arzt, in der Zahnarztpraxis und in der Apotheke, dass du schwanger bist.",
+      "Setze ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag vor der Einnahme jedes Medikaments bei deiner Ärztin oder deinem Arzt, deiner Hebamme oder in der Apotheke nach."
+    ]
+  },
+  "flu-vaccine": {
+    "name": "Grippeimpfung",
+    "aliases": [
+      "Grippeschutzimpfung",
+      "Influenza Impfung",
+      "Grippe Impfung",
+      "Grippespritze"
+    ],
+    "summary": "Ja, die Grippeimpfung wird in der Schwangerschaft empfohlen und hilft, dich und dein Neugeborenes zu schützen.",
+    "details": "Schwangere bekommen bei einer Grippe häufiger Komplikationen wie eine Lungenentzündung und müssen häufiger im Krankenhaus behandelt werden. Der NHS empfiehlt in der Schwangerschaft den inaktivierten Grippeimpfstoff, und BUMPS weist darauf hin, dass Tausende geimpfte Schwangere untersucht wurden, ohne dass sich Bedenken für das Baby ergaben. Antikörper gehen außerdem über die Plazenta und helfen, dein Baby in seinen ersten Wochen zu schützen.",
+    "tips": [
+      "Sprich deine Hebamme, deine Hausarztpraxis oder die Apotheke darauf an, sobald die Grippesaison beginnt."
+    ]
+  },
+  "whooping-cough-vaccine": {
+    "name": "Keuchhustenimpfung (Tdap)",
+    "aliases": [
+      "Keuchhusten",
+      "Pertussis",
+      "Tdap",
+      "Boostrix",
+      "Repevax",
+      "Covaxis"
+    ],
+    "summary": "Ja, sie wird in jeder Schwangerschaft empfohlen, um dein Baby in seinen ersten Lebenswochen zu schützen.",
+    "details": "Keuchhusten kann für junge Babys sehr gefährlich sein. Durch die Impfung in der Schwangerschaft gibst du Antikörper an dein Baby weiter, bis es selbst geimpft werden kann. In Großbritannien wird sie ab der 16. Woche angeboten, meist um die 20. Woche, während US-Leitlinien sie zwischen der 27. und 36. Woche empfehlen.",
+    "tips": [
+      "Frag deine Hebamme oder deine Hausärztin oder deinen Hausarzt, wann sie bei dir ansteht."
+    ]
+  },
+  "rsv-vaccine": {
+    "name": "RSV-Impfung",
+    "aliases": [
+      "Abrysvo",
+      "RSV",
+      "RS-Virus",
+      "Respiratorisches Synzytial-Virus",
+      "Bronchiolitis",
+      "RSV Impfstoff"
+    ],
+    "summary": "Ja, sie wird in der Schwangerschaft empfohlen, um dein Baby in seinen ersten Monaten vor einer schweren RSV-Erkrankung zu schützen.",
+    "details": "RSV ist ein häufiges Virus, das bei jungen Babys schwere Lungeninfektionen wie eine Bronchiolitis auslösen kann. Durch die Impfung in der Schwangerschaft gibst du deinem Baby einen Schutz für etwa seine ersten 6 Monate mit. In Großbritannien wird sie ab der 28. Woche zu jeder Jahreszeit angeboten, während in den USA ACOG sie in der 32. bis 36. Woche während der RSV-Saison empfiehlt.",
+    "tips": [
+      "Frag deine Hebamme, ob sie dort, wo du lebst, angeboten wird – und wann."
+    ]
+  },
+  "folic-acid": {
+    "name": "Folsäure",
+    "aliases": [
+      "Folat",
+      "Vitamin B9",
+      "Methylfolat",
+      "Folio",
+      "Neuralrohrdefekt",
+      "Spina bifida"
+    ],
+    "summary": "Ja, sie wird empfohlen: Nimm täglich 400 Mikrogramm ab der Zeit vor der Empfängnis bis zur 12. Schwangerschaftswoche.",
+    "details": "Folsäure verringert das Risiko für Neuralrohrdefekte wie Spina bifida. Der NHS empfiehlt 400 Mikrogramm täglich, während du versuchst, schwanger zu werden, und bis zur 12. Schwangerschaftswoche; manche Frauen, etwa mit Diabetes oder mit Neuralrohrdefekten in der Familie, brauchen eine höhere, ärztlich verschriebene Dosis. Wenn du sie vor der Empfängnis nicht genommen hast, beginne damit, sobald du erfährst, dass du schwanger bist.",
+    "tips": [
+      "Schwangerschafts-Multivitamine enthalten meist die richtige Menge – prüf das Etikett.",
+      "Frag deine Hausärztin oder deinen Hausarzt, ob du die höhere Dosis brauchen könntest."
+    ]
+  },
+  "vitamin-d": {
+    "name": "Vitamin D",
+    "aliases": [
+      "Vitamin D3",
+      "Cholecalciferol",
+      "Vigantoletten",
+      "Vitamin D Tropfen",
+      "Sonnenvitamin"
+    ],
+    "summary": "Ja: In Großbritannien lautet die Empfehlung 10 Mikrogramm täglich, mindestens von Oktober bis März, und das ganze Jahr, wenn du wenig Sonne abbekommst.",
+    "details": "Vitamin D unterstützt die Entwicklung von Knochen und Zähnen deines Babys. Der NHS empfiehlt im Herbst und Winter täglich 10 Mikrogramm als Nahrungsergänzung und das ganze Jahr über, wenn du draußen meist den größten Teil deiner Haut bedeckst, viel Zeit drinnen verbringst oder eine dunklere Haut hast. Nimm nicht mehr als 100 Mikrogramm am Tag, da zu viel schädlich sein kann.",
+    "tips": [
+      "Viele Schwangerschafts-Multivitamine enthalten bereits Vitamin D – nimm es also nicht doppelt.",
+      "Frag deine Hebamme oder deine Ärztin oder deinen Arzt, wenn du unsicher bist, wie viel du brauchst."
+    ]
+  },
+  "iron": {
+    "name": "Eisenpräparate",
+    "aliases": [
+      "Eisentabletten",
+      "Eisenmangel",
+      "Anämie",
+      "Blutarmut",
+      "Ferro sanol",
+      "Floradix"
+    ],
+    "summary": "Nimm sie, wenn sie dir empfohlen werden: Der Eisenbedarf steigt in der Schwangerschaft, und Eisenmangel ist häufig und gut behandelbar.",
+    "details": "Eisen hilft, rote Blutkörperchen für dich und dein Baby zu bilden, und ein niedriger Eisenwert kann dich sehr müde machen. In Großbritannien wird Eisen bei routinemäßigen Blutuntersuchungen kontrolliert, und bei niedrigen Werten werden Präparate empfohlen, während in den USA Schwangerschaftsvitamine meist routinemäßig Eisen enthalten. Eisentabletten können Verstopfung verursachen – sag deiner Hebamme Bescheid, wenn sie dir auf den Magen schlagen.",
+    "tips": [
+      "Nimm es zu einer anderen Zeit als Tee, Kaffee und Mittel gegen Sodbrennen (Antazida).",
+      "Bewahre Eisentabletten gut außer Reichweite von Kindern auf."
+    ]
+  },
+  "prenatal-vitamins": {
+    "name": "Schwangerschafts-Multivitamine",
+    "aliases": [
+      "Schwangerschaftsvitamine",
+      "Pränatalvitamine",
+      "Femibion",
+      "Elevit",
+      "Orthomol Natal",
+      "Multivitamin"
+    ],
+    "summary": "Ja, ein spezielles Multivitamin für Schwangere ist eine einfache Möglichkeit, Folsäure und Vitamin D zu bekommen – meide aber Präparate mit Retinol.",
+    "details": "Der NHS empfiehlt in der Schwangerschaft Folsäure und Vitamin D, und Schwangerschafts-Multivitamine sind so zusammengesetzt, dass sie diese ohne zu viel Vitamin A liefern. Normale Multivitamine können Retinol (Vitamin A) enthalten, das in hohen Dosen die Entwicklung eines Babys schädigen kann. Eine gesunde, abwechslungsreiche Ernährung bleibt trotzdem die wichtigste Nährstoffquelle.",
+    "tips": [
+      "Prüf das Etikett auf Vitamin A in Form von Retinol und nimm nicht zwei Multivitamine gleichzeitig."
+    ]
+  },
+  "vitamin-a": {
+    "name": "Vitamin-A-Präparate (Retinol)",
+    "aliases": [
+      "Vitamin A",
+      "Retinol",
+      "Retinylpalmitat",
+      "hochdosiertes Vitamin A",
+      "Betacarotin"
+    ],
+    "summary": "Meide Präparate mit Vitamin A in Form von Retinol, da zu viel davon die Entwicklung deines Babys schädigen kann.",
+    "details": "Eine hohe Aufnahme von Vitamin A in Form von Retinol wird mit Fehlbildungen in Verbindung gebracht, deshalb rät der NHS in der Schwangerschaft von Vitamin-A-Präparaten ab und empfiehlt, immer die Etiketten zu prüfen. Betacarotin, die Form in Karotten und anderem orangefarbenem Gemüse, ist nicht im gleichen Maße bedenklich. Leber und Lebertran enthalten ebenfalls sehr viel Retinol.",
+    "tips": [
+      "Prüf das Etikett jedes Nahrungsergänzungsmittels auf Retinol – auch bei Vitaminen für Haare und Haut."
+    ]
+  },
+  "fish-oil": {
+    "name": "Fischöl & Omega-3",
+    "aliases": [
+      "Omega-3",
+      "Omega 3",
+      "Fischölkapseln",
+      "DHA",
+      "Algenöl",
+      "Krillöl"
+    ],
+    "summary": "Fischöl aus dem Fischkörper ist im Allgemeinen unbedenklich, meide aber Fischleberöl wie Lebertran, das viel Vitamin A enthält.",
+    "details": "Der NHS rät in der Schwangerschaft von Lebertran und anderen Präparaten mit Vitamin A (Retinol) ab. Omega-3-Präparate aus Fischkörperöl oder Algen haben dieses Problem nicht, wobei der Verzehr von fettem Fisch innerhalb der empfohlenen Mengen der wichtigste Weg ist, Omega-3 aufzunehmen. Wähle eine seriöse Marke und prüf das Etikett auf Vitamin A.",
+    "tips": [
+      "Wenn du keinen Fisch isst, frag deine Hebamme nach einem Omega-3-Präparat auf Algenbasis."
+    ]
+  },
+  "cod-liver-oil": {
+    "name": "Lebertran",
+    "aliases": [
+      "Fischleberöl",
+      "Dorschlebertran",
+      "Heilbuttleberöl",
+      "Haifischleberöl"
+    ],
+    "summary": "Meide ihn in der Schwangerschaft, da er viel Vitamin A (Retinol) enthält, das die Entwicklung deines Babys schädigen kann.",
+    "details": "Der NHS rät ausdrücklich davon ab, in der Schwangerschaft Lebertran zu nehmen, weil er so viel Vitamin A enthält. Zu viel Retinol wird mit Fehlbildungen in Verbindung gebracht. Wenn du ein Omega-3-Präparat möchtest, wähle stattdessen eines aus Fischkörperöl oder Algen.",
+    "tips": [
+      "Prüf auch die Nahrungsergänzungsmittel für Familie und Kinder im Schrank, bevor du sie nimmst."
+    ]
+  },
+  "magnesium": {
+    "name": "Magnesium",
+    "aliases": [
+      "Magnesiumcitrat",
+      "Magnesiumglycinat",
+      "Magnesiumoxid",
+      "Wadenkrämpfe",
+      "Magnesium Verla",
+      "Magnesiumspray"
+    ],
+    "summary": "Ernährung zuerst – ein Magnesiumpräparat in moderater Dosis schadet wahrscheinlich nicht, frag aber deine Hebamme.",
+    "details": "Magnesium steckt in grünem Blattgemüse, Nüssen, Samen und Vollkorn, und die meisten Menschen bekommen mit einer abwechslungsreichen Ernährung genug. Laut NHS schaden Magnesiumpräparate in moderater Dosis wahrscheinlich nicht, hohe Dosen können aber Durchfall verursachen. Es wird manchmal gegen Wadenkrämpfe empfohlen – sprich mit deiner Hebamme darüber, ob es für dich das Richtige ist.",
+    "tips": [
+      "Erzähl deiner Hebamme von allen Nahrungsergänzungsmitteln, die du nimmst, auch von Sprays und Pulvern."
+    ]
+  },
+  "calcium": {
+    "name": "Kalziumpräparate",
+    "aliases": [
+      "Kalzium",
+      "Calcium",
+      "Calciumcarbonat",
+      "Calciumcitrat",
+      "Kalzium und Vitamin D"
+    ],
+    "summary": "Nimm Kalzium möglichst über die Ernährung auf; Präparate helfen, wenn du zu wenig aufnimmst oder deine Ärztin oder dein Arzt sie empfiehlt.",
+    "details": "Kalzium hilft beim Aufbau von Knochen und Zähnen deines Babys; gute Quellen sind Milchprodukte, angereicherte Pflanzendrinks, Tahini und grünes Blattgemüse. Die WHO empfiehlt Schwangeren, die sich kalziumarm ernähren, Kalziumpräparate, um das Risiko einer Präeklampsie zu senken. Frag deine Hebamme, bevor du hohe Dosen nimmst.",
+    "tips": [
+      "Joghurt, Ayran, Käse und Tahini sind einfache Kalziumlieferanten."
+    ]
+  },
+  "iodine": {
+    "name": "Jod",
+    "aliases": [
+      "Jodid",
+      "Iod",
+      "Kaliumiodid",
+      "Jodsalz",
+      "Kelp",
+      "Algenpräparat"
+    ],
+    "summary": "In der Schwangerschaft brauchst du mehr Jod, aber die Empfehlungen unterscheiden sich: In Großbritannien heißt es, es über die Ernährung aufzunehmen, in den USA, ein Schwangerschaftsvitamin mit Jod zu nehmen.",
+    "details": "Jod wird für die Gehirnentwicklung deines Babys gebraucht. Laut NHS bekommen die meisten Menschen mit einer abwechslungsreichen Ernährung, zu der Milchprodukte und Fisch gehören, genug, und er warnt vor Kelp- oder Algenpräparaten, weil ihr Jodgehalt zu hoch sein kann. In den USA empfehlen Fachleute ein Schwangerschaftsvitamin mit Jod, und in vielen Ländern, auch in der Türkei, ist Speisesalz jodiert.",
+    "tips": [
+      "Verwende jodiertes Salz, halte deinen Salzkonsum insgesamt aber moderat.",
+      "Verzichte auf Kelp- und Algenpräparate."
+    ]
+  },
+  "probiotics": {
+    "name": "Probiotika",
+    "aliases": [
+      "Probiotikum",
+      "Laktobazillen",
+      "Bifidobakterien",
+      "Darmflora",
+      "Präbiotika"
+    ],
+    "summary": "Probiotische Lebensmittel wie Joghurt und Kefir sind unbedenklich, und Präparate scheinen für die meisten gesunden Menschen sicher zu sein.",
+    "details": "Laut NHS scheinen Probiotika für die meisten Menschen mit gesundem Immunsystem sicher zu sein, aber weil sie als Lebensmittel und nicht als Arzneimittel gelten, werden sie nicht auf die gleiche Weise geprüft. Für viele der behaupteten Vorteile gibt es nur begrenzte Belege. Wähle fermentierte Lebensmittel aus pasteurisierter Milch und achte darauf, dass Präparate keine zugesetzten Kräuter enthalten.",
+    "tips": [
+      "Erzähl deiner Hebamme von allen Nahrungsergänzungsmitteln, die du nimmst, auch von Probiotika."
+    ]
+  },
+  "melatonin": {
+    "name": "Melatonin",
+    "aliases": [
+      "Melatonin Gummies",
+      "Schlafgummies",
+      "Einschlafhilfe",
+      "Schlafmittel",
+      "Circadin",
+      "Jetlag Tabletten"
+    ],
+    "summary": "In der Schwangerschaft meist nicht empfohlen, weil wenig über seine Wirkung auf Babys bekannt ist.",
+    "details": "Laut NHS wird Melatonin in der Schwangerschaft meist nicht empfohlen, weil wenig über seine Wirkung auf Babys bekannt ist. Schlafprobleme sind in der Schwangerschaft sehr häufig, und einfache Veränderungen wie ein fester Rhythmus, ein kühles, dunkles Zimmer und das Schlafen auf der Seite mit Kissen helfen oft. Wenn du Melatonin genommen hast, als du schwanger wurdest, sprich mit deiner Ärztin oder deinem Arzt darüber, ob du es weiter nehmen solltest.",
+    "tips": [
+      "Versuch, eine Stunde vor dem Schlafengehen ohne Bildschirme zur Ruhe zu kommen."
+    ]
+  },
+  "herbal-supplements": {
+    "name": "Pflanzliche Präparate & Heilmittel",
+    "aliases": [
+      "pflanzliche Mittel",
+      "Naturheilmittel",
+      "Traubensilberkerze",
+      "Echinacea",
+      "Nachtkerzenöl",
+      "Detox Tee"
+    ],
+    "summary": "Am besten meiden, es sei denn, deine Ärztin, dein Arzt oder die Apotheke sagt, dass ein bestimmtes Produkt in Ordnung ist – denn „natürlich“ heißt nicht sicher.",
+    "details": "Die meisten pflanzlichen Produkte sind in der Schwangerschaft kaum untersucht, und MotherToBaby weist darauf hin, dass bei einigen nachgewiesen wurde, dass sie Hormonveränderungen oder Gebärmutterkontraktionen auslösen. Der NHS warnt, dass manche Mittel von schlechter Qualität sein und andere Stoffe wie Blei enthalten können. Gemischte Mittel aus Kräuterläden (aktar) sind besonders schwer zu überprüfen.",
+    "tips": [
+      "Zeig deiner Hebamme oder in der Apotheke das Etikett von allem, was du in Erwägung ziehst.",
+      "Meide Detox-Tees und Abnehm-Mischungen."
+    ]
+  },
+  "ginger-capsules": {
+    "name": "Ingwerpräparate",
+    "aliases": [
+      "Ingwerkapseln",
+      "Ingwertabletten",
+      "Ingwerextrakt",
+      "Zintona",
+      "Ingwer gegen Übelkeit"
+    ],
+    "summary": "Sie können gegen Schwangerschaftsübelkeit helfen – frag aber vor der Einnahme in der Apotheke nach, wie es der NHS rät.",
+    "details": "Laut NHS gibt es einige Hinweise darauf, dass Ingwer Übelkeit und Erbrechen in der Schwangerschaft lindern kann, und er rät, vor der Einnahme von Ingwerpräparaten in der Apotheke nachzufragen. MotherToBaby bietet Informationen zu Ingwer in der Schwangerschaft, und die Stärke der Präparate ist von Produkt zu Produkt unterschiedlich. Ingwer in Speisen und Getränken ist ein sanfterer Einstieg.",
+    "tips": [
+      "Wenn du wegen der Übelkeit nicht essen oder trinken kannst, geh zu deiner Ärztin oder deinem Arzt, statt dich auf Präparate zu verlassen."
+    ]
+  },
+  "collagen": {
+    "name": "Kollagenpräparate",
+    "aliases": [
+      "Kollagen",
+      "Collagen",
+      "Kollagenpulver",
+      "Kollagenpeptide",
+      "Beauty Supplement",
+      "Haut Haare Nägel"
+    ],
+    "summary": "Es gibt wenig Forschung zur Schwangerschaft; reines Kollagen ist wahrscheinlich risikoarm, prüf Mischungen aber auf Vitamin A, Kräuter oder Koffein.",
+    "details": "Kollagen ist ein Protein, und reines Kollagenpulver wurde nicht mit bestimmten Schäden in Verbindung gebracht, ist in der Schwangerschaft aber auch nicht untersucht. Viele „Beauty“-Mischungen enthalten zusätzlich Vitamin A, Biotin, Pflanzenextrakte oder Koffein, und die FDA weist darauf hin, dass Nahrungsergänzungsmittel vor dem Verkauf keine Zulassung brauchen. Eine abwechslungsreiche Ernährung mit genug Eiweiß unterstützt deine Haut und dein Baby.",
+    "tips": [
+      "Wenn du eines nimmst, wähle ein geschmacksneutrales Produkt mit nur einer Zutat.",
+      "Zeig das Etikett in der Apotheke oder deiner Hebamme."
+    ]
+  },
+  "protein-powder": {
+    "name": "Proteinpulver & Shakes",
+    "aliases": [
+      "Eiweißpulver",
+      "Eiweisspulver",
+      "Whey Protein",
+      "Proteinshake",
+      "Mahlzeitenersatz",
+      "Proteinriegel"
+    ],
+    "summary": "Ein einfaches Proteinpulver ist meist in Ordnung, um deine Ernährung zu ergänzen – meide aber Mischungen mit Koffein, Kräutern oder „Fatburnern“.",
+    "details": "Die meisten können ihren Eiweißbedarf in der Schwangerschaft mit Lebensmitteln wie Fleisch, Fisch, Eiern, Milchprodukten, Bohnen und Linsen decken. Wenn du ein Pulver verwendest, wähle ein einfaches ohne zugesetztes Koffein, Pflanzenextrakte oder Abnehm-Zutaten, da die FDA Nahrungsergänzungsmittel vor dem Verkauf nicht zulässt. Mahlzeitenersatz-Shakes sind nicht für die Schwangerschaft gedacht.",
+    "tips": [
+      "Achte auf von unabhängigen Stellen geprüfte Produkte mit kurzer Zutatenliste."
+    ]
+  },
+  "st-johns-wort": {
+    "name": "Johanniskraut",
+    "aliases": [
+      "Hypericum",
+      "Laif",
+      "Neuroplant",
+      "pflanzliches Antidepressivum",
+      "Johanniskrauttee"
+    ],
+    "summary": "In der Schwangerschaft am besten meiden; wenn du dich niedergeschlagen fühlst, sprich mit deiner Ärztin, deinem Arzt oder deiner Hebamme über Behandlungen mit mehr Sicherheitsdaten.",
+    "details": "Johanniskraut wird bei gedrückter Stimmung genommen, aber es gibt nur wenige Informationen zu seiner Sicherheit in der Schwangerschaft, und es hat Wechselwirkungen mit vielen Medikamenten. MotherToBaby weist darauf hin, dass pflanzliche Produkte nicht wie Arzneimittel reguliert sind, sodass ihre Stärke und Zusammensetzung schwanken können. Depressionen in der Schwangerschaft sind häufig und behandelbar – es lohnt sich, dir richtige Unterstützung zu holen.",
+    "tips": [
+      "Sag deiner Ärztin oder deinem Arzt, wenn du es genommen hast, besonders zusammen mit anderen Medikamenten."
+    ]
+  },
+  "black-seed-oil": {
+    "name": "Schwarzkümmelöl (çörek otu)",
+    "aliases": [
+      "Schwarzkümmel",
+      "Nigella sativa",
+      "Schwarzkümmelkapseln",
+      "Corek otu",
+      "Kalonji"
+    ],
+    "summary": "Die Samen auf Brot sind unbedenklich, aber verzichte in der Schwangerschaft auf Schwarzkümmelöl und -kapseln, es sei denn, deine Ärztin oder dein Arzt ist einverstanden.",
+    "details": "Schwarzkümmel ist ein beliebtes Topping auf Simit und Poğaça, und diese kleinen Mengen sind kein Grund zur Sorge. Konzentrierte Öle und Kapseln liefern viel größere Dosen und sind, wie die meisten pflanzlichen Produkte, in der Schwangerschaft kaum untersucht. MotherToBaby weist darauf hin, dass manche pflanzlichen Produkte Gebärmutterkontraktionen auslösen können, daher meidest du arzneiliche Mengen am besten.",
+    "tips": [
+      "Nutze ihn als Gewürz und nicht als täglichen Löffel voll."
+    ]
+  },
+  "hair-dye": {
+    "name": "Haarfarbe",
+    "aliases": [
+      "Haare färben",
+      "Haarfärbemittel",
+      "Coloration",
+      "Blondierung",
+      "Ansatz färben",
+      "Tönung"
+    ],
+    "summary": "Im Allgemeinen unbedenklich, da über die Kopfhaut nur sehr wenig Farbe aufgenommen wird – manche warten aber zur Sicherheit bis nach der 12. Woche.",
+    "details": "Laut NHS nimmt deine Kopfhaut nicht viel Haarfarbe auf, vor allem wenn sie gesund ist, und manche entscheiden sich, bis nach den ersten 12 Wochen zu warten, wenn das Risiko, dass Chemikalien das Baby beeinflussen, geringer ist. MotherToBaby weist darauf hin, dass die über gesunde Haut aufgenommene Menge gering ist, wenn die Produkte wie vorgesehen verwendet werden. Die Schwangerschaft kann verändern, wie deine Haare Farbe annehmen, daher kann das Ergebnis anders ausfallen.",
+    "tips": [
+      "Mach vorher eine Strähnenprobe und einen Hautverträglichkeitstest.",
+      "Trag Handschuhe, lüfte den Raum und lass die Farbe nicht länger einwirken als angegeben."
+    ]
+  },
+  "highlights": {
+    "name": "Strähnchen & Balayage",
+    "aliases": [
+      "Strähnchen",
+      "Straehnchen",
+      "Highlights",
+      "Balayage",
+      "Foliensträhnen",
+      "Ombré"
+    ],
+    "summary": "Ja, Strähnchen sind eine Option mit geringerer Belastung, weil die Farbe auf die Haare und nicht auf die Kopfhaut kommt.",
+    "details": "Laut NHS verringern Strähnchen, bei denen die Farbe nur auf einzelne Haarsträhnen aufgetragen wird, jedes Risiko, weil die Chemikalien vom Haar und nicht von deiner Kopfhaut oder deinem Blutkreislauf aufgenommen werden. MotherToBaby stimmt zu, dass Techniken wie Highlights, Lowlights und Strähnen die Haut nicht berühren. In Salons kann die Luft voller Dämpfe sein, gute Belüftung hilft also, wenn dir übel wird.",
+    "tips": [
+      "Sag deiner Friseurin oder deinem Friseur, dass du schwanger bist, und bitte um einen Hautverträglichkeitstest."
+    ]
+  },
+  "keratin-treatment": {
+    "name": "Keratin-Glättung & Brazilian Blowout",
+    "aliases": [
+      "Keratinbehandlung",
+      "Keratin Glättung",
+      "Brazilian Blowout",
+      "Haarglättung",
+      "chemische Glättung",
+      "Formaldehyd Haare"
+    ],
+    "summary": "Am besten meiden, da viele Glättungsbehandlungen Formaldehyd freisetzen, wenn sie mit dem Glätteisen erhitzt werden.",
+    "details": "Die FDA warnt, dass manche Haarglättungsprodukte beim Erhitzen Formaldehydgas freisetzen, selbst wenn sie als formaldehydfrei gekennzeichnet sind. MotherToBaby weist darauf hin, dass einige Studien an Menschen, die mit Formaldehyd arbeiten, auf eine höhere Wahrscheinlichkeit einer Fehlgeburt hindeuten. Die Dämpfe sind beim Glätten im Salonstuhl am stärksten, daher wartest du am besten bis nach der Schwangerschaft.",
+    "tips": [
+      "Lass dir stattdessen die Haare ganz normal ohne Chemie föhnen."
+    ]
+  },
+  "henna": {
+    "name": "Henna (kına)",
+    "aliases": [
+      "Henna",
+      "Mehndi",
+      "Henna Tattoo",
+      "schwarzes Henna",
+      "Kina",
+      "Henna Haarfarbe"
+    ],
+    "summary": "Reines, natürliches Henna ist eine sanftere Option, aber meide „schwarzes Henna“, das den aggressiven Farbstoff PPD enthalten kann.",
+    "details": "Der NHS schlägt eine semipermanente, rein pflanzliche Farbe wie Henna als sanftere Alternative zu Haarfarbe vor. Die FDA warnt, dass temporäre Tattoos, die als „schwarzes Henna“ verkauft werden, oft PPD enthalten, eine Haarfarben-Chemikalie, die nicht für die Haut gedacht ist und allergische Reaktionen auslösen kann. Natürliches Henna färbt rötlich-braun, daher sind sehr dunkle oder schnell färbende Pasten ein Warnzeichen.",
+    "tips": [
+      "Verwende für eine kına gecesi reines, natürliches Henna und verzichte auf dunkle „schwarze“ Pasten.",
+      "Mach vorher einen Hauttest, da deine Haut in der Schwangerschaft empfindlicher sein kann."
+    ]
+  },
+  "nail-polish": {
+    "name": "Nagellack & Gelnägel",
+    "aliases": [
+      "Nagellack",
+      "Gellack",
+      "Shellac",
+      "Maniküre",
+      "Pediküre",
+      "Nagellackentferner"
+    ],
+    "summary": "Ja, Nägel lackieren ist in Ordnung, solange du die Produkte in einem gut belüfteten Raum verwendest.",
+    "details": "Gelegentlich Nagellack und Entferner zu verwenden bedeutet nur eine geringe Belastung. Die FDA empfiehlt bei der Verwendung von Nagelprodukten eine gute Belüftung, und manche Lacke enthalten Inhaltsstoffe wie Formaldehyd oder Toluol, die manche lieber meiden. MotherToBaby weist darauf hin, dass die höhere Belastung Beschäftigte in Nagelstudios betrifft, die den ganzen Tag mit diesen Produkten zu tun haben.",
+    "tips": [
+      "Öffne ein Fenster und wähle, wenn du möchtest, Lacke ohne Formaldehyd und Toluol.",
+      "Wähle Studios, die gut belüftet sind."
+    ]
+  },
+  "acrylic-nails": {
+    "name": "Acryl- & Dip-Powder-Nägel",
+    "aliases": [
+      "Acrylnägel",
+      "künstliche Nägel",
+      "Kunstnägel",
+      "Nagelverlängerung",
+      "Dip Powder",
+      "Polygel"
+    ],
+    "summary": "Gelegentlich wahrscheinlich in Ordnung, aber die starken Dämpfe solltest du begrenzen – wähle also ein gut belüftetes Studio.",
+    "details": "Acryl- und Dip-Systeme verwenden Methacrylat-Flüssigkeiten, Kleber und Lösungsmittel mit starkem Geruch. MotherToBaby weist darauf hin, dass die Luft in Nagelstudios Chemikalien wie Methylmethacrylat, Toluol und Formaldehyd enthalten kann, die vor allem für Beschäftigte bedenklich sind, die ihnen den ganzen Tag ausgesetzt sind. Für Kundinnen halten kurze Besuche in gut belüfteten Räumen die Belastung gering.",
+    "tips": [
+      "Buche ruhigere Zeiten und setz dich in die Nähe eines offenen Fensters oder einer Absaugung.",
+      "Überleg dir, bis nach der Geburt bei normalem Nagellack zu bleiben."
+    ]
+  },
+  "retinol": {
+    "name": "Retinol & Retinoid-Cremes",
+    "aliases": [
+      "Retinol",
+      "Retinal",
+      "Retinylpalmitat",
+      "Adapalen",
+      "Anti-Aging Creme",
+      "Nachtserum"
+    ],
+    "summary": "In der Schwangerschaft am besten meiden – ersetze Retinol und andere Retinoid-Cremes durch schwangerschaftsfreundliche Alternativen.",
+    "details": "Retinoide sind Formen von Vitamin A, und von Retinoid-Tabletten ist bekannt, dass sie Fehlbildungen verursachen. Aus Cremes wird nur wenig aufgenommen, aber ACOG rät, äußerlich angewendete Retinoide in der Schwangerschaft vorsichtshalber zu meiden, und sie stecken in vielen frei verkäuflichen Produkten. Wenn du welche verwendet hast, bevor du wusstest, dass du schwanger bist, gilt das Risiko als sehr gering – erzähl deiner Hebamme aber davon.",
+    "tips": [
+      "Prüf die Inhaltsstofflisten auf Retinol, Retinal und Retinyl.",
+      "Produkte mit Azelainsäure oder Glykolsäure können schwangerschaftsfreundliche Alternativen sein."
+    ]
+  },
+  "tretinoin": {
+    "name": "Tretinoin (Retin-A)",
+    "aliases": [
+      "Retin-A",
+      "Tretinoin Creme",
+      "Tazaroten",
+      "Retinoid Rezept",
+      "Aknecreme",
+      "Tri-Luma"
+    ],
+    "summary": "Meide verschreibungspflichtige Retinoid-Cremes wie Tretinoin in der Schwangerschaft und frag deine Ärztin oder deinen Arzt nach Alternativen.",
+    "details": "Laut BUMPS sollten verschriebene Cremes und Gele mit Retinoiden wie Tretinoin oder Adapalen in der Schwangerschaft nicht verwendet werden. Auch wenn meist nur winzige Mengen das Baby erreichen, nehmen manche Menschen mehr auf als andere, und Fallberichte können einen Zusammenhang mit Fehlbildungen nicht ausschließen. Stattdessen können andere Aknebehandlungen verwendet werden, die keine Retinoide sind.",
+    "tips": [
+      "Bitte deine Hautärztin oder deinen Hautarzt um einen schwangerschaftsverträglichen Akne-Plan.",
+      "Wenn du es verwendet hast, bevor du wusstest, dass du schwanger bist, erzähl deiner Hebamme davon."
+    ]
+  },
+  "salicylic-acid": {
+    "name": "Salicylsäure",
+    "aliases": [
+      "Salizylsäure",
+      "BHA",
+      "Beta-Hydroxysäure",
+      "Pickelgel",
+      "Salicylsäure Peeling",
+      "chemisches Peeling"
+    ],
+    "summary": "Reinigungsprodukte und Pickelbehandlungen mit geringer Konzentration sind in Ordnung, aber verzichte auf starke Salicylsäure-Peelings und großflächige Anwendung.",
+    "details": "ACOG zählt äußerlich angewendete Salicylsäure zu den frei verkäuflichen Akne-Wirkstoffen, die in der Schwangerschaft verwendet werden können. MotherToBaby weist darauf hin, dass von äußerlich angewendeten Akneprodukten nur eine kleine Menge aufgenommen wird, bei großflächiger Anwendung, auf verletzter Haut oder bei häufiger Anwendung aber mehr. Deshalb hebst du starke professionelle Peelings am besten für die Zeit nach der Schwangerschaft auf.",
+    "tips": [
+      "Verwende Produkte zum Abwaschen oder zum punktuellen Auftragen statt Peelings, die großflächig auf der Haut bleiben."
+    ]
+  },
+  "benzoyl-peroxide": {
+    "name": "Benzoylperoxid",
+    "aliases": [
+      "Aknegel",
+      "Pickelgel",
+      "PanOxyl",
+      "Benzaknen",
+      "Clearasil"
+    ],
+    "summary": "Ja, ACOG zählt Benzoylperoxid zu den Aknebehandlungen, die in der Schwangerschaft verwendet werden können.",
+    "details": "Benzoylperoxid wird kaum über die Haut aufgenommen, und ACOG führt es in seiner Liste frei verkäuflicher Akne-Wirkstoffe, die in der Schwangerschaft verwendet werden können. Laut NHS kann es in der Schwangerschaft meist verwendet werden, er empfiehlt aber, vorher nachzufragen. Es kann Textilien bleichen und die Haut reizen, beginne also mit einer niedrigeren Konzentration.",
+    "tips": [
+      "Beginne mit einem Produkt in niedriger Konzentration ein paar Mal pro Woche.",
+      "Frag bei deiner Ärztin oder deinem Arzt oder in der Apotheke nach, wenn du eine verschreibungspflichtige Stärke verwendest."
+    ]
+  },
+  "azelaic-acid": {
+    "name": "Azelainsäure",
+    "aliases": [
+      "Skinoren",
+      "Finacea",
+      "Rosazea Creme",
+      "Pigmentflecken Creme",
+      "Aknecreme"
+    ],
+    "summary": "Ja, Azelainsäure gehört zu den Aknebehandlungen, die in der Schwangerschaft verwendet werden können.",
+    "details": "ACOG zählt Azelainsäure zu den frei verkäuflichen Akne-Wirkstoffen, die in der Schwangerschaft verwendet werden können, und Mayo Clinic nennt sie als Option bei Schwangerschaftsakne. Über die Haut wird nur sehr wenig aufgenommen. Wenn du dazu täglich Sonnenschutz verwendest, hilft das, dass schwangerschaftsbedingte dunkle Flecken nicht schlimmer werden.",
+    "tips": [
+      "Kombiniere sie mit täglichem Sonnenschutz, um dich vor dunklen Schwangerschaftsflecken (Melasma) zu schützen."
+    ]
+  },
+  "glycolic-acid": {
+    "name": "Glykolsäure & AHA-Peelings",
+    "aliases": [
+      "Glykolsäure",
+      "AHA",
+      "Fruchtsäure",
+      "Milchsäure",
+      "Peeling Toner",
+      "chemisches Peeling"
+    ],
+    "summary": "Alltägliche Produkte mit Glykolsäure sind in Ordnung, aber heb starke professionelle chemische Peelings für die Zeit nach der Schwangerschaft auf.",
+    "details": "ACOG zählt Glykolsäure zu den frei verkäuflichen Hautpflege-Wirkstoffen, die in der Schwangerschaft verwendet werden können. Die Aufnahme über die Haut ist gering, aber MotherToBaby weist darauf hin, dass mehr aufgenommen wird, wenn Produkte großflächig, häufig oder auf gereizter Haut verwendet werden. Die Haut kann in der Schwangerschaft auch empfindlicher sein, mach also vorher einen Hauttest.",
+    "tips": [
+      "Verwende AHAs ein paar Abende pro Woche und trag am nächsten Tag immer Sonnenschutz."
+    ]
+  },
+  "vitamin-c-serum": {
+    "name": "Vitamin-C-Serum",
+    "aliases": [
+      "Vitamin C",
+      "Vitamin C Serum",
+      "Ascorbinsäure Serum",
+      "Glow Serum",
+      "Antioxidantien Serum"
+    ],
+    "summary": "Ja, Vitamin-C-Seren sind in der Schwangerschaft in Ordnung und können Teil einer sanften Hautpflegeroutine sein.",
+    "details": "Vitamin C ist ein alltäglicher Nährstoff, und aus einem Serum wird nur eine kleine Menge über die Haut aufgenommen. Es steht auf keiner Liste von Hautpflege-Wirkstoffen, die in der Schwangerschaft gemieden werden sollten. Zusammen mit täglichem Sonnenschutz kann es Teil einer Routine sein, um die dunklen Flecken (Melasma) in den Griff zu bekommen, die in der Schwangerschaft auftreten können.",
+    "tips": [
+      "Prüf, ob „aufhellende“ oder „Anti-Aging“-Seren nicht zusätzlich Retinol enthalten."
+    ]
+  },
+  "hyaluronic-acid": {
+    "name": "Hyaluronsäure",
+    "aliases": [
+      "Hyaluron",
+      "Hyaluron Serum",
+      "Feuchtigkeitscreme",
+      "Natriumhyaluronat",
+      "Dehnungsstreifen Creme"
+    ],
+    "summary": "Ja, Hyaluronsäure-Seren und Feuchtigkeitscremes können in der Schwangerschaft verwendet werden.",
+    "details": "Hyaluronsäure ist ein feuchtigkeitsspendender Wirkstoff, der natürlich in der Haut vorkommt, und sie steht auf keiner Liste von Hautpflege-Wirkstoffen, die in der Schwangerschaft gemieden werden sollten. ACOG weist darauf hin, dass Feuchtigkeitscremes helfen können, die Haut geschmeidig zu halten, auch wenn für keine Creme nachgewiesen ist, dass sie Dehnungsstreifen verhindert. Unterspritzungen mit Hyaluronsäure (Filler) sind etwas anderes.",
+    "tips": [
+      "Filler-Unterspritzungen verschiebst du am besten auf die Zeit nach der Schwangerschaft."
+    ]
+  },
+  "sunscreen": {
+    "name": "Sonnenschutz",
+    "aliases": [
+      "Sonnencreme",
+      "LSF",
+      "SPF",
+      "mineralischer Sonnenschutz",
+      "Zinkoxid",
+      "Sonnenblocker"
+    ],
+    "summary": "Ja, verwende ihn jeden Tag – Sonnenschutz hilft, die dunklen Flecken (Melasma) zu verhindern, die die Schwangerschaft auslösen kann.",
+    "details": "Schwangerschaftshormone können Melasma verursachen, braune Flecken im Gesicht, und ACOG empfiehlt, draußen jeden Tag Sonnenschutz und einen breitkrempigen Hut zu tragen, damit es nicht schlimmer wird. Mineralische Sonnenschutzmittel mit Zinkoxid oder Titandioxid sind eine gute Option, wenn deine Haut empfindlich ist. Trag ihn wie angegeben erneut auf, besonders nach dem Schwitzen oder Schwimmen.",
+    "tips": [
+      "Wähle einen Breitband-Sonnenschutz mit hohem LSF und trag zusätzlich einen breitkrempigen Hut."
+    ]
+  },
+  "self-tanner": {
+    "name": "Selbstbräuner & Spray-Tan",
+    "aliases": [
+      "Selbstbräuner",
+      "Selbstbraeuner",
+      "Bräunungsspray",
+      "Spray Tan",
+      "Bräunungslotion",
+      "Bräunungstropfen"
+    ],
+    "summary": "Selbstbräunungslotionen gelten als risikoarm, aber atme Spray-Tans nicht ein – Lotionen sind deshalb die bessere Wahl.",
+    "details": "Der Wirkstoff in Selbstbräunern, DHA, bleibt größtenteils auf der Hautoberfläche, und MotherToBaby weist darauf hin, dass weniger als 1 % aufgenommen wird. DHA ist jedoch nicht zum Einatmen oder zur Anwendung in der Nähe von Augen und Lippen zugelassen, daher sind Spray-Tan-Kabinen und -Nebel schwerer zu kontrollieren. Selbstbräuner schützt dich nicht vor der Sonne.",
+    "tips": [
+      "Wähle eine Lotion oder ein Mousse und trag es in einem gut belüfteten Raum auf.",
+      "Wenn du doch ein Spray-Tan machst, bitte um Schutz für Augen, Nase und Lippen."
+    ]
+  },
+  "sunbeds": {
+    "name": "Solarium & Sonnenstudios",
+    "aliases": [
+      "Solarium",
+      "Sonnenbank",
+      "Sonnenstudio",
+      "Bräunungsstudio",
+      "Höhensonne"
+    ],
+    "summary": "Am besten meiden: Solarien bergen für alle ein Hautkrebsrisiko, und in der Schwangerschaft kommen Überhitzung und dunklere Flecken hinzu.",
+    "details": "Laut NHS können Solarien gefährlicher sein als natürliches Sonnenlicht, weil sie eine konzentrierte UV-Strahlungsquelle nutzen, und die Empfehlung lautet, sie gar nicht zu benutzen. In der Schwangerschaft kann die Hitze außerdem deine Körpertemperatur erhöhen, was laut MotherToBaby begrenzt werden sollte. UV-Strahlung kann schwangerschaftsbedingte dunkle Flecken (Melasma) verschlimmern.",
+    "tips": [
+      "Probier stattdessen eine Selbstbräunungslotion für einen sichereren Glow."
+    ]
+  },
+  "waxing": {
+    "name": "Waxing (ağda)",
+    "aliases": [
+      "Bikini Waxing",
+      "Sugaring",
+      "Haarentfernung",
+      "Zupfen",
+      "Rasieren",
+      "Epilierer"
+    ],
+    "summary": "Ja, laut ACOG sind Zupfen, Waxing und Rasieren sichere Methoden zur Haarentfernung in der Schwangerschaft.",
+    "details": "Schwangerschaftshormone können dazu führen, dass Haare schneller oder an neuen Stellen wachsen, und laut ACOG ist es sicher, in der Schwangerschaft zu zupfen, zu waxen und zu rasieren. Deine Haut ist eventuell empfindlicher als sonst, daher kann Waxing mehr brennen. Wachse nicht über Krampfadern, verletzter Haut oder Ausschlägen.",
+    "tips": [
+      "Teste zuerst eine kleine Stelle, da sich die Empfindlichkeit in der Schwangerschaft verändern kann.",
+      "Prüf vorher die Temperatur von heißem Wachs, um Verbrennungen zu vermeiden."
+    ]
+  },
+  "laser-hair-removal": {
+    "name": "Laser-Haarentfernung",
+    "aliases": [
+      "Laserepilation",
+      "IPL",
+      "Diodenlaser",
+      "Alexandritlaser",
+      "dauerhafte Haarentfernung"
+    ],
+    "summary": "Am besten verschieben, da es kaum Sicherheitsdaten zur Schwangerschaft gibt – empfohlen werden stattdessen Rasieren, Waxing oder Zupfen.",
+    "details": "Laser- und IPL-Haarentfernung wurden in der Schwangerschaft nicht untersucht. ACOG nennt Zupfen, Waxing und Rasieren als sichere Methoden, um in der Schwangerschaft unerwünschte Haare zu entfernen. Zusätzlicher Haarwuchs durch die Schwangerschaft legt sich meist innerhalb von etwa 6 Monaten nach der Geburt, Warten kann dir also auch Sitzungen sparen.",
+    "tips": [
+      "Unterbrich deine Behandlungsreihe und setz sie nach der Geburt fort."
+    ]
+  },
+  "botox-fillers": {
+    "name": "Botox & Filler",
+    "aliases": [
+      "Botox",
+      "Botulinumtoxin",
+      "Filler",
+      "Lippen aufspritzen",
+      "Hyaluron Filler",
+      "Faltenunterspritzung"
+    ],
+    "summary": "Am besten verschieben: Kosmetisches Botox wird in der Schwangerschaft nicht empfohlen, und für Filler ist keine Sicherheit nachgewiesen.",
+    "details": "Laut BUMPS werden kosmetische Botox-Behandlungen in der Schwangerschaft vorsichtshalber nicht empfohlen, weil sie keinen medizinischen Nutzen haben, auch wenn keine Risiken festgestellt wurden. Die FDA gibt an, dass die Sicherheit von Fillern in der Schwangerschaft unbekannt ist. Über Botox aus medizinischen Gründen, etwa bei schwerer Migräne, entscheidet deine Ärztin oder dein Arzt gesondert.",
+    "tips": [
+      "Wenn du eine Behandlung hattest, bevor du wusstest, dass du schwanger bist, erzähl deiner Hebamme davon."
+    ]
+  },
+  "teeth-whitening": {
+    "name": "Zahnaufhellung",
+    "aliases": [
+      "Bleaching",
+      "Zahnbleaching",
+      "Zähne aufhellen",
+      "Zähne bleichen",
+      "Whitening Strips",
+      "Whitening Zahnpasta"
+    ],
+    "summary": "Am besten bis nach der Schwangerschaft verschieben, da der NHS darauf hinweist, dass eine Aufhellung in der Schwangerschaft eventuell nicht geeignet ist.",
+    "details": "Der NHS nennt Schwangerschaft und Stillzeit unter den Gründen, aus denen eine Zahnaufhellung eventuell nicht geeignet ist. Sie ist eine kosmetische Behandlung ohne medizinischen Nutzen, und in der Schwangerschaft kann das Zahnfleisch empfindlicher sein. Regelmäßige Kontrollen und Zahnreinigungen bleiben wichtig, also kümmere dich weiter um deine Zähne.",
+    "tips": [
+      "Geh weiter regelmäßig zur Kontrolle und sag deiner Zahnärztin oder deinem Zahnarzt, dass du schwanger bist."
+    ]
+  },
+  "perfume": {
+    "name": "Parfüm & Düfte",
+    "aliases": [
+      "Parfum",
+      "Parfuem",
+      "Duft",
+      "Bodyspray",
+      "Eau de Toilette",
+      "Deo"
+    ],
+    "summary": "Ja, Parfüm im Alltag ist in Ordnung, auch wenn du starke Düfte vielleicht schlechter verträgst.",
+    "details": "BUMPS weist darauf hin, dass die kleinen Mengen ätherischer Öle in alltäglichen Parfüms, Kosmetik- und Pflegeprodukten einem Baby sehr wahrscheinlich nicht schaden. Viele entwickeln in der Schwangerschaft einen stärkeren Geruchssinn, und manche Düfte können Übelkeit oder Kopfschmerzen auslösen. Die FDA weist darauf hin, dass Duftstoffe bei manchen Menschen allergische Reaktionen auslösen können.",
+    "tips": [
+      "Sprüh es auf die Kleidung statt auf die Haut, wenn deine Haut empfindlich ist."
+    ]
+  },
+  "essential-oils": {
+    "name": "Ätherische Öle & Aromatherapie",
+    "aliases": [
+      "ätherische Öle",
+      "Aromatherapie",
+      "Duftöl",
+      "Lavendelöl",
+      "Pfefferminzöl",
+      "Teebaumöl"
+    ],
+    "summary": "Verdünnte Öle bei einer Massage oder im Diffusor sind im Allgemeinen in Ordnung, aber schluck sie nie und trag sie nie unverdünnt auf die Haut auf.",
+    "details": "Laut BUMPS werden verdünnte ätherische Öle häufig ohne Probleme bei Schwangerschaftsmassagen verwendet, einige bestimmte Öle sollten aber wegen eines theoretischen Risikos für Kontraktionen in jeder Phase gemieden werden. Unverdünnte Öle können die Haut reizen und sind giftig, wenn man sie schluckt. Der NHS rät, deiner Hebamme zu sagen, wenn du Aromatherapie nutzt, und zu einer qualifizierten Fachperson zu gehen.",
+    "tips": [
+      "Sag bei der Massage oder Aromatherapie Bescheid, dass du schwanger bist.",
+      "Bewahre Fläschchen außer Reichweite von Kindern auf, denn schon kleine Mengen zu schlucken ist gefährlich."
+    ]
+  },
+  "tattoos-piercings": {
+    "name": "Tattoos & Piercings",
+    "aliases": [
+      "Tattoo",
+      "Tätowierung",
+      "Piercing",
+      "Bauchnabelpiercing",
+      "Microblading",
+      "Permanent Make-up"
+    ],
+    "summary": "Am besten bis nach der Geburt verschieben, vor allem wegen des Infektionsrisikos durch Nadeln und Farben.",
+    "details": "Tattoos, Permanent Make-up und Piercings wurden in der Schwangerschaft nicht untersucht. Die FDA warnt, dass unsterile Geräte und verunreinigte Farben Infektionen verursachen können, und der NHS weist darauf hin, dass Infektionen wie Hepatitis B, Hepatitis C und HIV durch Kontakt mit infiziertem Blut übertragen werden und an ein Baby weitergegeben werden können. Neue Piercings in der Nähe des Bauchs können außerdem unangenehm werden, wenn er wächst.",
+    "tips": [
+      "Wenn du dir eins hast machen lassen, bevor du wusstest, dass du schwanger bist, sag es deiner Hebamme, damit sie auf eine Infektion achten kann."
+    ]
+  },
+  "walking": {
+    "name": "Spazierengehen",
+    "aliases": [
+      "Gehen",
+      "zügiges Gehen",
+      "Wandern",
+      "Nordic Walking",
+      "Schritte"
+    ],
+    "summary": "Ja, Gehen ist eine der besten Bewegungsarten in der Schwangerschaft und schont deine Gelenke.",
+    "details": "Der NHS und ACOG empfehlen in der Schwangerschaft etwa 150 Minuten moderate Bewegung pro Woche, und zügiges Gehen ist ein einfacher Weg, das zu erreichen. Moderat heißt, dass du dich noch unterhalten, aber nicht mehr singen kannst. Regelmäßige Bewegung kann das Risiko für Schwangerschaftsdiabetes und Präeklampsie senken und Schlaf und Stimmung verbessern.",
+    "tips": [
+      "Trag stützende Schuhe und nimm Wasser mit.",
+      "Auch kurze Spaziergänge über den Tag verteilt zählen."
+    ]
+  },
+  "running": {
+    "name": "Laufen & Joggen",
+    "aliases": [
+      "Joggen",
+      "Laufen",
+      "Laufband",
+      "Parkrun",
+      "Marathontraining"
+    ],
+    "summary": "Wenn du vor der Schwangerschaft gelaufen bist, kannst du meist in angenehmem Tempo weitermachen – fang jetzt aber nicht neu mit dem Laufen an.",
+    "details": "Laut ACOG können erfahrene Läuferinnen in der Schwangerschaft eventuell weiterlaufen, wenn ihre Frauenärztin oder ihr Frauenarzt einverstanden ist, während der NHS davon abrät, eine neue anstrengende Sportart wie Laufen zu beginnen. Wenn dein Bauch wächst, verlagert sich dein Gleichgewicht und deine Gelenke werden lockerer, daher steigen viele später auf zügiges Gehen um. Hör auf, wenn du Schmerzen hast, dir schwindelig wird oder du Flüssigkeit verlierst.",
+    "tips": [
+      "Lauf in einem Tempo, bei dem du dich noch unterhalten kannst.",
+      "Lauf nicht bei Hitze und trink viel Wasser."
+    ]
+  },
+  "swimming": {
+    "name": "Schwimmen",
+    "aliases": [
+      "Aquafitness",
+      "Aqua Fitness",
+      "Wassergymnastik",
+      "Schwangerschaftsschwimmen",
+      "Schwimmbad"
+    ],
+    "summary": "Ja, Schwimmen ist in der Schwangerschaft ideal, weil das Wasser dein Gewicht trägt und deine Gelenke entlastet.",
+    "details": "ACOG zählt Schwimmen und Training im Wasser zu den sichersten Sportarten in der Schwangerschaft, und der NHS weist darauf hin, dass Wasser deine Muskeln und Gelenke entlastet. Aqua-Kurse für Schwangere sind speziell auf die Schwangerschaft ausgerichtet. Verzichte auf Kopfsprünge und Reinspringen und wähle angenehm kühle statt sehr warmer Becken.",
+    "tips": [
+      "Nimm die Treppe ins Becken, statt hineinzuspringen.",
+      "Pass auf rutschigen Böden am Beckenrand auf."
+    ]
+  },
+  "yoga": {
+    "name": "Schwangerschaftsyoga",
+    "aliases": [
+      "Yoga",
+      "Pränatal Yoga",
+      "Yoga Schwangerschaft",
+      "Dehnen",
+      "Atemübungen"
+    ],
+    "summary": "Ja, vor allem in Kursen für Schwangere – aber meide Hot Yoga und später langes flaches Liegen auf dem Rücken.",
+    "details": "Laut ACOG reduziert angepasstes Yoga Stress, verbessert die Beweglichkeit und fördert bewusstes Atmen, und Kurse für Schwangere passen die Haltungen an dein sich veränderndes Gleichgewicht an. Meide Haltungen, bei denen du lange still oder flach auf dem Rücken bleibst, und dehne dich nicht zu stark, da Schwangerschaftshormone deine Gelenke lockern. Laut NHS kann Schwangerschaftsyoga helfen, Rückenschmerzen zu lindern.",
+    "tips": [
+      "Sag deiner Lehrerin oder deinem Lehrer, dass du schwanger bist und in welcher Woche du bist."
+    ]
+  },
+  "hot-yoga": {
+    "name": "Hot Yoga & Hot Pilates",
+    "aliases": [
+      "Bikram",
+      "Bikram Yoga",
+      "Hot Yoga",
+      "Hot Pilates",
+      "Infrarot Yoga"
+    ],
+    "summary": "Meide es, weil Training in einem beheizten Raum deine Körpertemperatur zu stark erhöhen kann.",
+    "details": "ACOG rät ausdrücklich, in der Schwangerschaft auf Hot Yoga und Hot Pilates zu verzichten, weil sie zu Überhitzung führen können. MotherToBaby weist darauf hin, dass eine hohe Körpertemperatur in der Frühschwangerschaft mit einer leicht erhöhten Wahrscheinlichkeit für Neuralrohrdefekte in Verbindung gebracht wird. Normales Schwangerschaftsyoga bei Raumtemperatur bietet dir die gleichen Vorteile.",
+    "tips": [
+      "Wechsle zu einem normalen Schwangerschaftskurs in einem kühlen, luftigen Raum."
+    ]
+  },
+  "pilates": {
+    "name": "Pilates",
+    "aliases": [
+      "Reformer Pilates",
+      "Matten Pilates",
+      "Schwangerschaftspilates",
+      "Pränatal Pilates",
+      "Core Training"
+    ],
+    "summary": "Ja, angepasstes Pilates oder Pilates für Schwangere gehört laut ACOG zu den sichersten Sportarten in der Schwangerschaft.",
+    "details": "ACOG zählt angepasstes Pilates zu den sichersten Bewegungsformen in der Schwangerschaft, und Kurse für Schwangere passen die Übungen an dein sich veränderndes Gleichgewicht an. Meide Übungen, bei denen du lange flach auf dem Rücken liegst, vor allem später in der Schwangerschaft. Lass intensive Crunches weg und hör auf, wenn etwas Schmerzen verursacht.",
+    "tips": [
+      "Wähle eine Trainerin oder einen Trainer mit Ausbildung in Schwangerschaftspilates."
+    ]
+  },
+  "weight-lifting": {
+    "name": "Gewichtheben & Krafttraining",
+    "aliases": [
+      "Krafttraining",
+      "Fitnessstudio",
+      "Gym",
+      "Gewichte",
+      "Kniebeugen",
+      "CrossFit"
+    ],
+    "summary": "Ja, Krafttraining ist erwünscht – verwende aber moderate Gewichte, überanstrenge dich nicht und passe die Übungen an deinen wachsenden Bauch an.",
+    "details": "Der NHS empfiehlt 2 Einheiten Muskelkräftigung pro Woche, auch Krafttraining im Fitnessstudio, wenn du es schon machst. ACOG rät, ruckartige Bewegungen mit hoher Belastung zu meiden, weil Schwangerschaftshormone deine Gelenke lockern, und nicht lange flach auf dem Rücken zu liegen. Die Luft beim Pressen anzuhalten und sehr schwere Lasten zu heben, meidest du am besten.",
+    "tips": [
+      "Sag deiner Trainerin oder deinem Trainer, dass du schwanger bist.",
+      "Atme bei der Anstrengung aus und bleib bei einem Gewicht, das du mit sauberer Technik heben kannst."
+    ]
+  },
+  "hiit": {
+    "name": "HIIT & intensive Workouts",
+    "aliases": [
+      "HIIT",
+      "Intervalltraining",
+      "Bootcamp",
+      "Zirkeltraining",
+      "Burpees",
+      "Tabata"
+    ],
+    "summary": "Wenn du es gewohnt bist, ist eine angepasste Version meist in Ordnung – fang aber jetzt nicht neu mit HIIT an und vermeide Sprünge und Überhitzung.",
+    "details": "Laut ACOG können sehr aktive Frauen ihr Training mit Zustimmung ihrer Frauenärztin oder ihres Frauenarztes meist fortsetzen, sollten aber ruckartige, federnde Bewegungen mit hoher Belastung sowie Überhitzung meiden. Laut NHS wird nicht empfohlen, in der Schwangerschaft mit einer neuen anstrengenden Sportart zu beginnen. Halte die Intensität so, dass du dich noch unterhalten kannst, und ersetze Sprünge durch gelenkschonende Varianten.",
+    "tips": [
+      "Ersetze Burpees und Sprünge durch seitliche Schritte und Marschieren auf der Stelle.",
+      "Hör auf, wenn dir schwindelig wird, du schon vor dem Training außer Atem bist oder Schmerzen hast."
+    ]
+  },
+  "cycling": {
+    "name": "Radfahren (draußen)",
+    "aliases": [
+      "Fahrrad fahren",
+      "Fahrrad",
+      "Rennrad",
+      "Mountainbike",
+      "E-Bike",
+      "mit dem Rad zur Arbeit"
+    ],
+    "summary": "Radfahren draußen birgt ein Sturzrisiko, weil sich dein Gleichgewicht verändert – ein Heimtrainer ist die sicherere Wahl.",
+    "details": "ACOG weist darauf hin, dass dein wachsender Bauch dein Gleichgewicht beeinflusst und Stürze wahrscheinlicher macht, daher kann Fahren auf einem normalen Fahrrad riskant sein, und ein Heimtrainer ist die bessere Wahl. Der NHS rät, Aktivitäten mit Sturzrisiko wie Mountainbiken zu meiden. Wenn du erfahren im Radfahren bist, sind ruhige, flache Strecken in der Frühschwangerschaft risikoärmer als belebte Straßen oder Trails.",
+    "tips": [
+      "Tausche Mountainbiken gegen einen Heimtrainer oder einen Spinning-Kurs.",
+      "Trag immer einen Helm, wenn du draußen fährst."
+    ]
+  },
+  "spinning": {
+    "name": "Spinning & Heimtrainer",
+    "aliases": [
+      "Spinning",
+      "Indoor Cycling",
+      "Heimtrainer",
+      "Ergometer",
+      "Fahrradergometer",
+      "Peloton"
+    ],
+    "summary": "Ja, ein Heimtrainer ist eine der sichersten Arten von Ausdauertraining in der Schwangerschaft, solange du nicht überhitzt.",
+    "details": "ACOG empfiehlt Radfahren auf dem Heimtrainer statt draußen, weil kein Sturzrisiko besteht. Spinning-Kurse können heiß und intensiv sein, und ACOG rät, Überhitzung zu vermeiden, genug zu trinken und in einem temperierten Raum zu trainieren. Stell den Lenker höher, wenn dein Bauch wächst, und bleib bei einem Tempo, bei dem du dich noch unterhalten kannst.",
+    "tips": [
+      "Nimm Wasser mit, setz dich in die Nähe eines Ventilators und fahr lieber etwas ruhiger, statt mit voller Intensität mitzuhalten."
+    ]
+  },
+  "horse-riding": {
+    "name": "Reiten",
+    "aliases": [
+      "Reitsport",
+      "Reitstunden",
+      "Ausritt",
+      "Pferd",
+      "Ponyreiten"
+    ],
+    "summary": "Am besten meiden, weil ein Sturz vom Pferd dich und dein Baby schwer verletzen könnte.",
+    "details": "ACOG zählt Reiten zu den Aktivitäten, die in der Schwangerschaft wegen des Sturzrisikos gemieden werden sollten. Mayo Clinic weist darauf hin, dass Stürze später in der Schwangerschaft, vor allem auf den Bauch, zu ernsten Problemen wie einer vorzeitigen Plazentaablösung führen können. Selbst erfahrene Reiterinnen und Reiter können plötzliche Bewegungen eines Pferdes nicht kontrollieren.",
+    "tips": [
+      "Bodenarbeit mit Pferden, ohne zu reiten, ist eine sanftere Möglichkeit, dabeizubleiben."
+    ]
+  },
+  "skiing": {
+    "name": "Skifahren & Snowboarden",
+    "aliases": [
+      "Skifahren",
+      "Ski fahren",
+      "Snowboard",
+      "Skiurlaub",
+      "Wasserski",
+      "Rodeln"
+    ],
+    "summary": "Am besten meiden, da Abfahrtsski und Snowboarden ein hohes Risiko für Stürze und Zusammenstöße bergen.",
+    "details": "ACOG zählt Abfahrtsski und Wasserski zu den Aktivitäten, die in der Schwangerschaft wegen des Sturzrisikos gemieden werden sollten. Viele Skigebiete liegen außerdem über 6.000 Fuß (etwa 1.800 Meter), und ACOG rät, in dieser Höhe keinen Sport zu treiben, wenn du nicht bereits in großer Höhe lebst. Gemütliche Spaziergänge im Schnee sind eine sicherere Art, die Berge zu genießen.",
+    "tips": [
+      "Genieß den Urlaubsort mit gemütlichen Spaziergängen und viel Ruhe in tieferen Lagen."
+    ]
+  },
+  "scuba-diving": {
+    "name": "Gerätetauchen",
+    "aliases": [
+      "Tauchen",
+      "Sporttauchen",
+      "Tauchurlaub",
+      "PADI",
+      "Apnoetauchen",
+      "Scuba"
+    ],
+    "summary": "Meide es in der Schwangerschaft – der NHS und die CDC raten wegen möglicher Risiken für das Baby vom Gerätetauchen ab.",
+    "details": "Der NHS rät, in der Schwangerschaft nicht zu tauchen, weil es für dein Baby unsicher sein kann, und die CDC weist darauf hin, dass die Sicherheit des Tauchens in der Schwangerschaft nicht belegt ist. Das Baby ist nicht so vor Dekompressionsproblemen geschützt, wie du es vielleicht bist. Schnorcheln an der Oberfläche ist eine schöne Alternative.",
+    "tips": [
+      "Probier stattdessen Schnorcheln – an der Oberfläche und in ruhigem Wasser."
+    ]
+  },
+  "contact-sports": {
+    "name": "Kontaktsportarten",
+    "aliases": [
+      "Fußball",
+      "Handball",
+      "Basketball",
+      "Eishockey",
+      "Boxen",
+      "Kampfsport"
+    ],
+    "summary": "Am besten meiden, weil Sportarten mit dem Risiko eines Stoßes gegen den Bauch oder eines Sturzes dich oder dein Baby verletzen könnten.",
+    "details": "ACOG rät, in der Schwangerschaft Kontaktsportarten wie Eishockey, Boxen, Fußball und Basketball zu meiden, und der NHS zählt Hockey und Rugby zu den Aktivitäten, bei denen du einen Stoß gegen den Bauch abbekommen kannst. Später in der Schwangerschaft kann ein Schlag auf den Bauch Probleme wie eine vorzeitige Plazentaablösung verursachen. Training ohne Körperkontakt und Technikübungen halten dich trotzdem im Team.",
+    "tips": [
+      "Tausche Spiele gegen Spazierengehen, Schwimmen oder den Heimtrainer."
+    ]
+  },
+  "sauna": {
+    "name": "Sauna & Dampfbad",
+    "aliases": [
+      "Sauna",
+      "Dampfbad",
+      "Infrarotsauna",
+      "Wellness",
+      "Dampfsauna",
+      "Banja"
+    ],
+    "summary": "Am besten meiden, besonders im ersten Trimester, weil Überhitzung in der Frühschwangerschaft schädlich sein kann.",
+    "details": "MotherToBaby weist darauf hin, dass eine hohe Körpertemperatur vor etwa der 6. Schwangerschaftswoche mit einer leicht erhöhten Wahrscheinlichkeit für Neuralrohrdefekte in Verbindung gebracht wird, und rät, Whirlpool und Sauna nur begrenzt zu nutzen. Laut ACOG wird eine hohe Körpertemperatur in der Schwangerschaft mit Fehlbildungen und anderen Komplikationen in Verbindung gebracht. In der Sauna kann dir außerdem schwindelig werden oder du kannst ohnmächtig werden, was das Sturzrisiko erhöht.",
+    "tips": [
+      "Wenn du nicht sicher bist, ob du darauf verzichten kannst, halte jeden Besuch sehr kurz und geh raus, wenn dir heiß oder schwindelig wird."
+    ]
+  },
+  "hot-tub": {
+    "name": "Whirlpool & Jacuzzi",
+    "aliases": [
+      "Whirlpool",
+      "Jacuzzi",
+      "Therme",
+      "Thermalbad",
+      "heiße Quelle",
+      "Hot Tub"
+    ],
+    "summary": "Am besten meiden, da heißes Wasser deine Körperkerntemperatur schnell erhöht – das ist vor allem in der Frühschwangerschaft wichtig.",
+    "details": "In Whirlpools und Thermalbecken ist der größte Teil deines Körpers von heißem Wasser umgeben, sodass deine Kerntemperatur schnell steigen kann. MotherToBaby rät, Whirlpools in der Schwangerschaft nur begrenzt zu nutzen, und weist darauf hin, dass eine hohe Körpertemperatur in der Frühschwangerschaft mit Neuralrohrdefekten in Verbindung gebracht wird. Türkische kaplıca (Thermalquellen) sind oft sehr heiß, daher gilt dort das Gleiche.",
+    "tips": [
+      "Lass nur die Beine ins Wasser baumeln oder wähle stattdessen ein Becken mit normaler Temperatur."
+    ]
+  },
+  "hamam": {
+    "name": "Türkisches Bad (Hamam)",
+    "aliases": [
+      "Hamam",
+      "Hammam",
+      "türkisches Bad",
+      "Dampfbad",
+      "Kese",
+      "Schaummassage"
+    ],
+    "summary": "Lass die heißesten Räume und den beheizten Marmorstein (göbek taşı) aus; mehr als ein kurzer Besuch im warmen, nicht heißen Bereich sollte es nicht sein.",
+    "details": "Ein traditioneller Hamam verbindet heiße, feuchte Luft mit einem beheizten Marmorstein, der deine Körpertemperatur ähnlich wie eine Sauna erhöhen kann. MotherToBaby rät, Whirlpool und Sauna nur begrenzt zu nutzen, da eine hohe Körpertemperatur in der Frühschwangerschaft mit Neuralrohrdefekten in Verbindung gebracht wird. Nasse Marmorböden sind außerdem rutschig, und Hitze kann dich schwindelig machen, Stürze sind also ein echtes Risiko.",
+    "tips": [
+      "Leg dich nicht auf den göbek taşı und bleib bei lauwarmem Wasser.",
+      "Geh mit jemandem zusammen hin, bleib nur kurz und trink Wasser.",
+      "Bitte um eine sanfte Kese-Massage ohne Druck auf deinen Bauch."
+    ]
+  },
+  "hot-bath": {
+    "name": "Heiße Bäder",
+    "aliases": [
+      "Baden",
+      "Badewanne",
+      "warmes Bad",
+      "Vollbad",
+      "Schaumbad"
+    ],
+    "summary": "Ein warmes Bad ist in Ordnung und kann Beschwerden lindern, aber halte das Wasser warm statt heiß und überhitze nicht.",
+    "details": "Der NHS schlägt ein warmes Bad vor, um Rückenschmerzen in der Schwangerschaft zu lindern. Sehr heißes Wasser kann deine Körpertemperatur erhöhen, und MotherToBaby weist darauf hin, dass hohe Temperaturen in der Frühschwangerschaft mit Neuralrohrdefekten in Verbindung gebracht werden. Nach heißen Bädern kann dir außerdem beim Aufstehen schwarz vor Augen werden, steig also langsam aus.",
+    "tips": [
+      "Prüf das Wasser mit dem Ellbogen: Es sollte sich warm, nicht heiß anfühlen.",
+      "Verwende eine rutschfeste Matte und steig langsam aus."
+    ]
+  },
+  "sex": {
+    "name": "Sex",
+    "aliases": [
+      "Sex in der Schwangerschaft",
+      "Geschlechtsverkehr",
+      "miteinander schlafen",
+      "Intimität",
+      "GV"
+    ],
+    "summary": "Ja, in einer gesunden Schwangerschaft ist Sex sicher und schadet deinem Baby nicht, es sei denn, deine Ärztin oder dein Arzt hat dir etwas anderes geraten.",
+    "details": "In den meisten Schwangerschaften ist Sex kein Risiko für dich oder dein Baby, das durch das Fruchtwasser und die Muskeln der Gebärmutter geschützt ist. In manchen Situationen kann eine Ärztin oder ein Arzt davon abraten, etwa wenn die Plazenta über dem Muttermund liegt (Placenta praevia) oder ein Blutungsrisiko besteht. Es ist normal, dass sich deine Lust verändert, und wenn dein Bauch wächst, fühlen sich neue Stellungen vielleicht angenehmer an.",
+    "tips": [
+      "Verwende mit einem neuen Partner oder einer neuen Partnerin Kondome, da manche Infektionen dein Baby beeinträchtigen können.",
+      "Melde dich bei deiner Hebamme oder in deiner Frauenarztpraxis, wenn du danach Blutungen, Schmerzen oder Flüssigkeitsabgang hast."
+    ]
+  },
+  "orgasm": {
+    "name": "Orgasmus",
+    "aliases": [
+      "Orgasmus Schwangerschaft",
+      "Höhepunkt",
+      "Übungswehen nach Sex",
+      "Wehen nach Sex",
+      "harter Bauch nach Sex"
+    ],
+    "summary": "Ja, Orgasmen sind in einer gesunden Schwangerschaft sicher, und ein leichtes Hartwerden des Bauchs danach ist normal.",
+    "details": "Später in der Schwangerschaft kann ein Orgasmus oder auch der Sex selbst Übungswehen auslösen, sogenannte Braxton-Hicks-Kontraktionen. Laut NI Direct ist das völlig normal und kein Grund zur Sorge, und ruhiges Ausruhen hilft meist, dass sie vorübergehen. Wenn deine Ärztin oder dein Arzt dir geraten hat, auf Sex zu verzichten, frag nach, ob das auch für Orgasmen gilt.",
+    "tips": [
+      "Ruf deine Hebamme oder die Geburtsklinik an, wenn das Hartwerden des Bauchs vor der 37. Woche regelmäßig und schmerzhaft wird."
+    ]
+  },
+  "massage": {
+    "name": "Massage",
+    "aliases": [
+      "Schwangerschaftsmassage",
+      "Rückenmassage",
+      "Fußmassage",
+      "Wellnessmassage",
+      "Fußreflexzonenmassage",
+      "Reflexzonenmassage"
+    ],
+    "summary": "Ja, eine sanfte Massage von jemandem mit Ausbildung in Schwangerschaftsmassage ist eine gute Möglichkeit, Beschwerden und Stress zu lindern.",
+    "details": "Der NHS nennt Massagen als eine Möglichkeit, Rückenschmerzen in der Schwangerschaft zu lindern, und Mayo Clinic zählt sie zu den Entspannungstechniken bei Kopfschmerzen. Leg dich auf die Seite statt auf den Bauch und sorg dafür, dass die Masseurin oder der Masseur weiß, dass du schwanger bist. Falls ätherische Öle verwendet werden, sollten sie verdünnt und für die Schwangerschaft geeignet sein.",
+    "tips": [
+      "Buche bei jemandem mit Ausbildung in Schwangerschaftsmassage.",
+      "Bitte um Seitenlage mit Kissen zur Unterstützung."
+    ]
+  },
+  "chiropractor": {
+    "name": "Chiropraktik & Osteopathie",
+    "aliases": [
+      "Chiropraktiker",
+      "Chiropraktik",
+      "Osteopath",
+      "Osteopathie",
+      "Einrenken",
+      "Wirbelsäule einrenken"
+    ],
+    "summary": "Bei Rücken- oder Beckenschmerzen wende dich zuerst an deine Hebamme oder an die Physiotherapie; wenn du zur Chiropraktik gehst, wähle jemanden mit Erfahrung in der Schwangerschaft.",
+    "details": "Manipulationen an der Wirbelsäule sind in der Schwangerschaft kaum untersucht. Bei Rückenschmerzen kann dich laut NHS deine Hausärztin, dein Hausarzt oder deine Hebamme an eine auf Schwangerschaft spezialisierte Physiotherapie überweisen, und ACOG schlägt Physiotherapie vor, sobald andere Ursachen ausgeschlossen sind. Rückenschmerzen können manchmal ein Zeichen für Wehen oder eine Harnwegsinfektion sein, lass sie also zuerst abklären.",
+    "tips": [
+      "Sag allen Behandelnden, in welcher Schwangerschaftswoche du bist.",
+      "Brich ab, wenn eine Behandlung Schmerzen oder ein Hartwerden des Bauchs verursacht."
+    ]
+  },
+  "sleeping-on-back": {
+    "name": "Schlafen auf dem Rücken",
+    "aliases": [
+      "Schlafposition",
+      "Rückenlage",
+      "auf dem Rücken liegen",
+      "Rückenschläferin",
+      "Schlafposition drittes Trimester"
+    ],
+    "summary": "Ab der 28. Woche schlaf auf der Seite ein, da Schlafen auf dem Rücken mit einem höheren Risiko für eine Totgeburt verbunden ist; davor ist es in Ordnung.",
+    "details": "Der NHS rät, nach der 28. Woche nicht auf dem Rücken einzuschlafen, weil dies mit einem höheren Risiko für eine Totgeburt in Verbindung gebracht wird. Wenn du später in der Schwangerschaft auf dem Rücken liegst, kann die Gebärmutter auf ein großes Blutgefäß drücken, wodurch dir schwarz vor Augen werden und die Durchblutung abnehmen kann. Wenn du auf dem Rücken aufwachst, mach dir keine Sorgen: Dreh dich einfach auf die Seite.",
+    "tips": [
+      "Leg dir ein Kissen in den Rücken, damit du auf der Seite bleibst.",
+      "Beide Seiten sind in Ordnung – wähl die, die bequemer ist."
+    ]
+  },
+  "sleeping-on-stomach": {
+    "name": "Schlafen auf dem Bauch",
+    "aliases": [
+      "Bauchlage",
+      "Bauchschläferin",
+      "auf dem Bauch liegen",
+      "Bauchschlafen"
+    ],
+    "summary": "In Ordnung, solange es bequem ist, da dein Baby gut geschützt ist – die meisten wechseln mit wachsendem Bauch zum Schlafen auf der Seite.",
+    "details": "In der Frühschwangerschaft liegt die Gebärmutter tief hinter dem Schambein und dein Baby ist durch Fruchtwasser abgepolstert, daher schadet es ihm nicht, wenn du auf dem Bauch liegst. Wenn dein Bauch wächst, wird das Schlafen auf dem Bauch meist von selbst unbequem. ACOG weist darauf hin, dass die Seitenlage mit angewinkelten Knien und Kissen später in der Schwangerschaft die bequemste Position ist.",
+    "tips": [
+      "Probier ein Schwangerschaftskissen, um dir den Wechsel zur Seitenlage zu erleichtern."
+    ]
+  },
+  "roller-coasters": {
+    "name": "Achterbahnen & Fahrgeschäfte",
+    "aliases": [
+      "Achterbahn",
+      "Freizeitpark",
+      "Kirmes",
+      "Jahrmarkt",
+      "Wasserrutsche",
+      "Autoscooter"
+    ],
+    "summary": "Am besten meiden, da plötzliche Stöße, Stopps und Erschütterungen deiner Schwangerschaft schaden könnten.",
+    "details": "Fahrgeschäfte mit plötzlichem Anfahren, Abbremsen und Rucken können Kräfte auf deinen Bauch ausüben, ähnlich wie ein Sturz oder ein Stoß. Mayo Clinic weist darauf hin, dass Stöße gegen den Bauch später in der Schwangerschaft Probleme wie eine vorzeitige Plazentaablösung verursachen können, und MotherToBaby erklärt, wie sich körperliche Verletzungen auf eine Schwangerschaft auswirken können. Die meisten Freizeitparks raten Schwangeren davon ab, mitzufahren.",
+    "tips": [
+      "Wähle stattdessen ruhige Fahrgeschäfte wie das Karussell oder das Riesenrad."
+    ]
+  },
+  "trampolines": {
+    "name": "Trampoline & Hüpfburgen",
+    "aliases": [
+      "Trampolin",
+      "Trampolinpark",
+      "Hüpfburg",
+      "Huepfburg",
+      "Minitrampolin",
+      "Springen"
+    ],
+    "summary": "Am besten meiden, weil das Springen für Erschütterungen sorgt und ein echtes Risiko besteht, zu stürzen oder angestoßen zu werden.",
+    "details": "ACOG rät, in der Schwangerschaft ruckartige, federnde Bewegungen mit hoher Belastung zu meiden, da Hormone deine Gelenke lockern und dein verändertes Gleichgewicht Stürze wahrscheinlicher macht. Stürze und Stöße gegen den Bauch können später in der Schwangerschaft Probleme wie eine vorzeitige Plazentaablösung verursachen. Wenn du mit Kindern zusammen springst, steigt außerdem die Gefahr von Zusammenstößen.",
+    "tips": [
+      "Feuere vom Rand aus an – und bring die Snacks für die Kinder mit."
+    ]
+  },
+  "lifting-toddler": {
+    "name": "Kleinkind hochheben",
+    "aliases": [
+      "Kind hochheben",
+      "Kind tragen",
+      "Kleinkind tragen",
+      "schwer heben",
+      "Einkäufe tragen"
+    ],
+    "summary": "Mit der richtigen Technik meist in Ordnung: Geh in die Knie, halte den Rücken gerade und vermeide sehr schweres Heben.",
+    "details": "Der NHS zählt das Tragen von Kindern und Einkäufen zu alltäglicher Muskelkräftigung, rät aber, beim Heben in die Knie zu gehen und den Rücken gerade zu halten sowie schwere Gegenstände zu meiden. Schwangerschaftshormone lockern deine Bänder, daher werden Rücken und Becken leichter überlastet. Wenn du Komplikationen oder Beckenschmerzen hast, frag deine Hebamme, was für dich sicher ist.",
+    "tips": [
+      "Geh in die Hocke auf Augenhöhe mit deinem Kleinkind und lass es stattdessen auf deinen Schoß klettern.",
+      "Teil dir das Heben mit deinem Partner oder deiner Partnerin, wo es geht."
+    ]
+  },
+  "cleaning-products": {
+    "name": "Putzen im Haushalt",
+    "aliases": [
+      "Putzmittel",
+      "Reinigungsmittel",
+      "Backofenreiniger",
+      "Desinfektionsmittel",
+      "Badreiniger",
+      "Raumspray"
+    ],
+    "summary": "Alltägliches Putzen ist mit Lüften und Handschuhen in Ordnung, aber gib Backofenreiniger und starke Sprays möglichst ab.",
+    "details": "Nemours KidsHealth weist darauf hin, dass manche Haushaltschemikalien in der Schwangerschaft sicher verwendet werden können, während andere, etwa Backofenreiniger, Farbverdünner, Raumsprays und Aerosole, gefährlich sein können. Starke Gerüche können außerdem die Übelkeit verschlimmern. Etiketten lesen, Fenster öffnen und Gummihandschuhe tragen hält die Belastung gering.",
+    "tips": [
+      "Öffne die Fenster, trag Handschuhe und wasch dir danach die Hände.",
+      "Einfache Mittel wie Seife, Essig und Natron reichen für die meisten Aufgaben."
+    ]
+  },
+  "painting": {
+    "name": "Streichen & Renovieren",
+    "aliases": [
+      "Kinderzimmer streichen",
+      "Wände streichen",
+      "Farbdämpfe",
+      "Renovieren",
+      "Tapete entfernen",
+      "Bleifarbe"
+    ],
+    "summary": "Leichte Streicharbeiten mit Farbe auf Wasserbasis in einem gelüfteten Raum sind risikoarm, aber überlass das Entfernen alter Farbe und Arbeiten mit Lösungsmitteln anderen.",
+    "details": "MotherToBaby weist darauf hin, dass einmaliges Streichen zu Hause meist eine viel geringere Belastung bedeutet als beruflich zu streichen, und empfiehlt gute Belüftung sowie den Raum danach 2 bis 3 Tage lang zu lüften. Schwangere sollten alte Farbe nicht abkratzen, abschleifen oder ablösen, weil es in älteren Häusern bleihaltige Farbe geben kann. Leitern sind außerdem ein Sturzrisiko, da sich dein Gleichgewicht verändert.",
+    "tips": [
+      "Wähle emissionsarme (VOC-arme) Farbe auf Wasserbasis und lass die Fenster offen.",
+      "Steig nicht auf Leitern und lass den Raum auslüften, bevor du darin schläfst."
+    ]
+  },
+  "gardening": {
+    "name": "Gartenarbeit",
+    "aliases": [
+      "Garten",
+      "Gärtnern",
+      "Gartenerde",
+      "Unkraut jäten",
+      "Schrebergarten",
+      "Umtopfen"
+    ],
+    "summary": "Ja, Gartenarbeit ist gute Bewegung, aber trag Handschuhe und wasch dir die Hände, da Erde Toxoplasmen enthalten kann.",
+    "details": "ACOG zählt allgemeine Gartenarbeit wie Harken, Unkrautjäten und Umgraben zu moderater Bewegung. Erde kann mit Katzenkot verunreinigt sein, der Toxoplasmen enthält, daher rät der NHS, Handschuhe zu tragen, auch wenn du keine Katze hast, und dir danach die Hände und die Handschuhe zu waschen. Setz selbst keine Pflanzenschutzmittel im Garten ein.",
+    "tips": [
+      "Trag Handschuhe und wasch dir nach der Gartenarbeit gründlich die Hände.",
+      "Geh in die Knie, wenn du Töpfe und Erdsäcke hebst."
+    ]
+  },
+  "cat-litter": {
+    "name": "Katzenklo sauber machen",
+    "aliases": [
+      "Katzenklo",
+      "Katzentoilette",
+      "Katzenstreu",
+      "Katzenkot",
+      "Toxoplasmose",
+      "Katze"
+    ],
+    "summary": "Bitte jemand anderen darum; wenn es nicht anders geht, trag Handschuhe und reinige das Katzenklo jeden Tag.",
+    "details": "Katzenkot kann Toxoplasmen enthalten, einen Parasiten, der deinem Baby schaden kann, wenn du dich in der Schwangerschaft zum ersten Mal ansteckst. Der NHS rät, in der Schwangerschaft keine Katzenklos zu leeren oder, wenn niemand anderes es übernehmen kann, Einweghandschuhe zu tragen und das Katzenklo täglich zu reinigen. Die CDC erklärt, dass der Parasit erst 1 bis 5 Tage nach der Ausscheidung ansteckend wird – deshalb hilft tägliches Reinigen.",
+    "tips": [
+      "Du musst deine Katze nicht abgeben – gib nur den Katzenklo-Dienst ab.",
+      "Wasch dir nach dem Streicheln von Katzen und vor dem Essen die Hände."
+    ]
+  },
+  "standing-long": {
+    "name": "Langes Stehen",
+    "aliases": [
+      "den ganzen Tag stehen",
+      "Stehen bei der Arbeit",
+      "auf den Beinen",
+      "Arbeit im Verkauf",
+      "lange Schichten"
+    ],
+    "summary": "Kurz ist es in Ordnung, aber langes Stillstehen kann Schwindel auslösen und Schwellungen verschlimmern – beweg dich also oft.",
+    "details": "ACOG erklärt, dass beim Stillstehen Blut in Beinen und Füßen versacken kann, was deinen Blutdruck kurzzeitig senken und dazu führen kann, dass dir schwarz vor Augen wird. ACOG rät außerdem, sich regelmäßig zu bewegen, wenn du lange sitzen oder stehen musst, um Krampfadern und Schwellungen zu lindern. Wenn du bei deiner Arbeit viel stehst, frag deinen Arbeitgeber nach Pausen und Anpassungen.",
+    "tips": [
+      "Verlagere dein Gewicht, spann die Waden an und stell einen Fuß auf einen niedrigen Hocker.",
+      "Setz dich sofort hin, wenn dir schwarz vor Augen wird."
+    ]
+  },
+  "sunbathing": {
+    "name": "Sonnenbaden",
+    "aliases": [
+      "Sonnenbaden",
+      "Bräunen",
+      "Strand",
+      "in der Sonne liegen",
+      "Hitze"
+    ],
+    "summary": "Genieß die Zeit draußen in kurzen Abschnitten, aber vermeide Überhitzung und verwende Sonnenschutz, um dunklen Schwangerschaftsflecken vorzubeugen.",
+    "details": "ACOG weist darauf hin, dass dein Körper in der Schwangerschaft mehr leisten muss, um sich zu kühlen, und dass eine hohe Körpertemperatur mit Komplikationen in Verbindung gebracht wird – vermeide also lange Zeit in starker Sonne und Hitze. Sonne kann außerdem Melasma auslösen oder verdunkeln, die braunen Flecken, die in der Schwangerschaft entstehen können. Schatten, Wasser und ein Hut machen Strandtage viel sicherer.",
+    "tips": [
+      "Meide die Mittagssonne und setz dich in den Schatten.",
+      "Trink regelmäßig Wasser und trag einen breitkrempigen Hut."
+    ]
+  },
+  "pelvic-floor-exercises": {
+    "name": "Beckenbodentraining",
+    "aliases": [
+      "Beckenboden",
+      "Beckenbodenübungen",
+      "Kegelübungen",
+      "Kegel",
+      "Blasenschwäche"
+    ],
+    "summary": "Ja, es wird in der Schwangerschaft empfohlen und hilft, Urinverlust beim Husten, Niesen oder Lachen vorzubeugen.",
+    "details": "Deine Beckenbodenmuskeln stützen Blase, Darm und Gebärmutter, und Schwangerschaft und Geburt belasten sie zusätzlich. Der NHS empfiehlt Beckenbodenübungen in der Schwangerschaft, um Urinverlust vorzubeugen, der häufig vorkommt. Du kannst sie überall machen, im Sitzen, im Stehen oder in Seitenlage.",
+    "tips": [
+      "Spann an, als würdest du beim Pinkeln den Strahl stoppen, halte kurz und entspann dann vollständig; wiederhole das ein paar Mal am Tag.",
+      "Bitte deine Hebamme, deine Technik zu prüfen, wenn du unsicher bist."
+    ]
+  },
+  "flying": {
+    "name": "Fliegen",
+    "aliases": [
+      "Flugreise",
+      "Flugzeug",
+      "Flug",
+      "schwanger fliegen",
+      "Fluggesellschaft",
+      "Flugtauglichkeitsbescheinigung"
+    ],
+    "summary": "Ja, Fliegen schadet in einer gesunden Schwangerschaft nicht, aber Fluggesellschaften schränken Reisen gegen Ende ein – prüf das also vor der Buchung.",
+    "details": "Laut NHS schadet Fliegen weder dir noch deinem Baby, und das RCOG stimmt zu, dass Flugreisen in einer unkomplizierten Schwangerschaft meist sicher sind. Viele Fluggesellschaften lassen dich nach etwa 36 Wochen (bei Zwillingen nach 32 Wochen) nicht mehr fliegen, und manche verlangen nach 28 Wochen eine Bescheinigung über deinen Geburtstermin. Die Mitte der Schwangerschaft ist oft die angenehmste Reisezeit.",
+    "tips": [
+      "Prüf vor der Buchung die Schwangerschaftsregeln deiner Fluggesellschaft.",
+      "Nimm deinen Mutterpass mit und, wenn du über 28 Wochen bist, eine ärztliche Bescheinigung."
+    ]
+  },
+  "long-haul-flights": {
+    "name": "Langstreckenflüge & Blutgerinnsel",
+    "aliases": [
+      "Langstreckenflug",
+      "langer Flug",
+      "Thrombose",
+      "tiefe Venenthrombose",
+      "Kompressionsstrümpfe",
+      "Thrombosestrümpfe"
+    ],
+    "summary": "Meist in Ordnung, aber die Schwangerschaft erhöht bei Reisen über 4 Stunden das Risiko für Blutgerinnsel – bleib also in Bewegung und trink Wasser.",
+    "details": "Reisen von 4 Stunden oder länger erhöhen das Risiko für eine tiefe Venenthrombose (TVT), und die Schwangerschaft erhöht dieses Risiko zusätzlich. ACOG und das RCOG raten, viel Wasser zu trinken, lockere Kleidung zu tragen und regelmäßig herumzugehen und die Beine zu bewegen. Kompressionsstrümpfe mit abgestuftem Druck können helfen, sprich aber vorher mit deiner Ärztin oder deinem Arzt, besonders wenn du weitere Risikofaktoren hast.",
+    "tips": [
+      "Buche einen Platz am Gang und geh etwa alle 30 Minuten ein paar Schritte.",
+      "Hol dir sofort Hilfe bei einem schmerzhaften, geschwollenen Bein oder plötzlicher Atemnot."
+    ]
+  },
+  "travel-insurance": {
+    "name": "Reiseversicherung",
+    "aliases": [
+      "Auslandskrankenversicherung",
+      "Reisekrankenversicherung",
+      "Krankenrücktransport",
+      "Reiseschutz",
+      "EHIC",
+      "Europäische Krankenversicherungskarte"
+    ],
+    "summary": "Schließ eine Versicherung ab, die Schwangerschaft, Frühgeburt und die Versorgung Neugeborener eindeutig abdeckt – viele Standardpolicen tun das nicht.",
+    "details": "Die CDC weist darauf hin, dass viele Versicherungen schwangerschaftsbezogene Behandlungen oder die Versorgung Neugeborener im Ausland nicht abdecken, und empfiehlt dringend einen Schutz dafür sowie für einen medizinischen Rücktransport. ACOG schlägt vor, 4 bis 6 Wochen vor einer Auslandsreise bei deiner Versicherung anzurufen, um zu prüfen, was enthalten ist. Achte auf Wochengrenzen, da manche Policen die Schwangerschaft ab einem bestimmten Zeitpunkt nicht mehr abdecken.",
+    "tips": [
+      "Frag gezielt nach Frühgeburt und Intensivversorgung für Neugeborene.",
+      "Hab deine Versicherungsunterlagen und deinen Mutterpass dabei."
+    ]
+  },
+  "zika-areas": {
+    "name": "Reisen in Zika-Gebiete",
+    "aliases": [
+      "Zika",
+      "Zika-Virus",
+      "Mückengebiete",
+      "Karibik Reise",
+      "Brasilien",
+      "Mittelamerika"
+    ],
+    "summary": "Verschiebe nicht notwendige Reisen in Zika-Gebiete, weil eine Infektion in der Schwangerschaft schwere Fehlbildungen verursachen kann.",
+    "details": "Zika wird hauptsächlich durch Mücken übertragen und kann auch beim Sex weitergegeben werden. Eine Infektion in der Schwangerschaft kann Fehlbildungen verursachen, darunter Mikrozephalie, daher empfiehlt der NHS, nicht notwendige Reisen in Hochrisikogebiete zu verschieben. Das Risiko unterscheidet sich je nach Land und ändert sich mit der Zeit, prüf also vor der Buchung aktuelle reisemedizinische Hinweise.",
+    "tips": [
+      "Wenn dein Partner in ein Zika-Gebiet reist, verwendet für den Rest deiner Schwangerschaft Kondome.",
+      "Wenn du reisen musst, verwende ein Mückenschutzmittel mit DEET und bedecke Arme und Beine."
+    ]
+  },
+  "malaria-areas": {
+    "name": "Reisen in Malariagebiete",
+    "aliases": [
+      "Malaria",
+      "Malariatabletten",
+      "Malariaprophylaxe",
+      "Afrika Reise",
+      "Tropenreise",
+      "Safari"
+    ],
+    "summary": "Meide oder verschiebe Reisen in Malariagebiete, wenn möglich, da Malaria in der Schwangerschaft gefährlicher ist und manche Tabletten nicht geeignet sind.",
+    "details": "Malaria kann in der Schwangerschaft schwerer verlaufen und dem Baby schaden. Die CDC rät, in der Schwangerschaft Reisen in Malariagebiete zu meiden oder zu verschieben, und der NHS weist darauf hin, dass manche Malariatabletten in der Schwangerschaft nicht sicher sind. Wenn die Reise unvermeidbar ist, hol dir rechtzeitig vorher reisemedizinischen Rat von Fachleuten.",
+    "tips": [
+      "Geh 4 bis 6 Wochen vor der Reise in eine reisemedizinische Beratung.",
+      "Schlaf unter einem imprägnierten Moskitonetz und verwende ein Mückenschutzmittel mit DEET."
+    ]
+  },
+  "seatbelt": {
+    "name": "Sicherheitsgurt anlegen",
+    "aliases": [
+      "Gurt",
+      "anschnallen",
+      "Beckengurt",
+      "Schwangerschaftsgurt",
+      "Gurtadapter",
+      "Autounfall"
+    ],
+    "summary": "Ja, schnall dich immer an – mit dem Beckengurt unter deinem Bauch und dem Schultergurt zwischen deinen Brüsten.",
+    "details": "Sicherheitsgurte schützen dich und dein Baby bei einem Unfall, und Verkehrsunfälle gehören zu den häufigsten Ursachen für Verletzungen in der Schwangerschaft. Der NHS rät, den Schultergurt zwischen den Brüsten und den Beckengurt über dem Becken unter dem Bauch zu führen, nicht über den Bauch. ACOG ergänzt, dass du dich immer anschnallen solltest.",
+    "tips": [
+      "Lass dich nach jedem Autounfall in deiner Frauenarztpraxis oder in der Klinik untersuchen, auch wenn es dir gut geht."
+    ]
+  },
+  "driving": {
+    "name": "Autofahren",
+    "aliases": [
+      "Auto fahren",
+      "schwanger Auto fahren",
+      "Auto",
+      "Pendeln",
+      "Lenkrad"
+    ],
+    "summary": "Ja, du kannst die ganze Schwangerschaft über Auto fahren, wenn du dich gut fühlst – mach aber Pausen und stell deinen Sitz neu ein, wenn dein Bauch wächst.",
+    "details": "Müdigkeit und Schwindel sind in der Schwangerschaft häufig, daher empfiehlt der NHS, auf langen Fahrten regelmäßig anzuhalten, Wasser zu trinken und Snacks zu essen. Achte darauf, dass dein Gurt richtig sitzt, und schieb deinen Sitz so weit zurück, wie es bequem geht, während du die Pedale noch erreichst. Fahr nicht, wenn dir schwarz vor Augen wird oder du sehr müde bist.",
+    "tips": [
+      "Teil dir auf langen Fahrten das Fahren mit jemandem und halte alle ein bis zwei Stunden an, um dich zu strecken."
+    ]
+  },
+  "airport-scanners": {
+    "name": "Sicherheitsscanner am Flughafen",
+    "aliases": [
+      "Körperscanner",
+      "Bodyscanner",
+      "Sicherheitskontrolle",
+      "Flughafenkontrolle",
+      "Metalldetektor",
+      "Röntgenscanner"
+    ],
+    "summary": "Ja, Metalldetektoren und Körperscanner gelten in der Schwangerschaft als sicher, da sie wenig oder keine Strahlung nutzen.",
+    "details": "Die CDC weist darauf hin, dass Metalldetektoren in der Schwangerschaft nicht schädlich sind und das Risiko durch Körperscanner extrem gering ist. Die FDA erklärt, dass Millimeterwellen-Scanner nichtionisierende Energie nutzen und dass die Dosis eines Röntgen-Körperscanners geringer ist als die natürliche Hintergrundstrahlung, der du im Alltag in etwa 42 Minuten ausgesetzt bist. Wenn du möchtest, kannst du stattdessen um eine Abtastung bitten.",
+    "tips": [
+      "Wenn es dich beruhigt, bitte stattdessen um eine Kontrolle per Hand."
+    ]
+  },
+  "high-altitude": {
+    "name": "Große Höhe",
+    "aliases": [
+      "Höhe",
+      "Berge",
+      "Höhenkrankheit",
+      "Bergwandern",
+      "Trekking",
+      "Hochgebirge"
+    ],
+    "summary": "Kurze Aufenthalte sind meist in Ordnung, aber treib über etwa 1.800 Metern (6.000 Fuß) keinen Sport, es sei denn, du lebst in der Höhe.",
+    "details": "ACOG rät, in der Schwangerschaft über 6.000 Fuß (etwa 1.800 Meter) keinen Sport zu treiben, wenn du nicht bereits in großer Höhe lebst. Die CDC empfiehlt, langsam aufzusteigen und dir Zeit zur Akklimatisierung zu lassen, und weist darauf hin, dass abgelegene Gebiete weit von medizinischer Versorgung entfernt sein können. Trekking in sehr großer Höhe verschiebst du am besten.",
+    "tips": [
+      "Steig langsam auf und ruh dich in den ersten Tagen mehr aus als sonst.",
+      "Hol dir Hilfe bei starken Kopfschmerzen, Atemnot oder Schwellungen."
+    ]
+  },
+  "cruise": {
+    "name": "Kreuzfahrten & Bootsausflüge",
+    "aliases": [
+      "Kreuzfahrt",
+      "Kreuzfahrtschiff",
+      "Fähre",
+      "Bootsfahrt",
+      "Seekrankheit",
+      "Segeln"
+    ],
+    "summary": "Früher in der Schwangerschaft oft möglich, aber die meisten Reedereien nehmen dich nach etwa 24 Wochen nicht mehr mit, und Seekrankheit kann hart sein.",
+    "details": "Die CDC weist darauf hin, dass die meisten Kreuzfahrtreedereien Reisen nach 24 Wochen einschränken und eventuell eine ärztliche Bescheinigung verlangen, und auch Fährgesellschaften haben eigene Grenzen. ACOG schlägt vor zu prüfen, ob eine Ärztin, ein Arzt oder Pflegepersonal an Bord ist und ob es in den Häfen medizinische Einrichtungen gibt. Seekrankheit kann eine Kreuzfahrt in der Schwangerschaft erschweren, frag also vorher, welche Mittel du verwenden kannst.",
+    "tips": [
+      "Prüf vor der Buchung die Schwangerschaftsregeln der Reederei.",
+      "Wasch dir oft die Hände und hab Handdesinfektionsmittel dabei."
+    ]
+  },
+  "road-trips": {
+    "name": "Lange Autofahrten",
+    "aliases": [
+      "Roadtrip",
+      "lange Fahrt",
+      "Autoreise",
+      "Busreise",
+      "Fernbus",
+      "Zugreise"
+    ],
+    "summary": "Mit etwas Planung kein Problem: Halte regelmäßig an, um dich zu strecken, trink Wasser und führ den Gurt unter deinem Bauch.",
+    "details": "Der NHS empfiehlt, lange Autofahrten nach Möglichkeit zu vermeiden und, wenn das nicht geht, regelmäßig anzuhalten und herumzugehen. ACOG weist darauf hin, dass jede Reise von 4 Stunden oder länger, ob mit Auto, Bus, Zug oder Flugzeug, das Risiko für Blutgerinnsel erhöht, und die Schwangerschaft erhöht es zusätzlich. Wenn du nicht selbst fährst, hilft es, die Füße zu bewegen und mit den Zehen zu wackeln, damit das Blut in Bewegung bleibt.",
+    "tips": [
+      "Plane alle ein bis zwei Stunden einen Stopp ein und geh ein paar Minuten.",
+      "Pack Wasser und gesunde Snacks ein und versuch, nicht allein zu reisen."
+    ]
+  },
+  "travel-vaccines": {
+    "name": "Reiseimpfungen",
+    "aliases": [
+      "Reiseimpfung",
+      "Gelbfieberimpfung",
+      "Typhusimpfung",
+      "Hepatitis A Impfung",
+      "Lebendimpfstoff",
+      "Tropenimpfung"
+    ],
+    "summary": "Totimpfstoffe sind in der Schwangerschaft im Allgemeinen sicher, die meisten Lebendimpfstoffe werden aber nicht empfohlen – hol dir also früh Rat.",
+    "details": "Laut NHS sind inaktivierte Impfstoffe (Totimpfstoffe) in der Schwangerschaft sicher, während die meisten Lebendimpfstoffe nicht empfohlen werden, auch wenn manche bei hohem Infektionsrisiko in Betracht gezogen werden können. Die CDC nennt MMR, Windpocken und den Typhus-Lebendimpfstoff unter den Impfstoffen, die gemieden werden sollten, während bei Gelbfieber im Einzelfall entschieden werden muss. Plane 4 bis 6 Wochen vor deiner Reise einen reisemedizinischen Beratungstermin ein.",
+    "tips": [
+      "Sag in der reisemedizinischen Beratung, dass du schwanger bist, bevor du geimpft wirst."
+    ]
+  },
+  "insect-repellent": {
+    "name": "Insektenschutzmittel (DEET)",
+    "aliases": [
+      "DEET",
+      "Mückenschutz",
+      "Mückenspray",
+      "Icaridin",
+      "Autan",
+      "Anti Brumm"
+    ],
+    "summary": "Ja, Mittel wie DEET werden in der Schwangerschaft empfohlen, wenn Insektenstiche schwere Krankheiten übertragen könnten.",
+    "details": "Laut BUMPS gibt es keine Hinweise darauf, dass Insektenschutzmittel dem Baby schaden, und es empfiehlt sie in der Schwangerschaft dort, wo Stiche Krankheiten wie Malaria oder Zika übertragen können. Gängige Wirkstoffe sind DEET, Icaridin, Zitroneneukalyptusöl und IR3535, und reisemedizinische Beratungsstellen können dir sagen, was für dein Reiseziel passt. Verwende sie wie auf dem Etikett angegeben.",
+    "tips": [
+      "Bedecke dich mit langen, weiten Ärmeln und Hosen, besonders in der Abend- und Morgendämmerung."
+    ]
+  },
+  "microwave": {
+    "name": "Mikrowelle",
+    "aliases": [
+      "Mikrowellenstrahlung",
+      "neben der Mikrowelle stehen",
+      "Essen aufwärmen",
+      "Mikrowellengerät"
+    ],
+    "summary": "Ja, eine Mikrowelle in gutem Zustand zu benutzen ist in der Schwangerschaft sicher.",
+    "details": "Laut FDA sind Mikrowellengeräte, die den Sicherheitsstandards entsprechen und nach Anleitung verwendet werden, sicher. Die WHO weist darauf hin, dass Untersuchungen zu alltäglichen elektromagnetischen Feldern kein erhöhtes Risiko für Fehlgeburten, Fehlbildungen oder andere Schwangerschaftsprobleme gefunden haben. Mikrowellen können ungleichmäßig erhitzen, achte also darauf, dass das Essen durch und durch dampfend heiß ist.",
+    "tips": [
+      "Rühr das Essen nach der Hälfte der Zeit um und lass es kurz stehen, damit es sich gleichmäßig erwärmt.",
+      "Benutze kein Gerät mit beschädigter Tür oder Dichtung."
+    ]
+  },
+  "mobile-phone-wifi": {
+    "name": "Handy, Laptop & WLAN",
+    "aliases": [
+      "Handy",
+      "Handystrahlung",
+      "WLAN",
+      "Laptop auf dem Schoß",
+      "5G",
+      "Natel"
+    ],
+    "summary": "Ja, für die alltägliche Nutzung von Handy, Laptop und WLAN ist keine Schädigung der Schwangerschaft nachgewiesen.",
+    "details": "Laut FDA haben die wissenschaftlichen Belege in ihrer Gesamtheit Funkwellen von Handys nicht mit gesundheitlichen Problemen in Verbindung gebracht. Die WHO weist darauf hin, dass für elektromagnetische Felder in üblicher Alltagsstärke, etwa von Computerbildschirmen, kein erhöhtes Risiko für Fehlgeburten, Fehlbildungen oder ein niedriges Geburtsgewicht festgestellt wurde. Ein Laptop auf dem Schoß kann warm werden, nutz für mehr Komfort also einen Tisch oder ein Kissen.",
+    "tips": [
+      "Leg dein Handy eine Stunde vor dem Schlafengehen weg, damit du besser schlafen kannst."
+    ]
+  },
+  "electric-blanket": {
+    "name": "Heizdecken & Heizkissen",
+    "aliases": [
+      "Heizdecke",
+      "Heizkissen",
+      "Wärmflasche",
+      "Wärmeunterbett",
+      "elektrische Decke"
+    ],
+    "summary": "In Ordnung, um das Bett vorzuwärmen, aber schalte sie vor dem Einschlafen aus, damit du nicht überhitzt, und nutz Heizkissen auf niedriger Stufe.",
+    "details": "Die WHO weist darauf hin, dass Heizdecken zu den alltäglichen Quellen elektromagnetischer Felder gehören, die untersucht wurden, ohne dass ein erhöhtes Risiko für die Schwangerschaft gefunden wurde. Vor allem solltest du Überhitzung vermeiden, denn MotherToBaby weist darauf hin, dass eine hohe Körpertemperatur in der Frühschwangerschaft mit Neuralrohrdefekten in Verbindung gebracht wird. Heizkissen verwendest du am besten auf niedriger Stufe, in ein Handtuch gewickelt und nur kurz.",
+    "tips": [
+      "Wärm das Bett vor und schalte die Heizdecke aus, bevor du hineingehst."
+    ]
+  },
+  "x-rays": {
+    "name": "Röntgen, auch beim Zahnarzt",
+    "aliases": [
+      "Röntgen",
+      "Zahnröntgen",
+      "Röntgenbild",
+      "Lungenröntgen",
+      "Panoramaröntgen",
+      "Mammografie"
+    ],
+    "summary": "Ja, wenn du eines brauchst: Die meisten Röntgenaufnahmen, auch beim Zahnarzt, arbeiten mit sehr niedrigen Dosen und zielen nicht auf deinen Bauch.",
+    "details": "Laut Mayo Clinic ist die Wahrscheinlichkeit, dass eine Röntgenaufnahme einem Baby schadet, sehr gering, und Aufnahmen von Zähnen, Kopf, Armen, Beinen oder Brustkorb setzen die Gebärmutter nicht direkt der Strahlung aus. Röntgenaufnahmen von Bauch oder Becken sind etwas anderes, aber die FDA weist darauf hin, dass das Risiko selbst dann sehr gering ist und oft vom Nutzen überwogen wird. Sag dem Personal immer, dass du schwanger bist, damit es das sicherste Vorgehen planen kann.",
+    "tips": [
+      "Schieb notwendige Zahnbehandlungen nicht auf und sag deiner Zahnärztin oder deinem Zahnarzt, dass du schwanger bist."
+    ]
+  },
+  "mri": {
+    "name": "MRT-Untersuchungen",
+    "aliases": [
+      "MRT",
+      "Kernspin",
+      "Kernspintomografie",
+      "Gadolinium",
+      "Kontrastmittel",
+      "MRI"
+    ],
+    "summary": "Ein MRT kann in der Schwangerschaft bei Bedarf gemacht werden, da es ohne Strahlung auskommt, Kontrastmittel wird aber nur gegeben, wenn es wirklich nötig ist.",
+    "details": "Ein MRT arbeitet mit Magneten und Radiowellen statt mit ionisierender Strahlung, und ACOG bezeichnet Ultraschall und MRT als die bildgebenden Verfahren der Wahl in der Schwangerschaft. MotherToBaby weist darauf hin, dass eine Studie mit mehr als 1.700 Schwangerschaften, in denen im ersten Trimester ein MRT gemacht wurde, keine erhöhte Wahrscheinlichkeit für Fehlbildungen fand. Kontrastmittel wird nur verwendet, wenn der erwartete Nutzen die möglichen Risiken überwiegt.",
+    "tips": [
+      "Sag dem Team in der Radiologie, dass du schwanger bist, und frag, ob Kontrastmittel nötig ist."
+    ]
+  },
+  "ct-scan": {
+    "name": "CT-Untersuchungen",
+    "aliases": [
+      "CT",
+      "Computertomografie",
+      "Computertomographie",
+      "CT mit Kontrastmittel"
+    ],
+    "summary": "Wenn ein CT medizinisch notwendig ist, sollte es nicht hinausgezögert werden – sag dem Personal aber, dass du schwanger bist, damit die Dosis niedrig gehalten werden kann.",
+    "details": "CT-Untersuchungen arbeiten mit Röntgenstrahlen, aber ACOG weist darauf hin, dass die Strahlendosis bei diagnostischer Bildgebung bis auf wenige Ausnahmen weit unter dem Wert liegt, der mit einer Schädigung des Babys in Verbindung gebracht wird, und dass notwendige Untersuchungen nicht vorenthalten werden sollten. Aufnahmen von Kopf, Brustkorb oder Gliedmaßen belasten die Gebärmutter viel weniger als Aufnahmen von Bauch oder Becken. Dein Behandlungsteam schlägt vielleicht stattdessen Ultraschall oder MRT vor, wenn sich damit die gleiche Frage beantworten lässt.",
+    "tips": [
+      "Erwähne deine Schwangerschaft jedes Mal, wenn es um Bildgebung geht – auch im Notfall."
+    ]
+  },
+  "bleach": {
+    "name": "Putzen mit Chlorreiniger",
+    "aliases": [
+      "Chlorreiniger",
+      "Bleichmittel",
+      "Chlor",
+      "DanKlorix",
+      "Schimmelspray",
+      "Ammoniak"
+    ],
+    "summary": "Verdünnten Chlorreiniger in einem gelüfteten Raum zu verwenden ist im Allgemeinen in Ordnung, aber misch ihn nie mit anderen Reinigern.",
+    "details": "Nemours KidsHealth weist unter Berufung auf March of Dimes darauf hin, dass dir bei Chemikalien wie Chlor und Ammoniak wegen des Geruchs übel werden kann, sie bei normaler Anwendung aber nicht giftig sind. Wenn Chlorreiniger mit Ammoniak oder sauren Reinigern wie Entkalkern gemischt wird, entstehen gefährliche Gase. Handschuhe und offene Fenster halten die Belastung gering.",
+    "tips": [
+      "Kombiniere Chlorreiniger nie mit anderen Produkten, vor allem nicht mit Entkalkern.",
+      "Öffne die Fenster, trag Handschuhe und spül die Flächen gut ab."
+    ]
+  },
+  "mould": {
+    "name": "Schimmel & Feuchtigkeit",
+    "aliases": [
+      "Schimmel",
+      "Schimmelpilz",
+      "schwarzer Schimmel",
+      "feuchte Wände",
+      "Kondenswasser",
+      "muffiger Geruch"
+    ],
+    "summary": "Lass Schimmel zügig entfernen, am besten von jemand anderem, und schrubbe größere Flächen nicht selbst.",
+    "details": "MotherToBaby weist darauf hin, dass Schimmel in der Schwangerschaft kaum untersucht ist, manche Schimmelarten aber Beschwerden wie eine verstopfte Nase, pfeifende Atmung oder Hautreizungen verursachen können, besonders wenn du Asthma hast. Es rät, Schimmel in deiner Wohnung so bald wie möglich entfernen zu lassen. Wenn die Ursache der Feuchtigkeit behoben wird, kommt er nicht wieder.",
+    "tips": [
+      "Lüfte die Räume täglich, besonders Küche und Bad.",
+      "Bitte jemand anderen, sichtbaren Schimmel mit Handschuhen und Maske zu entfernen."
+    ]
+  },
+  "pets": {
+    "name": "Haustiere & Hunde",
+    "aliases": [
+      "Hund",
+      "Haustiere",
+      "Katze",
+      "Welpe",
+      "Kaninchen",
+      "Schafe"
+    ],
+    "summary": "Ja, mit Hunden und anderen Haustieren zu leben ist mit guter Hygiene in Ordnung, aber beim Katzenklo und beim Ablammen ist besondere Vorsicht nötig.",
+    "details": "Die meisten Haustiere stellen in der Schwangerschaft kaum ein Risiko dar, wenn du dir die Hände wäschst, nachdem du sie, ihr Futter oder ihre Hinterlassenschaften angefasst hast. Der NHS rät, wegen Toxoplasmen keine Katzenklos zu leeren und dich vom Ablammen, vom Melken von Mutterschafen und von Kontakt mit neugeborenen Lämmern fernzuhalten. Große, stürmische Hunde können dich umwerfen, da sich dein Gleichgewicht verändert, pass also bei Spaziergängen auf.",
+    "tips": [
+      "Wasch dir die Hände, nachdem du hinter Haustieren sauber gemacht hast.",
+      "Überlass das Katzenklo jemand anderem."
+    ]
+  },
+  "pesticides": {
+    "name": "Pestizide & Insektensprays",
+    "aliases": [
+      "Pestizide",
+      "Insektenspray",
+      "Insektizid",
+      "Unkrautvernichter",
+      "Schädlingsbekämpfung",
+      "Flohmittel"
+    ],
+    "summary": "Misch oder versprüh Pestizide nicht selbst; eine professionelle Behandlung ist wahrscheinlich kein Problem, wenn du die Hinweise der Fachleute befolgst.",
+    "details": "MotherToBaby rät, in der Schwangerschaft möglichst keine Pestizide selbst anzumischen oder auszubringen. Es weist darauf hin, dass eine Behandlung deiner Wohnung durch einen professionellen Schädlingsbekämpfer wahrscheinlich nicht zu einer so hohen Belastung führt, dass die Risiken für eine Schwangerschaft steigen. Obst und Gemüse zu waschen und dir vor dem Essen die Hände zu waschen, senkt die Belastung über Lebensmittel.",
+    "tips": [
+      "Halte dich so lange aus behandelten Räumen fern, wie es auf dem Etikett steht oder die Fachkraft rät, und lüfte sie gut.",
+      "Trag Handschuhe, wenn du Haustieren Flohmittel aufträgst."
+    ]
+  },
+  "smoking": {
+    "name": "Rauchen",
+    "aliases": [
+      "Zigaretten",
+      "Tabak",
+      "Nikotin",
+      "Rauchstopp",
+      "aufhören zu rauchen",
+      "IQOS"
+    ],
+    "summary": "Meide es: Mit dem Rauchen aufzuhören ist eines der besten Dinge, die du für dein Baby tun kannst, und es ist nie zu spät dafür.",
+    "details": "Rauchen in der Schwangerschaft erhöht das Risiko für Fehlgeburt, Totgeburt, Frühgeburt und ein Baby, das nicht gut wächst, sowie für den plötzlichen Kindstod. Laut WHO sind alle Formen des Tabakkonsums schädlich, auch Tabakerhitzer. Laut NHS kann eine Nikotinersatztherapie, etwa mit Pflastern oder Kaugummis, in der Schwangerschaft verwendet werden, wenn sie dir beim Aufhören hilft.",
+    "tips": [
+      "Frag deine Hebamme oder deine Hausärztin oder deinen Hausarzt nach kostenloser Unterstützung beim Rauchstopp.",
+      "Mach deine Wohnung und dein Auto für alle rauchfrei."
+    ]
+  },
+  "vaping": {
+    "name": "Vapen & E-Zigaretten",
+    "aliases": [
+      "E-Zigarette",
+      "Vape",
+      "Dampfen",
+      "Einweg-Vape",
+      "Elf Bar",
+      "Nikotinbeutel"
+    ],
+    "summary": "In der Schwangerschaft nicht empfohlen – wenn es dir aber hilft, von Zigaretten wegzubleiben, ist es weit weniger schädlich als Rauchen.",
+    "details": "Laut BUMPS wird Vapen in der Schwangerschaft nicht empfohlen und könnte das Risiko für Frühgeburt und niedriges Geburtsgewicht erhöhen. Der NHS weist darauf hin, dass E-Zigaretten viel weniger riskant sind als Rauchen – wenn dir Vapen geholfen hat, mit Zigaretten aufzuhören, ist es also immer noch sicherer, als wieder zu rauchen. Nikotinersatz, etwa mit Pflastern oder Kaugummis, ist der empfohlene Weg zum Aufhören.",
+    "tips": [
+      "Sprich mit deiner Hebamme darüber, auf Pflaster oder Kaugummis umzusteigen, um vom Nikotin loszukommen."
+    ]
+  },
+  "second-hand-smoke": {
+    "name": "Passivrauchen",
+    "aliases": [
+      "Passivrauch",
+      "Zigarettenrauch",
+      "verrauchte Räume",
+      "Partner raucht",
+      "kalter Rauch",
+      "Thirdhand Smoke"
+    ],
+    "summary": "Meide es so gut du kannst, da der Rauch anderer das Geburtsgewicht deines Babys senken und seine Gesundheit beeinträchtigen kann.",
+    "details": "Laut NHS kann Passivrauch das Geburtsgewicht deines Babys verringern und das Risiko für den plötzlichen Kindstod erhöhen. Die WHO stellt fest, dass es kein sicheres Maß an Passivrauchbelastung gibt. Eine rauchfreie Wohnung und ein rauchfreies Auto schützen dich jetzt und dein Baby nach der Geburt.",
+    "tips": [
+      "Bitte deinen Partner oder deine Partnerin und Gäste, draußen und weg von Türen und Fenstern zu rauchen.",
+      "Wähle rauchfreie Cafés und Restaurants."
+    ]
+  },
+  "shisha": {
+    "name": "Shisha (Wasserpfeife)",
+    "aliases": [
+      "Wasserpfeife",
+      "Hookah",
+      "Nargile",
+      "Shisha Bar",
+      "Shishabar",
+      "Shisha Lounge"
+    ],
+    "summary": "Meide es: Shisha ist Tabakrauchen, und die Kohle erzeugt zusätzlich Kohlenmonoxid – halte dich also auch von Shisha-Bars fern.",
+    "details": "Die WHO zählt Wasserpfeifentabak zu den Tabakprodukten und sagt, dass alle Formen des Tabakkonsums schädlich sind, egal mit welchem Geschmack. Die Kohle, mit der die Shisha erhitzt wird, erzeugt Kohlenmonoxid, das laut MotherToBaby viel länger braucht, um aus dem Blut eines Babys zu verschwinden, als aus dem eines Erwachsenen. In verrauchten, geschlossenen Shisha-Lounges bist du außerdem Passivrauch ausgesetzt.",
+    "tips": [
+      "Triff dich mit Freundinnen und Freunden vorerst an rauchfreien Orten."
+    ]
+  },
+  "carbon-monoxide": {
+    "name": "Kohlenmonoxid (Öfen & Heizgeräte)",
+    "aliases": [
+      "Kohlenmonoxid",
+      "CO-Vergiftung",
+      "Gasheizung",
+      "Gastherme",
+      "Kohleofen",
+      "CO-Melder"
+    ],
+    "summary": "Sorg dafür, dass Öfen, Heizkessel und Warmwasserbereiter sicher sind, und installiere einen CO-Melder, da Kohlenmonoxid in der Schwangerschaft besonders schädlich ist.",
+    "details": "Kohlenmonoxid ist ein unsichtbares, geruchloses Gas, das von defekten Geräten freigesetzt wird, die Brennstoff verbrennen, etwa Öfen, Heizkessel und Gas-Durchlauferhitzer. MotherToBaby weist darauf hin, dass es, sobald es ins Blut des Babys gelangt, viel länger braucht, um wieder abgebaut zu werden, als bei Erwachsenen. Kopfschmerzen, Schwindel oder Übelkeit, die nachlassen, wenn du das Haus verlässt, können ein Warnzeichen sein.",
+    "tips": [
+      "Lass Öfen, Schornsteine und Warmwasserbereiter jedes Jahr überprüfen.",
+      "Wenn du Kohlenmonoxid vermutest, geh an die frische Luft und hol dir sofort ärztliche Hilfe."
+    ]
+  }
+}

@@ -28,6 +28,10 @@ import { fonts } from '@/theme/typography';
 const LANGUAGE_NAME: Record<string, string> = {
   en: 'English',
   tr: 'Turkish',
+  es: 'Spanish',
+  de: 'German',
+  fr: 'French',
+  pt: 'Brazilian Portuguese',
 };
 
 const makeId = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;

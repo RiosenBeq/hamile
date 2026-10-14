@@ -1,0 +1,154 @@
+{
+  "take-pregnancy-test": {
+    "title": "Einen Schwangerschaftstest machen",
+    "detail": "Die meisten Tests sind ab dem ersten Tag der ausgebliebenen Periode zuverlässig. Wenn er negativ ist, deine Periode aber trotzdem nicht kommt, teste ein paar Tage später noch einmal."
+  },
+  "start-folic-acid": {
+    "title": "Jeden Tag Folsäure nehmen",
+    "detail": "400 Mikrogramm am Tag, idealerweise schon vor der Empfängnis bis Woche 12. In manchen Situationen kann deine Ärztin / dein Arzt eine höhere Dosis empfehlen."
+  },
+  "review-medicines": {
+    "title": "Medikamente und Nahrungsergänzungsmittel prüfen",
+    "detail": "Frag eine Ärztin / einen Arzt oder in der Apotheke, bevor du etwas beginnst oder absetzt, und meide Nahrungsergänzungsmittel mit Vitamin A (Retinol)."
+  },
+  "stop-alcohol-and-smoking": {
+    "title": "Mit Alkohol und Rauchen aufhören",
+    "detail": "Für Alkohol ist in der Schwangerschaft keine Menge als sicher bekannt. Wenn du rauchst, frag deine Ärztin / deinen Arzt oder deine Hebamme nach Unterstützung beim Aufhören."
+  },
+  "limit-caffeine": {
+    "title": "Unter 200 mg Koffein am Tag bleiben",
+    "detail": "Das sind etwa zwei Becher Instantkaffee. Auch Tee, Cola, Energydrinks und Schokolade enthalten Koffein."
+  },
+  "learn-food-safety": {
+    "title": "Lernen, welche Lebensmittel du meiden solltest",
+    "detail": "Zum Beispiel nicht pasteurisierte Milchprodukte, rohes oder nicht durchgegartes Fleisch, Leber und Fisch mit hohem Quecksilbergehalt wie Hai und Schwertfisch."
+  },
+  "book-first-appointment": {
+    "title": "Ersten Vorsorgetermin vereinbaren",
+    "detail": "Dieser Termin, oft Erstuntersuchung genannt, findet meist zwischen Woche 8 und 12 statt. Dabei geht es um deine Krankengeschichte, Tests und deine Betreuungsmöglichkeiten."
+  },
+  "ask-about-vitamin-d": {
+    "title": "Nach Vitamin D fragen",
+    "detail": "Vielen wird empfohlen, in der Schwangerschaft täglich ein Vitamin-D-Präparat zu nehmen. Die empfohlenen Mengen unterscheiden sich je nach Land."
+  },
+  "first-blood-tests": {
+    "title": "Erste Blutuntersuchungen machen lassen",
+    "detail": "Dabei werden meist deine Blutgruppe und dein Rhesusfaktor (Rh D), deine Eisenwerte und Infektionen wie HIV, Hepatitis B und Syphilis geprüft."
+  },
+  "flu-and-covid-vaccines": {
+    "title": "Nach Grippe- und COVID-19-Impfung fragen",
+    "detail": "Die Grippeimpfung kann während der Grippesaison in jeder Phase der Schwangerschaft gegeben werden. Frag nach, ob eine COVID-19-Impfung für dich empfohlen wird."
+  },
+  "decide-on-screening": {
+    "title": "Über Screening-Tests entscheiden",
+    "detail": "Dir werden vielleicht der kombinierte Test (etwa Woche 10 bis 14) oder ein NIPT (ab Woche 10) angeboten. Ob du ein Screening machen lässt, ist deine Entscheidung."
+  },
+  "dating-scan": {
+    "title": "Ultraschall zur Terminbestimmung",
+    "detail": "Meist zwischen Woche 10 und 14; dabei wird die Entwicklung deines Babys geprüft und dein Geburtstermin bestätigt."
+  },
+  "dental-check-up": {
+    "title": "Zahnärztliche Kontrolle vereinbaren",
+    "detail": "Zahnfleischprobleme sind in der Schwangerschaft häufig. Sag in der Zahnarztpraxis Bescheid, dass du schwanger bist."
+  },
+  "pelvic-floor-exercises": {
+    "title": "Mit täglichen Beckenbodenübungen beginnen",
+    "detail": "Spann die Muskeln an, mit denen du Urin zurückhältst, und zieh sie nach oben, halte ein paar Sekunden und entspann dann. Das hilft, Urinverlust jetzt und nach der Geburt vorzubeugen."
+  },
+  "whooping-cough-vaccine": {
+    "title": "Nach der Keuchhusten-Impfung fragen",
+    "detail": "Wird im Vereinigten Königreich meist zwischen Woche 16 und 32 gegeben, in den USA in Woche 27–36. Sie hilft, dein Baby in den ersten Lebenswochen zu schützen."
+  },
+  "choose-birth-place": {
+    "title": "Überlegen, wo du entbinden möchtest",
+    "detail": "Möglichkeiten wie Klinik, Geburtshaus oder Hausgeburt sind je nach Region unterschiedlich. Du kannst deine Meinung später noch ändern."
+  },
+  "maternity-leave-rights": {
+    "title": "Über Mutterschutz und Mutterschaftsgeld informieren",
+    "detail": "Regeln und Fristen unterscheiden sich je nach Land und Arbeitgeber. Notier dir, wann du deinen Arbeitgeber informieren und Leistungen beantragen musst."
+  },
+  "anomaly-scan": {
+    "title": "Organscreening (Fehlbildungsultraschall) machen lassen",
+    "detail": "Dieser ausführliche Ultraschall, meist etwa zwischen Woche 18 und 22, prüft, wie dein Baby wächst und sich entwickelt."
+  },
+  "pregnancy-certificate": {
+    "title": "Schwangerschaftsbescheinigung für die Arbeit besorgen",
+    "detail": "Manche Arbeitgeber und Leistungsträger brauchen eine Bescheinigung deiner Ärztin / deines Arztes oder deiner Hebamme, zum Beispiel das Formular MAT B1 im Vereinigten Königreich."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Warnzeichen einer Präeklampsie kennen",
+    "detail": "Starke Kopfschmerzen, Sehstörungen, Schmerzen direkt unter den Rippen oder plötzliche Schwellungen im Gesicht, an Händen oder Füßen müssen dringend abgeklärt werden."
+  },
+  "book-antenatal-classes": {
+    "title": "Geburtsvorbereitungskurs buchen",
+    "detail": "Kurse zu Wehen, Geburt und Ernährung des Babys können dir helfen, dich vorbereitet zu fühlen. Beliebte Kurse sind früh ausgebucht."
+  },
+  "glucose-test": {
+    "title": "Zuckertest auf Schwangerschaftsdiabetes",
+    "detail": "Wird oft zwischen Woche 24 und 28 gemacht – je nach Wohnort bei allen oder nur bei Risikofaktoren."
+  },
+  "know-baby-movements": {
+    "title": "Die Bewegungen deines Babys kennenlernen",
+    "detail": "Es gibt keine feste Anzahl an Tritten, die du zählen musst. Wenn die Bewegungen weniger werden, sich verändern oder aufhören, ruf sofort deine Geburtsklinik an."
+  },
+  "partner-leave": {
+    "title": "Freistellung für Partner/in klären",
+    "detail": "Wenn dein Partner / deine Partnerin rund um die Geburt freinehmen möchte, muss das eventuell bis zu einem bestimmten Datum beim Arbeitgeber angemeldet werden."
+  },
+  "baby-essentials-list": {
+    "title": "Eine Liste der Baby-Grundausstattung machen",
+    "detail": "Fang mit einem sicheren Schlafplatz, einer Babyschale fürs Auto, Kleidung, Windeln und Zubehör zum Füttern an. Geliehene Sachen sind in Ordnung, aber nimm wenn möglich eine neue Matratze."
+  },
+  "anti-d-if-rh-negative": {
+    "title": "Anti-D, wenn du Rh(D)-negativ bist",
+    "detail": "Wenn deine Blutgruppe Rh(D)-negativ ist, werden dir möglicherweise Anti-D-Spritzen angeboten, oft um Woche 28."
+  },
+  "rsv-vaccine": {
+    "title": "Nach der RSV-Impfung fragen",
+    "detail": "Im Vereinigten Königreich ab Woche 28 angeboten, in den USA in Woche 32 bis 36 während der RSV-Saison. Sie hilft, dein Baby in den ersten Lebensmonaten zu schützen."
+  },
+  "sleep-on-side": {
+    "title": "Auf der Seite einschlafen",
+    "detail": "Ab Woche 28 ist Schlafen auf der Seite am sichersten für dein Baby – auch beim Mittagsschlaf. Wenn du auf dem Rücken aufwachst, dreh dich einfach auf die Seite."
+  },
+  "safe-sleep-space": {
+    "title": "Einen sicheren Schlafplatz vorbereiten",
+    "detail": "Ein Babybett oder Stubenwagen mit fester, flacher, gut passender Matratze und ohne Kissen, Nestchen oder Bettdecken."
+  },
+  "feeding-plan": {
+    "title": "Über das Füttern deines Babys nachdenken",
+    "detail": "Informier dich über Stillen, Fläschchen oder beides – und darüber, wo du in den ersten Tagen Unterstützung findest."
+  },
+  "write-birth-plan": {
+    "title": "Deinen Geburtsplan schreiben",
+    "detail": "Notier deine Wünsche zu Schmerzlinderung, Begleitpersonen und den ersten Stunden nach der Geburt und teile ihn mit deiner Hebamme oder deiner Ärztin / deinem Arzt."
+  },
+  "save-key-contacts": {
+    "title": "Wichtige Nummern speichern und den Weg planen",
+    "detail": "Speichere die Kontaktdaten deiner Geburtsklinik, deiner Begleitperson und deiner Fahrtmöglichkeit im Handy und auf Papier. Es ist nicht sicher, während der Wehen selbst Auto zu fahren."
+  },
+  "install-car-seat": {
+    "title": "Babyschale einbauen",
+    "detail": "Wähle einen rückwärtsgerichteten Sitz, der zum Gewicht deines Babys passt, bau ihn rechtzeitig ein und übe, ihn ein- und auszubauen."
+  },
+  "pack-hospital-bag": {
+    "title": "Kliniktasche packen",
+    "detail": "Denk an deine Unterlagen, bequeme Kleidung, Nachtwäsche, Wochenbetteinlagen, Snacks, ein Ladekabel, Babykleidung und Windeln."
+  },
+  "group-b-strep": {
+    "title": "Nach B-Streptokokken fragen",
+    "detail": "In den USA wird meist zwischen Woche 36 und 38 getestet; im Vereinigten Königreich ist das keine Routine. Frag nach, was für dich gilt."
+  },
+  "learn-labour-signs": {
+    "title": "Die Anzeichen der Geburt kennenlernen",
+    "detail": "Regelmäßige Wehen, Zeichnungsblutung, Rückenschmerzen oder ein Blasensprung. Kläre, wann deine Geburtsklinik möchte, dass du anrufst."
+  },
+  "postnatal-support-plan": {
+    "title": "Unterstützung für die Zeit nach der Geburt planen",
+    "detail": "Denk an Mahlzeiten, Hilfe im Haushalt und daran, wen du anrufen kannst. Lerne die Anzeichen einer postpartalen Depression kennen – sie kann jede und jeden treffen."
+  },
+  "past-due-date-options": {
+    "title": "Über das Überschreiten des Termins sprechen",
+    "detail": "Frag nach Eipollösung, Geburtseinleitung und zusätzlicher Überwachung, damit du deine Möglichkeiten kennst, bevor du 41 Wochen erreichst."
+  }
+}

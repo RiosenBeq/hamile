@@ -1,12 +1,13 @@
 // About Marigold — how content is written and sourced, how the calculators
 // work, the medical disclaimer, and legal links (App Review 1.4.1 / 3.1.2).
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Linking, Pressable, Text, View } from 'react-native';
 import { Icon } from '@/components/Icon';
 import { Body, Eyebrow, H1, NavBar, Page, Surface } from '@/components/ui';
-import { APPLE_EULA_URL, PRIVACY_URL, SUPPORT_URL, TERMS_URL } from '@/lib/links';
-import { useT } from '@/i18n';
+import { APPLE_EULA_URL, siteUrl } from '@/lib/links';
+import { getSafetyItem, LOCAL_SAFETY_IDS } from '@/content';
+import { useLang, useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -21,8 +22,24 @@ const SOURCES: { name: string; url: string }[] = [
   { name: 'T.C. Sağlık Bakanlığı — Doğum öncesi bakım rehberi', url: 'https://hsgm.saglik.gov.tr/tr/' },
 ];
 
+/** National bodies cited by the market-specific items for this language. */
+function localSources(lang: string): { name: string; url: string }[] {
+  const seen = new Set<string>();
+  const out: { name: string; url: string }[] = [];
+  for (const id of LOCAL_SAFETY_IDS[lang as keyof typeof LOCAL_SAFETY_IDS] ?? []) {
+    for (const s of getSafetyItem(id)?.sources ?? []) {
+      if (seen.has(s.url)) continue;
+      seen.add(s.url);
+      out.push(s);
+    }
+  }
+  return out.slice(0, 6);
+}
+
 export default function About() {
   const t = useT();
+  const lang = useLang();
+  const sources = useMemo(() => [...SOURCES, ...localSources(lang)], [lang]);
 
   const LinkRow = ({ label, url }: { label: string; url: string }) => (
     <Pressable onPress={() => Linking.openURL(url).catch(() => {})} style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 8 }} accessibilityRole="link">
@@ -54,15 +71,15 @@ export default function About() {
         </Surface>
         <Surface>
           <Eyebrow style={{ marginBottom: 4 }}>{t('ab.sources')}</Eyebrow>
-          {SOURCES.map((s) => (
+          {sources.map((s) => (
             <LinkRow key={s.url} label={s.name} url={s.url} />
           ))}
         </Surface>
         <Surface>
-          <LinkRow label={t('ab.privacy')} url={PRIVACY_URL} />
-          <LinkRow label={t('ab.terms')} url={TERMS_URL} />
+          <LinkRow label={t('ab.privacy')} url={siteUrl('privacy', lang)} />
+          <LinkRow label={t('ab.terms')} url={siteUrl('terms', lang)} />
           <LinkRow label="Apple Standard EULA" url={APPLE_EULA_URL} />
-          <LinkRow label={t('ab.contact')} url={SUPPORT_URL} />
+          <LinkRow label={t('ab.contact')} url={siteUrl('support', lang)} />
         </Surface>
       </View>
     </Page>

@@ -1,0 +1,1920 @@
+{
+  "migraine": {
+    "name": "Tratamiento de la migraña",
+    "aliases": [
+      "migraña",
+      "jaqueca",
+      "pastillas para el dolor de cabeza",
+      "sumatriptán",
+      "topiramato",
+      "propranolol"
+    ],
+    "summary": "Muchos tratamientos para la migraña pueden usarse en el embarazo, pero otros no, así que haz un plan con tu médico desde el principio.",
+    "details": "El paracetamol puede usarse durante todo el embarazo, y los triptanes como el sumatriptán pueden mantenerse si te funcionan bien, mientras que los antiinflamatorios no esteroideos (AINE) deben evitarse a partir de la semana 20. BUMPS señala que algunos medicamentos preventivos, como el valproato sódico y el topiramato, se evitan en el embarazo, mientras que otros, como el propranolol o la amitriptilina, sí pueden usarse. Si tomas un preventivo a diario, pide a tu médico que lo revise con urgencia.",
+    "tips": [
+      "Si tienes un dolor de cabeza fuerte o repentino, o acompañado de cambios en la vista o hinchazón, haz que te lo revisen con urgencia.",
+      "No dejes un medicamento recetado sin hablarlo antes con tu médico.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "antidepressants": {
+    "name": "Antidepresivos",
+    "aliases": [
+      "sertralina",
+      "Zoloft",
+      "fluoxetina",
+      "Prozac",
+      "escitalopram",
+      "medicamentos para la ansiedad"
+    ],
+    "summary": "No los dejes de golpe: muchos antidepresivos se usan en el embarazo, así que valora con tu médico los beneficios y los riesgos.",
+    "details": "El NHS indica que algunos antidepresivos pueden tomarse en el embarazo; la sertralina, por ejemplo, puede usarse si es necesario. Dejar los antidepresivos debe hacerse de forma gradual y con la ayuda de tu médico para evitar síntomas de retirada, y una depresión o ansiedad sin tratar puede afectarte tanto a ti como a tu bebé. Tu médico puede ayudarte a valorar las opciones y quizá ajustar tu tratamiento.",
+    "tips": [
+      "Cuéntale a tu matrona cómo te sientes: el apoyo emocional forma parte de tu atención.",
+      "No dejes un medicamento recetado sin hablarlo antes con tu médico.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "thyroid-medication": {
+    "name": "Medicación para la tiroides (levotiroxina)",
+    "aliases": [
+      "levotiroxina",
+      "tiroxina",
+      "Eutirox",
+      "Synthroid",
+      "hipotiroidismo",
+      "tiroides"
+    ],
+    "summary": "Sigue tomándola: la levotiroxina puede tomarse en el embarazo, aunque quizá haya que ajustar la dosis con análisis de sangre adicionales.",
+    "details": "La hormona tiroidea es importante para el desarrollo de tu bebé, y el NHS indica que la levotiroxina puede tomarse durante el embarazo si es necesaria. Puede que necesites análisis de sangre más frecuentes y un cambio de dosis, idealmente en cuanto se confirme el embarazo. Los suplementos de calcio y de hierro pueden interferir con la levotiroxina, así que tómalos en momentos distintos.",
+    "tips": [
+      "Avisa a tu médico en cuanto sepas que estás embarazada.",
+      "No dejes un medicamento recetado sin hablarlo antes con tu médico.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "insulin": {
+    "name": "Insulina",
+    "aliases": [
+      "NovoRapid",
+      "Humalog",
+      "Lantus",
+      "diabetes gestacional",
+      "diabetes tipo 1",
+      "inyecciones para la diabetes"
+    ],
+    "summary": "Sigue usándola: la insulina se usa ampliamente para la diabetes en el embarazo, y tu equipo irá ajustando las dosis.",
+    "details": "La insulina se usa para tratar la diabetes tipo 1, tipo 2 y gestacional en el embarazo, y BUMPS señala que reduce los riesgos asociados a un mal control del azúcar en sangre, como el aborto espontáneo, un bebé muy grande y complicaciones en el parto. Las dosis suelen cambiar a medida que avanza el embarazo. El NHS señala que un control más estricto puede suponer más hipoglucemias, que no son perjudiciales para el bebé pero hay que saber manejarlas.",
+    "tips": [
+      "Lleva siempre contigo algo para tratar una hipoglucemia y asegúrate de que tu pareja sepa qué hacer.",
+      "No dejes un medicamento recetado sin hablarlo antes con tu médico.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "nasal-steroid-spray": {
+    "name": "Sprays nasales con corticoides",
+    "aliases": [
+      "beclometasona",
+      "fluticasona",
+      "Avamys",
+      "mometasona",
+      "Nasonex",
+      "spray nasal para la alergia"
+    ],
+    "summary": "Por lo general no hay problema en el embarazo, porque llega muy poca cantidad a la sangre, pero consulta antes con un farmacéutico.",
+    "details": "El NHS indica que el spray nasal de beclometasona es seguro en el embarazo porque muy poca cantidad del medicamento pasa a la sangre y casi nada llega al bebé. Mayo Clinic señala que pueden recomendarse sprays de corticoides como la fluticasona o la mometasona para síntomas de alergia de moderados a graves. Usa la dosis más baja que controle tus síntomas.",
+    "tips": [
+      "El propio embarazo puede causar congestión nasal, así que coméntalo si no mejora.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "hemorrhoid-cream": {
+    "name": "Cremas para las hemorroides (almorranas)",
+    "aliases": [
+      "hemorroides",
+      "almorranas",
+      "pomada para hemorroides",
+      "Preparation H",
+      "Hemoal",
+      "supositorios"
+    ],
+    "summary": "La mayoría de las cremas para las hemorroides pueden usarse durante periodos cortos en el embarazo, pero consulta antes con un farmacéutico.",
+    "details": "Las hemorroides son frecuentes en el embarazo y a menudo están relacionadas con el estreñimiento. El NHS indica que las cremas, pomadas y supositorios con hidrocortisona para las hemorroides pueden usarse en el embarazo, ya que solo una pequeña cantidad pasa a la sangre. BUMPS señala que no hay pruebas de que los tratamientos disponibles supongan un riesgo para el bebé.",
+    "tips": [
+      "La fibra, beber suficiente líquido y no hacer fuerza ayudan a evitar que las hemorroides vuelvan.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "thrush-treatment": {
+    "name": "Tratamiento de la candidiasis (clotrimazol)",
+    "aliases": [
+      "candidiasis vaginal",
+      "hongos vaginales",
+      "clotrimazol",
+      "Canesten",
+      "óvulos vaginales",
+      "fluconazol"
+    ],
+    "summary": "Las cremas y los óvulos vaginales como el clotrimazol se usan en el embarazo, pero evita las pastillas para la candidiasis y consulta antes con tu médico o tu matrona.",
+    "details": "La candidiasis es frecuente en el embarazo y no es perjudicial para el bebé. El NHS aconseja acudir al médico de familia o a la matrona antes de tratarla e indica que puede tratarse con una crema o un óvulo vaginal de clotrimazol, mientras que las pastillas contra la candidiasis, como el fluconazol, no deben tomarse en el embarazo. Mayo Clinic señala que los tratamientos vaginales de siete días suelen funcionar mejor.",
+    "tips": [
+      "Consulta cualquier flujo nuevo o picor, ya que otras infecciones pueden parecerse.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "lice-treatment": {
+    "name": "Tratamiento contra los piojos",
+    "aliases": [
+      "piojos",
+      "liendres",
+      "champú antipiojos",
+      "dimeticona",
+      "permetrina",
+      "lendrera"
+    ],
+    "summary": "El peinado en húmedo es la primera opción, y los tratamientos físicos como la dimeticona también pueden usarse en el embarazo.",
+    "details": "Las guías del Reino Unido sugieren que las embarazadas usen el peinado en húmedo con acondicionador y un peine de púas finas, lo que evita por completo los productos químicos. BUMPS indica que los tratamientos físicos como la dimeticona actúan recubriendo los piojos y no pasan a la sangre en cantidades que puedan afectar al bebé. Los insecticidas químicos como el malatión es mejor reservarlos para cuando otros métodos no hayan funcionado.",
+    "tips": [
+      "Revisa y trata a todas las personas de la casa al mismo tiempo.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "anti-sickness": {
+    "name": "Medicamentos contra las náuseas",
+    "aliases": [
+      "náuseas",
+      "vómitos",
+      "Cariban",
+      "ondansetrón",
+      "metoclopramida",
+      "hiperémesis"
+    ],
+    "summary": "Varios se recetan de forma segura en el embarazo, así que si las náuseas afectan a tu día a día, pregunta a tu médico por un tratamiento.",
+    "details": "Las náuseas y los vómitos afectan a la mayoría de las embarazadas, y BUMPS señala que hay varios medicamentos que pueden usarse de forma segura cuando los cambios en el estilo de vida no bastan. Los vómitos intensos, cuando no consigues retener la comida ni los líquidos, pueden ser hiperémesis gravídica y necesitan atención médica sin demora. No tienes por qué aguantarlo sin más, y pedir ayuda pronto hace que sea más fácil de controlar.",
+    "tips": [
+      "Comer poco y a menudo y beber a sorbos con frecuencia puede ayudar.",
+      "Busca ayuda si no consigues retener comida ni líquidos durante 24 horas.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "prescription-medicines": {
+    "name": "Medicamentos con receta",
+    "aliases": [
+      "receta",
+      "medicación habitual",
+      "medicación crónica",
+      "medicación para la epilepsia",
+      "medicación para la tensión",
+      "inhalador para el asma"
+    ],
+    "summary": "Pregunta antes de empezar, dejar o cambiar cualquier medicamento recetado, y nunca dejes uno de golpe por tu cuenta.",
+    "details": "La mayoría de los medicamentos atraviesan la placenta, por eso el NHS aconseja consultar con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento en el embarazo. Pero dejar un medicamento que te mantiene bien, como uno para la epilepsia, el asma o la tensión alta, puede ser más perjudicial que seguir tomándolo. Lo ideal es revisar los medicamentos de uso prolongado antes de intentar el embarazo o en cuanto sepas que estás embarazada.",
+    "tips": [
+      "Dile a cada médico, dentista y farmacéutico que estás embarazada.",
+      "No dejes un medicamento recetado sin hablarlo antes con tu médico.",
+      "Consulta con tu médico, tu matrona o tu farmacéutico antes de tomar cualquier medicamento."
+    ]
+  },
+  "flu-vaccine": {
+    "name": "Vacuna de la gripe",
+    "aliases": [
+      "vacuna contra la gripe",
+      "vacuna antigripal",
+      "vacuna de la influenza",
+      "influenza",
+      "gripe"
+    ],
+    "summary": "Sí, la vacuna de la gripe se recomienda en el embarazo y ayuda a protegerte a ti y a tu recién nacido.",
+    "details": "Las embarazadas tienen más probabilidades de sufrir complicaciones por la gripe, como una neumonía, y de necesitar ingreso hospitalario. El NHS recomienda la vacuna inactivada de la gripe en el embarazo, y BUMPS señala que se ha estudiado a miles de embarazadas vacunadas sin que surgieran motivos de preocupación para el bebé. Los anticuerpos también atraviesan la placenta y ayudan a proteger a tu bebé en sus primeras semanas.",
+    "tips": [
+      "Pregunta a tu matrona, tu médico de familia o tu farmacéutico en cuanto empiece la temporada de gripe."
+    ]
+  },
+  "whooping-cough-vaccine": {
+    "name": "Vacuna de la tos ferina (dTpa)",
+    "aliases": [
+      "tos ferina",
+      "tosferina",
+      "tos convulsa",
+      "coqueluche",
+      "Tdap",
+      "Boostrix"
+    ],
+    "summary": "Sí, se recomienda en cada embarazo para proteger a tu bebé en sus primeras semanas de vida.",
+    "details": "La tos ferina puede ser muy grave en los bebés pequeños. Vacunarte en el embarazo te permite pasar anticuerpos a tu bebé hasta que pueda recibir sus propias vacunas. En el Reino Unido se ofrece a partir de la semana 16, normalmente hacia la semana 20, mientras que las guías de EE. UU. la recomiendan entre las semanas 27 y 36.",
+    "tips": [
+      "Pregunta a tu matrona o a tu médico de familia cuándo te toca."
+    ]
+  },
+  "rsv-vaccine": {
+    "name": "Vacuna del VRS",
+    "aliases": [
+      "Abrysvo",
+      "virus respiratorio sincitial",
+      "VRS",
+      "RSV",
+      "vacuna de la bronquiolitis",
+      "bronquiolitis"
+    ],
+    "summary": "Sí, se recomienda en el embarazo para proteger a tu bebé de una enfermedad grave por VRS en sus primeros meses.",
+    "details": "El VRS (virus respiratorio sincitial) es un virus común que puede causar infecciones pulmonares graves, como la bronquiolitis, en los bebés pequeños. Vacunarte en el embarazo transmite protección a tu bebé durante aproximadamente sus primeros 6 meses. El Reino Unido la ofrece a partir de la semana 28 en cualquier época del año, mientras que en EE. UU. el ACOG la recomienda entre las semanas 32 y 36 durante la temporada del VRS.",
+    "tips": [
+      "Pregunta a tu matrona si se ofrece donde vives, y cuándo."
+    ]
+  },
+  "folic-acid": {
+    "name": "Ácido fólico",
+    "aliases": [
+      "acido folico",
+      "folato",
+      "vitamina B9",
+      "metilfolato",
+      "tubo neural",
+      "espina bífida"
+    ],
+    "summary": "Sí, se recomienda: toma 400 microgramos al día desde antes de la concepción hasta la semana 12 de embarazo.",
+    "details": "El ácido fólico reduce la probabilidad de defectos del tubo neural, como la espina bífida. El NHS recomienda 400 microgramos al día mientras intentas concebir y hasta la semana 12 de embarazo, y algunas mujeres, como las que tienen diabetes o antecedentes familiares de defectos del tubo neural, necesitan una dosis más alta recetada por un médico. Si no lo tomaste antes de concebir, empieza en cuanto sepas que estás embarazada.",
+    "tips": [
+      "Los multivitamínicos para el embarazo suelen llevar la cantidad adecuada, así que revisa la etiqueta.",
+      "Pregunta a tu médico de familia si podrías necesitar la dosis más alta."
+    ]
+  },
+  "vitamin-d": {
+    "name": "Vitamina D",
+    "aliases": [
+      "vitamina D3",
+      "colecalciferol",
+      "vitamina del sol",
+      "gotas de vitamina D"
+    ],
+    "summary": "Sí: en el Reino Unido se aconsejan 10 microgramos al día, al menos de octubre a marzo, y todo el año si te da poco el sol.",
+    "details": "La vitamina D ayuda a que se desarrollen los huesos y los dientes de tu bebé. El NHS recomienda un suplemento diario de 10 microgramos en otoño e invierno, y durante todo el año si sueles cubrirte la mayor parte de la piel al aire libre, pasas mucho tiempo en interiores o tienes la piel más oscura. No tomes más de 100 microgramos al día, ya que un exceso puede ser perjudicial.",
+    "tips": [
+      "Muchos multivitamínicos para el embarazo ya incluyen vitamina D, así que no la dupliques.",
+      "Pregunta a tu matrona o a tu médico si no sabes cuánta necesitas."
+    ]
+  },
+  "iron": {
+    "name": "Suplementos de hierro",
+    "aliases": [
+      "pastillas de hierro",
+      "sulfato ferroso",
+      "fumarato ferroso",
+      "falta de hierro",
+      "anemia",
+      "ferropenia"
+    ],
+    "summary": "Tómalos si te los recomiendan: en el embarazo necesitas más hierro, y tenerlo bajo es frecuente y tiene tratamiento.",
+    "details": "El hierro ayuda a fabricar glóbulos rojos para ti y para tu bebé, y tener niveles bajos puede dejarte muy cansada. En el Reino Unido, el hierro se controla con los análisis de sangre rutinarios y se recomiendan suplementos si los niveles están bajos, mientras que en EE. UU. las vitaminas prenatales suelen incluir hierro de forma rutinaria. Las pastillas de hierro pueden causar estreñimiento, así que avisa a tu matrona si te sientan mal al estómago.",
+    "tips": [
+      "Tómalo en un momento distinto al del té, el café y los antiácidos.",
+      "Guarda las pastillas de hierro bien fuera del alcance de los niños."
+    ]
+  },
+  "prenatal-vitamins": {
+    "name": "Multivitamínicos para el embarazo",
+    "aliases": [
+      "vitaminas prenatales",
+      "vitaminas para el embarazo",
+      "Elevit",
+      "Natalben",
+      "Materna",
+      "multivitamínico"
+    ],
+    "summary": "Sí, un multivitamínico específico para el embarazo es una forma sencilla de tomar ácido fólico y vitamina D, pero evita los que llevan retinol.",
+    "details": "El NHS recomienda ácido fólico y vitamina D en el embarazo, y los multivitamínicos para el embarazo están pensados para aportarlos sin demasiada vitamina A. Los multivitamínicos normales pueden contener retinol (vitamina A), que en dosis altas puede perjudicar el desarrollo del bebé. Una dieta sana y variada sigue siendo la principal fuente de nutrientes.",
+    "tips": [
+      "Busca en la etiqueta si lleva vitamina A en forma de retinol, y no tomes dos multivitamínicos a la vez."
+    ]
+  },
+  "vitamin-a": {
+    "name": "Suplementos de vitamina A (retinol)",
+    "aliases": [
+      "vitamina A",
+      "retinol",
+      "palmitato de retinilo",
+      "vitamina A en dosis altas",
+      "betacaroteno"
+    ],
+    "summary": "Evita los suplementos que contienen vitamina A en forma de retinol, ya que un exceso puede perjudicar el desarrollo de tu bebé.",
+    "details": "Una ingesta alta de vitamina A en forma de retinol se ha relacionado con defectos congénitos, por eso el NHS desaconseja los suplementos de vitamina A en el embarazo y recomienda revisar siempre las etiquetas. El betacaroteno, la forma que se encuentra en las zanahorias y otras verduras de color naranja, no supone la misma preocupación. El hígado y el aceite de hígado de bacalao también son muy ricos en retinol.",
+    "tips": [
+      "Revisa la etiqueta de cada suplemento, incluidas las vitaminas para el pelo y la piel, por si llevan retinol."
+    ]
+  },
+  "fish-oil": {
+    "name": "Aceite de pescado y omega-3",
+    "aliases": [
+      "omega-3",
+      "omega 3",
+      "cápsulas de aceite de pescado",
+      "DHA",
+      "aceite de algas",
+      "aceite de krill"
+    ],
+    "summary": "El aceite de pescado por lo general no da problemas, pero evita el aceite de hígado de pescado, como el de hígado de bacalao, que es rico en vitamina A.",
+    "details": "El NHS desaconseja el aceite de hígado de bacalao y otros suplementos que contienen vitamina A (retinol) en el embarazo. Los suplementos de omega-3 elaborados con aceite del cuerpo del pescado o con algas no tienen este problema, aunque comer pescado azul dentro de los límites recomendados es la principal forma de obtener omega-3. Elige una marca de confianza y revisa en la etiqueta si lleva vitamina A.",
+    "tips": [
+      "Si no comes pescado, pregunta a tu matrona por un omega-3 a base de algas."
+    ]
+  },
+  "cod-liver-oil": {
+    "name": "Aceite de hígado de bacalao",
+    "aliases": [
+      "aceite de higado de bacalao",
+      "aceite de hígado de pescado",
+      "aceite de hígado de fletán",
+      "aceite de hígado de tiburón",
+      "Emulsión de Scott"
+    ],
+    "summary": "Evítalo en el embarazo, porque es rico en vitamina A (retinol), que puede perjudicar el desarrollo de tu bebé.",
+    "details": "El NHS desaconseja específicamente tomar aceite de hígado de bacalao en el embarazo por su alto contenido en vitamina A. Un exceso de retinol se ha relacionado con defectos congénitos. Si quieres un suplemento de omega-3, elige uno elaborado con aceite del cuerpo del pescado o con algas.",
+    "tips": [
+      "Revisa los suplementos familiares e infantiles que tengas en casa antes de tomarlos."
+    ]
+  },
+  "magnesium": {
+    "name": "Magnesio",
+    "aliases": [
+      "citrato de magnesio",
+      "bisglicinato de magnesio",
+      "óxido de magnesio",
+      "calambres en las piernas",
+      "magnesio en spray"
+    ],
+    "summary": "Lo primero es la alimentación; es poco probable que un suplemento de magnesio en dosis moderadas cause daño, pero consúltalo con tu matrona.",
+    "details": "El magnesio está en las verduras de hoja verde, los frutos secos, las semillas y los cereales integrales, y la mayoría de las personas pueden obtener suficiente con una dieta variada. El NHS indica que es poco probable que los suplementos de magnesio en dosis moderadas causen daño, mientras que las dosis altas pueden provocar diarrea. A veces se sugiere para los calambres en las piernas, así que habla con tu matrona sobre si es adecuado para ti.",
+    "tips": [
+      "Cuéntale a tu matrona todos los suplementos que tomes, incluidos sprays y polvos."
+    ]
+  },
+  "calcium": {
+    "name": "Suplementos de calcio",
+    "aliases": [
+      "calcio",
+      "carbonato de calcio",
+      "citrato de calcio",
+      "calcio y vitamina D"
+    ],
+    "summary": "Obtén el calcio de los alimentos siempre que puedas; los suplementos ayudan si tomas poco o si tu médico te los recomienda.",
+    "details": "El calcio ayuda a formar los huesos y los dientes de tu bebé, y los lácteos, las bebidas vegetales enriquecidas, el tahini y las verduras de hoja verde son buenas fuentes. La OMS recomienda suplementos de calcio en el embarazo a las mujeres cuya dieta es pobre en calcio, para ayudar a reducir el riesgo de preeclampsia. Consulta con tu matrona antes de tomar dosis altas.",
+    "tips": [
+      "El yogur, el ayran, el queso y el tahini son formas fáciles de sumar calcio."
+    ]
+  },
+  "iodine": {
+    "name": "Yodo",
+    "aliases": [
+      "yoduro potásico",
+      "yoduro de potasio",
+      "kelp",
+      "suplemento de algas",
+      "sal yodada"
+    ],
+    "summary": "En el embarazo necesitas más yodo, pero los consejos varían: el Reino Unido dice que lo obtengas de los alimentos y EE. UU., que tomes un prenatal con yodo.",
+    "details": "El yodo es necesario para el desarrollo del cerebro de tu bebé. El NHS indica que la mayoría de las personas pueden obtener suficiente con una dieta variada que incluya lácteos y pescado, y desaconseja los suplementos de kelp o de algas porque su contenido de yodo puede ser demasiado alto. En EE. UU., los expertos recomiendan una vitamina prenatal que contenga yodo, y en muchos países, incluida Turquía, la sal de mesa está yodada.",
+    "tips": [
+      "Usa sal yodada, pero mantén moderado tu consumo total de sal.",
+      "Evita los suplementos de kelp y de algas."
+    ]
+  },
+  "probiotics": {
+    "name": "Probióticos",
+    "aliases": [
+      "probiótico",
+      "lactobacilos",
+      "bifidobacterias",
+      "suplemento para la flora intestinal",
+      "prebióticos"
+    ],
+    "summary": "Los alimentos probióticos como el yogur y el kéfir no dan problemas, y los suplementos parecen seguros para la mayoría de las personas sanas.",
+    "details": "El NHS indica que los probióticos parecen ser seguros para la mayoría de las personas con un sistema inmunitario sano, pero como se clasifican como alimentos y no como medicamentos, no pasan por los mismos controles. Las pruebas de muchos de los beneficios que se les atribuyen son limitadas. Elige alimentos fermentados hechos con leche pasteurizada y comprueba que los suplementos no lleven hierbas añadidas.",
+    "tips": [
+      "Cuéntale a tu matrona los suplementos que tomes, incluidos los probióticos."
+    ]
+  },
+  "melatonin": {
+    "name": "Melatonina",
+    "aliases": [
+      "gominolas de melatonina",
+      "gomitas de melatonina",
+      "gominolas para dormir",
+      "suplemento para dormir",
+      "Circadin",
+      "pastillas para el jet lag"
+    ],
+    "summary": "No suele recomendarse en el embarazo, porque se sabe poco sobre sus efectos en los bebés.",
+    "details": "El NHS indica que la melatonina no suele recomendarse durante el embarazo porque se sabe poco sobre su efecto en los bebés. Los problemas de sueño son muy frecuentes en el embarazo, y cambios sencillos como una rutina regular, una habitación fresca y oscura y dormir de lado con almohadas suelen ayudar. Si tomabas melatonina cuando te quedaste embarazada, habla con tu médico sobre si seguir tomándola.",
+    "tips": [
+      "Prueba a relajarte sin pantallas durante la hora antes de acostarte."
+    ]
+  },
+  "herbal-supplements": {
+    "name": "Suplementos y remedios de hierbas",
+    "aliases": [
+      "remedios naturales",
+      "hierbas medicinales",
+      "cimicífuga",
+      "equinácea",
+      "aceite de onagra",
+      "té detox"
+    ],
+    "summary": "Mejor evitarlos, salvo que tu médico o tu farmacéutico te diga que un producto concreto está bien, porque «natural» no significa seguro.",
+    "details": "La mayoría de los productos de hierbas no se han estudiado bien en el embarazo, y MotherToBaby señala que se ha demostrado que algunos provocan cambios hormonales o contracciones del útero. El NHS advierte que algunos remedios pueden ser de mala calidad y contener otras sustancias, como plomo. Las mezclas que se venden en herbolarios pueden ser especialmente difíciles de comprobar.",
+    "tips": [
+      "Enséñale a tu matrona o a tu farmacéutico la etiqueta de cualquier producto que estés pensando tomar.",
+      "Evita los tés detox y las mezclas para adelgazar."
+    ]
+  },
+  "ginger-capsules": {
+    "name": "Suplementos de jengibre",
+    "aliases": [
+      "cápsulas de jengibre",
+      "pastillas de jengibre",
+      "extracto de jengibre",
+      "jengibre",
+      "jenjibre"
+    ],
+    "summary": "Pueden ayudar con las náuseas del embarazo, pero consulta con un farmacéutico antes de tomarlos, como aconseja el NHS.",
+    "details": "El NHS indica que hay algunas pruebas de que el jengibre puede reducir las náuseas y los vómitos en el embarazo, y aconseja consultar con un farmacéutico antes de tomar suplementos de jengibre. MotherToBaby tiene información sobre el jengibre en el embarazo, y la concentración de los suplementos varía de un producto a otro. El jengibre en comidas y bebidas es una forma más suave de empezar.",
+    "tips": [
+      "Si las náuseas te impiden comer o beber, acude a tu médico en lugar de confiar en los suplementos."
+    ]
+  },
+  "collagen": {
+    "name": "Suplementos de colágeno",
+    "aliases": [
+      "colágeno en polvo",
+      "péptidos de colágeno",
+      "colágeno hidrolizado",
+      "suplemento de belleza",
+      "pelo, piel y uñas"
+    ],
+    "summary": "Hay poca investigación en el embarazo; el colágeno solo probablemente sea de bajo riesgo, pero revisa si las mezclas llevan vitamina A, hierbas o cafeína.",
+    "details": "El colágeno es una proteína, y el colágeno en polvo sin añadidos no se ha relacionado con daños concretos, pero tampoco se ha estudiado en el embarazo. Muchas mezclas «de belleza» añaden vitamina A, biotina, extractos de hierbas o cafeína, y la FDA señala que los suplementos no necesitan aprobación antes de venderse. Una dieta variada con suficiente proteína cuida tu piel y a tu bebé.",
+    "tips": [
+      "Si tomas uno, elige un producto sin sabor y de un solo ingrediente.",
+      "Enséñale la etiqueta a tu farmacéutico o a tu matrona."
+    ]
+  },
+  "protein-powder": {
+    "name": "Proteína en polvo y batidos",
+    "aliases": [
+      "proteína whey",
+      "batido de proteínas",
+      "sustitutivo de comida",
+      "reemplazo de comida",
+      "proteína vegetal",
+      "barrita de proteínas"
+    ],
+    "summary": "Una proteína en polvo sencilla suele estar bien para complementar tu dieta, pero evita las mezclas con cafeína, hierbas o «quemagrasas».",
+    "details": "La mayoría de las personas pueden cubrir sus necesidades de proteína en el embarazo con alimentos como la carne, el pescado, los huevos, los lácteos, los frijoles (alubias) y las lentejas. Si usas un polvo, elige uno sencillo sin cafeína añadida, extractos de hierbas ni ingredientes para adelgazar, ya que la FDA no aprueba los suplementos antes de que se vendan. Los batidos sustitutivos de comidas no están pensados para el embarazo.",
+    "tips": [
+      "Busca productos analizados por terceros y con una lista de ingredientes corta."
+    ]
+  },
+  "st-johns-wort": {
+    "name": "Hierba de San Juan (hipérico)",
+    "aliases": [
+      "hierba de san juan",
+      "hipérico",
+      "hiperico",
+      "Hypericum",
+      "St John's wort",
+      "antidepresivo natural"
+    ],
+    "summary": "Mejor evitarla en el embarazo; si te sientes decaída, habla con tu médico o tu matrona sobre tratamientos con más datos de seguridad.",
+    "details": "La hierba de San Juan se toma para el bajo estado de ánimo, pero hay poca información sobre su seguridad en el embarazo, e interactúa con muchos medicamentos. MotherToBaby señala que los productos de hierbas no están regulados como los medicamentos, así que su concentración y su contenido pueden variar. La depresión en el embarazo es frecuente y tiene tratamiento, así que vale la pena buscar un apoyo adecuado.",
+    "tips": [
+      "Dile a tu médico si la has estado tomando, sobre todo junto con otros medicamentos."
+    ]
+  },
+  "black-seed-oil": {
+    "name": "Aceite de comino negro (nigella)",
+    "aliases": [
+      "comino negro",
+      "Nigella sativa",
+      "nigella",
+      "aceite de nigella",
+      "semillas negras",
+      "çörek otu"
+    ],
+    "summary": "Las semillas que se espolvorean sobre el pan no dan problemas, pero evita el aceite y las cápsulas de comino negro en el embarazo salvo que tu médico esté de acuerdo.",
+    "details": "El comino negro se usa a menudo por encima de panes y bollería como el simit y la poğaça, y esas pequeñas cantidades no suponen un problema. Los aceites concentrados y las cápsulas aportan dosis mucho mayores y, como la mayoría de los productos de hierbas, no se han estudiado bien en el embarazo. MotherToBaby señala que algunos productos de hierbas pueden provocar contracciones del útero, así que es mejor evitar las cantidades medicinales.",
+    "tips": [
+      "Úsalo como condimento y no como una cucharada diaria."
+    ]
+  },
+  "hair-dye": {
+    "name": "Tinte de pelo",
+    "aliases": [
+      "tinte",
+      "tinte para el cabello",
+      "coloración",
+      "tinte permanente",
+      "decoloración",
+      "retoque de raíces"
+    ],
+    "summary": "Por lo general no hay problema, ya que el cuero cabelludo absorbe muy poco tinte, aunque algunas personas esperan a pasar la semana 12 para ser más prudentes.",
+    "details": "El NHS indica que el cuero cabelludo no absorbe mucho tinte, sobre todo si está sano, y que algunas personas prefieren esperar hasta pasadas las primeras 12 semanas, cuando el riesgo de que los productos químicos afecten al bebé es menor. MotherToBaby señala que la cantidad que se absorbe a través de la piel sana es pequeña cuando los productos se usan según las instrucciones. El embarazo puede cambiar cómo reacciona tu pelo al color, así que el resultado puede ser distinto.",
+    "tips": [
+      "Haz antes una prueba en un mechón y una prueba de alergia en la piel.",
+      "Usa guantes, ventila la habitación y no dejes el tinte más tiempo del indicado."
+    ]
+  },
+  "highlights": {
+    "name": "Mechas y balayage",
+    "aliases": [
+      "mechas",
+      "reflejos",
+      "rayitos",
+      "balayage",
+      "babylights",
+      "ombré"
+    ],
+    "summary": "Sí, las mechas suponen una exposición menor, porque el color se aplica en el pelo y no en el cuero cabelludo.",
+    "details": "El NHS indica que las mechas, en las que el tinte se aplica solo en algunos mechones, reducen cualquier riesgo, porque los productos químicos los absorbe el pelo y no el cuero cabelludo ni la sangre. MotherToBaby coincide en que técnicas como las mechas claras, las mechas oscuras y los reflejos finos no tocan la piel. Las peluquerías pueden tener mucho olor a productos, así que una buena ventilación ayuda si sientes náuseas.",
+    "tips": [
+      "Dile a tu peluquero/a que estás embarazada y pide una prueba de alergia en la piel."
+    ]
+  },
+  "keratin-treatment": {
+    "name": "Keratina y alisado brasileño",
+    "aliases": [
+      "keratina",
+      "queratina",
+      "alisado brasileño",
+      "alisado japonés",
+      "alisado químico",
+      "tratamiento alisador"
+    ],
+    "summary": "Mejor evitarlo, ya que muchos tratamientos alisadores liberan formaldehído cuando se calientan con la plancha.",
+    "details": "La FDA advierte que algunos productos alisadores liberan gas formaldehído al calentarse, incluso cuando en la etiqueta pone que no contienen formaldehído. MotherToBaby señala que algunos estudios en personas que trabajan expuestas al formaldehído han sugerido una mayor probabilidad de aborto espontáneo. Los vapores son más intensos en el sillón de la peluquería mientras se pasa la plancha, así que es mejor esperar a después del embarazo.",
+    "tips": [
+      "Pide en su lugar un secado normal, sin productos químicos."
+    ]
+  },
+  "henna": {
+    "name": "Henna (alheña)",
+    "aliases": [
+      "henna",
+      "alheña",
+      "jena",
+      "tatuaje de henna",
+      "henna negra",
+      "tinte de henna"
+    ],
+    "summary": "La henna natural pura es una opción más suave, pero evita la «henna negra», que puede contener PPD, un químico de tinte agresivo.",
+    "details": "El NHS sugiere un tinte vegetal puro semipermanente como la henna como alternativa más suave al tinte de pelo. La FDA advierte que los tatuajes temporales que se venden como «henna negra» a menudo contienen PPD, un químico de los tintes de pelo que no está pensado para la piel y puede causar reacciones alérgicas. La henna natural tiñe de un marrón rojizo, así que las pastas muy oscuras o que tiñen muy rápido son una señal de alarma.",
+    "tips": [
+      "Para una noche de henna (kına gecesi), usa henna natural sin mezclas y evita las pastas oscuras «negras».",
+      "Haz antes una prueba en la piel, ya que en el embarazo puede estar más sensible."
+    ]
+  },
+  "nail-polish": {
+    "name": "Esmalte de uñas y uñas de gel",
+    "aliases": [
+      "esmalte",
+      "pintaúñas",
+      "esmalte semipermanente",
+      "manicura",
+      "manicure",
+      "quitaesmalte"
+    ],
+    "summary": "Sí, pintarte las uñas no da problemas, siempre que uses los productos en un lugar bien ventilado.",
+    "details": "Usar de vez en cuando esmalte y quitaesmalte supone solo exposiciones pequeñas. La FDA aconseja una buena ventilación al usar productos para uñas, y algunos esmaltes contienen ingredientes como formaldehído o tolueno que algunas personas prefieren evitar. MotherToBaby señala que las exposiciones más altas son las de quienes trabajan en salones de uñas, que están rodeados de estos productos todo el día.",
+    "tips": [
+      "Abre una ventana y, si lo prefieres, elige esmaltes sin formaldehído ni tolueno.",
+      "Elige salones que estén bien ventilados."
+    ]
+  },
+  "acrylic-nails": {
+    "name": "Uñas acrílicas y dip powder",
+    "aliases": [
+      "uñas acrílicas",
+      "acrílicas",
+      "uñas postizas",
+      "extensiones de uñas",
+      "dip powder",
+      "polygel"
+    ],
+    "summary": "Probablemente no haya problema de forma ocasional, pero conviene limitar los vapores fuertes, así que elige un salón bien ventilado.",
+    "details": "Los sistemas acrílicos y de inmersión (dip) usan líquidos de metacrilato, adhesivos y disolventes de olor fuerte. MotherToBaby señala que el aire de los salones de uñas puede contener sustancias químicas como el metacrilato de metilo, el tolueno y el formaldehído, que preocupan sobre todo en el caso de quienes trabajan expuestos todo el día. Para la clientela, las visitas cortas y en espacios bien ventilados mantienen la exposición baja.",
+    "tips": [
+      "Reserva en horas más tranquilas y siéntate cerca de una ventana abierta o de un extractor.",
+      "Plantéate usar esmalte normal hasta después del parto."
+    ]
+  },
+  "retinol": {
+    "name": "Retinol y cremas con retinoides",
+    "aliases": [
+      "retinol",
+      "retinal",
+      "retinaldehído",
+      "adapaleno",
+      "Differin",
+      "crema antiedad"
+    ],
+    "summary": "Mejor evitarlos en el embarazo, así que cambia el retinol y otras cremas con retinoides por alternativas aptas para el embarazo.",
+    "details": "Los retinoides son formas de vitamina A, y se sabe que los retinoides en pastillas causan defectos congénitos. A partir de las cremas solo se absorben pequeñas cantidades, pero el ACOG aconseja evitar los retinoides tópicos en el embarazo por precaución, y se encuentran en muchos productos de venta libre. Si usaste alguno antes de saber que estabas embarazada, se cree que el riesgo es muy bajo, pero coméntaselo a tu matrona.",
+    "tips": [
+      "Revisa en la lista de ingredientes si aparece retinol, retinal o retinyl.",
+      "Los productos con ácido azelaico o ácido glicólico pueden ser alternativas aptas para el embarazo."
+    ]
+  },
+  "tretinoin": {
+    "name": "Tretinoína (Retin-A)",
+    "aliases": [
+      "Retin-A",
+      "tretinoína",
+      "crema de tretinoína",
+      "tazaroteno",
+      "retinoide con receta",
+      "crema para el acné"
+    ],
+    "summary": "Evita en el embarazo las cremas con retinoides de receta, como la tretinoína, y pregunta a tu médico por alternativas.",
+    "details": "BUMPS indica que las cremas y geles recetados que contienen retinoides como la tretinoína o el adapaleno no deben usarse en el embarazo. Aunque normalmente solo llegan cantidades mínimas al bebé, algunas personas absorben más que otras, y los casos descritos no permiten descartar una relación con defectos congénitos. En su lugar pueden usarse otros tratamientos para el acné que no son retinoides.",
+    "tips": [
+      "Pide a tu dermatólogo/a un plan contra el acné compatible con el embarazo.",
+      "Si la usaste antes de saber que estabas embarazada, coméntaselo a tu matrona."
+    ]
+  },
+  "salicylic-acid": {
+    "name": "Ácido salicílico",
+    "aliases": [
+      "acido salicilico",
+      "BHA",
+      "betahidroxiácido",
+      "limpiador para el acné",
+      "tratamiento para granos",
+      "peeling químico"
+    ],
+    "summary": "Los limpiadores y tratamientos localizados de baja concentración no dan problemas, pero evita los peelings fuertes de ácido salicílico y su uso en zonas amplias.",
+    "details": "El ACOG incluye el ácido salicílico tópico entre los ingredientes para el acné de venta libre que pueden usarse en el embarazo. MotherToBaby señala que solo se absorbe una pequeña cantidad de los productos tópicos para el acné, pero que puede absorberse más si se aplican en zonas amplias, sobre piel dañada o con mucha frecuencia. Por eso es mejor dejar los peelings profesionales fuertes para después del embarazo.",
+    "tips": [
+      "Usa productos que se aclaran o de aplicación localizada en lugar de peelings que se dejan puestos por toda la piel."
+    ]
+  },
+  "benzoyl-peroxide": {
+    "name": "Peróxido de benzoilo",
+    "aliases": [
+      "peroxido de benzoilo",
+      "gel para el acné",
+      "gel para granos",
+      "Panoxyl",
+      "Clearasil",
+      "Benzac"
+    ],
+    "summary": "Sí, el ACOG incluye el peróxido de benzoilo entre los tratamientos para el acné que pueden usarse en el embarazo.",
+    "details": "La piel absorbe muy poco peróxido de benzoilo, y el ACOG lo incluye en su lista de ingredientes para el acné de venta libre que pueden usarse en el embarazo. El NHS indica que normalmente puede usarse en el embarazo, pero aconseja consultarlo antes. Puede decolorar los tejidos e irritar la piel, así que empieza con una concentración más baja.",
+    "tips": [
+      "Empieza con un producto de baja concentración unas pocas veces por semana.",
+      "Consulta con tu médico o tu farmacéutico si usas una concentración con receta."
+    ]
+  },
+  "azelaic-acid": {
+    "name": "Ácido azelaico",
+    "aliases": [
+      "acido azelaico",
+      "Finacea",
+      "Skinoren",
+      "crema para la rosácea",
+      "crema para manchas",
+      "crema para el acné"
+    ],
+    "summary": "Sí, el ácido azelaico es uno de los tratamientos para el acné que pueden usarse en el embarazo.",
+    "details": "El ACOG incluye el ácido azelaico entre los ingredientes para el acné de venta libre que pueden usarse en el embarazo, y Mayo Clinic lo menciona como opción para el acné en el embarazo. La piel absorbe muy poca cantidad. Usar protector solar a diario junto con él ayuda a que no empeoren las manchas oscuras propias del embarazo.",
+    "tips": [
+      "Combínalo con protector solar a diario para protegerte de las manchas del embarazo (melasma)."
+    ]
+  },
+  "glycolic-acid": {
+    "name": "Ácido glicólico y peelings AHA",
+    "aliases": [
+      "acido glicolico",
+      "AHA",
+      "alfahidroxiácidos",
+      "ácido láctico",
+      "tónico exfoliante",
+      "peeling químico"
+    ],
+    "summary": "Los productos de uso diario con ácido glicólico no dan problemas, pero deja los peelings químicos profesionales fuertes para después del embarazo.",
+    "details": "El ACOG incluye el ácido glicólico entre los ingredientes de venta libre para la piel que pueden usarse en el embarazo. La absorción a través de la piel es baja, pero MotherToBaby señala que se absorbe más cuando los productos se usan en zonas amplias, a menudo o sobre piel irritada. Además, en el embarazo la piel puede estar más sensible, así que haz antes una prueba en una zona pequeña.",
+    "tips": [
+      "Usa los AHA unas pocas noches por semana y ponte siempre protector solar al día siguiente."
+    ]
+  },
+  "vitamin-c-serum": {
+    "name": "Sérum de vitamina C",
+    "aliases": [
+      "vitamina C",
+      "serum vitamina c",
+      "sérum de ácido ascórbico",
+      "sérum iluminador",
+      "sérum antioxidante"
+    ],
+    "summary": "Sí, los sérums de vitamina C no dan problemas en el embarazo y pueden formar parte de una rutina suave de cuidado de la piel.",
+    "details": "La vitamina C es un nutriente cotidiano, y la piel solo absorbe una pequeña cantidad de un sérum. No figura en ninguna lista de ingredientes cosméticos que haya que evitar en el embarazo. Junto con el protector solar a diario, puede formar parte de una rutina para controlar las manchas oscuras (melasma) que puede traer el embarazo.",
+    "tips": [
+      "Comprueba que los sérums «iluminadores» o «antiedad» no lleven también retinol."
+    ]
+  },
+  "hyaluronic-acid": {
+    "name": "Ácido hialurónico",
+    "aliases": [
+      "acido hialuronico",
+      "sérum hidratante",
+      "crema hidratante",
+      "hialuronato de sodio",
+      "crema antiestrías"
+    ],
+    "summary": "Sí, los sérums y cremas hidratantes con ácido hialurónico pueden usarse sin problema en el embarazo.",
+    "details": "El ácido hialurónico es un ingrediente hidratante que se encuentra de forma natural en la piel, y no figura en ninguna lista de ingredientes cosméticos que haya que evitar en el embarazo. El ACOG señala que las cremas hidratantes pueden ayudar a mantener la piel suave, aunque no se ha demostrado que ninguna crema prevenga las estrías. Los rellenos inyectables de ácido hialurónico son otra cuestión.",
+    "tips": [
+      "Es mejor posponer los rellenos inyectables hasta después del embarazo."
+    ]
+  },
+  "sunscreen": {
+    "name": "Protector solar",
+    "aliases": [
+      "crema solar",
+      "bloqueador solar",
+      "bloqueador",
+      "FPS",
+      "SPF",
+      "protector solar mineral"
+    ],
+    "summary": "Sí, úsalo cada día, ya que el protector solar ayuda a evitar las manchas oscuras (melasma) que puede provocar el embarazo.",
+    "details": "Las hormonas del embarazo pueden causar melasma, unas manchas marrones en la cara, y el ACOG recomienda usar protector solar y un sombrero de ala ancha cada día al aire libre para que no empeore. Los protectores solares minerales con óxido de zinc o dióxido de titanio son una buena opción si tienes la piel sensible. Vuelve a aplicarlo según las indicaciones, sobre todo después de sudar o bañarte.",
+    "tips": [
+      "Elige un protector solar de amplio espectro y factor alto, y añade un sombrero de ala ancha."
+    ]
+  },
+  "self-tanner": {
+    "name": "Autobronceador y bronceado en spray",
+    "aliases": [
+      "autobronceador",
+      "autobronceante",
+      "bronceado en spray",
+      "bronceado sin sol",
+      "loción autobronceadora",
+      "gotas autobronceadoras"
+    ],
+    "summary": "Las lociones autobronceadoras se consideran de bajo riesgo, pero evita respirar el bronceado en spray, así que las lociones son mejor opción.",
+    "details": "El principio activo de los autobronceadores, la DHA, se queda sobre todo en la superficie de la piel, y MotherToBaby señala que se absorbe menos del 1 %. Sin embargo, la DHA no está aprobada para inhalarse ni para usarse cerca de los ojos y los labios, así que las cabinas y brumas de bronceado en spray son más difíciles de controlar. El autobronceador no te protege del sol.",
+    "tips": [
+      "Elige una loción o una espuma y aplícala en una habitación ventilada.",
+      "Si te haces un bronceado en spray, pide protección para los ojos, la nariz y los labios."
+    ]
+  },
+  "sunbeds": {
+    "name": "Rayos UVA y centros de bronceado",
+    "aliases": [
+      "rayos UVA",
+      "cama solar",
+      "cama de bronceado",
+      "solárium",
+      "solarium",
+      "centro de bronceado"
+    ],
+    "summary": "Mejor evitarlos: las camas solares conllevan riesgo de cáncer de piel para cualquiera, y en el embarazo suman el sobrecalentamiento y más manchas oscuras.",
+    "details": "El NHS indica que las camas solares pueden ser más peligrosas que la luz natural del sol porque usan una fuente concentrada de radiación UV, y el consejo es no usarlas en absoluto. En el embarazo, el calor también puede subir tu temperatura corporal, algo que MotherToBaby considera conveniente limitar. La exposición a los rayos UV puede empeorar las manchas oscuras del embarazo (melasma).",
+    "tips": [
+      "Prueba en su lugar una loción autobronceadora para lucir un bronceado de forma más segura."
+    ]
+  },
+  "waxing": {
+    "name": "Depilación con cera",
+    "aliases": [
+      "depilación",
+      "cera",
+      "depilación con hilo",
+      "pinzas",
+      "cuchilla",
+      "depiladora eléctrica"
+    ],
+    "summary": "Sí, el ACOG indica que las pinzas, la cera y el afeitado son formas seguras de eliminar el vello en el embarazo.",
+    "details": "Las hormonas del embarazo pueden hacer que el vello crezca más rápido o en zonas nuevas, y el ACOG indica que es seguro usar pinzas, cera y afeitado durante el embarazo. Puede que tu piel esté más sensible de lo habitual, así que la cera puede escocer más. Evita depilarte con cera sobre varices, piel dañada o erupciones.",
+    "tips": [
+      "Prueba primero en una zona pequeña, ya que la sensibilidad puede cambiar en el embarazo.",
+      "Comprueba antes la temperatura de la cera caliente para evitar quemaduras."
+    ]
+  },
+  "laser-hair-removal": {
+    "name": "Depilación láser",
+    "aliases": [
+      "depilacion laser",
+      "láser",
+      "luz pulsada",
+      "IPL",
+      "láser de diodo",
+      "láser alejandrita"
+    ],
+    "summary": "Mejor posponerla, ya que hay pocos datos de seguridad en el embarazo y se recomiendan en su lugar el afeitado, la cera o las pinzas.",
+    "details": "La depilación láser y la de luz pulsada (IPL) no se han estudiado en el embarazo. El ACOG incluye las pinzas, la cera y el afeitado como formas seguras de eliminar el vello no deseado durante el embarazo. El vello extra del embarazo suele normalizarse en unos 6 meses tras el parto, así que esperar también puede ahorrarte sesiones.",
+    "tips": [
+      "Pausa tu tratamiento y retómalo después del parto."
+    ]
+  },
+  "botox-fillers": {
+    "name": "Bótox y rellenos",
+    "aliases": [
+      "bótox",
+      "botox",
+      "toxina botulínica",
+      "rellenos dérmicos",
+      "relleno de labios",
+      "ácido hialurónico inyectable"
+    ],
+    "summary": "Mejor posponerlos: el bótox estético no se recomienda en el embarazo, y no se ha demostrado que los rellenos sean seguros.",
+    "details": "BUMPS indica que, por precaución, los tratamientos estéticos con bótox no se recomiendan en el embarazo porque no aportan ningún beneficio médico, aunque no se han identificado riesgos. La FDA afirma que se desconoce la seguridad de los rellenos dérmicos durante el embarazo. El bótox que se usa por motivos médicos, como una migraña grave, es una decisión aparte que corresponde a tu médico.",
+    "tips": [
+      "Si te hiciste un tratamiento antes de saber que estabas embarazada, coméntaselo a tu matrona."
+    ]
+  },
+  "teeth-whitening": {
+    "name": "Blanqueamiento dental",
+    "aliases": [
+      "blanqueamiento de dientes",
+      "blanquear dientes",
+      "tiras blanqueadoras",
+      "kit de blanqueamiento",
+      "blanqueamiento láser",
+      "pasta blanqueadora"
+    ],
+    "summary": "Mejor posponerlo hasta después del embarazo, ya que el NHS señala que el blanqueamiento puede no ser adecuado mientras estás embarazada.",
+    "details": "El NHS incluye el embarazo y la lactancia entre los motivos por los que el blanqueamiento dental puede no ser adecuado. Es un tratamiento estético sin beneficio médico, y el embarazo puede hacer que las encías estén más sensibles. Las revisiones y limpiezas periódicas siguen siendo importantes, así que no descuides tu salud dental.",
+    "tips": [
+      "Sigue con tus revisiones dentales periódicas y dile a tu dentista que estás embarazada."
+    ]
+  },
+  "perfume": {
+    "name": "Perfume y fragancias",
+    "aliases": [
+      "perfume",
+      "colonia",
+      "fragancia",
+      "agua de colonia",
+      "body spray",
+      "desodorante"
+    ],
+    "summary": "Sí, el perfume de uso diario no da problemas, aunque puede que toleres peor los olores fuertes.",
+    "details": "BUMPS señala que es muy poco probable que las pequeñas cantidades de aceites esenciales de los perfumes, cosméticos y productos de higiene cotidianos perjudiquen a un bebé. Muchas personas desarrollan un olfato más fino en el embarazo, y algunas fragancias pueden provocar náuseas o dolor de cabeza. La FDA señala que los ingredientes de las fragancias pueden causar reacciones alérgicas en algunas personas.",
+    "tips": [
+      "Si notas la piel sensible, rocíalo sobre la ropa en lugar de sobre la piel."
+    ]
+  },
+  "essential-oils": {
+    "name": "Aceites esenciales y aromaterapia",
+    "aliases": [
+      "aceites esenciales",
+      "aromaterapia",
+      "difusor",
+      "aceite de lavanda",
+      "aceite de menta",
+      "aceite de árbol de té"
+    ],
+    "summary": "Los aceites diluidos en masajes o en un difusor por lo general no dan problemas, pero nunca te los tragues ni los uses sin diluir sobre la piel.",
+    "details": "BUMPS indica que los aceites esenciales diluidos se usan con frecuencia en masajes durante el embarazo sin problemas, pero que es mejor evitar unos pocos aceites concretos en cualquier etapa por un riesgo teórico de contracciones. Los aceites sin diluir pueden irritar la piel y son tóxicos si se ingieren. El NHS aconseja decirle a tu matrona si usas aromaterapia y acudir a un profesional cualificado.",
+    "tips": [
+      "Dile a tu masajista o aromaterapeuta que estás embarazada.",
+      "Guarda los frascos lejos de los niños, ya que tragar incluso pequeñas cantidades es peligroso."
+    ]
+  },
+  "tattoos-piercings": {
+    "name": "Tatuajes y piercings",
+    "aliases": [
+      "tatuaje",
+      "piercing",
+      "piercing en el ombligo",
+      "microblading",
+      "micropigmentación",
+      "maquillaje permanente"
+    ],
+    "summary": "Mejor posponerlos hasta después del parto, sobre todo por el riesgo de infección por las agujas y las tintas.",
+    "details": "Los tatuajes, el maquillaje permanente y los piercings no se han estudiado en el embarazo. La FDA advierte que el material no esterilizado y las tintas contaminadas pueden causar infecciones, y el NHS señala que infecciones como la hepatitis B, la hepatitis C y el VIH se transmiten por contacto con sangre infectada y pueden pasar al bebé. Los piercings nuevos cerca de la barriga también pueden volverse incómodos a medida que crece.",
+    "tips": [
+      "Si te hiciste uno antes de saber que estabas embarazada, díselo a tu matrona para que pueda comprobar si hay infección."
+    ]
+  },
+  "walking": {
+    "name": "Caminar",
+    "aliases": [
+      "caminar",
+      "andar",
+      "paseo",
+      "senderismo",
+      "marcha nórdica",
+      "pasos"
+    ],
+    "summary": "Sí, caminar es uno de los mejores ejercicios en el embarazo y es suave para tus articulaciones.",
+    "details": "El NHS y el ACOG recomiendan unos 150 minutos de actividad moderada a la semana en el embarazo, y caminar a paso ligero es una forma sencilla de conseguirlo. Moderada significa que puedes hablar pero no cantar. La actividad regular puede reducir el riesgo de diabetes gestacional y de preeclampsia, y puede ayudar con el sueño y el estado de ánimo.",
+    "tips": [
+      "Usa un calzado que sujete bien y lleva agua contigo.",
+      "Los paseos cortos repartidos a lo largo del día también cuentan."
+    ]
+  },
+  "running": {
+    "name": "Correr y trotar",
+    "aliases": [
+      "correr",
+      "running",
+      "trotar",
+      "footing",
+      "cinta de correr",
+      "maratón"
+    ],
+    "summary": "Si corrías antes del embarazo, normalmente puedes seguir a un ritmo cómodo, pero no empieces a correr ahora.",
+    "details": "El ACOG indica que las corredoras con experiencia pueden seguir corriendo en el embarazo si su ginecólogo/a está de acuerdo, mientras que el NHS desaconseja empezar una actividad intensa nueva como correr. A medida que crece la barriga, tu equilibrio cambia y tus articulaciones se vuelven más laxas, por eso muchas personas pasan a caminar a paso ligero más adelante. Para si sientes dolor o mareo, o si pierdes líquido.",
+    "tips": [
+      "Corre a un ritmo que te permita mantener una conversación.",
+      "Evita correr con calor y bebe mucha agua."
+    ]
+  },
+  "swimming": {
+    "name": "Natación",
+    "aliases": [
+      "nadar",
+      "natación",
+      "aquagym",
+      "natación prenatal",
+      "piscina",
+      "alberca"
+    ],
+    "summary": "Sí, nadar es ideal en el embarazo, porque el agua sostiene tu peso y alivia la presión sobre las articulaciones.",
+    "details": "El ACOG incluye la natación y los ejercicios en el agua entre los ejercicios más seguros en el embarazo, y el NHS señala que el agua alivia la presión sobre los músculos y las articulaciones. Las clases de natación prenatal están pensadas para el embarazo. Evita tirarte de cabeza o saltar al agua, y elige piscinas agradablemente frescas en lugar de muy calientes.",
+    "tips": [
+      "Usa la escalera en lugar de saltar al agua.",
+      "Ten cuidado con el suelo resbaladizo alrededor de la piscina."
+    ]
+  },
+  "yoga": {
+    "name": "Yoga prenatal",
+    "aliases": [
+      "yoga",
+      "yoga para embarazadas",
+      "yoga prenatal",
+      "estiramientos",
+      "ejercicios de respiración"
+    ],
+    "summary": "Sí, sobre todo las clases prenatales, pero evita el yoga caliente y, más adelante, pasar mucho rato tumbada boca arriba.",
+    "details": "El ACOG indica que el yoga adaptado reduce el estrés, mejora la flexibilidad y favorece la respiración consciente, y las clases prenatales adaptan las posturas a tu equilibrio cambiante. Evita las posturas que te mantengan quieta o tumbada boca arriba durante mucho tiempo, y no te estires en exceso, ya que las hormonas del embarazo hacen que tus articulaciones estén más laxas. El NHS sugiere que el yoga prenatal puede ayudar a aliviar el dolor de espalda.",
+    "tips": [
+      "Dile a tu profesor/a que estás embarazada y de cuántas semanas estás."
+    ]
+  },
+  "hot-yoga": {
+    "name": "Yoga y pilates con calor",
+    "aliases": [
+      "bikram",
+      "bikram yoga",
+      "hot yoga",
+      "yoga caliente",
+      "hot pilates",
+      "pilates caliente"
+    ],
+    "summary": "Evítalo, porque hacer ejercicio en una sala caldeada puede subir demasiado tu temperatura corporal.",
+    "details": "El ACOG aconseja específicamente evitar el hot yoga y el hot pilates en el embarazo porque pueden provocar sobrecalentamiento. MotherToBaby señala que una temperatura corporal alta al principio del embarazo se ha relacionado con un pequeño aumento de la probabilidad de defectos del tubo neural. El yoga prenatal normal, a temperatura ambiente, te ofrece los mismos beneficios.",
+    "tips": [
+      "Pásate a una clase prenatal normal en una sala fresca y ventilada."
+    ]
+  },
+  "pilates": {
+    "name": "Pilates",
+    "aliases": [
+      "pilates",
+      "pilates reformer",
+      "pilates en suelo",
+      "pilates prenatal",
+      "ejercicios de core"
+    ],
+    "summary": "Sí, el pilates adaptado o prenatal es uno de los ejercicios que el ACOG considera más seguros en el embarazo.",
+    "details": "El ACOG incluye el pilates adaptado entre las formas de ejercicio más seguras en el embarazo, y las clases prenatales adaptan los movimientos a tu equilibrio cambiante. Evita los ejercicios que te mantengan tumbada boca arriba durante mucho tiempo, sobre todo más adelante. No hagas abdominales intensos y para si algo te causa dolor.",
+    "tips": [
+      "Elige a alguien con formación en pilates para embarazadas."
+    ]
+  },
+  "weight-lifting": {
+    "name": "Pesas y entrenamiento de fuerza",
+    "aliases": [
+      "pesas",
+      "gimnasio",
+      "gym",
+      "entrenamiento de fuerza",
+      "sentadillas",
+      "crossfit"
+    ],
+    "summary": "Sí, se recomienda el entrenamiento de fuerza, pero usa pesos moderados, evita hacer demasiada fuerza y adapta los ejercicios a medida que crece la barriga.",
+    "details": "El NHS recomienda 2 sesiones de fortalecimiento muscular a la semana, incluido el entrenamiento de fuerza en el gimnasio si ya lo haces. El ACOG aconseja evitar los movimientos bruscos y de alto impacto, porque las hormonas del embarazo hacen que tus articulaciones estén más laxas, y evitar estar tumbada boca arriba durante mucho tiempo. Es mejor evitar aguantar la respiración mientras haces fuerza y levantar cargas muy pesadas.",
+    "tips": [
+      "Dile a tu entrenador/a que estás embarazada.",
+      "Suelta el aire al hacer el esfuerzo y usa un peso que puedas levantar con buena técnica."
+    ]
+  },
+  "hiit": {
+    "name": "HIIT y entrenamientos intensos",
+    "aliases": [
+      "HIIT",
+      "entrenamiento por intervalos",
+      "circuito",
+      "bootcamp",
+      "burpees",
+      "tabata"
+    ],
+    "summary": "Si estás acostumbrada, una versión adaptada suele estar bien, pero no empieces ahora con el HIIT y evita los saltos y el sobrecalentamiento.",
+    "details": "El ACOG indica que las mujeres muy activas normalmente pueden seguir con sus entrenamientos con la aprobación de su ginecólogo/a, pero aconseja evitar los movimientos bruscos, con rebotes o de alto impacto, y el sobrecalentamiento. El NHS indica que no se recomienda empezar una actividad intensa nueva en el embarazo. Mantén una intensidad que te permita seguir hablando y cambia los saltos por versiones de bajo impacto.",
+    "tips": [
+      "Cambia los burpees y los saltos por pasos laterales y marcha en el sitio.",
+      "Para si te mareas, si te falta el aire antes de empezar o si tienes dolor."
+    ]
+  },
+  "cycling": {
+    "name": "Ciclismo (al aire libre)",
+    "aliases": [
+      "bici",
+      "bicicleta",
+      "ciclismo",
+      "bicicleta de montaña",
+      "bici eléctrica",
+      "ir en bici al trabajo"
+    ],
+    "summary": "Montar en bici al aire libre conlleva riesgo de caídas a medida que cambia tu equilibrio, así que la bicicleta estática es la opción más segura.",
+    "details": "El ACOG señala que el crecimiento de la barriga afecta a tu equilibrio y hace más probables las caídas, así que montar en una bicicleta normal puede ser arriesgado y una bicicleta estática es mejor opción. El NHS aconseja evitar las actividades con riesgo de caída, como la bicicleta de montaña. Si eres ciclista con experiencia, las rutas tranquilas y llanas al principio del embarazo suponen menos riesgo que las carreteras con mucho tráfico o los senderos.",
+    "tips": [
+      "Cambia la bicicleta de montaña por una bicicleta estática o una clase de spinning.",
+      "Si montas al aire libre, lleva siempre casco."
+    ]
+  },
+  "spinning": {
+    "name": "Spinning y bicicleta estática",
+    "aliases": [
+      "spinning",
+      "bici estática",
+      "bicicleta fija",
+      "ciclo indoor",
+      "Peloton",
+      "clase de spinning"
+    ],
+    "summary": "Sí, la bicicleta estática es una de las formas más seguras de hacer cardio en el embarazo, siempre que no te sobrecalientes.",
+    "details": "El ACOG recomienda la bicicleta estática antes que montar al aire libre porque no hay riesgo de caídas. Las clases de spinning pueden ser calurosas e intensas, y el ACOG aconseja evitar el sobrecalentamiento, mantenerte hidratada y hacer ejercicio en una sala con temperatura controlada. Sube el manillar a medida que crezca la barriga y mantén un ritmo que te permita seguir hablando.",
+    "tips": [
+      "Lleva agua, ponte cerca de un ventilador y baja el ritmo en lugar de seguir la clase a máxima intensidad."
+    ]
+  },
+  "horse-riding": {
+    "name": "Montar a caballo",
+    "aliases": [
+      "equitación",
+      "montar a caballo",
+      "cabalgar",
+      "clases de equitación",
+      "paseo a caballo"
+    ],
+    "summary": "Mejor evitarlo, porque una caída del caballo podría causar lesiones graves a ti y a tu bebé.",
+    "details": "El ACOG incluye la equitación entre las actividades que hay que evitar en el embarazo por el riesgo de caídas. Mayo Clinic señala que las caídas en la fase más avanzada del embarazo, sobre todo sobre la barriga, pueden provocar problemas graves como el desprendimiento de placenta. Ni siquiera quien tiene mucha experiencia montando puede controlar los movimientos repentinos de un caballo.",
+    "tips": [
+      "Trabajar con caballos pie a tierra, sin montar, es una forma más suave de seguir en contacto con ellos."
+    ]
+  },
+  "skiing": {
+    "name": "Esquí y snowboard",
+    "aliases": [
+      "esquí",
+      "esquiar",
+      "snowboard",
+      "vacaciones de esquí",
+      "esquí acuático",
+      "trineo"
+    ],
+    "summary": "Mejor evitarlos, ya que el esquí alpino y el snowboard conllevan un alto riesgo de caídas y choques.",
+    "details": "El ACOG incluye el esquí alpino y el esquí acuático entre las actividades que hay que evitar en el embarazo por el riesgo de caídas. Además, muchas estaciones de esquí están por encima de los 6000 pies (unos 1800 metros), y el ACOG aconseja evitar hacer ejercicio a esa altitud si no vives ya a gran altura. Los paseos tranquilos por la nieve son una forma más segura de disfrutar de la montaña.",
+    "tips": [
+      "Disfruta de la estación con paseos tranquilos y mucho descanso a menor altitud."
+    ]
+  },
+  "scuba-diving": {
+    "name": "Buceo con botella",
+    "aliases": [
+      "buceo",
+      "submarinismo",
+      "bucear",
+      "buceo con tanque",
+      "PADI",
+      "apnea"
+    ],
+    "summary": "Evítalo en el embarazo, ya que el NHS y los CDC desaconsejan el buceo con botella por los posibles riesgos para el bebé.",
+    "details": "El NHS aconseja no bucear con botella en el embarazo porque puede no ser seguro para tu bebé, y los CDC señalan que no se ha establecido la seguridad del buceo en el embarazo. El bebé no está protegido frente a los problemas de descompresión como podrías estarlo tú. El esnórquel en la superficie es una alternativa estupenda.",
+    "tips": [
+      "Prueba en su lugar a hacer esnórquel, quedándote en la superficie y en aguas tranquilas."
+    ]
+  },
+  "contact-sports": {
+    "name": "Deportes de contacto",
+    "aliases": [
+      "fútbol",
+      "baloncesto",
+      "básquet",
+      "rugby",
+      "boxeo",
+      "artes marciales"
+    ],
+    "summary": "Mejor evitarlos, porque los deportes con riesgo de recibir un golpe en la barriga o de caerte podrían causarte lesiones a ti o a tu bebé.",
+    "details": "El ACOG aconseja evitar en el embarazo los deportes de contacto como el hockey sobre hielo, el boxeo, el fútbol y el baloncesto, y el NHS incluye el hockey y el rugby entre las actividades con riesgo de recibir golpes en la barriga. En la fase más avanzada del embarazo, un golpe en el abdomen puede causar problemas como el desprendimiento de placenta. Los entrenamientos sin contacto y los ejercicios técnicos pueden ayudarte a seguir participando.",
+    "tips": [
+      "Cambia los partidos por caminar, nadar o la bicicleta estática."
+    ]
+  },
+  "sauna": {
+    "name": "Sauna y baño de vapor",
+    "aliases": [
+      "sauna",
+      "baño de vapor",
+      "sauna de infrarrojos",
+      "spa",
+      "banya",
+      "temazcal"
+    ],
+    "summary": "Mejor evitarla, sobre todo en el primer trimestre, porque el sobrecalentamiento puede ser perjudicial al principio del embarazo.",
+    "details": "MotherToBaby señala que una temperatura corporal alta antes de las 6 semanas de embarazo, aproximadamente, se ha relacionado con un pequeño aumento de la probabilidad de defectos del tubo neural, y aconseja limitar el uso del jacuzzi y la sauna. El ACOG indica que una temperatura corporal alta en el embarazo se relaciona con defectos congénitos y otras complicaciones. Las saunas también pueden provocar mareos o desmayos, lo que aumenta el riesgo de caídas.",
+    "tips": [
+      "Si no estás segura de poder evitarla, haz cualquier visita muy corta y sal si sientes calor o mareo."
+    ]
+  },
+  "hot-tub": {
+    "name": "Jacuzzi y bañera de hidromasaje",
+    "aliases": [
+      "jacuzzi",
+      "hidromasaje",
+      "bañera de hidromasaje",
+      "aguas termales",
+      "termas",
+      "piscina termal"
+    ],
+    "summary": "Mejor evitarlo, ya que estar sentada en agua caliente sube rápido tu temperatura corporal, algo que importa sobre todo al principio del embarazo.",
+    "details": "Los jacuzzis y las piscinas termales rodean de agua caliente la mayor parte de tu cuerpo, así que tu temperatura corporal puede subir rápidamente. MotherToBaby aconseja limitar el uso del jacuzzi en el embarazo y señala que una temperatura corporal alta al principio del embarazo se ha relacionado con defectos del tubo neural. Las aguas termales turcas (kaplıca) suelen estar muy calientes, así que se aplica lo mismo.",
+    "tips": [
+      "Mete solo las piernas en el agua o elige en su lugar una piscina a temperatura normal."
+    ]
+  },
+  "hamam": {
+    "name": "Baño turco (hamam)",
+    "aliases": [
+      "hammam",
+      "hamam",
+      "baño turco",
+      "baño de vapor",
+      "kese",
+      "masaje de espuma"
+    ],
+    "summary": "Evita las salas más calientes y el mármol caliente (göbek taşı); como mucho, haz una visita corta a la zona templada, no caliente.",
+    "details": "Un hamam tradicional combina aire caliente y húmedo con una losa de mármol caliente, lo que puede subir tu temperatura corporal de forma parecida a una sauna. MotherToBaby aconseja limitar el uso del jacuzzi y la sauna, ya que una temperatura corporal alta al principio del embarazo se ha relacionado con defectos del tubo neural. Además, los suelos de mármol mojados resbalan y el calor puede marearte, así que el riesgo de caídas es real.",
+    "tips": [
+      "No te tumbes sobre el göbek taşı y quédate con agua tibia.",
+      "Ve acompañada, haz la visita corta y bebe agua.",
+      "Pide una exfoliación con kese suave y que no te presionen la barriga."
+    ]
+  },
+  "hot-bath": {
+    "name": "Baños calientes",
+    "aliases": [
+      "baño",
+      "baño caliente",
+      "bañera",
+      "tina",
+      "baño de espuma",
+      "baño de inmersión"
+    ],
+    "summary": "Un baño templado no da problemas y puede aliviar molestias, pero que el agua esté templada y no caliente, y no te sobrecalientes.",
+    "details": "El NHS sugiere un baño templado como forma de aliviar el dolor de espalda en el embarazo. El agua muy caliente puede subir tu temperatura corporal, y MotherToBaby señala que las temperaturas altas al principio del embarazo se han relacionado con defectos del tubo neural. Los baños calientes también pueden hacer que te sientas a punto de desmayarte al levantarte, así que sal despacio.",
+    "tips": [
+      "Comprueba el agua con el codo: debe notarse templada, no caliente.",
+      "Usa una alfombrilla antideslizante y sal despacio."
+    ]
+  },
+  "sex": {
+    "name": "Relaciones sexuales",
+    "aliases": [
+      "sexo en el embarazo",
+      "relaciones sexuales",
+      "hacer el amor",
+      "coito",
+      "intimidad",
+      "penetración"
+    ],
+    "summary": "Sí, en un embarazo sano el sexo es seguro y no le hará daño a tu bebé, salvo que tu médico te haya aconsejado lo contrario.",
+    "details": "En la mayoría de los embarazos, el sexo no supone un riesgo para ti ni para tu bebé, que está protegido por el líquido amniótico y los músculos del útero. Un médico puede desaconsejarlo en algunas situaciones, como cuando la placenta está sobre el cuello del útero (placenta previa) o hay riesgo de sangrado. Es normal que tu deseo sexual cambie, y puede que nuevas posturas te resulten más cómodas a medida que crece la barriga.",
+    "tips": [
+      "Usa preservativo con una pareja nueva, ya que algunas infecciones pueden afectar a tu bebé.",
+      "Contacta con el equipo que lleva tu embarazo si después tienes sangrado, dolor o pérdida de líquido."
+    ]
+  },
+  "orgasm": {
+    "name": "Orgasmo",
+    "aliases": [
+      "orgasmo en el embarazo",
+      "clímax",
+      "contracciones después del sexo",
+      "Braxton Hicks",
+      "barriga dura después del sexo"
+    ],
+    "summary": "Sí, los orgasmos son seguros en un embarazo sano, y es normal notar la barriga algo tensa después.",
+    "details": "En la fase más avanzada del embarazo, un orgasmo, o el propio sexo, puede desencadenar contracciones de práctica conocidas como Braxton Hicks. NI Direct indica que esto es perfectamente normal y no es motivo de preocupación, y descansar tranquilamente suele ayudar a que pasen. Si tu médico te ha aconsejado evitar el sexo, pregunta si eso incluye también el orgasmo.",
+    "tips": [
+      "Llama al equipo que lleva tu embarazo si las contracciones se vuelven regulares y dolorosas antes de la semana 37."
+    ]
+  },
+  "massage": {
+    "name": "Masajes",
+    "aliases": [
+      "masaje prenatal",
+      "masaje para embarazadas",
+      "masaje de espalda",
+      "masaje de pies",
+      "reflexología",
+      "spa"
+    ],
+    "summary": "Sí, un masaje suave de un profesional con formación en embarazo es una buena forma de aliviar molestias y estrés.",
+    "details": "El NHS sugiere el masaje como una forma de aliviar el dolor de espalda en el embarazo, y Mayo Clinic lo incluye entre las técnicas de relajación para los dolores de cabeza. Túmbate de lado en lugar de boca abajo y asegúrate de que la persona que te da el masaje sepa que estás embarazada. Si se usan aceites esenciales, deben estar diluidos y ser adecuados para el embarazo.",
+    "tips": [
+      "Reserva con un masajista con formación en masaje para embarazadas.",
+      "Pide posturas de lado con almohadas como apoyo."
+    ]
+  },
+  "chiropractor": {
+    "name": "Quiropráctico y osteópata",
+    "aliases": [
+      "quiropráctico",
+      "quiropráctica",
+      "osteópata",
+      "osteopatía",
+      "manipulación vertebral",
+      "ajuste de columna"
+    ],
+    "summary": "Para el dolor de espalda o pélvico, empieza por tu matrona o un fisioterapeuta; si vas a un quiropráctico, elige uno con experiencia en embarazo.",
+    "details": "La manipulación vertebral no se ha estudiado bien en el embarazo. Para el dolor de espalda, el NHS sugiere que tu médico de familia o tu matrona pueden derivarte a un fisioterapeuta obstétrico, y el ACOG sugiere un fisioterapeuta una vez descartadas otras causas. El dolor de espalda a veces puede indicar el inicio del parto o una infección de orina, así que haz que te lo revisen primero.",
+    "tips": [
+      "Dile a cualquier profesional de cuántas semanas estás embarazada.",
+      "Para si un tratamiento te causa dolor o si notas la barriga tensa."
+    ]
+  },
+  "sleeping-on-back": {
+    "name": "Dormir boca arriba",
+    "aliases": [
+      "dormir boca arriba",
+      "posición para dormir",
+      "tumbada boca arriba",
+      "acostada boca arriba",
+      "decúbito supino",
+      "postura para dormir tercer trimestre"
+    ],
+    "summary": "A partir de la semana 28, duérmete de lado, ya que dormir boca arriba se relaciona con un mayor riesgo de muerte fetal; antes de eso, no hay problema.",
+    "details": "El NHS aconseja no dormirse boca arriba después de la semana 28 porque se ha relacionado con un mayor riesgo de muerte fetal. Estar tumbada boca arriba en la fase más avanzada del embarazo hace que el útero presione un vaso sanguíneo grande, lo que puede hacer que te sientas a punto de desmayarte y reducir el flujo de sangre. Si te despiertas boca arriba, no te preocupes: simplemente gírate de lado.",
+    "tips": [
+      "Ponte una almohada detrás de la espalda para ayudarte a seguir de lado.",
+      "Cualquier lado vale, así que elige el que te resulte más cómodo."
+    ]
+  },
+  "sleeping-on-stomach": {
+    "name": "Dormir boca abajo",
+    "aliases": [
+      "dormir boca abajo",
+      "tumbada boca abajo",
+      "acostada boca abajo",
+      "dormir sobre la barriga",
+      "decúbito prono"
+    ],
+    "summary": "No hay problema mientras te resulte cómodo, ya que tu bebé está bien protegido, y la mayoría de las personas pasan a dormir de lado a medida que crece la barriga.",
+    "details": "Al principio del embarazo, el útero está bajo, detrás del hueso pélvico, y tu bebé está amortiguado por el líquido, así que estar tumbada boca abajo no le hará daño. A medida que crece la barriga, dormir boca abajo suele volverse incómodo por sí solo. El ACOG señala que dormir de lado con las rodillas flexionadas y almohadas es la postura más cómoda en la fase más avanzada del embarazo.",
+    "tips": [
+      "Prueba una almohada de embarazo para que te sea más fácil pasar a dormir de lado."
+    ]
+  },
+  "roller-coasters": {
+    "name": "Montañas rusas y atracciones de feria",
+    "aliases": [
+      "montaña rusa",
+      "parque de atracciones",
+      "parque de diversiones",
+      "atracciones de feria",
+      "toboganes de agua",
+      "autos de choque"
+    ],
+    "summary": "Mejor evitarlas, ya que las sacudidas, frenazos e impactos repentinos podrían perjudicar tu embarazo.",
+    "details": "Las atracciones con arranques, frenazos y sacudidas bruscas pueden ejercer fuerza sobre tu abdomen, de forma parecida a una caída o un golpe. Mayo Clinic señala que los golpes en el abdomen en la fase más avanzada del embarazo pueden causar problemas como el desprendimiento de placenta, y MotherToBaby explica cómo un traumatismo físico puede afectar a un embarazo. La mayoría de los parques temáticos aconsejan a las embarazadas que no se suban.",
+    "tips": [
+      "Elige en su lugar atracciones tranquilas como el carrusel o la noria."
+    ]
+  },
+  "trampolines": {
+    "name": "Camas elásticas e hinchables",
+    "aliases": [
+      "cama elástica",
+      "trampolín",
+      "brincolín",
+      "parque de trampolines",
+      "castillo hinchable",
+      "inflable"
+    ],
+    "summary": "Mejor evitarlos, porque los botes suponen sacudidas y un riesgo real de caerte o recibir un golpe.",
+    "details": "El ACOG aconseja evitar en el embarazo los movimientos bruscos, con rebotes y de alto impacto, ya que las hormonas hacen que tus articulaciones estén más laxas y tu equilibrio cambiante hace más probables las caídas. Las caídas y los golpes en la barriga en la fase más avanzada del embarazo pueden causar problemas como el desprendimiento de placenta. Saltar junto a niños también aumenta la probabilidad de choques.",
+    "tips": [
+      "Anima desde fuera y encárgate de la merienda de los niños."
+    ]
+  },
+  "lifting-toddler": {
+    "name": "Levantar a un niño pequeño",
+    "aliases": [
+      "cargar a un niño",
+      "levantar en brazos",
+      "llevar en brazos",
+      "alzar a un niño",
+      "levantar peso",
+      "cargar la compra"
+    ],
+    "summary": "Normalmente no hay problema con una buena técnica: flexiona las rodillas, mantén la espalda recta y evita levantar mucho peso.",
+    "details": "El NHS considera cargar con los niños y con la compra como una actividad cotidiana de fortalecimiento muscular, pero aconseja flexionar las rodillas y mantener la espalda recta al levantar peso, y evitar los objetos pesados. Las hormonas del embarazo hacen que tus ligamentos estén más laxos, así que la espalda y la pelvis se resienten con más facilidad. Si tienes complicaciones o dolor pélvico, pregunta a tu matrona qué es seguro para ti.",
+    "tips": [
+      "Agáchate a la altura de tu pequeño y deja que se suba a tu regazo en lugar de levantarlo.",
+      "Reparte con tu pareja la tarea de levantar peso siempre que puedas."
+    ]
+  },
+  "cleaning-products": {
+    "name": "Limpieza del hogar",
+    "aliases": [
+      "productos de limpieza",
+      "limpiar la casa",
+      "limpiahornos",
+      "desinfectante",
+      "limpiador de baño",
+      "ambientador"
+    ],
+    "summary": "La limpieza diaria no da problemas con ventilación y guantes, pero, si puedes, deja a otra persona los limpiahornos y los aerosoles fuertes.",
+    "details": "Nemours KidsHealth señala que algunos productos químicos domésticos son seguros en el embarazo, mientras que otros, como los limpiahornos, los diluyentes de pintura, los ambientadores y los aerosoles, pueden ser peligrosos. Los olores fuertes también pueden empeorar las náuseas. Leer las etiquetas, abrir las ventanas y usar guantes de goma mantiene la exposición baja.",
+    "tips": [
+      "Abre las ventanas, usa guantes y lávate las manos después.",
+      "Opciones sencillas como el jabón, el vinagre y el bicarbonato sirven para la mayoría de las tareas."
+    ]
+  },
+  "painting": {
+    "name": "Pintar y decorar",
+    "aliases": [
+      "pintar la habitación del bebé",
+      "olor a pintura",
+      "pintar",
+      "barniz",
+      "quitar papel pintado",
+      "pintura con plomo"
+    ],
+    "summary": "Pintar un poco con pintura al agua en una habitación ventilada es de bajo riesgo, pero deja que otra persona quite la pintura vieja o use disolventes.",
+    "details": "MotherToBaby señala que pintar algo en casa de forma puntual suele suponer mucha menos exposición que pintar por trabajo, y recomienda una buena ventilación y airear la habitación durante 2 o 3 días después. Las embarazadas no deben raspar, lijar ni decapar pintura vieja, porque las casas antiguas pueden tener pintura con plomo. Las escaleras de mano también suponen un riesgo de caída a medida que cambia tu equilibrio.",
+    "tips": [
+      "Elige pintura al agua con bajo contenido en COV (compuestos orgánicos volátiles) y mantén las ventanas abiertas.",
+      "No te subas a escaleras de mano y deja que la habitación se airee antes de dormir en ella."
+    ]
+  },
+  "gardening": {
+    "name": "Jardinería",
+    "aliases": [
+      "jardinería",
+      "tierra",
+      "quitar malas hierbas",
+      "cavar",
+      "huerto",
+      "plantas en macetas"
+    ],
+    "summary": "Sí, la jardinería es un buen ejercicio, pero usa guantes y lávate las manos, ya que la tierra puede contener toxoplasma.",
+    "details": "El ACOG considera la jardinería en general, como rastrillar, quitar malas hierbas y cavar, una actividad moderada. La tierra puede estar contaminada con heces de gato que contienen toxoplasma, por eso el NHS aconseja usar guantes aunque no tengas gato, y lavarte las manos y los guantes después. Evita aplicar tú misma pesticidas en el jardín.",
+    "tips": [
+      "Usa guantes y lávate bien las manos después de trabajar en el jardín.",
+      "Flexiona las rodillas al levantar macetas y sacos de abono."
+    ]
+  },
+  "cat-litter": {
+    "name": "Limpiar la arena del gato",
+    "aliases": [
+      "arena del gato",
+      "arenero",
+      "caja de arena",
+      "caca de gato",
+      "toxoplasmosis",
+      "gatos"
+    ],
+    "summary": "Pide a otra persona que lo haga; si no queda más remedio, usa guantes y limpia la bandeja cada día.",
+    "details": "Las heces de gato pueden contener toxoplasma, un parásito que puede perjudicar a tu bebé si te infectas por primera vez durante el embarazo. El NHS aconseja no vaciar las bandejas de arena del gato durante el embarazo o, si nadie más puede hacerlo, usar guantes desechables y limpiar la bandeja a diario. Los CDC explican que el parásito solo se vuelve infeccioso entre 1 y 5 días después de expulsarse, por eso ayuda limpiarla a diario.",
+    "tips": [
+      "No hace falta que des en adopción a tu gato; solo deja a otra persona la tarea de la arena.",
+      "Lávate las manos después de acariciar gatos y antes de comer."
+    ]
+  },
+  "standing-long": {
+    "name": "Estar de pie mucho tiempo",
+    "aliases": [
+      "estar de pie todo el día",
+      "trabajar de pie",
+      "de pie en el trabajo",
+      "turnos largos",
+      "trabajo en tienda"
+    ],
+    "summary": "En ratos cortos no hay problema, pero estar quieta de pie mucho tiempo puede marearte y empeorar la hinchazón, así que muévete a menudo.",
+    "details": "El ACOG explica que estar quieta de pie puede hacer que la sangre se acumule en las piernas y los pies, lo que puede bajar brevemente la tensión arterial y hacer que te sientas a punto de desmayarte. También aconseja moverte con regularidad si tienes que estar sentada o de pie mucho tiempo, para aliviar las varices y la hinchazón. Si tu trabajo te obliga a estar de pie, pregunta a tu empresa por pausas y adaptaciones.",
+    "tips": [
+      "Cambia el peso de pierna, mueve las pantorrillas y apoya un pie en un taburete bajo.",
+      "Siéntate enseguida si notas que te vas a desmayar."
+    ]
+  },
+  "sunbathing": {
+    "name": "Tomar el sol",
+    "aliases": [
+      "tomar el sol",
+      "broncearse",
+      "playa",
+      "asolearse",
+      "estar al sol",
+      "calor"
+    ],
+    "summary": "Disfruta del aire libre en ratos cortos, pero evita el sobrecalentamiento y usa protector solar para prevenir las manchas del embarazo.",
+    "details": "El ACOG señala que en el embarazo tu cuerpo se esfuerza más para mantenerse fresco y que una temperatura corporal alta se ha relacionado con complicaciones, así que evita pasar mucho tiempo bajo el sol fuerte y el calor. La exposición al sol también puede provocar u oscurecer el melasma, las manchas marrones que puede causar el embarazo. La sombra, el agua y un sombrero hacen que los días de playa sean mucho más seguros.",
+    "tips": [
+      "Evita el sol del mediodía y ponte a la sombra.",
+      "Bebe agua con regularidad y usa un sombrero de ala ancha."
+    ]
+  },
+  "pelvic-floor-exercises": {
+    "name": "Ejercicios de suelo pélvico (Kegel)",
+    "aliases": [
+      "Kegel",
+      "ejercicios de Kegel",
+      "suelo pélvico",
+      "piso pélvico",
+      "pérdidas de orina",
+      "incontinencia"
+    ],
+    "summary": "Sí, se recomiendan en el embarazo y ayudan a evitar pérdidas de orina al toser, estornudar o reír.",
+    "details": "Los músculos del suelo pélvico sostienen la vejiga, el intestino y el útero, y el embarazo y el parto los someten a un esfuerzo extra. El NHS recomienda los ejercicios de suelo pélvico en el embarazo para ayudar a prevenir las pérdidas de orina, que son frecuentes. Puedes hacerlos en cualquier sitio: sentada, de pie o tumbada de lado.",
+    "tips": [
+      "Aprieta como si cortaras el pis, mantén y luego relaja del todo; repite varias veces al día.",
+      "Pide a tu matrona que revise tu técnica si no estás segura."
+    ]
+  },
+  "flying": {
+    "name": "Viajar en avión",
+    "aliases": [
+      "viajar en avión",
+      "avión",
+      "vuelo",
+      "volar embarazada",
+      "aerolínea",
+      "certificado médico para volar"
+    ],
+    "summary": "Sí, volar no es perjudicial en un embarazo sano, pero las aerolíneas limitan los viajes al final, así que infórmate antes de reservar.",
+    "details": "El NHS indica que volar no es perjudicial para ti ni para tu bebé, y el RCOG coincide en que viajar en avión suele ser seguro en un embarazo sin complicaciones. Muchas aerolíneas no te dejan volar después de la semana 36 aproximadamente (la 32 si esperas gemelos), y algunas piden un certificado que confirme la fecha prevista de parto a partir de la semana 28. La mitad del embarazo suele ser el momento más cómodo para viajar.",
+    "tips": [
+      "Consulta la política de tu aerolínea sobre el embarazo antes de reservar.",
+      "Lleva tu historial del embarazo y, si has pasado la semana 28, un informe de tu médico."
+    ]
+  },
+  "long-haul-flights": {
+    "name": "Vuelos largos y coágulos",
+    "aliases": [
+      "vuelo largo",
+      "vuelo de larga distancia",
+      "trombosis",
+      "TVP",
+      "trombosis venosa profunda",
+      "medias de compresión"
+    ],
+    "summary": "Normalmente no hay problema, pero el embarazo aumenta el riesgo de coágulos en los viajes de más de 4 horas, así que muévete y bebe agua.",
+    "details": "Los viajes de 4 horas o más aumentan el riesgo de trombosis venosa profunda (TVP), y el embarazo aumenta ese riesgo. El ACOG y el RCOG aconsejan beber mucha agua, llevar ropa holgada y caminar y mover las piernas con regularidad. Las medias de compresión graduada pueden ayudar, pero consúltalo antes con tu médico, sobre todo si tienes otros factores de riesgo.",
+    "tips": [
+      "Reserva un asiento de pasillo y camina un poco cada 30 minutos más o menos.",
+      "Busca ayuda urgente si tienes una pierna dolorida e hinchada o te falta el aire de repente."
+    ]
+  },
+  "travel-insurance": {
+    "name": "Seguro de viaje",
+    "aliases": [
+      "seguro de viaje",
+      "seguro médico en el extranjero",
+      "asistencia en viaje",
+      "evacuación médica",
+      "tarjeta sanitaria europea",
+      "TSE"
+    ],
+    "summary": "Contrata una póliza que cubra claramente el embarazo, el parto prematuro y la atención al recién nacido, porque muchas pólizas estándar no lo hacen.",
+    "details": "Los CDC señalan que muchas pólizas de seguro no cubren en el extranjero la atención relacionada con el embarazo ni la del recién nacido, y recomiendan encarecidamente una cobertura que incluya esto y la evacuación médica. El ACOG sugiere llamar a tu aseguradora entre 4 y 6 semanas antes de un viaje internacional para comprobar qué incluye. Fíjate en los límites de semanas, ya que algunas pólizas dejan de cubrir el embarazo a partir de cierto momento.",
+    "tips": [
+      "Pregunta específicamente por el parto prematuro y los cuidados intensivos neonatales.",
+      "Lleva contigo los datos de tu póliza y tu historial del embarazo."
+    ]
+  },
+  "zika-areas": {
+    "name": "Viajar a zonas con zika",
+    "aliases": [
+      "zika",
+      "virus del zika",
+      "zonas con mosquitos",
+      "viaje al Caribe",
+      "Brasil",
+      "Centroamérica"
+    ],
+    "summary": "Pospón los viajes no esenciales a zonas con zika, porque la infección en el embarazo puede causar defectos congénitos graves.",
+    "details": "El zika se transmite principalmente por mosquitos y también puede contagiarse por vía sexual. La infección en el embarazo puede causar defectos congénitos, como la microcefalia, por eso el NHS recomienda posponer los viajes no esenciales a zonas de alto riesgo. El riesgo varía según el país y con el tiempo, así que consulta recomendaciones de salud para viajeros actualizadas antes de reservar.",
+    "tips": [
+      "Si tu pareja viaja a una zona con zika, usa preservativo durante el resto del embarazo.",
+      "Si tienes que ir, usa repelente con DEET y cúbrete los brazos y las piernas."
+    ]
+  },
+  "malaria-areas": {
+    "name": "Viajar a zonas con malaria",
+    "aliases": [
+      "malaria",
+      "paludismo",
+      "pastillas para la malaria",
+      "antipalúdicos",
+      "viaje a África",
+      "safari"
+    ],
+    "summary": "Evita o retrasa los viajes a zonas con malaria si puedes, ya que la malaria es más peligrosa en el embarazo y algunas pastillas no son adecuadas.",
+    "details": "La malaria puede ser más grave en el embarazo y puede perjudicar al bebé. Los CDC aconsejan evitar o retrasar los viajes a zonas con malaria durante el embarazo, y el NHS señala que algunas pastillas contra la malaria no son seguras durante el embarazo. Si el viaje es inevitable, pide consejo especializado con bastante antelación.",
+    "tips": [
+      "Acude a una consulta de medicina del viajero entre 4 y 6 semanas antes de irte.",
+      "Duerme bajo una mosquitera tratada y usa repelente con DEET."
+    ]
+  },
+  "seatbelt": {
+    "name": "Usar el cinturón de seguridad",
+    "aliases": [
+      "cinturón de seguridad",
+      "cinturon",
+      "seguridad en el coche",
+      "adaptador de cinturón para embarazadas",
+      "accidente de coche",
+      "accidente de tráfico"
+    ],
+    "summary": "Sí, llévalo siempre, con la banda inferior por debajo de la barriga y la banda del hombro entre los pechos.",
+    "details": "El cinturón de seguridad te protege a ti y a tu bebé en caso de accidente, y los accidentes de tráfico están entre las causas más frecuentes de lesiones en el embarazo. El NHS aconseja colocar la banda diagonal entre los pechos y la banda horizontal sobre la pelvis, por debajo de la barriga, no cruzándola. El ACOG añade que debes llevar el cinturón puesto en todo momento.",
+    "tips": [
+      "Haz que te revise el equipo que lleva tu embarazo después de cualquier accidente de coche, aunque te encuentres bien."
+    ]
+  },
+  "driving": {
+    "name": "Conducir",
+    "aliases": [
+      "conducir embarazada",
+      "manejar",
+      "coche",
+      "carro",
+      "auto",
+      "volante"
+    ],
+    "summary": "Sí, puedes conducir durante todo el embarazo si te encuentras bien, pero haz descansos y ajusta el asiento a medida que crece la barriga.",
+    "details": "El cansancio y los mareos son frecuentes en el embarazo, por eso el NHS sugiere parar con regularidad, beber agua y comer algo en los trayectos largos. Mantén el cinturón bien colocado y echa el asiento hacia atrás todo lo que puedas con comodidad sin dejar de llegar a los pedales. Evita conducir si te sientes a punto de desmayarte o muy cansada.",
+    "tips": [
+      "En los viajes largos, comparte la conducción y para cada una o dos horas para estirarte."
+    ]
+  },
+  "airport-scanners": {
+    "name": "Escáneres de seguridad del aeropuerto",
+    "aliases": [
+      "escáner corporal",
+      "control de seguridad",
+      "arco detector",
+      "detector de metales",
+      "escáner de rayos X",
+      "ondas milimétricas"
+    ],
+    "summary": "Sí, los detectores de metales y los escáneres corporales se consideran seguros en el embarazo, ya que usan poca o ninguna radiación.",
+    "details": "Los CDC señalan que los detectores de metales no son perjudiciales en el embarazo y que el riesgo de los escáneres corporales es extremadamente bajo. La FDA explica que los escáneres de ondas milimétricas usan energía no ionizante, y que la dosis de un escáner corporal de rayos X es menor que la que recibes en unos 42 minutos de radiación natural de fondo cotidiana. Si lo prefieres, puedes pedir un cacheo manual en su lugar.",
+    "tips": [
+      "Si te da tranquilidad, pide un registro manual en su lugar."
+    ]
+  },
+  "high-altitude": {
+    "name": "Gran altitud",
+    "aliases": [
+      "altitud",
+      "altura",
+      "montaña",
+      "mal de altura",
+      "soroche",
+      "trekking"
+    ],
+    "summary": "Las visitas cortas suelen estar bien, pero evita hacer ejercicio por encima de unos 1800 metros (6000 pies), salvo que vivas en altura.",
+    "details": "El ACOG desaconseja hacer ejercicio por encima de los 6000 pies (unos 1800 metros) en el embarazo si no vives ya a gran altitud. Los CDC recomiendan subir despacio y dar tiempo al cuerpo para aclimatarse, y señalan que las zonas remotas pueden estar lejos de la atención médica. Es mejor posponer el trekking a altitudes muy elevadas.",
+    "tips": [
+      "Sube de forma gradual y descansa más de lo habitual los primeros días.",
+      "Busca ayuda si tienes un dolor de cabeza fuerte, te falta el aire o notas hinchazón."
+    ]
+  },
+  "cruise": {
+    "name": "Cruceros y viajes en barco",
+    "aliases": [
+      "crucero",
+      "ferri",
+      "ferry",
+      "viaje en barco",
+      "mareo en barco",
+      "navegar"
+    ],
+    "summary": "Suele ser posible al principio del embarazo, pero la mayoría de las navieras no te aceptan a partir de unas 24 semanas, y el mareo puede ser duro.",
+    "details": "Los CDC señalan que la mayoría de las navieras de cruceros limitan los viajes a partir de la semana 24 y pueden pedir un informe médico, y las compañías de ferris también tienen sus propios límites. El ACOG sugiere comprobar que haya personal médico o de enfermería a bordo y servicios médicos en los puertos. El mareo puede hacer más difícil un crucero en el embarazo, así que pregunta con antelación qué remedios puedes usar.",
+    "tips": [
+      "Consulta la política de la naviera sobre el embarazo antes de reservar.",
+      "Lávate las manos a menudo y lleva gel desinfectante."
+    ]
+  },
+  "road-trips": {
+    "name": "Viajes largos en coche",
+    "aliases": [
+      "viaje en coche",
+      "viaje por carretera",
+      "viaje en carro",
+      "trayecto largo",
+      "viaje en autobús",
+      "viaje en tren"
+    ],
+    "summary": "No hay problema si los planificas: para con regularidad para estirarte, bebe agua y lleva el cinturón por debajo de la barriga.",
+    "details": "El NHS sugiere evitar los viajes largos en coche siempre que puedas y, si no puedes, parar con regularidad para caminar un poco. El ACOG señala que cualquier viaje de 4 horas o más, en coche, autobús, tren o avión, aumenta el riesgo de coágulos, y el embarazo lo aumenta aún más. Flexionar los pies y mover los dedos cuando vas de pasajera ayuda a que la sangre siga circulando.",
+    "tips": [
+      "Planifica paradas cada una o dos horas y camina unos minutos.",
+      "Lleva agua y tentempiés saludables, e intenta no viajar sola."
+    ]
+  },
+  "travel-vaccines": {
+    "name": "Vacunas para viajar",
+    "aliases": [
+      "vacunas del viajero",
+      "vacuna de la fiebre amarilla",
+      "vacuna de la fiebre tifoidea",
+      "vacuna de la hepatitis A",
+      "vacunas vivas",
+      "vacunas para viajar"
+    ],
+    "summary": "Las vacunas no vivas suelen ser seguras en el embarazo, pero la mayoría de las vacunas vivas no se recomiendan, así que pide consejo con tiempo.",
+    "details": "El NHS indica que las vacunas inactivadas (no vivas) son seguras en el embarazo, mientras que la mayoría de las vacunas vivas no se recomiendan, aunque algunas pueden valorarse si el riesgo de infección es alto. Los CDC incluyen la triple vírica (sarampión, rubeola y paperas), la de la varicela y la vacuna viva contra la fiebre tifoidea entre las que hay que evitar, y la de la fiebre amarilla requiere una decisión caso por caso. Planifica una cita de salud para viajeros entre 4 y 6 semanas antes del viaje.",
+    "tips": [
+      "Avisa en la consulta de vacunación de que estás embarazada antes de que te pongan cualquier vacuna."
+    ]
+  },
+  "insect-repellent": {
+    "name": "Repelente de insectos (DEET)",
+    "aliases": [
+      "DEET",
+      "repelente de mosquitos",
+      "antimosquitos",
+      "icaridina",
+      "IR3535",
+      "spray antimosquitos"
+    ],
+    "summary": "Sí, se recomiendan repelentes como el DEET en el embarazo en lugares donde las picaduras pueden transmitir enfermedades graves.",
+    "details": "BUMPS indica que no hay pruebas de que los repelentes de insectos perjudiquen al bebé, y recomienda usarlos en el embarazo donde las picaduras pueden transmitir enfermedades como la malaria o el zika. Entre los principios activos más comunes están el DEET, la icaridina, el aceite de eucalipto de limón y el IR3535, y los servicios de salud para viajeros pueden aconsejarte cuál es el adecuado para tu destino. Úsalos según las indicaciones de la etiqueta.",
+    "tips": [
+      "Cúbrete con mangas largas y pantalones largos y holgados, sobre todo al anochecer y al amanecer."
+    ]
+  },
+  "microwave": {
+    "name": "Microondas",
+    "aliases": [
+      "microondas",
+      "radiación del microondas",
+      "estar cerca del microondas",
+      "recalentar comida"
+    ],
+    "summary": "Sí, usar un microondas en buen estado es seguro en el embarazo.",
+    "details": "La FDA indica que los microondas que cumplen las normas de seguridad y se usan según las instrucciones son seguros. La OMS señala que las evaluaciones de los campos electromagnéticos cotidianos no han encontrado un mayor riesgo de aborto espontáneo, defectos congénitos ni otros problemas en el embarazo. Los microondas pueden calentar de forma desigual, así que asegúrate de que la comida esté muy caliente y humeante por todas partes.",
+    "tips": [
+      "Remueve la comida a mitad de tiempo y déjala reposar para que se caliente de forma uniforme.",
+      "No uses un microondas con la puerta o el cierre dañados."
+    ]
+  },
+  "mobile-phone-wifi": {
+    "name": "Móviles, portátiles y wifi",
+    "aliases": [
+      "móvil",
+      "celular",
+      "wifi",
+      "laptop",
+      "5G",
+      "radiación del móvil"
+    ],
+    "summary": "Sí, no se ha demostrado que el uso cotidiano de móviles, portátiles y wifi perjudique el embarazo.",
+    "details": "La FDA indica que el conjunto de las pruebas científicas no ha relacionado las ondas de radio de los teléfonos móviles con problemas de salud. La OMS señala que no se ha visto que la exposición a campos electromagnéticos en los niveles cotidianos habituales, procedentes de fuentes como las pantallas de ordenador, aumente el riesgo de aborto espontáneo, defectos congénitos o bajo peso al nacer. Un portátil apoyado en las piernas puede calentarse, así que usa una mesa o un cojín para estar más cómoda.",
+    "tips": [
+      "Deja el móvil una hora antes de acostarte para dormir mejor."
+    ]
+  },
+  "electric-blanket": {
+    "name": "Mantas eléctricas y almohadillas térmicas",
+    "aliases": [
+      "manta eléctrica",
+      "cobija eléctrica",
+      "almohadilla térmica",
+      "bolsa de agua caliente",
+      "colchón térmico",
+      "esterilla eléctrica"
+    ],
+    "summary": "No hay problema para calentar la cama, pero apágala antes de dormir para no sobrecalentarte, y usa las almohadillas térmicas a baja temperatura.",
+    "details": "La OMS señala que las mantas eléctricas están entre las fuentes cotidianas de campos electromagnéticos que se han evaluado sin encontrar un mayor riesgo para el embarazo. Lo principal que hay que evitar es el sobrecalentamiento, ya que MotherToBaby señala que una temperatura corporal alta al principio del embarazo se ha relacionado con defectos del tubo neural. Las almohadillas térmicas es mejor usarlas a baja temperatura, envueltas en una toalla y durante periodos cortos.",
+    "tips": [
+      "Calienta la cama y apaga la manta antes de meterte."
+    ]
+  },
+  "x-rays": {
+    "name": "Radiografías, incluidas las dentales",
+    "aliases": [
+      "radiografía",
+      "rayos X",
+      "radiografía dental",
+      "radiografía de tórax",
+      "ortopantomografía",
+      "mamografía"
+    ],
+    "summary": "Sí, si la necesitas: la mayoría de las radiografías, incluidas las dentales, usan dosis muy bajas y no van dirigidas a la barriga.",
+    "details": "Mayo Clinic indica que la probabilidad de que una radiografía perjudique a un bebé es muy pequeña, y que las radiografías de los dientes, la cabeza, los brazos, las piernas o el tórax no exponen directamente el útero. Las radiografías del abdomen o la pelvis son distintas, pero la FDA señala que incluso en ese caso el riesgo es muy pequeño y a menudo el beneficio es mayor. Dile siempre al personal que estás embarazada para que puedan planificar el enfoque más seguro.",
+    "tips": [
+      "No pospongas la atención dental necesaria y dile a tu dentista que estás embarazada."
+    ]
+  },
+  "mri": {
+    "name": "Resonancia magnética",
+    "aliases": [
+      "resonancia",
+      "resonancia magnética",
+      "RM",
+      "RMN",
+      "gadolinio",
+      "contraste"
+    ],
+    "summary": "La resonancia magnética puede usarse en el embarazo cuando hace falta, ya que no usa radiación, pero el contraste solo se pone si es realmente necesario.",
+    "details": "La resonancia magnética usa imanes y ondas de radio en lugar de radiación ionizante, y el ACOG describe la ecografía y la resonancia magnética como las técnicas de imagen de elección en el embarazo. MotherToBaby señala que un estudio de más de 1700 embarazos expuestos a una resonancia magnética en el primer trimestre no encontró una mayor probabilidad de defectos congénitos. El contraste solo se usa cuando el beneficio esperado supera los posibles riesgos.",
+    "tips": [
+      "Dile al técnico de radiología que estás embarazada y pregunta si hace falta contraste."
+    ]
+  },
+  "ct-scan": {
+    "name": "TAC (tomografía computarizada)",
+    "aliases": [
+      "TAC",
+      "escáner",
+      "tomografía",
+      "tomografía computarizada",
+      "TC",
+      "TAC con contraste"
+    ],
+    "summary": "Si un TAC es médicamente necesario, no debe retrasarse, pero di que estás embarazada para que puedan mantener baja la dosis.",
+    "details": "Los TAC usan rayos X, pero el ACOG señala que, con pocas excepciones, la dosis de radiación de las pruebas de imagen diagnósticas es mucho menor que el nivel asociado a daños en el bebé, y que no deben negarse las pruebas necesarias. Los TAC de la cabeza, el tórax o las extremidades exponen el útero mucho menos que los del abdomen o la pelvis. Tu equipo puede sugerir una ecografía o una resonancia magnética en su lugar si con ellas se puede responder a la misma pregunta.",
+    "tips": [
+      "Menciona tu embarazo siempre que se hable de una prueba de imagen, también en urgencias."
+    ]
+  },
+  "bleach": {
+    "name": "Limpiar con lejía",
+    "aliases": [
+      "lejía",
+      "cloro",
+      "Clorox",
+      "hipoclorito",
+      "desinfectante",
+      "amoníaco"
+    ],
+    "summary": "Usar lejía diluida en una habitación ventilada por lo general no da problemas, pero nunca la mezcles con otros productos de limpieza.",
+    "details": "Nemours KidsHealth, citando a March of Dimes, señala que productos químicos como el cloro y el amoníaco pueden darte náuseas por el olor, pero no son tóxicos cuando se usan con normalidad. Mezclar lejía con amoníaco o con limpiadores ácidos, como los antical, libera gases peligrosos. Los guantes y las ventanas abiertas mantienen la exposición baja.",
+    "tips": [
+      "Nunca mezcles la lejía con otros productos, sobre todo con los antical.",
+      "Abre las ventanas, usa guantes y aclara bien las superficies."
+    ]
+  },
+  "mould": {
+    "name": "Moho y humedad",
+    "aliases": [
+      "moho",
+      "humedad",
+      "moho negro",
+      "hongos en la pared",
+      "condensación",
+      "olor a humedad"
+    ],
+    "summary": "Haz que quiten el moho cuanto antes, idealmente otra persona, y evita frotar tú misma manchas grandes.",
+    "details": "MotherToBaby señala que el moho no se ha estudiado bien en el embarazo, pero que algunos mohos pueden causar síntomas como congestión nasal, pitidos al respirar o irritación de la piel, sobre todo si tienes asma. Aconseja eliminar el moho de casa lo antes posible. Arreglar el origen de la humedad evita que vuelva a aparecer.",
+    "tips": [
+      "Ventila las habitaciones a diario, sobre todo la cocina y el baño.",
+      "Pide a otra persona que limpie el moho visible, con guantes y mascarilla."
+    ]
+  },
+  "pets": {
+    "name": "Mascotas y perros",
+    "aliases": [
+      "perro",
+      "mascotas",
+      "gato",
+      "cachorro",
+      "conejo",
+      "ovejas"
+    ],
+    "summary": "Sí, convivir con perros y otras mascotas no da problemas con una buena higiene, aunque la arena del gato y los partos de ovejas requieren más cuidado.",
+    "details": "La mayoría de las mascotas suponen poco riesgo en el embarazo si te lavas las manos después de tocarlas, tocar su comida o recoger sus excrementos. El NHS aconseja no vaciar la arena del gato por el toxoplasma, y evitar ayudar en los partos de ovejas, ordeñar ovejas y el contacto con corderos recién nacidos. Los perros grandes y juguetones pueden tirarte al suelo a medida que cambia tu equilibrio, así que ten cuidado en los paseos.",
+    "tips": [
+      "Lávate las manos después de limpiar lo que ensucien tus mascotas.",
+      "Deja que otra persona se encargue de la arena del gato."
+    ]
+  },
+  "pesticides": {
+    "name": "Pesticidas e insecticidas",
+    "aliases": [
+      "pesticidas",
+      "insecticida",
+      "herbicida",
+      "fumigación",
+      "antipulgas",
+      "control de plagas"
+    ],
+    "summary": "Evita mezclar o aplicar pesticidas tú misma; es poco probable que un tratamiento profesional suponga un problema si sigues sus indicaciones.",
+    "details": "MotherToBaby aconseja evitar, si es posible, mezclar y aplicar pesticidas tú misma durante el embarazo. Señala que es poco probable que un tratamiento de tu casa realizado por una empresa profesional de control de plagas suponga una exposición lo bastante alta como para aumentar los riesgos para el embarazo. Lavar las frutas y verduras y lavarte las manos antes de comer reduce la exposición a través de los alimentos.",
+    "tips": [
+      "No entres en las habitaciones tratadas durante el tiempo que indiquen la etiqueta o el técnico, y ventílalas bien.",
+      "Usa guantes al aplicar tratamientos antipulgas a tus mascotas."
+    ]
+  },
+  "smoking": {
+    "name": "Fumar",
+    "aliases": [
+      "tabaco",
+      "cigarrillos",
+      "fumar",
+      "dejar de fumar",
+      "tabaco de liar",
+      "IQOS"
+    ],
+    "summary": "Evítalo: dejar de fumar es una de las mejores cosas que puedes hacer por tu bebé, y nunca es tarde para dejarlo.",
+    "details": "Fumar en el embarazo aumenta el riesgo de aborto espontáneo, muerte fetal, parto prematuro y de que el bebé no crezca bien, así como de muerte súbita del lactante. La OMS indica que todas las formas de consumo de tabaco son perjudiciales, incluido el tabaco calentado. El NHS indica que la terapia sustitutiva de nicotina, como los parches o los chicles, puede usarse en el embarazo si te ayuda a dejarlo.",
+    "tips": [
+      "Pregunta a tu matrona o a tu médico de familia por la ayuda gratuita para dejar de fumar.",
+      "Haz que tu casa y tu coche sean espacios sin humo para todos."
+    ]
+  },
+  "vaping": {
+    "name": "Vapear y cigarrillos electrónicos",
+    "aliases": [
+      "vapear",
+      "vapeador",
+      "vape",
+      "cigarrillo electrónico",
+      "vaper desechable",
+      "bolsas de nicotina"
+    ],
+    "summary": "No se recomienda en el embarazo, aunque si te está ayudando a no volver al tabaco, es mucho menos perjudicial que fumar.",
+    "details": "BUMPS indica que vapear no se recomienda en el embarazo y que podría aumentar el riesgo de parto prematuro y bajo peso al nacer. El NHS señala que los cigarrillos electrónicos son mucho menos arriesgados que fumar, así que si vapear te ha ayudado a dejar los cigarrillos, sigue siendo más seguro que volver a fumar. La terapia sustitutiva de nicotina, como los parches o los chicles, es la forma recomendada de dejarlo.",
+    "tips": [
+      "Habla con tu matrona sobre pasarte a parches o chicles para ir dejando la nicotina."
+    ]
+  },
+  "second-hand-smoke": {
+    "name": "Humo de segunda mano",
+    "aliases": [
+      "fumador pasivo",
+      "tabaquismo pasivo",
+      "humo ajeno",
+      "pareja fumadora",
+      "humo de tercera mano"
+    ],
+    "summary": "Evítalo todo lo que puedas, ya que el humo de otras personas puede reducir el peso al nacer de tu bebé y afectar a su salud.",
+    "details": "El NHS indica que el humo de segunda mano puede reducir el peso al nacer de tu bebé y aumentar el riesgo de síndrome de muerte súbita del lactante. La OMS afirma que no existe un nivel seguro de exposición al humo de tabaco ajeno. Una casa y un coche sin humo te protegen ahora a ti y, después del parto, a tu bebé.",
+    "tips": [
+      "Pide a tu pareja y a las visitas que fumen fuera, lejos de puertas y ventanas.",
+      "Elige cafeterías y restaurantes sin humo."
+    ]
+  },
+  "shisha": {
+    "name": "Cachimba o narguile (shisha)",
+    "aliases": [
+      "cachimba",
+      "shisha",
+      "narguile",
+      "narguila",
+      "hookah",
+      "pipa de agua"
+    ],
+    "summary": "Evítala: la cachimba es fumar tabaco, y el carbón añade monóxido de carbono, así que mantente lejos también de los locales de cachimbas.",
+    "details": "La OMS incluye el tabaco de pipa de agua entre los productos del tabaco y afirma que todas las formas de consumo de tabaco son perjudiciales, sea cual sea el sabor. El carbón que se usa para calentar la cachimba produce monóxido de carbono, que, según señala MotherToBaby, tarda mucho más en eliminarse de la sangre de un bebé que de la de un adulto. Los locales de cachimbas, cerrados y llenos de humo, también te exponen al humo de segunda mano.",
+    "tips": [
+      "Por ahora, reúnete con tus amistades en lugares sin humo."
+    ]
+  },
+  "carbon-monoxide": {
+    "name": "Monóxido de carbono (estufas y calentadores)",
+    "aliases": [
+      "monóxido de carbono",
+      "intoxicación por monóxido",
+      "estufa de gas",
+      "caldera",
+      "calentador de gas",
+      "detector de monóxido"
+    ],
+    "summary": "Asegúrate de que las estufas, calderas y calentadores de agua sean seguros e instala un detector de CO, ya que el monóxido de carbono es especialmente perjudicial en el embarazo.",
+    "details": "El monóxido de carbono es un gas invisible e inodoro que liberan los aparatos de combustión defectuosos, como estufas, calderas y calentadores de agua de gas. MotherToBaby señala que, una vez que llega a la sangre del bebé, tarda mucho más en eliminarse que en un adulto. Los dolores de cabeza, mareos o náuseas que mejoran cuando sales de casa pueden ser una señal de alarma.",
+    "tips": [
+      "Haz revisar cada año las estufas, chimeneas y calentadores de agua.",
+      "Si sospechas que hay monóxido de carbono, sal al aire libre y busca atención médica urgente."
+    ]
+  }
+}

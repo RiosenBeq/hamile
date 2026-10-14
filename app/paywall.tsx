@@ -13,8 +13,8 @@ import { Icon } from '@/components/Icon';
 import { Btn } from '@/components/Btn';
 import { CircleButton } from '@/components/ui';
 import { buy, loadPackages, PlusPackages, purchasesAvailable, restore, usePlus } from '@/lib/purchases';
-import { APPLE_EULA_URL, PRIVACY_URL } from '@/lib/links';
-import { useT } from '@/i18n';
+import { APPLE_EULA_URL, siteUrl } from '@/lib/links';
+import { useLang, useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
@@ -22,6 +22,7 @@ type Choice = 'monthly' | 'pass' | null;
 
 export default function Paywall() {
   const t = useT();
+  const lang = useLang();
   const router = useRouter();
   const insets = useSafeAreaInsets();
   const { from } = useLocalSearchParams<{ from?: string }>();
@@ -227,7 +228,7 @@ export default function Paywall() {
           <Pressable onPress={() => Linking.openURL(APPLE_EULA_URL).catch(() => {})} accessibilityRole="link">
             <Text style={{ fontFamily: fonts.bodyBold, fontSize: 13, color: colors.ink2, textDecorationLine: 'underline' }}>{t('pw.terms')}</Text>
           </Pressable>
-          <Pressable onPress={() => Linking.openURL(PRIVACY_URL).catch(() => {})} accessibilityRole="link">
+          <Pressable onPress={() => Linking.openURL(siteUrl('privacy', lang)).catch(() => {})} accessibilityRole="link">
             <Text style={{ fontFamily: fonts.bodyBold, fontSize: 13, color: colors.ink2, textDecorationLine: 'underline' }}>{t('pw.privacy')}</Text>
           </Pressable>
         </View>

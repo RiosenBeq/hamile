@@ -1,0 +1,1928 @@
+{
+  "migraine": {
+    "name": "Traitements de la migraine",
+    "aliases": [
+      "migraine",
+      "médicament migraine",
+      "mal de tête",
+      "sumatriptan",
+      "topiramate",
+      "propranolol"
+    ],
+    "summary": "De nombreux traitements contre la migraine peuvent être utilisés pendant la grossesse, mais pas tous : établis un plan avec ton médecin dès le début.",
+    "details": "Le paracétamol peut être utilisé tout au long de la grossesse, et les triptans comme le sumatriptan peuvent être poursuivis s'ils sont efficaces, tandis que les AINS sont à éviter à partir de 20 semaines. BUMPS indique que certains traitements de fond, dont le valproate de sodium et le topiramate, sont évités pendant la grossesse, alors que d'autres, comme le propranolol ou l'amitriptyline, peuvent être utilisés. Si tu prends un traitement de fond quotidien, demande à ton médecin de le réévaluer en urgence.",
+    "tips": [
+      "Fais vérifier en urgence un mal de tête intense ou soudain, ou accompagné de troubles de la vue ou de gonflements.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "antidepressants": {
+    "name": "Antidépresseurs",
+    "aliases": [
+      "sertraline",
+      "Zoloft",
+      "fluoxétine",
+      "Prozac",
+      "escitalopram",
+      "Seroplex"
+    ],
+    "summary": "N'arrête pas brutalement : de nombreux antidépresseurs sont utilisés pendant la grossesse, alors pèse les bénéfices et les risques avec ton médecin.",
+    "details": "Le NHS indique que certains antidépresseurs peuvent être pris pendant la grossesse ; la sertraline, par exemple, peut être utilisée si nécessaire. L'arrêt d'un antidépresseur doit se faire progressivement, avec l'aide de ton médecin, pour éviter les symptômes de sevrage, et une dépression ou une anxiété non traitée peut avoir des effets sur toi comme sur ton bébé. Ton médecin peut t'aider à peser les options et peut adapter ton traitement.",
+    "tips": [
+      "Dis à ta sage-femme comment tu te sens : le soutien émotionnel fait partie de ton suivi.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "thyroid-medication": {
+    "name": "Traitement de la thyroïde (lévothyroxine)",
+    "aliases": [
+      "lévothyroxine",
+      "Levothyrox",
+      "Euthyrox",
+      "Synthroid",
+      "hypothyroïdie",
+      "thyroxine"
+    ],
+    "summary": "Continue à le prendre : la lévothyroxine peut être prise pendant la grossesse, mais ta dose devra peut-être être ajustée, avec des prises de sang en plus.",
+    "details": "L'hormone thyroïdienne est importante pour le développement de ton bébé, et le NHS indique que la lévothyroxine peut être prise pendant la grossesse si nécessaire. Tu auras peut-être besoin de prises de sang plus fréquentes et d'un changement de dose, idéalement dès que ta grossesse est confirmée. Les compléments de calcium et de fer peuvent interférer avec la lévothyroxine : prends-les à des moments différents.",
+    "tips": [
+      "Préviens ton médecin dès que tu sais que tu es enceinte.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "insulin": {
+    "name": "Insuline",
+    "aliases": [
+      "NovoRapid",
+      "Humalog",
+      "Lantus",
+      "Levemir",
+      "diabète gestationnel",
+      "stylo à insuline"
+    ],
+    "summary": "Continue à la prendre : l'insuline est largement utilisée contre le diabète pendant la grossesse, et ton équipe ajustera tes doses au fil du temps.",
+    "details": "L'insuline est utilisée pour traiter le diabète de type 1, de type 2 et le diabète gestationnel pendant la grossesse, et BUMPS indique qu'elle réduit les risques liés à une glycémie mal contrôlée, comme la fausse couche, un très gros bébé et les complications à l'accouchement. Tes doses changent généralement au fil de la grossesse. Le NHS précise qu'un contrôle plus strict peut entraîner davantage d'hypoglycémies, sans danger pour le bébé mais qu'il faut savoir gérer.",
+    "tips": [
+      "Garde toujours sur toi de quoi traiter une hypoglycémie et assure-toi que ton ou ta partenaire sait quoi faire.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "nasal-steroid-spray": {
+    "name": "Sprays nasaux aux corticoïdes",
+    "aliases": [
+      "corticoïde nasal",
+      "béclométasone",
+      "fluticasone",
+      "Avamys",
+      "Nasonex",
+      "spray nasal allergie"
+    ],
+    "summary": "Ils sont généralement sans problème pendant la grossesse, car très peu de médicament passe dans le sang, mais demande d'abord l'avis d'un pharmacien.",
+    "details": "Le NHS indique que le spray nasal à la béclométasone peut être utilisé sans danger pendant la grossesse, car très peu de médicament passe dans ton sang et presque rien n'atteint le bébé. La Mayo Clinic précise que des sprays aux corticoïdes comme la fluticasone ou la mométasone peuvent être recommandés en cas de symptômes allergiques modérés à sévères. Utilise la dose la plus faible qui contrôle tes symptômes.",
+    "tips": [
+      "La grossesse elle-même peut boucher le nez : parles-en si ça ne s'améliore pas.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "hemorrhoid-cream": {
+    "name": "Crèmes contre les hémorroïdes",
+    "aliases": [
+      "hémorroïdes",
+      "crème hémorroïdes",
+      "Titanoréine",
+      "Préparation H",
+      "suppositoire",
+      "hemorroides"
+    ],
+    "summary": "La plupart des crèmes contre les hémorroïdes peuvent être utilisées sur de courtes périodes pendant la grossesse, mais demande d'abord l'avis d'un pharmacien.",
+    "details": "Les hémorroïdes sont fréquentes pendant la grossesse et souvent liées à la constipation. Le NHS indique que les crèmes, pommades et suppositoires à l'hydrocortisone contre les hémorroïdes peuvent être utilisés pendant la grossesse, car seule une petite quantité passe dans le sang. BUMPS précise que rien n'indique que les traitements disponibles présentent un risque pour le bébé.",
+    "tips": [
+      "Les fibres, une bonne hydratation et le fait de ne pas forcer aident à éviter que les hémorroïdes reviennent.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "thrush-treatment": {
+    "name": "Traitement de la mycose vaginale (clotrimazole)",
+    "aliases": [
+      "mycose vaginale",
+      "candidose",
+      "clotrimazole",
+      "Canesten",
+      "ovule",
+      "fluconazole"
+    ],
+    "summary": "Les crèmes et ovules comme le clotrimazole sont utilisés pendant la grossesse, mais évite les comprimés antifongiques et consulte d'abord un médecin ou une sage-femme.",
+    "details": "La mycose vaginale est fréquente pendant la grossesse et n'est pas dangereuse pour le bébé. Le NHS conseille de consulter ton médecin généraliste ou ta sage-femme avant de la traiter et indique qu'elle peut être soignée avec une crème ou un ovule au clotrimazole, tandis que les comprimés antifongiques comme le fluconazole ne doivent pas être pris pendant la grossesse. La Mayo Clinic précise que les traitements vaginaux de sept jours sont généralement les plus efficaces.",
+    "tips": [
+      "Fais vérifier toute nouvelle perte ou démangeaison, car d'autres infections peuvent y ressembler.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "lice-treatment": {
+    "name": "Traitement contre les poux",
+    "aliases": [
+      "poux",
+      "lentes",
+      "shampoing anti-poux",
+      "diméticone",
+      "Pouxit",
+      "peigne à poux"
+    ],
+    "summary": "Le peignage sur cheveux mouillés est le premier choix, et les traitements physiques comme la diméticone peuvent aussi être utilisés pendant la grossesse.",
+    "details": "Les recommandations britanniques suggèrent aux femmes enceintes le peignage sur cheveux mouillés, avec de l'après-shampoing et un peigne fin, ce qui évite complètement les produits chimiques. BUMPS indique que les traitements physiques comme la diméticone agissent en enrobant les poux et ne passent pas dans le sang en quantités pouvant affecter le bébé. Il vaut mieux réserver les insecticides chimiques comme le malathion aux cas où les autres méthodes n'ont pas fonctionné.",
+    "tips": [
+      "Vérifie et traite tous les membres du foyer en même temps.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "anti-sickness": {
+    "name": "Médicaments contre les nausées",
+    "aliases": [
+      "antinauséeux",
+      "nausées",
+      "vomissements",
+      "Cariban",
+      "Diclectin",
+      "hyperémèse"
+    ],
+    "summary": "Plusieurs sont prescrits sans danger pendant la grossesse : si les nausées perturbent ton quotidien, demande un traitement à ton médecin.",
+    "details": "Les nausées et vomissements touchent la plupart des femmes enceintes, et BUMPS indique que plusieurs médicaments peuvent être utilisés sans danger quand les changements d'hygiène de vie ne suffisent pas. Des vomissements sévères, où tu ne peux garder ni nourriture ni liquides, peuvent être une hyperemesis gravidarum et nécessitent des soins médicaux rapides. Tu n'as pas à tenir bon toute seule, et demander de l'aide tôt rend les choses plus faciles à gérer.",
+    "tips": [
+      "Des petites collations fréquentes et boire par petites gorgées, souvent, peuvent aider.",
+      "Demande de l'aide si tu ne peux garder ni nourriture ni liquides pendant 24 heures.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "prescription-medicines": {
+    "name": "Médicaments sur ordonnance",
+    "aliases": [
+      "ordonnance",
+      "traitement de fond",
+      "traitement chronique",
+      "antiépileptique",
+      "inhalateur asthme",
+      "mes médicaments"
+    ],
+    "summary": "Demande conseil avant de commencer, d'arrêter ou de modifier un médicament prescrit, et n'en arrête jamais un brutalement de toi-même.",
+    "details": "La plupart des médicaments traversent le placenta, c'est pourquoi le NHS conseille de demander l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre tout médicament pendant la grossesse. Mais arrêter un médicament qui te maintient en bonne santé, par exemple contre l'épilepsie, l'asthme ou l'hypertension, peut être plus dangereux que de le poursuivre. Idéalement, fais réévaluer tes traitements au long cours avant d'essayer de concevoir ou dès que tu sais que tu es enceinte.",
+    "tips": [
+      "Dis à chaque médecin, dentiste et pharmacien que tu es enceinte.",
+      "N'arrête pas un médicament prescrit sans en parler d'abord à ton médecin.",
+      "Demande l'avis de ton médecin, de ta sage-femme ou de ton pharmacien avant de prendre un médicament."
+    ]
+  },
+  "flu-vaccine": {
+    "name": "Vaccin contre la grippe",
+    "aliases": [
+      "vaccin grippe",
+      "vaccin antigrippal",
+      "grippe",
+      "grippe saisonnière",
+      "Vaxigrip",
+      "Influvac"
+    ],
+    "summary": "Oui, le vaccin contre la grippe est recommandé pendant la grossesse et aide à vous protéger, toi et ton nouveau-né.",
+    "details": "Les femmes enceintes risquent davantage de complications de la grippe, comme une pneumonie, et d'avoir besoin d'une hospitalisation. Le NHS recommande le vaccin antigrippal inactivé pendant la grossesse, et BUMPS indique que des milliers de femmes enceintes vaccinées ont été étudiées sans inquiétude pour le bébé. Les anticorps traversent aussi le placenta et aident à protéger ton bébé pendant ses premières semaines.",
+    "tips": [
+      "Parles-en à ta sage-femme, à ton médecin ou à ton pharmacien dès le début de la saison de la grippe."
+    ]
+  },
+  "whooping-cough-vaccine": {
+    "name": "Vaccin contre la coqueluche (dTca)",
+    "aliases": [
+      "coqueluche",
+      "vaccin coqueluche",
+      "dTcaP",
+      "Boostrixtetra",
+      "Repevax",
+      "Tdap"
+    ],
+    "summary": "Oui, il est recommandé à chaque grossesse pour protéger ton bébé pendant ses premières semaines de vie.",
+    "details": "La coqueluche peut être très grave chez les jeunes bébés. La vaccination pendant la grossesse te permet de transmettre des anticorps à ton bébé jusqu'à ce qu'il puisse recevoir ses propres vaccins. Au Royaume-Uni, elle est proposée à partir de 16 semaines, généralement vers 20 semaines, tandis que les recommandations américaines la préconisent entre 27 et 36 semaines.",
+    "tips": [
+      "Demande à ta sage-femme ou à ton médecin quand la faire."
+    ]
+  },
+  "rsv-vaccine": {
+    "name": "Vaccin contre le VRS",
+    "aliases": [
+      "VRS",
+      "RSV",
+      "Abrysvo",
+      "virus respiratoire syncytial",
+      "bronchiolite",
+      "vaccin bronchiolite"
+    ],
+    "summary": "Oui, il est recommandé pendant la grossesse pour protéger ton bébé des formes graves d'infection au VRS pendant ses premiers mois.",
+    "details": "Le VRS est un virus courant qui peut provoquer des infections pulmonaires graves, comme la bronchiolite, chez les jeunes bébés. Recevoir le vaccin pendant la grossesse transmet une protection à ton bébé pendant environ ses 6 premiers mois. Le Royaume-Uni le propose à partir de 28 semaines, à n'importe quel moment de l'année, tandis qu'aux États-Unis l'ACOG le recommande entre 32 et 36 semaines pendant la saison du VRS.",
+    "tips": [
+      "Demande à ta sage-femme s'il est proposé là où tu vis, et à quel moment."
+    ]
+  },
+  "folic-acid": {
+    "name": "Acide folique",
+    "aliases": [
+      "folates",
+      "vitamine B9",
+      "Spéciafoldine",
+      "méthylfolate",
+      "tube neural",
+      "spina bifida"
+    ],
+    "summary": "Oui, c'est recommandé : prends 400 microgrammes par jour, d'avant la conception jusqu'à 12 semaines de grossesse.",
+    "details": "L'acide folique réduit le risque d'anomalies du tube neural, comme le spina bifida. Le NHS recommande 400 microgrammes par jour pendant que tu essaies de concevoir et jusqu'à 12 semaines de grossesse, et certaines femmes, par exemple celles qui ont du diabète ou des antécédents familiaux d'anomalies du tube neural, ont besoin d'une dose plus élevée prescrite par un médecin. Si tu n'en as pas pris avant la conception, commence dès que tu apprends que tu es enceinte.",
+    "tips": [
+      "Les multivitamines de grossesse en contiennent généralement la bonne quantité : vérifie l'étiquette.",
+      "Demande à ton médecin généraliste si tu pourrais avoir besoin de la dose plus élevée."
+    ]
+  },
+  "vitamin-d": {
+    "name": "Vitamine D",
+    "aliases": [
+      "vitamine D3",
+      "cholécalciférol",
+      "ZymaD",
+      "Uvedose",
+      "vitamine du soleil",
+      "gouttes vitamine D"
+    ],
+    "summary": "Oui : au Royaume-Uni, le conseil est de 10 microgrammes par jour, au moins d'octobre à mars, et toute l'année si tu prends peu le soleil.",
+    "details": "La vitamine D aide au développement des os et des dents de ton bébé. Le NHS recommande un complément quotidien de 10 microgrammes en automne et en hiver, et toute l'année si tu couvres habituellement la majeure partie de ta peau à l'extérieur, si tu passes beaucoup de temps à l'intérieur ou si tu as la peau foncée. Ne dépasse pas 100 microgrammes par jour, car un excès peut être nocif.",
+    "tips": [
+      "Beaucoup de multivitamines de grossesse contiennent déjà de la vitamine D : n'en prends pas en double.",
+      "Demande à ta sage-femme ou à ton médecin si tu ne sais pas de quelle quantité tu as besoin."
+    ]
+  },
+  "iron": {
+    "name": "Compléments de fer",
+    "aliases": [
+      "fer",
+      "comprimés de fer",
+      "Tardyferon",
+      "sulfate ferreux",
+      "carence en fer",
+      "anémie"
+    ],
+    "summary": "Prends-en s'ils te sont recommandés : les besoins en fer augmentent pendant la grossesse, et un manque de fer est fréquent et se soigne.",
+    "details": "Le fer aide à fabriquer les globules rouges pour toi et ton bébé, et un taux bas peut te laisser très fatiguée. Au Royaume-Uni, le fer est contrôlé lors des prises de sang de routine et des compléments sont recommandés si le taux est bas, tandis qu'aux États-Unis les vitamines prénatales contiennent généralement du fer d'office. Les comprimés de fer peuvent constiper : préviens ta sage-femme s'ils te dérangent l'estomac.",
+    "tips": [
+      "Prends-le à un autre moment que le thé, le café et les antiacides.",
+      "Range les comprimés de fer bien hors de portée des enfants."
+    ]
+  },
+  "prenatal-vitamins": {
+    "name": "Multivitamines de grossesse",
+    "aliases": [
+      "vitamines prénatales",
+      "vitamines grossesse",
+      "Gestarelle",
+      "Elevit",
+      "Materna",
+      "multivitamine"
+    ],
+    "summary": "Oui, une multivitamine spéciale grossesse est un moyen simple d'avoir de l'acide folique et de la vitamine D, mais évite celles qui contiennent du rétinol.",
+    "details": "Le NHS recommande l'acide folique et la vitamine D pendant la grossesse, et les multivitamines de grossesse sont conçues pour en apporter sans trop de vitamine A. Les multivitamines classiques peuvent contenir du rétinol (vitamine A), qui peut nuire au développement du bébé à forte dose. Une alimentation saine et variée reste la principale source de nutriments.",
+    "tips": [
+      "Vérifie sur l'étiquette la présence de vitamine A sous forme de rétinol, et ne prends pas deux multivitamines en même temps."
+    ]
+  },
+  "vitamin-a": {
+    "name": "Compléments de vitamine A (rétinol)",
+    "aliases": [
+      "vitamine A",
+      "rétinol",
+      "palmitate de rétinyle",
+      "vitamine A forte dose",
+      "bêta-carotène"
+    ],
+    "summary": "Évite les compléments contenant de la vitamine A sous forme de rétinol, car un excès peut nuire au développement de ton bébé.",
+    "details": "Des apports élevés de vitamine A sous forme de rétinol ont été associés à des malformations congénitales, c'est pourquoi le NHS déconseille les compléments de vitamine A pendant la grossesse et recommande de toujours vérifier les étiquettes. Le bêta-carotène, la forme présente dans les carottes et les autres légumes orange, ne pose pas le même problème. Le foie et l'huile de foie de morue sont aussi très riches en rétinol.",
+    "tips": [
+      "Vérifie la présence de rétinol sur l'étiquette de chaque complément, y compris ceux pour les cheveux et la peau."
+    ]
+  },
+  "fish-oil": {
+    "name": "Huile de poisson et oméga-3",
+    "aliases": [
+      "oméga-3",
+      "omega 3",
+      "capsules d'huile de poisson",
+      "DHA",
+      "huile d'algue",
+      "huile de krill"
+    ],
+    "summary": "L'huile de chair de poisson est généralement sans problème, mais évite l'huile de foie de poisson, comme l'huile de foie de morue, riche en vitamine A.",
+    "details": "Le NHS déconseille l'huile de foie de morue et les autres compléments contenant de la vitamine A (rétinol) pendant la grossesse. Les compléments d'oméga-3 à base d'huile de chair de poisson ou d'algues n'ont pas ce problème, même si manger des poissons gras dans les limites recommandées reste le principal moyen d'obtenir des oméga-3. Choisis une marque fiable et vérifie la présence de vitamine A sur l'étiquette.",
+    "tips": [
+      "Si tu ne manges pas de poisson, parle à ta sage-femme d'un oméga-3 à base d'algues."
+    ]
+  },
+  "cod-liver-oil": {
+    "name": "Huile de foie de morue",
+    "aliases": [
+      "huile de foie de poisson",
+      "huile de foie de flétan",
+      "huile de foie de requin",
+      "foie de morue"
+    ],
+    "summary": "Évite-la pendant la grossesse, car elle est riche en vitamine A (rétinol), qui peut nuire au développement de ton bébé.",
+    "details": "Le NHS déconseille expressément l'huile de foie de morue pendant la grossesse en raison de sa forte teneur en vitamine A. Un excès de rétinol a été associé à des malformations congénitales. Si tu veux un complément d'oméga-3, choisis plutôt un produit à base d'huile de chair de poisson ou d'algues.",
+    "tips": [
+      "Vérifie les compléments de la famille et ceux des enfants rangés dans le placard avant d'en prendre."
+    ]
+  },
+  "magnesium": {
+    "name": "Magnésium",
+    "aliases": [
+      "citrate de magnésium",
+      "bisglycinate de magnésium",
+      "oxyde de magnésium",
+      "Magné B6",
+      "crampes aux jambes",
+      "magnésium en spray"
+    ],
+    "summary": "L'alimentation passe en premier, et un complément de magnésium à dose modérée est peu susceptible d'être nocif, mais demande l'avis de ta sage-femme.",
+    "details": "Le magnésium se trouve dans les légumes verts à feuilles, les noix, les graines et les céréales complètes, et la plupart des gens peuvent en avoir assez grâce à une alimentation variée. Le NHS indique que les compléments de magnésium à dose modérée sont peu susceptibles d'être nocifs, alors que les fortes doses peuvent provoquer de la diarrhée. On le suggère parfois contre les crampes aux jambes : parle avec ta sage-femme pour savoir s'il te convient.",
+    "tips": [
+      "Parle à ta sage-femme de tous les compléments que tu prends, y compris les sprays et les poudres."
+    ]
+  },
+  "calcium": {
+    "name": "Compléments de calcium",
+    "aliases": [
+      "calcium",
+      "carbonate de calcium",
+      "citrate de calcium",
+      "calcium vitamine D",
+      "Cacit",
+      "Orocal"
+    ],
+    "summary": "Privilégie le calcium de l'alimentation quand c'est possible ; les compléments sont utiles si tes apports sont faibles ou si ton médecin les recommande.",
+    "details": "Le calcium aide à construire les os et les dents de ton bébé, et les produits laitiers, les boissons végétales enrichies, le tahini et les légumes verts à feuilles en sont de bonnes sources. L'OMS recommande des compléments de calcium pendant la grossesse aux femmes dont l'alimentation est pauvre en calcium, pour aider à réduire le risque de prééclampsie. Demande l'avis de ta sage-femme avant de prendre de fortes doses.",
+    "tips": [
+      "Le yaourt, l'ayran, le fromage et le tahini sont des moyens simples d'augmenter ton apport en calcium."
+    ]
+  },
+  "iodine": {
+    "name": "Iode",
+    "aliases": [
+      "iodure de potassium",
+      "varech",
+      "kelp",
+      "complément d'algues",
+      "sel iodé"
+    ],
+    "summary": "Tu as besoin de plus d'iode pendant la grossesse, mais les conseils diffèrent : le Royaume-Uni dit de l'obtenir par l'alimentation, les États-Unis de prendre une vitamine prénatale avec iode.",
+    "details": "L'iode est nécessaire au développement du cerveau de ton bébé. Le NHS indique que la plupart des gens peuvent en avoir assez grâce à une alimentation variée comprenant des produits laitiers et du poisson, et met en garde contre les compléments de varech (kelp) ou d'algues, car leur teneur en iode peut être trop élevée. Aux États-Unis, les experts recommandent une vitamine prénatale contenant de l'iode, et dans de nombreux pays, dont la Turquie, le sel de table est iodé.",
+    "tips": [
+      "Utilise du sel iodé, mais garde une consommation de sel globale modérée.",
+      "Évite les compléments de varech et d'algues."
+    ]
+  },
+  "probiotics": {
+    "name": "Probiotiques",
+    "aliases": [
+      "probiotique",
+      "lactobacilles",
+      "bifidobactéries",
+      "flore intestinale",
+      "prébiotiques",
+      "Lactibiane"
+    ],
+    "summary": "Les aliments probiotiques comme le yaourt et le kéfir sont sans problème, et les compléments semblent sans danger pour la plupart des personnes en bonne santé.",
+    "details": "Le NHS indique que les probiotiques semblent sans danger pour la plupart des personnes ayant un système immunitaire sain, mais comme ils sont classés comme aliments et non comme médicaments, ils ne passent pas par les mêmes tests. Les preuves de nombreux bienfaits annoncés sont limitées. Choisis des aliments fermentés à base de lait pasteurisé, et vérifie que les compléments ne contiennent pas de plantes ajoutées.",
+    "tips": [
+      "Parle à ta sage-femme de tous les compléments que tu prends, y compris les probiotiques."
+    ]
+  },
+  "melatonin": {
+    "name": "Mélatonine",
+    "aliases": [
+      "gummies sommeil",
+      "complément sommeil",
+      "aide au sommeil",
+      "Circadin",
+      "décalage horaire",
+      "melatonine"
+    ],
+    "summary": "Elle n'est généralement pas recommandée pendant la grossesse, car on connaît mal ses effets sur les bébés.",
+    "details": "Le NHS indique que la mélatonine n'est généralement pas recommandée pendant la grossesse, car on connaît mal ses effets sur les bébés. Les troubles du sommeil sont très fréquents pendant la grossesse, et des changements simples comme une routine régulière, une chambre fraîche et sombre et le fait de dormir sur le côté avec des oreillers aident souvent. Si tu prenais de la mélatonine quand tu es tombée enceinte, parle avec ton médecin pour savoir s'il faut continuer.",
+    "tips": [
+      "Essaie de te détendre sans écran pendant l'heure qui précède le coucher."
+    ]
+  },
+  "herbal-supplements": {
+    "name": "Compléments et remèdes à base de plantes",
+    "aliases": [
+      "phytothérapie",
+      "remèdes naturels",
+      "plantes médicinales",
+      "échinacée",
+      "huile d'onagre",
+      "tisane détox"
+    ],
+    "summary": "Mieux vaut les éviter, sauf si ton médecin ou ton pharmacien te dit qu'un produit précis convient, car « naturel » ne veut pas dire sans danger.",
+    "details": "La plupart des produits à base de plantes ont été peu étudiés pendant la grossesse, et MotherToBaby indique qu'il a été montré que certains provoquent des changements hormonaux ou des contractions de l'utérus. Le NHS avertit que certains remèdes peuvent être de mauvaise qualité et contenir d'autres substances, comme du plomb. Les mélanges vendus en herboristerie (aktar) peuvent être particulièrement difficiles à vérifier.",
+    "tips": [
+      "Montre à ta sage-femme ou à ton pharmacien l'étiquette de tout produit que tu envisages de prendre.",
+      "Évite les tisanes détox et les mélanges minceur."
+    ]
+  },
+  "ginger-capsules": {
+    "name": "Compléments de gingembre",
+    "aliases": [
+      "gélules de gingembre",
+      "comprimés de gingembre",
+      "extrait de gingembre",
+      "gingembre",
+      "gingembre nausées"
+    ],
+    "summary": "Ils peuvent aider contre les nausées matinales, mais demande l'avis d'un pharmacien avant d'en prendre, comme le conseille le NHS.",
+    "details": "Le NHS indique que certaines données suggèrent que le gingembre pourrait réduire les nausées et vomissements de la grossesse, et conseille de demander l'avis d'un pharmacien avant de prendre des compléments de gingembre. MotherToBaby propose des informations sur le gingembre pendant la grossesse, et la concentration des compléments varie d'un produit à l'autre. Le gingembre dans les aliments et les boissons est une façon plus douce de commencer.",
+    "tips": [
+      "Si les nausées t'empêchent de manger ou de boire, consulte ton médecin plutôt que de compter sur des compléments."
+    ]
+  },
+  "collagen": {
+    "name": "Compléments de collagène",
+    "aliases": [
+      "collagène",
+      "collagène en poudre",
+      "peptides de collagène",
+      "complément beauté",
+      "cheveux peau ongles"
+    ],
+    "summary": "Il y a peu de recherches pendant la grossesse ; le collagène pur présente probablement peu de risques, mais vérifie que les mélanges ne contiennent pas de vitamine A, de plantes ou de caféine.",
+    "details": "Le collagène est une protéine, et le collagène en poudre pur n'a pas été associé à des effets nocifs précis, mais il n'a pas non plus été étudié pendant la grossesse. Beaucoup de mélanges « beauté » ajoutent de la vitamine A, de la biotine, des extraits de plantes ou de la caféine, et la FDA précise que les compléments n'ont pas besoin d'autorisation avant d'être vendus. Une alimentation variée avec suffisamment de protéines est bonne pour ta peau et pour ton bébé.",
+    "tips": [
+      "Si tu en prends, choisis un produit non aromatisé, à un seul ingrédient.",
+      "Montre l'étiquette à ton pharmacien ou à ta sage-femme."
+    ]
+  },
+  "protein-powder": {
+    "name": "Protéines en poudre et shakes",
+    "aliases": [
+      "whey",
+      "protéine en poudre",
+      "shake protéiné",
+      "substitut de repas",
+      "protéine végétale",
+      "barre protéinée"
+    ],
+    "summary": "Une protéine en poudre simple convient généralement pour compléter ton alimentation, mais évite les mélanges avec caféine, plantes ou « brûleurs de graisse ».",
+    "details": "La plupart des gens peuvent couvrir leurs besoins en protéines pendant la grossesse avec des aliments comme la viande, le poisson, les œufs, les produits laitiers, les haricots et les lentilles. Si tu utilises une poudre, choisis-en une simple, sans caféine, extraits de plantes ou ingrédients minceur ajoutés, car la FDA n'autorise pas les compléments avant leur mise en vente. Les shakes substituts de repas ne sont pas conçus pour la grossesse.",
+    "tips": [
+      "Choisis des produits testés par un organisme indépendant, avec une liste d'ingrédients courte."
+    ]
+  },
+  "st-johns-wort": {
+    "name": "Millepertuis",
+    "aliases": [
+      "millepertuis",
+      "hypericum",
+      "St John's wort",
+      "antidépresseur naturel",
+      "Mildac"
+    ],
+    "summary": "Mieux vaut l'éviter pendant la grossesse ; si tu as le moral en baisse, parle à ton médecin ou à ta sage-femme de traitements dont la sécurité est mieux documentée.",
+    "details": "Le millepertuis est pris contre le moral en baisse, mais on dispose de peu d'informations sur sa sécurité pendant la grossesse, et il interagit avec de nombreux médicaments. MotherToBaby rappelle que les produits à base de plantes ne sont pas réglementés comme les médicaments, donc leur concentration et leur contenu peuvent varier. La dépression pendant la grossesse est fréquente et se soigne : ça vaut la peine de te faire vraiment accompagner.",
+    "tips": [
+      "Dis à ton médecin si tu en as pris, surtout en même temps que d'autres médicaments."
+    ]
+  },
+  "black-seed-oil": {
+    "name": "Huile de nigelle (çörek otu)",
+    "aliases": [
+      "nigelle",
+      "huile de nigelle",
+      "nigella sativa",
+      "cumin noir",
+      "habba sawda",
+      "çörek otu"
+    ],
+    "summary": "Les graines saupoudrées sur le pain ne posent pas de problème, mais évite l'huile et les gélules de nigelle pendant la grossesse, sauf accord de ton médecin.",
+    "details": "La nigelle garnit souvent les simit et les poğaça, et ces petites quantités ne sont pas préoccupantes. Les huiles concentrées et les gélules apportent des doses bien plus élevées et, comme la plupart des produits à base de plantes, ont été peu étudiées pendant la grossesse. MotherToBaby indique que certains produits à base de plantes peuvent provoquer des contractions de l'utérus, il vaut donc mieux éviter les quantités médicinales.",
+    "tips": [
+      "Garde-la comme assaisonnement plutôt qu'en cuillerée quotidienne."
+    ]
+  },
+  "hair-dye": {
+    "name": "Coloration des cheveux",
+    "aliases": [
+      "teinture",
+      "coloration",
+      "coloration permanente",
+      "couleur cheveux",
+      "décoloration",
+      "retouche racines"
+    ],
+    "summary": "Généralement sans problème, car très peu de colorant est absorbé par le cuir chevelu, même si certaines attendent la fin des 12 premières semaines par précaution.",
+    "details": "Le NHS indique que ton cuir chevelu absorbe peu de colorant, surtout s'il est en bonne santé, et certaines personnes choisissent d'attendre la fin des 12 premières semaines, quand le risque que les produits chimiques affectent le bébé est plus faible. MotherToBaby précise que la quantité absorbée par une peau saine est faible quand les produits sont utilisés selon les instructions. La grossesse peut changer la façon dont tes cheveux prennent la couleur, donc le résultat peut être différent.",
+    "tips": [
+      "Fais d'abord un test sur une mèche et un test cutané.",
+      "Porte des gants, aère la pièce et ne laisse pas poser la coloration plus longtemps qu'indiqué."
+    ]
+  },
+  "highlights": {
+    "name": "Mèches et balayage",
+    "aliases": [
+      "mèches",
+      "balayage",
+      "méchage",
+      "ombré",
+      "reflets",
+      "papillotes"
+    ],
+    "summary": "Oui, les mèches sont une option avec moins d'exposition, car la couleur est appliquée sur les cheveux et non sur le cuir chevelu.",
+    "details": "Le NHS indique que les mèches, où la couleur n'est appliquée que sur certaines mèches de cheveux, réduisent tout risque, car les produits chimiques sont absorbés par les cheveux plutôt que par ton cuir chevelu ou ton sang. MotherToBaby confirme que des techniques comme les mèches claires, les mèches foncées et le méchage ne touchent pas la peau. Les salons peuvent être chargés de vapeurs : une bonne aération aide si tu as la nausée.",
+    "tips": [
+      "Dis à ton coiffeur ou à ta coiffeuse que tu es enceinte et demande un test cutané."
+    ]
+  },
+  "keratin-treatment": {
+    "name": "Kératine et lissage brésilien",
+    "aliases": [
+      "lissage brésilien",
+      "soin kératine",
+      "lissage",
+      "lissage chimique",
+      "lissage japonais",
+      "formol cheveux"
+    ],
+    "summary": "Mieux vaut l'éviter, car de nombreux soins lissants libèrent du formaldéhyde quand ils sont chauffés au fer à lisser.",
+    "details": "La FDA avertit que certains produits lissants libèrent du formaldéhyde gazeux lorsqu'ils sont chauffés, même quand leur étiquette indique « sans formaldéhyde ». MotherToBaby indique que certaines études menées chez des personnes qui travaillent au contact du formaldéhyde ont suggéré un risque plus élevé de fausse couche. Les vapeurs sont les plus fortes dans le fauteuil du salon pendant le passage du fer, il vaut donc mieux attendre la fin de la grossesse.",
+    "tips": [
+      "Demande plutôt un brushing classique, sans produits chimiques."
+    ]
+  },
+  "henna": {
+    "name": "Henné (kına)",
+    "aliases": [
+      "henné",
+      "mehndi",
+      "tatouage au henné",
+      "henné noir",
+      "coloration au henné",
+      "kina"
+    ],
+    "summary": "Le henné naturel pur est une option plus douce, mais évite le « henné noir », qui peut contenir un colorant chimique agressif, la PPD.",
+    "details": "Le NHS suggère une coloration semi-permanente purement végétale, comme le henné, comme alternative plus douce à la coloration classique. La FDA avertit que les tatouages temporaires vendus comme « henné noir » contiennent souvent de la PPD, un produit chimique de coloration capillaire qui n'est pas destiné à la peau et peut provoquer des réactions allergiques. Le henné naturel teinte en brun-roux : une pâte très foncée ou qui colore très vite est un signal d'alerte.",
+    "tips": [
+      "Pour une soirée du henné (kına gecesi), utilise du henné naturel pur et évite les pâtes foncées dites « noires ».",
+      "Fais d'abord un test cutané, car ta peau peut être plus sensible pendant la grossesse."
+    ]
+  },
+  "nail-polish": {
+    "name": "Vernis à ongles et vernis gel",
+    "aliases": [
+      "vernis",
+      "vernis semi-permanent",
+      "manucure gel",
+      "Shellac",
+      "manucure",
+      "dissolvant"
+    ],
+    "summary": "Oui, te vernir les ongles ne pose pas de problème, tant que tu utilises les produits dans une pièce bien aérée.",
+    "details": "Utiliser de temps en temps du vernis et du dissolvant n'entraîne que de petites expositions. La FDA conseille une bonne aération lors de l'utilisation de produits pour les ongles, et certains vernis contiennent des ingrédients comme le formaldéhyde ou le toluène, que certaines personnes préfèrent éviter. MotherToBaby précise que les expositions plus élevées concernent les personnes qui travaillent en salon et sont au contact de ces produits toute la journée.",
+    "tips": [
+      "Ouvre une fenêtre, et choisis des vernis sans formaldéhyde ni toluène si tu le souhaites.",
+      "Choisis des salons bien aérés."
+    ]
+  },
+  "acrylic-nails": {
+    "name": "Ongles en résine et dip powder",
+    "aliases": [
+      "faux ongles",
+      "ongles en résine",
+      "ongles acryliques",
+      "capsules",
+      "dip powder",
+      "polygel"
+    ],
+    "summary": "Sans doute sans problème de temps en temps, mais mieux vaut limiter les vapeurs fortes : choisis un salon bien aéré.",
+    "details": "Les systèmes acryliques et dip powder utilisent des liquides à base de méthacrylate, des colles et des solvants à l'odeur forte. MotherToBaby indique que l'air des salons de manucure peut contenir des produits chimiques comme le méthacrylate de méthyle, le toluène et le formaldéhyde, qui concernent surtout les personnes qui y sont exposées toute la journée. Pour les clientes, des visites courtes dans un lieu bien aéré limitent l'exposition.",
+    "tips": [
+      "Réserve aux heures creuses et installe-toi près d'une fenêtre ouverte ou d'une aspiration.",
+      "Envisage un simple vernis jusqu'après la naissance."
+    ]
+  },
+  "retinol": {
+    "name": "Rétinol et crèmes aux rétinoïdes",
+    "aliases": [
+      "rétinol",
+      "rétinal",
+      "rétinaldéhyde",
+      "adapalène",
+      "Differine",
+      "crème anti-âge"
+    ],
+    "summary": "Mieux vaut les éviter pendant la grossesse : remplace le rétinol et les autres crèmes aux rétinoïdes par des alternatives adaptées à la grossesse.",
+    "details": "Les rétinoïdes sont des formes de vitamine A, et les rétinoïdes en comprimés sont connus pour provoquer des malformations congénitales. Seules de petites quantités sont absorbées à partir des crèmes, mais l'ACOG conseille par précaution d'éviter les rétinoïdes locaux pendant la grossesse, et on en trouve dans de nombreux produits vendus sans ordonnance. Si tu en as utilisé avant de savoir que tu étais enceinte, le risque est considéré comme très faible, mais parles-en à ta sage-femme.",
+    "tips": [
+      "Cherche retinol, retinal et retinyl dans la liste des ingrédients.",
+      "Les produits à l'acide azélaïque ou à l'acide glycolique peuvent être des alternatives adaptées à la grossesse."
+    ]
+  },
+  "tretinoin": {
+    "name": "Trétinoïne (Retin-A)",
+    "aliases": [
+      "trétinoïne",
+      "Retin-A",
+      "Effederm",
+      "Ketrel",
+      "tazarotène",
+      "rétinoïde sur ordonnance"
+    ],
+    "summary": "Évite les crèmes aux rétinoïdes sur ordonnance comme la trétinoïne pendant la grossesse, et demande des alternatives à ton médecin.",
+    "details": "BUMPS indique que les crèmes et gels prescrits contenant des rétinoïdes comme la trétinoïne ou l'adapalène ne doivent pas être utilisés pendant la grossesse. Même si seules d'infimes quantités atteignent généralement le bébé, certaines personnes en absorbent plus que d'autres, et les cas rapportés ne permettent pas d'exclure un lien avec des malformations congénitales. D'autres traitements de l'acné qui ne sont pas des rétinoïdes peuvent être utilisés à la place.",
+    "tips": [
+      "Demande à ton ou ta dermatologue un plan anti-acné compatible avec la grossesse.",
+      "Si tu l'as utilisée avant de savoir que tu étais enceinte, parles-en à ta sage-femme."
+    ]
+  },
+  "salicylic-acid": {
+    "name": "Acide salicylique",
+    "aliases": [
+      "BHA",
+      "bêta-hydroxyacide",
+      "nettoyant anti-acné",
+      "soin anti-bouton",
+      "peeling salicylique",
+      "peeling chimique"
+    ],
+    "summary": "Les nettoyants et soins anti-boutons peu concentrés sont sans problème, mais évite les peelings forts à l'acide salicylique et l'application sur de grandes surfaces.",
+    "details": "L'ACOG cite l'acide salicylique en application locale parmi les ingrédients anti-acné sans ordonnance qui peuvent être utilisés pendant la grossesse. MotherToBaby indique que seule une petite quantité des produits anti-acné locaux est absorbée, mais que l'absorption peut être plus importante sur de grandes surfaces, sur une peau abîmée ou en cas d'utilisation fréquente. C'est pourquoi il vaut mieux garder les peelings professionnels forts pour après la grossesse.",
+    "tips": [
+      "Utilise des produits à rincer ou à appliquer localement sur les boutons plutôt que des peelings sans rinçage sur tout le visage."
+    ]
+  },
+  "benzoyl-peroxide": {
+    "name": "Peroxyde de benzoyle",
+    "aliases": [
+      "Cutacnyl",
+      "Effacné",
+      "gel anti-acné",
+      "gel anti-bouton",
+      "PanOxyl",
+      "Clearasil"
+    ],
+    "summary": "Oui, l'ACOG cite le peroxyde de benzoyle parmi les traitements de l'acné qui peuvent être utilisés pendant la grossesse.",
+    "details": "Très peu de peroxyde de benzoyle est absorbé par la peau, et l'ACOG l'inclut dans sa liste d'ingrédients anti-acné sans ordonnance qui peuvent être utilisés pendant la grossesse. Le NHS indique qu'il peut généralement être utilisé pendant la grossesse, mais conseille de vérifier d'abord. Il peut décolorer les tissus et irriter la peau : commence par un dosage plus faible.",
+    "tips": [
+      "Commence par un produit faiblement dosé, quelques fois par semaine.",
+      "Demande l'avis de ton médecin ou de ton pharmacien si tu utilises un dosage sur ordonnance."
+    ]
+  },
+  "azelaic-acid": {
+    "name": "Acide azélaïque",
+    "aliases": [
+      "Finacea",
+      "Skinoren",
+      "crème rosacée",
+      "crème anti-taches",
+      "crème anti-acné",
+      "acide azelaique"
+    ],
+    "summary": "Oui, l'acide azélaïque fait partie des traitements de l'acné qui peuvent être utilisés pendant la grossesse.",
+    "details": "L'ACOG cite l'acide azélaïque parmi les ingrédients anti-acné sans ordonnance qui peuvent être utilisés pendant la grossesse, et la Mayo Clinic le mentionne comme une option contre l'acné de grossesse. Très peu est absorbé par la peau. Utiliser en parallèle un écran solaire chaque jour aide à éviter que les taches brunes liées à la grossesse s'aggravent.",
+    "tips": [
+      "Associe-le à une protection solaire quotidienne pour te protéger du masque de grossesse (mélasma)."
+    ]
+  },
+  "glycolic-acid": {
+    "name": "Acide glycolique et peelings aux AHA",
+    "aliases": [
+      "acide glycolique",
+      "AHA",
+      "alpha-hydroxyacide",
+      "acide lactique",
+      "lotion exfoliante",
+      "peeling chimique"
+    ],
+    "summary": "Les produits du quotidien à l'acide glycolique sont sans problème, mais garde les peelings chimiques professionnels forts pour après la grossesse.",
+    "details": "L'ACOG cite l'acide glycolique parmi les ingrédients de soin sans ordonnance qui peuvent être utilisés pendant la grossesse. L'absorption par la peau est faible, mais MotherToBaby indique qu'elle est plus importante quand les produits sont utilisés sur de grandes surfaces, souvent, ou sur une peau irritée. La peau peut aussi être plus sensible pendant la grossesse : fais d'abord un test sur une petite zone.",
+    "tips": [
+      "Utilise les AHA quelques soirs par semaine, et mets toujours un écran solaire le lendemain."
+    ]
+  },
+  "vitamin-c-serum": {
+    "name": "Sérum à la vitamine C",
+    "aliases": [
+      "vitamine C",
+      "sérum acide ascorbique",
+      "sérum éclat",
+      "sérum antioxydant",
+      "serum vitamine c"
+    ],
+    "summary": "Oui, les sérums à la vitamine C sont sans problème pendant la grossesse et peuvent faire partie d'une routine de soin douce.",
+    "details": "La vitamine C est un nutriment du quotidien, et seule une petite quantité est absorbée par la peau à partir d'un sérum. Elle ne figure sur aucune liste d'ingrédients de soin à éviter pendant la grossesse. Associée à un écran solaire quotidien, elle peut faire partie d'une routine pour gérer les taches brunes (mélasma) que la grossesse peut provoquer.",
+    "tips": [
+      "Vérifie que les sérums « éclat » ou « anti-âge » ne contiennent pas aussi du rétinol."
+    ]
+  },
+  "hyaluronic-acid": {
+    "name": "Acide hyaluronique",
+    "aliases": [
+      "sérum hydratant",
+      "crème hydratante",
+      "hyaluronate de sodium",
+      "crème anti-vergetures",
+      "vergetures"
+    ],
+    "summary": "Oui, les sérums et crèmes hydratantes à l'acide hyaluronique peuvent être utilisés sans problème pendant la grossesse.",
+    "details": "L'acide hyaluronique est un ingrédient hydratant naturellement présent dans la peau, et il ne figure sur aucune liste d'ingrédients de soin à éviter pendant la grossesse. L'ACOG indique que les crèmes hydratantes peuvent aider à garder la peau souple, même si aucune crème n'a démontré qu'elle prévenait les vergetures. Les injections d'acide hyaluronique (produits de comblement) sont une autre question.",
+    "tips": [
+      "Mieux vaut reporter les injections de comblement après la grossesse."
+    ]
+  },
+  "sunscreen": {
+    "name": "Crème solaire",
+    "aliases": [
+      "écran solaire",
+      "protection solaire",
+      "SPF",
+      "écran minéral",
+      "oxyde de zinc",
+      "dioxyde de titane"
+    ],
+    "summary": "Oui, utilise-la tous les jours, car la crème solaire aide à prévenir les taches brunes (mélasma) que la grossesse peut déclencher.",
+    "details": "Les hormones de grossesse peuvent provoquer un mélasma, des taches brunes sur le visage, et l'ACOG recommande une crème solaire et un chapeau à larges bords chaque jour à l'extérieur pour éviter qu'il s'aggrave. Les écrans minéraux à l'oxyde de zinc ou au dioxyde de titane sont une bonne option si ta peau est sensible. Renouvelle l'application selon les instructions, surtout après avoir transpiré ou nagé.",
+    "tips": [
+      "Choisis une crème solaire à large spectre et à indice élevé, et ajoute un chapeau à larges bords."
+    ]
+  },
+  "self-tanner": {
+    "name": "Autobronzant et bronzage en spray",
+    "aliases": [
+      "autobronzant",
+      "auto-bronzant",
+      "bronzage en spray",
+      "spray tan",
+      "lotion autobronzante",
+      "gouttes autobronzantes"
+    ],
+    "summary": "Les lotions autobronzantes sont considérées comme peu risquées, mais évite d'inhaler les bronzages en spray : les lotions sont le meilleur choix.",
+    "details": "Le principe actif des autobronzants, la DHA, reste surtout à la surface de la peau, et MotherToBaby indique que moins de 1 % est absorbé. Cependant, la DHA n'est pas autorisée pour l'inhalation ni pour une utilisation près des yeux et des lèvres, si bien que les cabines et brumes de bronzage en spray sont plus difficiles à maîtriser. L'autobronzant ne te protège pas du soleil.",
+    "tips": [
+      "Choisis une lotion ou une mousse et applique-la dans une pièce aérée.",
+      "Si tu fais un bronzage en spray, demande une protection pour les yeux, le nez et les lèvres."
+    ]
+  },
+  "sunbeds": {
+    "name": "Cabines UV et solariums",
+    "aliases": [
+      "cabine UV",
+      "solarium",
+      "banc solaire",
+      "salon de bronzage",
+      "lampe à bronzer",
+      "séance UV"
+    ],
+    "summary": "Mieux vaut les éviter : les cabines UV présentent un risque de cancer de la peau pour tout le monde, et pendant la grossesse elles ajoutent un risque de surchauffe et de taches plus foncées.",
+    "details": "Le NHS indique que les cabines UV peuvent être plus dangereuses que la lumière naturelle du soleil, car elles utilisent une source concentrée de rayonnement UV, et le conseil est de ne pas les utiliser du tout. Pendant la grossesse, la chaleur peut aussi faire monter ta température corporelle, ce que MotherToBaby recommande de limiter. L'exposition aux UV peut aggraver les taches brunes liées à la grossesse (mélasma).",
+    "tips": [
+      "Essaie plutôt une lotion autobronzante pour un hâle plus sûr."
+    ]
+  },
+  "waxing": {
+    "name": "Épilation à la cire (ağda)",
+    "aliases": [
+      "épilation",
+      "cire",
+      "épilation maillot",
+      "épilation au sucre",
+      "épilation au fil",
+      "épilateur"
+    ],
+    "summary": "Oui, l'ACOG indique que la pince à épiler, la cire et le rasage sont des méthodes d'épilation sans danger pendant la grossesse.",
+    "details": "Les hormones de grossesse peuvent faire pousser les poils plus vite ou à de nouveaux endroits, et l'ACOG indique que la pince à épiler, la cire et le rasage sont sans danger pendant la grossesse. Ta peau peut être plus sensible que d'habitude, donc la cire peut piquer davantage. Évite de passer la cire sur des varices, une peau abîmée ou des rougeurs.",
+    "tips": [
+      "Teste d'abord sur une petite zone, car la sensibilité peut changer pendant la grossesse.",
+      "Vérifie d'abord la température de la cire chaude pour éviter les brûlures."
+    ]
+  },
+  "laser-hair-removal": {
+    "name": "Épilation au laser",
+    "aliases": [
+      "épilation laser",
+      "lumière pulsée",
+      "IPL",
+      "laser diode",
+      "laser alexandrite",
+      "épilation définitive"
+    ],
+    "summary": "Mieux vaut la reporter : il y a peu de données de sécurité pendant la grossesse, et le rasage, la cire ou la pince à épiler sont recommandés à la place.",
+    "details": "L'épilation au laser et à la lumière pulsée (IPL) n'a pas été étudiée pendant la grossesse. L'ACOG cite la pince à épiler, la cire et le rasage comme des moyens sans danger d'éliminer les poils indésirables pendant la grossesse. La pilosité supplémentaire liée à la grossesse se calme généralement dans les 6 mois environ après la naissance, donc attendre peut aussi t'économiser des séances.",
+    "tips": [
+      "Mets tes séances en pause et reprends-les après la naissance."
+    ]
+  },
+  "botox-fillers": {
+    "name": "Botox et injections de comblement",
+    "aliases": [
+      "Botox",
+      "toxine botulique",
+      "fillers",
+      "injection lèvres",
+      "acide hyaluronique injectable",
+      "injections anti-rides"
+    ],
+    "summary": "Mieux vaut les reporter : le Botox esthétique n'est pas recommandé pendant la grossesse, et la sécurité des produits de comblement n'a pas été démontrée.",
+    "details": "BUMPS indique que, par précaution, les traitements esthétiques au Botox ne sont pas recommandés pendant la grossesse, car ils n'ont aucun bénéfice médical, même si aucun risque n'a été identifié. La FDA indique que la sécurité des produits de comblement dermique pendant la grossesse est inconnue. Le Botox utilisé pour des raisons médicales, comme une migraine sévère, relève d'une décision distincte à prendre par ton médecin.",
+    "tips": [
+      "Si tu as fait un traitement avant de savoir que tu étais enceinte, parles-en à ta sage-femme."
+    ]
+  },
+  "teeth-whitening": {
+    "name": "Blanchiment des dents",
+    "aliases": [
+      "blanchiment dentaire",
+      "bandes blanchissantes",
+      "kit de blanchiment",
+      "blanchiment laser",
+      "dentifrice blanchissant",
+      "dents blanches"
+    ],
+    "summary": "Mieux vaut le reporter après la grossesse, car le NHS indique que le blanchiment peut ne pas convenir pendant la grossesse.",
+    "details": "Le NHS cite la grossesse et l'allaitement parmi les raisons pour lesquelles le blanchiment des dents peut ne pas convenir. C'est un soin esthétique sans bénéfice médical, et la grossesse peut rendre les gencives plus sensibles. Les contrôles et nettoyages réguliers restent importants : continue à prendre soin de tes dents.",
+    "tips": [
+      "Continue tes contrôles dentaires réguliers, et dis à ton ou ta dentiste que tu es enceinte."
+    ]
+  },
+  "perfume": {
+    "name": "Parfum et produits parfumés",
+    "aliases": [
+      "parfum",
+      "eau de toilette",
+      "eau de parfum",
+      "brume parfumée",
+      "déodorant",
+      "produits parfumés"
+    ],
+    "summary": "Oui, le parfum du quotidien est sans problème, même si tu peux trouver les odeurs fortes plus difficiles à supporter.",
+    "details": "BUMPS indique que les petites quantités d'huiles essentielles présentes dans les parfums, cosmétiques et produits de toilette du quotidien sont très peu susceptibles de nuire au bébé. Beaucoup de personnes ont un odorat plus développé pendant la grossesse, et certains parfums peuvent déclencher des nausées ou des maux de tête. La FDA précise que les ingrédients parfumants peuvent provoquer des réactions allergiques chez certaines personnes.",
+    "tips": [
+      "Vaporise-le sur tes vêtements plutôt que sur ta peau si elle est sensible."
+    ]
+  },
+  "essential-oils": {
+    "name": "Huiles essentielles et aromathérapie",
+    "aliases": [
+      "huiles essentielles",
+      "aromathérapie",
+      "diffuseur",
+      "huile essentielle de lavande",
+      "menthe poivrée",
+      "tea tree"
+    ],
+    "summary": "Les huiles diluées en massage ou en diffuseur sont généralement sans problème, mais ne les avale jamais et ne les applique jamais pures sur la peau.",
+    "details": "BUMPS indique que les huiles essentielles diluées sont couramment utilisées en massage pendant la grossesse sans problème, mais que quelques huiles précises sont à éviter à tout stade en raison d'un risque théorique de contractions. Les huiles pures peuvent irriter la peau et sont toxiques si on les avale. Le NHS conseille de dire à ta sage-femme si tu pratiques l'aromathérapie et de consulter un praticien qualifié.",
+    "tips": [
+      "Dis à la personne qui te masse ou à ton aromathérapeute que tu es enceinte.",
+      "Garde les flacons hors de portée des enfants, car en avaler même de petites quantités est dangereux."
+    ]
+  },
+  "tattoos-piercings": {
+    "name": "Tatouages et piercings",
+    "aliases": [
+      "tatouage",
+      "piercing",
+      "piercing au nombril",
+      "microblading",
+      "maquillage permanent",
+      "dermopigmentation"
+    ],
+    "summary": "Mieux vaut les reporter après la naissance, surtout à cause du risque d'infection lié aux aiguilles et aux encres.",
+    "details": "Les tatouages, le maquillage permanent et les piercings n'ont pas été étudiés pendant la grossesse. La FDA avertit que du matériel non stérile et des encres contaminées peuvent provoquer des infections, et le NHS indique que des infections comme l'hépatite B, l'hépatite C et le VIH se transmettent par contact avec du sang infecté et peuvent être transmises au bébé. Un nouveau piercing près du ventre peut aussi devenir inconfortable à mesure qu'il s'arrondit.",
+    "tips": [
+      "Si tu en as fait un avant de savoir que tu étais enceinte, dis-le à ta sage-femme pour qu'elle vérifie l'absence d'infection."
+    ]
+  },
+  "walking": {
+    "name": "Marche",
+    "aliases": [
+      "marcher",
+      "marche rapide",
+      "randonnée",
+      "marche nordique",
+      "nombre de pas",
+      "balade"
+    ],
+    "summary": "Oui, la marche est l'un des meilleurs exercices pendant la grossesse et elle ménage tes articulations.",
+    "details": "Le NHS et l'ACOG recommandent environ 150 minutes d'activité modérée par semaine pendant la grossesse, et la marche rapide est un moyen simple d'y arriver. Modérée signifie que tu peux parler mais pas chanter. Une activité régulière peut réduire le risque de diabète gestationnel et de prééclampsie, et peut aider le sommeil et le moral.",
+    "tips": [
+      "Porte des chaussures qui maintiennent bien le pied et emporte de l'eau.",
+      "Les petites marches réparties sur la journée comptent aussi."
+    ]
+  },
+  "running": {
+    "name": "Course à pied et jogging",
+    "aliases": [
+      "courir",
+      "course à pied",
+      "jogging",
+      "footing",
+      "tapis de course",
+      "marathon"
+    ],
+    "summary": "Si tu courais avant la grossesse, tu peux généralement continuer à un rythme confortable, mais ne commence pas la course maintenant.",
+    "details": "L'ACOG indique que les coureuses expérimentées peuvent continuer à courir pendant la grossesse avec l'accord de leur gynécologue-obstétricien, tandis que le NHS déconseille de commencer une nouvelle activité intense comme la course. À mesure que ton ventre grossit, ton équilibre change et tes articulations se relâchent, c'est pourquoi beaucoup de personnes passent à la marche rapide plus tard. Arrête-toi si tu ressens une douleur, des vertiges ou si tu as une perte de liquide.",
+    "tips": [
+      "Cours à un rythme qui te permet de tenir une conversation.",
+      "Évite de courir par forte chaleur et bois beaucoup d'eau."
+    ]
+  },
+  "swimming": {
+    "name": "Natation",
+    "aliases": [
+      "nager",
+      "piscine",
+      "aquagym",
+      "aquagym prénatale",
+      "aquanatal",
+      "aquaforme"
+    ],
+    "summary": "Oui, la natation est idéale pendant la grossesse, car l'eau porte ton poids et soulage tes articulations.",
+    "details": "L'ACOG cite la natation et les exercices aquatiques parmi les exercices les plus sûrs pendant la grossesse, et le NHS indique que l'eau soulage la pression sur tes muscles et tes articulations. Les cours d'aquagym prénatale sont conçus pour la grossesse. Évite de plonger ou de sauter dans l'eau, et choisis des bassins agréablement frais plutôt que très chauds.",
+    "tips": [
+      "Utilise l'échelle plutôt que de sauter dans l'eau.",
+      "Fais attention aux sols glissants autour du bassin."
+    ]
+  },
+  "yoga": {
+    "name": "Yoga prénatal",
+    "aliases": [
+      "yoga",
+      "yoga grossesse",
+      "yoga femme enceinte",
+      "étirements",
+      "exercices de respiration",
+      "yoga prenatal"
+    ],
+    "summary": "Oui, surtout en cours prénatal, mais évite le hot yoga et, plus tard, de rester longtemps allongée sur le dos.",
+    "details": "L'ACOG indique que le yoga adapté réduit le stress, améliore la souplesse et favorise une respiration concentrée, et les cours prénatals adaptent les postures à ton équilibre qui change. Évite les postures qui te maintiennent immobile ou à plat sur le dos pendant de longues périodes, et ne t'étire pas trop, car les hormones de grossesse assouplissent tes articulations. Le NHS suggère que le yoga prénatal peut aider à soulager le mal de dos.",
+    "tips": [
+      "Dis à ton professeur ou à ta professeure que tu es enceinte et à combien de semaines tu en es."
+    ]
+  },
+  "hot-yoga": {
+    "name": "Hot yoga et Pilates chauffé",
+    "aliases": [
+      "hot yoga",
+      "Bikram",
+      "yoga Bikram",
+      "hot pilates",
+      "yoga chaud",
+      "yoga infrarouge"
+    ],
+    "summary": "Évite-le, car faire de l'exercice dans une salle chauffée peut trop faire monter ta température corporelle.",
+    "details": "L'ACOG conseille expressément d'éviter le hot yoga et le Pilates chauffé pendant la grossesse, car ils peuvent provoquer une surchauffe. MotherToBaby indique qu'une température corporelle élevée en début de grossesse a été associée à une légère augmentation du risque d'anomalies du tube neural. Un yoga prénatal classique, à température ambiante, t'apporte les mêmes bienfaits.",
+    "tips": [
+      "Passe à un cours prénatal classique, dans une salle fraîche et aérée."
+    ]
+  },
+  "pilates": {
+    "name": "Pilates",
+    "aliases": [
+      "Pilates reformer",
+      "Pilates au sol",
+      "Pilates prénatal",
+      "Pilates grossesse",
+      "gainage",
+      "renforcement abdominal"
+    ],
+    "summary": "Oui, le Pilates adapté ou prénatal fait partie des exercices que l'ACOG considère comme les plus sûrs pendant la grossesse.",
+    "details": "L'ACOG cite le Pilates adapté parmi les formes d'exercice les plus sûres pendant la grossesse, et les cours prénatals adaptent les mouvements à ton équilibre qui change. Évite les exercices qui te gardent longtemps allongée à plat sur le dos, surtout plus tard dans la grossesse. Laisse de côté les crunchs abdominaux intenses, et arrête-toi si quelque chose te fait mal.",
+    "tips": [
+      "Choisis un cours donné par quelqu'un de formé au Pilates prénatal."
+    ]
+  },
+  "weight-lifting": {
+    "name": "Musculation et renforcement musculaire",
+    "aliases": [
+      "musculation",
+      "salle de sport",
+      "haltères",
+      "squats",
+      "soulevé de terre",
+      "CrossFit"
+    ],
+    "summary": "Oui, le renforcement musculaire est encouragé, mais utilise des charges modérées, évite de forcer et adapte les mouvements à mesure que ton ventre grossit.",
+    "details": "Le NHS recommande 2 séances de renforcement musculaire par semaine, y compris la musculation en salle si tu en fais déjà. L'ACOG conseille d'éviter les mouvements brusques et à fort impact, car les hormones de grossesse relâchent tes articulations, et d'éviter de rester longtemps allongée à plat sur le dos. Mieux vaut éviter de bloquer ta respiration pendant l'effort et de soulever des charges très lourdes.",
+    "tips": [
+      "Dis à ton coach ou à ta coach que tu es enceinte.",
+      "Expire pendant l'effort et garde une charge que tu peux soulever avec une bonne technique."
+    ]
+  },
+  "hiit": {
+    "name": "HIIT et entraînements intensifs",
+    "aliases": [
+      "HIIT",
+      "fractionné",
+      "entraînement intensif",
+      "circuit training",
+      "burpees",
+      "tabata"
+    ],
+    "summary": "Si tu en as l'habitude, une version adaptée convient généralement, mais ne commence pas le HIIT maintenant et évite les sauts et la surchauffe.",
+    "details": "L'ACOG indique que les femmes très actives peuvent généralement poursuivre leurs entraînements avec l'accord de leur gynécologue-obstétricien, mais conseille d'éviter les mouvements brusques, rebondissants ou à fort impact, ainsi que la surchauffe. Le NHS indique qu'il n'est pas recommandé de commencer une nouvelle activité intense pendant la grossesse. Garde une intensité qui te permet encore de parler, et remplace les sauts par des versions à faible impact.",
+    "tips": [
+      "Remplace les burpees et les sauts par des pas sur le côté et de la marche sur place.",
+      "Arrête-toi si tu as des vertiges, si tu es essoufflée avant même de commencer, ou si tu as mal."
+    ]
+  },
+  "cycling": {
+    "name": "Vélo (en extérieur)",
+    "aliases": [
+      "vélo",
+      "bicyclette",
+      "VTT",
+      "vélo de route",
+      "vélo électrique",
+      "vélotaf"
+    ],
+    "summary": "Le vélo en extérieur comporte un risque de chute à mesure que ton équilibre change : le vélo d'appartement est le choix le plus sûr.",
+    "details": "L'ACOG indique que ton ventre qui grossit modifie ton équilibre et rend les chutes plus probables : rouler sur un vélo classique peut donc être risqué, et un vélo d'appartement est un meilleur choix. Le NHS conseille d'éviter les activités avec un risque de chute, comme le VTT. Si tu es une cycliste expérimentée, des parcours calmes et plats en début de grossesse sont moins risqués que les routes fréquentées ou les sentiers.",
+    "tips": [
+      "Remplace le VTT par un vélo d'appartement ou un cours de spinning.",
+      "Porte toujours un casque si tu roules en extérieur."
+    ]
+  },
+  "spinning": {
+    "name": "Spinning et vélo d'appartement",
+    "aliases": [
+      "spinning",
+      "vélo d'appartement",
+      "vélo stationnaire",
+      "vélo d'intérieur",
+      "Peloton",
+      "biking"
+    ],
+    "summary": "Oui, le vélo d'appartement est l'une des façons les plus sûres de faire du cardio pendant la grossesse, tant que tu ne surchauffes pas.",
+    "details": "L'ACOG recommande le vélo d'appartement plutôt que le vélo en extérieur, car il n'y a pas de risque de chute. Les cours de spinning peuvent être chauds et intenses, et l'ACOG conseille d'éviter la surchauffe, de bien t'hydrater et de faire de l'exercice dans une pièce à température contrôlée. Remonte le guidon à mesure que ton ventre grossit, et garde un rythme qui te permet encore de parler.",
+    "tips": [
+      "Apporte de l'eau, installe-toi près d'un ventilateur et lève le pied plutôt que de suivre le cours à pleine intensité."
+    ]
+  },
+  "horse-riding": {
+    "name": "Équitation",
+    "aliases": [
+      "cheval",
+      "monter à cheval",
+      "cours d'équitation",
+      "balade à cheval",
+      "randonnée équestre",
+      "poney"
+    ],
+    "summary": "Mieux vaut l'éviter, car une chute de cheval pourrait vous blesser gravement, toi et ton bébé.",
+    "details": "L'ACOG cite l'équitation parmi les activités à éviter pendant la grossesse en raison du risque de chute. La Mayo Clinic indique que les chutes en fin de grossesse, surtout sur le ventre, peuvent entraîner des problèmes graves comme un décollement du placenta. Même les cavalières expérimentées ne peuvent pas maîtriser les mouvements brusques d'un cheval.",
+    "tips": [
+      "Le travail à pied avec les chevaux, sans monter, est une façon plus douce de rester impliquée."
+    ]
+  },
+  "skiing": {
+    "name": "Ski et snowboard",
+    "aliases": [
+      "ski",
+      "ski alpin",
+      "snowboard",
+      "vacances au ski",
+      "ski nautique",
+      "luge"
+    ],
+    "summary": "Mieux vaut les éviter, car le ski alpin et le snowboard comportent un risque élevé de chutes et de collisions.",
+    "details": "L'ACOG cite le ski alpin et le ski nautique parmi les activités à éviter pendant la grossesse en raison du risque de chute. De nombreuses stations de ski se trouvent aussi au-dessus de 6 000 pieds (environ 1 800 mètres), et l'ACOG conseille d'éviter l'exercice à cette altitude si tu ne vis pas déjà en altitude. Des balades tranquilles dans la neige sont une façon plus sûre de profiter de la montagne.",
+    "tips": [
+      "Profite de la station avec des balades tranquilles et beaucoup de repos à plus basse altitude."
+    ]
+  },
+  "scuba-diving": {
+    "name": "Plongée sous-marine",
+    "aliases": [
+      "plongée",
+      "plongée bouteille",
+      "baptême de plongée",
+      "PADI",
+      "apnée",
+      "plongée en apnée"
+    ],
+    "summary": "Évite-la pendant la grossesse : le NHS et les CDC déconseillent la plongée sous-marine en raison de risques possibles pour le bébé.",
+    "details": "Le NHS conseille de ne pas faire de plongée sous-marine pendant la grossesse, car cela pourrait être dangereux pour ton bébé, et les CDC indiquent que la sécurité de la plongée pendant la grossesse n'a pas été établie. Le bébé n'est pas protégé des accidents de décompression comme tu pourrais l'être. Le snorkeling en surface est une belle alternative.",
+    "tips": [
+      "Essaie plutôt le snorkeling (randonnée palmée), en restant en surface et en eau calme."
+    ]
+  },
+  "contact-sports": {
+    "name": "Sports de contact",
+    "aliases": [
+      "football",
+      "soccer",
+      "basket",
+      "rugby",
+      "boxe",
+      "arts martiaux"
+    ],
+    "summary": "Mieux vaut les éviter, car les sports avec un risque de coup au ventre ou de chute pourraient vous blesser, toi ou ton bébé.",
+    "details": "L'ACOG conseille d'éviter les sports de contact comme le hockey sur glace, la boxe, le football et le basket pendant la grossesse, et le NHS cite le hockey et le rugby parmi les activités avec un risque de choc au ventre. En fin de grossesse, un coup à l'abdomen peut entraîner des problèmes comme un décollement du placenta. Les entraînements sans contact et les exercices techniques peuvent te permettre de continuer à participer.",
+    "tips": [
+      "Remplace les matchs par la marche, la natation ou le vélo d'appartement."
+    ]
+  },
+  "sauna": {
+    "name": "Sauna et bain de vapeur",
+    "aliases": [
+      "sauna",
+      "bain de vapeur",
+      "sauna infrarouge",
+      "spa",
+      "banya",
+      "étuve"
+    ],
+    "summary": "Mieux vaut l'éviter, surtout au premier trimestre, car la surchauffe peut être nocive en début de grossesse.",
+    "details": "MotherToBaby indique qu'une température corporelle élevée avant environ 6 semaines de grossesse a été associée à une légère augmentation du risque d'anomalies du tube neural, et conseille de limiter le jacuzzi et le sauna. L'ACOG indique qu'une température corporelle élevée pendant la grossesse est associée à des malformations congénitales et à d'autres complications. Le sauna peut aussi te donner des vertiges ou un malaise, ce qui augmente le risque de chute.",
+    "tips": [
+      "Si tu n'es pas sûre de pouvoir t'en passer, fais une séance très courte et sors si tu as trop chaud ou des vertiges."
+    ]
+  },
+  "hot-tub": {
+    "name": "Jacuzzi et bain à remous",
+    "aliases": [
+      "jacuzzi",
+      "spa",
+      "bain à remous",
+      "bain nordique",
+      "source chaude",
+      "bassin thermal"
+    ],
+    "summary": "Mieux vaut l'éviter, car rester dans l'eau chaude fait monter rapidement ta température interne, ce qui compte surtout en début de grossesse.",
+    "details": "Les jacuzzis et les bassins thermaux entourent la majeure partie de ton corps d'eau chaude, donc ta température interne peut monter rapidement. MotherToBaby conseille de limiter le jacuzzi pendant la grossesse et indique qu'une température corporelle élevée en début de grossesse a été associée à des anomalies du tube neural. Les kaplıca turques (sources thermales) sont souvent très chaudes, donc la même règle s'applique.",
+    "tips": [
+      "Laisse simplement pendre tes jambes dans l'eau ou choisis plutôt une piscine à température normale."
+    ]
+  },
+  "hamam": {
+    "name": "Bain turc (hammam)",
+    "aliases": [
+      "hammam",
+      "hamam",
+      "bain turc",
+      "bain de vapeur",
+      "kessa",
+      "gommage"
+    ],
+    "summary": "Évite les salles les plus chaudes et le marbre chauffé (göbek taşı) ; une courte visite dans la zone tiède, pas chaude, est le maximum à viser.",
+    "details": "Un hammam traditionnel associe un air chaud et humide à une dalle de marbre chauffée, ce qui peut faire monter ta température corporelle un peu comme un sauna. MotherToBaby conseille de limiter le jacuzzi et le sauna, car une température corporelle élevée en début de grossesse a été associée à des anomalies du tube neural. Les sols en marbre mouillés sont aussi glissants, et la chaleur peut donner des vertiges : le risque de chute est réel.",
+    "tips": [
+      "Évite de t'allonger sur le göbek taşı et reste à l'eau tiède.",
+      "Vas-y accompagnée, reste peu de temps et bois de l'eau.",
+      "Demande un gommage (kese) doux, sans pression sur ton ventre."
+    ]
+  },
+  "hot-bath": {
+    "name": "Bains chauds",
+    "aliases": [
+      "bain",
+      "bain chaud",
+      "baignoire",
+      "bain moussant",
+      "bain tiède",
+      "prendre un bain"
+    ],
+    "summary": "Un bain tiède est sans problème et peut soulager les douleurs, mais garde l'eau tiède plutôt que chaude et évite de surchauffer.",
+    "details": "Le NHS suggère un bain tiède pour soulager le mal de dos pendant la grossesse. Une eau très chaude peut faire monter ta température corporelle, et MotherToBaby indique que les températures élevées en début de grossesse ont été associées à des anomalies du tube neural. Les bains chauds peuvent aussi te faire te sentir mal quand tu te lèves, alors sors doucement.",
+    "tips": [
+      "Teste l'eau avec ton coude : elle doit être tiède, pas chaude.",
+      "Utilise un tapis antidérapant et sors doucement."
+    ]
+  },
+  "sex": {
+    "name": "Rapports sexuels",
+    "aliases": [
+      "sexe",
+      "sexe pendant la grossesse",
+      "faire l'amour",
+      "relations sexuelles",
+      "intimité",
+      "pénétration"
+    ],
+    "summary": "Oui, dans une grossesse sans complication, les rapports sexuels sont sans danger et ne feront pas de mal à ton bébé, sauf avis contraire de ton médecin.",
+    "details": "Dans la plupart des grossesses, les rapports sexuels ne présentent pas de risque pour toi ni pour ton bébé, qui est protégé par le liquide amniotique et les muscles de l'utérus. Un médecin peut les déconseiller dans certaines situations, par exemple un placenta qui recouvre le col (placenta praevia) ou un risque de saignement. Il est normal que ton désir change, et de nouvelles positions peuvent être plus confortables à mesure que ton ventre s'arrondit.",
+    "tips": [
+      "Utilise des préservatifs avec un nouveau ou une nouvelle partenaire, car certaines infections peuvent affecter ton bébé.",
+      "Contacte ton équipe de maternité si tu as des saignements, des douleurs ou une perte de liquide après."
+    ]
+  },
+  "orgasm": {
+    "name": "Orgasme",
+    "aliases": [
+      "orgasme enceinte",
+      "jouissance",
+      "contractions après rapport",
+      "ventre dur après rapport",
+      "Braxton Hicks"
+    ],
+    "summary": "Oui, les orgasmes sont sans danger dans une grossesse sans complication, et de légers durcissements du ventre après sont normaux.",
+    "details": "En fin de grossesse, un orgasme, ou le rapport lui-même, peut déclencher des contractions d'entraînement appelées contractions de Braxton Hicks. NI Direct indique que c'est tout à fait normal et qu'il n'y a pas lieu de s'inquiéter, et se reposer au calme aide généralement à les faire passer. Si ton médecin t'a conseillé d'éviter les rapports, demande-lui si cela inclut aussi l'orgasme.",
+    "tips": [
+      "Appelle ton équipe de maternité si les contractions deviennent régulières et douloureuses avant 37 semaines."
+    ]
+  },
+  "massage": {
+    "name": "Massage",
+    "aliases": [
+      "massage grossesse",
+      "massage prénatal",
+      "massage du dos",
+      "massage des pieds",
+      "soin spa",
+      "réflexologie"
+    ],
+    "summary": "Oui, un massage doux, fait par quelqu'un de formé à la grossesse, est un bon moyen de soulager les douleurs et le stress.",
+    "details": "Le NHS suggère le massage comme un moyen de soulager le mal de dos pendant la grossesse, et la Mayo Clinic le cite parmi les techniques de relaxation contre les maux de tête. Allonge-toi sur le côté plutôt que sur le ventre, et assure-toi que la personne qui te masse sait que tu es enceinte. Si des huiles essentielles sont utilisées, elles doivent être diluées et adaptées à la grossesse.",
+    "tips": [
+      "Prends rendez-vous avec quelqu'un de formé au massage de grossesse.",
+      "Demande à être installée sur le côté, avec des coussins pour te soutenir."
+    ]
+  },
+  "chiropractor": {
+    "name": "Chiropracteur et ostéopathe",
+    "aliases": [
+      "chiropraxie",
+      "chiropraticien",
+      "ostéopathe",
+      "ostéo",
+      "manipulation vertébrale",
+      "craquer le dos"
+    ],
+    "summary": "Pour une douleur au dos ou au bassin, commence par ta sage-femme ou un ou une kinésithérapeute ; si tu consultes un chiropracteur, choisis-en un qui a l'expérience de la grossesse.",
+    "details": "La manipulation vertébrale a été peu étudiée pendant la grossesse. Pour le mal de dos, le NHS indique que ton médecin généraliste ou ta sage-femme peut t'orienter vers un kinésithérapeute spécialisé en obstétrique, et l'ACOG suggère un kinésithérapeute une fois les autres causes écartées. Le mal de dos peut parfois signaler le début du travail ou une infection urinaire, alors fais-le d'abord vérifier.",
+    "tips": [
+      "Dis à tout praticien à combien de semaines de grossesse tu en es.",
+      "Arrête si un soin provoque une douleur ou un durcissement du ventre."
+    ]
+  },
+  "sleeping-on-back": {
+    "name": "Dormir sur le dos",
+    "aliases": [
+      "position pour dormir",
+      "allongée sur le dos",
+      "sur le dos",
+      "décubitus dorsal",
+      "sommeil troisième trimestre"
+    ],
+    "summary": "À partir de 28 semaines, endors-toi sur le côté, car dormir sur le dos est associé à un risque plus élevé de mort fœtale ; avant, ce n'est pas un problème.",
+    "details": "Le NHS conseille d'éviter de t'endormir sur le dos après 28 semaines, car cela a été associé à un risque plus élevé de mort fœtale in utero. En fin de grossesse, être allongée sur le dos permet à l'utérus d'appuyer sur un gros vaisseau sanguin, ce qui peut te donner une sensation de malaise et réduire la circulation sanguine. Si tu te réveilles sur le dos, ne t'inquiète pas : tourne-toi simplement sur le côté.",
+    "tips": [
+      "Place un oreiller derrière ton dos pour t'aider à rester sur le côté.",
+      "Les deux côtés conviennent, alors choisis celui qui est le plus confortable."
+    ]
+  },
+  "sleeping-on-stomach": {
+    "name": "Dormir sur le ventre",
+    "aliases": [
+      "sur le ventre",
+      "position pour dormir",
+      "allongée sur le ventre",
+      "décubitus ventral"
+    ],
+    "summary": "Sans problème tant que c'est confortable, car ton bébé est bien protégé, et la plupart des personnes passent à la position sur le côté à mesure que le ventre grossit.",
+    "details": "En début de grossesse, l'utérus se trouve bas, derrière l'os du bassin, et ton bébé est protégé par le liquide, donc t'allonger sur le ventre ne lui fera pas de mal. À mesure que ton ventre s'arrondit, dormir sur le ventre devient généralement inconfortable de lui-même. L'ACOG indique que dormir sur le côté, genoux pliés et avec des oreillers, est la position la plus confortable en fin de grossesse.",
+    "tips": [
+      "Essaie un coussin de grossesse pour passer plus facilement à la position sur le côté."
+    ]
+  },
+  "roller-coasters": {
+    "name": "Montagnes russes et manèges",
+    "aliases": [
+      "montagnes russes",
+      "parc d'attractions",
+      "manège",
+      "fête foraine",
+      "toboggan aquatique",
+      "auto-tamponneuses"
+    ],
+    "summary": "Mieux vaut les éviter, car les secousses, les arrêts brusques et les chocs pourraient nuire à ta grossesse.",
+    "details": "Les manèges avec des départs, des arrêts et des secousses brusques peuvent exercer une force sur ton abdomen, un peu comme une chute ou un coup. La Mayo Clinic indique que les chocs à l'abdomen en fin de grossesse peuvent entraîner des problèmes comme un décollement du placenta, et MotherToBaby explique comment un traumatisme physique peut affecter une grossesse. La plupart des parcs d'attractions déconseillent aux visiteuses enceintes de monter dans les attractions.",
+    "tips": [
+      "Choisis plutôt des manèges tranquilles, comme le carrousel ou la grande roue."
+    ]
+  },
+  "trampolines": {
+    "name": "Trampolines et châteaux gonflables",
+    "aliases": [
+      "trampoline",
+      "parc de trampolines",
+      "château gonflable",
+      "structure gonflable",
+      "mini-trampoline",
+      "sauter"
+    ],
+    "summary": "Mieux vaut les éviter, car les rebonds ajoutent des secousses et un vrai risque de chute ou de choc.",
+    "details": "L'ACOG conseille d'éviter les mouvements brusques, rebondissants et à fort impact pendant la grossesse, car les hormones relâchent tes articulations et ton équilibre qui change rend les chutes plus probables. Les chutes et les coups au ventre en fin de grossesse peuvent entraîner des problèmes comme un décollement du placenta. Sauter à côté d'enfants augmente aussi le risque de collisions.",
+    "tips": [
+      "Encourage-les depuis le bord, et occupe-toi du goûter des enfants."
+    ]
+  },
+  "lifting-toddler": {
+    "name": "Porter un jeune enfant",
+    "aliases": [
+      "porter un enfant",
+      "porter mon enfant",
+      "soulever des charges",
+      "porter les courses",
+      "prendre son enfant dans les bras"
+    ],
+    "summary": "Généralement sans problème avec une bonne technique : plie les genoux, garde le dos droit et évite de soulever des charges très lourdes.",
+    "details": "Le NHS compte le fait de porter des enfants et des courses parmi les activités quotidiennes de renforcement musculaire, mais conseille de plier les genoux et de garder le dos droit quand tu soulèves quelque chose, et d'éviter les objets lourds. Les hormones de grossesse relâchent tes ligaments, donc ton dos et ton bassin sont plus vulnérables aux faux mouvements. Si tu as des complications ou des douleurs au bassin, demande à ta sage-femme ce qui est sans danger pour toi.",
+    "tips": [
+      "Accroupis-toi à la hauteur de ton enfant et laisse-le plutôt grimper sur tes genoux.",
+      "Partage le portage avec ton ou ta partenaire quand c'est possible."
+    ]
+  },
+  "cleaning-products": {
+    "name": "Ménage",
+    "aliases": [
+      "produits ménagers",
+      "faire le ménage",
+      "nettoyant four",
+      "désinfectant",
+      "désodorisant",
+      "spray nettoyant"
+    ],
+    "summary": "Le ménage du quotidien est sans problème avec aération et gants, mais confie les nettoyants pour four et les aérosols puissants à quelqu'un d'autre si tu peux.",
+    "details": "Nemours KidsHealth indique que certains produits chimiques ménagers peuvent être utilisés sans danger pendant la grossesse, tandis que d'autres, comme les nettoyants pour four, les diluants à peinture, les désodorisants et les aérosols, peuvent être dangereux. Les odeurs fortes peuvent aussi aggraver les nausées. Lire les étiquettes, ouvrir les fenêtres et porter des gants en caoutchouc limite l'exposition.",
+    "tips": [
+      "Ouvre les fenêtres, porte des gants et lave-toi les mains après.",
+      "Des solutions simples comme le savon, le vinaigre et le bicarbonate de soude suffisent pour la plupart des tâches."
+    ]
+  },
+  "painting": {
+    "name": "Peinture et décoration",
+    "aliases": [
+      "peindre la chambre de bébé",
+      "odeur de peinture",
+      "travaux",
+      "décoller le papier peint",
+      "vernis bois",
+      "peinture au plomb"
+    ],
+    "summary": "Peindre un peu avec une peinture à l'eau dans une pièce aérée présente peu de risques, mais laisse quelqu'un d'autre décaper l'ancienne peinture ou utiliser des solvants.",
+    "details": "MotherToBaby indique qu'un chantier de peinture ponctuel à la maison entraîne généralement une exposition bien plus faible que peindre pour son travail, et recommande une bonne aération ainsi que d'aérer la pièce pendant 2 à 3 jours après. Les femmes enceintes ne devraient pas gratter, poncer ni décaper d'anciennes peintures, car les logements anciens peuvent contenir de la peinture au plomb. Les échelles présentent aussi un risque de chute à mesure que ton équilibre change.",
+    "tips": [
+      "Choisis une peinture à l'eau, à faible teneur en COV, et garde les fenêtres ouvertes.",
+      "Ne monte pas sur une échelle et laisse la pièce s'aérer avant d'y dormir."
+    ]
+  },
+  "gardening": {
+    "name": "Jardinage",
+    "aliases": [
+      "jardiner",
+      "terre",
+      "désherbage",
+      "bêcher",
+      "potager",
+      "rempotage"
+    ],
+    "summary": "Oui, le jardinage est un bon exercice, mais porte des gants et lave-toi les mains, car la terre peut être porteuse de toxoplasme.",
+    "details": "L'ACOG considère le jardinage courant, comme ratisser, désherber et bêcher, comme une activité modérée. La terre peut être contaminée par des excréments de chat porteurs de toxoplasme, c'est pourquoi le NHS conseille de porter des gants même si tu n'as pas de chat, et de te laver les mains et de laver tes gants après. Évite d'utiliser toi-même des pesticides de jardin.",
+    "tips": [
+      "Porte des gants et lave-toi bien les mains après avoir jardiné.",
+      "Plie les genoux pour soulever les pots et les sacs de terreau."
+    ]
+  },
+  "cat-litter": {
+    "name": "Nettoyer la litière du chat",
+    "aliases": [
+      "litière",
+      "bac à litière",
+      "caisse du chat",
+      "crottes de chat",
+      "toxoplasmose",
+      "chat"
+    ],
+    "summary": "Demande à quelqu'un d'autre de s'en charger ; si tu dois le faire, porte des gants et nettoie le bac tous les jours.",
+    "details": "Les excréments de chat peuvent contenir le toxoplasme, un parasite qui peut nuire à ton bébé si tu l'attrapes pour la première fois pendant la grossesse. Le NHS conseille d'éviter de vider la litière du chat pendant la grossesse, ou de porter des gants jetables et de nettoyer le bac chaque jour si personne d'autre ne peut le faire. Les CDC expliquent que le parasite ne devient infectieux que 1 à 5 jours après avoir été excrété, c'est pourquoi un nettoyage quotidien aide.",
+    "tips": [
+      "Pas besoin de te séparer de ton chat : confie simplement la litière à quelqu'un d'autre.",
+      "Lave-toi les mains après avoir caressé un chat et avant de manger."
+    ]
+  },
+  "standing-long": {
+    "name": "Rester longtemps debout",
+    "aliases": [
+      "debout toute la journée",
+      "debout au travail",
+      "travail debout",
+      "travail en magasin",
+      "longues gardes",
+      "piétiner"
+    ],
+    "summary": "C'est sans problème sur de courtes périodes, mais rester longtemps debout sans bouger peut donner des vertiges et aggraver les gonflements : bouge souvent.",
+    "details": "L'ACOG explique que rester debout sans bouger peut faire stagner le sang dans les jambes et les pieds, ce qui peut faire baisser brièvement ta tension et te donner une sensation de malaise. L'ACOG conseille aussi de bouger régulièrement si tu dois rester longtemps assise ou debout, pour soulager les varices et les gonflements. Si ton travail te garde debout, demande à ton employeur des pauses et des aménagements.",
+    "tips": [
+      "Change d'appui, fais travailler tes mollets et pose un pied sur un petit tabouret.",
+      "Assieds-toi rapidement si tu te sens mal."
+    ]
+  },
+  "sunbathing": {
+    "name": "Bains de soleil",
+    "aliases": [
+      "bronzer",
+      "bronzage",
+      "plage",
+      "s'allonger au soleil",
+      "chaleur",
+      "exposition au soleil"
+    ],
+    "summary": "Profite du plein air par petites périodes, mais évite la surchauffe et utilise une crème solaire pour prévenir les taches de grossesse.",
+    "details": "L'ACOG indique que ton corps travaille plus dur pour rester au frais pendant la grossesse et qu'une température corporelle élevée a été associée à des complications : évite donc de rester longtemps en plein soleil et à la chaleur. L'exposition au soleil peut aussi déclencher ou foncer le mélasma, les taches brunes que la grossesse peut provoquer. L'ombre, de l'eau et un chapeau rendent les journées à la plage bien plus sûres.",
+    "tips": [
+      "Évite le soleil de midi et installe-toi à l'ombre.",
+      "Bois de l'eau régulièrement et porte un chapeau à larges bords."
+    ]
+  },
+  "pelvic-floor-exercises": {
+    "name": "Exercices du périnée (Kegel)",
+    "aliases": [
+      "Kegel",
+      "exercices de Kegel",
+      "périnée",
+      "plancher pelvien",
+      "rééducation du périnée",
+      "fuites urinaires"
+    ],
+    "summary": "Oui, ils sont recommandés pendant la grossesse et aident à éviter les fuites quand tu tousses, éternues ou ris.",
+    "details": "Les muscles du périnée soutiennent ta vessie, ton intestin et ton utérus, et la grossesse et l'accouchement les mettent davantage à contribution. Le NHS recommande les exercices du périnée pendant la grossesse pour aider à prévenir les fuites urinaires, qui sont fréquentes. Tu peux les faire n'importe où : assise, debout ou allongée sur le côté.",
+    "tips": [
+      "Contracte comme pour retenir un pipi, maintiens, puis relâche complètement ; recommence quelques fois par jour.",
+      "Demande à ta sage-femme de vérifier ta technique si tu as un doute."
+    ]
+  },
+  "flying": {
+    "name": "Prendre l'avion",
+    "aliases": [
+      "avion",
+      "vol",
+      "voyage en avion",
+      "compagnie aérienne",
+      "certificat médical avion",
+      "enceinte en avion"
+    ],
+    "summary": "Oui, prendre l'avion n'est pas dangereux dans une grossesse sans complication, mais les compagnies limitent les voyages en fin de grossesse : vérifie avant de réserver.",
+    "details": "Le NHS indique que prendre l'avion n'est pas dangereux pour toi ni pour ton bébé, et le RCOG confirme que voyager en avion est généralement sans danger dans une grossesse sans complication. Beaucoup de compagnies ne te laissent plus voler après environ 36 semaines (32 semaines pour des jumeaux), et certaines demandent un courrier confirmant ta date prévue d'accouchement après 28 semaines. Le milieu de la grossesse est souvent le moment le plus confortable pour voyager.",
+    "tips": [
+      "Vérifie la politique de ta compagnie aérienne concernant la grossesse avant de réserver.",
+      "Emporte ton dossier de grossesse, ainsi qu'un certificat médical si tu as dépassé 28 semaines."
+    ]
+  },
+  "long-haul-flights": {
+    "name": "Vols long-courriers et caillots sanguins",
+    "aliases": [
+      "long vol",
+      "long-courrier",
+      "phlébite",
+      "thrombose veineuse profonde",
+      "bas de contention",
+      "chaussettes de contention"
+    ],
+    "summary": "Généralement sans problème, mais la grossesse augmente le risque de caillots sanguins lors des trajets de plus de 4 heures : bouge régulièrement et bois de l'eau.",
+    "details": "Les trajets de 4 heures ou plus augmentent le risque de thrombose veineuse profonde (TVP, ou phlébite), et la grossesse accroît encore ce risque. L'ACOG et le RCOG conseillent de boire beaucoup d'eau, de porter des vêtements amples, et de marcher et de bouger les jambes régulièrement. Les bas de contention peuvent aider, mais demande d'abord l'avis de ton médecin, surtout si tu as d'autres facteurs de risque.",
+    "tips": [
+      "Réserve une place côté couloir et marche un peu toutes les 30 minutes environ.",
+      "Demande de l'aide en urgence en cas de jambe douloureuse et gonflée ou d'essoufflement soudain."
+    ]
+  },
+  "travel-insurance": {
+    "name": "Assurance voyage",
+    "aliases": [
+      "assurance santé à l'étranger",
+      "assistance voyage",
+      "rapatriement",
+      "assurance rapatriement",
+      "carte européenne d'assurance maladie",
+      "CEAM"
+    ],
+    "summary": "Choisis un contrat qui couvre clairement la grossesse, un accouchement prématuré et les soins du nouveau-né, car beaucoup de contrats standard ne le font pas.",
+    "details": "Les CDC indiquent que de nombreux contrats d'assurance ne couvrent pas les soins liés à la grossesse ni ceux du nouveau-né à l'étranger, et recommandent fortement une couverture pour ces soins et pour l'évacuation sanitaire. L'ACOG suggère d'appeler ton assureur 4 à 6 semaines avant un voyage à l'étranger pour vérifier ce qui est inclus. Fais attention aux limites en semaines, car certains contrats cessent de couvrir la grossesse après un certain stade.",
+    "tips": [
+      "Pose précisément la question de l'accouchement prématuré et de la réanimation néonatale.",
+      "Emporte les détails de ton contrat et ton dossier de grossesse."
+    ]
+  },
+  "zika-areas": {
+    "name": "Voyager dans les zones à Zika",
+    "aliases": [
+      "Zika",
+      "virus Zika",
+      "zones à moustiques",
+      "Caraïbes",
+      "Brésil",
+      "Amérique centrale"
+    ],
+    "summary": "Reporte les voyages non essentiels dans les zones où circule le Zika, car une infection pendant la grossesse peut provoquer de graves malformations congénitales.",
+    "details": "Le Zika se transmet surtout par les moustiques et peut aussi se transmettre lors des rapports sexuels. Une infection pendant la grossesse peut provoquer des malformations congénitales, dont la microcéphalie, c'est pourquoi le NHS recommande de reporter les voyages non essentiels dans les zones à haut risque. Le risque varie selon les pays et dans le temps, alors consulte des conseils de santé-voyage à jour avant de réserver.",
+    "tips": [
+      "Si ton ou ta partenaire voyage dans une zone à Zika, utilisez des préservatifs pendant le reste de ta grossesse.",
+      "Si tu dois partir, utilise un répulsif au DEET et couvre tes bras et tes jambes."
+    ]
+  },
+  "malaria-areas": {
+    "name": "Voyager dans les zones de paludisme",
+    "aliases": [
+      "paludisme",
+      "malaria",
+      "antipaludéens",
+      "traitement antipaludique",
+      "voyage en Afrique",
+      "safari"
+    ],
+    "summary": "Évite ou reporte les voyages dans les zones de paludisme si tu peux, car le paludisme est plus dangereux pendant la grossesse et certains comprimés ne conviennent pas.",
+    "details": "Le paludisme peut être plus grave pendant la grossesse et peut nuire au bébé. Les CDC conseillent d'éviter ou de reporter les voyages dans les zones de paludisme pendant la grossesse, et le NHS indique que certains comprimés antipaludiques ne sont pas sûrs pendant la grossesse. Si le voyage est inévitable, demande un avis spécialisé bien à l'avance.",
+    "tips": [
+      "Consulte un centre de conseil aux voyageurs 4 à 6 semaines avant ton départ.",
+      "Dors sous une moustiquaire imprégnée et utilise un répulsif au DEET."
+    ]
+  },
+  "seatbelt": {
+    "name": "Ceinture de sécurité",
+    "aliases": [
+      "ceinture",
+      "sécurité en voiture",
+      "ceinture ventrale",
+      "adaptateur de ceinture grossesse",
+      "ceinture enceinte",
+      "accident de voiture"
+    ],
+    "summary": "Oui, porte-la toujours, avec la partie basse sous ton ventre et la sangle diagonale entre tes seins.",
+    "details": "La ceinture de sécurité te protège, toi et ton bébé, en cas d'accident, et les accidents de la route font partie des causes de blessure les plus fréquentes pendant la grossesse. Le NHS conseille de placer la sangle diagonale entre tes seins et la sangle abdominale sur ton bassin, sous ton ventre, et non par-dessus. L'ACOG ajoute que tu dois porter ta ceinture en permanence.",
+    "tips": [
+      "Fais-toi examiner par ton équipe de maternité après tout accident de voiture, même si tu te sens bien."
+    ]
+  },
+  "driving": {
+    "name": "Conduire",
+    "aliases": [
+      "conduire enceinte",
+      "voiture",
+      "conduite",
+      "trajet en voiture",
+      "conduite troisième trimestre",
+      "volant"
+    ],
+    "summary": "Oui, tu peux conduire pendant toute la grossesse si tu te sens bien, mais fais des pauses et ajuste ton siège à mesure que ton ventre grossit.",
+    "details": "La fatigue et les vertiges sont fréquents pendant la grossesse, c'est pourquoi le NHS suggère de t'arrêter régulièrement, de boire de l'eau et de manger des en-cas lors des longs trajets. Garde ta ceinture bien positionnée et recule ton siège aussi loin que c'est confortable tout en atteignant les pédales. Évite de conduire si tu te sens mal ou très fatiguée.",
+    "tips": [
+      "Sur les longs trajets, partage la conduite et arrête-toi toutes les une à deux heures pour t'étirer."
+    ]
+  },
+  "airport-scanners": {
+    "name": "Portiques de sécurité à l'aéroport",
+    "aliases": [
+      "scanner corporel",
+      "body scanner",
+      "sécurité aéroport",
+      "portique",
+      "scanner à ondes millimétriques",
+      "détecteur de métaux"
+    ],
+    "summary": "Oui, les détecteurs de métaux et les scanners corporels sont considérés comme sans danger pendant la grossesse, car ils utilisent peu ou pas de rayonnement.",
+    "details": "Les CDC indiquent que les détecteurs de métaux ne sont pas dangereux pendant la grossesse et que le risque lié aux scanners corporels est extrêmement faible. La FDA explique que les scanners à ondes millimétriques utilisent une énergie non ionisante, et que la dose d'un scanner corporel à rayons X est inférieure à celle reçue en environ 42 minutes de rayonnement naturel ambiant au quotidien. Tu peux demander une fouille par palpation à la place si tu préfères.",
+    "tips": [
+      "Si ça te rassure, demande une fouille manuelle à la place."
+    ]
+  },
+  "high-altitude": {
+    "name": "Haute altitude",
+    "aliases": [
+      "altitude",
+      "montagne",
+      "randonnée en altitude",
+      "mal des montagnes",
+      "mal aigu des montagnes",
+      "trekking"
+    ],
+    "summary": "Les courts séjours sont généralement sans problème, mais évite de faire de l'exercice au-dessus d'environ 1 800 mètres (6 000 pieds), sauf si tu vis en altitude.",
+    "details": "L'ACOG déconseille de faire de l'exercice au-dessus de 6 000 pieds (environ 1 800 mètres) pendant la grossesse si tu ne vis pas déjà en haute altitude. Les CDC recommandent de monter lentement et de prendre le temps de t'acclimater, et indiquent que les zones isolées peuvent être loin de tout soin médical. Mieux vaut reporter les treks à très haute altitude.",
+    "tips": [
+      "Monte progressivement et repose-toi plus que d'habitude les premiers jours.",
+      "Demande de l'aide en cas de mal de tête intense, d'essoufflement ou de gonflements."
+    ]
+  },
+  "cruise": {
+    "name": "Croisières et sorties en bateau",
+    "aliases": [
+      "croisière",
+      "ferry",
+      "bateau",
+      "mal de mer",
+      "voile",
+      "traversée"
+    ],
+    "summary": "Souvent possible plus tôt dans la grossesse, mais la plupart des compagnies de croisière ne t'acceptent plus après environ 24 semaines, et le mal de mer peut être difficile.",
+    "details": "Les CDC indiquent que la plupart des compagnies de croisière limitent les voyages au-delà de 24 semaines et peuvent demander un certificat médical, et les compagnies de ferry ont aussi leurs propres limites. L'ACOG suggère de vérifier qu'il y a un médecin ou une infirmière à bord et des structures médicales dans les ports. Le mal de mer peut rendre une croisière plus difficile pendant la grossesse : demande à l'avance quels remèdes tu peux utiliser.",
+    "tips": [
+      "Vérifie la politique de la compagnie de croisière concernant la grossesse avant de réserver.",
+      "Lave-toi souvent les mains et emporte du gel hydroalcoolique."
+    ]
+  },
+  "road-trips": {
+    "name": "Longs trajets en voiture",
+    "aliases": [
+      "road trip",
+      "long trajet",
+      "trajet en voiture",
+      "voyage en bus",
+      "voyage en car",
+      "voyage en train"
+    ],
+    "summary": "Ils sont possibles avec un peu d'organisation : arrête-toi régulièrement pour t'étirer, bois de l'eau et garde ta ceinture sous ton ventre.",
+    "details": "Le NHS suggère d'éviter les longs trajets en voiture quand c'est possible et, sinon, de s'arrêter régulièrement pour marcher un peu. L'ACOG indique que tout trajet de 4 heures ou plus, en voiture, en bus, en train ou en avion, augmente ton risque de caillots sanguins, et la grossesse accroît encore ce risque. Faire bouger tes pieds et tes orteils quand tu es passagère aide à garder une bonne circulation.",
+    "tips": [
+      "Prévois des arrêts toutes les une à deux heures et marche quelques minutes.",
+      "Emporte de l'eau et des en-cas sains, et évite si possible de voyager seule."
+    ]
+  },
+  "travel-vaccines": {
+    "name": "Vaccins du voyageur",
+    "aliases": [
+      "vaccins voyage",
+      "vaccin fièvre jaune",
+      "vaccin typhoïde",
+      "vaccin hépatite A",
+      "vaccins vivants",
+      "vaccins avant voyage"
+    ],
+    "summary": "Les vaccins non vivants sont généralement sans danger pendant la grossesse, mais la plupart des vaccins vivants ne sont pas recommandés : demande conseil tôt.",
+    "details": "Le NHS indique que les vaccins inactivés (non vivants) sont sans danger pendant la grossesse, tandis que la plupart des vaccins vivants ne sont pas recommandés, même si certains peuvent être envisagés quand le risque d'infection est élevé. Les CDC citent le ROR, la varicelle et le vaccin vivant contre la typhoïde parmi les vaccins à éviter, la fièvre jaune nécessitant une décision au cas par cas. Prévois un rendez-vous de conseil santé-voyage 4 à 6 semaines avant ton voyage.",
+    "tips": [
+      "Dis au centre de vaccination que tu es enceinte avant toute injection."
+    ]
+  },
+  "insect-repellent": {
+    "name": "Répulsif anti-insectes (DEET)",
+    "aliases": [
+      "DEET",
+      "anti-moustique",
+      "répulsif moustiques",
+      "icaridine",
+      "IR3535",
+      "spray anti-moustiques"
+    ],
+    "summary": "Oui, les répulsifs comme le DEET sont recommandés pendant la grossesse là où les piqûres d'insectes peuvent transmettre des maladies graves.",
+    "details": "BUMPS indique que rien ne montre que les répulsifs anti-insectes nuisent au bébé, et recommande de les utiliser pendant la grossesse là où les piqûres peuvent transmettre des maladies comme le paludisme ou le Zika. Les principes actifs courants sont le DEET, l'icaridine, l'huile d'eucalyptus citronné et l'IR3535, et les services de santé-voyage peuvent te conseiller celui qui convient à ta destination. Utilise-les selon les indications de l'étiquette.",
+    "tips": [
+      "Couvre-toi avec des manches longues et un pantalon amples, surtout au crépuscule et à l'aube."
+    ]
+  },
+  "microwave": {
+    "name": "Four à micro-ondes",
+    "aliases": [
+      "micro-ondes",
+      "micro-onde",
+      "ondes du micro-ondes",
+      "rester près du micro-ondes",
+      "réchauffer",
+      "microondes"
+    ],
+    "summary": "Oui, utiliser un micro-ondes en bon état est sans danger pendant la grossesse.",
+    "details": "La FDA indique que les fours à micro-ondes conformes aux normes de sécurité et utilisés selon les instructions sont sans danger. L'OMS précise que les évaluations des champs électromagnétiques du quotidien n'ont pas mis en évidence de risque accru de fausse couche, de malformations congénitales ou d'autres problèmes de grossesse. Les micro-ondes peuvent chauffer de manière inégale : assure-toi que les aliments sont bien chauds et fumants à cœur.",
+    "tips": [
+      "Remue les aliments à mi-cuisson et laisse-les reposer pour qu'ils chauffent uniformément.",
+      "N'utilise pas un four dont la porte ou le joint est abîmé."
+    ]
+  },
+  "mobile-phone-wifi": {
+    "name": "Téléphones, ordinateurs portables et Wi-Fi",
+    "aliases": [
+      "téléphone portable",
+      "natel",
+      "cellulaire",
+      "wifi",
+      "5G",
+      "ondes"
+    ],
+    "summary": "Oui, l'usage quotidien des téléphones, des ordinateurs portables et du Wi-Fi n'a pas montré d'effet néfaste sur la grossesse.",
+    "details": "La FDA indique que l'ensemble des données scientifiques n'a pas établi de lien entre les ondes radio des téléphones portables et des problèmes de santé. L'OMS précise que l'exposition aux champs électromagnétiques aux niveaux habituels du quotidien, par exemple ceux des écrans d'ordinateur, n'a pas été associée à un risque accru de fausse couche, de malformations congénitales ou de faible poids de naissance. Un ordinateur posé sur tes genoux peut chauffer : utilise une table ou un coussin pour plus de confort.",
+    "tips": [
+      "Pose ton téléphone une heure avant le coucher pour mieux dormir."
+    ]
+  },
+  "electric-blanket": {
+    "name": "Couvertures et coussins chauffants",
+    "aliases": [
+      "couverture chauffante",
+      "surmatelas chauffant",
+      "coussin chauffant",
+      "bouillotte",
+      "bouillotte électrique",
+      "chauffe-lit"
+    ],
+    "summary": "Sans problème pour réchauffer le lit, mais éteins-la avant de dormir pour ne pas surchauffer, et garde les coussins chauffants sur une position basse.",
+    "details": "L'OMS indique que les couvertures chauffantes font partie des sources quotidiennes de champs électromagnétiques qui ont été évaluées sans qu'un risque accru pour la grossesse soit mis en évidence. Le principal est d'éviter la surchauffe, car MotherToBaby indique qu'une température corporelle élevée en début de grossesse a été associée à des anomalies du tube neural. Mieux vaut utiliser les coussins chauffants sur une position basse, enveloppés dans une serviette, pendant de courtes périodes.",
+    "tips": [
+      "Réchauffe le lit, puis éteins la couverture avant de te coucher."
+    ]
+  },
+  "x-rays": {
+    "name": "Radiographies, y compris dentaires",
+    "aliases": [
+      "radio",
+      "radiographie",
+      "radio dentaire",
+      "radio des poumons",
+      "panoramique dentaire",
+      "mammographie"
+    ],
+    "summary": "Oui, si tu en as besoin : la plupart des radiographies, y compris dentaires, utilisent des doses très faibles et ne visent pas ton ventre.",
+    "details": "La Mayo Clinic indique que le risque qu'une radiographie nuise à un bébé est très faible, et que les radiographies des dents, de la tête, des bras, des jambes ou du thorax n'exposent pas directement l'utérus. Les radiographies de l'abdomen ou du bassin sont différentes, mais la FDA indique que même dans ce cas, le risque est très faible et souvent inférieur au bénéfice. Dis toujours au personnel que tu es enceinte pour qu'il prévoie l'approche la plus sûre.",
+    "tips": [
+      "Ne reporte pas les soins dentaires nécessaires, et dis à ton ou ta dentiste que tu es enceinte."
+    ]
+  },
+  "mri": {
+    "name": "IRM",
+    "aliases": [
+      "imagerie par résonance magnétique",
+      "résonance magnétique",
+      "gadolinium",
+      "produit de contraste",
+      "IRM fœtale"
+    ],
+    "summary": "L'IRM peut être utilisée pendant la grossesse si nécessaire, car elle n'utilise pas de rayonnement, mais le produit de contraste n'est administré qu'en cas de réelle nécessité.",
+    "details": "L'IRM utilise des aimants et des ondes radio plutôt que des rayonnements ionisants, et l'ACOG décrit l'échographie et l'IRM comme les techniques d'imagerie de choix pendant la grossesse. MotherToBaby indique qu'une étude portant sur plus de 1 700 grossesses exposées à l'IRM au premier trimestre n'a pas montré de risque accru de malformations congénitales. Le produit de contraste n'est utilisé que lorsque le bénéfice attendu l'emporte sur les risques possibles.",
+    "tips": [
+      "Dis au manipulateur ou à la manipulatrice radio que tu es enceinte, et demande si un produit de contraste est nécessaire."
+    ]
+  },
+  "ct-scan": {
+    "name": "Scanner (tomodensitométrie)",
+    "aliases": [
+      "scanner",
+      "CT scan",
+      "TDM",
+      "scanner avec injection",
+      "scan",
+      "tomodensitometrie"
+    ],
+    "summary": "Si un scanner est médicalement nécessaire, il ne faut pas le retarder, mais dis au personnel que tu es enceinte pour qu'il garde la dose faible.",
+    "details": "Le scanner utilise des rayons X, mais l'ACOG indique qu'à quelques exceptions près, la dose de rayonnement de l'imagerie diagnostique est bien inférieure au niveau associé à un risque pour le bébé, et que les examens nécessaires ne doivent pas être refusés. Les scanners de la tête, du thorax ou des membres exposent beaucoup moins l'utérus que ceux de l'abdomen ou du bassin. Ton équipe peut proposer plutôt une échographie ou une IRM si elles permettent de répondre à la même question.",
+    "tips": [
+      "Mentionne ta grossesse chaque fois qu'un examen d'imagerie est évoqué, y compris en urgence."
+    ]
+  },
+  "bleach": {
+    "name": "Nettoyer à l'eau de Javel",
+    "aliases": [
+      "eau de Javel",
+      "Javel",
+      "chlore",
+      "désinfectant",
+      "anti-moisissure",
+      "ammoniaque"
+    ],
+    "summary": "Utiliser de l'eau de Javel diluée dans une pièce aérée est généralement sans problème, mais ne la mélange jamais avec d'autres produits ménagers.",
+    "details": "Nemours KidsHealth, citant la March of Dimes, indique que les produits chimiques comme le chlore et l'ammoniaque peuvent te donner la nausée à cause de leur odeur, mais ne sont pas toxiques en usage normal. Mélanger de l'eau de Javel avec de l'ammoniaque ou des produits acides comme les anticalcaires libère des gaz dangereux. Des gants et des fenêtres ouvertes limitent l'exposition.",
+    "tips": [
+      "Ne mélange jamais l'eau de Javel avec d'autres produits, surtout les anticalcaires.",
+      "Ouvre les fenêtres, porte des gants et rince bien les surfaces."
+    ]
+  },
+  "mould": {
+    "name": "Moisissures et humidité",
+    "aliases": [
+      "moisissure",
+      "humidité",
+      "moisissure noire",
+      "condensation",
+      "odeur de moisi",
+      "champignons"
+    ],
+    "summary": "Fais éliminer rapidement les moisissures, idéalement par quelqu'un d'autre, et évite de frotter toi-même de grandes surfaces.",
+    "details": "MotherToBaby indique que les moisissures ont été peu étudiées pendant la grossesse, mais que certaines peuvent provoquer des symptômes comme le nez bouché, une respiration sifflante ou une irritation de la peau, surtout si tu as de l'asthme. MotherToBaby conseille de faire éliminer les moisissures de ton logement dès que possible. Traiter la source de l'humidité les empêche de revenir.",
+    "tips": [
+      "Aère les pièces chaque jour, surtout la cuisine et la salle de bain.",
+      "Demande à quelqu'un d'autre de nettoyer les moisissures visibles, avec des gants et un masque."
+    ]
+  },
+  "pets": {
+    "name": "Animaux de compagnie et chiens",
+    "aliases": [
+      "chien",
+      "animal de compagnie",
+      "chat",
+      "chiot",
+      "lapin",
+      "agnelage"
+    ],
+    "summary": "Oui, vivre avec des chiens et d'autres animaux est sans problème avec une bonne hygiène, mais la litière du chat et l'agnelage demandent des précautions.",
+    "details": "La plupart des animaux de compagnie présentent peu de risques pendant la grossesse si tu te laves les mains après les avoir manipulés, ou après avoir touché leur nourriture ou leurs déjections. Le NHS conseille d'éviter de vider la litière du chat à cause du toxoplasme, et d'éviter l'agnelage, la traite des brebis et le contact avec les agneaux nouveau-nés. Les grands chiens pleins d'énergie peuvent te faire tomber à mesure que ton équilibre change : fais attention pendant les promenades.",
+    "tips": [
+      "Lave-toi les mains après avoir ramassé les déjections de tes animaux.",
+      "Laisse quelqu'un d'autre s'occuper de la litière du chat."
+    ]
+  },
+  "pesticides": {
+    "name": "Pesticides et insecticides",
+    "aliases": [
+      "insecticide",
+      "bombe insecticide",
+      "désherbant",
+      "désinsectisation",
+      "traitement anti-puces",
+      "dératisation"
+    ],
+    "summary": "Évite de préparer ou d'appliquer toi-même des pesticides ; un traitement professionnel a peu de chances de poser problème si tu suis les conseils donnés.",
+    "details": "MotherToBaby conseille d'éviter, si possible, de préparer et d'appliquer toi-même des pesticides pendant la grossesse. Selon MotherToBaby, faire traiter ton logement par un professionnel de la désinsectisation a peu de chances d'entraîner une exposition suffisante pour augmenter les risques pour la grossesse. Laver les fruits et légumes et te laver les mains avant de manger réduit l'exposition par l'alimentation.",
+    "tips": [
+      "Reste hors des pièces traitées aussi longtemps que l'indiquent l'étiquette ou le technicien, et aère-les bien.",
+      "Porte des gants pour appliquer les traitements anti-puces de tes animaux."
+    ]
+  },
+  "smoking": {
+    "name": "Fumer (tabac)",
+    "aliases": [
+      "cigarette",
+      "clope",
+      "tabac à rouler",
+      "nicotine",
+      "arrêter de fumer",
+      "tabac chauffé"
+    ],
+    "summary": "À éviter : arrêter de fumer est l'une des meilleures choses que tu puisses faire pour ton bébé, et il n'est jamais trop tard pour arrêter.",
+    "details": "Fumer pendant la grossesse augmente le risque de fausse couche, de mort fœtale in utero, d'accouchement prématuré et d'un bébé qui ne grandit pas bien, ainsi que de mort subite du nourrisson. L'OMS indique que toutes les formes de consommation de tabac sont nocives, y compris le tabac chauffé. Le NHS indique que les substituts nicotiniques, comme les patchs ou les gommes, peuvent être utilisés pendant la grossesse s'ils t'aident à arrêter.",
+    "tips": [
+      "Demande à ta sage-femme ou à ton médecin généraliste quelles aides gratuites existent pour arrêter de fumer.",
+      "Fais de ta maison et de ta voiture des espaces sans tabac pour tout le monde."
+    ]
+  },
+  "vaping": {
+    "name": "Vapotage et cigarette électronique",
+    "aliases": [
+      "vape",
+      "vapoteuse",
+      "cigarette électronique",
+      "e-cigarette",
+      "puff",
+      "sachets de nicotine"
+    ],
+    "summary": "Ce n'est pas recommandé pendant la grossesse, mais si cela t'aide à ne pas reprendre la cigarette, c'est bien moins nocif que fumer.",
+    "details": "BUMPS indique que le vapotage n'est pas recommandé pendant la grossesse et pourrait augmenter le risque d'accouchement prématuré et de faible poids de naissance. Le NHS indique que la cigarette électronique est beaucoup moins risquée que le tabac : si vapoter t'a aidée à arrêter la cigarette, c'est toujours plus sûr que de recommencer à fumer. Les substituts nicotiniques, comme les patchs ou les gommes, sont le moyen recommandé pour arrêter.",
+    "tips": [
+      "Parle à ta sage-femme d'un passage aux patchs ou aux gommes pour te sevrer de la nicotine."
+    ]
+  },
+  "second-hand-smoke": {
+    "name": "Tabagisme passif",
+    "aliases": [
+      "fumée passive",
+      "fumée de cigarette",
+      "pièce enfumée",
+      "partenaire qui fume",
+      "conjoint fumeur",
+      "tabagisme tertiaire"
+    ],
+    "summary": "Évite-le autant que possible, car la fumée des autres peut diminuer le poids de naissance de ton bébé et affecter sa santé.",
+    "details": "Le NHS indique que le tabagisme passif peut réduire le poids de naissance de ton bébé et augmenter le risque de mort subite du nourrisson. L'OMS affirme qu'il n'existe aucun niveau d'exposition sans danger à la fumée de tabac des autres. Une maison et une voiture sans tabac te protègent maintenant, et protègent ton bébé après la naissance.",
+    "tips": [
+      "Demande à ton ou ta partenaire et aux visiteurs de fumer dehors, loin des portes et des fenêtres.",
+      "Choisis des cafés et des restaurants non-fumeurs."
+    ]
+  },
+  "shisha": {
+    "name": "Chicha (narguilé)",
+    "aliases": [
+      "shisha",
+      "narghilé",
+      "pipe à eau",
+      "bar à chicha",
+      "hookah",
+      "nargile"
+    ],
+    "summary": "À éviter : la chicha, c'est fumer du tabac, et le charbon ajoute du monoxyde de carbone, alors évite aussi les bars à chicha.",
+    "details": "L'OMS classe le tabac pour pipe à eau parmi les produits du tabac et indique que toutes les formes de consommation de tabac sont nocives, quel que soit l'arôme. Le charbon utilisé pour chauffer la chicha produit du monoxyde de carbone, et MotherToBaby indique que celui-ci met beaucoup plus de temps à s'éliminer du sang d'un bébé que de celui d'un adulte. Les bars à chicha enfumés et fermés t'exposent aussi au tabagisme passif.",
+    "tips": [
+      "Retrouve tes amis dans des lieux sans tabac pour le moment."
+    ]
+  },
+  "carbon-monoxide": {
+    "name": "Monoxyde de carbone (poêles et chauffages)",
+    "aliases": [
+      "monoxyde de carbone",
+      "intoxication au CO",
+      "chauffage au gaz",
+      "chaudière",
+      "poêle à charbon",
+      "détecteur de CO"
+    ],
+    "summary": "Assure-toi que les poêles, les chaudières et les chauffe-eau sont sûrs et installe un détecteur de CO, car le monoxyde de carbone est particulièrement nocif pendant la grossesse.",
+    "details": "Le monoxyde de carbone est un gaz invisible et inodore libéré par les appareils à combustion défectueux comme les poêles, les chaudières et les chauffe-eau au gaz. MotherToBaby indique qu'une fois arrivé dans le sang du bébé, il met beaucoup plus de temps à s'éliminer que chez un adulte. Des maux de tête, des vertiges ou des nausées qui s'atténuent quand tu sors de chez toi peuvent être un signal d'alerte.",
+    "tips": [
+      "Fais vérifier les poêles, les cheminées et les chauffe-eau chaque année.",
+      "Si tu soupçonnes la présence de monoxyde de carbone, sors à l'air libre et demande une aide médicale en urgence."
+    ]
+  }
+}

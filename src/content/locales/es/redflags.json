@@ -1,0 +1,50 @@
+{
+  "heavy-bleeding": {
+    "title": "Sangrado vaginal abundante",
+    "detail": "Un sangrado que empapa una compresa poco después de ponértela, o que viene con coágulos, dolor intenso, mareo o desmayo. Llama a los servicios de emergencia."
+  },
+  "severe-tummy-pain": {
+    "title": "Dolor abdominal intenso o constante",
+    "detail": "Un dolor fuerte que no se alivia con reposo, sobre todo si viene con sangrado, la barriga dura, dolor en la punta del hombro o sensación de desmayo. Llama ahora a tu unidad de maternidad o a los servicios de emergencia."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Dolor de cabeza intenso, cambios en la vista o hinchazón repentina",
+    "detail": "Un dolor de cabeza que no se va, visión borrosa o destellos de luz, dolor debajo de las costillas, o hinchazón repentina de la cara, las manos o los pies. Pueden ser señales de preeclampsia: llama ahora a tu unidad de maternidad o a tu médico."
+  },
+  "reduced-movements": {
+    "title": "El bebé se mueve menos, o nada",
+    "detail": "Cualquier cambio en el patrón habitual de movimientos de tu bebé. Llama inmediatamente a tu unidad de maternidad, aunque sea de noche. No esperes a mañana y no te fíes de un monitor de latido fetal casero."
+  },
+  "waters-before-37-weeks": {
+    "title": "Romper aguas o tener contracciones antes de las 37 semanas",
+    "detail": "Una salida de líquido a chorro o gota a gota, o endurecimientos regulares o dolores parecidos a los de la regla antes de las 37 semanas. Ponte una compresa, no un tampón, y llama ahora a tu unidad de maternidad."
+  },
+  "fever": {
+    "title": "Fiebre de 38 °C (100,4 °F) o más",
+    "detail": "Sentir calor, escalofríos y encontrarte muy mal también cuenta. En el embarazo las infecciones necesitan tratamiento rápido, así que llama hoy a tu médico o a tu unidad de maternidad."
+  },
+  "breathlessness-chest-pain": {
+    "title": "Falta de aire repentina o dolor en el pecho",
+    "detail": "Dificultad para respirar, dolor u opresión en el pecho, tos con sangre, o el corazón muy acelerado con sensación de desmayo. Llama a los servicios de emergencia."
+  },
+  "swollen-calf": {
+    "title": "Pierna dolorida e hinchada de un solo lado",
+    "detail": "Un dolor pulsátil, hinchazón, calor o enrojecimiento en una pantorrilla o un muslo puede ser un coágulo de sangre. Haz que te vean ese mismo día, o llama a los servicios de emergencia si además te falta el aire."
+  },
+  "fainting": {
+    "title": "Desmayo, colapso o una convulsión",
+    "detail": "Perder el conocimiento, tener una convulsión o sentirte tan mareada que no puedes mantenerte en pie, sobre todo con dolor o sangrado. Llama a los servicios de emergencia."
+  },
+  "intense-itching": {
+    "title": "Picor intenso, sobre todo en manos y pies",
+    "detail": "El picor en las palmas de las manos o las plantas de los pies, a menudo peor por la noche y sin sarpullido, puede deberse a una afección del hígado llamada colestasis intrahepática del embarazo (ICP). Llama hoy a tu unidad de maternidad o a tu médico para hacerte un análisis de sangre."
+  },
+  "thoughts-of-harm": {
+    "title": "Pensamientos de hacerte daño a ti o a tu bebé",
+    "detail": "No estás sola, y no es culpa tuya. Cuéntaselo a alguien cercano y llama ahora a los servicios de emergencia o a una línea de crisis si no te sientes segura."
+  },
+  "severe-vomiting": {
+    "title": "Vómitos y no retienes los líquidos",
+    "detail": "Vomitar tanto que no retienes comida ni líquidos durante 24 horas, orina muy oscura, no orinar en 8 horas o sensación de desmayo. Puede que necesites rehidratación: llama ahora a tu médico."
+  }
+}

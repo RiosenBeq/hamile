@@ -12,13 +12,14 @@ import { Body, H1, IconBadge, NavBar, Page, Row, Surface } from '@/components/ui
 import { useAppStore } from '@/store/useAppStore';
 import { exportBackup, importBackup } from '@/lib/backup';
 import { clearOutbox } from '@/lib/sync';
-import { PRIVACY_URL } from '@/lib/links';
-import { useT } from '@/i18n';
+import { siteUrl } from '@/lib/links';
+import { useLang, useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
 export default function PrivacySettings() {
   const t = useT();
+  const lang = useLang();
   const router = useRouter();
   const resetAll = useAppStore((s) => s.resetAll);
   const [busy, setBusy] = useState(false);
@@ -83,7 +84,7 @@ export default function PrivacySettings() {
         <Surface padded={false} style={{ overflow: 'hidden' }}>
           <Row left={<IconBadge icon={Icon.download} hue="sky" size={40} />} title={t('pv.export')} sub={t('pv.exportSub')} onPress={busy ? undefined : onExport} />
           <Row left={<IconBadge icon={Icon.image} hue="lavender" size={40} />} title={t('pv.import')} sub={t('pv.importSub')} onPress={busy ? undefined : onImport} />
-          <Row left={<IconBadge icon={Icon.shield} hue="sage" size={40} />} title={t('pv.policy')} onPress={() => Linking.openURL(PRIVACY_URL).catch(() => {})} last />
+          <Row left={<IconBadge icon={Icon.shield} hue="sage" size={40} />} title={t('pv.policy')} onPress={() => Linking.openURL(siteUrl('privacy', lang)).catch(() => {})} last />
         </Surface>
       </View>
 

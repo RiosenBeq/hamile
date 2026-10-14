@@ -1,0 +1,390 @@
+{
+  "basis": "Brazil: girls' and boys' top-10 lists for 2024 and 2025 from civil-registry data published by Arpen-Brasil (Portal da Transparência do Registro Civil; 2025 leaders Helena 28,271 and Ravi 21,982 registrations, released December 2025), extended to about 20 per gender with the next-ranked names in BabyCenter Brasil's 2025 ranking (girls: Sophia, Isabela, Olívia, Luísa, Liz, Manuela, Ayla, Esther, Lívia, Eloá; boys: Benício, Isaac, Pedro, Gabriel, Matheus, Anthony, Levi, Joaquim, Benjamin, Lucas). Names already in the library (matched ignoring accents) are listed in alsoPopular.",
+  "add": [
+    {
+      "name": "Helena",
+      "gender": "f",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Torch; shining light",
+        "tr": "Meşale; parlayan ışık",
+        "es": "Antorcha; luz brillante",
+        "de": "Fackel; leuchtendes Licht",
+        "fr": "Torche ; lumière brillante",
+        "pt": "Tocha; luz brilhante"
+      }
+    },
+    {
+      "name": "Maitê",
+      "gender": "f",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Beloved (from the Basque maite)",
+        "tr": "Sevilen (Baskça maite sözcüğünden)",
+        "es": "Amada (del vasco maite)",
+        "de": "Geliebt (vom baskischen maite)",
+        "fr": "Aimée (du basque maite)",
+        "pt": "Amada (do basco maite)"
+      }
+    },
+    {
+      "name": "Cecília",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Caecilius; linked to Latin caecus, 'blind'",
+        "tr": "Roma'daki Caecilius aile adından; Latince caecus ('kör') sözcüğüyle ilişkilendirilir",
+        "es": "Del nombre de familia romano Caecilius; relacionado con el latín caecus, «ciego»",
+        "de": "Vom römischen Familiennamen Caecilius; verwandt mit lateinisch caecus, „blind“",
+        "fr": "Du nom de famille romain Caecilius ; lié au latin caecus, « aveugle »",
+        "pt": "Do nome de família romano Caecilius; ligado ao latim caecus, 'cego'"
+      }
+    },
+    {
+      "name": "Maria Cecília",
+      "gender": "f",
+      "origin": "Hebrew / Latin",
+      "meaning": {
+        "en": "Maria ('beloved'; the Virgin Mary) + Cecília (from the Roman name Caecilius)",
+        "tr": "Maria ('sevilen'; Meryem Ana) + Cecília (Roma'daki Caecilius adından)",
+        "es": "Maria («amada»; la Virgen María) + Cecília (del nombre romano Caecilius)",
+        "de": "Maria („geliebt“; die Jungfrau Maria) + Cecília (vom römischen Namen Caecilius)",
+        "fr": "Maria (« aimée » ; la Vierge Marie) + Cecília (du nom romain Caecilius)",
+        "pt": "Maria ('amada'; a Virgem Maria) + Cecília (do nome romano Caecilius)"
+      }
+    },
+    {
+      "name": "Laura",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Laurel; crowned with laurels",
+        "tr": "Defne; defne çelengiyle taçlanmış",
+        "es": "Laurel; coronada de laureles",
+        "de": "Lorbeer; mit Lorbeeren bekränzt",
+        "fr": "Laurier ; couronnée de lauriers",
+        "pt": "Loureiro; coroada de louros"
+      }
+    },
+    {
+      "name": "Antonella",
+      "gender": "f",
+      "origin": "Italian",
+      "meaning": {
+        "en": "Italian form of Antonia, from the Roman family name Antonius; often glossed as 'priceless'",
+        "tr": "Antonia'nın İtalyanca biçimi, Roma'daki Antonius aile adından; çoğu zaman 'paha biçilmez' diye yorumlanır",
+        "es": "Forma italiana de Antonia, del nombre de familia romano Antonius; a menudo interpretado como «inestimable»",
+        "de": "Italienische Form von Antonia, vom römischen Familiennamen Antonius; oft als „unschätzbar“ gedeutet",
+        "fr": "Forme italienne d'Antonia, du nom de famille romain Antonius ; souvent interprété comme « inestimable »",
+        "pt": "Forma italiana de Antônia, do nome de família romano Antonius; muitas vezes interpretado como 'inestimável'"
+      }
+    },
+    {
+      "name": "Ísis",
+      "gender": "f",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Egyptian goddess of motherhood and magic (Greek form of Aset)",
+        "tr": "Mısır'ın annelik ve büyü tanrıçası (Aset adının Yunanca biçimi)",
+        "es": "Diosa egipcia de la maternidad y la magia (forma griega de Aset)",
+        "de": "Ägyptische Göttin der Mutterschaft und der Magie (griechische Form von Aset)",
+        "fr": "Déesse égyptienne de la maternité et de la magie (forme grecque d'Aset)",
+        "pt": "Deusa egípcia da maternidade e da magia (forma grega de Aset)"
+      }
+    },
+    {
+      "name": "Heloísa",
+      "gender": "f",
+      "origin": "French",
+      "meaning": {
+        "en": "From the French Héloïse; linked to Germanic words for 'healthy, whole' and 'wide'",
+        "tr": "Fransızca Héloïse'dan; Cermen dillerinde 'sağlıklı, bütün' ve 'geniş' anlamına gelen sözcüklerle ilişkilendirilir",
+        "es": "Del francés Héloïse; relacionado con palabras germánicas que significan «sano, entero» y «amplio»",
+        "de": "Vom französischen Héloïse; verwandt mit germanischen Wörtern für „gesund, heil“ und „weit“",
+        "fr": "Du français Héloïse ; lié à des mots germaniques signifiant « sain, entier » et « large »",
+        "pt": "Do francês Héloïse; ligado a palavras germânicas para 'saudável, inteira' e 'ampla'"
+      }
+    },
+    {
+      "name": "Maria Alice",
+      "gender": "f",
+      "origin": "Hebrew / Germanic",
+      "meaning": {
+        "en": "Maria ('beloved'; the Virgin Mary) + Alice ('noble')",
+        "tr": "Maria ('sevilen'; Meryem Ana) + Alice ('soylu')",
+        "es": "Maria («amada»; la Virgen María) + Alice («noble»)",
+        "de": "Maria („geliebt“; die Jungfrau Maria) + Alice („edel“)",
+        "fr": "Maria (« aimée » ; la Vierge Marie) + Alice (« noble »)",
+        "pt": "Maria ('amada'; a Virgem Maria) + Alice ('nobre')"
+      }
+    },
+    {
+      "name": "Isabela",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is my oath (Portuguese spelling of Isabella)",
+        "tr": "Tanrı benim yeminimdir (Isabella'nın Portekizce yazımı)",
+        "es": "Dios es mi juramento (grafía portuguesa de Isabella)",
+        "de": "Gott ist mein Eid (portugiesische Schreibweise von Isabella)",
+        "fr": "Dieu est mon serment (orthographe portugaise d'Isabella)",
+        "pt": "Deus é meu juramento (grafia em português de Isabella)"
+      }
+    },
+    {
+      "name": "Luísa",
+      "gender": "f",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Famous warrior (feminine of Luís)",
+        "tr": "Ünlü savaşçı (Luís adının kadın biçimi)",
+        "es": "Guerrera famosa (femenino de Luís)",
+        "de": "Berühmte Kriegerin (weibliche Form von Luís)",
+        "fr": "Guerrière illustre (féminin de Luís)",
+        "pt": "Guerreira famosa (feminino de Luís)"
+      }
+    },
+    {
+      "name": "Liz",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is my oath (short for Elizabeth)",
+        "tr": "Tanrı benim yeminimdir (Elizabeth'in kısa biçimi)",
+        "es": "Dios es mi juramento (diminutivo de Elizabeth)",
+        "de": "Gott ist mein Eid (Kurzform von Elizabeth)",
+        "fr": "Dieu est mon serment (diminutif d'Elizabeth)",
+        "pt": "Deus é meu juramento (forma curta de Elizabeth)"
+      }
+    },
+    {
+      "name": "Manuela",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is with us (feminine of Manuel)",
+        "tr": "Tanrı bizimledir (Manuel adının kadın biçimi)",
+        "es": "Dios está con nosotros (femenino de Manuel)",
+        "de": "Gott ist mit uns (weibliche Form von Manuel)",
+        "fr": "Dieu est avec nous (féminin de Manuel)",
+        "pt": "Deus está conosco (feminino de Manuel)"
+      }
+    },
+    {
+      "name": "Esther",
+      "gender": "f",
+      "origin": "Persian",
+      "meaning": {
+        "en": "Star; the biblical Queen Esther",
+        "tr": "Yıldız; Kitab-ı Mukaddes'teki Kraliçe Ester",
+        "es": "Estrella; la reina Ester de la Biblia",
+        "de": "Stern; die biblische Königin Ester",
+        "fr": "Étoile ; la reine Esther de la Bible",
+        "pt": "Estrela; a rainha Ester da Bíblia"
+      }
+    },
+    {
+      "name": "Lívia",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Livius; possibly 'bluish'",
+        "tr": "Roma'daki Livius aile adından; muhtemelen 'mavimsi'",
+        "es": "Del nombre de familia romano Livius; posiblemente «azulada»",
+        "de": "Vom römischen Familiennamen Livius; möglicherweise „bläulich“",
+        "fr": "Du nom de famille romain Livius ; peut-être « bleutée »",
+        "pt": "Do nome de família romano Livius; possivelmente 'azulada'"
+      }
+    },
+    {
+      "name": "Eloá",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Often linked to the Hebrew Eloah, 'God'",
+        "tr": "Çoğu zaman İbranice Eloah ('Tanrı') sözcüğüyle ilişkilendirilir",
+        "es": "A menudo relacionado con el hebreo Eloah, «Dios»",
+        "de": "Oft mit dem hebräischen Eloah, „Gott“, verbunden",
+        "fr": "Souvent rapproché de l'hébreu Eloah, « Dieu »",
+        "pt": "Muitas vezes ligado ao hebraico Eloah, 'Deus'"
+      }
+    },
+    {
+      "name": "Ravi",
+      "gender": "m",
+      "origin": "Sanskrit",
+      "meaning": {
+        "en": "Sun",
+        "tr": "Güneş",
+        "es": "Sol",
+        "de": "Sonne",
+        "fr": "Soleil",
+        "pt": "Sol"
+      }
+    },
+    {
+      "name": "Miguel",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Who is like God? (Portuguese form of Michael)",
+        "tr": "Kim Tanrı gibidir? (Michael'ın Portekizce biçimi)",
+        "es": "¿Quién como Dios? (forma portuguesa de Michael)",
+        "de": "Wer ist wie Gott? (portugiesische Form von Michael)",
+        "fr": "Qui est comme Dieu ? (forme portugaise de Michael)",
+        "pt": "Quem é como Deus? (forma portuguesa de Michael)"
+      }
+    },
+    {
+      "name": "Heitor",
+      "gender": "m",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Holding fast, steadfast (Portuguese form of Hector)",
+        "tr": "Sıkı tutan, kararlı (Hektor'un Portekizce biçimi)",
+        "es": "El que sostiene con firmeza, constante (forma portuguesa de Héctor)",
+        "de": "Der festhält, standhaft (portugiesische Form von Hektor)",
+        "fr": "Celui qui tient bon, persévérant (forme portugaise d'Hector)",
+        "pt": "O que segura firme, perseverante (forma portuguesa de Hector)"
+      }
+    },
+    {
+      "name": "Gael",
+      "gender": "m",
+      "origin": "Celtic",
+      "meaning": {
+        "en": "A Gael, one of the Celtic peoples of Ireland and Scotland",
+        "tr": "Gal; İrlanda ve İskoçya'nın Kelt halklarından biri",
+        "es": "Gaélico, de uno de los pueblos celtas de Irlanda y Escocia",
+        "de": "Ein Gäle, Angehöriger eines keltischen Volkes Irlands und Schottlands",
+        "fr": "Un Gaël, membre de l'un des peuples celtes d'Irlande et d'Écosse",
+        "pt": "Gaélico, de um dos povos celtas da Irlanda e da Escócia"
+      }
+    },
+    {
+      "name": "Bernardo",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Brave as a bear",
+        "tr": "Ayı gibi cesur",
+        "es": "Valiente como un oso",
+        "de": "Tapfer wie ein Bär",
+        "fr": "Courageux comme un ours",
+        "pt": "Valente como um urso"
+      }
+    },
+    {
+      "name": "Davi",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Beloved (Portuguese form of David)",
+        "tr": "Sevgili (David'in Portekizce biçimi)",
+        "es": "Amado (forma portuguesa de David)",
+        "de": "Geliebt (portugiesische Form von David)",
+        "fr": "Bien-aimé (forme portugaise de David)",
+        "pt": "Amado (forma portuguesa de David)"
+      }
+    },
+    {
+      "name": "Benício",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman name Benitius; often glossed as 'blessed'",
+        "tr": "Roma'daki Benitius adından; çoğu zaman 'kutsanmış' diye yorumlanır",
+        "es": "Del nombre romano Benitius; a menudo interpretado como «bendito»",
+        "de": "Vom römischen Namen Benitius; oft als „gesegnet“ gedeutet",
+        "fr": "Du nom romain Benitius ; souvent interprété comme « béni »",
+        "pt": "Do nome romano Benitius; muitas vezes interpretado como 'abençoado'"
+      }
+    },
+    {
+      "name": "Pedro",
+      "gender": "m",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Stone, rock (Portuguese form of Peter)",
+        "tr": "Taş, kaya (Petrus adının Portekizce biçimi)",
+        "es": "Piedra, roca (forma portuguesa de Peter)",
+        "de": "Stein, Fels (portugiesische Form von Petrus)",
+        "fr": "Pierre, rocher (forme portugaise de Peter)",
+        "pt": "Pedra, rocha"
+      }
+    },
+    {
+      "name": "Matheus",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Gift of God",
+        "tr": "Tanrı'nın armağanı",
+        "es": "Regalo de Dios",
+        "de": "Geschenk Gottes",
+        "fr": "Don de Dieu",
+        "pt": "Presente de Deus"
+      }
+    },
+    {
+      "name": "Anthony",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From the Roman family name Antonius; often glossed as 'priceless'",
+        "tr": "Roma'daki Antonius aile adından; çoğu zaman 'paha biçilmez' diye yorumlanır",
+        "es": "Del nombre de familia romano Antonius; a menudo interpretado como «inestimable»",
+        "de": "Vom römischen Familiennamen Antonius; oft als „unschätzbar“ gedeutet",
+        "fr": "Du nom de famille romain Antonius ; souvent interprété comme « inestimable »",
+        "pt": "Do nome de família romano Antonius; muitas vezes interpretado como 'inestimável'"
+      }
+    },
+    {
+      "name": "Joaquim",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God will raise up",
+        "tr": "Tanrı yüceltecek",
+        "es": "Dios levantará",
+        "de": "Gott wird aufrichten",
+        "fr": "Dieu élèvera",
+        "pt": "Deus elevará"
+      }
+    }
+  ],
+  "alsoPopular": [
+    "Aurora",
+    "Alice",
+    "Sophia",
+    "Olivia",
+    "Ayla",
+    "Arthur",
+    "Theo",
+    "Noah",
+    "Samuel",
+    "Isaac",
+    "Gabriel",
+    "Levi",
+    "Benjamin",
+    "Lucas"
+  ],
+  "newOrigins": {
+    "Hebrew / Latin": {
+      "en": "Hebrew / Latin",
+      "tr": "İbranice / Latince",
+      "es": "Hebreo / Latín",
+      "de": "Hebräisch / Lateinisch",
+      "fr": "Hébreu / Latin",
+      "pt": "Hebraico / Latim"
+    },
+    "Hebrew / Germanic": {
+      "en": "Hebrew / Germanic",
+      "tr": "İbranice / Cermen",
+      "es": "Hebreo / Germánico",
+      "de": "Hebräisch / Germanisch",
+      "fr": "Hébreu / Germanique",
+      "pt": "Hebraico / Germânico"
+    }
+  }
+}

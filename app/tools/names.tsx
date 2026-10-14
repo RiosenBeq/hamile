@@ -13,28 +13,38 @@ import { Icon } from '@/components/Icon';
 import { Body, Chip, CircleButton, EmptyState, Eyebrow, H1, NavBar, Segmented, shadow } from '@/components/ui';
 import { useAppStore } from '@/store/useAppStore';
 import { BABY_NAMES, normalize } from '@/content';
-import type { BabyName, NameGender } from '@/content';
-import { useLang, useT } from '@/i18n';
+import type { BabyName, NameGender, NameList } from '@/content';
+import { SUPPORTED_LANGS, useLang, useT } from '@/i18n';
 import type { LangCode } from '@/i18n';
 import { colors, hueGradient } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 
 type GenderFilter = 'all' | NameGender;
-type ListFilter = 'all' | 'tr' | 'intl';
+type ListFilter = 'all' | NameList;
 type Mode = 'all' | 'fav';
 type Entry = { item: BabyName; key: string; meaning: Record<LangCode, string>; order: number };
 
 const GENDERS: GenderFilter[] = ['all', 'f', 'm', 'u'];
-const LISTS: ListFilter[] = ['all', 'tr', 'intl'];
+const LIST_EMOJI: Partial<Record<ListFilter, string>> = { tr: '🇹🇷', intl: '🌍', es: '🇪🇸', de: '🇩🇪', fr: '🇫🇷', pt: '🇧🇷' };
+
+/** The user's own market first, then the other lists that actually have names. */
+function listsFor(lang: LangCode): ListFilter[] {
+  const markets: NameList[] = lang === 'en' ? ['intl', 'tr'] : lang === 'tr' ? ['tr', 'intl'] : [lang, 'intl', 'tr'];
+  const present = new Set(BABY_NAMES.flatMap((n) => n.popular));
+  return ['all', ...markets.filter((m) => present.has(m))];
+}
 const DOT: Record<NameGender, string> = { f: hueGradient.rose[2], m: colors.sky, u: colors.sage };
 const HEART = 'M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z';
 
 // Normalised once at load: alphabetical (accent-folded) order, plus folded
 // meanings so "moon" or "ay" finds Aylin, Ayla…
+const foldMeanings = (m: BabyName['meaning']): Record<LangCode, string> =>
+  Object.fromEntries(SUPPORTED_LANGS.map(({ code }) => [code, normalize(m[code] ?? m.en)])) as Record<LangCode, string>;
+
 const ENTRIES: Entry[] = BABY_NAMES.map((item) => ({
   item,
   key: normalize(item.name),
-  meaning: { en: normalize(item.meaning.en), tr: normalize(item.meaning.tr) },
+  meaning: foldMeanings(item.meaning),
   order: 0,
 }))
   .sort((a, b) => (a.key < b.key ? -1 : a.key > b.key ? 1 : 0))
@@ -43,9 +53,9 @@ const BY_NAME = new Map(ENTRIES.map((e) => [e.item.name, e] as const));
 
 /** Favourites saved from an older name list still show, just without details. */
 const fallbackEntry = (name: string): Entry => ({
-  item: { name, gender: 'u', origin: { en: '', tr: '' }, meaning: { en: '', tr: '' }, popular: [] },
+  item: { name, gender: 'u', origin: { en: '' }, meaning: { en: '' }, popular: [] },
   key: normalize(name),
-  meaning: { en: '', tr: '' },
+  meaning: foldMeanings({ en: '' }),
   order: Number.MAX_SAFE_INTEGER,
 });
 
@@ -73,6 +83,7 @@ export default function Names() {
   const [query, setQuery] = useState('');
   const [gender, setGender] = useState<GenderFilter>(babySex === 'girl' ? 'f' : babySex === 'boy' ? 'm' : 'all');
   const [list, setList] = useState<ListFilter>('all');
+  const lists = useMemo(() => listsFor(lang), [lang]);
   const [mode, setMode] = useState<Mode>('all');
   const [spot, setSpot] = useState<BabyName | null>(null);
   const listRef = useRef<FlatList<BabyName>>(null);
@@ -110,12 +121,13 @@ export default function Names() {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light).catch(() => {});
     setSpot(pick);
     listRef.current?.scrollToOffset({ offset: 0, animated: true });
-    AccessibilityInfo.announceForAccessibility(t('names.surpriseA11y', { name: pick.name, meaning: pick.meaning[lang] }));
+    AccessibilityInfo.announceForAccessibility(t('names.surpriseA11y', { name: pick.name, meaning: pick.meaning[lang] ?? pick.meaning.en }));
   };
 
   const share = () => {
     const lines = favorites.map((name) => {
-      const meaning = BY_NAME.get(name)?.item.meaning[lang];
+      const m = BY_NAME.get(name)?.item.meaning;
+      const meaning = m ? m[lang] ?? m.en : '';
       return meaning ? `• ${name} — ${meaning}` : `• ${name}`;
     });
     Share.share({ message: `${t('names.shareTitle')}\n\n${lines.join('\n')}\n\n${t('names.shareFooter')}` }).catch(() => {});
@@ -212,11 +224,11 @@ export default function Names() {
             style={{ marginTop: 8 }}
             contentContainerStyle={{ paddingHorizontal: 20, gap: 8 }}
           >
-            {LISTS.map((l) => (
+            {lists.map((l) => (
               <Chip
                 key={l}
                 small
-                emoji={l === 'tr' ? '🇹🇷' : l === 'intl' ? '🌍' : undefined}
+                emoji={LIST_EMOJI[l]}
                 label={t(`names.list.${l}`)}
                 selected={list === l}
                 onPress={() => setList(l)}
@@ -324,8 +336,8 @@ const NameRow = memo(function NameRow({
 }) {
   const t = useT();
   const lang = useLang();
-  const origin = item.origin[lang];
-  const meaning = item.meaning[lang];
+  const origin = item.origin[lang] ?? item.origin.en;
+  const meaning = item.meaning[lang] ?? item.meaning.en;
   const genderLabel = t(`names.gender.${item.gender}`);
   return (
     <View
@@ -430,8 +442,8 @@ function Spotlight({
 }) {
   const t = useT();
   const lang = useLang();
-  const origin = name.origin[lang];
-  const meaning = name.meaning[lang];
+  const origin = name.origin[lang] ?? name.origin.en;
+  const meaning = name.meaning[lang] ?? name.meaning.en;
   return (
     <Animated.View entering={ZoomIn.springify().damping(14)} style={{ paddingHorizontal: 20, marginBottom: 14 }}>
       <LinearGradient

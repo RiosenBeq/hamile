@@ -1,0 +1,154 @@
+{
+  "take-pregnancy-test": {
+    "title": "Fais un test de grossesse à la maison",
+    "detail": "La plupart des tests sont fiables dès le premier jour de retard des règles. S’il est négatif mais que tes règles n’arrivent toujours pas, refais un test quelques jours plus tard."
+  },
+  "start-folic-acid": {
+    "title": "Prends de l’acide folique chaque jour",
+    "detail": "400 microgrammes par jour, idéalement dès avant la conception et jusqu’à 12 semaines. Ton médecin peut conseiller une dose plus élevée dans certaines situations."
+  },
+  "review-medicines": {
+    "title": "Fais le point sur tes médicaments et compléments",
+    "detail": "Demande l’avis d’un médecin ou d’un pharmacien avant de commencer ou d’arrêter quoi que ce soit, et évite les compléments contenant de la vitamine A (rétinol)."
+  },
+  "stop-alcohol-and-smoking": {
+    "title": "Arrête l’alcool et le tabac",
+    "detail": "Aucune quantité d’alcool n’est reconnue comme sans danger pendant la grossesse. Si tu fumes, demande à ton médecin ou à ta sage-femme de l’aide pour arrêter."
+  },
+  "limit-caffeine": {
+    "title": "Limite la caféine à moins de 200 mg par jour",
+    "detail": "Cela correspond à environ deux grandes tasses de café instantané. Le thé, le cola, les boissons énergisantes et le chocolat contiennent aussi de la caféine."
+  },
+  "learn-food-safety": {
+    "title": "Apprends quels aliments éviter",
+    "detail": "Comme les produits laitiers non pasteurisés, la viande crue ou insuffisamment cuite, le foie, et les poissons riches en mercure comme le requin et l’espadon."
+  },
+  "book-first-appointment": {
+    "title": "Prends ton premier rendez-vous de grossesse",
+    "detail": "Souvent appelé première consultation prénatale, il a généralement lieu entre 8 et 12 semaines et porte sur tes antécédents de santé, les examens et les options de suivi."
+  },
+  "ask-about-vitamin-d": {
+    "title": "Renseigne-toi sur la vitamine D",
+    "detail": "On conseille à beaucoup de personnes de prendre un complément quotidien de vitamine D pendant la grossesse. Les quantités recommandées varient selon les pays."
+  },
+  "first-blood-tests": {
+    "title": "Fais tes premières prises de sang",
+    "detail": "Elles vérifient généralement ton groupe sanguin et ton rhésus (D), ton taux de fer et certaines infections comme le VIH, l’hépatite B et la syphilis."
+  },
+  "flu-and-covid-vaccines": {
+    "title": "Renseigne-toi sur les vaccins contre la grippe et le COVID-19",
+    "detail": "Le vaccin contre la grippe peut être fait à n’importe quel stade de la grossesse pendant la saison grippale. Demande si un vaccin contre le COVID-19 est conseillé dans ton cas."
+  },
+  "decide-on-screening": {
+    "title": "Décide pour les tests de dépistage",
+    "detail": "On peut te proposer le test combiné (vers 10 à 14 semaines) ou le DPNI/NIPT (à partir de 10 semaines). Faire un dépistage ou non, c’est ton choix."
+  },
+  "dating-scan": {
+    "title": "Fais ton échographie de datation",
+    "detail": "Généralement entre 10 et 14 semaines, elle vérifie le développement de ton bébé et confirme la date du terme."
+  },
+  "dental-check-up": {
+    "title": "Prends rendez-vous chez le dentiste",
+    "detail": "Les problèmes de gencives sont fréquents pendant la grossesse. Dis à ton dentiste que tu es enceinte."
+  },
+  "pelvic-floor-exercises": {
+    "title": "Commence les exercices du périnée chaque jour",
+    "detail": "Contracte et remonte les muscles qui te servent à te retenir de faire pipi, tiens quelques secondes, puis relâche. Ils aident à éviter les fuites maintenant et après l’accouchement."
+  },
+  "whooping-cough-vaccine": {
+    "title": "Renseigne-toi sur le vaccin contre la coqueluche",
+    "detail": "Généralement fait entre 16 et 32 semaines au Royaume-Uni ou entre 27 et 36 semaines aux États-Unis. Il aide à protéger ton bébé pendant ses premières semaines de vie."
+  },
+  "choose-birth-place": {
+    "title": "Réfléchis au lieu d’accouchement",
+    "detail": "Les options, comme l’hôpital, la maison de naissance ou l’accouchement à domicile, varient selon les régions. Tu pourras changer d’avis plus tard."
+  },
+  "maternity-leave-rights": {
+    "title": "Renseigne-toi sur le congé maternité et les indemnités",
+    "detail": "Les règles et les délais varient selon les pays et les employeurs. Note quand tu dois prévenir ton employeur et demander tes indemnités."
+  },
+  "anomaly-scan": {
+    "title": "Fais ton échographie morphologique",
+    "detail": "Cette échographie détaillée, généralement vers 18 à 22 semaines, vérifie la croissance et le développement de ton bébé."
+  },
+  "pregnancy-certificate": {
+    "title": "Obtiens un certificat de grossesse pour le travail",
+    "detail": "Certains employeurs et organismes d’aides demandent un certificat de ton médecin ou de ta sage-femme, comme le formulaire MAT B1 au Royaume-Uni."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Apprends les signes d’alerte de la pré-éclampsie",
+    "detail": "Un mal de tête intense, des troubles de la vue, une douleur juste sous les côtes ou un gonflement soudain du visage, des mains ou des pieds doivent être examinés en urgence."
+  },
+  "book-antenatal-classes": {
+    "title": "Inscris-toi aux cours de préparation à la naissance",
+    "detail": "Des cours sur le travail, l’accouchement et l’alimentation du bébé peuvent t’aider à te sentir prête. Les plus demandés sont vite complets."
+  },
+  "glucose-test": {
+    "title": "Test de dépistage du diabète gestationnel",
+    "detail": "Souvent fait entre 24 et 28 semaines, pour toutes les femmes enceintes ou seulement en cas de facteurs de risque, selon l’endroit où tu vis."
+  },
+  "know-baby-movements": {
+    "title": "Apprends à connaître les mouvements de ton bébé",
+    "detail": "Il n’y a pas de nombre fixe de coups à compter. Si les mouvements ralentissent, changent ou s’arrêtent, appelle ta maternité immédiatement."
+  },
+  "partner-leave": {
+    "title": "Vérifie le congé de ton/ta partenaire",
+    "detail": "Si ton/ta partenaire prévoit de prendre des congés autour de la naissance, il ou elle devra peut-être prévenir son employeur avant une date précise."
+  },
+  "baby-essentials-list": {
+    "title": "Fais la liste des essentiels pour bébé",
+    "detail": "Commence par un couchage sûr, un siège auto, des vêtements, des couches et le matériel pour nourrir bébé. Les affaires prêtées conviennent, mais utilise un matelas neuf si tu peux."
+  },
+  "anti-d-if-rh-negative": {
+    "title": "Anti-D si tu es de rhésus (D) négatif",
+    "detail": "Si ton groupe sanguin est rhésus (D) négatif, on peut te proposer des injections d’anti-D, souvent vers 28 semaines."
+  },
+  "rsv-vaccine": {
+    "title": "Renseigne-toi sur le vaccin contre le VRS",
+    "detail": "Proposé à partir de 28 semaines au Royaume-Uni, ou entre 32 et 36 semaines pendant la saison du VRS aux États-Unis. Il aide à protéger ton bébé pendant ses premiers mois."
+  },
+  "sleep-on-side": {
+    "title": "Endors-toi sur le côté",
+    "detail": "À partir de 28 semaines, dormir sur le côté est plus sûr pour ton bébé, y compris pendant les siestes. Si tu te réveilles sur le dos, tourne-toi simplement sur le côté."
+  },
+  "safe-sleep-space": {
+    "title": "Prépare un couchage sûr",
+    "detail": "Un lit de bébé ou un couffin avec un matelas ferme, plat et bien ajusté, sans oreiller, tour de lit ni couette."
+  },
+  "feeding-plan": {
+    "title": "Réfléchis à l’alimentation de ton bébé",
+    "detail": "Renseigne-toi sur l’allaitement, le biberon ou les deux, et sur l’aide disponible les premiers jours."
+  },
+  "write-birth-plan": {
+    "title": "Rédige ton projet de naissance",
+    "detail": "Note tes préférences pour la gestion de la douleur, les personnes qui t’accompagneront et les premières heures après la naissance, et partage-le avec ta sage-femme ou ton médecin."
+  },
+  "save-key-contacts": {
+    "title": "Enregistre les numéros clés et prévois ton trajet",
+    "detail": "Garde les coordonnées de ta maternité, de la personne qui t’accompagne et du transport dans ton téléphone et sur papier. Ce n’est pas sûr de prendre le volant toi-même pendant le travail."
+  },
+  "install-car-seat": {
+    "title": "Installe le siège auto",
+    "detail": "Choisis un siège dos à la route adapté au poids de ton bébé, installe-le à l’avance et entraîne-toi à le mettre et à l’enlever."
+  },
+  "pack-hospital-bag": {
+    "title": "Prépare ta valise de maternité",
+    "detail": "Mets-y ton dossier de grossesse, des vêtements confortables, des tenues de nuit, des serviettes de maternité, des en-cas, un chargeur de téléphone, des vêtements et des couches pour bébé."
+  },
+  "group-b-strep": {
+    "title": "Renseigne-toi sur le streptocoque B",
+    "detail": "Aux États-Unis, le dépistage se fait généralement entre 36 et 38 semaines ; au Royaume-Uni, il n’est pas systématique. Demande ce qui s’applique à toi."
+  },
+  "learn-labour-signs": {
+    "title": "Apprends les signes du travail",
+    "detail": "Contractions régulières, perte du bouchon muqueux, mal de dos ou perte des eaux. Sache à quel moment ta maternité veut que tu appelles."
+  },
+  "postnatal-support-plan": {
+    "title": "Prévois du soutien pour après la naissance",
+    "detail": "Pense aux repas, à l’aide à la maison et aux personnes que tu peux appeler. Apprends les signes de la dépression post-partum, qui peut toucher tout le monde."
+  },
+  "past-due-date-options": {
+    "title": "Parle du dépassement de terme",
+    "detail": "Renseigne-toi sur le décollement des membranes, le déclenchement et la surveillance renforcée, pour connaître tes options avant 41 semaines."
+  }
+}

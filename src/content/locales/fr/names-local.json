@@ -1,0 +1,340 @@
+{
+  "basis": "France: INSEE, Fichier des prénoms, édition 2026 (births 2025: national top 10 in Insee Première n° 2127, Sept. 2026, and regional top names, July 2026) and édition 2025 (boys' top 20 for 2024); Belgium: Statbel, first names of newborns 2024 and 2025 (national, Wallonia and Brussels top names); Québec: Retraite Québec, Banque de prénoms 2025 (top 20 girls and boys). Checked October 2026.",
+  "add": [
+    {
+      "name": "Louise",
+      "gender": "f",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Famous warrior (feminine of Louis)",
+        "tr": "Ünlü savaşçı (Louis'nin kadın biçimi)",
+        "es": "Guerrera famosa (femenino de Louis)",
+        "de": "Berühmte Kriegerin (weibliche Form von Louis)",
+        "fr": "Illustre guerrière (féminin de Louis)",
+        "pt": "Guerreira famosa (feminino de Louis)"
+      }
+    },
+    {
+      "name": "Jade",
+      "gender": "f",
+      "origin": "Spanish",
+      "meaning": {
+        "en": "Jade, the green gemstone",
+        "tr": "Yeşim taşı",
+        "es": "Jade, la piedra preciosa verde",
+        "de": "Jade, der grüne Edelstein",
+        "fr": "Le jade, pierre précieuse verte",
+        "pt": "Jade, a pedra preciosa verde"
+      }
+    },
+    {
+      "name": "Ambre",
+      "gender": "f",
+      "origin": "French",
+      "meaning": {
+        "en": "Amber, the golden fossil resin",
+        "tr": "Kehribar",
+        "es": "Ámbar, la resina fósil dorada",
+        "de": "Bernstein, das goldene fossile Harz",
+        "fr": "L'ambre, résine fossile dorée",
+        "pt": "Âmbar, a resina fóssil dourada"
+      }
+    },
+    {
+      "name": "Alma",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Nurturing, kind (Latin); soul (Spanish)",
+        "tr": "Besleyen, şefkatli (Latince); ruh (İspanyolca)",
+        "es": "Que nutre, bondadosa (latín); alma (español)",
+        "de": "Nährend, gütig (lateinisch); Seele (spanisch)",
+        "fr": "Nourricière, bienveillante (latin) ; âme (espagnol)",
+        "pt": "Que nutre, bondosa (latim); alma (espanhol)"
+      }
+    },
+    {
+      "name": "Alba",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Dawn; white",
+        "tr": "Şafak; beyaz",
+        "es": "Amanecer; blanca",
+        "de": "Morgendämmerung; weiß",
+        "fr": "Aube ; blanche",
+        "pt": "Alvorada; branca"
+      }
+    },
+    {
+      "name": "Rose",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Rose (the flower)",
+        "tr": "Gül (çiçek)",
+        "es": "Rosa (la flor)",
+        "de": "Rose (die Blume)",
+        "fr": "Rose (la fleur)",
+        "pt": "Rosa (a flor)"
+      }
+    },
+    {
+      "name": "Romy",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Short form of Rosemarie; rosemary, 'dew of the sea'",
+        "tr": "Rosemarie'nin kısaltması; biberiye, 'denizin çiyi'",
+        "es": "Diminutivo de Rosemarie; romero, «rocío del mar»",
+        "de": "Kurzform von Rosemarie; Rosmarin, „Tau des Meeres“",
+        "fr": "Diminutif de Rosemarie ; romarin, « rosée de la mer »",
+        "pt": "Forma curta de Rosemarie; alecrim, 'orvalho do mar'"
+      }
+    },
+    {
+      "name": "Adèle",
+      "gender": "f",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Noble",
+        "tr": "Soylu",
+        "es": "Noble",
+        "de": "Edel",
+        "fr": "Noble",
+        "pt": "Nobre"
+      }
+    },
+    {
+      "name": "Anna",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Grace, favour (a form of Hannah)",
+        "tr": "Lütuf, inayet (Hannah'nın bir biçimi)",
+        "es": "Gracia, favor (una forma de Hannah)",
+        "de": "Gnade, Gunst (eine Form von Hannah)",
+        "fr": "Grâce, faveur (forme d'Hannah)",
+        "pt": "Graça, favor (uma forma de Hannah)"
+      }
+    },
+    {
+      "name": "Inaya",
+      "gender": "f",
+      "origin": "Arabic",
+      "meaning": {
+        "en": "Care, attention; God's protection",
+        "tr": "İnayet, özen; Allah'ın koruması",
+        "es": "Cuidado, atención; protección de Dios",
+        "de": "Fürsorge, Aufmerksamkeit; Gottes Schutz",
+        "fr": "Soin, attention ; protection divine",
+        "pt": "Cuidado, atenção; proteção de Deus"
+      }
+    },
+    {
+      "name": "Juliette",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Youthful; from the Roman name Julius",
+        "tr": "Genç; Roma adı Julius'tan",
+        "es": "Juvenil; del nombre romano Julius",
+        "de": "Jugendlich; vom römischen Namen Julius",
+        "fr": "Jeune ; du nom romain Julius",
+        "pt": "Jovem; do nome romano Julius"
+      }
+    },
+    {
+      "name": "Nour",
+      "gender": "f",
+      "origin": "Arabic",
+      "meaning": {
+        "en": "Light",
+        "tr": "Nur, ışık",
+        "es": "Luz",
+        "de": "Licht",
+        "fr": "Lumière",
+        "pt": "Luz"
+      }
+    },
+    {
+      "name": "Béatrice",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "She who brings joy; blessed",
+        "tr": "Mutluluk getiren; kutsanmış",
+        "es": "La que trae alegría; bienaventurada",
+        "de": "Die Freude bringt; gesegnet",
+        "fr": "Celle qui apporte le bonheur ; bienheureuse",
+        "pt": "Aquela que traz alegria; abençoada"
+      }
+    },
+    {
+      "name": "Raphaël",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God has healed",
+        "tr": "Tanrı iyileştirdi",
+        "es": "Dios ha sanado",
+        "de": "Gott hat geheilt",
+        "fr": "Dieu a guéri",
+        "pt": "Deus curou"
+      }
+    },
+    {
+      "name": "Louis",
+      "gender": "m",
+      "origin": "Germanic",
+      "meaning": {
+        "en": "Famous warrior",
+        "tr": "Ünlü savaşçı",
+        "es": "Guerrero famoso",
+        "de": "Berühmter Krieger",
+        "fr": "Illustre guerrier",
+        "pt": "Guerreiro famoso"
+      }
+    },
+    {
+      "name": "Jules",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Youthful; from the Roman name Julius",
+        "tr": "Genç; Roma adı Julius'tan",
+        "es": "Juvenil; del nombre romano Julius",
+        "de": "Jugendlich; vom römischen Namen Julius",
+        "fr": "Jeune ; du nom romain Julius",
+        "pt": "Jovem; do nome romano Julius"
+      }
+    },
+    {
+      "name": "Maël",
+      "gender": "m",
+      "origin": "Celtic",
+      "meaning": {
+        "en": "Prince, chief (Breton)",
+        "tr": "Prens, önder (Bretonca)",
+        "es": "Príncipe, jefe (bretón)",
+        "de": "Prinz, Anführer (bretonisch)",
+        "fr": "Prince, chef (breton)",
+        "pt": "Príncipe, chefe (bretão)"
+      }
+    },
+    {
+      "name": "Sacha",
+      "gender": "u",
+      "origin": "Slavic",
+      "meaning": {
+        "en": "Short form of Alexander: defender of the people",
+        "tr": "Aleksandr'ın kısaltması: halkın koruyucusu",
+        "es": "Diminutivo de Alexander: defensor del pueblo",
+        "de": "Kurzform von Alexander: Verteidiger des Volkes",
+        "fr": "Diminutif d'Alexandre : défenseur du peuple",
+        "pt": "Forma curta de Alexander: defensor do povo"
+      }
+    },
+    {
+      "name": "Marceau",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From Marcellus; devoted to Mars, god of war",
+        "tr": "Marcellus'tan; savaş tanrısı Mars'a adanmış",
+        "es": "De Marcellus; consagrado a Marte, dios de la guerra",
+        "de": "Von Marcellus; dem Kriegsgott Mars geweiht",
+        "fr": "De Marcellus ; voué à Mars, dieu de la guerre",
+        "pt": "De Marcellus; consagrado a Marte, deus da guerra"
+      }
+    },
+    {
+      "name": "Elio",
+      "gender": "m",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Sun (from Helios)",
+        "tr": "Güneş (Helios'tan)",
+        "es": "Sol (de Helios)",
+        "de": "Sonne (von Helios)",
+        "fr": "Soleil (de Hélios)",
+        "pt": "Sol (de Helios)"
+      }
+    },
+    {
+      "name": "Noé",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Rest, comfort (French form of Noah)",
+        "tr": "Huzur, teselli (Nuh'un Fransızca biçimi)",
+        "es": "Descanso, consuelo (forma francesa de Noah)",
+        "de": "Ruhe, Trost (französische Form von Noah)",
+        "fr": "Repos, réconfort (forme française de Noah)",
+        "pt": "Descanso, consolo (forma francesa de Noah)"
+      }
+    },
+    {
+      "name": "Gabin",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From Gabii, an ancient city near Rome",
+        "tr": "Roma yakınlarındaki antik Gabii kentinden",
+        "es": "De Gabii, antigua ciudad cercana a Roma",
+        "de": "Von Gabii, einer antiken Stadt bei Rom",
+        "fr": "De Gabies, ancienne cité proche de Rome",
+        "pt": "De Gabii, antiga cidade perto de Roma"
+      }
+    },
+    {
+      "name": "Mohamed",
+      "gender": "m",
+      "origin": "Arabic",
+      "meaning": {
+        "en": "Praised, praiseworthy",
+        "tr": "Övülmüş, övgüye değer",
+        "es": "Alabado, digno de alabanza",
+        "de": "Gepriesen, lobenswert",
+        "fr": "Loué, digne de louange",
+        "pt": "Louvado, digno de louvor"
+      }
+    },
+    {
+      "name": "Édouard",
+      "gender": "m",
+      "origin": "English",
+      "meaning": {
+        "en": "Rich guardian (French form of Edward)",
+        "tr": "Zengin koruyucu (Edward'ın Fransızca biçimi)",
+        "es": "Guardián rico (forma francesa de Edward)",
+        "de": "Reicher Hüter (französische Form von Edward)",
+        "fr": "Riche gardien (forme française d'Edward)",
+        "pt": "Guardião rico (forma francesa de Edward)"
+      }
+    }
+  ],
+  "alsoPopular": [
+    "Emma",
+    "Alice",
+    "Olivia",
+    "Mia",
+    "Lina",
+    "Sofia",
+    "Charlotte",
+    "Florence",
+    "Charlie",
+    "Gabriel",
+    "Noah",
+    "Leo",
+    "Arthur",
+    "Leon",
+    "Adam",
+    "Eden",
+    "Liam",
+    "Isaac",
+    "William",
+    "Thomas"
+  ],
+  "newOrigins": {}
+}

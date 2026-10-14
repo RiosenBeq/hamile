@@ -5,7 +5,7 @@ App Store Connect app: **Marigold: Pregnancy Tracker** · Apple ID 6822443743 ·
 URLs
 - Support: https://riosenbeq.github.io/hamile/support.html
 - Marketing: https://riosenbeq.github.io/hamile/
-- Privacy policy: https://riosenbeq.github.io/hamile/privacy.html
+- Privacy policy: https://riosenbeq.github.io/hamile/privacy.html (localized: /tr/, /es/, /de/, /fr/, /pt/ + privacy.html)
 - Terms (EULA): Apple Standard EULA + https://riosenbeq.github.io/hamile/terms.html
 
 Category: Primary **Medical**, secondary **Health & Fitness** · Price: Free with in-app purchases · Copyright: `2026 Okan Berk Manavoglu`
@@ -23,7 +23,7 @@ In-app purchases
 **Subtitle (29/30):** Safe foods, meds & baby weeks
 
 **Promotional text (≤170):**
-235 sourced answers to “Can I…?”, an “Is this normal?” symptom guide and gentle trackers. No ads, no account — your pregnancy data stays on your phone.
+270+ sourced answers to “Can I…?”, an “Is this normal?” symptom guide and gentle trackers. No ads, no account — your pregnancy data stays on your phone.
 
 **Keywords (≤100):**
 pregnant,due,date,kick,counter,contraction,timer,bump,trimester,symptom,midwife,maternity,names,app
@@ -37,11 +37,11 @@ WEEK BY WEEK
 • Three practical tips and the to-dos for every week, 1–42
 • Your week updates automatically from your due date, last period or IVF transfer date
 
-“CAN I…?” — 235 SOURCED ANSWERS
+“CAN I…?” — 270+ SOURCED ANSWERS
 • Food, drinks, medicines, supplements, beauty, activities, travel and home
 • Clear Safe / Caution / Avoid verdicts with the why and practical tips
 • Every answer links to the public guidance it’s based on (NHS, ACOG, CDC, FDA, WHO, MotherToBaby and more)
-• Works offline, and understands both English and Turkish names (beyaz peynir, sucuk, Türk kahvesi…)
+• Works offline in six languages — English, Türkçe, Español, Deutsch, Français, Português — and search understands local names (beyaz peynir, jamón, Teewurst, açaí…)
 
 “IS THIS NORMAL?”
 • 55 common symptoms explained calmly, with what helps
@@ -89,7 +89,7 @@ Marigold provides general information, not medical advice. Always follow your mi
 **Subtitle (26/30):** Bebek gelişimi hafta hafta
 
 **Promotional text:**
-“Bu olur mu?” sorusuna kaynaklı 235 yanıt, “Bu normal mi?” belirti rehberi ve nazik takip araçları. Reklam yok, hesap yok — hamilelik verilerin telefonunda kalır.
+“Bu olur mu?” sorusuna kaynaklı 270+ yanıt, “Bu normal mi?” belirti rehberi ve nazik takip araçları. Reklam yok, hesap yok — hamilelik verilerin telefonunda kalır.
 
 **Keywords (≤100 bytes):**
 gebelik,hamile,gebe,doğum,tekme,sayacı,kasılma,ultrason,kilo,ilaç,gıda,isim,trimester
@@ -103,7 +103,7 @@ HAFTA HAFTA
 • 1–42. haftalar için her hafta üç pratik ipucu ve yapılacaklar
 • Haftan; tahmini doğum tarihinden, son adet tarihinden ya da tüp bebek transfer tarihinden otomatik güncellenir
 
-“BU OLUR MU?” — KAYNAKLI 235 YANIT
+“BU OLUR MU?” — KAYNAKLI 270+ YANIT
 • Yiyecek, içecek, ilaç, takviye, güzellik, aktivite, seyahat ve ev
 • Net Güvenli / Dikkat / Kaçın sonuçları; nedeni ve pratik ipuçlarıyla
 • Her yanıt dayandığı kamu kaynağına bağlanır (NHS, ACOG, CDC, FDA, WHO, MotherToBaby ve daha fazlası)
@@ -153,13 +153,13 @@ Marigold genel bilgi sunar, tıbbi tavsiye değildir. Her zaman ebene veya dokto
 Marigold works fully offline and has no account or sign-in — no demo login is needed.
 
 How to review:
-1. Complete the 4-step onboarding (any due date, e.g. pick "I know my week" → 20).
+1. On the welcome screen, tick the box confirming Marigold is general information (not medical advice) and accepting the Terms/Privacy Policy, then complete the 4-step onboarding (any due date, e.g. pick "I know my week" → 20). The language menu (top right) offers English, Türkçe, Español, Deutsch, Français and Português (Brasil).
 2. Today tab: pregnancy progress, this week's summary, quick log, appointments, "Can I…?" entry and "Get help now".
 3. "Can I?" (centre tab): search e.g. "sushi" or "paracetamol"; each answer shows a verdict, explanation, tips and tappable source links (Guideline 1.4.1). The "Is this normal?" symptom guide is at the bottom of that tab.
 4. Tools tab: kick counter, contraction timer, weight, water, vitamins, appointments, checklist, hospital bag, birth plan, names, breathing, pelvic floor.
 5. In-app purchases: Today → "Marigold Plus" card, or Tools → "Doctor report" (PLUS). The paywall lists the monthly subscription (1-week free trial) and the one-time Pregnancy Pass, with Restore, Terms of Use (EULA) and Privacy Policy links. Plus unlocks the doctor-ready PDF report, the pregnancy journal book PDF and the bump collage export.
 6. You → Pregnancy loss support pauses all pregnancy content and notifications.
 
-Medical content: Marigold provides general information compiled from public guidance (NHS, ACOG, CDC, FDA, WHO, MotherToBaby, NICE, RCOG). Every safety entry, symptom entry and week page links to its sources. The app never gives medication doses and reminds users to consult their midwife, doctor or pharmacist. Calculators: due date uses Naegele's rule (ACOG/NHS); weight-gain ranges follow IOM 2009 (cited in-app).
+Medical content: Marigold provides general information compiled from public guidance (NHS, ACOG, CDC, FDA, WHO, MotherToBaby, NICE, RCOG, plus national bodies such as AESAN, BfR, ANSES and Brazil's Ministry of Health for market-specific entries). Every safety entry, symptom entry and week page links to its sources. The app never gives medication doses and reminds users to consult their midwife, doctor or pharmacist. Calculators: due date uses Naegele's rule (ACOG/NHS); weight-gain ranges follow IOM 2009 (cited in-app).
 
 Privacy: all data is stored locally on the device. No analytics, ads or tracking. RevenueCat is used only to validate purchases with an anonymous ID.

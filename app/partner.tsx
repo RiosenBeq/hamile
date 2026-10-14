@@ -30,7 +30,7 @@ export default function Partner() {
     const lines: string[] = [];
     if (name.trim()) lines.push(t('pt.msg.hi', { name: name.trim() }));
     if (p) lines.push(t('pt.msg.week', { w: p.weeks, d: p.days }));
-    if (p && week && p.contentWeek >= 4) lines.push(t('pt.msg.size', { item: sizePhrase(week.size.name, lang), emoji: week.size.emoji }));
+    if (p && week && p.contentWeek >= 4) lines.push(t('pt.msg.size', { item: sizePhrase(week.size, lang), emoji: week.size.emoji }));
     lines.push(t('pt.msg.help', { tip }));
     if (p && p.daysToGo > 0) lines.push(t('pt.msg.days', { n: p.daysToGo }));
     lines.push('', `— ${t('pt.msg.footer')}`);

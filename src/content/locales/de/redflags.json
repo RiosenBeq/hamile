@@ -1,0 +1,50 @@
+{
+  "heavy-bleeding": {
+    "title": "Starke Blutung aus der Scheide",
+    "detail": "Eine Blutung, die eine Binde kurz nach dem Einlegen durchtränkt oder mit Blutgerinnseln, starken Schmerzen, Schwindel oder Ohnmacht einhergeht. Ruf den Notruf an."
+  },
+  "severe-tummy-pain": {
+    "title": "Starke oder anhaltende Bauchschmerzen",
+    "detail": "Starke Schmerzen, die in Ruhe nicht nachlassen, vor allem zusammen mit Blutungen, einem harten Bauch, Schmerzen in der Schulterspitze oder dem Gefühl, ohnmächtig zu werden. Ruf jetzt deine Geburtsklinik oder den Notruf an."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Starke Kopfschmerzen, Sehstörungen oder plötzliche Schwellungen",
+    "detail": "Kopfschmerzen, die nicht weggehen, verschwommenes Sehen oder Lichtblitze, Schmerzen unter den Rippen oder plötzliche Schwellungen im Gesicht, an Händen oder Füßen. Das können Anzeichen einer Präeklampsie sein: Ruf jetzt deine Geburtsklinik oder deine Ärztin / deinen Arzt an."
+  },
+  "reduced-movements": {
+    "title": "Dein Baby bewegt sich weniger oder gar nicht",
+    "detail": "Jede Veränderung im gewohnten Bewegungsmuster deines Babys. Ruf sofort deine Geburtsklinik an, auch nachts. Warte nicht bis morgen und verlass dich nicht auf ein Herztongerät für zu Hause."
+  },
+  "waters-before-37-weeks": {
+    "title": "Blasensprung oder Wehen vor 37 Schwangerschaftswochen",
+    "detail": "Ein Schwall oder Rinnsal von Flüssigkeit, regelmäßiges Hartwerden des Bauchs oder periodenähnliche Schmerzen, bevor du 37 Wochen schwanger bist. Trag eine Binde, keinen Tampon, und ruf jetzt deine Geburtsklinik an."
+  },
+  "fever": {
+    "title": "Fieber ab 38 °C (100,4 °F)",
+    "detail": "Auch wenn dir heiß ist, du fröstelst und dich sehr krank fühlst, zählt das. Infektionen müssen in der Schwangerschaft schnell behandelt werden – ruf deshalb heute noch deine Ärztin / deinen Arzt oder deine Geburtsklinik an."
+  },
+  "breathlessness-chest-pain": {
+    "title": "Plötzliche Atemnot oder Schmerzen in der Brust",
+    "detail": "Schwierigkeiten beim Atmen, Schmerzen oder Engegefühl in der Brust, Bluthusten oder Herzrasen mit Ohnmachtsgefühl. Ruf den Notruf an."
+  },
+  "swollen-calf": {
+    "title": "Schmerzhaftes, geschwollenes Bein auf einer Seite",
+    "detail": "Pochende Schmerzen, Schwellung, Wärme oder Rötung in einer Wade oder einem Oberschenkel können auf ein Blutgerinnsel hindeuten. Lass dich noch am selben Tag untersuchen – oder ruf den Notruf an, wenn du außerdem Atemnot hast."
+  },
+  "fainting": {
+    "title": "Ohnmacht, Zusammenbruch oder Krampfanfall",
+    "detail": "Bewusstlos werden, einen Krampfanfall haben oder so schwindelig sein, dass du nicht stehen kannst – vor allem mit Schmerzen oder Blutungen. Ruf den Notruf an."
+  },
+  "intense-itching": {
+    "title": "Starker Juckreiz, besonders an Händen und Füßen",
+    "detail": "Juckreiz an Handflächen oder Fußsohlen, oft nachts schlimmer und ohne Ausschlag, kann auf eine Lebererkrankung namens Schwangerschaftscholestase (ICP) hindeuten. Ruf heute noch deine Geburtsklinik oder deine Ärztin / deinen Arzt an, um einen Bluttest machen zu lassen."
+  },
+  "thoughts-of-harm": {
+    "title": "Gedanken, dir oder deinem Baby etwas anzutun",
+    "detail": "Du bist nicht allein, und es ist nicht deine Schuld. Sag es jemandem in deiner Nähe und ruf jetzt den Notruf oder ein Krisentelefon an, wenn du dich nicht sicher fühlst."
+  },
+  "severe-vomiting": {
+    "title": "Erbrechen, bei dem du keine Flüssigkeit bei dir behältst",
+    "detail": "Du übergibst dich so oft, dass du 24 Stunden lang weder Essen noch Flüssigkeit bei dir behältst, dein Urin ist sehr dunkel, du hast 8 Stunden lang nicht uriniert oder du fühlst dich einer Ohnmacht nahe. Möglicherweise brauchst du eine Flüssigkeitsgabe: Ruf jetzt deine Ärztin / deinen Arzt an."
+  }
+}

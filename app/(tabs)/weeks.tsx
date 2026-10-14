@@ -127,10 +127,10 @@ export default function Weeks() {
                 <Text style={{ fontSize: 86, lineHeight: 104 }} allowFontScaling={false}>{w.size.emoji}</Text>
               </View>
               <Text style={{ fontFamily: fonts.display, fontSize: 30, color: colors.ink, marginTop: 14, letterSpacing: -0.4 }}>
-                {sel >= 4 ? sizeTitle(w.size.name, lang) : t('c.weekN', { n: sel })}
+                {sel >= 4 ? sizeTitle(w.size, lang) : t('c.weekN', { n: sel })}
               </Text>
               <Text style={{ fontFamily: fonts.body, fontSize: 14.5, color: colors.ink2, marginTop: 4, textAlign: 'center' }}>
-                {sel >= 4 ? t('today.sizeOf', { item: sizePhrase(w.size.name, lang) }) : t('weeks.early')}
+                {sel >= 4 ? t('today.sizeOf', { item: sizePhrase(w.size, lang) }) : t('weeks.early')}
               </Text>
               {w.lengthCm || w.weightG ? (
                 <View style={{ flexDirection: 'row', gap: 10, marginTop: 16 }}>

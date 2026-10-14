@@ -1,0 +1,1245 @@
+{
+  "morning-sickness": {
+    "name": "Náusea e vômito (enjoo matinal)",
+    "aliases": [
+      "enjoo",
+      "enjoo matinal",
+      "náusea",
+      "nausea",
+      "vômito",
+      "ânsia de vômito"
+    ],
+    "about": "Sentir enjoo é um dos sintomas mais comuns da gravidez e afeta cerca de 8 em cada 10 pessoas. A causa provável é o aumento dos hormônios e, apesar do nome, ele pode aparecer a qualquer hora do dia ou da noite. Para a maioria, costuma começar entre a 4ª e a 7ª semana e melhorar entre a 16ª e a 20ª semana, e não faz mal ao seu bebê.",
+    "relief": [
+      "Coma lanches pequenos e frequentes para que seu estômago nunca fique vazio; alimentos simples e ricos em amido, como biscoito de água e sal ou torrada, costumam ser os mais fáceis.",
+      "Deixe um biscoito simples ao lado da cama e coma um pouquinho antes de se levantar.",
+      "Beba líquidos aos poucos e com frequência entre as refeições, em vez de junto com elas.",
+      "Experimente alimentos ou bebidas com gengibre e evite cheiros que provocam o enjoo; comida fria costuma ter menos cheiro.",
+      "Descanse quando puder, pois o cansaço pode piorar a náusea."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra no mesmo dia se não conseguir manter nada no estômago, nem comida nem líquidos, por 24 horas.",
+      "Ligue no mesmo dia se sua urina estiver muito escura, se você não fizer xixi há 8 horas ou se sentir que vai desmaiar ao se levantar.",
+      "Ligue no mesmo dia se tiver dor na barriga ou febre junto com o enjoo, ou se estiver perdendo peso.",
+      "Ligue para seu médico imediatamente se vomitar sangue."
+    ]
+  },
+  "severe-vomiting": {
+    "name": "Vômitos intensos (hiperêmese gravídica)",
+    "aliases": [
+      "hiperêmese gravídica",
+      "hiperemese",
+      "HG",
+      "enjoo muito forte",
+      "vômito o dia todo",
+      "desidratação"
+    ],
+    "about": "A hiperêmese gravídica é uma forma grave de enjoo na gravidez que afeta até 3 em cada 100 gestações. Vomitar muitas vezes ao dia pode levar rapidamente à desidratação e ao esgotamento, por isso ela precisa de tratamento médico, e não apenas de força para aguentar. Existem tratamentos eficazes e seguros na gravidez, e pedir ajuda cedo faz uma diferença real.",
+    "relief": [
+      "Tome pequenos goles de água ou suco diluído, ou chupe pedacinhos de gelo, com frequência, em vez de beber muito de uma vez.",
+      "Descanse o máximo que puder e aceite ajuda prática com o trabalho, as refeições e o cuidado com as crianças.",
+      "Anote de forma simples quantas vezes você vomita e o que consegue manter no estômago, para mostrar ao seu médico.",
+      "Pergunte ao seu médico sobre tratamento contra enjoo seguro na gravidez; você não precisa esperar até ficar insuportável."
+    ],
+    "callDoctor": [
+      "Ligue agora para seu médico ou sua obstetra se não conseguir manter nada no estômago, nem comida nem líquidos, por 24 horas.",
+      "Ligue agora se sua urina estiver escura ou se você não fizer xixi há 8 horas; esses são sinais de desidratação.",
+      "Procure ajuda agora se sentir muita fraqueza, tontura ou sensação de desmaio, ou se estiver perdendo peso.",
+      "Ligue para o serviço de emergência se vomitar sangue, desmaiar ou ficar confusa."
+    ]
+  },
+  "tiredness": {
+    "name": "Cansaço e exaustão",
+    "aliases": [
+      "cansaço",
+      "cansaco",
+      "fadiga",
+      "exaustão",
+      "sono o tempo todo",
+      "sem energia"
+    ],
+    "about": "Sentir-se esgotada é muito comum, especialmente nas primeiras 12 semanas, quando as mudanças hormonais e todo o trabalho extra que seu corpo está fazendo podem deixar você exausta. A energia costuma voltar no segundo trimestre e depois cai de novo à medida que a barriga cresce e dormir fica mais difícil. O cansaço em si não faz mal a você nem ao seu bebê.",
+    "relief": [
+      "Descanse sempre que puder, nem que sejam 15 minutos com os pés para cima, e tente ir para a cama um pouco mais cedo.",
+      "Aceite as ofertas de ajuda da família, de amigos e de colegas.",
+      "Faça refeições regulares e equilibradas e tenha lanches saudáveis à mão para manter a energia estável.",
+      "Uma caminhada curta ou um exercício leve pode, na verdade, aumentar sua energia."
+    ],
+    "callDoctor": [
+      "Avise seu médico ou sua obstetra se você também tiver falta de ar, palidez, tontura ou coração acelerado; pode ser preciso investigar anemia.",
+      "Converse com seu médico ou sua obstetra se o cansaço vier com desânimo, desesperança ou perda de interesse pelas coisas.",
+      "Ligue no mesmo dia se a exaustão parecer avassaladora ou vier com febre, vômitos ou sensação de estar muito mal."
+    ]
+  },
+  "breast-tenderness": {
+    "name": "Seios doloridos ou sensíveis",
+    "aliases": [
+      "seios doloridos",
+      "dor nos seios",
+      "mamas sensíveis",
+      "bico do peito dolorido",
+      "seios inchados",
+      "peito dolorido"
+    ],
+    "about": "Seios sensíveis, mais cheios e formigando costumam ser um dos primeiros sinais da gravidez. O aumento dos hormônios intensifica o fluxo de sangue e começa a preparar as glândulas mamárias, por isso você também pode notar veias mais visíveis e mamilos mais escuros. A dor costuma diminuir depois do primeiro trimestre, conforme seu corpo se adapta.",
+    "relief": [
+      "Use um sutiã macio, bem ajustado e que dê sustentação; muitas pessoas acham um sutiã de algodão ou esportivo mais confortável, inclusive à noite.",
+      "Um banho morno ou uma compressa fria pode aliviar a dor.",
+      "Peça ao seu parceiro ou à sua parceira que tenha delicadeza, e durma de lado em vez de de bruços."
+    ],
+    "callDoctor": [
+      "Consulte seu médico se notar um caroço novo, pele com covinhas ou uma área vermelha, quente e dolorida no seio.",
+      "Consulte seu médico se houver saída de sangue ou de secreção incomum pelo mamilo, ou se um mamilo tiver ficado virado para dentro recentemente."
+    ]
+  },
+  "frequent-urination": {
+    "name": "Vontade frequente de fazer xixi",
+    "aliases": [
+      "xixi toda hora",
+      "vontade de urinar",
+      "urinar muito",
+      "xixi à noite",
+      "xixi a noite",
+      "micção frequente"
+    ],
+    "about": "Precisar ir ao banheiro com mais frequência costuma começar cedo na gravidez, porque os hormônios e o aumento do fluxo sanguíneo fazem seus rins trabalharem mais. Muitas vezes melhora nos meses do meio e volta mais tarde, quando a cabeça do bebê pressiona sua bexiga. É uma parte normal, ainda que chata, da gravidez.",
+    "relief": [
+      "Continue bebendo bastante líquido durante o dia, mas diminua as bebidas no fim da noite.",
+      "Reduza a cafeína (chá, café, refrigerante de cola), que faz você urinar mais.",
+      "Incline-se para a frente ou balance o corpo de leve enquanto faz xixi para ajudar a esvaziar a bexiga por completo.",
+      "Faça exercícios do assoalho pélvico todos os dias para ajudar com os escapes de xixi ao tossir ou espirrar."
+    ],
+    "callDoctor": [
+      "Entre em contato com seu médico em até 24 horas se sentir ardor ou queimação ao fazer xixi ou se vir sangue na urina; pode ser uma infecção.",
+      "Ligue imediatamente se também tiver febre, calafrios ou dor nas costas ou na lateral do corpo.",
+      "Comente com seu médico se também sentir muita sede o tempo todo; pode ser preciso verificar seu açúcar no sangue."
+    ]
+  },
+  "spotting": {
+    "name": "Escape ou sangramento leve",
+    "aliases": [
+      "escape",
+      "sangramento leve",
+      "corrimento marrom",
+      "corrimento rosado",
+      "sangramento de nidação",
+      "sangramento após relação"
+    ],
+    "about": "Sangramento leve é bastante comum, especialmente no início da gravidez, e muitas pessoas que têm isso seguem com uma gestação saudável. Ele pode vir da implantação do embrião, de um colo do útero mais sensível depois de uma relação sexual ou de um exame interno, ou de uma infecção. Como o sangramento às vezes pode indicar um problema, sempre vale a pena fazer uma avaliação.",
+    "relief": [
+      "Use absorvente externo, não interno, para ver quanto você está sangrando e qual é a cor.",
+      "Anote quando começou, a cor e mais ou menos a quantidade, para contar ao seu médico ou à sua obstetra.",
+      "Descanse e evite relações sexuais até passar por uma avaliação e saber a causa."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra no mesmo dia sobre qualquer sangramento na gravidez, mesmo que já tenha parado.",
+      "Ligue imediatamente se o sangramento vier com cólicas, dor na parte baixa das costas, dor ao fazer xixi ou cocô, ou perda de líquido.",
+      "Ligue para o serviço de emergência se o sangramento for intenso ou se você tiver dor forte na barriga, dor na ponta do ombro ou sensação de desmaio."
+    ]
+  },
+  "heavy-bleeding": {
+    "name": "Sangramento intenso",
+    "aliases": [
+      "sangramento forte",
+      "sangramento com coágulos",
+      "hemorragia",
+      "encharcando o absorvente",
+      "sinais de aborto",
+      "aborto espontâneo"
+    ],
+    "about": "Sangramento intenso significa sangue vermelho que encharca um absorvente ou vem com coágulos. Ele precisa de avaliação urgente em qualquer fase da gravidez, porque pode estar ligado a aborto espontâneo, gravidez ectópica ou problemas na placenta. Buscar ajuda rápido garante a você e ao seu bebê o melhor cuidado, e você nunca estará fazendo ninguém perder tempo.",
+    "relief": [
+      "Primeiro peça ajuda; depois, deite-se de lado enquanto espera.",
+      "Use absorventes externos, não internos, para que a quantidade de sangramento possa ser avaliada.",
+      "Não dirija; peça para alguém levar você ou espere a ambulância.",
+      "Leve sua caderneta da gestante ou seus registros do pré-natal, se tiver."
+    ],
+    "callDoctor": [
+      "Ligue para o serviço de emergência se estiver encharcando um absorvente logo depois de colocá-lo ou eliminando coágulos grandes.",
+      "Ligue para o serviço de emergência se o sangramento vier com dor forte na barriga, dor na ponta do ombro, tontura ou desmaio.",
+      "Ligue imediatamente para a maternidade ou para seu médico sobre qualquer sangramento na segunda metade da gravidez, mesmo que leve."
+    ]
+  },
+  "period-like-cramps": {
+    "name": "Cólicas e dor parecida com a menstrual",
+    "aliases": [
+      "cólica",
+      "colica",
+      "dor de cólica",
+      "dor na barriga",
+      "dor no pé da barriga",
+      "dor abdominal"
+    ],
+    "about": "Cólicas leves são comuns, especialmente no início, à medida que o útero cresce e se estica. Gases presos, prisão de ventre e ligamentos se esticando também podem causar dores que vêm e vão. Dor leve que melhora quando você descansa, muda de posição, faz xixi, faz cocô ou solta gases geralmente não é motivo de preocupação.",
+    "relief": [
+      "Descanse, deite-se de lado ou mude de posição.",
+      "Tome um banho morno (não quente), de banheira ou de chuveiro.",
+      "Beba bastante água e coma fibras para evitar prisão de ventre e gases.",
+      "Esvazie a bexiga com regularidade."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para seu médico ou sua obstetra se a dor vier com sangramento, corrimento incomum ou perda de líquido.",
+      "Ligue imediatamente se a dor for forte ou não melhorar depois de 30 a 60 minutos de descanso.",
+      "Ligue imediatamente se você estiver com menos de 37 semanas e tiver cólicas ou endurecimentos da barriga regulares.",
+      "Ligue imediatamente se doer para fazer xixi ou se sua urina estiver turva, rosada, vermelha ou marrom."
+    ]
+  },
+  "round-ligament-pain": {
+    "name": "Dor no ligamento redondo",
+    "aliases": [
+      "ligamento redondo",
+      "dor na virilha",
+      "pontada na virilha",
+      "pontada no pé da barriga",
+      "fisgada na barriga",
+      "repuxando a barriga"
+    ],
+    "about": "Os ligamentos redondos são faixas parecidas com cordas que sustentam o útero. À medida que a barriga cresce, eles se esticam, o que pode causar uma dor rápida, aguda ou de repuxar em um ou nos dois lados do pé da barriga ou da virilha, muitas vezes quando você se mexe de repente, tosse ou se levanta. É muito comum no segundo trimestre e inofensiva.",
+    "relief": [
+      "Mova-se devagar ao se levantar, virar na cama ou sair de uma cadeira.",
+      "Dobre e flexione levemente os quadris antes de tossir, espirrar ou rir.",
+      "Descanse, use uma compressa ou um banho morno (não quente), ou experimente uma cinta de apoio para gestantes."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra se a dor não melhorar com descanso ou mudança de posição.",
+      "Ligue imediatamente se a dor vier com sangramento, febre, calafrios, dor ao fazer xixi ou endurecimentos regulares da barriga.",
+      "Antes de 12 semanas, faça avaliar no mesmo dia qualquer dor de um lado só, para descartar gravidez ectópica."
+    ]
+  },
+  "back-pain": {
+    "name": "Dor nas costas",
+    "aliases": [
+      "dor nas costas",
+      "dor lombar",
+      "dor na lombar",
+      "lombalgia",
+      "dor no ciático",
+      "ciatico"
+    ],
+    "about": "Dor nas costas é muito comum na gravidez. Os hormônios deixam os ligamentos mais flexíveis para preparar o corpo para o parto, o que sobrecarrega as articulações da parte baixa das costas e da pelve, e a barriga crescendo muda sua postura. É desconfortável, mas geralmente não é sinal de que algo esteja errado.",
+    "relief": [
+      "Dobre os joelhos e mantenha as costas retas ao levantar algo, e evite carregar peso.",
+      "Use sapatos baixos e que deem apoio, e sente-se com as costas bem apoiadas.",
+      "Experimente um banho morno, uma massagem, ioga para gestantes ou natação.",
+      "Durma de lado com um travesseiro entre os joelhos e outro embaixo da barriga."
+    ],
+    "callDoctor": [
+      "Ligue com urgência para seu médico ou sua obstetra se a dor nas costas vier em ondas ou com endurecimentos da barriga; pode ser sinal de início do trabalho de parto.",
+      "Ligue com urgência se você também tiver febre, sangramento vaginal, dor ao fazer xixi ou dor embaixo das costelas.",
+      "Ligue para o serviço de emergência se perder a sensibilidade nas pernas, no bumbum ou nos genitais."
+    ]
+  },
+  "pelvic-girdle-pain": {
+    "name": "Dor na cintura pélvica (disfunção da sínfise púbica)",
+    "aliases": [
+      "dor pélvica",
+      "sínfise púbica",
+      "sinfise pubica",
+      "dor no púbis",
+      "dor no osso da pelve",
+      "dor na pelve ao andar"
+    ],
+    "about": "A dor na cintura pélvica vem da rigidez ou do movimento desigual das articulações da pelve. Você pode senti-la sobre o osso púbico, na parte baixa das costas, entre as pernas ou descendo pelas coxas, e ela pode piorar ao caminhar, subir escadas ou virar na cama. É comum, não faz mal ao bebê e a fisioterapia ajuda muito.",
+    "relief": [
+      "Mantenha os joelhos juntos ao entrar e sair do carro ou da cama.",
+      "Sente-se para se vestir e evite se apoiar em uma perna só.",
+      "Suba e desça escadas um degrau de cada vez e evite carregar peso.",
+      "Durma com um travesseiro entre as pernas e continue se movimentando dentro do que for confortável."
+    ],
+    "callDoctor": [
+      "Peça ao seu médico ou à sua obstetra um encaminhamento para fisioterapia se estiver difícil caminhar, subir escadas ou virar na cama.",
+      "Conte ao seu médico ou à sua obstetra se a dor estiver afetando seu sono ou seu humor; há mais apoio disponível."
+    ]
+  },
+  "headache": {
+    "name": "Dor de cabeça",
+    "aliases": [
+      "dor de cabeça",
+      "enxaqueca",
+      "cefaleia",
+      "dor de cabeça tensional",
+      "cabeça doendo"
+    ],
+    "about": "Dores de cabeça são comuns no início da gravidez e costumam melhorar com o passar das semanas. Mudanças hormonais, cansaço, desidratação, fome e a redução da cafeína podem contribuir. Elas não fazem mal ao bebê, mas uma dor de cabeça forte na segunda metade da gravidez sempre precisa ser avaliada.",
+    "relief": [
+      "Beba bastante água e faça refeições e lanches regulares.",
+      "Descanse em um quarto silencioso e escuro e experimente técnicas de relaxamento ou alongamentos suaves do pescoço e dos ombros.",
+      "Durma o suficiente, tome ar fresco e experimente um pano frio na testa.",
+      "Pergunte ao farmacêutico ou à sua obstetra qual analgésico é seguro na gravidez."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para seu médico ou sua obstetra se tiver uma dor de cabeça forte que não passa, especialmente depois de 20 semanas.",
+      "Ligue imediatamente se a dor de cabeça vier com visão embaçada, luzes piscando, dor embaixo das costelas ou inchaço repentino.",
+      "Ligue para o serviço de emergência se a dor de cabeça for repentina e extremamente forte, ou vier com convulsão, confusão ou fraqueza."
+    ]
+  },
+  "severe-headache-vision": {
+    "name": "Dor de cabeça forte ou alterações na visão (sinais de pré-eclâmpsia)",
+    "aliases": [
+      "pré-eclâmpsia",
+      "pre eclampsia",
+      "visão embaçada",
+      "pressão alta",
+      "luzes piscando na visão",
+      "dor embaixo das costelas"
+    ],
+    "about": "Uma dor de cabeça forte que não passa, visão embaçada ou luzes piscando, dor logo abaixo das costelas ou inchaço repentino no rosto, nas mãos ou nos pés podem ser sinais de pré-eclâmpsia. Essa condição de pressão alta geralmente aparece depois de 20 semanas e também pode começar nas semanas após o parto. Ela é muito tratável quando descoberta cedo, por isso esses sintomas sempre precisam ser avaliados imediatamente.",
+    "relief": [
+      "Pare o que está fazendo e peça ajuda; não espere para ver se passa.",
+      "Descanse deitada de lado enquanto espera o atendimento.",
+      "Leve sua caderneta da gestante e as medições de pressão que você tiver.",
+      "Não dirija; peça para alguém levar você."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade ou para seu médico se tiver qualquer um desses sintomas, de dia ou de noite.",
+      "Ligue imediatamente se tiver azia que não melhora com os remédios habituais, vômitos ou se sentir muito mal.",
+      "Ligue para o serviço de emergência se tiver uma convulsão, dor forte no peito ou na barriga, ou dificuldade para respirar."
+    ]
+  },
+  "dizziness-fainting": {
+    "name": "Tontura e sensação de desmaio",
+    "aliases": [
+      "tontura",
+      "tonteira",
+      "sensação de desmaio",
+      "desmaio",
+      "vertigem",
+      "vista escurecendo"
+    ],
+    "about": "Sentir a cabeça leve é comum na gravidez. Os hormônios relaxam os vasos sanguíneos enquanto a circulação trabalha mais, então levantar rápido, ficar muito tempo em pé, sentir calor ou passar muito tempo sem comer pode deixar você zonza. Mais para o fim da gravidez, deitar de barriga para cima também pode causar isso.",
+    "relief": [
+      "Levante-se devagar quando estiver sentada ou deitada.",
+      "Se sentir que vai desmaiar, sente-se ou deite-se de lado imediatamente.",
+      "Coma com regularidade, leve um lanche com você e beba bastante água, principalmente quando estiver calor.",
+      "A partir do terceiro trimestre, evite deitar de barriga para cima; vire-se de lado."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra no mesmo dia se você chegar a desmaiar ou se a tontura continuar voltando.",
+      "Ligue para o serviço de emergência se a tontura ou o desmaio vier com sangramento, dor forte na barriga ou na ponta do ombro, ou dor no peito.",
+      "Ligue para o serviço de emergência se estiver com dificuldade para respirar, com o coração acelerado ou se sentir confusa."
+    ]
+  },
+  "heartburn": {
+    "name": "Azia e má digestão",
+    "aliases": [
+      "azia",
+      "queimação",
+      "refluxo",
+      "má digestão",
+      "ma digestao",
+      "arroto"
+    ],
+    "about": "Azia é uma sensação de queimação no peito, muitas vezes logo depois de comer. Os hormônios da gravidez relaxam a válvula na parte de cima do estômago e, mais tarde, o bebê em crescimento pressiona o estômago, então o ácido volta com mais facilidade. É muito comum a partir de cerca de 12 semanas e geralmente passa depois do parto.",
+    "relief": [
+      "Faça refeições pequenas e frequentes em vez de três grandes, e sente-se com a coluna reta enquanto come.",
+      "Tente não comer nas 3 horas antes de dormir.",
+      "Diminua alimentos pesados, apimentados ou gordurosos e a cafeína, se eles provocarem azia.",
+      "Eleve a cabeça e os ombros na cama e experimente dormir do lado esquerdo.",
+      "Pergunte ao farmacêutico sobre remédios para azia seguros na gravidez."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para seu médico ou sua obstetra se a azia não melhorar com os remédios habituais, especialmente depois de 20 semanas.",
+      "Ligue imediatamente se também tiver dor logo abaixo das costelas, dor de cabeça forte, problemas de visão ou vômitos.",
+      "Consulte seu médico se tiver dificuldade para engolir, estiver perdendo peso ou se seu vômito ou cocô estiver preto ou com sangue."
+    ]
+  },
+  "constipation": {
+    "name": "Prisão de ventre",
+    "aliases": [
+      "prisão de ventre",
+      "prisao de ventre",
+      "intestino preso",
+      "constipação",
+      "não consigo fazer cocô",
+      "fezes duras"
+    ],
+    "about": "A prisão de ventre é muito comum e pode começar cedo na gravidez. Os hormônios relaxam os músculos do intestino, então os alimentos passam mais devagar, e mais tarde o útero pressiona o intestino. Suplementos de ferro também podem piorar o quadro.",
+    "relief": [
+      "Coma bastante fibra: pães e cereais integrais, frutas, verduras e legumes, feijão e lentilha.",
+      "Beba bastante água ao longo do dia.",
+      "Continue se movimentando; uma caminhada ou natação diária ajuda o intestino a funcionar.",
+      "Não ignore a vontade de ir ao banheiro e experimente apoiar os pés em um banquinho quando estiver no vaso.",
+      "Se você toma suplemento de ferro, pergunte ao seu médico ou ao farmacêutico sobre opções mais suaves."
+    ],
+    "callDoctor": [
+      "Converse com seu médico, sua obstetra ou o farmacêutico se as mudanças na alimentação não tiverem ajudado depois de mais ou menos uma semana; não tome laxantes sem perguntar.",
+      "Ligue para seu médico se tiver sangramento pelo ânus, dor forte na barriga ou vômitos."
+    ]
+  },
+  "piles": {
+    "name": "Hemorroidas",
+    "aliases": [
+      "hemorroidas",
+      "hemorroida",
+      "hemorróida",
+      "coceira no ânus",
+      "sangue ao evacuar",
+      "caroço no ânus"
+    ],
+    "about": "Hemorroidas são vasos sanguíneos inchados dentro ou ao redor do ânus. Os hormônios da gravidez, a pressão extra do útero e a prisão de ventre deixam o problema mais provável, principalmente no terceiro trimestre. Elas podem coçar, doer ou sangrar um pouco depois de fazer cocô, mas são inofensivas e geralmente diminuem depois do parto.",
+    "relief": [
+      "Mantenha o cocô macio com bastante fibra e água e evite fazer força.",
+      "Segure com delicadeza sobre a região um pano torcido em água gelada para aliviar a dor.",
+      "Use papel higiênico umedecido e dê batidinhas em vez de esfregar.",
+      "Evite passar longos períodos em pé ou sentada.",
+      "Pergunte ao farmacêutico ou à sua obstetra sobre pomadas seguras na gravidez antes de usar qualquer uma."
+    ],
+    "callDoctor": [
+      "Consulte seu médico ou sua obstetra se as hemorroidas doerem muito ou se um caroço do lado de fora do ânus estiver duro e não voltar para dentro.",
+      "Ligue para seu médico se estiver sangrando muito pelo ânus ou se o sangue for escuro ou estiver misturado ao cocô."
+    ]
+  },
+  "bloating-gas": {
+    "name": "Inchaço abdominal e gases",
+    "aliases": [
+      "gases",
+      "barriga estufada",
+      "estufamento",
+      "inchaço na barriga",
+      "flatulência",
+      "pum"
+    ],
+    "about": "Sentir a barriga estufada e com gases é muito comum, principalmente no início. Os hormônios da gravidez deixam a digestão mais lenta, então alimentos e gases ficam mais tempo no intestino, e a prisão de ventre pode piorar isso. Gases presos podem até causar dores agudas, parecidas com cólica, que melhoram quando eles saem.",
+    "relief": [
+      "Faça refeições menores, coma devagar e mastigue bem.",
+      "Observe o que provoca os gases: bebidas com gás, feijão, cebola e repolho são culpados comuns.",
+      "Continue se movimentando; uma caminhada leve depois das refeições ajuda os gases a circularem.",
+      "Evite a prisão de ventre com fibras e bastante água."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra se a dor na barriga for forte, não melhorar depois de 30 a 60 minutos de descanso ou vier com sangramento.",
+      "Ligue imediatamente se você estiver com menos de 37 semanas e a dor vier em ondas regulares ou com endurecimentos da barriga.",
+      "Consulte seu médico se também tiver febre, ou diarreia ou vômitos que não passam."
+    ]
+  },
+  "cravings-aversions": {
+    "name": "Desejos e aversões alimentares",
+    "aliases": [
+      "desejo de grávida",
+      "desejos",
+      "aversão a comida",
+      "enjoo de cheiro de comida",
+      "picamalácia",
+      "vontade de comer gelo"
+    ],
+    "about": "De repente querer muito certos alimentos, ou não suportar outros, é muito comum e parece estar ligado aos hormônios da gravidez e a um olfato mais apurado. Cerca de 7 em cada 10 pessoas passam a rejeitar pelo menos um alimento. Tudo bem seguir seus desejos com moderação, desde que sua alimentação como um todo continue equilibrada.",
+    "relief": [
+      "De vez em quando, troque a vontade de doce por frutas ou iogurte e tenha lanches saudáveis à mão.",
+      "Se você não consegue comer um alimento, escolha outro com nutrientes parecidos, como feijão ou ovos no lugar da carne.",
+      "Mantenha seus desejos seguros para a gravidez: prefira queijos pasteurizados e carnes e ovos bem cozidos.",
+      "Alimentos frios ou de sabor suave podem ser mais fáceis quando os cheiros incomodam."
+    ],
+    "callDoctor": [
+      "Conte ao seu médico ou à sua obstetra se sentir vontade de comer coisas que não são alimento, como gelo, terra, argila, giz ou sabão; isso pode estar ligado a ferro baixo.",
+      "Converse com seu médico ou sua obstetra se as aversões fizerem você quase não comer ou perder peso."
+    ]
+  },
+  "metallic-taste": {
+    "name": "Gosto metálico na boca",
+    "aliases": [
+      "gosto metálico",
+      "gosto de metal na boca",
+      "gosto de ferro",
+      "gosto estranho na boca",
+      "gosto amargo",
+      "disgeusia"
+    ],
+    "about": "Um gosto azedo ou metálico, como se você estivesse chupando moedas, é uma mudança comum no início da gravidez. Acredita-se que seja causado pelos hormônios, que afetam o paladar. Não faz mal e geralmente desaparece quando você entra no segundo trimestre.",
+    "relief": [
+      "Experimente sabores ácidos e marcantes, como frutas cítricas, picles ou alimentos temperados com vinagre.",
+      "Escove os dentes e a língua com regularidade e faça bochechos com uma solução fraca de água e sal.",
+      "Use talheres de plástico ou de madeira se os de metal piorarem o gosto.",
+      "Masque chiclete sem açúcar ou chupe balas de menta sem açúcar."
+    ],
+    "callDoctor": [
+      "Comente com seu médico se o gosto continuar depois do primeiro trimestre ou vier com boca seca ou ardendo.",
+      "Avise seu médico ou o farmacêutico se isso começou depois de um novo remédio ou suplemento."
+    ]
+  },
+  "excess-saliva": {
+    "name": "Excesso de saliva",
+    "aliases": [
+      "excesso de saliva",
+      "salivação excessiva",
+      "muita saliva",
+      "babando",
+      "ptialismo",
+      "sialorreia"
+    ],
+    "about": "Algumas pessoas produzem muito mais saliva na gravidez, muitas vezes junto com a náusea. Acredita-se que isso aconteça porque os hormônios estimulam demais as glândulas salivares, e o enjoo pode piorar a situação porque engolir se torna desagradável. É inofensivo, embora incômodo, e geralmente melhora com o tempo.",
+    "relief": [
+      "Masque chiclete sem açúcar ou chupe balas sem açúcar para ficar mais fácil engolir.",
+      "Escove os dentes e use um enxaguante bucal sem álcool algumas vezes por dia.",
+      "Faça refeições pequenas e frequentes para manter a náusea sob controle.",
+      "Continue tomando goles de água para não se desidratar e leve lenços de papel caso precise cuspir."
+    ],
+    "callDoctor": [
+      "Avise seu médico ou sua obstetra se vier com vômitos intensos ou se você não conseguir manter líquidos no estômago.",
+      "Consulte seu médico se sua boca ou suas glândulas estiverem inchadas ou doloridas, ou se isso estiver atrapalhando seu sono ou sua alimentação."
+    ]
+  },
+  "nosebleeds": {
+    "name": "Sangramento nasal",
+    "aliases": [
+      "sangramento no nariz",
+      "nariz sangrando",
+      "sangue no nariz",
+      "sangramento nasal",
+      "epistaxe"
+    ],
+    "about": "Sangramentos nasais são mais comuns na gravidez, porque o volume extra de sangue e os hormônios fazem os pequenos vasos dentro do nariz incharem e se romperem com mais facilidade. Geralmente são rápidos e inofensivos.",
+    "relief": [
+      "Sente-se, incline-se para a frente e aperte a parte macia do nariz por 10 a 15 minutos, respirando pela boca.",
+      "Não incline a cabeça para trás e evite assoar ou cutucar o nariz por um dia depois.",
+      "Use um umidificador ou um spray de soro fisiológico para manter o interior do nariz úmido."
+    ],
+    "callDoctor": [
+      "Procure atendimento médico urgente se o sangramento não parar depois de 10 a 15 minutos de pressão ou se for muito intenso.",
+      "Procure ajuda urgente se sentir fraqueza ou tontura, ou se estiver com dificuldade para respirar.",
+      "Consulte seu médico se tiver sangramentos nasais com frequência ou se surgirem hematomas com facilidade."
+    ]
+  },
+  "bleeding-gums": {
+    "name": "Gengivas inchadas ou sangrando",
+    "aliases": [
+      "gengiva sangrando",
+      "gengiva inchada",
+      "gengivite",
+      "gengivite na gravidez",
+      "gengiva dolorida",
+      "sangue ao escovar"
+    ],
+    "about": "Os hormônios da gravidez aumentam o fluxo de sangue para as gengivas e fazem com que reajam com mais força à placa bacteriana, por isso elas podem ficar inchadas e sangrar quando você escova os dentes. Essa gengivite da gravidez afeta mais da metade das gestações e geralmente melhora depois do parto.",
+    "relief": [
+      "Escove com delicadeza duas vezes por dia, com uma escova macia e pasta de dente com flúor.",
+      "Use fio dental ou escovas interdentais uma vez por dia.",
+      "Vá ao dentista para uma consulta e uma limpeza durante a gravidez, e avise que você está grávida.",
+      "Diminua lanches e bebidas açucarados."
+    ],
+    "callDoctor": [
+      "Procure seu dentista se as gengivas estiverem muito inchadas ou doloridas, sangrarem muito ou se algum dente parecer mole.",
+      "Procure seu dentista ou médico se crescer um caroço na gengiva ou se você tiver mau hálito ou pus que não desaparecem."
+    ]
+  },
+  "stuffy-nose": {
+    "name": "Nariz entupido (rinite da gravidez)",
+    "aliases": [
+      "nariz entupido",
+      "nariz trancado",
+      "congestão nasal",
+      "rinite gestacional",
+      "coriza",
+      "ronco"
+    ],
+    "about": "Nariz entupido ou escorrendo que dura semanas sem resfriado ou alergia é chamado de rinite da gravidez. Os hormônios e o aumento do fluxo de sangue fazem o revestimento do nariz inchar e produzir mais muco. É inofensiva, costuma piorar à noite e geralmente desaparece até duas semanas depois do parto.",
+    "relief": [
+      "Use spray ou lavagem nasal com soro fisiológico.",
+      "Eleve a cabeceira da cama ou use um travesseiro extra à noite.",
+      "Beba bastante água e experimente um umidificador ou um banho com bastante vapor.",
+      "Exercícios leves podem ajudar a aliviar a congestão.",
+      "Pergunte ao farmacêutico sobre opções seguras na gravidez antes de usar qualquer spray nasal com medicamento ou remédio para resfriado."
+    ],
+    "callDoctor": [
+      "Consulte seu médico se tiver febre, dor no rosto ou muco grosso amarelo ou verde; pode ser uma infecção.",
+      "Converse com seu médico se o ronco alto ou o nariz entupido estiverem atrapalhando muito seu sono."
+    ]
+  },
+  "breathlessness": {
+    "name": "Falta de ar",
+    "aliases": [
+      "falta de ar",
+      "sem fôlego",
+      "fôlego curto",
+      "ofegante",
+      "não consigo respirar fundo",
+      "cansada ao respirar"
+    ],
+    "about": "Uma falta de ar leve é comum. No início, os hormônios fazem você respirar mais fundo, então você percebe mais a respiração; mais tarde, o útero em crescimento empurra o diafragma para cima e deixa menos espaço para os pulmões. Ela costuma ser mais perceptível quando você faz esforço e muitas vezes melhora um pouco quando o bebê desce, antes do parto.",
+    "relief": [
+      "Vá mais devagar, faça pausas e suba escadas no seu ritmo.",
+      "Sente-se e fique em pé com a postura reta para dar mais espaço aos pulmões.",
+      "Use travesseiros para apoiar o tronco mais alto à noite.",
+      "Exercícios leves e regulares, como caminhada ou natação, podem ajudar."
+    ],
+    "callDoctor": [
+      "Ligue para o serviço de emergência se a falta de ar começar de repente ou vier com dor no peito ou tosse com sangue.",
+      "Ligue para seu médico no mesmo dia se tiver falta de ar em repouso ou deitada, ou se ela acordar você à noite.",
+      "Ligue no mesmo dia se também tiver coração acelerado ou tontura, ou se sentir muito cansaço e estiver pálida."
+    ]
+  },
+  "sudden-breathlessness": {
+    "name": "Falta de ar repentina ou dor no peito",
+    "aliases": [
+      "falta de ar súbita",
+      "dor no peito",
+      "não consigo respirar",
+      "embolia pulmonar",
+      "coágulo no pulmão",
+      "tosse com sangue"
+    ],
+    "about": "Falta de ar que começa de repente, dor no peito ou tosse com sangue são diferentes do fôlego curto gradual da gravidez. A gravidez faz o sangue coagular com mais facilidade, e um coágulo que vai até os pulmões (embolia pulmonar) é raro, mas grave. Problemas no coração e infecções graves também podem causar esses sintomas, então procure ajuda imediatamente.",
+    "relief": [
+      "Primeiro ligue para o serviço de emergência; depois, sente-se com o tronco ereto e tente manter a calma.",
+      "Não dirija até o hospital.",
+      "Destranque a porta e mantenha o celular e a caderneta da gestante por perto."
+    ],
+    "callDoctor": [
+      "Ligue para o serviço de emergência se de repente não conseguir recuperar o fôlego ou se tiver dor ou aperto no peito.",
+      "Ligue para o serviço de emergência se tossir sangue ou sentir que vai desmaiar, com o coração acelerado ou batendo forte.",
+      "Ligue para o serviço de emergência se estiver com falta de ar e também tiver uma perna dolorida e inchada."
+    ]
+  },
+  "palpitations": {
+    "name": "Palpitações",
+    "aliases": [
+      "palpitação",
+      "coração acelerado",
+      "coração disparado",
+      "taquicardia",
+      "coração falhando",
+      "coração batendo forte"
+    ],
+    "about": "O volume de sangue aumenta muito na gravidez e o coração trabalha mais para bombeá-lo, por isso um batimento mais rápido em repouso e uma ou outra sensação de coração tremulando ou batendo forte são comuns. As palpitações geralmente são inofensivas, especialmente se forem rápidas e você estiver se sentindo bem no resto.",
+    "relief": [
+      "Sente-se ou deite-se de lado e respire devagar até passar.",
+      "Beba bastante água e diminua a cafeína.",
+      "Levante-se devagar e evite sentir calor demais."
+    ],
+    "callDoctor": [
+      "Ligue para o serviço de emergência se as palpitações vierem com dor no peito, dificuldade para respirar, desmaio ou confusão.",
+      "Ligue para seu médico no mesmo dia se as palpitações durarem vários minutos, continuarem voltando ou deixarem você tonta.",
+      "Avise seu médico ou sua obstetra se você tiver alguma doença do coração ou já tiver tido palpitações antes."
+    ]
+  },
+  "swelling": {
+    "name": "Pés, tornozelos e dedos inchados",
+    "aliases": [
+      "inchaço",
+      "pés inchados",
+      "tornozelo inchado",
+      "edema",
+      "mãos inchadas",
+      "anel apertado"
+    ],
+    "about": "Um inchaço leve é muito comum, principalmente no fim do dia, no calor e no fim da gravidez. Seu corpo retém mais água do que o normal, e o útero em crescimento deixa mais lento o retorno do sangue das pernas. O inchaço que aparece aos poucos não faz mal, mas o inchaço repentino no rosto, nas mãos ou nos pés precisa ser avaliado imediatamente.",
+    "relief": [
+      "Descanse com os pés para cima quando puder e evite ficar muito tempo em pé.",
+      "Caminhe com regularidade e faça exercícios com os pés: dobre cada pé para cima e para baixo 30 vezes e depois gire-o 8 vezes para cada lado.",
+      "Use sapatos e meias confortáveis, sem tiras apertadas, e tire os anéis que estiverem ficando apertados."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade ou para seu médico se o inchaço no rosto, nas mãos ou nos pés aparecer de repente.",
+      "Ligue imediatamente se o inchaço vier com dor de cabeça forte, problemas de visão, dor embaixo das costelas ou vômitos.",
+      "Ligue para seu médico no mesmo dia se uma perna estiver inchada, dolorida, quente ou vermelha; pode ser um coágulo de sangue."
+    ]
+  },
+  "leg-cramps": {
+    "name": "Cãibras nas pernas",
+    "aliases": [
+      "cãibra",
+      "caimbra",
+      "cãibra na panturrilha",
+      "cãibra na batata da perna",
+      "cãibra à noite",
+      "cãibra no pé"
+    ],
+    "about": "Uma contração repentina e dolorosa na panturrilha ou no pé, muitas vezes à noite, afeta muitas gestantes, talvez até 4 em cada 10. A causa exata não é clara, mas o peso extra que você está carregando e as mudanças na circulação podem contribuir. As cãibras são inofensivas e geralmente passam em poucos minutos.",
+    "relief": [
+      "Durante a cãibra, puxe os dedos dos pés na direção da canela e massageie o músculo com firmeza.",
+      "Faça exercícios com os pés e os tornozelos todos os dias e alongue as panturrilhas antes de dormir.",
+      "Continue se movimentando com caminhadas regulares e beba bastante água.",
+      "Um banho morno ou um calor suave pode ajudar o músculo a relaxar depois."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico no mesmo dia se a dor em uma panturrilha não passar ou se a perna estiver inchada, quente ou vermelha.",
+      "Avise seu médico ou sua obstetra se as cãibras forem frequentes e estiverem atrapalhando seu sono."
+    ]
+  },
+  "restless-legs": {
+    "name": "Pernas inquietas",
+    "aliases": [
+      "pernas inquietas",
+      "síndrome das pernas inquietas",
+      "SPI",
+      "agonia nas pernas",
+      "formigamento nas pernas",
+      "vontade de mexer as pernas"
+    ],
+    "about": "A síndrome das pernas inquietas é uma sensação desconfortável de formigamento ou de algo rastejando, com uma vontade irresistível de mexer as pernas, geralmente no fim do dia ou à noite. É comum na gravidez, principalmente no terceiro trimestre, e pode estar ligada a ferro baixo. Os sintomas costumam desaparecer depois do parto.",
+    "relief": [
+      "Mantenha uma rotina regular de sono e diminua a cafeína, principalmente mais tarde no dia.",
+      "Alongue ou massageie as pernas, ou experimente um banho morno antes de dormir.",
+      "Levante-se e caminhe por alguns minutos quando a vontade aparecer.",
+      "Exercícios leves durante o dia, como caminhada ou natação, podem ajudar."
+    ],
+    "callDoctor": [
+      "Peça ao seu médico ou à sua obstetra para verificar seus níveis de ferro se as pernas inquietas estiverem incomodando você.",
+      "Converse com seu médico se isso estiver atrapalhando muito seu sono, e não tome remédios para dormir sem consultar antes."
+    ]
+  },
+  "varicose-veins": {
+    "name": "Varizes",
+    "aliases": [
+      "varizes",
+      "variz",
+      "vasinhos",
+      "veias inchadas",
+      "varizes vulvares",
+      "pernas doloridas"
+    ],
+    "about": "Varizes são veias inchadas e saltadas, geralmente nas pernas, mas que também podem aparecer ao redor da vulva. O volume extra de sangue, os hormônios que relaxam as paredes das veias e a pressão do útero contribuem para isso. Elas podem doer ou coçar, mas não fazem mal e geralmente melhoram depois do parto.",
+    "relief": [
+      "Evite ficar muito tempo em pé e tente não sentar de pernas cruzadas.",
+      "Coloque os pés para cima quando estiver sentada e eleve as pernas com travesseiros na cama.",
+      "Experimente meias de compressão para gestantes; elas podem aliviar a dor e o inchaço.",
+      "Caminhe, nade e faça exercícios com os pés para manter o sangue circulando."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico no mesmo dia se uma veia ficar dura, quente, vermelha ou dolorida, ou se uma perna inchar; pode ser um coágulo.",
+      "Ligue para o serviço de emergência se uma perna estiver dolorida e inchada e você também tiver falta de ar ou dor no peito.",
+      "Consulte seu médico se uma variz sangrar ou se a pele sobre ela mudar de aspecto ou abrir uma ferida."
+    ]
+  },
+  "skin-changes": {
+    "name": "Escurecimento da pele (melasma e linha nigra)",
+    "aliases": [
+      "melasma",
+      "cloasma",
+      "manchas no rosto",
+      "linha nigra",
+      "linha escura na barriga",
+      "mamilos escuros"
+    ],
+    "about": "Os hormônios da gravidez aumentam a melanina, o pigmento da pele. Você pode notar uma linha escura descendo pela barriga (linha nigra), mamilos, sardas e pintas mais escuros, ou manchas acastanhadas no rosto chamadas melasma, a \"máscara da gravidez\". Essas mudanças são inofensivas e geralmente clareiam aos poucos depois do parto.",
+    "relief": [
+      "Use protetor solar de fator alto todos os dias e um chapéu de aba larga, pois o sol escurece as manchas.",
+      "Prefira produtos para a pele suaves e sem perfume.",
+      "Pergunte ao farmacêutico ou ao seu médico antes de usar qualquer creme clareador ou para manchas na gravidez."
+    ],
+    "callDoctor": [
+      "Consulte seu médico se uma pinta mudar de forma, tamanho ou cor, ou começar a sangrar ou coçar.",
+      "Consulte seu médico se surgir uma nova erupção na pele ou manchas que estejam se espalhando rapidamente."
+    ]
+  },
+  "stretch-marks": {
+    "name": "Estrias",
+    "aliases": [
+      "estrias",
+      "estria",
+      "estrias na barriga",
+      "estrias gravídicas",
+      "estrias vermelhas",
+      "pele esticando"
+    ],
+    "about": "Estrias são listras finas que podem ser rosadas, vermelhas, roxas ou marrons, dependendo do seu tom de pele. Elas afetam cerca de 8 em cada 10 gestantes, geralmente na barriga, nas coxas ou nos seios, e aparecer ou não depende muito do seu tipo de pele. São inofensivas e geralmente clareiam depois do parto, virando linhas mais pálidas.",
+    "relief": [
+      "Hidrate a pele com regularidade para aliviar a coceira; nenhum creme tem eficácia comprovada para prevenir estrias, mas hidratar pode trazer alívio.",
+      "Procure ganhar peso de forma gradual e saudável, o que pode ajudar a reduzir novas estrias.",
+      "Continue se movimentando e beba bastante água para manter a pele confortável."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra no mesmo dia se a coceira for intensa, principalmente nas palmas das mãos ou nas solas dos pés."
+    ]
+  },
+  "itchy-skin": {
+    "name": "Coceira na pele",
+    "aliases": [
+      "coceira",
+      "coceira na barriga",
+      "pele coçando",
+      "brotoeja",
+      "manchas vermelhas na barriga",
+      "PUPPP"
+    ],
+    "about": "Uma coceira leve é comum e afeta cerca de 1 em cada 4 gestantes, à medida que os hormônios mudam e a pele da barriga se estica. Algumas pessoas também têm, no fim da gravidez, uma erupção com coceira que é desconfortável, mas inofensiva para o bebê. A coceira geralmente para depois do parto, mas coceira intensa nas mãos ou nos pés precisa ser avaliada.",
+    "relief": [
+      "Dê batidinhas ou toques leves na pele que coça em vez de coçar, e mantenha as unhas curtas.",
+      "Tome banhos frios ou mornos (não quentes), de no máximo 20 minutos.",
+      "Use com frequência um hidratante sem perfume e evite sabonetes perfumados.",
+      "Use roupas largas de algodão e diminua comidas apimentadas e cafeína, se elas piorarem a coceira.",
+      "Pergunte ao farmacêutico sobre cremes seguros na gravidez."
+    ],
+    "callDoctor": [
+      "Ligue para a maternidade ou para seu médico no mesmo dia se as palmas das mãos ou as solas dos pés coçarem, ou se a coceira piorar à noite.",
+      "Ligue no mesmo dia se a coceira não deixar você dormir ou vier com urina escura ou cocô claro.",
+      "Consulte seu médico se surgir uma nova erupção, bolhas ou uma coceira que esteja afetando seu dia a dia."
+    ]
+  },
+  "itching-hands-feet": {
+    "name": "Coceira intensa nas mãos e nos pés (possível colestase)",
+    "aliases": [
+      "colestase gestacional",
+      "colestase intra-hepática da gravidez",
+      "colestase",
+      "coceira nas mãos",
+      "coceira na sola do pé",
+      "coceira à noite"
+    ],
+    "about": "Coceira nas palmas das mãos ou nas solas dos pés, muitas vezes pior à noite e sem erupção na pele, pode ser sinal de colestase intra-hepática da gravidez. Na colestase, o fígado não processa a bile como deveria, e os ácidos biliares se acumulam no sangue. Ela afeta menos de 1 em cada 100 gestações e é muito controlável, mas precisa de exame de sangue e acompanhamento de perto, porque pode afetar o bebê.",
+    "relief": [
+      "Mantenha a pele fresca com banhos mornos, panos frios e roupas largas de algodão.",
+      "Use um hidratante sem perfume e dê batidinhas em vez de coçar.",
+      "Mantenha as unhas curtas para proteger a pele à noite.",
+      "Acompanhe os movimentos do bebê e informe imediatamente qualquer mudança."
+    ],
+    "callDoctor": [
+      "Ligue hoje para a maternidade ou para seu médico se as palmas das mãos ou as solas dos pés coçarem, mesmo sem erupção na pele, e peça um exame de sangue.",
+      "Ligue imediatamente se a coceira for tão forte que não deixe você dormir à noite.",
+      "Ligue imediatamente se notar a pele ou os olhos amarelados, urina escura ou cocô claro.",
+      "Ligue imediatamente para a maternidade se o bebê estiver se mexendo menos do que o normal."
+    ]
+  },
+  "acne": {
+    "name": "Espinhas e acne",
+    "aliases": [
+      "acne",
+      "espinhas",
+      "espinha",
+      "cravos",
+      "pele oleosa",
+      "acne na gravidez"
+    ],
+    "about": "As mudanças hormonais da gravidez podem deixar sua pele mais oleosa e provocar espinhas, mesmo que você não tenha tido espinhas há anos. Isso é mais comum no primeiro e no segundo trimestres e geralmente melhora depois do parto.",
+    "relief": [
+      "Lave o rosto duas vezes por dia com um sabonete suave, sem perfume, e água morna.",
+      "Prefira hidratante e maquiagem sem óleo (oil-free) e não comedogênicos.",
+      "Tente não cutucar nem espremer as espinhas, pois isso pode deixar cicatrizes.",
+      "Consulte o farmacêutico ou seu médico antes de usar qualquer produto para acne, pois alguns não são seguros na gravidez."
+    ],
+    "callDoctor": [
+      "Consulte seu médico se a acne for intensa, dolorosa ou estiver deixando cicatrizes, para encontrar um tratamento seguro na gravidez.",
+      "Se você estava usando um tratamento para acne com receita quando engravidou, pare e consulte seu médico imediatamente."
+    ]
+  },
+  "vaginal-discharge": {
+    "name": "Mudanças no corrimento vaginal",
+    "aliases": [
+      "corrimento",
+      "corrimento vaginal",
+      "corrimento branco",
+      "muco",
+      "tampão mucoso",
+      "perda do tampão"
+    ],
+    "about": "Ter mais corrimento do que o normal é comum na gravidez e ajuda a impedir que infecções subam até o útero. O corrimento saudável é fino, transparente ou branco leitoso e não tem cheiro desagradável. Perto do fim, você pode notar um muco grosso, parecido com gelatina, às vezes com rajadas rosadas: é a perda do tampão mucoso, um sinal de que seu corpo está se preparando para o trabalho de parto.",
+    "relief": [
+      "Use calcinha de algodão e roupas largas e troque o protetor diário com frequência.",
+      "Lave a parte externa da vulva só com água; evite sabonetes perfumados, lenços umedecidos e duchas vaginais.",
+      "Limpe-se da frente para trás depois de usar o banheiro.",
+      "Use protetor diário em vez de absorvente interno durante a gravidez."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra se o corrimento tiver cheiro desagradável, for verde ou amarelo, ou se você sentir coceira ou ardência.",
+      "Ligue para seu médico ou sua obstetra se doer para fazer xixi.",
+      "Ligue imediatamente se tiver qualquer sangramento, ou uma saída repentina ou um escorrimento contínuo de líquido aguado."
+    ]
+  },
+  "thrush": {
+    "name": "Candidíase (infecção por fungo)",
+    "aliases": [
+      "candidíase",
+      "candidiase",
+      "candida",
+      "coceira vaginal",
+      "corrimento branco grosso",
+      "corrimento tipo leite coalhado"
+    ],
+    "about": "A candidíase é uma infecção por fungo comum que fica mais provável na gravidez, principalmente no terceiro trimestre, porque os hormônios mudam o equilíbrio natural da vagina. Ela pode causar corrimento branco e grosso, coceira, dor e ardência. É fácil de tratar, e não há evidência de que faça mal ao bebê.",
+    "relief": [
+      "Use calcinha de algodão folgada e evite calças ou meias-calças apertadas.",
+      "Lave a região com água pura ou com um creme emoliente sem perfume em vez de sabonete, e evite banhos de espuma.",
+      "Depois de lavar, seque a região com delicadeza, dando batidinhas.",
+      "Consulte seu médico, sua obstetra ou o farmacêutico antes de usar qualquer tratamento para candidíase, pois nem todos são adequados na gravidez."
+    ],
+    "callDoctor": [
+      "Consulte seu médico ou sua obstetra antes de tratar por conta própria, principalmente se for a primeira vez que você tem esses sintomas.",
+      "Consulte seu médico se o tratamento não tiver funcionado em uma semana ou se a candidíase continuar voltando.",
+      "Ligue para seu médico ou sua obstetra se o corrimento tiver mau cheiro, for verde ou amarelo, ou se doer para fazer xixi."
+    ]
+  },
+  "uti-symptoms": {
+    "name": "Ardência ao fazer xixi (infecção urinária)",
+    "aliases": [
+      "infecção urinária",
+      "infeccao urinaria",
+      "ardência ao urinar",
+      "cistite",
+      "infecção no rim",
+      "sangue na urina"
+    ],
+    "about": "As infecções urinárias são mais comuns na gravidez porque os hormônios relaxam o trato urinário e o útero em crescimento pressiona a bexiga. Os sinais incluem ardência ou queimação ao fazer xixi, vontade urgente de ir ao banheiro e urina turva, com cheiro forte ou com sangue. Uma infecção urinária na gravidez sempre deve ser tratada logo, porque pode se espalhar para os rins.",
+    "relief": [
+      "Beba bastante água para ajudar a limpar o organismo e diluir a urina.",
+      "Faça xixi quando sentir vontade e esvazie a bexiga por completo, inclusive depois das relações sexuais.",
+      "Limpe-se da frente para trás e use calcinha de algodão.",
+      "Não tome nenhum remédio sem confirmar que é seguro na gravidez."
+    ],
+    "callDoctor": [
+      "Entre em contato com seu médico ou sua obstetra em até 24 horas se sentir ardor ou queimação ao fazer xixi ou se vir sangue na urina.",
+      "Ligue imediatamente para seu médico se tiver febre, calafrios ou dor nas costas ou na lateral do corpo; pode ser uma infecção nos rins.",
+      "Ligue imediatamente para a maternidade se também tiver cólicas ou endurecimentos regulares da barriga."
+    ]
+  },
+  "leaking-urine": {
+    "name": "Escape de urina",
+    "aliases": [
+      "escape de xixi",
+      "perda de urina",
+      "incontinência urinária",
+      "incontinencia",
+      "xixi ao espirrar",
+      "fazendo xixi na calça"
+    ],
+    "about": "Deixar escapar um pouco de xixi ao tossir, espirrar, rir ou se mexer de repente é comum na gravidez. Os hormônios relaxam os músculos do assoalho pélvico, e o bebê em crescimento pressiona a bexiga. Isso costuma melhorar depois do parto, e os exercícios do assoalho pélvico ajudam muito.",
+    "relief": [
+      "Faça exercícios do assoalho pélvico todos os dias: contraia como se estivesse segurando gases e xixi, segure por alguns segundos e depois relaxe.",
+      "Esvazie a bexiga com regularidade e incline-se para a frente para esvaziá-la por completo.",
+      "Continue bebendo bastante líquido; beber menos deixa a urina mais concentrada, o que pode irritar a bexiga.",
+      "Diminua a cafeína e as bebidas com gás, que podem irritar a bexiga."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade se não tiver certeza se é xixi ou líquido da bolsa, principalmente se continuar escorrendo.",
+      "Ligue para seu médico se sentir ardor ou queimação ao fazer xixi, ou se a urina estiver turva ou com sangue.",
+      "Pergunte ao seu médico ou à sua obstetra sobre fisioterapia pélvica se os escapes estiverem incomodando você."
+    ]
+  },
+  "insomnia": {
+    "name": "Dificuldade para dormir",
+    "aliases": [
+      "insônia",
+      "insonia",
+      "não consigo dormir",
+      "acordando à noite",
+      "problemas de sono",
+      "posição para dormir"
+    ],
+    "about": "Problemas de sono são muito comuns: afetam cerca de um quarto das pessoas no início da gravidez e a maioria até o fim. Hormônios, vontade de fazer xixi, azia, cãibras, a mente agitada e a barriga crescendo tornam mais difícil encontrar uma posição confortável. Dormir mal é frustrante, mas não faz mal ao bebê.",
+    "relief": [
+      "A partir de 28 semanas, vá dormir de lado; se acordar de barriga para cima, é só se virar.",
+      "Apoie a barriga com travesseiros e coloque um entre os joelhos.",
+      "Evite cafeína à noite e cochilos longos no fim do dia.",
+      "Relaxe antes de dormir com uma rotina tranquila, exercícios de respiração ou um banho morno.",
+      "Atividades leves durante o dia, como uma caminhada na hora do almoço, podem ajudar você a dormir."
+    ],
+    "callDoctor": [
+      "Converse com seu médico ou sua obstetra se a falta de sono estiver dificultando lidar com o dia a dia ou vier com ansiedade ou desânimo.",
+      "Comente se você ronca alto, engasga ou tem pausas na respiração à noite, ou se tem pernas muito inquietas.",
+      "Consulte seu médico antes de tomar qualquer remédio para dormir, incluindo os fitoterápicos."
+    ]
+  },
+  "vivid-dreams": {
+    "name": "Sonhos intensos e pesadelos",
+    "aliases": [
+      "sonhos estranhos",
+      "pesadelos",
+      "pesadelo",
+      "sonhos vívidos",
+      "sonhos na gravidez",
+      "sonhar com o bebê"
+    ],
+    "about": "Muitas pessoas têm sonhos incomumente intensos, estranhos ou preocupantes na gravidez, muitas vezes sobre o bebê ou o parto. Os hormônios, acordar com mais frequência (o que faz você se lembrar dos sonhos) e as grandes mudanças emocionais que você está vivendo contribuem para isso. É normal, e sonhar com algo não significa que vai acontecer.",
+    "relief": [
+      "Fale sobre seus sonhos com seu parceiro ou sua parceira, com uma amiga ou um amigo, ou com sua obstetra.",
+      "Experimente exercícios de relaxamento ou de respiração antes de dormir e mantenha uma rotina tranquila na hora de deitar.",
+      "Escrever suas preocupações antes de dormir pode ajudar a esvaziar a mente."
+    ],
+    "callDoctor": [
+      "Converse com seu médico ou sua obstetra se os pesadelos forem frequentes e angustiantes, ou vierem com preocupação constante ou desânimo."
+    ]
+  },
+  "mood-swings": {
+    "name": "Mudanças de humor",
+    "aliases": [
+      "mudança de humor",
+      "oscilação de humor",
+      "choro fácil",
+      "irritada",
+      "sensível",
+      "sobrecarregada"
+    ],
+    "about": "Sentir vontade de chorar num minuto e ficar irritada ou eufórica no outro é muito comum, principalmente no primeiro trimestre e perto do fim. A oscilação dos hormônios, o cansaço, o desconforto físico e o tamanho dessa mudança de vida contribuem para isso. Altos e baixos são normais, mas se sentir para baixo na maior parte do tempo não é algo que você simplesmente precisa aguentar.",
+    "relief": [
+      "Conte às pessoas próximas como você está se sentindo; você não precisa explicar cada lágrima.",
+      "Descanse, coma com regularidade e saia ao ar livre para pegar luz do dia e se movimentar um pouco.",
+      "Reserve tempo para pequenas coisas de que você gosta e diminua a cobrança com as tarefas de casa.",
+      "Cursos ou grupos de gestantes podem conectar você com pessoas que estão passando pela mesma coisa."
+    ],
+    "callDoctor": [
+      "Converse com seu médico ou sua obstetra se você se sentir para baixo, sem esperança ou ansiosa na maioria dos dias por duas semanas ou mais.",
+      "Procure ajuda no mesmo dia se estiver com dificuldade para lidar com o dia a dia, para comer ou para dormir.",
+      "Se você tiver pensamentos de machucar a si mesma ou ao seu bebê, ligue agora para o serviço de emergência ou para uma linha de apoio em crise."
+    ]
+  },
+  "anxiety": {
+    "name": "Ansiedade e preocupação",
+    "aliases": [
+      "ansiedade",
+      "preocupação",
+      "crise de pânico",
+      "estresse",
+      "nervosismo",
+      "ansiedade na gravidez"
+    ],
+    "about": "Um pouco de preocupação na gravidez é natural, seja com o bebê, o parto, o dinheiro ou com o quanto a vida vai mudar. Quando a ansiedade está presente na maior parte do tempo, é difícil de controlar ou impede você de fazer as coisas do dia a dia, ela é chamada de ansiedade perinatal, e é comum e tratável. Você pode notar coração acelerado, inquietação, sono ruim ou uma sensação constante de que algo ruim vai acontecer.",
+    "relief": [
+      "Compartilhe suas preocupações com seu parceiro ou sua parceira, com uma amiga ou um amigo, ou com sua obstetra; dizê-las em voz alta muitas vezes ajuda.",
+      "Experimente respirar devagar por alguns minutos: inspire contando até 4 e expire contando até 6.",
+      "Continue se movimentando: caminhada, natação ou ioga para gestantes podem aliviar o estresse.",
+      "Limite a rolagem sem fim nas redes e fique com fontes confiáveis de informação sobre gravidez."
+    ],
+    "callDoctor": [
+      "Converse com seu médico ou sua obstetra se você se sentir ansiosa na maior parte do tempo ou se a preocupação estiver afetando seu dia a dia.",
+      "Procure ajuda no mesmo dia se estiver tendo crises de pânico ou não conseguir comer ou dormir por causa da preocupação.",
+      "Ligue agora para o serviço de emergência se tiver pensamentos de se machucar ou sentir que não consegue se manter em segurança."
+    ]
+  },
+  "low-mood": {
+    "name": "Tristeza e depressão",
+    "aliases": [
+      "depressão",
+      "depressao",
+      "depressão na gravidez",
+      "depressão perinatal",
+      "sem esperança",
+      "triste o tempo todo"
+    ],
+    "about": "A depressão durante a gravidez (depressão pré-natal ou perinatal) é comum e afeta cerca de 1 em cada 10 gestantes. Não é culpa sua e não significa que você será uma mãe ruim. Os sinais incluem sentir tristeza, vontade de chorar, desesperança ou um vazio, como se não sentisse nada, grande parte do tempo, perder o interesse pelas coisas e mudanças no sono e no apetite. É tratável, e buscar ajuda cedo protege você e seu bebê.",
+    "relief": [
+      "Conte a alguém de confiança como você realmente se sente; você não precisa carregar isso sozinha.",
+      "Atividades leves, luz do dia e refeições regulares podem melhorar um pouco seu humor a cada dia.",
+      "Pergunte ao seu médico ou à sua obstetra sobre psicoterapia e sobre apoio em saúde mental perinatal na sua região.",
+      "Entre em contato com uma linha de apoio em saúde mental ou com um grupo de apoio mútuo se precisar conversar com alguém hoje."
+    ],
+    "callDoctor": [
+      "Converse com seu médico ou sua obstetra se você estiver se sentindo para baixo ou sem interesse pelas coisas há mais de duas semanas.",
+      "Entre em contato com seu médico com urgência se você vir ou ouvir coisas que os outros não veem nem ouvem, ou tiver crenças fortes que os outros não compartilham.",
+      "Ligue agora para o serviço de emergência se achar que pode machucar a si mesma ou ao seu bebê."
+    ]
+  },
+  "self-harm-thoughts": {
+    "name": "Pensamentos de machucar a si mesma ou ao bebê",
+    "aliases": [
+      "pensamentos suicidas",
+      "vontade de morrer",
+      "pensamentos de se machucar",
+      "machucar o bebê",
+      "pensamentos intrusivos",
+      "crise"
+    ],
+    "about": "Se você está tendo pensamentos de tirar a própria vida, de se machucar ou de fazer mal ao seu bebê, você não está sozinha e não é uma pessoa ruim. Esses pensamentos podem ser sintoma de uma doença tratável, como depressão perinatal, ansiedade ou, mais raramente, psicose. A ajuda funciona, e pedir ajuda agora mesmo é a atitude mais forte e mais segura que você pode tomar.",
+    "relief": [
+      "Conte agora para alguém perto de você, como seu parceiro ou sua parceira, um amigo ou uma amiga, alguém da família ou da vizinhança, e peça que fique com você.",
+      "Afaste-se de qualquer coisa que você possa usar para se machucar.",
+      "Ligue para uma linha de apoio em crise ou de saúde mental se precisar conversar com alguém imediatamente."
+    ],
+    "callDoctor": [
+      "Ligue agora para o serviço de emergência se sentir que pode agir de acordo com esses pensamentos ou que não consegue se manter em segurança.",
+      "Entre em contato hoje com seu médico ou sua obstetra se esses pensamentos vierem e forem embora, mesmo que você não pretenda agir de acordo com eles.",
+      "Procure ajuda de emergência se estiver vendo ou ouvindo coisas que os outros não veem nem ouvem, ou se sentir muito confusa."
+    ]
+  },
+  "baby-brain": {
+    "name": "Esquecimento (cérebro de grávida)",
+    "aliases": [
+      "cérebro de grávida",
+      "esquecimento",
+      "esquecida",
+      "memória fraca",
+      "mente nublada",
+      "falta de concentração"
+    ],
+    "about": "Sentir a mente nublada, esquecer as coisas ou se distrair com facilidade é algo que muitas gestantes notam. Mudanças hormonais, sono ruim, cansaço e muita coisa na cabeça provavelmente contribuem. É real, é comum e é passageiro.",
+    "relief": [
+      "Use listas, lembretes na agenda e alarmes no celular para consultas e tarefas.",
+      "Guarde as chaves, a carteira e o celular sempre no mesmo lugar.",
+      "Priorize o sono e o descanso sempre que puder.",
+      "Seja gentil com você mesma e deixe que outras pessoas ajudem a dividir a carga mental."
+    ],
+    "callDoctor": [
+      "Converse com seu médico se o esquecimento for intenso, estiver piorando ou vier com desânimo ou ansiedade.",
+      "Ligue para o serviço de emergência se você ficar confusa de repente, principalmente com dor de cabeça forte ou alterações na visão."
+    ]
+  },
+  "carpal-tunnel": {
+    "name": "Formigamento ou dormência nas mãos (túnel do carpo)",
+    "aliases": [
+      "síndrome do túnel do carpo",
+      "tunel do carpo",
+      "mão dormente",
+      "formigamento nos dedos",
+      "dor no punho",
+      "mão fraca"
+    ],
+    "about": "O inchaço da gravidez pode comprimir o nervo que passa pelo punho, causando formigamento, dormência ou dor no polegar e nos dedos, muitas vezes pior à noite ou logo ao acordar. A síndrome do túnel do carpo é comum no fim da gravidez e geralmente melhora sozinha depois do parto.",
+    "relief": [
+      "Use uma tala de punho à noite para manter o punho reto; peça orientação ao farmacêutico ou a um fisioterapeuta.",
+      "Evite dobrar o punho repetidamente ou segurar coisas com força, e faça pausas ao digitar ou usar o celular.",
+      "Sacuda as mãos ou mexa devagar os dedos e os punhos quando os sintomas aparecerem.",
+      "Eleve as mãos sobre um travesseiro quando estiver descansando."
+    ],
+    "callDoctor": [
+      "Consulte seu médico ou sua obstetra se a dormência for constante, se a mão parecer fraca ou se você continuar deixando as coisas caírem.",
+      "Ligue imediatamente para seu médico ou sua obstetra se o formigamento vier com inchaço repentino no rosto ou nas mãos, ou com dor de cabeça forte."
+    ]
+  },
+  "braxton-hicks": {
+    "name": "Braxton Hicks (contrações de treinamento)",
+    "aliases": [
+      "Braxton Hicks",
+      "contração de treinamento",
+      "falso trabalho de parto",
+      "barriga dura",
+      "barriga endurecendo",
+      "contrações falsas"
+    ],
+    "about": "As contrações de Braxton Hicks são endurecimentos irregulares do útero, quando a barriga fica dura por cerca de um minuto e depois relaxa. Elas são um treino do seu corpo para o trabalho de parto, podem começar no segundo trimestre e ficam mais perceptíveis mais para o fim. Diferentemente das contrações do trabalho de parto, elas geralmente não doem ou causam só um leve desconforto, não ficam mais fortes nem mais próximas umas das outras e melhoram quando você muda o que está fazendo.",
+    "relief": [
+      "Mude de posição: caminhe se estava sentada, ou deite-se de lado se estava em movimento.",
+      "Beba um ou dois copos de água, pois a desidratação pode provocá-las.",
+      "Esvazie a bexiga e experimente um banho morno ou respirar devagar.",
+      "Se estiver em dúvida, cronometre por uma hora: as contrações do trabalho de parto ficam regulares, mais longas e mais fortes."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade se você estiver com menos de 37 semanas e os endurecimentos ficarem regulares ou doloridos.",
+      "Ligue imediatamente se os endurecimentos vierem com sangramento, perda de líquido ou se o bebê estiver se mexendo menos.",
+      "Ligue se as contrações estiverem com intervalo de cerca de 5 minutos ou menos, ou fortes demais para conseguir falar durante elas."
+    ]
+  },
+  "reduced-movements": {
+    "name": "Bebê se mexendo menos que o normal",
+    "aliases": [
+      "bebê não mexe",
+      "bebe nao mexe",
+      "bebê mexendo pouco",
+      "menos chutes",
+      "movimentos do bebê",
+      "contar chutes"
+    ],
+    "about": "Você geralmente começa a sentir o bebê se mexer entre 16 e 24 semanas e, a partir daí, vai conhecendo o padrão de movimentos dele. Não existe um número certo de chutes para contar, mas menos movimentos, ou uma mudança no padrão, pode ser um sinal precoce de que o bebê precisa ser avaliado. Na maioria das vezes está tudo bem, mas uma avaliação rápida pode salvar a vida do seu bebê. Você deve sentir movimentos até o trabalho de parto e durante ele.",
+    "relief": [
+      "Ligue imediatamente, mesmo no meio da noite; não espere até amanhã.",
+      "Não use um monitor caseiro de batimentos (sonar/doppler) para se tranquilizar; ele não é confiável.",
+      "Não espere para ver se uma bebida gelada, um lanche ou deitar faz o bebê se mexer."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade ou para seu médico se o bebê estiver se mexendo menos ou se o padrão de movimentos tiver mudado.",
+      "Ligue imediatamente se não conseguir sentir o bebê se mexer de jeito nenhum.",
+      "Ligue de novo toda vez que isso acontecer, quantas vezes for preciso; você nunca está fazendo ninguém perder tempo.",
+      "Avise seu médico ou sua obstetra se não tiver sentido nenhum movimento até 24 semanas."
+    ]
+  },
+  "fluid-leaking": {
+    "name": "Perda de líquido (bolsa rompendo)",
+    "aliases": [
+      "bolsa estourou",
+      "bolsa rompeu",
+      "perda de líquido",
+      "líquido amniótico",
+      "liquido amniotico",
+      "ruptura da bolsa"
+    ],
+    "about": "A bolsa (o líquido ao redor do bebê) pode romper com uma saída repentina de líquido ou com um escorrimento lento e contínuo. Perto da data prevista para o parto, isso costuma ser sinal de que o trabalho de parto está começando, mas antes de 37 semanas pode significar trabalho de parto prematuro e um risco maior de infecção, por isso sempre precisa ser avaliado imediatamente. O líquido geralmente é transparente ou cor de palha clara. Deixar escapar um pouco de xixi também é comum na gravidez, então, se estiver em dúvida, procure avaliação.",
+    "relief": [
+      "Coloque um absorvente externo, não interno, para ver a cor e a quantidade de líquido.",
+      "Anote a hora em que começou e qual é a cor.",
+      "Evite relações sexuais até passar por uma avaliação."
+    ],
+    "callDoctor": [
+      "Ligue imediatamente para a maternidade ou para seu médico se a bolsa romper ou se achar que está perdendo líquido, em qualquer fase da gravidez.",
+      "Ligue imediatamente se o líquido estiver verde, marrom, com sangue ou com mau cheiro, ou se você tiver febre ou se sentir mal.",
+      "Se você estiver com menos de 37 semanas, ligue agora para a maternidade; não espere as contrações começarem.",
+      "Ligue para o serviço de emergência se conseguir sentir ou ver o cordão umbilical, ou se estiver sangrando muito."
+    ]
+  },
+  "fever": {
+    "name": "Febre ou temperatura alta",
+    "aliases": [
+      "febre",
+      "temperatura alta",
+      "calafrios",
+      "gripe",
+      "infecção",
+      "sepse"
+    ],
+    "about": "Uma temperatura de 38 °C (100,4 °F) ou mais geralmente significa que o corpo está combatendo uma infecção. A maioria das infecções é leve, mas na gravidez elas podem ficar graves mais rapidamente e uma febre alta pode afetar o bebê, por isso é importante fazer uma avaliação em vez de esperar passar. Sentir calor e calafrios, ou se sentir muito mal, também conta, mesmo que você não tenha medido a temperatura.",
+    "relief": [
+      "Descanse e beba bastante líquido, aos poucos e com frequência.",
+      "Use roupas leves e mantenha o ambiente fresco.",
+      "Pergunte ao farmacêutico ou ao seu médico qual remédio é seguro para baixar a febre na gravidez.",
+      "Acompanhe os movimentos do bebê e informe qualquer mudança."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou sua obstetra no mesmo dia se sua temperatura estiver em 38 °C (100,4 °F) ou mais, ou se sentir calor e calafrios.",
+      "Ligue imediatamente se a febre vier com dor na barriga, corrimento com mau cheiro, perda de líquido ou se o bebê estiver se mexendo menos.",
+      "Ligue imediatamente se tiver febre com dor ao fazer xixi, dor nas costas, erupção na pele ou tosse forte.",
+      "Ligue para o serviço de emergência se estiver com falta de ar, confusa, muito sonolenta, com a pele fria e manchada, ou se sentir extremamente mal."
+    ]
+  },
+  "signs-of-labour": {
+    "name": "Sinais de trabalho de parto",
+    "aliases": [
+      "trabalho de parto",
+      "contrações",
+      "contracoes",
+      "tampão mucoso",
+      "entrando em trabalho de parto",
+      "sinais de parto"
+    ],
+    "about": "O trabalho de parto muitas vezes começa aos poucos. Os sinais incluem endurecimentos da barriga que ficam regulares, mais fortes e mais próximos, a saída do tampão mucoso (o muco que fecha o colo do útero se desprende), dor nas costas, vontade de fazer cocô à medida que a cabeça do bebê pressiona para baixo e a bolsa romper. A fase inicial (latente) pode durar horas ou até dias, e geralmente o melhor é ficar em casa durante boa parte dela.",
+    "relief": [
+      "Cronometre as contrações do início de uma até o início da seguinte.",
+      "Fique em pé e em movimento, e experimente um banho morno de banheira ou de chuveiro.",
+      "Continue tomando goles de água e coma lanches leves se tiver vontade.",
+      "Use a respiração lenta, massagem e um ambiente calmo e com pouca luz para ajudar você a relaxar."
+    ],
+    "callDoctor": [
+      "Ligue para a maternidade se as contrações estiverem regulares e acontecendo a cada 5 minutos, mais ou menos, ou se achar que entrou em trabalho de parto.",
+      "Ligue imediatamente se a bolsa romper, se estiver sangrando ou se o bebê estiver se mexendo menos que o normal.",
+      "Ligue imediatamente se o trabalho de parto começar antes de 37 semanas, se uma contração durar mais de 2 minutos ou se tiver 6 ou mais em 10 minutos.",
+      "Ligue para o serviço de emergência se sentir uma vontade forte de fazer força e achar que o bebê está nascendo agora."
+    ]
+  },
+  "calf-pain": {
+    "name": "Dor ou inchaço em uma panturrilha (possível coágulo)",
+    "aliases": [
+      "trombose",
+      "TVP",
+      "trombose venosa profunda",
+      "coágulo",
+      "dor na panturrilha",
+      "perna inchada"
+    ],
+    "about": "Dor latejante, inchaço, calor ou vermelhidão em uma perna, geralmente na panturrilha ou na coxa, podem ser sinal de trombose venosa profunda (TVP), um coágulo de sangue em uma veia. A gravidez e as primeiras semanas após o parto deixam os coágulos mais prováveis, embora eles ainda sejam incomuns. Um coágulo pode ir até os pulmões, por isso precisa ser avaliado no mesmo dia; o tratamento é seguro e eficaz na gravidez.",
+    "relief": [
+      "Não esfregue nem massageie a perna dolorida.",
+      "Continue se movimentando no dia a dia e beba bastante água para diminuir o risco de coágulos.",
+      "Em viagens de mais de 4 horas, caminhe sempre que puder, use roupas folgadas e continue bebendo água."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou para a maternidade no mesmo dia se uma perna estiver dolorida, inchada, quente ou vermelha.",
+      "Ligue para o serviço de emergência se também sentir falta de ar, tiver dor no peito ou tossir sangue."
+    ]
+  },
+  "one-sided-pain-early": {
+    "name": "Dor de um lado da barriga no início da gravidez (possível ectópica)",
+    "aliases": [
+      "gravidez ectópica",
+      "gravidez tubária",
+      "dor de um lado",
+      "dor em um lado da barriga",
+      "dor na ponta do ombro",
+      "dor no início da gravidez"
+    ],
+    "about": "Dor na parte baixa de um lado da barriga entre cerca de 4 e 12 semanas, principalmente com escape ou corrimento marrom e aguado, pode ser sinal de gravidez ectópica, quando a gestação se desenvolve fora do útero, geralmente em uma trompa. Ela afeta cerca de 1 em cada 90 gestações. A dor também pode ter causas inofensivas, mas como a gravidez ectópica pode ser grave, ela sempre precisa ser avaliada logo.",
+    "relief": [
+      "Não espere para ver se a dor passa; procure avaliação no mesmo dia.",
+      "Peça para alguém levar você em vez de dirigir.",
+      "Anote quando a dor começou, onde ela está e qualquer sangramento, para contar à equipe médica."
+    ],
+    "callDoctor": [
+      "Ligue para seu médico ou para o pronto-socorro obstétrico no mesmo dia se tiver dor de um lado da barriga no início da gravidez.",
+      "Ligue no mesmo dia se a dor ou o escape vierem com dor na ponta do ombro ou desconforto ao fazer xixi ou cocô.",
+      "Ligue para o serviço de emergência em caso de dor na barriga repentina, aguda e forte, ou se você sentir muita tontura, sensação de desmaio, enjoo ou estiver muito pálida."
+    ]
+  }
+}

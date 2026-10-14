@@ -16,6 +16,8 @@ import { bootSync } from '@/lib/sync';
 import { rescheduleAll } from '@/lib/notifications';
 import { configurePurchases } from '@/lib/purchases';
 import { syncWidget } from '@/lib/native';
+import { setUnitsLocale } from '@/lib/units';
+import { localeFor } from '@/i18n';
 import { colors } from '@/theme/colors';
 
 SplashScreen.preventAutoHideAsync().catch(() => {});
@@ -31,7 +33,11 @@ export default function RootLayout() {
     SourceSerif_700Bold: SourceSerif4_700Bold,
   });
   const hydrated = useAppStore((s) => s.hydrated);
+  const language = useAppStore((s) => s.language);
   const ready = (fontsLoaded || !!fontError) && hydrated;
+  // Idempotent and cheap: number formatting must follow the language before
+  // the first screen paints, not one effect later.
+  if (ready) setUnitsLocale(localeFor(language));
 
   useEffect(() => {
     if (!ready) return;
@@ -46,6 +52,7 @@ export default function RootLayout() {
     };
     pushWidget();
     const unsubWidget = useAppStore.subscribe((s, prev) => {
+      if (s.language !== prev.language) setUnitsLocale(localeFor(s.language));
       if (s.profile !== prev.profile || s.language !== prev.language) pushWidget();
     });
     // Roll the notification window forward whenever the app comes back.

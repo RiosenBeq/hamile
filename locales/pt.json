@@ -1,0 +1,8 @@
+{
+  "CFBundleDisplayName": "Marigold",
+  "NSCameraUsageDescription": "O Marigold usa a câmera para você tirar fotos da barriga para o seu diário de gravidez privado. As fotos ficam no seu celular.",
+  "NSPhotoLibraryUsageDescription": "O Marigold permite escolher fotos da sua fototeca para o seu diário de gravidez privado. As fotos ficam no seu celular.",
+  "NSPhotoLibraryAddUsageDescription": "O Marigold pode salvar a colagem da sua barriga na fototeca quando você pedir.",
+  "NSFaceIDUsageDescription": "O Marigold usa o Face ID para desbloquear o app e manter o seu diário de gravidez privado.",
+  "NSMicrophoneUsageDescription": "O Marigold só usa o microfone se você gravar um vídeo com a câmera. Ele nunca grava áudio sozinho."
+}

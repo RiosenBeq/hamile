@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "tarama",
+    "category": "food",
+    "emoji": "🫙",
+    "verdict": "avoid",
+    "name": {
+      "en": "Tarama (fish roe spread)",
+      "tr": "Tarama (balık yumurtası ezmesi)",
+      "es": "Tarama (crema de huevas de pescado)",
+      "de": "Tarama (Fischrogencreme)",
+      "fr": "Tarama",
+      "pt": "Tarama (pasta de ovas de peixe)"
+    },
+    "aliases": {
+      "en": [
+        "taramasalata",
+        "cod roe dip",
+        "fish roe spread",
+        "smoked cod roe"
+      ],
+      "tr": [
+        "taramasalata",
+        "tarama",
+        "balık yumurtası",
+        "balık yumurtası ezmesi"
+      ],
+      "es": [
+        "tarama",
+        "taramasalata",
+        "crema de huevas",
+        "huevas de bacalao",
+        "huevas de pescado",
+        "paté de huevas"
+      ],
+      "de": [
+        "Tarama",
+        "Taramas",
+        "Taramosalata",
+        "Fischrogencreme",
+        "Dorschrogen",
+        "Fischrogen"
+      ],
+      "fr": [
+        "tarama",
+        "taramasalata",
+        "œufs de cabillaud",
+        "œufs de poisson",
+        "tartinade aux œufs de poisson"
+      ],
+      "pt": [
+        "tarama",
+        "taramasalata",
+        "pasta de ovas",
+        "ovas de bacalhau",
+        "ovas de peixe",
+        "patê de ovas"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided: France's food safety agency (ANSES) lists tarama among the foods pregnant women should avoid because of listeria.",
+      "tr": "Uzak durman daha iyi: Fransa'nın gıda güvenliği kurumu ANSES, taramayı listeria nedeniyle hamilelerin kaçınması gereken yiyecekler arasında sayıyor.",
+      "es": "Mejor evitarlo: la agencia francesa de seguridad alimentaria (ANSES) incluye el tarama entre los alimentos que las embarazadas deberían evitar por la listeria.",
+      "de": "Besser meiden: Die französische Behörde für Lebensmittelsicherheit (ANSES) zählt Tarama wegen Listerien zu den Lebensmitteln, die Schwangere meiden sollten.",
+      "fr": "Mieux vaut l'éviter : l'ANSES classe le tarama parmi les aliments que les femmes enceintes doivent éviter à cause de la listeria.",
+      "pt": "Melhor evitar: a agência francesa de segurança alimentar (ANSES) inclui o tarama entre os alimentos que gestantes devem evitar por causa da listeria."
+    },
+    "details": {
+      "en": "Tarama is made from salted or smoked fish roe and is eaten cold, without cooking. ANSES groups it with raw fish such as sushi and sashimi in its list of foods pregnant women and other vulnerable people should avoid because of listeria. This bacterium can multiply even in the fridge, and in pregnancy it can lead to miscarriage, premature birth or the loss of the baby.",
+      "tr": "Tarama, tuzlanmış ya da tütsülenmiş balık yumurtasından yapılır ve pişirilmeden, soğuk yenir. ANSES onu suşi ve saşimi gibi çiğ balıklarla birlikte, listeria nedeniyle hamilelerin ve diğer hassas kişilerin kaçınması gereken yiyecekler arasında gösteriyor. Bu bakteri buzdolabında bile çoğalabilir ve hamilelikte düşüğe, erken doğuma ya da bebeğin kaybına yol açabilir.",
+      "es": "El tarama se elabora con huevas de pescado saladas o ahumadas y se come frío, sin cocinar. La ANSES lo agrupa con el pescado crudo, como el sushi y el sashimi, en su lista de alimentos que las embarazadas y otras personas vulnerables deberían evitar por la listeria. Esta bacteria puede multiplicarse incluso en la nevera y, en el embarazo, puede provocar un aborto espontáneo, un parto prematuro o la pérdida del bebé.",
+      "de": "Tarama wird aus gesalzenem oder geräuchertem Fischrogen hergestellt und kalt, ohne Erhitzen gegessen. Die ANSES ordnet es zusammen mit rohem Fisch wie Sushi und Sashimi in ihre Liste der Lebensmittel ein, die Schwangere und andere gefährdete Menschen wegen Listerien meiden sollten. Dieses Bakterium kann sich sogar im Kühlschrank vermehren und in der Schwangerschaft zu einer Fehlgeburt, einer Frühgeburt oder zum Verlust des Babys führen.",
+      "fr": "Le tarama est préparé à partir d'œufs de poisson salés ou fumés et se mange froid, sans cuisson. L'ANSES le range avec le poisson cru, comme les sushis et les sashimis, parmi les aliments à éviter pour les femmes enceintes et les autres personnes fragiles, à cause de la listeria. Cette bactérie peut se multiplier même au réfrigérateur et, pendant la grossesse, elle peut entraîner une fausse couche, un accouchement prématuré ou la perte du bébé.",
+      "pt": "O tarama é feito com ovas de peixe salgadas ou defumadas e é comido frio, sem cozimento. A ANSES o agrupa com peixes crus, como sushi e sashimi, na lista de alimentos que gestantes e outras pessoas vulneráveis devem evitar por causa da listeria. Essa bactéria pode se multiplicar até na geladeira e, na gravidez, pode levar a aborto espontâneo, parto prematuro ou perda do bebê."
+    },
+    "tips": {
+      "en": [
+        "For a dip, choose hummus or another spread without raw or smoked fish.",
+        "If you get a fever or flu-like symptoms, contact your doctor or midwife and mention what you ate."
+      ],
+      "tr": [
+        "Meze olarak humus ya da çiğ veya tütsülenmiş balık içermeyen başka bir ezme seç.",
+        "Ateşin ya da grip benzeri belirtilerin olursa doktorunu veya ebeni ara ve ne yediğini söyle."
+      ],
+      "es": [
+        "Para untar, elige hummus u otra crema sin pescado crudo ni ahumado.",
+        "Si tienes fiebre o síntomas parecidos a los de la gripe, contacta con tu médico o tu matrona y cuéntale lo que has comido."
+      ],
+      "de": [
+        "Als Dip nimm lieber Hummus oder einen anderen Aufstrich ohne rohen oder geräucherten Fisch.",
+        "Wenn du Fieber oder grippeähnliche Beschwerden bekommst, wende dich an deine Ärztin, deinen Arzt oder deine Hebamme und erwähne, was du gegessen hast."
+      ],
+      "fr": [
+        "Pour l'apéritif, préfère le houmous ou une autre tartinade sans poisson cru ni fumé.",
+        "En cas de fièvre ou de symptômes grippaux, contacte ton médecin ou ta sage-femme et signale ce que tu as mangé."
+      ],
+      "pt": [
+        "Como pasta para petisco, prefira homus ou outra pasta sem peixe cru ou defumado.",
+        "Se tiver febre ou sintomas parecidos com os da gripe, procure seu médico ou sua obstetra e conte o que você comeu."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Qu'est-ce que la listériose et comment s'en prémunir ?",
+        "url": "https://www.anses.fr/fr/content/quest-ce-que-la-listeriose-et-comment-sen-premunir"
+      },
+      {
+        "name": "ANSES: Fiche de description de danger biologique – Listeria monocytogenes (2020)",
+        "url": "https://www.anses.fr/system/files/BIORISK2016SA0081Fi.pdf"
+      }
+    ]
+  },
+  {
+    "id": "grated-cheese",
+    "category": "food",
+    "emoji": "🧀",
+    "verdict": "avoid",
+    "name": {
+      "en": "Ready-grated cheese",
+      "tr": "Hazır rendelenmiş peynir",
+      "es": "Queso rallado de bolsa",
+      "de": "Fertiger Reibekäse",
+      "fr": "Fromage râpé (en sachet)",
+      "pt": "Queijo ralado pronto"
+    },
+    "aliases": {
+      "en": [
+        "grated cheese",
+        "pre-grated cheese",
+        "shredded cheese",
+        "bagged grated cheese",
+        "grated emmental"
+      ],
+      "tr": [
+        "rendelenmiş peynir",
+        "paket rendelenmiş peynir",
+        "hazır rende peynir",
+        "rende kaşar"
+      ],
+      "es": [
+        "queso rallado",
+        "queso rallado de bolsa",
+        "queso rallado industrial",
+        "emmental rallado",
+        "queso rallado para pizza"
+      ],
+      "de": [
+        "Reibekäse",
+        "geriebener Käse",
+        "Streukäse",
+        "Pizzakäse",
+        "geriebener Emmentaler"
+      ],
+      "fr": [
+        "fromage râpé",
+        "emmental râpé",
+        "gruyère râpé",
+        "râpé",
+        "parmesan râpé",
+        "fromage râpé en sachet"
+      ],
+      "pt": [
+        "queijo ralado",
+        "queijo ralado de pacote",
+        "queijo ralado industrializado",
+        "emmental ralado",
+        "parmesão ralado"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided: France's food safety agency (ANSES) advises pregnant women to avoid cheese that is sold already grated, because of listeria.",
+      "tr": "Uzak durman daha iyi: Fransa'nın gıda güvenliği kurumu ANSES, listeria nedeniyle hamilelerin rendelenmiş olarak satılan peynirlerden kaçınmasını öneriyor.",
+      "es": "Mejor evitarlo: la agencia francesa de seguridad alimentaria (ANSES) aconseja a las embarazadas evitar el queso que se vende ya rallado, por la listeria.",
+      "de": "Besser meiden: Die französische Behörde für Lebensmittelsicherheit (ANSES) rät Schwangeren wegen Listerien von Käse ab, der bereits gerieben verkauft wird.",
+      "fr": "Mieux vaut l'éviter : l'ANSES conseille aux femmes enceintes d'éviter les fromages vendus déjà râpés, à cause de la listeria.",
+      "pt": "Melhor evitar: a agência francesa de segurança alimentar (ANSES) orienta gestantes a evitar queijo vendido já ralado, por causa da listeria."
+    },
+    "details": {
+      "en": "ANSES lists cheeses sold grated among the foods pregnant women and other vulnerable people should avoid, alongside soft-rind cheeses and most raw-milk cheeses. The advice is about the ready-grated product, even when the cheese itself is a hard type such as emmental. Listeria can contaminate food during handling and can keep multiplying at fridge temperature.",
+      "tr": "ANSES, rendelenmiş olarak satılan peynirleri; kabuklu yumuşak peynirler ve çiğ sütten yapılan peynirlerin çoğuyla birlikte, hamilelerin ve diğer hassas kişilerin kaçınması gereken yiyecekler arasında sayıyor. Bu öneri, peynirin kendisi emmental gibi sert bir peynir olsa bile hazır rendelenmiş ürün için geçerli. Listeria, yiyeceklere işleme sırasında bulaşabilir ve buzdolabı sıcaklığında çoğalmaya devam edebilir.",
+      "es": "La ANSES incluye los quesos que se venden rallados entre los alimentos que las embarazadas y otras personas vulnerables deberían evitar, junto con los quesos de corteza blanda y la mayoría de los quesos de leche cruda. La recomendación se refiere al producto ya rallado, aunque el queso en sí sea de pasta dura, como el emmental. La listeria puede contaminar los alimentos al manipularlos y seguir multiplicándose a la temperatura de la nevera.",
+      "de": "Die ANSES zählt gerieben verkauften Käse neben Weichkäse mit Rinde und den meisten Rohmilchkäsen zu den Lebensmitteln, die Schwangere und andere gefährdete Menschen meiden sollten. Die Empfehlung betrifft das fertig geriebene Produkt, auch wenn der Käse selbst ein Hartkäse wie Emmentaler ist. Listerien können Lebensmittel bei der Verarbeitung verunreinigen und sich bei Kühlschranktemperatur weiter vermehren.",
+      "fr": "L'ANSES cite les fromages vendus râpés parmi les aliments à éviter pour les femmes enceintes et les autres personnes fragiles, avec les fromages à croûte fleurie ou lavée et la plupart des fromages au lait cru. La recommandation concerne le produit vendu râpé, même quand il s'agit d'un fromage à pâte dure comme l'emmental. La listeria peut contaminer les aliments lors des manipulations et continuer à se multiplier au réfrigérateur.",
+      "pt": "A ANSES inclui os queijos vendidos ralados entre os alimentos que gestantes e outras pessoas vulneráveis devem evitar, junto com queijos de casca mole e a maioria dos queijos de leite cru. A orientação se refere ao produto já ralado, mesmo quando o queijo em si é do tipo duro, como o emmental. A listeria pode contaminar os alimentos durante o manuseio e continuar se multiplicando na temperatura da geladeira."
+    },
+    "tips": {
+      "en": [
+        "Buy a piece of cooked pressed cheese, such as comté, emmental or gruyère, and grate it yourself just before using it.",
+        "Keep your fridge at 4 °C or below and respect use-by dates."
+      ],
+      "tr": [
+        "Comté, emmental ya da gruyère gibi pişirilmiş, preslenmiş bir peyniri kalıp olarak al ve kullanmadan hemen önce kendin rendele.",
+        "Buzdolabını en fazla 4 °C'ye ayarla ve son tüketim tarihlerine uy."
+      ],
+      "es": [
+        "Compra un trozo de queso de pasta prensada cocida, como el comté, el emmental o el gruyère, y rállalo tú misma justo antes de usarlo.",
+        "Mantén la nevera a 4 °C o menos y respeta las fechas de caducidad."
+      ],
+      "de": [
+        "Kauf ein Stück Hartkäse wie Comté, Emmentaler oder Gruyère und reib ihn selbst, direkt bevor du ihn verwendest.",
+        "Stell deinen Kühlschrank auf höchstens 4 °C und halte dich an Verbrauchsdaten."
+      ],
+      "fr": [
+        "Achète un morceau de fromage à pâte pressée cuite, comme le comté, l'emmental ou le gruyère, et râpe-le toi-même juste avant de l'utiliser.",
+        "Règle ton réfrigérateur à 4 °C maximum et respecte les dates limites de consommation."
+      ],
+      "pt": [
+        "Compre um pedaço de queijo de massa cozida e prensada, como comté, emmental ou gruyère, e rale você mesma logo antes de usar.",
+        "Mantenha a geladeira a 4 °C ou menos e respeite as datas de validade."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Qu'est-ce que la listériose et comment s'en prémunir ?",
+        "url": "https://www.anses.fr/fr/content/quest-ce-que-la-listeriose-et-comment-sen-premunir"
+      },
+      {
+        "name": "ANSES: Fiche de description de danger biologique – Listeria monocytogenes (2020)",
+        "url": "https://www.anses.fr/system/files/BIORISK2016SA0081Fi.pdf"
+      }
+    ]
+  },
+  {
+    "id": "rillettes",
+    "category": "food",
+    "emoji": "🥓",
+    "verdict": "avoid",
+    "name": {
+      "en": "Rillettes & cooked charcuterie",
+      "tr": "Rillettes ve pişmiş şarküteri",
+      "es": "Rillettes y embutidos cocidos",
+      "de": "Rillettes & gegarte Wurstwaren",
+      "fr": "Rillettes & charcuterie cuite",
+      "pt": "Rillettes e frios cozidos"
+    },
+    "aliases": {
+      "en": [
+        "rillettes",
+        "potted pork",
+        "pork spread",
+        "cretons",
+        "jellied ham",
+        "head cheese"
+      ],
+      "tr": [
+        "rillettes",
+        "et ezmesi",
+        "cretons",
+        "jöleli şarküteri",
+        "pişmiş şarküteri"
+      ],
+      "es": [
+        "rillettes",
+        "paté de cerdo",
+        "crema de cerdo para untar",
+        "cretons",
+        "jamón en gelatina",
+        "queso de cabeza"
+      ],
+      "de": [
+        "Rillettes",
+        "Schmalzfleisch",
+        "Fleischaufstrich",
+        "Cretons",
+        "Sülze",
+        "Presskopf"
+      ],
+      "fr": [
+        "rillettes",
+        "rillettes de porc",
+        "rillettes de canard",
+        "cretons",
+        "jambon persillé",
+        "fromage de tête",
+        "produits en gelée"
+      ],
+      "pt": [
+        "rillettes",
+        "patê de porco",
+        "pasta de carne de porco",
+        "cretons",
+        "presunto em gelatina",
+        "queijo de porco"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided: ANSES advises pregnant women to avoid ready-to-eat cooked charcuterie such as rillettes.",
+      "tr": "Uzak durman daha iyi: ANSES, hamilelerin rillettes gibi hazır pişmiş şarküteri ürünlerinden kaçınmasını öneriyor.",
+      "es": "Mejor evitarlos: la ANSES aconseja a las embarazadas evitar los embutidos cocidos listos para comer, como las rillettes.",
+      "de": "Besser meiden: Die ANSES rät Schwangeren, verzehrfertige gegarte Wurstwaren wie Rillettes zu meiden.",
+      "fr": "Mieux vaut les éviter : l'ANSES conseille aux femmes enceintes d'éviter la charcuterie cuite prête à consommer, comme les rillettes.",
+      "pt": "Melhor evitar: a ANSES orienta gestantes a evitar frios cozidos prontos para consumo, como rillettes."
+    },
+    "details": {
+      "en": "Rillettes, cretons and meats in aspic are cooked when they're made but eaten cold, often after several days in the fridge. Listeria can contaminate food after cooking and can keep growing at fridge temperature, and cooked charcuterie is one of the food groups linked to listeriosis outbreaks in France. That's why ANSES advises pregnant women and other vulnerable people to avoid ready-to-eat cooked charcuterie.",
+      "tr": "Rillettes, cretons ve jöleli et ürünleri üretim sırasında pişirilir ama soğuk ve çoğu zaman buzdolabında birkaç gün bekledikten sonra yenir. Listeria pişirmeden sonra da yiyeceğe bulaşabilir ve buzdolabı sıcaklığında çoğalmaya devam edebilir; pişmiş şarküteri de Fransa'daki listeriyoz salgınlarıyla ilişkilendirilen gıda grupları arasında yer alıyor. Bu yüzden ANSES, hamilelerin ve diğer hassas kişilerin hazır pişmiş şarküteri ürünlerinden kaçınmasını öneriyor.",
+      "es": "Las rillettes, los cretons y las carnes en gelatina se cocinan al elaborarlos, pero se comen fríos, a menudo después de varios días en la nevera. La listeria puede contaminar los alimentos después de cocinarlos y seguir creciendo a la temperatura de la nevera, y los embutidos cocidos son uno de los grupos de alimentos relacionados con brotes de listeriosis en Francia. Por eso la ANSES aconseja a las embarazadas y a otras personas vulnerables evitar los embutidos cocidos listos para comer.",
+      "de": "Rillettes, Cretons und Fleisch in Aspik werden bei der Herstellung gegart, aber kalt gegessen, oft nach mehreren Tagen im Kühlschrank. Listerien können Lebensmittel nach dem Garen verunreinigen und sich bei Kühlschranktemperatur weiter vermehren, und gegarte Wurstwaren gehören zu den Lebensmittelgruppen, die mit Listeriose-Ausbrüchen in Frankreich in Verbindung gebracht werden. Deshalb rät die ANSES Schwangeren und anderen gefährdeten Menschen, verzehrfertige gegarte Wurstwaren zu meiden.",
+      "fr": "Les rillettes, les cretons et la charcuterie en gelée sont cuits lors de leur fabrication, mais se mangent froids, souvent après plusieurs jours au réfrigérateur. La listeria peut contaminer un aliment après la cuisson et continuer à se multiplier au froid, et la charcuterie cuite fait partie des aliments en cause dans des épidémies de listériose en France. C'est pourquoi l'ANSES conseille aux femmes enceintes et aux autres personnes fragiles d'éviter la charcuterie cuite prête à consommer.",
+      "pt": "Rillettes, cretons e carnes em gelatina são cozidos durante o preparo, mas comidos frios, muitas vezes depois de vários dias na geladeira. A listeria pode contaminar os alimentos depois do cozimento e continuar crescendo na temperatura da geladeira, e os frios cozidos são um dos grupos de alimentos ligados a surtos de listeriose na França. Por isso, a ANSES orienta gestantes e outras pessoas vulneráveis a evitar frios cozidos prontos para consumo."
+    },
+    "tips": {
+      "en": [
+        "Choose freshly cooked meat served hot instead.",
+        "If you reheat leftovers, heat them until piping hot (above 70 °C inside), as ANSES advises, and eat them within 3 days."
+      ],
+      "tr": [
+        "Bunun yerine yeni pişmiş ve sıcak servis edilen et tercih et.",
+        "Artan yemekleri ısıtırsan, ANSES'in önerdiği gibi içi tamamen kızgın olana kadar (70 °C'nin üzerinde) ısıt ve 3 gün içinde tüket."
+      ],
+      "es": [
+        "Elige en su lugar carne recién cocinada y servida caliente.",
+        "Si recalientas sobras, caliéntalas hasta que estén muy calientes (más de 70 °C en el interior), como aconseja la ANSES, y cómelas en un plazo de 3 días."
+      ],
+      "de": [
+        "Nimm stattdessen frisch gegartes Fleisch, das heiß serviert wird.",
+        "Wenn du Reste aufwärmst, erhitze sie, bis sie durch und durch heiß sind (innen über 70 °C), wie es die ANSES empfiehlt, und iss sie innerhalb von 3 Tagen."
+      ],
+      "fr": [
+        "Préfère une viande fraîchement cuite et servie chaude.",
+        "Si tu réchauffes des restes, chauffe-les jusqu'à ce qu'ils soient brûlants (plus de 70 °C à cœur), comme le recommande l'ANSES, et consomme-les dans les 3 jours."
+      ],
+      "pt": [
+        "Prefira carne preparada na hora e servida quente.",
+        "Se for reaquecer sobras, aqueça até ficarem bem quentes (mais de 70 °C por dentro), como orienta a ANSES, e consuma em até 3 dias."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Qu'est-ce que la listériose et comment s'en prémunir ?",
+        "url": "https://www.anses.fr/fr/content/quest-ce-que-la-listeriose-et-comment-sen-premunir"
+      },
+      {
+        "name": "ANSES: Fiche de description de danger biologique – Listeria monocytogenes (2020)",
+        "url": "https://www.anses.fr/system/files/BIORISK2016SA0081Fi.pdf"
+      }
+    ]
+  },
+  {
+    "id": "reblochon",
+    "category": "food",
+    "emoji": "🧀",
+    "verdict": "avoid",
+    "name": {
+      "en": "Reblochon, morbier & saint-nectaire",
+      "tr": "Reblochon, morbier ve saint-nectaire",
+      "es": "Reblochon, morbier y saint-nectaire",
+      "de": "Reblochon, Morbier & Saint-Nectaire",
+      "fr": "Reblochon, morbier & saint-nectaire",
+      "pt": "Reblochon, morbier e saint-nectaire"
+    },
+    "aliases": {
+      "en": [
+        "reblochon",
+        "morbier",
+        "saint-nectaire",
+        "uncooked pressed cheese",
+        "semi-soft french cheese"
+      ],
+      "tr": [
+        "reblochon",
+        "morbier",
+        "saint-nectaire",
+        "fransız peyniri",
+        "yarı yumuşak peynir"
+      ],
+      "es": [
+        "reblochon",
+        "morbier",
+        "saint-nectaire",
+        "queso de pasta prensada no cocida",
+        "queso francés semiblando"
+      ],
+      "de": [
+        "Reblochon",
+        "Morbier",
+        "Saint-Nectaire",
+        "halbfester französischer Käse",
+        "Tartiflette-Käse"
+      ],
+      "fr": [
+        "reblochon",
+        "morbier",
+        "saint-nectaire",
+        "pâte pressée non cuite",
+        "fromage à affinage court"
+      ],
+      "pt": [
+        "reblochon",
+        "morbier",
+        "saint-nectaire",
+        "queijo de massa prensada não cozida",
+        "queijo francês semimacio"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided: ANSES advises pregnant women to avoid uncooked pressed cheeses with a short ripening time, such as reblochon, morbier and saint-nectaire, because of listeria.",
+      "tr": "Uzak durman daha iyi: ANSES, listeria nedeniyle hamilelerin reblochon, morbier ve saint-nectaire gibi kısa süre olgunlaştırılan, pişirilmemiş preslenmiş peynirlerden kaçınmasını öneriyor.",
+      "es": "Mejor evitarlos: la ANSES aconseja a las embarazadas evitar los quesos de pasta prensada no cocida con maduración corta, como el reblochon, el morbier y el saint-nectaire, por la listeria.",
+      "de": "Besser meiden: Die ANSES rät Schwangeren wegen Listerien, ungekochte Presskäse mit kurzer Reifezeit wie Reblochon, Morbier und Saint-Nectaire zu meiden.",
+      "fr": "Mieux vaut les éviter : l'ANSES conseille aux femmes enceintes d'éviter les fromages à pâte pressée non cuite à affinage court, comme le reblochon, le morbier ou le saint-nectaire, à cause de la listeria.",
+      "pt": "Melhor evitar: a ANSES orienta gestantes a evitar queijos de massa prensada não cozida com maturação curta, como reblochon, morbier e saint-nectaire, por causa da listeria."
+    },
+    "details": {
+      "en": "These cheeses are pressed but not cooked during cheesemaking, and they're only ripened for a short time. ANSES lists them, together with soft bloomy- and washed-rind cheeses, among the cheeses pregnant women and other vulnerable people should avoid. Raw-milk cheeses are on the list too, except cooked pressed cheeses such as comté or gruyère.",
+      "tr": "Bu peynirler üretim sırasında preslenir ama pişirilmez ve kısa süre olgunlaştırılır. ANSES onları, beyaz küflü ya da yıkanmış kabuklu yumuşak peynirlerle birlikte, hamilelerin ve diğer hassas kişilerin kaçınması gereken peynirler arasında sayıyor. Çiğ sütten yapılan peynirler de bu listede; ancak comté veya gruyère gibi pişirilmiş preslenmiş peynirler bunun dışında.",
+      "es": "Estos quesos se prensan pero no se cuecen durante su elaboración, y solo maduran durante poco tiempo. La ANSES los incluye, junto con los quesos blandos de corteza enmohecida y de corteza lavada, entre los quesos que las embarazadas y otras personas vulnerables deberían evitar. Los quesos de leche cruda también están en la lista, salvo los de pasta prensada cocida, como el comté o el gruyère.",
+      "de": "Diese Käse werden bei der Herstellung gepresst, aber nicht erhitzt, und reifen nur kurz. Die ANSES zählt sie zusammen mit Weichkäse mit Schimmel- oder Schmierrinde zu den Käsesorten, die Schwangere und andere gefährdete Menschen meiden sollten. Auch Rohmilchkäse stehen auf der Liste, außer gepressten, erhitzten Hartkäsen wie Comté oder Gruyère.",
+      "fr": "Ces fromages sont pressés mais pas cuits lors de leur fabrication, et leur affinage est court. L'ANSES les cite, avec les fromages à pâte molle à croûte fleurie ou lavée, parmi les fromages à éviter pour les femmes enceintes et les autres personnes fragiles. Les fromages au lait cru figurent aussi sur cette liste, sauf les fromages à pâte pressée cuite comme le comté ou le gruyère.",
+      "pt": "Esses queijos são prensados, mas não cozidos durante a fabricação, e maturam por pouco tempo. A ANSES os inclui, junto com os queijos macios de casca florida e de casca lavada, entre os queijos que gestantes e outras pessoas vulneráveis devem evitar. Os queijos de leite cru também estão na lista, exceto os de massa prensada cozida, como comté ou gruyère."
+    },
+    "tips": {
+      "en": [
+        "According to ANSES, cooked pressed cheeses such as comté or gruyère are fine, even when made with raw milk.",
+        "Not sure about a cheese? Ask at the cheese counter how it's made, or check with your midwife."
+      ],
+      "tr": [
+        "ANSES'e göre comté veya gruyère gibi pişirilmiş preslenmiş peynirler, çiğ sütten yapılmış olsalar bile yenebilir.",
+        "Bir peynirden emin değil misin? Peynirciye nasıl yapıldığını sor ya da ebene danış."
+      ],
+      "es": [
+        "Según la ANSES, los quesos de pasta prensada cocida, como el comté o el gruyère, se pueden tomar, aunque estén hechos con leche cruda.",
+        "¿Dudas con un queso? Pregunta en la quesería cómo se elabora o consúltalo con tu matrona."
+      ],
+      "de": [
+        "Laut ANSES sind gepresste, erhitzte Hartkäse wie Comté oder Gruyère in Ordnung, auch aus Rohmilch.",
+        "Unsicher bei einem Käse? Frag an der Käsetheke, wie er hergestellt wird, oder sprich mit deiner Hebamme."
+      ],
+      "fr": [
+        "D'après l'ANSES, les fromages à pâte pressée cuite comme le comté ou le gruyère restent possibles, même au lait cru.",
+        "Un doute sur un fromage ? Demande à la fromagerie comment il est fabriqué, ou pose la question à ta sage-femme."
+      ],
+      "pt": [
+        "Segundo a ANSES, queijos de massa prensada cozida, como comté ou gruyère, podem ser consumidos, mesmo quando feitos com leite cru.",
+        "Ficou em dúvida sobre um queijo? Pergunte na queijaria como ele é feito ou confirme com sua obstetra."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Qu'est-ce que la listériose et comment s'en prémunir ?",
+        "url": "https://www.anses.fr/fr/content/quest-ce-que-la-listeriose-et-comment-sen-premunir"
+      }
+    ]
+  },
+  {
+    "id": "predatory-fish",
+    "category": "food",
+    "emoji": "🐟",
+    "verdict": "caution",
+    "name": {
+      "en": "Monkfish, sea bass, sea bream & pike",
+      "tr": "Fener balığı, levrek, çipura ve turna",
+      "es": "Rape, lubina, dorada y lucio",
+      "de": "Seeteufel, Wolfsbarsch, Dorade & Hecht",
+      "fr": "Lotte, bar, dorade & brochet",
+      "pt": "Tamboril, robalo, dourada e lúcio"
+    },
+    "aliases": {
+      "en": [
+        "monkfish",
+        "sea bass",
+        "sea bream",
+        "pike",
+        "halibut",
+        "skate",
+        "bonito",
+        "predatory fish"
+      ],
+      "tr": [
+        "fener balığı",
+        "levrek",
+        "çipura",
+        "turna balığı",
+        "palamut",
+        "vatoz",
+        "yırtıcı balık"
+      ],
+      "es": [
+        "rape",
+        "lubina",
+        "dorada",
+        "lucio",
+        "fletán",
+        "raya"
+      ],
+      "de": [
+        "Seeteufel",
+        "Wolfsbarsch",
+        "Dorade",
+        "Hecht",
+        "Heilbutt",
+        "Rochen"
+      ],
+      "fr": [
+        "lotte",
+        "baudroie",
+        "bar",
+        "loup",
+        "dorade",
+        "daurade",
+        "brochet",
+        "flétan",
+        "raie",
+        "bonite"
+      ],
+      "pt": [
+        "tamboril",
+        "robalo",
+        "dourada",
+        "pargo",
+        "lúcio",
+        "halibute"
+      ]
+    },
+    "summary": {
+      "en": "Fine occasionally, but ANSES advises pregnant women to limit wild predatory fish such as monkfish, sea bass, sea bream and pike because of mercury.",
+      "tr": "Ara sıra yenebilir, ama ANSES cıva nedeniyle hamilelerin fener balığı, levrek, çipura ve turna gibi yabani yırtıcı balıkları sınırlamasını öneriyor.",
+      "es": "Bien de vez en cuando, pero la ANSES aconseja a las embarazadas limitar los peces depredadores salvajes, como el rape, la lubina, la dorada y el lucio, por el mercurio.",
+      "de": "Gelegentlich in Ordnung, aber die ANSES rät Schwangeren wegen Quecksilber, wild gefangene Raubfische wie Seeteufel, Wolfsbarsch, Dorade und Hecht einzuschränken.",
+      "fr": "Possible de temps en temps, mais l'ANSES conseille aux femmes enceintes de limiter les poissons prédateurs sauvages, comme la lotte, le bar, la dorade ou le brochet, à cause du mercure.",
+      "pt": "Tudo bem de vez em quando, mas a ANSES orienta gestantes a limitar peixes predadores selvagens, como tamboril, robalo, dourada e lúcio, por causa do mercúrio."
+    },
+    "details": {
+      "en": "Wild predatory fish build up methylmercury, and ANSES notes that a child's brain is especially vulnerable to chemical contaminants during pregnancy and up to age 3. For pregnant and breastfeeding women, it advises limiting fish such as monkfish, sea bass, bonito, halibut, pike, sea bream, skate and tuna, and avoiding swordfish, marlin, siki, shark and lamprey. Fish is still worth eating, as it provides omega-3 fats that matter for the nervous system.",
+      "tr": "Yabani yırtıcı balıklar metil cıva biriktirir ve ANSES, çocuğun beyninin hamilelik boyunca ve 3 yaşına kadar kimyasal kirleticilere karşı özellikle hassas olduğunu hatırlatıyor. Hamile ve emziren kadınlara fener balığı, levrek, palamut, halibut, turna, çipura, vatoz ve ton balığı gibi balıkları sınırlamalarını; kılıç balığı, marlin, siki, köpek balığı ve taşemenden ise kaçınmalarını öneriyor. Balık yine de değerli, çünkü sinir sistemi için önemli olan omega-3 yağlarını sağlar.",
+      "es": "Los peces depredadores salvajes acumulan metilmercurio, y la ANSES recuerda que el cerebro del niño es especialmente vulnerable a los contaminantes químicos durante el embarazo y hasta los 3 años. A las mujeres embarazadas y en lactancia les aconseja limitar pescados como el rape, la lubina, el bonito, el fletán, el lucio, la dorada, la raya y el atún, y evitar el pez espada, el marlín, el siki, el tiburón y la lamprea. Aun así, merece la pena comer pescado, porque aporta grasas omega-3 importantes para el sistema nervioso.",
+      "de": "Wild gefangene Raubfische reichern Methylquecksilber an, und die ANSES weist darauf hin, dass das Gehirn eines Kindes während der Schwangerschaft und bis zum Alter von 3 Jahren besonders empfindlich gegenüber chemischen Schadstoffen ist. Schwangeren und Stillenden rät sie, Fische wie Seeteufel, Wolfsbarsch, Bonito, Heilbutt, Hecht, Dorade, Rochen und Thunfisch einzuschränken und Schwertfisch, Marlin, Siki, Hai und Neunauge zu meiden. Fisch lohnt sich trotzdem, denn er liefert Omega-3-Fette, die für das Nervensystem wichtig sind.",
+      "fr": "Les poissons prédateurs sauvages accumulent du méthylmercure, et l'ANSES rappelle que le cerveau de l'enfant est particulièrement vulnérable aux contaminants chimiques pendant la grossesse et jusqu'à 3 ans. Pour les femmes enceintes et allaitantes, elle conseille de limiter les poissons comme la lotte, le bar, la bonite, le flétan, le brochet, la dorade, la raie et le thon, et d'éviter l'espadon, le marlin, le siki, le requin et la lamproie. Le poisson reste intéressant, car il apporte des oméga-3 importants pour le système nerveux.",
+      "pt": "Peixes predadores selvagens acumulam metilmercúrio, e a ANSES lembra que o cérebro da criança é especialmente vulnerável a contaminantes químicos durante a gravidez e até os 3 anos. Para gestantes e lactantes, ela orienta limitar peixes como tamboril, robalo, bonito, halibute, lúcio, dourada, raia e atum, e evitar peixe-espada, marlim, siki, tubarão e lampreia. Ainda vale a pena comer peixe, porque ele fornece gorduras ômega-3 importantes para o sistema nervoso."
+    },
+    "tips": {
+      "en": [
+        "Aim for fish twice a week, including one oily fish such as sardines, mackerel or salmon.",
+        "Vary the species, and keep the fish on this list for occasional meals."
+      ],
+      "tr": [
+        "Haftada iki kez balık yemeyi hedefle; bunlardan biri sardalya, uskumru ya da somon gibi yağlı bir balık olsun.",
+        "Türleri çeşitlendir ve bu listedeki balıkları ara sıra yenen öğünlere sakla."
+      ],
+      "es": [
+        "Intenta comer pescado dos veces por semana, una de ellas pescado azul, como sardinas, caballa o salmón.",
+        "Varía las especies y deja los pescados de esta lista para comidas ocasionales."
+      ],
+      "de": [
+        "Plane zweimal pro Woche Fisch ein, davon einmal fetten Fisch wie Sardinen, Makrele oder Lachs.",
+        "Wechsle die Fischarten ab und heb dir die Fische auf dieser Liste für gelegentliche Mahlzeiten auf."
+      ],
+      "fr": [
+        "Vise du poisson deux fois par semaine, dont un poisson gras comme la sardine, le maquereau ou le saumon.",
+        "Varie les espèces et garde les poissons de cette liste pour des repas occasionnels."
+      ],
+      "pt": [
+        "Procure comer peixe duas vezes por semana, incluindo um peixe gordo, como sardinha, cavala ou salmão.",
+        "Varie as espécies e deixe os peixes desta lista para refeições ocasionais."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Manger du poisson : pourquoi ? comment ?",
+        "url": "https://www.anses.fr/fr/content/manger-du-poisson-pourquoi-comment"
+      }
+    ]
+  },
+  {
+    "id": "freshwater-fish",
+    "category": "food",
+    "emoji": "🎣",
+    "verdict": "caution",
+    "name": {
+      "en": "Eel, carp & catfish (freshwater fish)",
+      "tr": "Yılan balığı, sazan ve yayın balığı",
+      "es": "Anguila, carpa y siluro (pescado de agua dulce)",
+      "de": "Aal, Karpfen & Wels (Süßwasserfisch)",
+      "fr": "Anguille, carpe & silure",
+      "pt": "Enguia, carpa e bagre (peixes de água doce)"
+    },
+    "aliases": {
+      "en": [
+        "eel",
+        "carp",
+        "catfish",
+        "wels catfish",
+        "barbel",
+        "bream",
+        "freshwater fish",
+        "river fish"
+      ],
+      "tr": [
+        "yılan balığı",
+        "sazan",
+        "yayın balığı",
+        "bıyıklı balık",
+        "çapak balığı",
+        "tatlı su balığı"
+      ],
+      "es": [
+        "anguila",
+        "carpa",
+        "siluro",
+        "barbo",
+        "brema",
+        "pescado de río"
+      ],
+      "de": [
+        "Aal",
+        "Karpfen",
+        "Wels",
+        "Barbe",
+        "Brasse",
+        "Süßwasserfisch"
+      ],
+      "fr": [
+        "anguille",
+        "carpe",
+        "silure",
+        "barbeau",
+        "brème",
+        "poisson d'eau douce",
+        "poisson de rivière"
+      ],
+      "pt": [
+        "enguia",
+        "carpa",
+        "bagre",
+        "barbo",
+        "brema",
+        "peixe de rio"
+      ]
+    },
+    "summary": {
+      "en": "Limit them: ANSES advises eating eel, carp, catfish, barbel and bream no more than once every two months during pregnancy and breastfeeding.",
+      "tr": "Sınırla: ANSES, hamilelik ve emzirme döneminde yılan balığı, sazan, yayın balığı, bıyıklı balık ve çapak balığının iki ayda bir defadan fazla yenmemesini öneriyor.",
+      "es": "Limítalos: la ANSES aconseja no comer anguila, carpa, siluro, barbo ni brema más de una vez cada dos meses durante el embarazo y la lactancia.",
+      "de": "Einschränken: Die ANSES rät, Aal, Karpfen, Wels, Barbe und Brasse in Schwangerschaft und Stillzeit höchstens einmal alle zwei Monate zu essen.",
+      "fr": "À limiter : l'ANSES conseille de ne pas manger d'anguille, de carpe, de silure, de barbeau ou de brème plus d'une fois tous les deux mois pendant la grossesse et l'allaitement.",
+      "pt": "Limite: a ANSES orienta não comer enguia, carpa, bagre, barbo ou brema mais de uma vez a cada dois meses durante a gravidez e a amamentação."
+    },
+    "details": {
+      "en": "These freshwater fish tend to accumulate PCBs and dioxins, pollutants that build up mainly in fatty fish such as eel. ANSES recommends that women of childbearing age, and those who are pregnant or breastfeeding, eat them at most once every two months, as a child's brain is particularly vulnerable to chemical contaminants during pregnancy and up to age 3. Other fish remain a good choice.",
+      "tr": "Bu tatlı su balıkları, özellikle yılan balığı gibi yağlı balıklarda biriken PCB ve dioksin gibi kirleticileri biriktirme eğilimindedir. ANSES, doğurganlık çağındaki, hamile ya da emziren kadınlara bu balıkları en fazla iki ayda bir yemelerini öneriyor, çünkü çocuğun beyni hamilelikte ve 3 yaşına kadar kimyasal kirleticilere karşı özellikle hassastır. Diğer balıklar iyi bir seçenek olmaya devam ediyor.",
+      "es": "Estos peces de agua dulce tienden a acumular PCB y dioxinas, contaminantes que se concentran sobre todo en pescados grasos como la anguila. La ANSES recomienda a las mujeres en edad fértil, embarazadas o en lactancia comerlos como máximo una vez cada dos meses, porque el cerebro del niño es especialmente vulnerable a los contaminantes químicos durante el embarazo y hasta los 3 años. Los demás pescados siguen siendo una buena opción.",
+      "de": "Diese Süßwasserfische reichern häufig PCB und Dioxine an, Schadstoffe, die sich vor allem in fetten Fischen wie Aal ansammeln. Die ANSES empfiehlt Frauen im gebärfähigen Alter sowie Schwangeren und Stillenden, sie höchstens einmal alle zwei Monate zu essen, da das Gehirn eines Kindes während der Schwangerschaft und bis zum Alter von 3 Jahren besonders empfindlich gegenüber chemischen Schadstoffen ist. Andere Fische bleiben eine gute Wahl.",
+      "fr": "Ces poissons d'eau douce ont tendance à accumuler des PCB et des dioxines, des polluants qui se concentrent surtout dans les poissons gras comme l'anguille. L'ANSES recommande aux femmes en âge de procréer, enceintes ou allaitantes, de n'en consommer qu'une fois tous les deux mois au maximum, car le cerveau de l'enfant est particulièrement vulnérable aux contaminants chimiques pendant la grossesse et jusqu'à 3 ans. Les autres poissons restent un bon choix.",
+      "pt": "Esses peixes de água doce tendem a acumular PCBs e dioxinas, poluentes que se concentram principalmente em peixes gordos, como a enguia. A ANSES recomenda que mulheres em idade fértil, gestantes ou lactantes os comam no máximo uma vez a cada dois meses, porque o cérebro da criança é especialmente vulnerável a contaminantes químicos durante a gravidez e até os 3 anos. Os outros peixes continuam sendo uma boa escolha."
+    },
+    "tips": {
+      "en": [
+        "If you fish for leisure, follow any local advice not to eat fish caught in certain areas.",
+        "For your weekly fish, vary the species and where they come from."
+      ],
+      "tr": [
+        "Hobi olarak balık tutuyorsan, bazı bölgelerde balık yenmemesine dair yerel uyarılara uy.",
+        "Haftalık balığın için türleri ve alındığı yerleri çeşitlendir."
+      ],
+      "es": [
+        "Si pescas por afición, sigue las recomendaciones locales de no consumir el pescado de determinadas zonas.",
+        "Para tu pescado semanal, varía las especies y su procedencia."
+      ],
+      "de": [
+        "Wenn du in der Freizeit angelst, halte dich an örtliche Hinweise, Fisch aus bestimmten Gewässern nicht zu essen.",
+        "Wechsle bei deinem wöchentlichen Fisch die Arten und die Herkunft ab."
+      ],
+      "fr": [
+        "Si tu pratiques la pêche de loisir, respecte les recommandations locales de non-consommation dans certaines zones.",
+        "Pour ton poisson de la semaine, varie les espèces et les lieux d'approvisionnement."
+      ],
+      "pt": [
+        "Se você pesca por lazer, siga as orientações locais para não comer peixes de certas áreas.",
+        "No seu peixe da semana, varie as espécies e a procedência."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Manger du poisson : pourquoi ? comment ?",
+        "url": "https://www.anses.fr/fr/content/manger-du-poisson-pourquoi-comment"
+      }
+    ]
+  },
+  {
+    "id": "soy",
+    "category": "food",
+    "emoji": "🫘",
+    "verdict": "caution",
+    "name": {
+      "en": "Soy foods (tofu, soy drinks)",
+      "tr": "Soya ürünleri (tofu, soya içeceği)",
+      "es": "Soja (tofu, bebidas de soja)",
+      "de": "Soja (Tofu, Sojadrinks)",
+      "fr": "Soja (tofu, boissons au soja)",
+      "pt": "Soja (tofu, bebidas de soja)"
+    },
+    "aliases": {
+      "en": [
+        "soy",
+        "soya",
+        "tofu",
+        "soy milk",
+        "soya milk",
+        "edamame",
+        "tempeh",
+        "soy yogurt"
+      ],
+      "tr": [
+        "soya",
+        "tofu",
+        "soya sütü",
+        "edamame",
+        "soya yoğurdu",
+        "soya kıyması"
+      ],
+      "es": [
+        "soja",
+        "tofu",
+        "leche de soja",
+        "bebida de soja",
+        "edamame",
+        "tempeh"
+      ],
+      "de": [
+        "Soja",
+        "Tofu",
+        "Sojamilch",
+        "Sojadrink",
+        "Edamame",
+        "Tempeh"
+      ],
+      "fr": [
+        "soja",
+        "tofu",
+        "lait de soja",
+        "boisson au soja",
+        "dessert au soja",
+        "edamame",
+        "tempeh"
+      ],
+      "pt": [
+        "soja",
+        "tofu",
+        "leite de soja",
+        "bebida de soja",
+        "edamame",
+        "tempeh"
+      ]
+    },
+    "summary": {
+      "en": "Best kept occasional: ANSES has set a lower safe intake for soy isoflavones in pregnancy, and people who eat soy foods regularly can exceed it.",
+      "tr": "Ara sıra tüketmek en iyisi: ANSES hamilelik için soya izoflavonlarına daha düşük bir güvenli sınır belirledi ve düzenli soya tüketenler bu sınırı aşabiliyor.",
+      "es": "Mejor de vez en cuando: la ANSES ha fijado una ingesta segura más baja de isoflavonas de soja en el embarazo, y quienes toman soja a menudo pueden superarla.",
+      "de": "Lieber nur gelegentlich: Die ANSES hat für die Schwangerschaft einen niedrigeren sicheren Aufnahmewert für Soja-Isoflavone festgelegt, und wer regelmäßig Sojaprodukte isst, kann ihn überschreiten.",
+      "fr": "À garder occasionnel : l'ANSES a fixé une limite plus basse pour les isoflavones de soja pendant la grossesse, et les consommateurs réguliers de soja peuvent la dépasser.",
+      "pt": "Melhor consumir só de vez em quando: a ANSES definiu uma ingestão segura menor de isoflavonas de soja na gravidez, e quem come soja com frequência pode ultrapassá-la."
+    },
+    "details": {
+      "en": "Soy contains isoflavones, plant compounds with oestrogen-like hormonal activity that can affect the reproductive system when eaten in excess. In 2025 ANSES set a reference value of 0.01 mg per kg of body weight per day for pregnant women and women of childbearing age, half the value for the general population, and found that a large share of people who eat soy-based foods exceed these values. It advises eating a varied range of plant foods, since pulses other than soy contain far fewer isoflavones.",
+      "tr": "Soya, aşırı tüketildiğinde üreme sistemini etkileyebilen, östrojen benzeri hormonal etkiye sahip bitkisel bileşikler olan izoflavonlar içerir. ANSES 2025'te hamile ve doğurganlık çağındaki kadınlar için vücut ağırlığının kilogramı başına günde 0,01 mg'lık bir referans değer belirledi; bu, genel nüfus için belirlenen değerin yarısı. Kurum, soya bazlı yiyecek tüketenlerin önemli bir kısmının bu değerleri aştığını tespit etti ve soya dışındaki baklagillerde çok daha az izoflavon bulunduğu için bitkisel besinlerin çeşitlendirilmesini öneriyor.",
+      "es": "La soja contiene isoflavonas, compuestos vegetales con una actividad hormonal parecida a la de los estrógenos que pueden afectar al sistema reproductor si se consumen en exceso. En 2025, la ANSES fijó un valor de referencia de 0,01 mg por kg de peso corporal al día para las embarazadas y las mujeres en edad fértil, la mitad del valor para la población general, y observó que una gran parte de las personas que toman alimentos a base de soja superan estos valores. Aconseja variar los alimentos de origen vegetal, ya que las legumbres distintas de la soja contienen muchas menos isoflavonas.",
+      "de": "Soja enthält Isoflavone, Pflanzenstoffe mit östrogenähnlicher hormoneller Wirkung, die bei übermäßigem Verzehr das Fortpflanzungssystem beeinflussen können. 2025 legte die ANSES für Schwangere und Frauen im gebärfähigen Alter einen Referenzwert von 0,01 mg pro kg Körpergewicht und Tag fest, halb so viel wie für die Allgemeinbevölkerung, und stellte fest, dass ein großer Teil der Menschen, die Sojaprodukte essen, diese Werte überschreitet. Sie rät zu abwechslungsreicher pflanzlicher Ernährung, da andere Hülsenfrüchte als Soja deutlich weniger Isoflavone enthalten.",
+      "fr": "Le soja contient des isoflavones, des composés végétaux à activité hormonale de type œstrogène, qui peuvent avoir des effets sur le système reproducteur en cas de consommation excessive. En 2025, l'ANSES a fixé une valeur de référence de 0,01 mg par kg de poids corporel et par jour pour les femmes enceintes et en âge de procréer, soit la moitié de celle de la population générale, et a constaté qu'une grande partie des consommateurs d'aliments à base de soja dépassent ces valeurs. Elle conseille de diversifier les aliments d'origine végétale, car les légumes secs autres que le soja contiennent nettement moins d'isoflavones.",
+      "pt": "A soja contém isoflavonas, compostos vegetais com atividade hormonal parecida com a do estrogênio que podem afetar o sistema reprodutor quando consumidos em excesso. Em 2025, a ANSES definiu um valor de referência de 0,01 mg por kg de peso corporal por dia para gestantes e mulheres em idade fértil, metade do valor para a população em geral, e constatou que grande parte de quem consome alimentos à base de soja ultrapassa esses valores. Ela recomenda variar os alimentos de origem vegetal, já que as leguminosas que não são soja contêm bem menos isoflavonas."
+    },
+    "tips": {
+      "en": [
+        "Swap some soy products for lentils, chickpeas or beans, which contain far fewer isoflavones.",
+        "If you're vegetarian or vegan, ask your midwife or doctor how to get enough protein from varied sources."
+      ],
+      "tr": [
+        "Soya ürünlerinin bir kısmının yerine mercimek, nohut ya da fasulye tüket; bunlarda çok daha az izoflavon var.",
+        "Vejetaryen ya da vegan besleniyorsan, proteini çeşitli kaynaklardan nasıl yeterince alacağını ebene veya doktoruna sor."
+      ],
+      "es": [
+        "Cambia parte de los productos de soja por lentejas, garbanzos o alubias, que contienen muchas menos isoflavonas.",
+        "Si eres vegetariana o vegana, pregunta a tu matrona o a tu médico cómo obtener suficientes proteínas de fuentes variadas."
+      ],
+      "de": [
+        "Ersetze einen Teil der Sojaprodukte durch Linsen, Kichererbsen oder Bohnen, die deutlich weniger Isoflavone enthalten.",
+        "Wenn du dich vegetarisch oder vegan ernährst, frag deine Hebamme oder deine Ärztin bzw. deinen Arzt, wie du genug Eiweiß aus verschiedenen Quellen bekommst."
+      ],
+      "fr": [
+        "Remplace une partie des produits au soja par des lentilles, des pois chiches ou des haricots, beaucoup moins riches en isoflavones.",
+        "Si tu suis une alimentation végétarienne ou végane, demande à ta sage-femme ou à ton médecin comment couvrir tes besoins en protéines avec des sources variées."
+      ],
+      "pt": [
+        "Troque parte dos produtos de soja por lentilha, grão-de-bico ou feijão, que têm bem menos isoflavonas.",
+        "Se você é vegetariana ou vegana, pergunte à sua obstetra ou ao seu médico como obter proteína suficiente de fontes variadas."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANSES: Éviter les isoflavones dans les menus en restauration collective (2025)",
+        "url": "https://www.anses.fr/fr/actualite/eviter-isoflavones-menus-restaurations-collectives"
+      }
+    ]
+  },
+  {
+    "id": "phloroglucinol",
+    "category": "medicine",
+    "emoji": "💊",
+    "verdict": "caution",
+    "name": {
+      "en": "Phloroglucinol (Spasfon)",
+      "tr": "Floroglusinol (Spasfon)",
+      "es": "Floroglucinol (Spasfon)",
+      "de": "Phloroglucin (Spasfon)",
+      "fr": "Phloroglucinol (Spasfon)",
+      "pt": "Floroglucinol (Spasfon)"
+    },
+    "aliases": {
+      "en": [
+        "spasfon",
+        "spasfon lyoc",
+        "spasmocalm",
+        "antispasmodic",
+        "cramp medicine"
+      ],
+      "tr": [
+        "spasfon",
+        "spazm çözücü",
+        "kramp ilacı",
+        "karın krampı ilacı"
+      ],
+      "es": [
+        "spasfon",
+        "spasfon lyoc",
+        "spasmocalm",
+        "floroglucinol",
+        "antiespasmódico",
+        "medicamento para los cólicos"
+      ],
+      "de": [
+        "Spasfon",
+        "Spasfon Lyoc",
+        "Spasmocalm",
+        "Phloroglucinol",
+        "Krampflöser",
+        "Mittel gegen Krämpfe"
+      ],
+      "fr": [
+        "spasfon",
+        "spasfon lyoc",
+        "spasmocalm",
+        "antispasmodique",
+        "médicament contre les spasmes"
+      ],
+      "pt": [
+        "spasfon",
+        "spasfon lyoc",
+        "spasmocalm",
+        "floroglucinol",
+        "antiespasmódico",
+        "remédio para cólica"
+      ]
+    },
+    "summary": {
+      "en": "France's reference centre on medicines in pregnancy (CRAT) says it can be used at any stage of pregnancy, but cramps or tummy pain should be checked first.",
+      "tr": "Fransa'nın gebelikte ilaç kullanımı referans merkezi CRAT, hamileliğin her döneminde kullanılabileceğini belirtiyor; ama kramp ya da karın ağrısı önce değerlendirilmeli.",
+      "es": "El centro de referencia francés sobre medicamentos en el embarazo (CRAT) indica que se puede usar en cualquier etapa del embarazo, pero los cólicos o el dolor de barriga deben valorarse primero.",
+      "de": "Das französische Referenzzentrum für Arzneimittel in der Schwangerschaft (CRAT) sagt, dass es in jeder Phase der Schwangerschaft angewendet werden kann – Krämpfe oder Bauchschmerzen sollten aber zuerst abgeklärt werden.",
+      "fr": "Le CRAT (Centre de référence sur les agents tératogènes) indique qu'il peut être utilisé à tout moment de la grossesse, mais les crampes ou douleurs au ventre doivent d'abord être évaluées.",
+      "pt": "O centro de referência francês sobre medicamentos na gravidez (CRAT) diz que ele pode ser usado em qualquer fase da gestação, mas cólicas ou dor na barriga devem ser avaliadas primeiro."
+    },
+    "details": {
+      "en": "Phloroglucinol is an antispasmodic, widely used in France for cramp-like pain. CRAT notes that there is a large amount of published data on women who took it in pregnancy, with no harmful effects on the baby reported to date, and says it can be used whatever the stage of pregnancy. Cramps or tummy pain in pregnancy can have many causes, including contractions, so get them assessed rather than only treating the pain.",
+      "tr": "Floroglusinol, Fransa'da kramp tarzı ağrılar için yaygın olarak kullanılan bir spazm çözücüdür. CRAT, hamilelikte bu ilacı kullanan kadınlarla ilgili çok sayıda yayımlanmış veri bulunduğunu ve bugüne kadar bebek üzerinde zararlı bir etki bildirilmediğini belirterek, hamileliğin hangi döneminde olursa olsun kullanılabileceğini söylüyor. Hamilelikte kramp ya da karın ağrısının kasılmalar dahil pek çok nedeni olabilir; bu yüzden ağrıyı yalnızca dindirmek yerine değerlendirilmesini sağla.",
+      "es": "El floroglucinol es un antiespasmódico muy usado en Francia para el dolor de tipo cólico. El CRAT señala que hay muchísimos datos publicados sobre mujeres que lo tomaron en el embarazo, sin efectos perjudiciales para el bebé descritos hasta la fecha, y que se puede usar sea cual sea la etapa del embarazo. Los cólicos o el dolor de barriga en el embarazo pueden tener muchas causas, entre ellas las contracciones, así que haz que los valoren en lugar de solo tratar el dolor.",
+      "de": "Phloroglucin ist ein krampflösendes Mittel, das in Frankreich häufig bei krampfartigen Schmerzen eingesetzt wird. Das CRAT weist darauf hin, dass es sehr viele veröffentlichte Daten zu Frauen gibt, die es in der Schwangerschaft genommen haben, dass bisher keine schädlichen Wirkungen auf das Baby berichtet wurden und dass es unabhängig vom Schwangerschaftsstadium angewendet werden kann. Krämpfe oder Bauchschmerzen in der Schwangerschaft können viele Ursachen haben, auch Wehen – lass sie deshalb abklären, statt nur den Schmerz zu behandeln.",
+      "fr": "Le phloroglucinol est un antispasmodique très utilisé en France contre les douleurs de type crampes. Le CRAT souligne que les données publiées chez les femmes enceintes exposées sont très nombreuses, sans effet nocif sur le bébé rapporté à ce jour, et que son utilisation est possible quel que soit le terme. Pendant la grossesse, des crampes ou des douleurs au ventre peuvent avoir de nombreuses causes, dont des contractions : fais-les évaluer plutôt que de seulement calmer la douleur.",
+      "pt": "O floroglucinol é um antiespasmódico muito usado na França para dores do tipo cólica. O CRAT observa que há muitos dados publicados sobre mulheres que o tomaram na gravidez, sem efeitos nocivos para o bebê relatados até hoje, e diz que ele pode ser usado em qualquer fase da gestação. Cólicas ou dor na barriga na gravidez podem ter muitas causas, incluindo contrações, então procure avaliação em vez de só tratar a dor."
+    },
+    "tips": {
+      "en": [
+        "Painful or regular tightenings before 37 weeks, bleeding or severe pain need urgent advice from your midwife or maternity unit.",
+        "Tell your pharmacist you're pregnant before taking any medicine."
+      ],
+      "tr": [
+        "37. haftadan önce ağrılı ya da düzenli kasılmalar, kanama veya şiddetli ağrı varsa hemen ebeni ya da doğumhaneyi ara.",
+        "Herhangi bir ilaç almadan önce eczacına hamile olduğunu söyle."
+      ],
+      "es": [
+        "Las contracciones dolorosas o regulares antes de las 37 semanas, el sangrado o un dolor intenso requieren consultar urgentemente con tu matrona o con urgencias de maternidad.",
+        "Dile a tu farmacéutico que estás embarazada antes de tomar cualquier medicamento."
+      ],
+      "de": [
+        "Schmerzhaftes oder regelmäßiges Hartwerden des Bauchs vor der 37. Woche, Blutungen oder starke Schmerzen: Wende dich dringend an deine Hebamme oder deine Geburtsklinik.",
+        "Sag in der Apotheke, dass du schwanger bist, bevor du ein Medikament nimmst."
+      ],
+      "fr": [
+        "Des contractions douloureuses ou régulières avant 37 semaines, des saignements ou une douleur intense nécessitent un avis urgent de ta sage-femme ou de ta maternité.",
+        "Dis à ton pharmacien que tu es enceinte avant de prendre tout médicament."
+      ],
+      "pt": [
+        "Contrações dolorosas ou regulares antes de 37 semanas, sangramento ou dor forte exigem orientação urgente da sua obstetra ou da maternidade.",
+        "Avise o farmacêutico que você está grávida antes de tomar qualquer remédio."
+      ]
+    },
+    "sources": [
+      {
+        "name": "CRAT: Phloroglucinol-triméthylphloroglucinol – Grossesse",
+        "url": "https://www.lecrat.fr/11748/"
+      }
+    ]
+  },
+  {
+    "id": "venotonics",
+    "category": "medicine",
+    "emoji": "🦵",
+    "verdict": "caution",
+    "name": {
+      "en": "Venotonics for heavy legs (Daflon)",
+      "tr": "Ağır bacak ilaçları / venotonikler (Daflon)",
+      "es": "Venotónicos para piernas cansadas (Daflon)",
+      "de": "Venenmittel bei schweren Beinen (Daflon)",
+      "fr": "Veinotoniques (Daflon) pour jambes lourdes",
+      "pt": "Venotônicos para pernas pesadas (Daflon)"
+    },
+    "aliases": {
+      "en": [
+        "daflon",
+        "diosmin",
+        "hesperidin",
+        "troxerutin",
+        "heavy legs",
+        "venotonic",
+        "varicose vein tablets"
+      ],
+      "tr": [
+        "daflon",
+        "diosmin",
+        "hesperidin",
+        "ağır bacak",
+        "varis ilacı",
+        "bacak ağrısı"
+      ],
+      "es": [
+        "daflon",
+        "diosmina",
+        "hesperidina",
+        "troxerutina",
+        "piernas cansadas",
+        "venotónico"
+      ],
+      "de": [
+        "Daflon",
+        "Diosmin",
+        "Hesperidin",
+        "Troxerutin",
+        "schwere Beine",
+        "Venenmittel"
+      ],
+      "fr": [
+        "daflon",
+        "diosmine",
+        "hespéridine",
+        "troxérutine",
+        "jambes lourdes",
+        "veinotonique",
+        "médiveine",
+        "cyclo 3 fort"
+      ],
+      "pt": [
+        "daflon",
+        "diosmina",
+        "hesperidina",
+        "troxerrutina",
+        "pernas pesadas",
+        "venotônico"
+      ]
+    },
+    "summary": {
+      "en": "Some can be used: CRAT recommends preferring diosmin, hesperidin, troxerutin or rutoside in pregnancy, so check which one you're offered.",
+      "tr": "Bazıları kullanılabilir: CRAT hamilelikte diosmin, hesperidin, troksörutin veya rutozidin tercih edilmesini öneriyor, bu yüzden sana önerilenin hangisi olduğunu kontrol et.",
+      "es": "Algunos se pueden usar: el CRAT recomienda preferir diosmina, hesperidina, troxerutina o rutósido en el embarazo, así que comprueba cuál te ofrecen.",
+      "de": "Manche sind möglich: Das CRAT empfiehlt in der Schwangerschaft bevorzugt Diosmin, Hesperidin, Troxerutin oder Rutosid – prüf also, welches Mittel dir angeboten wird.",
+      "fr": "Certains sont possibles : le CRAT recommande de privilégier la diosmine, l'hespéridine, la troxérutine ou le rutoside pendant la grossesse, alors vérifie lequel on te propose.",
+      "pt": "Alguns podem ser usados: o CRAT recomenda dar preferência a diosmina, hesperidina, troxerrutina ou rutosídeo na gravidez, então confira qual está sendo indicado para você."
+    },
+    "details": {
+      "en": "Venotonics are medicines for heavy, aching legs and varicose veins, which are common in pregnancy. Based on clinical studies, experience of use and how these medicines behave in the body, CRAT says the preferred options in pregnancy are diosmin (for example Daflon), hesperidin, troxerutin and rutoside. A painful, red or swollen calf, or sudden swelling, needs urgent medical advice rather than a venotonic.",
+      "tr": "Venotonikler, hamilelikte sık görülen bacak ağırlığı, bacak ağrısı ve varisler için kullanılan ilaçlardır. CRAT, klinik çalışmalara, kullanım deneyimine ve bu ilaçların vücuttaki davranışına dayanarak hamilelikte diosmin (örneğin Daflon), hesperidin, troksörutin ve rutozidin tercih edilmesi gerektiğini belirtiyor. Ağrılı, kızarık ya da şişmiş bir baldır veya ani şişlik, venotonik yerine acil tıbbi değerlendirme gerektirir.",
+      "es": "Los venotónicos son medicamentos para las piernas pesadas y doloridas y las varices, frecuentes en el embarazo. Según los estudios clínicos, la experiencia de uso y el comportamiento de estos medicamentos en el organismo, el CRAT indica que las opciones preferidas en el embarazo son la diosmina (por ejemplo, Daflon), la hesperidina, la troxerutina y el rutósido. Una pantorrilla dolorida, roja o hinchada, o una hinchazón repentina, requiere atención médica urgente, no un venotónico.",
+      "de": "Venenmittel sind Medikamente gegen schwere, schmerzende Beine und Krampfadern, die in der Schwangerschaft häufig sind. Auf Grundlage klinischer Studien, der Anwendungserfahrung und des Verhaltens dieser Arzneimittel im Körper nennt das CRAT als bevorzugte Optionen in der Schwangerschaft Diosmin (zum Beispiel Daflon), Hesperidin, Troxerutin und Rutosid. Eine schmerzende, gerötete oder geschwollene Wade oder eine plötzliche Schwellung braucht dringend ärztlichen Rat statt eines Venenmittels.",
+      "fr": "Les veinotoniques sont des médicaments contre les jambes lourdes et les varices, fréquentes pendant la grossesse. Au vu des études cliniques, du recul d'utilisation et des données de pharmacocinétique, le CRAT indique qu'on préférera pendant la grossesse la diosmine (par exemple Daflon), l'hespéridine, la troxérutine et le rutoside. Un mollet douloureux, rouge ou gonflé, ou un gonflement soudain, nécessite un avis médical urgent plutôt qu'un veinotonique.",
+      "pt": "Venotônicos são remédios para pernas pesadas e doloridas e para varizes, comuns na gravidez. Com base em estudos clínicos, na experiência de uso e em como esses remédios se comportam no organismo, o CRAT diz que as opções preferidas na gravidez são diosmina (por exemplo, Daflon), hesperidina, troxerrutina e rutosídeo. Uma panturrilha dolorida, vermelha ou inchada, ou um inchaço repentino, precisa de avaliação médica urgente, e não de um venotônico."
+    },
+    "tips": {
+      "en": [
+        "Ask your pharmacist to check the active ingredient before buying a product for heavy legs.",
+        "Putting your feet up and walking regularly can also help heavy legs."
+      ],
+      "tr": [
+        "Ağır bacaklar için bir ürün almadan önce eczacından etken maddeyi kontrol etmesini iste.",
+        "Bacaklarını yukarı kaldırmak ve düzenli yürümek de bacak ağırlığını hafifletebilir."
+      ],
+      "es": [
+        "Pide a tu farmacéutico que compruebe el principio activo antes de comprar un producto para las piernas cansadas.",
+        "Poner los pies en alto y caminar con regularidad también puede aliviar las piernas cansadas."
+      ],
+      "de": [
+        "Lass in der Apotheke den Wirkstoff prüfen, bevor du ein Mittel gegen schwere Beine kaufst.",
+        "Die Beine hochlegen und regelmäßig spazieren gehen kann bei schweren Beinen ebenfalls helfen."
+      ],
+      "fr": [
+        "Demande à ton pharmacien de vérifier la substance active avant d'acheter un produit pour les jambes lourdes.",
+        "Surélever tes jambes et marcher régulièrement peuvent aussi soulager les jambes lourdes."
+      ],
+      "pt": [
+        "Peça ao farmacêutico para conferir o princípio ativo antes de comprar um produto para pernas pesadas.",
+        "Colocar os pés para cima e caminhar com regularidade também podem ajudar nas pernas pesadas."
+      ]
+    },
+    "sources": [
+      {
+        "name": "CRAT: Veinotoniques – Grossesse",
+        "url": "https://www.lecrat.fr/8530/"
+      }
+    ]
+  },
+  {
+    "id": "homeopathy",
+    "category": "medicine",
+    "emoji": "⚪",
+    "verdict": "caution",
+    "name": {
+      "en": "Homeopathy",
+      "tr": "Homeopati",
+      "es": "Homeopatía",
+      "de": "Homöopathie",
+      "fr": "Homéopathie",
+      "pt": "Homeopatia"
+    },
+    "aliases": {
+      "en": [
+        "homeopathic remedies",
+        "homeopathic pills",
+        "arnica granules",
+        "boiron",
+        "granules"
+      ],
+      "tr": [
+        "homeopatik ilaç",
+        "homeopati",
+        "arnika",
+        "boiron",
+        "granül"
+      ],
+      "es": [
+        "homeopatía",
+        "remedios homeopáticos",
+        "glóbulos",
+        "gránulos",
+        "gránulos de árnica",
+        "boiron"
+      ],
+      "de": [
+        "Homöopathie",
+        "Globuli",
+        "homöopathische Mittel",
+        "Arnika-Globuli",
+        "Boiron",
+        "Kügelchen"
+      ],
+      "fr": [
+        "homéopathie",
+        "granules",
+        "arnica",
+        "boiron",
+        "tube de granules",
+        "dose homéopathique"
+      ],
+      "pt": [
+        "homeopatia",
+        "remédio homeopático",
+        "glóbulos",
+        "glóbulos homeopáticos",
+        "arnica",
+        "boiron"
+      ]
+    },
+    "summary": {
+      "en": "No major risk is expected, but CRAT can't give an opinion on it, and it should never delay effective care.",
+      "tr": "Büyük bir risk beklenmiyor, ama CRAT bu konuda görüş bildiremiyor ve homeopati asla etkili tedaviyi geciktirmemeli.",
+      "es": "No se espera un riesgo importante, pero el CRAT no puede pronunciarse sobre ella, y nunca debería retrasar un tratamiento eficaz.",
+      "de": "Ein größeres Risiko ist nicht zu erwarten, aber das CRAT kann keine Einschätzung dazu abgeben, und sie sollte eine wirksame Behandlung nie verzögern.",
+      "fr": "Pas de risque majeur attendu, mais le CRAT ne peut pas se prononcer, et elle ne doit jamais retarder une prise en charge efficace.",
+      "pt": "Não se espera risco importante, mas o CRAT não pode dar uma opinião sobre ela, e ela nunca deve atrasar um tratamento eficaz."
+    },
+    "details": {
+      "en": "CRAT reports that, although there are no studies, long experience of use hasn't revealed harmful effects on the baby, so no major risk is expected a priori. The main risk is delayed care when homeopathy is used instead of a proven treatment. Because its effectiveness can't be measured in clinical trials, CRAT says it can't give an opinion on homeopathy in pregnancy, and notes that liquid forms may contain alcohol.",
+      "tr": "CRAT, çalışma bulunmasa da uzun kullanım deneyiminde bebek üzerinde zararlı bir etki bildirilmediğini, dolayısıyla ilk bakışta büyük bir risk beklenmediğini belirtiyor. Asıl risk, homeopatinin kanıtlanmış bir tedavinin yerine kullanılmasıyla bakımın gecikmesidir. Etkinliği klinik çalışmalarla ölçülemediği için CRAT hamilelikte homeopati hakkında görüş bildiremeyeceğini söylüyor ve sıvı formların alkol içerebileceğini hatırlatıyor.",
+      "es": "El CRAT indica que, aunque no hay estudios, la larga experiencia de uso no ha revelado efectos perjudiciales para el bebé, así que, en principio, no se espera un riesgo importante. El principal riesgo es retrasar la atención cuando se usa la homeopatía en lugar de un tratamiento de eficacia demostrada. Como su eficacia no se puede medir en ensayos clínicos, el CRAT afirma que no puede pronunciarse sobre la homeopatía en el embarazo, y advierte que las formas líquidas pueden contener alcohol.",
+      "de": "Das CRAT berichtet, dass es zwar keine Studien gibt, die lange Anwendungserfahrung aber keine schädlichen Wirkungen auf das Baby gezeigt hat – ein größeres Risiko ist daher von vornherein nicht zu erwarten. Das Hauptrisiko ist eine verzögerte Behandlung, wenn Homöopathie statt einer bewährten Therapie eingesetzt wird. Weil sich ihre Wirksamkeit in klinischen Studien nicht messen lässt, kann das CRAT nach eigener Aussage keine Einschätzung zur Homöopathie in der Schwangerschaft abgeben, und es weist darauf hin, dass flüssige Formen Alkohol enthalten können.",
+      "fr": "Le CRAT indique qu'en l'absence d'études, mais avec un recul d'usage important, aucun effet nocif sur le bébé n'a été rapporté à ce jour : il n'y aurait donc a priori pas de risque majeur. Le principal risque est une perte de chance si l'homéopathie remplace un traitement efficace et retarde la prise en charge. Son efficacité ne pouvant pas être mesurée par des essais cliniques, le CRAT ne se prononce pas sur son usage pendant la grossesse, et rappelle que les formes liquides peuvent contenir de l'alcool.",
+      "pt": "O CRAT informa que, embora não existam estudos, a longa experiência de uso não revelou efeitos nocivos para o bebê, então, a princípio, não se espera risco importante. O principal risco é atrasar o cuidado quando a homeopatia é usada no lugar de um tratamento comprovado. Como sua eficácia não pode ser medida em ensaios clínicos, o CRAT diz que não pode dar uma opinião sobre a homeopatia na gravidez, e lembra que as formas líquidas podem conter álcool."
+    },
+    "tips": {
+      "en": [
+        "Choose granules or globules rather than drops or vials, which may contain alcohol.",
+        "Don't use it in place of a treatment your midwife or doctor recommends."
+      ],
+      "tr": [
+        "Alkol içerebilen damla ya da içilebilir ampuller yerine granül veya globül formları tercih et.",
+        "Ebenin ya da doktorunun önerdiği bir tedavinin yerine kullanma."
+      ],
+      "es": [
+        "Elige gránulos o glóbulos en lugar de gotas o ampollas, que pueden contener alcohol.",
+        "No la uses en lugar de un tratamiento que te recomiende tu matrona o tu médico."
+      ],
+      "de": [
+        "Wähle Granulat oder Globuli statt Tropfen oder Trinkampullen, die Alkohol enthalten können.",
+        "Verwende sie nicht anstelle einer Behandlung, die deine Hebamme oder deine Ärztin bzw. dein Arzt empfiehlt."
+      ],
+      "fr": [
+        "Préfère les granules ou les globules aux gouttes ou ampoules buvables, qui peuvent contenir de l'alcool.",
+        "Ne l'utilise pas à la place d'un traitement recommandé par ta sage-femme ou ton médecin."
+      ],
+      "pt": [
+        "Prefira grânulos ou glóbulos em vez de gotas ou ampolas, que podem conter álcool.",
+        "Não use no lugar de um tratamento recomendado pela sua obstetra ou pelo seu médico."
+      ]
+    },
+    "sources": [
+      {
+        "name": "CRAT: Homéopathie – Grossesse",
+        "url": "https://www.lecrat.fr/1048/"
+      }
+    ]
+  }
+]

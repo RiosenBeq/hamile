@@ -1,9 +1,12 @@
 // Shared shapes for Marigold's bundled, offline content. Everything ships in
-// the app binary (no network needed) and is bilingual — every user-facing
-// string exists in English and Turkish.
+// the app binary (no network needed). English is always present; Turkish is
+// authored alongside it; Spanish, German, French and Portuguese are layered on
+// at load time from ./locales/<lang>/*.json. Readers fall back to English.
 
-export type L10n = { en: string; tr: string };
-export type L10nList = { en: string[]; tr: string[] };
+export type ContentLang = 'en' | 'tr' | 'es' | 'de' | 'fr' | 'pt';
+
+export type L10n = { en: string; tr?: string } & Partial<Record<Exclude<ContentLang, 'en' | 'tr'>, string>>;
+export type L10nList = { en: string[]; tr?: string[] } & Partial<Record<Exclude<ContentLang, 'en' | 'tr'>, string[]>>;
 
 /** A citation shown under medical content (App Review guideline 1.4.1). */
 export type Source = { name: string; url: string };
@@ -15,8 +18,12 @@ export type Verdict = 'safe' | 'caution' | 'avoid';
 export type WeekContent = {
   /** Gestational week, counted from the first day of the last period (1–42). */
   week: number;
-  /** Size comparison shown as a big emoji + name ("a lime"). */
-  size: { emoji: string; name: L10n };
+  /**
+   * Size comparison shown as a big emoji + name ("a lime"). `title`/`phrase`
+   * hold the heading noun and the "size of …" phrase for languages whose
+   * grammar can't be derived from `name` (articles, cases, de/d'/du…).
+   */
+  size: { emoji: string; name: L10n; title?: Partial<Record<ContentLang, string>>; phrase?: Partial<Record<ContentLang, string>> };
   /** Approximate crown–rump (≤ week 20) or crown–heel (> week 20) length. Null before it is measurable. */
   lengthCm: number | null;
   /** Approximate weight in grams. Null when negligible / not meaningful. */
@@ -96,6 +103,7 @@ export type ChecklistItem = {
 // ── Baby names ─────────────────────────────────────────────────────────────
 
 export type NameGender = 'f' | 'm' | 'u';
+export type NameList = 'tr' | 'intl' | 'es' | 'de' | 'fr' | 'pt';
 
 export type BabyName = {
   name: string;
@@ -103,6 +111,10 @@ export type BabyName = {
   /** Origin, e.g. { en: 'Turkish', tr: 'Türkçe' }. */
   origin: L10n;
   meaning: L10n;
-  /** Which list it is popular in: Turkey, international (English-speaking), or both. */
-  popular: ('tr' | 'intl')[];
+  /**
+   * Which popular lists it appears in: Turkey, international (English-speaking),
+   * or a language market (es: Spain/Mexico, de: DACH, fr: France/Belgium/Québec,
+   * pt: Brazil).
+   */
+  popular: NameList[];
 };

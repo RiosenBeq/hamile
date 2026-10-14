@@ -1,0 +1,154 @@
+{
+  "take-pregnancy-test": {
+    "title": "Faça um teste de gravidez de farmácia",
+    "detail": "A maioria dos testes é confiável a partir do primeiro dia de atraso da menstruação. Se der negativo e a menstruação continuar sem vir, repita o teste alguns dias depois."
+  },
+  "start-folic-acid": {
+    "title": "Tome ácido fólico todos os dias",
+    "detail": "400 microgramas por dia, de preferência desde antes da concepção até 12 semanas. Seu médico pode recomendar uma dose maior em algumas situações."
+  },
+  "review-medicines": {
+    "title": "Revise seus remédios e suplementos",
+    "detail": "Pergunte a um médico ou farmacêutico antes de começar ou parar qualquer coisa, e evite suplementos com vitamina A (retinol)."
+  },
+  "stop-alcohol-and-smoking": {
+    "title": "Pare com o álcool e o cigarro",
+    "detail": "Não se conhece nenhuma quantidade de álcool que seja segura na gravidez. Se você fuma, peça apoio ao seu médico ou à sua obstetra para parar."
+  },
+  "limit-caffeine": {
+    "title": "Mantenha a cafeína abaixo de 200 mg por dia",
+    "detail": "Isso equivale a cerca de duas canecas de café solúvel. Chá, refrigerante de cola, energéticos e chocolate também têm cafeína."
+  },
+  "learn-food-safety": {
+    "title": "Saiba quais alimentos evitar",
+    "detail": "Como laticínios não pasteurizados, carne crua ou malpassada, fígado e peixes com muito mercúrio, como tubarão (cação) e peixe-espada."
+  },
+  "book-first-appointment": {
+    "title": "Marque sua primeira consulta de pré-natal",
+    "detail": "É a consulta de início do pré-natal; costuma acontecer entre 8 e 12 semanas e aborda seu histórico de saúde, exames e opções de acompanhamento."
+  },
+  "ask-about-vitamin-d": {
+    "title": "Pergunte sobre a vitamina D",
+    "detail": "Muitas pessoas são orientadas a tomar um suplemento diário de vitamina D na gravidez. As quantidades recomendadas variam de país para país."
+  },
+  "first-blood-tests": {
+    "title": "Faça seus primeiros exames de sangue",
+    "detail": "Eles costumam verificar seu tipo sanguíneo e fator Rh (D), os níveis de ferro e infecções como HIV, hepatite B e sífilis."
+  },
+  "flu-and-covid-vaccines": {
+    "title": "Pergunte sobre as vacinas da gripe e da COVID-19",
+    "detail": "A vacina da gripe pode ser tomada em qualquer fase da gravidez durante a temporada de gripe. Pergunte se a vacina da COVID-19 é recomendada para você."
+  },
+  "decide-on-screening": {
+    "title": "Decida sobre os exames de rastreamento",
+    "detail": "Podem oferecer a você o teste combinado (por volta de 10 a 14 semanas) ou o NIPT (a partir de 10 semanas). Fazer o rastreamento é uma escolha sua."
+  },
+  "dating-scan": {
+    "title": "Faça o ultrassom de datação",
+    "detail": "Geralmente entre 10 e 14 semanas, ele avalia o desenvolvimento do bebê e confirma a data prevista do parto."
+  },
+  "dental-check-up": {
+    "title": "Marque uma consulta com o dentista",
+    "detail": "Problemas na gengiva são comuns na gravidez. Avise o dentista que você está grávida."
+  },
+  "pelvic-floor-exercises": {
+    "title": "Comece os exercícios diários do assoalho pélvico",
+    "detail": "Contraia e eleve os músculos que você usaria para segurar o xixi, segure por alguns segundos e relaxe. Eles ajudam a evitar escapes agora e depois do parto."
+  },
+  "whooping-cough-vaccine": {
+    "title": "Pergunte sobre a vacina contra coqueluche",
+    "detail": "Geralmente aplicada entre 16 e 32 semanas no Reino Unido ou entre 27 e 36 semanas nos EUA. Ela ajuda a proteger o bebê nas primeiras semanas de vida."
+  },
+  "choose-birth-place": {
+    "title": "Pense em onde dar à luz",
+    "detail": "Opções como hospital, casa de parto ou parto domiciliar variam conforme a região. Você pode mudar de ideia depois."
+  },
+  "maternity-leave-rights": {
+    "title": "Informe-se sobre licença-maternidade e salário",
+    "detail": "As regras e os prazos variam por país e por empregador. Anote quando você precisa avisar seu empregador e pedir o pagamento a que tiver direito."
+  },
+  "anomaly-scan": {
+    "title": "Faça o ultrassom morfológico",
+    "detail": "Este ultrassom detalhado, geralmente entre cerca de 18 e 22 semanas, verifica como o bebê está crescendo e se desenvolvendo."
+  },
+  "pregnancy-certificate": {
+    "title": "Peça um atestado de gravidez para o trabalho",
+    "detail": "Alguns empregadores e programas de benefícios exigem um atestado do seu médico ou da sua obstetra, como o formulário MAT B1 no Reino Unido."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Conheça os sinais de alerta da pré-eclâmpsia",
+    "detail": "Dor de cabeça forte, problemas de visão, dor logo abaixo das costelas ou inchaço repentino do rosto, das mãos ou dos pés precisam ser avaliados com urgência."
+  },
+  "book-antenatal-classes": {
+    "title": "Inscreva-se em um curso de gestante",
+    "detail": "Cursos sobre trabalho de parto, parto e amamentação podem ajudar você a se preparar. Os mais procurados lotam cedo."
+  },
+  "glucose-test": {
+    "title": "Teste de glicose para diabetes gestacional",
+    "detail": "Muitas vezes feito entre 24 e 28 semanas, para todas as gestantes ou só se você tiver fatores de risco, dependendo de onde você mora."
+  },
+  "know-baby-movements": {
+    "title": "Conheça os movimentos do seu bebê",
+    "detail": "Não existe um número certo de chutes para contar. Se os movimentos diminuírem, mudarem ou pararem, ligue imediatamente para a maternidade."
+  },
+  "partner-leave": {
+    "title": "Verifique a licença do seu parceiro ou parceira",
+    "detail": "Se seu parceiro ou parceira pretende tirar uns dias de folga perto do parto, talvez precise avisar o empregador até uma data definida."
+  },
+  "baby-essentials-list": {
+    "title": "Faça uma lista do essencial para o bebê",
+    "detail": "Comece por um lugar seguro para dormir, um bebê conforto para o carro, roupas, fraldas e itens de alimentação. Itens emprestados não têm problema, mas use um colchão novo se puder."
+  },
+  "anti-d-if-rh-negative": {
+    "title": "Anti-D se você for Rh (D) negativo",
+    "detail": "Se o seu tipo sanguíneo for Rh (D) negativo, podem oferecer a você injeções de imunoglobulina anti-D, muitas vezes por volta de 28 semanas."
+  },
+  "rsv-vaccine": {
+    "title": "Pergunte sobre a vacina contra o VSR",
+    "detail": "Oferecida a partir de 28 semanas no Reino Unido, ou entre 32 e 36 semanas durante a temporada de VSR nos EUA. Ela ajuda a proteger o bebê nos primeiros meses."
+  },
+  "sleep-on-side": {
+    "title": "Durma de lado",
+    "detail": "A partir de 28 semanas, dormir de lado é o mais seguro para o bebê, inclusive nos cochilos. Se acordar de barriga para cima, é só virar de lado."
+  },
+  "safe-sleep-space": {
+    "title": "Prepare um espaço seguro para o bebê dormir",
+    "detail": "Um berço ou moisés com colchão firme, plano e bem ajustado, sem travesseiros, protetores de berço ou edredons."
+  },
+  "feeding-plan": {
+    "title": "Pense em como alimentar seu bebê",
+    "detail": "Informe-se sobre amamentação, mamadeira ou os dois, e sobre onde encontrar apoio nos primeiros dias."
+  },
+  "write-birth-plan": {
+    "title": "Escreva seu plano de parto",
+    "detail": "Anote suas preferências sobre alívio da dor, acompanhantes e as primeiras horas após o parto, e compartilhe com sua obstetra ou seu médico."
+  },
+  "save-key-contacts": {
+    "title": "Salve os números importantes e planeje o trajeto",
+    "detail": "Tenha os contatos da maternidade, do acompanhante e do transporte no celular e no papel. Não é seguro dirigir em trabalho de parto."
+  },
+  "install-car-seat": {
+    "title": "Instale o bebê conforto",
+    "detail": "Escolha um assento voltado para trás, adequado ao peso do bebê, instale com antecedência e treine colocar e tirar."
+  },
+  "pack-hospital-bag": {
+    "title": "Arrume a mala da maternidade",
+    "detail": "Inclua seu cartão da gestante, roupas confortáveis, roupas de dormir, absorventes pós-parto, lanchinhos, carregador de celular, roupinhas e fraldas para o bebê."
+  },
+  "group-b-strep": {
+    "title": "Pergunte sobre o estreptococo do grupo B",
+    "detail": "Nos EUA, o exame geralmente é feito entre 36 e 38 semanas; no Reino Unido, não é rotina. Pergunte o que se aplica a você."
+  },
+  "learn-labour-signs": {
+    "title": "Conheça os sinais do trabalho de parto",
+    "detail": "Contrações regulares, saída do tampão mucoso, dor nas costas ou a bolsa estourando. Saiba quando a maternidade quer que você ligue."
+  },
+  "postnatal-support-plan": {
+    "title": "Planeje o apoio para depois do parto",
+    "detail": "Pense nas refeições, em ajuda em casa e em quem você pode chamar. Conheça os sinais da depressão pós-parto, que pode afetar qualquer pessoa."
+  },
+  "past-due-date-options": {
+    "title": "Converse sobre passar da data prevista",
+    "detail": "Pergunte sobre descolamento de membranas, indução e monitoramento extra, para conhecer suas opções antes de 41 semanas."
+  }
+}

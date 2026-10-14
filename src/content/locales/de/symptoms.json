@@ -1,0 +1,1244 @@
+{
+  "morning-sickness": {
+    "name": "Übelkeit und Erbrechen (Morgenübelkeit)",
+    "aliases": [
+      "Morgenübelkeit",
+      "Übelkeit",
+      "Erbrechen",
+      "Schwangerschaftsübelkeit",
+      "mir ist schlecht",
+      "Morgenuebelkeit"
+    ],
+    "about": "Übelkeit gehört zu den häufigsten Schwangerschaftsbeschwerden und betrifft rund 8 von 10 Schwangeren. Wahrscheinlich sind die steigenden Hormone die Ursache, und trotz des Namens kann sie zu jeder Tages- und Nachtzeit auftreten. Meist beginnt sie zwischen der 4. und 7. Woche und lässt bei den meisten bis zur 16. bis 20. Woche nach. Deinem Baby schadet sie nicht.",
+    "relief": [
+      "Iss oft kleine Snacks, damit dein Magen nie leer ist; einfache, stärkehaltige Lebensmittel wie Cracker oder Toast sind oft am leichtesten.",
+      "Leg dir einen einfachen Keks ans Bett und knabbere ihn, bevor du aufstehst.",
+      "Trink oft in kleinen Schlucken zwischen den Mahlzeiten statt zum Essen.",
+      "Probier Lebensmittel oder Getränke mit Ingwer und meide Gerüche, die dir Übelkeit machen; kaltes Essen riecht oft weniger.",
+      "Ruh dich aus, wann immer du kannst, denn Müdigkeit kann die Übelkeit verstärken."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn du 24 Stunden lang weder Essen noch Getränke bei dir behalten kannst.",
+      "Ruf noch am selben Tag an, wenn dein Urin sehr dunkel ist, du seit 8 Stunden kein Wasser mehr gelassen hast oder du beim Aufstehen das Gefühl hast, ohnmächtig zu werden.",
+      "Ruf noch am selben Tag an, wenn du zur Übelkeit Bauchschmerzen oder Fieber hast oder an Gewicht verlierst.",
+      "Ruf sofort deine Frauenärztin/deinen Frauenarzt an, wenn du Blut erbrichst."
+    ]
+  },
+  "severe-vomiting": {
+    "name": "Starkes Erbrechen (Hyperemesis gravidarum)",
+    "aliases": [
+      "Hyperemesis",
+      "HG",
+      "starke Schwangerschaftsübelkeit",
+      "ständiges Erbrechen",
+      "kann nichts bei mir behalten",
+      "Austrocknung"
+    ],
+    "about": "Hyperemesis gravidarum ist eine schwere Form der Schwangerschaftsübelkeit, die bis zu 3 von 100 Schwangerschaften betrifft. Wenn du dich viele Male am Tag übergibst, kannst du schnell austrocknen und völlig erschöpft sein. Deshalb braucht sie ärztliche Behandlung, statt sie einfach durchzustehen. Es gibt wirksame, in der Schwangerschaft sichere Behandlungen, und früh um Hilfe zu bitten, macht einen echten Unterschied.",
+    "relief": [
+      "Trink oft kleine Mengen Wasser oder verdünnten Saft oder lutsch Eisstückchen, statt viel auf einmal zu trinken.",
+      "Ruh dich so viel wie möglich aus und nimm praktische Hilfe bei Arbeit, Mahlzeiten und Kinderbetreuung an.",
+      "Notier dir kurz, wie oft du dich übergibst und was drinbleibt, um es deiner Frauenärztin/deinem Frauenarzt zu zeigen.",
+      "Frag deine Frauenärztin/deinen Frauenarzt nach einer in der Schwangerschaft sicheren Behandlung gegen die Übelkeit; du musst nicht warten, bis es unerträglich ist."
+    ],
+    "callDoctor": [
+      "Ruf jetzt deine Frauenärztin/deinen Frauenarzt oder deine Hebamme an, wenn du 24 Stunden lang weder Essen noch Getränke bei dir behalten kannst.",
+      "Ruf jetzt an, wenn dein Urin dunkel ist oder du seit 8 Stunden kein Wasser mehr gelassen hast; das sind Zeichen von Flüssigkeitsmangel.",
+      "Hol dir jetzt Hilfe, wenn du dich sehr schwach, schwindelig oder einer Ohnmacht nahe fühlst oder an Gewicht verlierst.",
+      "Wähle den Notruf, wenn du Blut erbrichst, ohnmächtig wirst oder dich verwirrt fühlst."
+    ]
+  },
+  "tiredness": {
+    "name": "Müdigkeit und Erschöpfung",
+    "aliases": [
+      "Müdigkeit",
+      "Erschöpfung",
+      "erschöpft",
+      "immer müde",
+      "keine Energie",
+      "Muedigkeit"
+    ],
+    "about": "Sich völlig ausgelaugt zu fühlen ist sehr häufig, besonders in den ersten 12 Wochen, wenn Hormonumstellungen und all die Mehrarbeit deines Körpers dich erschöpfen können. Im zweiten Trimester kommt die Energie oft zurück und lässt dann wieder nach, wenn dein Bauch wächst und das Schlafen schwerer wird. Die Müdigkeit selbst schadet weder dir noch deinem Baby.",
+    "relief": [
+      "Ruh dich aus, wann immer du kannst, selbst 15 Minuten mit hochgelegten Beinen, und geh etwas früher ins Bett.",
+      "Nimm Hilfsangebote von Familie, Freundeskreis und Kollegium an.",
+      "Iss regelmäßig ausgewogene Mahlzeiten und hab gesunde Snacks griffbereit, damit deine Energie stabil bleibt.",
+      "Ein kurzer Spaziergang oder sanfte Bewegung kann dir tatsächlich neue Energie geben."
+    ],
+    "callDoctor": [
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn du außerdem kurzatmig, blass oder schwindelig bist oder Herzrasen hast; möglicherweise wird dann auf Blutarmut (Anämie) untersucht.",
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn die Müdigkeit mit gedrückter Stimmung, Hoffnungslosigkeit oder Interessenverlust einhergeht.",
+      "Ruf noch am selben Tag an, wenn die Erschöpfung überwältigend ist oder mit Fieber, Erbrechen oder einem starken Krankheitsgefühl einhergeht."
+    ]
+  },
+  "breast-tenderness": {
+    "name": "Empfindliche oder schmerzende Brüste",
+    "aliases": [
+      "Brustspannen",
+      "Brustschmerzen",
+      "empfindliche Brustwarzen",
+      "geschwollene Brust",
+      "Brustveränderungen",
+      "Brust tut weh"
+    ],
+    "about": "Empfindliche, vollere, kribbelnde Brüste gehören oft zu den allerersten Schwangerschaftsanzeichen. Die steigenden Hormone sorgen für mehr Durchblutung und bereiten deine Milchdrüsen vor, deshalb fallen dir vielleicht auch deutlicher sichtbare Venen und dunklere Brustwarzen auf. Die Empfindlichkeit lässt meist nach dem ersten Trimester nach, wenn sich dein Körper umgestellt hat.",
+    "relief": [
+      "Trag einen weichen, gut sitzenden, stützenden BH; viele finden einen Baumwoll- oder Sport-BH angenehmer, auch nachts.",
+      "Eine warme Dusche oder eine kühle Kompresse kann die Beschwerden lindern.",
+      "Bitte deine Partnerin oder deinen Partner, behutsam zu sein, und schlaf auf der Seite statt auf dem Bauch."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du einen neuen Knoten, Dellen in der Haut oder eine gerötete, heiße, schmerzende Stelle an der Brust bemerkst.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn blutige oder ungewöhnliche Flüssigkeit aus der Brustwarze austritt oder sich eine Brustwarze neu nach innen gezogen hat."
+    ]
+  },
+  "frequent-urination": {
+    "name": "Ständig aufs Klo müssen",
+    "aliases": [
+      "häufiges Wasserlassen",
+      "Harndrang",
+      "ständig pinkeln",
+      "dauernd aufs Klo",
+      "nachts pinkeln",
+      "haeufiges Wasserlassen"
+    ],
+    "about": "Häufiger aufs Klo zu müssen beginnt meist früh in der Schwangerschaft, weil Hormone und die stärkere Durchblutung deine Nieren mehr arbeiten lassen. In den mittleren Monaten wird es oft besser und kommt später zurück, wenn der Kopf deines Babys auf deine Blase drückt. Es ist ein normaler, wenn auch lästiger Teil der Schwangerschaft.",
+    "relief": [
+      "Trink tagsüber weiterhin ausreichend, aber weniger am späten Abend.",
+      "Reduzier Koffein (Tee, Kaffee, Cola), denn es lässt dich häufiger Wasser lassen.",
+      "Beug dich beim Wasserlassen nach vorn oder wipp sanft hin und her, damit sich deine Blase ganz entleert.",
+      "Mach täglich Beckenbodenübungen; das hilft gegen Urinverlust beim Husten oder Niesen."
+    ],
+    "callDoctor": [
+      "Melde dich innerhalb von 24 Stunden bei deiner Frauenärztin/deinem Frauenarzt, wenn das Wasserlassen brennt oder sticht oder du Blut im Urin siehst; es könnte eine Infektion sein.",
+      "Ruf sofort an, wenn du außerdem Fieber, Schüttelfrost oder Schmerzen im Rücken oder in der Seite hast.",
+      "Sprich deine Frauenärztin/deinen Frauenarzt darauf an, wenn du außerdem ständig großen Durst hast; vielleicht wird dein Blutzucker überprüft."
+    ]
+  },
+  "spotting": {
+    "name": "Schmierblutung oder leichte Blutung",
+    "aliases": [
+      "Schmierblutung",
+      "leichte Blutung",
+      "brauner Ausfluss",
+      "rosa Ausfluss",
+      "Einnistungsblutung",
+      "Blutung nach Sex"
+    ],
+    "about": "Leichte Blutungen sind recht häufig, besonders in der frühen Schwangerschaft, und viele, die sie haben, erleben danach eine gesunde Schwangerschaft. Sie können von der Einnistung des Embryos kommen, von einem empfindlicheren Gebärmutterhals nach dem Sex oder einer inneren Untersuchung oder von einer Infektion. Weil eine Blutung manchmal auf ein Problem hinweisen kann, lohnt es sich immer, sie abklären zu lassen.",
+    "relief": [
+      "Nimm eine Binde, keinen Tampon, damit du sehen kannst, wie stark du blutest und welche Farbe das Blut hat.",
+      "Notier dir, wann es angefangen hat, welche Farbe es hat und ungefähr wie viel es ist, um es deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt zu sagen.",
+      "Ruh dich aus und verzichte auf Sex, bis du untersucht wurdest und die Ursache kennst."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn du in der Schwangerschaft irgendeine Blutung hast, auch wenn sie aufgehört hat.",
+      "Ruf sofort an, wenn die Blutung mit Krämpfen, Schmerzen im unteren Rücken, Schmerzen beim Wasserlassen oder Stuhlgang oder austretender Flüssigkeit einhergeht.",
+      "Wähle den Notruf, wenn die Blutung stark ist oder du starke Bauchschmerzen oder Schmerzen in der Schulterspitze hast oder dich einer Ohnmacht nahe fühlst."
+    ]
+  },
+  "heavy-bleeding": {
+    "name": "Starke Blutung",
+    "aliases": [
+      "starke Blutung",
+      "Blutung mit Klumpen",
+      "Blutgerinnsel",
+      "Binde durchgeblutet",
+      "Anzeichen Fehlgeburt",
+      "Fehlgeburt"
+    ],
+    "about": "Eine starke Blutung bedeutet rotes Blut, das eine Binde durchtränkt oder mit Blutklumpen abgeht. Sie muss in jeder Phase der Schwangerschaft dringend abgeklärt werden, weil sie mit einer Fehlgeburt, einer Eileiterschwangerschaft oder Problemen mit der Plazenta zusammenhängen kann. Schnelle Hilfe sichert dir und deinem Baby die beste Versorgung, und du stiehlst damit niemals jemandem die Zeit.",
+    "relief": [
+      "Ruf zuerst Hilfe und leg dich dann auf die Seite, während du wartest.",
+      "Nimm Binden, keine Tampons, damit sich die Blutmenge einschätzen lässt.",
+      "Fahr nicht selbst; lass dich fahren oder warte auf den Rettungswagen.",
+      "Nimm deinen Mutterpass mit, falls du ihn hast."
+    ],
+    "callDoctor": [
+      "Wähle den Notruf, wenn eine frische Binde schon kurz nach dem Wechseln durchgeblutet ist oder du große Blutklumpen verlierst.",
+      "Wähle den Notruf, wenn die Blutung mit starken Bauchschmerzen, Schmerzen in der Schulterspitze, Schwindel oder Ohnmacht einhergeht.",
+      "Ruf sofort im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn du in der zweiten Schwangerschaftshälfte irgendeine Blutung hast, auch eine leichte."
+    ]
+  },
+  "period-like-cramps": {
+    "name": "Krämpfe und regelähnliche Schmerzen",
+    "aliases": [
+      "Krämpfe",
+      "Unterleibsschmerzen",
+      "Regelschmerzen",
+      "Bauchschmerzen",
+      "Ziehen im Unterleib",
+      "Unterleibskraempfe"
+    ],
+    "about": "Leichte Krämpfe sind häufig, besonders am Anfang, wenn deine Gebärmutter wächst und sich dehnt. Auch Blähungen, Verstopfung und sich dehnende Bänder können Schmerzen verursachen, die kommen und gehen. Leichte Schmerzen, die nachlassen, wenn du dich ausruhst, die Position wechselst, Wasser lässt, Stuhlgang hast oder Winde abgehen, sind meist kein Grund zur Sorge.",
+    "relief": [
+      "Ruh dich aus, leg dich auf die Seite oder wechsle die Position.",
+      "Nimm ein warmes (nicht heißes) Bad oder eine warme Dusche.",
+      "Trink viel Wasser und iss ballaststoffreich, um Verstopfung und Blähungen vorzubeugen.",
+      "Leere regelmäßig deine Blase."
+    ],
+    "callDoctor": [
+      "Ruf sofort deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn die Schmerzen mit Blutung, ungewöhnlichem Ausfluss oder austretender Flüssigkeit einhergehen.",
+      "Ruf sofort an, wenn die Schmerzen stark sind oder nach 30 bis 60 Minuten Ruhe nicht nachlassen.",
+      "Ruf sofort an, wenn du vor der 37. Woche bist und regelmäßige Krämpfe hast oder dein Bauch regelmäßig hart wird.",
+      "Ruf sofort an, wenn das Wasserlassen wehtut oder dein Urin trüb, rosa, rot oder braun ist."
+    ]
+  },
+  "round-ligament-pain": {
+    "name": "Mutterbänderschmerzen",
+    "aliases": [
+      "Mutterbänder",
+      "Mutterbandschmerzen",
+      "Ziehen in der Leiste",
+      "Seitenstechen",
+      "Ziehen im Bauch",
+      "Mutterbaender"
+    ],
+    "about": "Die runden Mutterbänder sind seilartige Bänder, die deine Gebärmutter halten. Wenn dein Bauch wächst, dehnen sie sich. Das kann einen kurzen, stechenden oder ziehenden Schmerz auf einer oder beiden Seiten des Unterbauchs oder in der Leiste auslösen, oft bei plötzlichen Bewegungen, beim Husten oder Aufstehen. Im zweiten Trimester ist das sehr häufig und harmlos.",
+    "relief": [
+      "Beweg dich langsam, wenn du aufstehst, dich im Bett umdrehst oder von einem Stuhl aufstehst.",
+      "Beug die Hüften leicht an, bevor du hustest, niest oder lachst.",
+      "Ruh dich aus, nimm eine warme (nicht heiße) Kompresse oder ein warmes Bad oder probier einen Schwangerschaftsgurt."
+    ],
+    "callDoctor": [
+      "Ruf deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn der Schmerz durch Ruhe oder einen Positionswechsel nicht nachlässt.",
+      "Ruf sofort an, wenn der Schmerz mit Blutung, Fieber, Schüttelfrost, Schmerzen beim Wasserlassen oder regelmäßigem Hartwerden des Bauches einhergeht.",
+      "Lass einseitige Schmerzen vor der 12. Woche noch am selben Tag abklären, um eine Eileiterschwangerschaft auszuschließen."
+    ]
+  },
+  "back-pain": {
+    "name": "Rückenschmerzen",
+    "aliases": [
+      "Rückenschmerzen",
+      "Kreuzschmerzen",
+      "Ischias",
+      "unterer Rücken",
+      "Rücken tut weh",
+      "Rueckenschmerzen"
+    ],
+    "about": "Rückenschmerzen sind in der Schwangerschaft sehr häufig. Hormone lockern deine Bänder zur Vorbereitung auf die Geburt, was die Gelenke im unteren Rücken und im Becken belastet, und dein wachsender Bauch verändert deine Haltung. Das ist unangenehm, aber meist kein Zeichen dafür, dass etwas nicht stimmt.",
+    "relief": [
+      "Geh beim Heben in die Knie und halte den Rücken gerade, und vermeide schweres Heben.",
+      "Trag flache, stützende Schuhe und sitz mit gut gestütztem Rücken.",
+      "Probier ein warmes Bad, eine Massage, Schwangerschaftsyoga oder Schwimmen.",
+      "Schlaf auf der Seite mit einem Kissen zwischen den Knien und einem unter deinem Bauch."
+    ],
+    "callDoctor": [
+      "Ruf dringend deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn die Rückenschmerzen in Wellen kommen oder dein Bauch dabei hart wird; das kann ein Zeichen für den Beginn der Geburt sein.",
+      "Ruf dringend an, wenn du außerdem Fieber, Blutungen aus der Scheide, Schmerzen beim Wasserlassen oder Schmerzen unter den Rippen hast.",
+      "Wähle den Notruf, wenn du kein Gefühl mehr in den Beinen, im Po oder im Genitalbereich hast."
+    ]
+  },
+  "pelvic-girdle-pain": {
+    "name": "Beckengürtelschmerzen (Symphysenschmerzen)",
+    "aliases": [
+      "Beckenschmerzen",
+      "Symphysenlockerung",
+      "Symphysenschmerzen",
+      "Schambeinschmerzen",
+      "Beckenringlockerung",
+      "PGP"
+    ],
+    "about": "Beckengürtelschmerzen entstehen durch Steifheit oder ungleichmäßige Bewegung deiner Beckengelenke. Du spürst sie vielleicht über dem Schambein, im unteren Rücken, zwischen den Beinen oder an den Oberschenkeln, und beim Gehen, Treppensteigen oder Umdrehen im Bett können sie stärker werden. Sie sind häufig, schaden deinem Baby nicht, und Physiotherapie hilft wirklich.",
+    "relief": [
+      "Halte die Knie zusammen, wenn du ins Auto oder ins Bett ein- und wieder aussteigst.",
+      "Zieh dich im Sitzen an und vermeide es, auf einem Bein zu stehen.",
+      "Geh Treppen Stufe für Stufe und vermeide schweres Heben.",
+      "Schlaf mit einem Kissen zwischen den Beinen und bleib aktiv, soweit es sich angenehm anfühlt."
+    ],
+    "callDoctor": [
+      "Bitte deine Hebamme oder deine Frauenärztin/deinen Frauenarzt um eine Verordnung für Physiotherapie, wenn dir Gehen, Treppensteigen oder Umdrehen im Bett schwerfällt.",
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn die Schmerzen deinen Schlaf oder deine Stimmung beeinträchtigen; es gibt weitere Unterstützung."
+    ]
+  },
+  "headache": {
+    "name": "Kopfschmerzen",
+    "aliases": [
+      "Kopfschmerzen",
+      "Migräne",
+      "Kopfweh",
+      "Spannungskopfschmerz",
+      "Migraene"
+    ],
+    "about": "Kopfschmerzen sind in der frühen Schwangerschaft häufig und werden im weiteren Verlauf meist besser. Hormonumstellungen, Müdigkeit, Flüssigkeitsmangel, Hunger und weniger Koffein können alle eine Rolle spielen. Deinem Baby schaden sie nicht, aber starke Kopfschmerzen in der zweiten Schwangerschaftshälfte müssen immer abgeklärt werden.",
+    "relief": [
+      "Trink viel Wasser und iss regelmäßig Mahlzeiten und Snacks.",
+      "Ruh dich in einem ruhigen, dunklen Raum aus und probier Entspannung oder sanfte Dehnübungen für Nacken und Schultern.",
+      "Sorg für genug Schlaf und frische Luft und probier ein kühles Tuch auf der Stirn.",
+      "Frag in der Apotheke oder deine Hebamme, welche Schmerzmittel in der Schwangerschaft sicher sind."
+    ],
+    "callDoctor": [
+      "Ruf sofort deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn du starke Kopfschmerzen hast, die nicht weggehen, besonders nach der 20. Woche.",
+      "Ruf sofort an, wenn Kopfschmerzen mit verschwommenem Sehen, Lichtblitzen, Schmerzen unter den Rippen oder plötzlichen Schwellungen einhergehen.",
+      "Wähle den Notruf, wenn Kopfschmerzen plötzlich und extrem stark auftreten oder mit einem Krampfanfall, Verwirrtheit oder Schwäche einhergehen."
+    ]
+  },
+  "severe-headache-vision": {
+    "name": "Starke Kopfschmerzen oder Sehstörungen (Anzeichen einer Präeklampsie)",
+    "aliases": [
+      "Präeklampsie",
+      "Praeeklampsie",
+      "Schwangerschaftsvergiftung",
+      "Gestose",
+      "Augenflimmern",
+      "Bluthochdruck"
+    ],
+    "about": "Starke Kopfschmerzen, die nicht weggehen, verschwommenes Sehen oder Lichtblitze, Schmerzen direkt unterhalb der Rippen oder plötzliche Schwellungen von Gesicht, Händen oder Füßen können Anzeichen einer Präeklampsie sein. Diese Bluthochdruckerkrankung tritt meist nach der 20. Woche auf und kann auch in den Wochen nach der Geburt beginnen. Früh erkannt ist sie sehr gut behandelbar, deshalb müssen diese Beschwerden immer sofort abgeklärt werden.",
+    "relief": [
+      "Hör auf mit dem, was du gerade tust, und ruf Hilfe; warte nicht ab, ob es vorbeigeht.",
+      "Ruh dich in Seitenlage aus, während du darauf wartest, untersucht zu werden.",
+      "Nimm deinen Mutterpass und alle Blutdruckwerte mit, die du hast.",
+      "Fahr nicht selbst; lass dich fahren."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn du eines dieser Anzeichen hast, egal ob Tag oder Nacht.",
+      "Ruf sofort an, wenn du Sodbrennen hast, das mit den üblichen Mitteln nicht besser wird, wenn du erbrichst oder dich sehr krank fühlst.",
+      "Wähle den Notruf, wenn du einen Krampfanfall hast, starke Schmerzen in Brust oder Bauch hast oder schwer Luft bekommst."
+    ]
+  },
+  "dizziness-fainting": {
+    "name": "Schwindel und Ohnmachtsgefühl",
+    "aliases": [
+      "Schwindel",
+      "schwindelig",
+      "Kreislaufprobleme",
+      "Ohnmacht",
+      "Benommenheit",
+      "schwarz vor Augen"
+    ],
+    "about": "Ein leichtes Schwindelgefühl ist in der Schwangerschaft häufig. Hormone entspannen deine Blutgefäße, während dein Kreislauf mehr leisten muss. Schnelles Aufstehen, langes Stehen, Hitze oder zu lange Pausen ohne Essen können dich deshalb wackelig machen. Später kann auch flaches Liegen auf dem Rücken Schwindel auslösen.",
+    "relief": [
+      "Steh langsam auf, wenn du gesessen oder gelegen hast.",
+      "Wenn du dich einer Ohnmacht nahe fühlst, setz dich sofort hin oder leg dich auf die Seite.",
+      "Iss regelmäßig, hab einen Snack dabei und trink viel Wasser, besonders wenn es heiß ist.",
+      "Leg dich ab dem dritten Trimester nicht flach auf den Rücken; dreh dich auf die Seite."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn du tatsächlich ohnmächtig wirst oder der Schwindel immer wiederkommt.",
+      "Wähle den Notruf, wenn Schwindel oder Ohnmacht mit Blutung, starken Bauch- oder Schulterspitzenschmerzen oder Brustschmerzen einhergehen.",
+      "Wähle den Notruf, wenn du kaum Luft bekommst, Herzrasen hast oder dich verwirrt fühlst."
+    ]
+  },
+  "heartburn": {
+    "name": "Sodbrennen und Verdauungsbeschwerden",
+    "aliases": [
+      "Sodbrennen",
+      "Reflux",
+      "saures Aufstoßen",
+      "Magenbrennen",
+      "Aufstoßen",
+      "Verdauungsprobleme"
+    ],
+    "about": "Sodbrennen ist ein brennendes Gefühl in der Brust, oft kurz nach dem Essen. Schwangerschaftshormone entspannen den Schließmuskel am Mageneingang, und später drückt dein wachsendes Baby auf den Magen, sodass Säure leichter wieder hochsteigt. Ab etwa der 12. Woche ist es sehr häufig und verschwindet meist nach der Geburt.",
+    "relief": [
+      "Iss lieber oft kleine Mahlzeiten statt drei großer und sitz beim Essen aufrecht.",
+      "Versuch, in den 3 Stunden vor dem Schlafengehen nichts mehr zu essen.",
+      "Iss weniger schwere, scharfe oder fettige Speisen und weniger Koffein, wenn sie bei dir Beschwerden auslösen.",
+      "Lagere Kopf und Schultern im Bett höher und versuch, auf der linken Seite zu schlafen.",
+      "Frag in der Apotheke nach Mitteln gegen Sodbrennen, die in der Schwangerschaft sicher sind."
+    ],
+    "callDoctor": [
+      "Ruf sofort deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn das Sodbrennen mit den üblichen Mitteln nicht besser wird, besonders nach der 20. Woche.",
+      "Ruf sofort an, wenn du außerdem Schmerzen direkt unter den Rippen, starke Kopfschmerzen, Sehstörungen oder Erbrechen hast.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du Schluckbeschwerden hast, an Gewicht verlierst oder dein Erbrochenes oder dein Stuhl schwarz oder blutig aussieht."
+    ]
+  },
+  "constipation": {
+    "name": "Verstopfung",
+    "aliases": [
+      "Verstopfung",
+      "harter Stuhl",
+      "kann nicht aufs Klo",
+      "Probleme beim Stuhlgang",
+      "Darmträgheit",
+      "Obstipation"
+    ],
+    "about": "Verstopfung ist sehr häufig und kann schon früh in der Schwangerschaft beginnen. Hormone entspannen die Darmmuskulatur, sodass die Nahrung langsamer weitertransportiert wird, und später drückt deine Gebärmutter auf den Darm. Auch Eisenpräparate können sie verschlimmern.",
+    "relief": [
+      "Iss viele Ballaststoffe: Vollkornbrot und Vollkornflocken, Obst, Gemüse, Bohnen und Linsen.",
+      "Trink über den Tag verteilt viel Wasser.",
+      "Bleib aktiv; ein täglicher Spaziergang oder Schwimmen hilft, die Verdauung in Gang zu halten.",
+      "Ignorier den Stuhldrang nicht und stell deine Füße auf der Toilette auf einen kleinen Hocker.",
+      "Wenn du Eisenpräparate nimmst, frag deine Frauenärztin/deinen Frauenarzt oder in der Apotheke nach schonenderen Möglichkeiten."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme, deiner Frauenärztin/deinem Frauenarzt oder in der Apotheke, wenn eine Ernährungsumstellung nach etwa einer Woche nicht geholfen hat; nimm keine Abführmittel, ohne vorher zu fragen.",
+      "Ruf deine Frauenärztin/deinen Frauenarzt an, wenn du Blutungen aus dem After, starke Bauchschmerzen oder Erbrechen hast."
+    ]
+  },
+  "piles": {
+    "name": "Hämorrhoiden",
+    "aliases": [
+      "Hämorrhoiden",
+      "Haemorrhoiden",
+      "Hämorriden",
+      "Juckreiz am After",
+      "Blut beim Stuhlgang",
+      "Knoten am After"
+    ],
+    "about": "Hämorrhoiden sind geschwollene Blutgefäße im oder um den After. Schwangerschaftshormone, der zusätzliche Druck der Gebärmutter und Verstopfung machen sie wahrscheinlicher, besonders im dritten Trimester. Sie können jucken, schmerzen oder nach dem Stuhlgang etwas bluten, sind aber harmlos und bilden sich nach der Geburt meist zurück.",
+    "relief": [
+      "Halte deinen Stuhl mit vielen Ballaststoffen und viel Wasser weich und vermeide starkes Pressen.",
+      "Halte ein in Eiswasser getauchtes und ausgewrungenes Tuch sanft an die Stelle, um die Schmerzen zu lindern.",
+      "Nimm feuchtes Toilettenpapier und tupfe, statt zu reiben.",
+      "Vermeide langes Stehen oder Sitzen.",
+      "Frag in der Apotheke oder deine Hebamme nach in der Schwangerschaft sicheren Salben, bevor du welche benutzt."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme, wenn die Hämorrhoiden sehr schmerzhaft sind oder ein Knoten außen am After hart ist und nicht wieder zurückgeht.",
+      "Ruf deine Frauenärztin/deinen Frauenarzt an, wenn du stark aus dem After blutest oder das Blut dunkel oder mit dem Stuhl vermischt ist."
+    ]
+  },
+  "bloating-gas": {
+    "name": "Blähbauch und Blähungen",
+    "aliases": [
+      "Blähungen",
+      "Blähbauch",
+      "Völlegefühl",
+      "Pupsen",
+      "aufgeblähter Bauch",
+      "Blaehungen"
+    ],
+    "about": "Ein aufgeblähter Bauch und Blähungen sind sehr häufig, besonders am Anfang. Schwangerschaftshormone verlangsamen die Verdauung, sodass Nahrung und Gase länger im Darm bleiben, und Verstopfung kann das verstärken. Eingeschlossene Luft kann sogar stechende, krampfartige Schmerzen verursachen, die nachlassen, sobald sie entweicht.",
+    "relief": [
+      "Iss kleinere Mahlzeiten langsam und kau gründlich.",
+      "Achte auf deine Auslöser: Sprudelgetränke, Bohnen, Zwiebeln und Kohl sind häufige Übeltäter.",
+      "Bleib aktiv; ein sanfter Spaziergang nach dem Essen hilft, die Luft weiterzubewegen.",
+      "Beuge Verstopfung mit Ballaststoffen und viel Wasser vor."
+    ],
+    "callDoctor": [
+      "Ruf deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn die Bauchschmerzen stark sind, nach 30 bis 60 Minuten Ruhe nicht nachlassen oder mit einer Blutung einhergehen.",
+      "Ruf sofort an, wenn du vor der 37. Woche bist und der Schmerz in regelmäßigen Wellen kommt oder dein Bauch regelmäßig hart wird.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du außerdem Fieber hast oder Durchfall oder Erbrechen, das nicht aufhört."
+    ]
+  },
+  "cravings-aversions": {
+    "name": "Heißhunger und Abneigung gegen Essen",
+    "aliases": [
+      "Heißhunger",
+      "Gelüste",
+      "Ekel vor Essen",
+      "Abneigung gegen Essen",
+      "Pica",
+      "Heisshunger"
+    ],
+    "about": "Plötzlich große Lust auf bestimmte Lebensmittel zu haben oder andere nicht mehr ertragen zu können, ist sehr häufig und hängt vermutlich mit den Schwangerschaftshormonen und einem feineren Geruchssinn zusammen. Rund 7 von 10 Schwangeren vergeht der Appetit auf mindestens ein Lebensmittel. Du kannst deinen Gelüsten in Maßen nachgeben, solange deine Ernährung insgesamt ausgewogen bleibt.",
+    "relief": [
+      "Ersetz Lust auf Süßes ab und zu durch Obst oder Joghurt und hab gesunde Snacks griffbereit.",
+      "Wenn du ein Lebensmittel nicht ertragen kannst, wähle ein anderes mit ähnlichen Nährstoffen, etwa Bohnen oder Eier statt Fleisch.",
+      "Achte darauf, dass deine Gelüste schwangerschaftssicher bleiben: Wähle pasteurisierten Käse sowie gut durchgegartes Fleisch und gut durchgegarte Eier.",
+      "Kalte oder milde Speisen sind oft leichter, wenn dich Gerüche abschrecken."
+    ],
+    "callDoctor": [
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn du Lust auf Dinge hast, die keine Lebensmittel sind, wie Eiswürfel, Erde, Lehm, Kreide oder Seife; das kann mit Eisenmangel zusammenhängen.",
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn du wegen der Abneigungen kaum isst oder an Gewicht verlierst."
+    ]
+  },
+  "metallic-taste": {
+    "name": "Metallischer Geschmack im Mund",
+    "aliases": [
+      "Metallgeschmack",
+      "metallischer Geschmack",
+      "Geschmack nach Münzen",
+      "Geschmacksstörung",
+      "komischer Geschmack",
+      "bitterer Geschmack"
+    ],
+    "about": "Ein saurer oder metallischer Geschmack, als hättest du an Münzen gelutscht, ist eine häufige Veränderung in der frühen Schwangerschaft. Vermutlich beeinflussen die Hormone deinen Geschmackssinn. Er ist nicht schädlich und verschwindet meist, wenn du ins zweite Trimester kommst.",
+    "relief": [
+      "Probier kräftige, säuerliche Aromen wie Zitrusfrüchte, Essiggurken oder Speisen mit Essigdressing.",
+      "Putz regelmäßig Zähne und Zunge und spül mit einer milden Salzwasserlösung.",
+      "Nimm Besteck aus Kunststoff oder Holz, wenn Metall es schlimmer macht.",
+      "Kau zuckerfreien Kaugummi oder lutsch zuckerfreie Pfefferminzbonbons."
+    ],
+    "callDoctor": [
+      "Sprich deine Frauenärztin/deinen Frauenarzt darauf an, wenn der Geschmack über das erste Trimester hinaus anhält oder mit einem trockenen oder brennenden Mund einhergeht.",
+      "Sag deiner Frauenärztin/deinem Frauenarzt oder in der Apotheke Bescheid, wenn er nach einem neuen Medikament oder Nahrungsergänzungsmittel begonnen hat."
+    ]
+  },
+  "excess-saliva": {
+    "name": "Vermehrter Speichelfluss",
+    "aliases": [
+      "Speichelfluss",
+      "zu viel Speichel",
+      "viel Spucke",
+      "sabbern",
+      "Ptyalismus",
+      "Hypersalivation"
+    ],
+    "about": "Manche bilden in der Schwangerschaft viel mehr Speichel, oft zusammen mit Übelkeit. Vermutlich regen die Hormone die Speicheldrüsen zu stark an, und Übelkeit kann es verschlimmern, weil das Schlucken unangenehm wird. Es ist harmlos, wenn auch lästig, und legt sich meist mit der Zeit.",
+    "relief": [
+      "Kau zuckerfreien Kaugummi oder lutsch zuckerfreie Bonbons, damit dir das Schlucken leichter fällt.",
+      "Putz dir ein paarmal am Tag die Zähne und spül mit einer alkoholfreien Mundspülung.",
+      "Iss oft kleine Mahlzeiten, um die Übelkeit in Schach zu halten.",
+      "Trink weiterhin in kleinen Schlucken Wasser, damit du nicht austrocknest, und hab Taschentücher dabei, falls du ausspucken musst."
+    ],
+    "callDoctor": [
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn es mit starkem Erbrechen einhergeht oder du keine Flüssigkeit bei dir behalten kannst.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn dein Mund oder deine Drüsen geschwollen oder schmerzhaft sind oder es dich beim Schlafen oder Essen beeinträchtigt."
+    ]
+  },
+  "nosebleeds": {
+    "name": "Nasenbluten",
+    "aliases": [
+      "Nasenbluten",
+      "blutige Nase",
+      "Nase blutet",
+      "Epistaxis"
+    ],
+    "about": "Nasenbluten kommt in der Schwangerschaft häufiger vor, weil das zusätzliche Blutvolumen und die Hormone die winzigen Blutgefäße in deiner Nase anschwellen lassen, sodass sie leichter platzen. Meist ist es kurz und harmlos.",
+    "relief": [
+      "Setz dich aufrecht hin, beug dich nach vorn und drück den weichen Teil deiner Nase 10 bis 15 Minuten lang zusammen; atme dabei durch den Mund.",
+      "Leg den Kopf nicht in den Nacken und vermeide danach einen Tag lang Naseputzen und Nasebohren.",
+      "Nutze einen Luftbefeuchter oder ein Salzwasser-Nasenspray (Kochsalzlösung), damit deine Nase innen feucht bleibt."
+    ],
+    "callDoctor": [
+      "Hol dir dringend ärztliche Hilfe, wenn die Blutung nach 10 bis 15 Minuten Drücken nicht aufgehört hat oder sehr stark ist.",
+      "Hol dir dringend Hilfe, wenn du dich schwach oder schwindelig fühlst oder Probleme beim Atmen hast.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du oft Nasenbluten hast oder leicht blaue Flecken bekommst."
+    ]
+  },
+  "bleeding-gums": {
+    "name": "Geschwollenes oder blutendes Zahnfleisch",
+    "aliases": [
+      "Zahnfleischbluten",
+      "geschwollenes Zahnfleisch",
+      "Schwangerschaftsgingivitis",
+      "Zahnfleischentzündung",
+      "Zahnfleisch tut weh",
+      "Parodontitis"
+    ],
+    "about": "Schwangerschaftshormone verstärken die Durchblutung deines Zahnfleischs und lassen es stärker auf Zahnbelag reagieren, sodass es geschwollen aussehen und beim Zähneputzen bluten kann. Diese Schwangerschaftsgingivitis betrifft mehr als die Hälfte aller Schwangerschaften und legt sich meist nach der Geburt.",
+    "relief": [
+      "Putz zweimal täglich sanft mit einer weichen Zahnbürste und fluoridhaltiger Zahnpasta.",
+      "Benutz einmal täglich Zahnseide oder Interdentalbürstchen.",
+      "Geh während der Schwangerschaft zur Kontrolle und Zahnreinigung in die Zahnarztpraxis und sag dort, dass du schwanger bist.",
+      "Iss und trink weniger Süßes."
+    ],
+    "callDoctor": [
+      "Geh in die Zahnarztpraxis, wenn dein Zahnfleisch sehr geschwollen oder schmerzhaft ist, stark blutet oder sich ein Zahn locker anfühlt.",
+      "Geh in die Zahnarztpraxis oder zu deiner Frauenärztin/deinem Frauenarzt, wenn am Zahnfleisch ein Knoten wächst oder du Mundgeruch oder Eiter hast, der nicht weggeht."
+    ]
+  },
+  "stuffy-nose": {
+    "name": "Verstopfte Nase (Schwangerschaftsschnupfen)",
+    "aliases": [
+      "verstopfte Nase",
+      "Schwangerschaftsschnupfen",
+      "Schnupfen",
+      "laufende Nase",
+      "Schnarchen",
+      "Rhinitis"
+    ],
+    "about": "Eine verstopfte oder laufende Nase, die wochenlang ohne Erkältung oder Allergie anhält, nennt man Schwangerschaftsschnupfen (Schwangerschaftsrhinitis). Hormone und die stärkere Durchblutung lassen die Nasenschleimhaut anschwellen und mehr Schleim bilden. Er ist harmlos, nachts oft schlimmer und verschwindet meist innerhalb von zwei Wochen nach der Geburt.",
+    "relief": [
+      "Nutze ein Salzwasser-Nasenspray (Kochsalzlösung) oder eine Nasenspülung.",
+      "Stell das Kopfende deines Bettes höher oder nimm nachts ein zusätzliches Kissen.",
+      "Trink viel Wasser und probier einen Luftbefeuchter oder eine dampfende Dusche.",
+      "Sanfte Bewegung kann helfen, die Nase freier zu machen.",
+      "Frag in der Apotheke nach schwangerschaftssicheren Möglichkeiten, bevor du ein Nasenspray mit Wirkstoff oder ein Erkältungsmittel benutzt."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du Fieber, Gesichtsschmerzen oder dicken gelben oder grünen Schleim hast; es könnte eine Infektion sein.",
+      "Sprich mit deiner Frauenärztin/deinem Frauenarzt, wenn lautes Schnarchen oder eine verstopfte Nase deinen Schlaf stark stört."
+    ]
+  },
+  "breathlessness": {
+    "name": "Kurzatmigkeit",
+    "aliases": [
+      "Kurzatmigkeit",
+      "kurzatmig",
+      "Atemnot",
+      "außer Atem",
+      "kann nicht tief einatmen",
+      "ausser Atem"
+    ],
+    "about": "Leichte Kurzatmigkeit ist häufig. Anfangs lassen dich Hormone tiefer atmen, sodass du deine Atmung stärker wahrnimmst; später drückt deine wachsende Gebärmutter von unten gegen das Zwerchfell und lässt deiner Lunge weniger Platz. Am deutlichsten merkst du es meist bei Anstrengung, und oft wird es etwas besser, wenn dein Baby vor der Geburt tiefer rutscht.",
+    "relief": [
+      "Mach langsamer, leg Pausen ein und lass dir auf Treppen Zeit.",
+      "Sitz und steh aufrecht, damit deine Lunge mehr Platz hat.",
+      "Stütz dich nachts mit Kissen hoch.",
+      "Sanfte, regelmäßige Bewegung wie Spazierengehen oder Schwimmen kann helfen."
+    ],
+    "callDoctor": [
+      "Wähle den Notruf, wenn die Atemnot plötzlich auftritt oder mit Brustschmerzen oder Bluthusten einhergeht.",
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt an, wenn du in Ruhe oder im Liegen kurzatmig bist oder nachts davon aufwachst.",
+      "Ruf noch am selben Tag an, wenn du außerdem Herzrasen oder Schwindel hast oder dich sehr müde fühlst und blass aussiehst."
+    ]
+  },
+  "sudden-breathlessness": {
+    "name": "Plötzliche Atemnot oder Brustschmerzen",
+    "aliases": [
+      "plötzliche Atemnot",
+      "Brustschmerzen",
+      "bekomme keine Luft",
+      "Lungenembolie",
+      "Blutgerinnsel Lunge",
+      "Blut husten"
+    ],
+    "about": "Plötzlich einsetzende Atemnot, Brustschmerzen oder Bluthusten sind etwas anderes als die allmähliche Kurzatmigkeit in der Schwangerschaft. In der Schwangerschaft gerinnt das Blut leichter, und ein Blutgerinnsel, das in die Lunge wandert (Lungenembolie), ist selten, aber ernst. Auch Herzprobleme und schwere Infektionen können diese Beschwerden auslösen, deshalb hol dir sofort Hilfe.",
+    "relief": [
+      "Wähle zuerst den Notruf, setz dich dann aufrecht hin und versuch, ruhig zu bleiben.",
+      "Fahr nicht selbst ins Krankenhaus.",
+      "Schließ die Tür auf und halte dein Handy und deinen Mutterpass griffbereit."
+    ],
+    "callDoctor": [
+      "Wähle den Notruf, wenn du plötzlich nicht mehr zu Atem kommst oder Schmerzen oder ein Engegefühl in der Brust hast.",
+      "Wähle den Notruf, wenn du Blut hustest oder dich mit rasendem oder pochendem Herzen einer Ohnmacht nahe fühlst.",
+      "Wähle den Notruf, wenn du kurzatmig bist und außerdem ein schmerzendes, geschwollenes Bein hast."
+    ]
+  },
+  "palpitations": {
+    "name": "Herzklopfen und Herzstolpern",
+    "aliases": [
+      "Herzklopfen",
+      "Herzrasen",
+      "Herzstolpern",
+      "Herz pocht",
+      "schneller Puls",
+      "Extraschläge"
+    ],
+    "about": "Dein Blutvolumen steigt in der Schwangerschaft stark an, und dein Herz arbeitet mehr, um es zu pumpen. Ein schnellerer Ruhepuls und gelegentliches Flattern oder Pochen sind daher häufig. Herzklopfen ist meist harmlos, besonders wenn es nur kurz dauert und du dich sonst wohlfühlst.",
+    "relief": [
+      "Setz dich oder leg dich auf die Seite und atme langsam, bis es sich beruhigt.",
+      "Trink viel Wasser und reduzier Koffein.",
+      "Steh langsam auf und vermeide Überhitzung."
+    ],
+    "callDoctor": [
+      "Wähle den Notruf, wenn das Herzklopfen mit Brustschmerzen, Atemproblemen, Ohnmacht oder Verwirrtheit einhergeht.",
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt an, wenn das Herzklopfen mehrere Minuten anhält, immer wiederkommt oder dich schwindelig macht.",
+      "Sag deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme Bescheid, wenn du eine Herzerkrankung hast oder schon früher Herzklopfen hattest."
+    ]
+  },
+  "swelling": {
+    "name": "Geschwollene Füße, Knöchel und Finger",
+    "aliases": [
+      "Schwellungen",
+      "geschwollene Füße",
+      "dicke Knöchel",
+      "Wassereinlagerungen",
+      "Ödeme",
+      "Ring passt nicht"
+    ],
+    "about": "Leichte Schwellungen sind sehr häufig, besonders abends, bei Hitze und später in der Schwangerschaft. Dein Körper speichert mehr Wasser als sonst, und deine wachsende Gebärmutter verlangsamt den Rückfluss des Blutes aus den Beinen. Schwellungen, die sich allmählich entwickeln, sind nicht schädlich, aber plötzliche Schwellungen von Gesicht, Händen oder Füßen müssen sofort abgeklärt werden.",
+    "relief": [
+      "Leg die Füße hoch, wann immer du kannst, und vermeide langes Stehen.",
+      "Geh regelmäßig spazieren und mach Fußübungen: Beuge und strecke jeden Fuß 30-mal und kreise ihn dann 8-mal in jede Richtung.",
+      "Trag bequeme Schuhe und Socken, die nicht einschnüren, und nimm Ringe ab, die eng werden."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn Gesicht, Hände oder Füße plötzlich anschwellen.",
+      "Ruf sofort an, wenn die Schwellung mit starken Kopfschmerzen, Sehstörungen, Schmerzen unter den Rippen oder Erbrechen einhergeht.",
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt an, wenn ein Bein geschwollen, schmerzhaft, warm oder gerötet ist; es könnte ein Blutgerinnsel sein."
+    ]
+  },
+  "leg-cramps": {
+    "name": "Beinkrämpfe",
+    "aliases": [
+      "Wadenkrämpfe",
+      "Beinkrämpfe",
+      "Krampf in der Wade",
+      "nächtliche Krämpfe",
+      "Fußkrämpfe",
+      "Wadenkraempfe"
+    ],
+    "about": "Ein plötzliches, schmerzhaftes Verkrampfen in der Wade oder im Fuß, oft nachts, betrifft viele Schwangere, vielleicht bis zu 4 von 10. Die genaue Ursache ist unklar, aber das zusätzliche Gewicht, das du trägst, und Veränderungen im Kreislauf könnten eine Rolle spielen. Die Krämpfe sind harmlos und gehen meist innerhalb von Minuten vorbei.",
+    "relief": [
+      "Zieh während eines Krampfes die Zehen in Richtung Schienbein und massier den Muskel kräftig.",
+      "Mach jeden Tag Fuß- und Knöchelübungen und dehn vor dem Schlafengehen deine Waden.",
+      "Bleib mit regelmäßigen Spaziergängen aktiv und trink viel Wasser.",
+      "Ein warmes Bad oder sanfte Wärme kann dem Muskel danach helfen, sich zu entspannen."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt an, wenn der Schmerz in einer Wade nicht weggeht oder das Bein geschwollen, warm oder gerötet ist.",
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn die Krämpfe häufig sind und deinen Schlaf stören."
+    ]
+  },
+  "restless-legs": {
+    "name": "Unruhige Beine (Restless Legs)",
+    "aliases": [
+      "Restless Legs",
+      "Restless-Legs-Syndrom",
+      "RLS",
+      "unruhige Beine",
+      "Kribbeln in den Beinen",
+      "Bewegungsdrang Beine"
+    ],
+    "about": "Das Restless-Legs-Syndrom ist ein unangenehmes Kribbeln oder Krabbeln mit einem unwiderstehlichen Drang, die Beine zu bewegen, meist abends oder nachts. Es ist in der Schwangerschaft häufig, besonders im dritten Trimester, und kann mit einem Eisenmangel zusammenhängen. Die Beschwerden verschwinden meist nach der Geburt.",
+    "relief": [
+      "Halte einen regelmäßigen Schlafrhythmus ein und reduzier Koffein, besonders später am Tag.",
+      "Dehn oder massier deine Beine oder probier vor dem Schlafengehen ein warmes Bad.",
+      "Steh auf und geh ein paar Minuten herum, wenn der Drang kommt.",
+      "Sanfte Bewegung tagsüber wie Spazierengehen oder Schwimmen kann helfen."
+    ],
+    "callDoctor": [
+      "Bitte deine Frauenärztin/deinen Frauenarzt oder deine Hebamme, deine Eisenwerte zu überprüfen, wenn dich die unruhigen Beine belasten.",
+      "Sprich mit deiner Frauenärztin/deinem Frauenarzt, wenn es deinen Schlaf stark stört, und nimm keine Schlafmittel, ohne vorher nachzufragen."
+    ]
+  },
+  "varicose-veins": {
+    "name": "Krampfadern",
+    "aliases": [
+      "Krampfadern",
+      "Besenreiser",
+      "geschwollene Venen",
+      "Krampfadern Vulva",
+      "schwere Beine",
+      "Varizen"
+    ],
+    "about": "Krampfadern sind geschwollene, hervortretende Venen, meist an den Beinen, sie können aber auch im Bereich der Vulva auftreten. Das zusätzliche Blutvolumen, Hormone, die die Venenwände entspannen, und der Druck der Gebärmutter tragen alle dazu bei. Sie können schmerzen oder jucken, sind aber nicht schädlich und bessern sich meist nach der Geburt.",
+    "relief": [
+      "Vermeide langes Stehen und versuch, nicht mit übereinandergeschlagenen Beinen zu sitzen.",
+      "Leg im Sitzen die Füße hoch und lagere die Beine im Bett auf Kissen.",
+      "Probier Kompressionsstrümpfe für Schwangere; sie können Schmerzen und Schwellungen lindern.",
+      "Geh spazieren, schwimm und mach Fußübungen, um deinen Blutfluss in Gang zu halten."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt an, wenn eine Vene hart, heiß, gerötet oder schmerzhaft wird oder ein Bein anschwillt; es könnte ein Blutgerinnsel sein.",
+      "Wähle den Notruf, wenn ein Bein schmerzt und geschwollen ist und du außerdem kurzatmig bist oder Brustschmerzen hast.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn eine Krampfader blutet oder sich die Haut darüber verändert oder aufbricht."
+    ]
+  },
+  "skin-changes": {
+    "name": "Dunklere Hautstellen (Melasma und Linea nigra)",
+    "aliases": [
+      "Melasma",
+      "Chloasma",
+      "Schwangerschaftsmaske",
+      "Linea nigra",
+      "dunkle Linie am Bauch",
+      "Pigmentflecken"
+    ],
+    "about": "Schwangerschaftshormone steigern die Bildung von Melanin, dem Farbstoff deiner Haut. Vielleicht bemerkst du eine dunkle Linie auf deinem Bauch (Linea nigra), dunklere Brustwarzen, Sommersprossen und Muttermale oder bräunliche Flecken im Gesicht, die man Melasma oder Schwangerschaftsmaske nennt. Diese Veränderungen sind harmlos und verblassen nach der Geburt meist allmählich.",
+    "relief": [
+      "Nutze jeden Tag Sonnencreme mit hohem Lichtschutzfaktor und trag einen Hut mit breiter Krempe, denn Sonne lässt die Flecken dunkler werden.",
+      "Wähle sanfte Hautpflege ohne Duftstoffe.",
+      "Frag in der Apotheke oder deine Frauenärztin/deinen Frauenarzt, bevor du in der Schwangerschaft hautaufhellende Cremes oder Cremes gegen Pickel benutzt."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn ein Muttermal Form, Größe oder Farbe verändert oder anfängt zu bluten oder zu jucken.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du einen neuen Ausschlag hast oder Flecken, die sich schnell ausbreiten."
+    ]
+  },
+  "stretch-marks": {
+    "name": "Dehnungsstreifen",
+    "aliases": [
+      "Dehnungsstreifen",
+      "Schwangerschaftsstreifen",
+      "Striae",
+      "Striae gravidarum",
+      "Streifen am Bauch",
+      "Risse in der Haut"
+    ],
+    "about": "Dehnungsstreifen sind schmale Streifen, die je nach Hautton rosa, rot, violett oder braun sein können. Sie betreffen rund 8 von 10 Schwangeren, meist am Bauch, an den Oberschenkeln oder an den Brüsten, und ob du sie bekommst, hängt stark von deinem Hauttyp ab. Sie sind harmlos und verblassen nach der Geburt meist zu helleren Linien.",
+    "relief": [
+      "Creme deine Haut regelmäßig ein, um Juckreiz zu lindern; keine Creme beugt Dehnungsstreifen nachweislich vor, aber sie kann sich wohltuend anfühlen.",
+      "Achte auf eine gleichmäßige, gesunde Gewichtszunahme; das kann helfen, neue Streifen zu verringern.",
+      "Bleib aktiv und trink viel Wasser, damit sich deine Haut angenehm anfühlt."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn der Juckreiz stark ist, besonders an den Handflächen oder Fußsohlen."
+    ]
+  },
+  "itchy-skin": {
+    "name": "Juckende Haut",
+    "aliases": [
+      "Juckreiz",
+      "juckende Haut",
+      "Bauch juckt",
+      "Ausschlag",
+      "Schwangerschaftsdermatose",
+      "PUPPP"
+    ],
+    "about": "Leichter Juckreiz ist häufig und betrifft rund 1 von 4 Schwangeren, weil sich die Hormone verändern und die Haut über deinem Bauch gedehnt wird. Manche bekommen spät in der Schwangerschaft auch einen juckenden Ausschlag, der unangenehm, für das Baby aber harmlos ist. Der Juckreiz hört meist nach der Geburt auf, aber starker Juckreiz an Händen oder Füßen muss abgeklärt werden.",
+    "relief": [
+      "Tupf oder klopf leicht auf juckende Haut, statt zu kratzen, und halte deine Nägel kurz.",
+      "Dusch kühl oder warm (nicht heiß) und nicht länger als 20 Minuten.",
+      "Benutz oft eine parfümfreie Feuchtigkeitscreme und meide parfümierte Seifen.",
+      "Trag lockere Baumwollkleidung und iss weniger scharf und weniger Koffein, wenn das den Juckreiz verstärkt.",
+      "Frag in der Apotheke nach Cremes, die in der Schwangerschaft sicher sind."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn deine Handflächen oder Fußsohlen jucken oder der Juckreiz nachts schlimmer ist.",
+      "Ruf noch am selben Tag an, wenn dich der Juckreiz nicht schlafen lässt oder mit dunklem Urin oder hellem Stuhl einhergeht.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn du einen neuen Ausschlag, Bläschen oder Juckreiz hast, der deinen Alltag beeinträchtigt."
+    ]
+  },
+  "itching-hands-feet": {
+    "name": "Starker Juckreiz an Händen und Füßen (mögliche Schwangerschaftscholestase)",
+    "aliases": [
+      "Schwangerschaftscholestase",
+      "Cholestase",
+      "ICP",
+      "juckende Handflächen",
+      "juckende Fußsohlen",
+      "Juckreiz nachts"
+    ],
+    "about": "Juckreiz an den Handflächen oder Fußsohlen, oft nachts schlimmer und ohne Ausschlag, kann ein Zeichen einer intrahepatischen Schwangerschaftscholestase (ICP) sein. Dabei verarbeitet die Leber die Galle nicht so, wie sie sollte, sodass sich Gallensäuren im Blut ansammeln. Sie betrifft weniger als 1 von 100 Schwangerschaften und lässt sich gut in den Griff bekommen, braucht aber eine Blutuntersuchung und engmaschige Überwachung, weil sie dein Baby beeinträchtigen kann.",
+    "relief": [
+      "Halte deine Haut kühl mit lauwarmen Duschen, kühlen Waschlappen und lockerer Baumwollkleidung.",
+      "Benutz eine parfümfreie Feuchtigkeitscreme und tupf, statt zu kratzen.",
+      "Halte deine Nägel kurz, um deine Haut nachts zu schützen.",
+      "Achte auf die Bewegungen deines Babys und melde jede Veränderung sofort."
+    ],
+    "callDoctor": [
+      "Ruf noch heute im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn deine Handflächen oder Fußsohlen jucken, auch ohne Ausschlag, und bitte um eine Blutuntersuchung.",
+      "Ruf sofort an, wenn der Juckreiz so schlimm ist, dass er dich nachts wach hält.",
+      "Ruf sofort an, wenn du eine Gelbfärbung deiner Haut oder Augen, dunklen Urin oder hellen Stuhl bemerkst.",
+      "Ruf umgehend im Kreißsaal an, wenn sich dein Baby weniger als sonst bewegt."
+    ]
+  },
+  "acne": {
+    "name": "Pickel und Akne",
+    "aliases": [
+      "Akne",
+      "Pickel",
+      "unreine Haut",
+      "fettige Haut",
+      "Schwangerschaftsakne",
+      "Hautunreinheiten"
+    ],
+    "about": "Hormonumstellungen in der Schwangerschaft können deine Haut fettiger machen und Pickel auslösen, selbst wenn du jahrelang keine hattest. Am häufigsten ist das im ersten und zweiten Trimester, und meist legt es sich nach der Geburt.",
+    "relief": [
+      "Wasch dein Gesicht zweimal täglich mit einem milden, parfümfreien Reinigungsprodukt und lauwarmem Wasser.",
+      "Wähle ölfreie, nicht komedogene Feuchtigkeitscreme und Make-up.",
+      "Versuch, Pickel nicht aufzukratzen oder auszudrücken, denn das kann Narben hinterlassen.",
+      "Frag in der Apotheke oder bei deiner Frauenärztin/deinem Frauenarzt nach, bevor du ein Aknemittel benutzt, denn manche sind in der Schwangerschaft nicht sicher."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn die Akne stark oder schmerzhaft ist oder Narben hinterlässt, damit du eine schwangerschaftssichere Behandlung findest.",
+      "Wenn du ein verschreibungspflichtiges Aknemittel genommen hast, als du schwanger wurdest, setz es ab und sprich sofort mit deiner Frauenärztin/deinem Frauenarzt."
+    ]
+  },
+  "vaginal-discharge": {
+    "name": "Veränderter Ausfluss",
+    "aliases": [
+      "Ausfluss",
+      "weißer Ausfluss",
+      "vermehrter Ausfluss",
+      "Schleim",
+      "Zeichnungsblutung",
+      "Schleimpfropf"
+    ],
+    "about": "Mehr Ausfluss als sonst ist in der Schwangerschaft normal und hilft zu verhindern, dass Infektionen in die Gebärmutter aufsteigen. Gesunder Ausfluss ist dünn, klar oder milchig weiß und riecht nicht unangenehm. Gegen Ende bemerkst du vielleicht dicken, geleeartigen Schleim, manchmal mit rosa Schlieren: Das ist die sogenannte Zeichnungsblutung, ein Zeichen dafür, dass sich dein Körper auf die Geburt vorbereitet.",
+    "relief": [
+      "Trag Baumwollunterwäsche und lockere Kleidung und wechsle Slipeinlagen oft.",
+      "Wasch die Vulva außen nur mit klarem Wasser; meide parfümierte Seifen, Feuchttücher und Scheidenspülungen.",
+      "Wisch nach dem Toilettengang von vorn nach hinten.",
+      "Nimm in der Schwangerschaft Slipeinlagen statt Tampons."
+    ],
+    "callDoctor": [
+      "Ruf deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn der Ausfluss unangenehm riecht, grün oder gelb ist oder du Juckreiz hast oder dich wund fühlst.",
+      "Ruf deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn das Wasserlassen wehtut.",
+      "Ruf sofort an, wenn du irgendeine Blutung hast oder wässrige Flüssigkeit im Schwall oder als stetiges Rinnsal abgeht."
+    ]
+  },
+  "thrush": {
+    "name": "Scheidenpilz (Hefepilzinfektion)",
+    "aliases": [
+      "Scheidenpilz",
+      "Pilzinfektion",
+      "Candida",
+      "Juckreiz Scheide",
+      "bröckeliger Ausfluss",
+      "Vaginalpilz"
+    ],
+    "about": "Scheidenpilz ist eine häufige Hefepilzinfektion, die in der Schwangerschaft wahrscheinlicher ist, besonders im dritten Trimester, weil Hormone das natürliche Gleichgewicht in der Scheide verändern. Er kann dicken weißen Ausfluss, Juckreiz, Wundsein und Brennen verursachen. Er ist leicht zu behandeln, und es gibt keine Hinweise darauf, dass er deinem Baby schadet.",
+    "relief": [
+      "Trag lockere Baumwollunterwäsche und meide enge Hosen oder Strumpfhosen.",
+      "Wasch dich mit klarem Wasser oder einer parfümfreien, rückfettenden Creme statt mit Seife und verzichte auf Schaumbäder.",
+      "Tupf die Stelle nach dem Waschen sanft trocken.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, deiner Hebamme oder in die Apotheke, bevor du ein Mittel gegen Scheidenpilz benutzt, denn nicht alle sind in der Schwangerschaft geeignet."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme, bevor du es selbst behandelst, besonders wenn du diese Beschwerden zum ersten Mal hast.",
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt, wenn die Behandlung nach einer Woche nicht gewirkt hat oder es immer wiederkommt.",
+      "Ruf deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn der Ausfluss schlecht riecht, grün oder gelb ist oder das Wasserlassen wehtut."
+    ]
+  },
+  "uti-symptoms": {
+    "name": "Brennen beim Wasserlassen (Harnwegsinfekt)",
+    "aliases": [
+      "Blasenentzündung",
+      "Harnwegsinfekt",
+      "HWI",
+      "Brennen beim Pinkeln",
+      "Nierenbeckenentzündung",
+      "Blut im Urin"
+    ],
+    "about": "Harnwegsinfekte sind in der Schwangerschaft häufiger, weil Hormone die Harnwege entspannen und deine wachsende Gebärmutter auf die Blase drückt. Anzeichen sind Brennen oder Stechen beim Wasserlassen, plötzlicher starker Harndrang und trüber, übel riechender oder blutiger Urin. Ein Harnwegsinfekt in der Schwangerschaft sollte immer rasch behandelt werden, weil er sich auf die Nieren ausbreiten kann.",
+    "relief": [
+      "Trink viel Wasser, um deine Harnwege durchzuspülen und den Urin zu verdünnen.",
+      "Geh zur Toilette, wenn du musst, und leere deine Blase vollständig, auch nach dem Sex.",
+      "Wisch von vorn nach hinten und trag Baumwollunterwäsche.",
+      "Nimm keine Medikamente, ohne zu klären, ob sie in der Schwangerschaft sicher sind."
+    ],
+    "callDoctor": [
+      "Melde dich innerhalb von 24 Stunden bei deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme, wenn das Wasserlassen brennt oder sticht oder du Blut im Urin siehst.",
+      "Ruf sofort deine Frauenärztin/deinen Frauenarzt an, wenn du Fieber, Schüttelfrost oder Schmerzen im Rücken oder in der Seite hast; es kann eine Nierenbeckenentzündung sein.",
+      "Ruf sofort im Kreißsaal an, wenn du außerdem Krämpfe hast oder dein Bauch regelmäßig hart wird."
+    ]
+  },
+  "leaking-urine": {
+    "name": "Urinverlust",
+    "aliases": [
+      "Urinverlust",
+      "Inkontinenz",
+      "Belastungsinkontinenz",
+      "Blasenschwäche",
+      "Pipi beim Niesen",
+      "Urin tröpfelt"
+    ],
+    "about": "Beim Husten, Niesen, Lachen oder bei plötzlichen Bewegungen ein wenig Urin zu verlieren, ist in der Schwangerschaft häufig. Hormone entspannen deine Beckenbodenmuskulatur, und dein wachsendes Baby drückt auf deine Blase. Oft wird es nach der Geburt besser, und Beckenbodenübungen helfen sehr.",
+    "relief": [
+      "Mach jeden Tag Beckenbodenübungen: Spann an, als wolltest du Winde und Urin zurückhalten, halte die Spannung ein paar Sekunden und entspann dann.",
+      "Leere deine Blase regelmäßig und beug dich dabei nach vorn, um sie ganz zu entleeren.",
+      "Trink weiterhin ausreichend; wenn du weniger trinkst, wird der Urin konzentrierter, was deine Blase reizen kann.",
+      "Reduzier Koffein und Sprudelgetränke, die deine Blase reizen können."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal an, wenn du nicht sicher bist, ob es Urin oder Fruchtwasser ist, besonders wenn es immer weiter tröpfelt.",
+      "Ruf deine Frauenärztin/deinen Frauenarzt an, wenn das Wasserlassen brennt oder sticht oder dein Urin trüb oder blutig ist.",
+      "Frag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt nach Beckenboden-Physiotherapie, wenn dich der Urinverlust belastet."
+    ]
+  },
+  "insomnia": {
+    "name": "Schlafprobleme",
+    "aliases": [
+      "Schlafstörungen",
+      "Schlaflosigkeit",
+      "kann nicht schlafen",
+      "nachts wach",
+      "Schlafposition",
+      "Einschlafprobleme"
+    ],
+    "about": "Schlafprobleme sind sehr häufig: Sie betreffen etwa ein Viertel der Schwangeren am Anfang und die meisten gegen Ende. Hormone, Harndrang, Sodbrennen, Krämpfe, kreisende Gedanken und ein wachsender Bauch erschweren es, eine bequeme Lage zu finden. Schlechter Schlaf ist frustrierend, schadet deinem Baby aber nicht.",
+    "relief": [
+      "Schlaf ab der 28. Woche auf der Seite ein; wenn du auf dem Rücken aufwachst, dreh dich einfach um.",
+      "Stütz deinen Bauch mit Kissen und leg dir eines zwischen die Knie.",
+      "Vermeide abends Koffein und lange Nickerchen spät am Tag.",
+      "Komm mit einem entspannenden Abendritual, Atemübungen oder einem warmen Bad zur Ruhe.",
+      "Sanfte Bewegung tagsüber, etwa ein Spaziergang in der Mittagspause, kann dir beim Schlafen helfen."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn du wegen des Schlafmangels kaum noch zurechtkommst oder er mit Ängsten oder gedrückter Stimmung einhergeht.",
+      "Erwähne lautes Schnarchen, nächtliches Nach-Luft-Schnappen oder Atemaussetzer oder sehr unruhige Beine.",
+      "Frag deine Frauenärztin/deinen Frauenarzt, bevor du ein Schlafmittel nimmst, auch ein pflanzliches."
+    ]
+  },
+  "vivid-dreams": {
+    "name": "Lebhafte Träume und Albträume",
+    "aliases": [
+      "lebhafte Träume",
+      "seltsame Träume",
+      "Albträume",
+      "Alpträume",
+      "komische Träume",
+      "Schwangerschaftsträume"
+    ],
+    "about": "Viele haben in der Schwangerschaft ungewöhnlich lebhafte, seltsame oder beunruhigende Träume, oft über das Baby oder die Geburt. Hormone, häufigeres Aufwachen (sodass du dich an deine Träume erinnerst) und die großen emotionalen Veränderungen, die du gerade erlebst, spielen alle eine Rolle. Das ist normal, und nur weil du etwas träumst, heißt das nicht, dass es passiert.",
+    "relief": [
+      "Sprich über deine Träume mit deiner Partnerin oder deinem Partner, mit einer vertrauten Person oder mit deiner Hebamme.",
+      "Probier vor dem Schlafengehen Entspannungs- oder Atemübungen und halte dein Abendritual ruhig.",
+      "Deine Sorgen vor dem Schlafen aufzuschreiben, kann helfen, den Kopf freizubekommen."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn Albträume häufig und belastend sind oder mit ständigen Sorgen oder gedrückter Stimmung einhergehen."
+    ]
+  },
+  "mood-swings": {
+    "name": "Stimmungsschwankungen",
+    "aliases": [
+      "Stimmungsschwankungen",
+      "emotional",
+      "viel weinen",
+      "gereizt",
+      "überfordert",
+      "nah am Wasser gebaut"
+    ],
+    "about": "In einem Moment den Tränen nahe und im nächsten gereizt oder überglücklich zu sein, ist sehr häufig, besonders im ersten Trimester und gegen Ende. Hormonschwankungen, Müdigkeit, körperliche Beschwerden und die schiere Größe dieser Lebensveränderung spielen alle eine Rolle. Hochs und Tiefs sind normal, aber dich die meiste Zeit niedergeschlagen zu fühlen, musst du nicht einfach hinnehmen.",
+    "relief": [
+      "Sag den Menschen, die dir nahestehen, wie es dir geht; du musst nicht jede Träne erklären.",
+      "Ruh dich aus, iss regelmäßig und geh nach draußen, um Tageslicht und sanfte Bewegung zu bekommen.",
+      "Nimm dir Zeit für kleine Dinge, die dir Freude machen, und schraub deine Ansprüche an den Haushalt herunter.",
+      "Geburtsvorbereitungskurse oder Gruppen können dich mit Menschen in Kontakt bringen, die das Gleiche erleben."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn du dich zwei Wochen lang oder länger an den meisten Tagen niedergeschlagen, hoffnungslos oder ängstlich fühlst.",
+      "Hol dir noch am selben Tag Hilfe, wenn du Mühe hast, den Alltag zu bewältigen, zu essen oder zu schlafen.",
+      "Wenn du Gedanken hast, dir oder deinem Baby etwas anzutun, wähle jetzt den Notruf oder ruf ein Krisentelefon an."
+    ]
+  },
+  "anxiety": {
+    "name": "Ängste und Sorgen",
+    "aliases": [
+      "Angst",
+      "Sorgen",
+      "Panikattacken",
+      "Stress",
+      "nervös",
+      "Schwangerschaftsangst"
+    ],
+    "about": "Ein paar Sorgen in der Schwangerschaft sind ganz natürlich, sei es um das Baby, die Geburt, Geld oder darum, wie sich das Leben verändern wird. Wenn die Angst fast ständig da ist, schwer zu kontrollieren ist oder dich an alltäglichen Dingen hindert, spricht man von perinataler Angst; sie ist häufig und behandelbar. Vielleicht bemerkst du Herzrasen, Unruhe, schlechten Schlaf oder das ständige Gefühl, dass etwas Schlimmes passieren wird.",
+    "relief": [
+      "Teil deine Sorgen mit deiner Partnerin oder deinem Partner, einer vertrauten Person oder deiner Hebamme; sie auszusprechen hilft oft.",
+      "Probier ein paar Minuten langsames Atmen: Atme ein, während du bis 4 zählst, und aus, während du bis 6 zählst.",
+      "Bleib aktiv: Spazierengehen, Schwimmen oder Schwangerschaftsyoga können Stress lindern.",
+      "Begrenze endloses Scrollen und halte dich an vertrauenswürdige Quellen für Informationen zur Schwangerschaft."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn du dich fast ständig ängstlich fühlst oder die Sorgen deinen Alltag beeinträchtigen.",
+      "Hol dir noch am selben Tag Hilfe, wenn du Panikattacken hast oder vor Sorge nicht essen oder schlafen kannst.",
+      "Wähle jetzt den Notruf, wenn du Gedanken hast, dir etwas anzutun, oder das Gefühl hast, dich nicht selbst schützen zu können."
+    ]
+  },
+  "low-mood": {
+    "name": "Niedergeschlagenheit und Depression",
+    "aliases": [
+      "Depression",
+      "niedergeschlagen",
+      "Schwangerschaftsdepression",
+      "perinatale Depression",
+      "hoffnungslos",
+      "immer traurig"
+    ],
+    "about": "Eine Depression in der Schwangerschaft (pränatale oder perinatale Depression) ist häufig und betrifft etwa 1 von 10 Schwangeren. Sie ist nicht deine Schuld und bedeutet nicht, dass du ein schlechter Elternteil sein wirst. Anzeichen sind, sich die meiste Zeit traurig, weinerlich, hoffnungslos oder wie betäubt zu fühlen, das Interesse an Dingen zu verlieren und Veränderungen bei Schlaf und Appetit. Sie ist behandelbar, und früh Hilfe zu holen schützt dich und dein Baby.",
+    "relief": [
+      "Erzähl jemandem, dem du vertraust, wie es dir wirklich geht; du musst das nicht allein tragen.",
+      "Sanfte Bewegung, Tageslicht und regelmäßige Mahlzeiten können deine Stimmung jeden Tag ein wenig heben.",
+      "Frag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt nach Gesprächstherapie und Unterstützungsangeboten vor Ort für die seelische Gesundheit rund um Schwangerschaft und Geburt.",
+      "Wende dich an eine Hotline für seelische Gesundheit oder eine Selbsthilfegruppe, wenn du heute mit jemandem reden musst."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt, wenn du dich seit mehr als zwei Wochen niedergeschlagen fühlst oder das Interesse an Dingen verloren hast.",
+      "Melde dich dringend bei deiner Frauenärztin/deinem Frauenarzt, wenn du Dinge siehst oder hörst, die andere nicht wahrnehmen, oder feste Überzeugungen hast, die andere nicht teilen.",
+      "Wähle jetzt den Notruf, wenn du glaubst, dass du dir oder deinem Baby etwas antun könntest."
+    ]
+  },
+  "self-harm-thoughts": {
+    "name": "Gedanken, dir oder deinem Baby etwas anzutun",
+    "aliases": [
+      "Suizidgedanken",
+      "Selbstmordgedanken",
+      "Selbstverletzung",
+      "nicht mehr leben wollen",
+      "aufdringliche Gedanken",
+      "Krise"
+    ],
+    "about": "Wenn du Gedanken hast, deinem Leben ein Ende zu setzen, dich selbst zu verletzen oder deinem Baby zu schaden, bist du nicht allein, und du bist kein schlechter Mensch. Solche Gedanken können ein Symptom einer behandelbaren Erkrankung sein, etwa einer perinatalen Depression, einer Angsterkrankung oder, selten, einer Psychose. Hilfe wirkt, und dich genau jetzt an jemanden zu wenden, ist das Stärkste und Sicherste, was du tun kannst.",
+    "relief": [
+      "Sag es jetzt jemandem in deiner Nähe, etwa deiner Partnerin oder deinem Partner, einer Freundin oder einem Freund, einem Familienmitglied oder jemandem aus der Nachbarschaft, und bitte die Person, bei dir zu bleiben.",
+      "Entferne dich von allem, womit du dich verletzen könntest.",
+      "Ruf ein Krisentelefon oder eine Hotline für seelische Gesundheit an, wenn du sofort mit jemandem reden musst."
+    ],
+    "callDoctor": [
+      "Wähle jetzt den Notruf, wenn du das Gefühl hast, dass du diesen Gedanken folgen könntest, oder dich nicht selbst schützen kannst.",
+      "Melde dich noch heute bei deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme, wenn diese Gedanken kommen und gehen, auch wenn du nicht vorhast, ihnen zu folgen.",
+      "Hol dir Notfallhilfe, wenn du Dinge siehst oder hörst, die andere nicht wahrnehmen, oder dich sehr verwirrt fühlst."
+    ]
+  },
+  "baby-brain": {
+    "name": "Vergesslichkeit („Schwangerschaftsdemenz“)",
+    "aliases": [
+      "Schwangerschaftsdemenz",
+      "Baby Brain",
+      "Vergesslichkeit",
+      "vergesslich",
+      "Konzentrationsprobleme",
+      "Nebel im Kopf"
+    ],
+    "about": "Sich benebelt, vergesslich oder leicht abgelenkt zu fühlen, bemerken viele Schwangere. Hormonumstellungen, schlechter Schlaf, Müdigkeit und viel im Kopf zu haben spielen dabei wahrscheinlich alle eine Rolle. Es ist real, es ist häufig, und es geht vorbei.",
+    "relief": [
+      "Nutze Listen, Kalendererinnerungen und Handy-Wecker für Termine und Aufgaben.",
+      "Leg Schlüssel, Geldbeutel und Handy immer an denselben Platz.",
+      "Gib Schlaf und Ruhe Vorrang, wo du kannst.",
+      "Sei nachsichtig mit dir und lass andere einen Teil der mentalen Last mittragen."
+    ],
+    "callDoctor": [
+      "Sprich mit deiner Frauenärztin/deinem Frauenarzt, wenn die Vergesslichkeit stark ist, schlimmer wird oder mit gedrückter Stimmung oder Ängsten einhergeht.",
+      "Wähle den Notruf, wenn du plötzlich verwirrt bist, besonders zusammen mit starken Kopfschmerzen oder Sehstörungen."
+    ]
+  },
+  "carpal-tunnel": {
+    "name": "Kribbelnde oder taube Hände (Karpaltunnelsyndrom)",
+    "aliases": [
+      "Karpaltunnelsyndrom",
+      "taube Hände",
+      "kribbelnde Finger",
+      "eingeschlafene Hände",
+      "Handgelenkschmerzen",
+      "schwacher Griff"
+    ],
+    "about": "Schwellungen in der Schwangerschaft können den Nerv einengen, der durch dein Handgelenk verläuft. Das kann Kribbeln, Taubheit oder Schmerzen in Daumen und Fingern verursachen, oft schlimmer nachts oder gleich morgens. Das Karpaltunnelsyndrom ist später in der Schwangerschaft häufig und bessert sich nach der Geburt meist von selbst.",
+    "relief": [
+      "Trag nachts eine Handgelenkschiene, damit dein Handgelenk gerade bleibt; frag in der Apotheke oder in einer Physiotherapiepraxis nach.",
+      "Vermeide es, das Handgelenk wiederholt zu beugen oder fest zuzugreifen, und mach Pausen beim Tippen oder bei der Handynutzung.",
+      "Schüttle deine Hände aus oder beweg Finger und Handgelenke sanft, wenn die Beschwerden auftreten.",
+      "Lagere deine Hände beim Ausruhen auf einem Kissen hoch."
+    ],
+    "callDoctor": [
+      "Geh zu deiner Frauenärztin/deinem Frauenarzt oder deiner Hebamme, wenn die Taubheit dauerhaft ist, sich deine Hand schwach anfühlt oder dir ständig Dinge herunterfallen.",
+      "Ruf sofort deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn das Kribbeln mit plötzlichen Schwellungen im Gesicht oder an den Händen oder mit starken Kopfschmerzen einhergeht."
+    ]
+  },
+  "braxton-hicks": {
+    "name": "Übungswehen (Braxton-Hicks)",
+    "aliases": [
+      "Übungswehen",
+      "Vorwehen",
+      "Braxton Hicks",
+      "harter Bauch",
+      "Bauch wird hart",
+      "Uebungswehen"
+    ],
+    "about": "Übungswehen (Braxton-Hicks-Kontraktionen) sind unregelmäßige Verhärtungen deiner Gebärmutter: Dein Bauch wird etwa eine Minute lang hart und entspannt sich dann wieder. Damit übt dein Körper für die Geburt. Sie können im zweiten Trimester beginnen und werden später deutlicher spürbar. Anders als Geburtswehen sind sie meist schmerzlos oder nur leicht unangenehm, werden nicht stärker, kommen nicht in kürzeren Abständen und lassen nach, wenn du etwas anderes tust.",
+    "relief": [
+      "Wechsle die Position: Geh herum, wenn du gesessen hast, oder leg dich auf die Seite, wenn du aktiv warst.",
+      "Trink ein oder zwei Gläser Wasser, denn Flüssigkeitsmangel kann sie auslösen.",
+      "Leere deine Blase und probier ein warmes Bad oder langsames Atmen.",
+      "Wenn du unsicher bist, miss sie eine Stunde lang: Geburtswehen werden regelmäßig, länger und stärker."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal an, wenn du vor der 37. Woche bist und die Verhärtungen regelmäßig oder schmerzhaft werden.",
+      "Ruf sofort an, wenn die Verhärtungen mit Blutung, austretender Flüssigkeit oder weniger Kindsbewegungen einhergehen.",
+      "Ruf an, wenn die Wehen etwa alle 5 Minuten oder öfter kommen oder so stark sind, dass du dabei nicht mehr sprechen kannst."
+    ]
+  },
+  "reduced-movements": {
+    "name": "Dein Baby bewegt sich weniger als sonst",
+    "aliases": [
+      "weniger Kindsbewegungen",
+      "Baby bewegt sich nicht",
+      "keine Tritte",
+      "Baby ist ruhig",
+      "Tritte zählen",
+      "Kindsbewegungen"
+    ],
+    "about": "Meist spürst du dein Baby zum ersten Mal zwischen der 16. und 24. Woche, und von da an lernst du sein ganz eigenes Bewegungsmuster kennen. Es gibt keine feste Anzahl an Tritten, die du zählen musst, aber weniger Bewegungen oder ein verändertes Muster können ein frühes Zeichen dafür sein, dass dein Baby untersucht werden muss. Meistens ist alles in Ordnung, aber eine schnelle Untersuchung könnte deinem Baby das Leben retten. Du solltest Bewegungen bis zur Geburt und auch währenddessen spüren.",
+    "relief": [
+      "Ruf sofort an, auch mitten in der Nacht; warte nicht bis morgen.",
+      "Benutz kein Herztongerät für zu Hause (Doppler), um dich zu beruhigen; es ist nicht zuverlässig.",
+      "Warte nicht ab, ob ein kaltes Getränk, ein Snack oder Hinlegen dein Baby zum Bewegen bringt."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn sich dein Baby weniger bewegt oder sich das Bewegungsmuster verändert hat.",
+      "Ruf sofort an, wenn du dein Baby gar nicht mehr spürst.",
+      "Ruf jedes Mal wieder an, wenn es passiert, egal wie oft; du stiehlst niemals jemandem die Zeit.",
+      "Sag deiner Hebamme oder deiner Frauenärztin/deinem Frauenarzt Bescheid, wenn du bis zur 24. Woche noch keine Bewegungen gespürt hast."
+    ]
+  },
+  "fluid-leaking": {
+    "name": "Flüssigkeitsabgang (Blasensprung)",
+    "aliases": [
+      "Blasensprung",
+      "Fruchtblase geplatzt",
+      "Fruchtwasser",
+      "vorzeitiger Blasensprung",
+      "Fruchtwasser verlieren",
+      "Flüssigkeit läuft"
+    ],
+    "about": "Das Fruchtwasser (die Flüssigkeit um dein Baby) kann in einem plötzlichen Schwall oder als langsames, stetiges Rinnsal abgehen. Rund um den Geburtstermin ist das oft ein Zeichen, dass die Geburt beginnt. Vor der 37. Woche kann es aber bedeuten, dass die Geburt zu früh beginnt und das Infektionsrisiko höher ist, deshalb muss es immer sofort abgeklärt werden. Fruchtwasser ist meist klar oder blass strohfarben. Auch ein wenig Urin zu verlieren, ist in der Schwangerschaft häufig. Wenn du unsicher bist, lass dich untersuchen.",
+    "relief": [
+      "Leg eine Binde ein, keinen Tampon, damit du Farbe und Menge der Flüssigkeit sehen kannst.",
+      "Notier dir, wann es angefangen hat und welche Farbe die Flüssigkeit hat.",
+      "Verzichte auf Sex, bis du untersucht wurdest."
+    ],
+    "callDoctor": [
+      "Ruf sofort im Kreißsaal oder bei deiner Frauenärztin/deinem Frauenarzt an, wenn deine Fruchtblase platzt oder du glaubst, dass Flüssigkeit abgeht, egal in welcher Schwangerschaftswoche.",
+      "Ruf sofort an, wenn die Flüssigkeit grün, braun, blutig oder übel riechend ist oder du Fieber hast oder dich krank fühlst.",
+      "Wenn du vor der 37. Woche bist, ruf jetzt im Kreißsaal an; warte nicht, bis Wehen einsetzen.",
+      "Wähle den Notruf, wenn du die Nabelschnur spüren oder sehen kannst oder stark blutest."
+    ]
+  },
+  "fever": {
+    "name": "Fieber oder erhöhte Temperatur",
+    "aliases": [
+      "Fieber",
+      "erhöhte Temperatur",
+      "Schüttelfrost",
+      "Grippe",
+      "Infektion",
+      "Sepsis"
+    ],
+    "about": "Eine Temperatur von 38 °C (100,4 °F) oder höher bedeutet meist, dass dein Körper gegen eine Infektion kämpft. Die meisten Infektionen sind leicht, aber in der Schwangerschaft können sie schneller ernst werden, und hohes Fieber kann dein Baby beeinträchtigen. Deshalb ist es wichtig, dich untersuchen zu lassen, statt abzuwarten. Wenn dir heiß ist und du fröstelst oder dich sehr krank fühlst, zählt das auch, selbst wenn du nicht gemessen hast.",
+    "relief": [
+      "Ruh dich aus und trink viel, oft in kleinen Mengen.",
+      "Trag leichte Kleidung und halte den Raum kühl.",
+      "Frag in der Apotheke oder deine Frauenärztin/deinen Frauenarzt, welches Medikament zum Fiebersenken in der Schwangerschaft sicher ist.",
+      "Achte auf die Bewegungen deines Babys und melde jede Veränderung."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Hebamme oder deine Frauenärztin/deinen Frauenarzt an, wenn deine Temperatur 38 °C (100,4 °F) oder höher ist oder dir heiß ist und du fröstelst.",
+      "Ruf sofort an, wenn das Fieber mit Bauchschmerzen, übel riechendem Ausfluss, austretender Flüssigkeit oder weniger Kindsbewegungen einhergeht.",
+      "Ruf sofort an, wenn du Fieber hast und dazu Schmerzen beim Wasserlassen, Rückenschmerzen, einen Ausschlag oder starken Husten.",
+      "Wähle den Notruf, wenn du kurzatmig, verwirrt oder sehr schläfrig bist, kalte, fleckige Haut hast oder dich extrem krank fühlst."
+    ]
+  },
+  "signs-of-labour": {
+    "name": "Anzeichen der Geburt",
+    "aliases": [
+      "Wehen",
+      "Geburtsbeginn",
+      "Geburt",
+      "Zeichnungsblutung",
+      "Schleimpfropf",
+      "Eröffnungswehen"
+    ],
+    "about": "Die Geburt beginnt oft allmählich. Anzeichen sind Verhärtungen, die regelmäßig, stärker und häufiger werden, die Zeichnungsblutung (der Schleimpfropf aus dem Gebärmutterhals löst sich), Rückenschmerzen, ein Drang zum Stuhlgang, weil der Kopf deines Babys nach unten drückt, und der Blasensprung. Die frühe Phase (Latenzphase) kann Stunden oder sogar Tage dauern, und meist bist du einen Großteil davon zu Hause am besten aufgehoben.",
+    "relief": [
+      "Miss deine Wehen vom Beginn einer Wehe bis zum Beginn der nächsten.",
+      "Bleib aufrecht und in Bewegung und probier ein warmes Bad oder eine warme Dusche.",
+      "Trink weiterhin schluckweise Wasser und iss leichte Snacks, wenn du Lust hast.",
+      "Langsames Atmen, Massage und ein ruhiger, abgedunkelter Raum können dir helfen, dich zu entspannen."
+    ],
+    "callDoctor": [
+      "Ruf im Kreißsaal an, wenn deine Wehen regelmäßig sind und etwa alle 5 Minuten kommen oder du glaubst, dass die Geburt begonnen hat.",
+      "Ruf sofort an, wenn deine Fruchtblase platzt, du blutest oder sich dein Baby weniger als sonst bewegt.",
+      "Ruf sofort an, wenn die Wehen vor der 37. Woche beginnen, eine Wehe länger als 2 Minuten dauert oder du 6 oder mehr Wehen in 10 Minuten hast.",
+      "Wähle den Notruf, wenn du einen starken Pressdrang hast und glaubst, dass dein Baby jetzt kommt."
+    ]
+  },
+  "calf-pain": {
+    "name": "Schmerzen oder Schwellung in einer Wade (mögliches Blutgerinnsel)",
+    "aliases": [
+      "Thrombose",
+      "tiefe Venenthrombose",
+      "Blutgerinnsel",
+      "Wadenschmerzen",
+      "geschwollenes Bein",
+      "Beinschmerzen"
+    ],
+    "about": "Pochende Schmerzen, Schwellung, Wärme oder Rötung in einem Bein, meist in der Wade oder im Oberschenkel, können Anzeichen einer tiefen Venenthrombose (TVT) sein, also eines Blutgerinnsels in einer Vene. In der Schwangerschaft und in den ersten Wochen nach der Geburt sind Blutgerinnsel wahrscheinlicher, auch wenn sie weiterhin eher selten sind. Ein Gerinnsel kann in die Lunge wandern, deshalb muss es noch am selben Tag abgeklärt werden; die Behandlung ist in der Schwangerschaft sicher und wirksam.",
+    "relief": [
+      "Reib oder massier das schmerzende Bein nicht.",
+      "Bleib im Alltag aktiv und trink viel Wasser, um dein Risiko für Blutgerinnsel zu senken.",
+      "Geh auf Reisen von mehr als 4 Stunden umher, wann immer du kannst, trag lockere Kleidung und trink weiter Wasser."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt oder im Kreißsaal an, wenn ein Bein schmerzt, geschwollen, warm oder gerötet ist.",
+      "Wähle den Notruf, wenn du dich außerdem kurzatmig fühlst, Brustschmerzen hast oder Blut hustest."
+    ]
+  },
+  "one-sided-pain-early": {
+    "name": "Einseitige Bauchschmerzen in der Frühschwangerschaft (mögliche Eileiterschwangerschaft)",
+    "aliases": [
+      "Eileiterschwangerschaft",
+      "Extrauterinschwangerschaft",
+      "einseitige Bauchschmerzen",
+      "Schmerzen auf einer Seite",
+      "Schulterschmerzen",
+      "Schmerzen Frühschwangerschaft"
+    ],
+    "about": "Schmerzen tief unten auf einer Seite deines Bauches zwischen etwa der 4. und 12. Woche, besonders zusammen mit Schmierblutungen oder einem braunen, wässrigen Ausfluss, können ein Zeichen einer ektopen Schwangerschaft sein: Dabei wächst die Schwangerschaft außerhalb der Gebärmutter, meist in einem Eileiter. Das betrifft rund 1 von 90 Schwangerschaften. Schmerzen können auch harmlose Ursachen haben, aber weil eine ektope Schwangerschaft ernst sein kann, muss sie immer rasch abgeklärt werden.",
+    "relief": [
+      "Warte nicht ab, ob der Schmerz nachlässt; lass dich noch am selben Tag untersuchen.",
+      "Lass dich fahren, statt selbst zu fahren.",
+      "Notier dir, wann der Schmerz begonnen hat, wo er sitzt und ob du blutest, um es dem medizinischen Team zu sagen."
+    ],
+    "callDoctor": [
+      "Ruf noch am selben Tag deine Frauenärztin/deinen Frauenarzt oder die gynäkologische Ambulanz einer Klinik an, wenn du in der Frühschwangerschaft einseitige Bauchschmerzen hast.",
+      "Ruf noch am selben Tag an, wenn Schmerzen oder Schmierblutungen mit Schmerzen in der Schulterspitze oder Beschwerden beim Wasserlassen oder Stuhlgang einhergehen.",
+      "Wähle den Notruf bei plötzlichen, stechenden, starken Bauchschmerzen oder wenn dir sehr schwindelig oder übel ist, du dich einer Ohnmacht nahe fühlst oder sehr blass aussiehst."
+    ]
+  }
+}

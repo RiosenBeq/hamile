@@ -1,14 +1,26 @@
 // Marigold translations. Two-letter ISO codes; the rest is a flat dict.
-// New keys: add to BOTH `en` and `tr`, or `t()` falls back to the key string.
+// English and Turkish are authored in code (here and ./dict/*). Spanish,
+// German, French and Portuguese (Brazil) are generated from the English table
+// into ./locales/*.json; keys added later live in ./dict/later.ts for all six.
+// A missing key falls back to English, then to the key itself.
 
-export type LangCode = 'en' | 'tr';
+export type LangCode = 'en' | 'tr' | 'es' | 'de' | 'fr' | 'pt';
 
 export const SUPPORTED_LANGS: { code: LangCode; name: string; flag: string }[] = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'tr', name: 'Türkçe', flag: '🇹🇷' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'pt', name: 'Português (BR)', flag: '🇧🇷' },
 ];
 
 import { EXTRA } from './dict';
+import LATER from './dict/later';
+import esDict from './locales/es.json';
+import deDict from './locales/de.json';
+import frDict from './locales/fr.json';
+import ptDict from './locales/pt.json';
 
 type Dict = Record<string, string>;
 
@@ -501,8 +513,12 @@ const tr: Dict = {
 // Feature dictionaries live in ./dict/*. They are merged over the legacy
 // tables above so a key defined in both resolves to the feature module.
 export const TRANSLATIONS: Record<LangCode, Dict> = {
-  en: { ...en, ...EXTRA.en },
-  tr: { ...tr, ...EXTRA.tr },
+  en: { ...en, ...EXTRA.en, ...LATER.en },
+  tr: { ...tr, ...EXTRA.tr, ...LATER.tr },
+  es: { ...(esDict as Dict), ...LATER.es },
+  de: { ...(deDict as Dict), ...LATER.de },
+  fr: { ...(frDict as Dict), ...LATER.fr },
+  pt: { ...(ptDict as Dict), ...LATER.pt },
 };
 
 export type TranslationKey = keyof typeof en;

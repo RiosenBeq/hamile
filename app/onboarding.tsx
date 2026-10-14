@@ -3,7 +3,7 @@
 // notifications. Everything is optional except the date.
 
 import React, { useMemo, useState } from 'react';
-import { KeyboardAvoidingView, Platform, Pressable, ScrollView, Text, View } from 'react-native';
+import { KeyboardAvoidingView, Linking, Platform, Pressable, ScrollView, Text, View } from 'react-native';
 import Animated, { FadeIn, FadeInRight, FadeInUp, ZoomIn } from 'react-native-reanimated';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,10 +11,11 @@ import { Btn } from '@/components/Btn';
 import { Blob } from '@/components/Blob';
 import { MarigoldMark } from '@/components/MarigoldMark';
 import { CalendarPicker } from '@/components/CalendarPicker';
-import { Chip, Eyebrow, Field, H1, Body, Segmented, EmojiBadge } from '@/components/ui';
+import { Chip, Eyebrow, Field, H1, Body, Segmented, EmojiBadge, shadow } from '@/components/ui';
 import { Icon } from '@/components/Icon';
 import { useAppStore } from '@/store/useAppStore';
-import { SUPPORTED_LANGS, useFormat, useT, useLang } from '@/i18n';
+import { detectRegion, SUPPORTED_LANGS, useFormat, useT, useLang } from '@/i18n';
+import { LEGAL_VERSION, siteUrl } from '@/lib/links';
 import {
   addDays,
   dueDateForCurrentWeek,
@@ -44,8 +45,12 @@ export default function Onboarding() {
   const patchProfile = useAppStore((s) => s.patchProfile);
   const setDueDate = useAppStore((s) => s.setDueDate);
   const patchNotifPrefs = useAppStore((s) => s.patchNotifPrefs);
+  const acceptLegal = useAppStore((s) => s.acceptLegal);
+  const alreadyAccepted = useAppStore((s) => s.legal.version === LEGAL_VERSION && !!s.legal.acceptedAt);
 
   const [step, setStep] = useState(0);
+  const [langOpen, setLangOpen] = useState(false);
+  const [agreed, setAgreed] = useState(alreadyAccepted);
   const [name, setName] = useState('');
   const [method, setMethod] = useState<Method>('due');
   const [picked, setPicked] = useState<Date | null>(null);
@@ -81,6 +86,8 @@ export default function Onboarding() {
       babyName: nickname.trim() || undefined,
       multiples,
       stage: 'pregnant',
+      // US (and Liberia/Myanmar) default to pounds and inches; changeable in Settings.
+      units: ['US', 'LR', 'MM'].includes(detectRegion()) ? 'imperial' : 'metric',
     });
     if (allowNotifs) {
       const ok = await requestPermissionIfNeeded().catch(() => false);
@@ -125,10 +132,36 @@ export default function Onboarding() {
 
       {step === 0 && (
         <Animated.View entering={FadeIn.duration(400)} style={{ flex: 1, paddingHorizontal: 28, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 20 }}>
-          <View style={{ flexDirection: 'row', justifyContent: 'flex-end', gap: 8 }}>
-            {SUPPORTED_LANGS.map((l) => (
-              <Chip key={l.code} small label={`${l.flag} ${l.name}`} selected={lang === l.code} onPress={() => setLanguage(l.code)} />
-            ))}
+          <View style={{ alignItems: 'flex-end', zIndex: 10 }}>
+            <Chip
+              small
+              label={`${SUPPORTED_LANGS.find((l) => l.code === lang)?.flag ?? '🌐'} ${SUPPORTED_LANGS.find((l) => l.code === lang)?.name ?? 'English'}  ▾`}
+              selected={langOpen}
+              onPress={() => setLangOpen((v) => !v)}
+            />
+            {langOpen ? (
+              <Animated.View
+                entering={FadeIn.duration(150)}
+                style={{ position: 'absolute', top: 42, right: 0, backgroundColor: colors.surface, borderRadius: 18, paddingVertical: 6, minWidth: 200, borderWidth: 1, borderColor: colors.line, ...shadow.card }}
+              >
+                {SUPPORTED_LANGS.map((l) => (
+                  <Pressable
+                    key={l.code}
+                    accessibilityRole="button"
+                    accessibilityState={{ selected: lang === l.code }}
+                    onPress={() => {
+                      setLanguage(l.code);
+                      setLangOpen(false);
+                    }}
+                    style={({ pressed }) => ({ flexDirection: 'row', alignItems: 'center', gap: 10, paddingHorizontal: 16, paddingVertical: 11, backgroundColor: pressed ? colors.sand : 'transparent' })}
+                  >
+                    <Text style={{ fontSize: 18 }}>{l.flag}</Text>
+                    <Text style={{ flex: 1, fontFamily: lang === l.code ? fonts.bodyBold : fonts.body, fontSize: 15, color: colors.ink }}>{l.name}</Text>
+                    {lang === l.code ? <Icon.check size={16} color={colors.terracotta} /> : null}
+                  </Pressable>
+                ))}
+              </Animated.View>
+            ) : null}
           </View>
           <Animated.View entering={ZoomIn.delay(100).duration(700)} style={{ alignItems: 'center', marginTop: 24 }}>
             <MarigoldMark size={210} />
@@ -141,8 +174,17 @@ export default function Onboarding() {
             </Text>
             <Body mute style={{ marginTop: 14 }}>{t('ob.welcome.body')}</Body>
           </Animated.View>
-          <Animated.View entering={FadeInUp.delay(550).duration(450)} style={{ marginTop: 26 }}>
-            <Btn onPress={() => setStep(1)}>{t('ob.welcome.cta')}</Btn>
+          <Animated.View entering={FadeInUp.delay(550).duration(450)} style={{ marginTop: 22 }}>
+            <Consent agreed={agreed} onToggle={() => setAgreed((v) => !v)} lang={lang} t={t} />
+            <Btn
+              disabled={!agreed}
+              onPress={() => {
+                acceptLegal(LEGAL_VERSION);
+                setStep(1);
+              }}
+            >
+              {t('ob.welcome.cta')}
+            </Btn>
             <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 6, marginTop: 14 }}>
               <Icon.lock size={14} color={colors.mute} />
               <Text style={{ color: colors.mute, fontSize: 12.5, fontFamily: fonts.body }}>{t('ob.welcome.foot')}</Text>
@@ -311,7 +353,7 @@ export default function Onboarding() {
                 </Text>
                 <Text style={{ fontFamily: fonts.body, color: colors.mute, fontSize: 13, marginTop: 2 }} numberOfLines={2}>
                   {status
-                    ? t('today.sizeOf', { item: sizePhrase(getWeek(Math.min(42, status.weeks + 1)).size.name, lang) })
+                    ? t('today.sizeOf', { item: sizePhrase(getWeek(Math.min(42, status.weeks + 1)).size, lang) })
                     : t('today.newWeekSub')}
                 </Text>
               </View>
@@ -325,5 +367,64 @@ export default function Onboarding() {
         </Animated.View>
       )}
     </View>
+  );
+}
+
+/**
+ * Required before onboarding: the user confirms Marigold is general
+ * information, not medical advice, and accepts the Terms and Privacy Policy
+ * (opened in their language).
+ */
+function Consent({
+  agreed,
+  onToggle,
+  lang,
+  t,
+}: {
+  agreed: boolean;
+  onToggle: () => void;
+  lang: ReturnType<typeof useLang>;
+  t: ReturnType<typeof useT>;
+}) {
+  const parts = t('ob.consent').split(/(\{terms\}|\{privacy\})/);
+  const open = (page: 'terms' | 'privacy') => Linking.openURL(siteUrl(page, lang)).catch(() => {});
+  return (
+    <Pressable
+      onPress={onToggle}
+      accessibilityRole="checkbox"
+      accessibilityState={{ checked: agreed }}
+      style={{ flexDirection: 'row', gap: 12, alignItems: 'flex-start', marginBottom: 16 }}
+    >
+      <View
+        style={{
+          width: 24,
+          height: 24,
+          borderRadius: 8,
+          marginTop: 1,
+          borderWidth: 1.5,
+          borderColor: agreed ? colors.terracotta : colors.faint,
+          backgroundColor: agreed ? colors.terracotta : colors.surface,
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        {agreed ? <Icon.check size={15} color="#fff" /> : null}
+      </View>
+      <Text style={{ flex: 1, fontFamily: fonts.body, fontSize: 13.5, lineHeight: 19, color: colors.ink2 }}>
+        {parts.map((p, i) =>
+          p === '{terms}' ? (
+            <Text key={i} onPress={() => open('terms')} accessibilityRole="link" style={{ color: colors.terracotta, fontFamily: fonts.bodyBold, textDecorationLine: 'underline' }}>
+              {t('ab.terms')}
+            </Text>
+          ) : p === '{privacy}' ? (
+            <Text key={i} onPress={() => open('privacy')} accessibilityRole="link" style={{ color: colors.terracotta, fontFamily: fonts.bodyBold, textDecorationLine: 'underline' }}>
+              {t('ab.privacy')}
+            </Text>
+          ) : (
+            <Text key={i}>{p}</Text>
+          ),
+        )}
+      </Text>
+    </Pressable>
   );
 }

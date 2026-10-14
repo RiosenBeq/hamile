@@ -7,7 +7,8 @@
 //   <Text>{t('kicks.complete.title', { minutes: 42 })}</Text>
 //
 // Bundled content (weeks, safety library, symptoms…) is stored as
-// `{ en, tr }` objects — read it with `useL10n()`.
+// `{ en, tr, es?, de?, fr?, pt? }` objects — read it with `useL10n()`, which
+// falls back to English for anything not translated.
 
 import { useCallback } from 'react';
 import { NativeModules, Platform } from 'react-native';
@@ -33,21 +34,41 @@ export function useLang(): LangCode {
   return useAppStore((s) => s.language);
 }
 
-/** Pick the active language from a bundled `{ en, tr }` string. */
+/** Pick the active language from a bundled L10n string (English fallback). */
 export function useL10n() {
   const lang = useAppStore((s) => s.language);
   return useCallback((v: L10n | undefined | null): string => (v ? v[lang] ?? v.en : ''), [lang]);
 }
 
-/** Pick the active language from a bundled `{ en: [], tr: [] }` list. */
+/** Pick the active language from a bundled L10n list (English fallback). */
 export function useL10nList() {
   const lang = useAppStore((s) => s.language);
   return useCallback((v: L10nList | undefined | null): string[] => (v ? v[lang] ?? v.en : []), [lang]);
 }
 
-export const LOCALE_FOR_LANG: Record<LangCode, string> = { en: 'en-US', tr: 'tr-TR' };
+export const LOCALE_FOR_LANG: Record<LangCode, string> = {
+  en: 'en-US',
+  tr: 'tr-TR',
+  es: 'es-ES',
+  de: 'de-DE',
+  fr: 'fr-FR',
+  pt: 'pt-BR',
+};
 
+/**
+ * BCP-47 locale for dates and numbers. Uses the device region when it speaks
+ * the same language (es-MX, de-AT, fr-CA, en-GB…), else a sensible default.
+ */
 export function localeFor(lang: LangCode): string {
+  const region = detectRegion();
+  if (region) {
+    const candidate = `${lang}-${region}`;
+    try {
+      if (Intl.DateTimeFormat.supportedLocalesOf([candidate]).length) return candidate;
+    } catch {
+      // Older engines without supportedLocalesOf: fall through.
+    }
+  }
   return LOCALE_FOR_LANG[lang] ?? 'en-US';
 }
 
@@ -88,8 +109,11 @@ export function detectSystemLanguage(): LangCode {
   return SUPPORTED_LANGS.some((l) => l.code === code) ? (code as LangCode) : 'en';
 }
 
+let cachedRegion: string | null = null;
+
 /** Best-effort region code from the device locale ("TR", "US", "GB"…). */
 export function detectRegion(): string {
+  if (cachedRegion !== null) return cachedRegion;
   let raw = '';
   try {
     if (Platform.OS === 'ios') {
@@ -103,7 +127,8 @@ export function detectRegion(): string {
     raw = '';
   }
   const m = String(raw).match(/[-_]([A-Za-z]{2})\b/);
-  return m ? m[1].toUpperCase() : '';
+  cachedRegion = m ? m[1].toUpperCase() : '';
+  return cachedRegion;
 }
 
 export { SUPPORTED_LANGS } from './translations';

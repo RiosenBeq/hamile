@@ -1,0 +1,1039 @@
+[
+  {
+    "id": "acai",
+    "category": "food",
+    "emoji": "🫐",
+    "verdict": "caution",
+    "name": {
+      "en": "Açaí",
+      "tr": "Açaí",
+      "es": "Açaí",
+      "de": "Açaí",
+      "fr": "Açaï",
+      "pt": "Açaí"
+    },
+    "aliases": {
+      "en": [
+        "acai",
+        "acai bowl",
+        "açaí bowl",
+        "acai berry",
+        "acai pulp",
+        "acai smoothie"
+      ],
+      "tr": [
+        "açai",
+        "acai",
+        "açai kasesi",
+        "acai bowl",
+        "açai meyvesi"
+      ],
+      "es": [
+        "açaí",
+        "acai",
+        "bowl de açaí",
+        "baya de açaí",
+        "pulpa de açaí",
+        "batido de açaí"
+      ],
+      "de": [
+        "Açaí",
+        "Acai",
+        "Acai Bowl",
+        "Acai-Beere",
+        "Acai-Pulpe",
+        "Acai-Smoothie"
+      ],
+      "fr": [
+        "açaï",
+        "acai",
+        "bol d'açaï",
+        "baie d'açaï",
+        "pulpe d'açaï",
+        "smoothie à l'açaï"
+      ],
+      "pt": [
+        "acai",
+        "açaí na tigela",
+        "polpa de açaí",
+        "açaí batido",
+        "tigela de açaí",
+        "açaí com granola"
+      ]
+    },
+    "summary": {
+      "en": "Usually fine from a clean, trusted source, but açaí prepared without proper hygiene has been linked to Chagas disease in Brazil.",
+      "tr": "Temiz ve güvenilir bir yerden alındığında genellikle sorun değil, ancak hijyene uyulmadan hazırlanan açaí Brezilya'da Chagas hastalığıyla ilişkilendirilmiştir.",
+      "es": "Suele estar bien si viene de un lugar limpio y de confianza, pero el açaí preparado sin una higiene adecuada se ha relacionado con la enfermedad de Chagas en Brasil.",
+      "de": "Aus einer sauberen, vertrauenswürdigen Quelle meist in Ordnung, aber Açaí, das ohne ausreichende Hygiene zubereitet wurde, wurde in Brasilien mit der Chagas-Krankheit in Verbindung gebracht.",
+      "fr": "En général sans problème s'il provient d'une source propre et fiable, mais l'açaï préparé sans hygiène suffisante a été associé à la maladie de Chagas au Brésil.",
+      "pt": "Em geral, tudo bem se vier de um lugar limpo e confiável, mas o açaí preparado sem higiene adequada já foi associado à doença de Chagas no Brasil."
+    },
+    "details": {
+      "en": "Brazil's Ministry of Health records cases and outbreaks of Chagas disease caught by eating contaminated food, such as açaí, mainly in the Legal Amazon. The parasite is carried by insects called barbeiros (kissing bugs) and can get into the fruit or pulp when it isn't prepared hygienically. Chagas can also pass from mother to baby during pregnancy or birth. The Ministry advises washing fruit well, checking it before blending and keeping preparation areas clean and protected.",
+      "tr": "Brezilya Sağlık Bakanlığı, başta Yasal Amazon bölgesi olmak üzere, açaí gibi kontamine yiyeceklerle bulaşan Chagas hastalığı vakaları ve salgınları kaydediyor. Parazit, barbeiro (öpücük böceği) denen böceklerle taşınır ve hazırlık hijyenik yapılmadığında meyveye ya da posaya karışabilir. Chagas, hamilelik ya da doğum sırasında anneden bebeğe de geçebilir. Bakanlık, meyveleri iyice yıkamayı, ezmeden önce kontrol etmeyi ve hazırlık alanını temiz ve korunaklı tutmayı öneriyor.",
+      "es": "El Ministerio de Salud de Brasil registra casos y brotes de enfermedad de Chagas contraída al comer alimentos contaminados, como el açaí, sobre todo en la Amazonía Legal. El parásito lo transmiten unos insectos llamados barbeiros (chinches besuconas o vinchucas) y puede llegar a la fruta o a la pulpa cuando no se prepara con higiene. El Chagas también puede pasar de la madre al bebé durante el embarazo o el parto. El Ministerio aconseja lavar bien la fruta, revisarla antes de triturarla y mantener limpias y protegidas las zonas de preparación.",
+      "de": "Das brasilianische Gesundheitsministerium verzeichnet Fälle und Ausbrüche der Chagas-Krankheit, die durch verunreinigte Lebensmittel wie Açaí übertragen wurden, vor allem in der Region Amazônia Legal. Der Parasit wird von Insekten namens Barbeiros (Raubwanzen) übertragen und kann in die Frucht oder das Fruchtmark gelangen, wenn sie nicht hygienisch verarbeitet werden. Chagas kann außerdem in der Schwangerschaft oder bei der Geburt von der Mutter auf das Baby übergehen. Das Ministerium rät, die Früchte gründlich zu waschen, sie vor dem Pürieren zu kontrollieren und die Zubereitungsbereiche sauber und geschützt zu halten.",
+      "fr": "Le ministère de la Santé du Brésil recense des cas et des foyers de maladie de Chagas contractée en mangeant des aliments contaminés, comme l'açaï, surtout en Amazonie légale. Le parasite est transmis par des insectes appelés barbeiros (punaises triatomes) et peut se retrouver dans le fruit ou la pulpe quand la préparation n'est pas hygiénique. La maladie de Chagas peut aussi se transmettre de la mère au bébé pendant la grossesse ou l'accouchement. Le ministère conseille de bien laver les fruits, de les examiner avant de les mixer et de garder les zones de préparation propres et protégées.",
+      "pt": "O Ministério da Saúde registra casos e surtos de doença de Chagas transmitida pela ingestão de alimentos contaminados, como o açaí, principalmente na Amazônia Legal. O parasita é transmitido por insetos chamados barbeiros e pode chegar ao fruto ou à polpa quando o preparo não é feito com higiene. A doença de Chagas também pode passar da mãe para o bebê durante a gravidez ou o parto. O Ministério orienta lavar bem os frutos, observá-los antes de triturar ou bater e manter o local de preparo limpo e protegido."
+    },
+    "tips": {
+      "en": [
+        "Buy açaí from places with good hygiene, where the fruit is washed well before it's pulped.",
+        "If you have a fever for more than 7 days, or swelling of your face or legs, see a doctor and mention what you've eaten.",
+        "Ask about a Chagas test in your prenatal care; Brazil's Ministry of Health says pregnant women should have it."
+      ],
+      "tr": [
+        "Açaíyi hijyen kurallarına uyan, meyvenin posaya çevrilmeden önce iyice yıkandığı yerlerden al.",
+        "7 günden uzun süren ateşin ya da yüzünde veya bacaklarında şişlik olursa doktora git ve ne yediğini söyle.",
+        "Doğum öncesi kontrollerinde Chagas testini sor; Brezilya Sağlık Bakanlığı hamilelerin bu testi yaptırması gerektiğini söylüyor."
+      ],
+      "es": [
+        "Compra açaí en sitios con buena higiene, donde laven bien la fruta antes de hacer la pulpa.",
+        "Si tienes fiebre durante más de 7 días o se te hinchan la cara o las piernas, ve al médico y cuéntale lo que has comido.",
+        "Pregunta por la prueba de Chagas en tus controles prenatales; el Ministerio de Salud de Brasil indica que las embarazadas deberían hacérsela."
+      ],
+      "de": [
+        "Kauf Açaí dort, wo auf gute Hygiene geachtet wird und die Früchte gründlich gewaschen werden, bevor sie zu Mark verarbeitet werden.",
+        "Wenn du länger als 7 Tage Fieber hast oder dein Gesicht oder deine Beine anschwellen, geh zu einer Ärztin oder einem Arzt und erwähne, was du gegessen hast.",
+        "Frag in der Schwangerenvorsorge nach einem Chagas-Test; das brasilianische Gesundheitsministerium sagt, dass Schwangere ihn machen sollten."
+      ],
+      "fr": [
+        "Achète ton açaï dans des endroits où l'hygiène est bonne et où les fruits sont bien lavés avant d'être réduits en pulpe.",
+        "Si tu as de la fièvre pendant plus de 7 jours, ou un gonflement du visage ou des jambes, consulte un médecin et signale ce que tu as mangé.",
+        "Renseigne-toi sur le test de Chagas lors de ton suivi de grossesse ; le ministère de la Santé du Brésil indique que les femmes enceintes devraient le faire."
+      ],
+      "pt": [
+        "Compre açaí de lugares com boa higiene, onde o fruto é bem lavado antes de virar polpa.",
+        "Se tiver febre por mais de 7 dias ou inchaço no rosto ou nas pernas, procure um médico e conte o que você comeu.",
+        "Pergunte sobre o exame de Chagas no pré-natal; o Ministério da Saúde orienta que gestantes façam o exame."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Doença de Chagas",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas"
+      },
+      {
+        "name": "Ministério da Saúde (Brazil): Doença de Chagas – situação epidemiológica",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas/situacao-epidemiologica/situacao-epidemiologica"
+      }
+    ]
+  },
+  {
+    "id": "sugarcane-juice",
+    "category": "drink",
+    "emoji": "🎋",
+    "verdict": "caution",
+    "name": {
+      "en": "Sugarcane juice (caldo de cana)",
+      "tr": "Şeker kamışı suyu (caldo de cana)",
+      "es": "Jugo de caña (caldo de cana)",
+      "de": "Zuckerrohrsaft (caldo de cana)",
+      "fr": "Jus de canne à sucre (caldo de cana)",
+      "pt": "Caldo de cana"
+    },
+    "aliases": {
+      "en": [
+        "sugar cane juice",
+        "cane juice",
+        "caldo de cana",
+        "garapa",
+        "sugarcane drink"
+      ],
+      "tr": [
+        "şeker kamışı suyu",
+        "seker kamisi suyu",
+        "kamış suyu",
+        "caldo de cana",
+        "garapa"
+      ],
+      "es": [
+        "jugo de caña",
+        "zumo de caña",
+        "guarapo",
+        "caldo de cana",
+        "garapa",
+        "agua de caña"
+      ],
+      "de": [
+        "Zuckerrohrsaft",
+        "Zuckerrohr",
+        "Caldo de cana",
+        "Garapa",
+        "Zuckerrohrgetränk"
+      ],
+      "fr": [
+        "jus de canne",
+        "jus de canne à sucre",
+        "caldo de cana",
+        "garapa",
+        "vesou"
+      ],
+      "pt": [
+        "caldo-de-cana",
+        "garapa",
+        "suco de cana",
+        "caldo de cana com limão",
+        "pastel e caldo de cana"
+      ]
+    },
+    "summary": {
+      "en": "Fine now and then from a clean stall, but caldo de cana prepared without proper hygiene has been linked to Chagas disease.",
+      "tr": "Temiz bir tezgâhtan ara sıra içilebilir, ancak hijyene uyulmadan hazırlanan şeker kamışı suyu Chagas hastalığıyla ilişkilendirilmiştir.",
+      "es": "Está bien de vez en cuando si viene de un puesto limpio, pero el caldo de cana preparado sin una higiene adecuada se ha relacionado con la enfermedad de Chagas.",
+      "de": "Ab und zu von einem sauberen Stand in Ordnung, aber Caldo de cana, der ohne ausreichende Hygiene zubereitet wurde, wurde mit der Chagas-Krankheit in Verbindung gebracht.",
+      "fr": "Possible de temps en temps s'il vient d'un stand propre, mais le caldo de cana préparé sans hygiène suffisante a été associé à la maladie de Chagas.",
+      "pt": "Pode ser tomado de vez em quando, de uma barraca limpa, mas o caldo de cana preparado sem higiene adequada já foi associado à doença de Chagas."
+    },
+    "details": {
+      "en": "Brazil's Ministry of Health lists caldo de cana, along with açaí, among the foods linked to cases and outbreaks of Chagas disease caught by mouth. The parasite can get into the juice if the cane or the press isn't kept clean and protected from insects, and ANVISA sets hygiene rules for preparing and selling it. Chagas can pass from mother to baby during pregnancy or birth. Brazil's dietary guidance for pregnancy also encourages water as your main drink.",
+      "tr": "Brezilya Sağlık Bakanlığı, şeker kamışı suyunu açaí ile birlikte ağız yoluyla bulaşan Chagas hastalığı vakaları ve salgınlarıyla ilişkili yiyecekler arasında sayıyor. Kamış ya da sıkma makinesi temiz tutulmaz ve böceklerden korunmazsa parazit suya karışabilir; ANVISA da bu içeceğin hazırlanması ve satışı için hijyen kuralları belirliyor. Chagas, hamilelik ya da doğum sırasında anneden bebeğe geçebilir. Brezilya'nın hamilelikte beslenme rehberi de temel içecek olarak suyu öneriyor.",
+      "es": "El Ministerio de Salud de Brasil incluye el caldo de cana, junto con el açaí, entre los alimentos relacionados con casos y brotes de enfermedad de Chagas transmitida por vía oral. El parásito puede llegar al jugo si la caña o la prensa no se mantienen limpias y protegidas de los insectos, y la ANVISA establece normas de higiene para prepararlo y venderlo. El Chagas puede pasar de la madre al bebé durante el embarazo o el parto. La guía alimentaria de Brasil para el embarazo también recomienda el agua como bebida principal.",
+      "de": "Das brasilianische Gesundheitsministerium nennt Caldo de cana zusammen mit Açaí unter den Lebensmitteln, die mit Fällen und Ausbrüchen der über den Mund übertragenen Chagas-Krankheit in Verbindung stehen. Der Parasit kann in den Saft gelangen, wenn das Zuckerrohr oder die Presse nicht sauber und vor Insekten geschützt gehalten wird, und die ANVISA legt Hygieneregeln für Zubereitung und Verkauf fest. Chagas kann in der Schwangerschaft oder bei der Geburt von der Mutter auf das Baby übergehen. Die brasilianischen Ernährungsempfehlungen für die Schwangerschaft empfehlen außerdem Wasser als wichtigstes Getränk.",
+      "fr": "Le ministère de la Santé du Brésil cite le caldo de cana, avec l'açaï, parmi les aliments liés à des cas et à des foyers de maladie de Chagas transmise par voie orale. Le parasite peut se retrouver dans le jus si la canne ou le pressoir ne sont pas maintenus propres et protégés des insectes, et l'ANVISA fixe des règles d'hygiène pour sa préparation et sa vente. La maladie de Chagas peut se transmettre de la mère au bébé pendant la grossesse ou l'accouchement. Les recommandations alimentaires brésiliennes pour la grossesse encouragent aussi l'eau comme boisson principale.",
+      "pt": "O Ministério da Saúde cita o caldo de cana, junto com o açaí, entre os alimentos ligados a casos e surtos de doença de Chagas por transmissão oral. O parasita pode chegar ao caldo se a cana ou a moenda não forem mantidas limpas e protegidas de insetos, e a Anvisa define regras de higiene para o preparo e a venda. A doença de Chagas pode passar da mãe para o bebê durante a gravidez ou o parto. O guia alimentar do Ministério para gestantes também incentiva a água como principal bebida."
+    },
+    "tips": {
+      "en": [
+        "Choose stalls that look clean, where the cane is washed and the press is kept covered.",
+        "Keep it as an occasional drink; water is the best everyday choice.",
+        "If you have a fever for more than 7 days after drinking it, see a doctor and mention it."
+      ],
+      "tr": [
+        "Temiz görünen, kamışın yıkandığı ve makinenin üstünün örtülü tutulduğu tezgâhları seç.",
+        "Ara sıra içilen bir içecek olarak kalsın; her gün için en iyi seçenek su.",
+        "İçtikten sonra 7 günden uzun süren ateşin olursa doktora git ve bundan bahset."
+      ],
+      "es": [
+        "Elige puestos que se vean limpios, donde laven la caña y mantengan la prensa cubierta.",
+        "Tómalo solo de vez en cuando; el agua es la mejor opción para el día a día.",
+        "Si tienes fiebre durante más de 7 días después de tomarlo, ve al médico y coméntaselo."
+      ],
+      "de": [
+        "Wähl Stände, die sauber aussehen, an denen das Zuckerrohr gewaschen und die Presse abgedeckt wird.",
+        "Trink ihn nur gelegentlich; Wasser ist die beste Wahl für jeden Tag.",
+        "Wenn du nach dem Trinken länger als 7 Tage Fieber hast, geh zu einer Ärztin oder einem Arzt und erwähne es."
+      ],
+      "fr": [
+        "Choisis des stands qui ont l'air propres, où la canne est lavée et le pressoir gardé couvert.",
+        "Garde-le pour de temps en temps ; l'eau reste le meilleur choix au quotidien.",
+        "Si tu as de la fièvre pendant plus de 7 jours après en avoir bu, consulte un médecin et mentionne-le."
+      ],
+      "pt": [
+        "Escolha barracas que pareçam limpas, onde a cana é lavada e a moenda fica protegida.",
+        "Deixe para tomar de vez em quando; no dia a dia, a melhor escolha é a água.",
+        "Se tiver febre por mais de 7 dias depois de tomar, procure um médico e conte isso."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Doença de Chagas – situação epidemiológica",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas/situacao-epidemiologica/situacao-epidemiologica"
+      },
+      {
+        "name": "Ministério da Saúde (Brazil): Doença de Chagas",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/doenca-de-chagas"
+      },
+      {
+        "name": "ANVISA: RDC nº 218/2005 – hygiene rules for foods and drinks prepared with plants",
+        "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2005/rdc0218_29_07_2005.html"
+      },
+      {
+        "name": "Ministério da Saúde (Brazil): Guia Alimentar – orientação alimentar de gestantes (Fascículo 3)",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_guia_alimentar_fasciculo3.pdf"
+      }
+    ]
+  },
+  {
+    "id": "chimarrao",
+    "category": "drink",
+    "emoji": "🧉",
+    "verdict": "caution",
+    "name": {
+      "en": "Chimarrão & tereré (yerba mate)",
+      "tr": "Chimarrão ve tereré (yerba mate)",
+      "es": "Chimarrão y tereré (yerba mate)",
+      "de": "Chimarrão & Tereré (Mate)",
+      "fr": "Chimarrão & tereré (maté)",
+      "pt": "Chimarrão e tereré (erva-mate)"
+    },
+    "aliases": {
+      "en": [
+        "chimarrao",
+        "yerba mate",
+        "mate",
+        "terere",
+        "mate tea",
+        "maté"
+      ],
+      "tr": [
+        "mate çayı",
+        "yerba mate",
+        "chimarrao",
+        "terere",
+        "mate"
+      ],
+      "es": [
+        "chimarrão",
+        "mate",
+        "yerba mate",
+        "tereré",
+        "mate amargo",
+        "té de mate"
+      ],
+      "de": [
+        "Chimarrão",
+        "Mate",
+        "Mate-Tee",
+        "Yerba Mate",
+        "Tereré",
+        "Matetee"
+      ],
+      "fr": [
+        "chimarrão",
+        "maté",
+        "mate",
+        "yerba mate",
+        "tereré",
+        "thé maté"
+      ],
+      "pt": [
+        "chimarrao",
+        "tereré",
+        "erva-mate",
+        "chá mate",
+        "mate gelado",
+        "cuia"
+      ]
+    },
+    "summary": {
+      "en": "Fine in small amounts, but yerba mate contains caffeine, so count it toward your daily limit.",
+      "tr": "Az miktarda sorun değil, ancak yerba mate kafein içerir; bu yüzden günlük sınırına dahil et.",
+      "es": "Bien en pequeñas cantidades, pero la yerba mate tiene cafeína, así que cuéntala dentro de tu límite diario.",
+      "de": "In kleinen Mengen in Ordnung, aber Mate enthält Koffein – rechne ihn also in deine Tagesgrenze ein.",
+      "fr": "Possible en petites quantités, mais le maté contient de la caféine : compte-le dans ta limite quotidienne.",
+      "pt": "Tudo bem em pequenas quantidades, mas a erva-mate tem cafeína, então conte no seu limite diário."
+    },
+    "details": {
+      "en": "Yerba mate contains caffeine, like coffee and black or green tea. Brazil's Ministry of Health guidance for pregnancy says a safe caffeine intake shouldn't exceed 100 mg a day, about one cup of coffee or of a caffeinated tea such as chá mate or chimarrão, ideally with little or no sugar. It notes that high caffeine intake may increase the risk of miscarriage, premature birth, low birth weight and stillbirth.",
+      "tr": "Yerba mate, kahve ve siyah ya da yeşil çay gibi kafein içerir. Brezilya Sağlık Bakanlığı'nın hamilelik rehberine göre güvenli kafein alımı günde 100 mg'ı geçmemeli; bu da yaklaşık bir fincan kahveye ya da chá mate veya chimarrão gibi kafeinli bir çaya denk gelir ve tercihen şekersiz ya da çok az şekerle içilmeli. Rehber, yüksek kafein alımının düşük, erken doğum, düşük doğum ağırlığı ve ölü doğum riskini artırabileceğini belirtiyor.",
+      "es": "La yerba mate contiene cafeína, como el café y el té negro o verde. La guía del Ministerio de Salud de Brasil para el embarazo indica que una ingesta segura de cafeína no debería superar los 100 mg al día, más o menos una taza de café o de una infusión con cafeína como el chá mate o el chimarrão, a ser posible con poco o nada de azúcar. Señala que un consumo alto de cafeína puede aumentar el riesgo de aborto espontáneo, parto prematuro, bajo peso al nacer y muerte fetal.",
+      "de": "Mate enthält Koffein, genau wie Kaffee und schwarzer oder grüner Tee. Die Empfehlungen des brasilianischen Gesundheitsministeriums für die Schwangerschaft besagen, dass eine sichere Koffeinaufnahme 100 mg pro Tag nicht überschreiten sollte – etwa eine Tasse Kaffee oder koffeinhaltiger Tee wie Chá mate oder Chimarrão, am besten mit wenig oder ohne Zucker. Sie weisen darauf hin, dass eine hohe Koffeinaufnahme das Risiko für Fehlgeburt, Frühgeburt, niedriges Geburtsgewicht und Totgeburt erhöhen kann.",
+      "fr": "Le maté contient de la caféine, comme le café et le thé noir ou vert. Les recommandations du ministère de la Santé du Brésil pour la grossesse indiquent qu'un apport sûr en caféine ne devrait pas dépasser 100 mg par jour, soit environ une tasse de café ou d'une boisson caféinée comme le chá mate ou le chimarrão, idéalement avec peu ou pas de sucre. Elles signalent qu'un apport élevé en caféine peut augmenter le risque de fausse couche, d'accouchement prématuré, de faible poids de naissance et de mort fœtale.",
+      "pt": "A erva-mate tem cafeína, assim como o café e os chás preto e verde. O guia do Ministério da Saúde para gestantes diz que uma ingestão segura de cafeína não deve passar de 100 mg por dia, o equivalente a uma xícara de café ou de chá com cafeína, como chá mate ou chimarrão, de preferência sem açúcar ou com o mínimo possível. O guia alerta que o consumo elevado de cafeína pode aumentar o risco de aborto, parto prematuro, baixo peso ao nascer e natimorto."
+    },
+    "tips": {
+      "en": [
+        "Keep rounds short; a gourd that's refilled many times can add up.",
+        "Count chimarrão together with coffee, tea, cola and chocolate drinks.",
+        "Drink it without sugar, or with as little as possible."
+      ],
+      "tr": [
+        "Mate seanslarını kısa tut; tekrar tekrar doldurulan bir su kabağı fincan toplamı artırabilir.",
+        "Chimarrão'yu kahve, çay, kola ve çikolatalı içeceklerle birlikte hesapla.",
+        "Şekersiz ya da mümkün olduğunca az şekerle iç."
+      ],
+      "es": [
+        "Haz rondas cortas; un mate que se rellena muchas veces puede sumar bastante.",
+        "Suma el chimarrão al café, el té, los refrescos de cola y las bebidas de chocolate.",
+        "Tómalo sin azúcar o con la menor cantidad posible."
+      ],
+      "de": [
+        "Halte die Runden kurz; eine Kalebasse, die oft nachgefüllt wird, kann sich summieren.",
+        "Rechne Chimarrão mit Kaffee, Tee, Cola und Kakaogetränken zusammen.",
+        "Trink ihn ohne Zucker oder mit so wenig wie möglich."
+      ],
+      "fr": [
+        "Fais des tournées courtes : une calebasse remplie de nombreuses fois peut vite s'additionner.",
+        "Compte le chimarrão avec le café, le thé, le cola et les boissons chocolatées.",
+        "Bois-le sans sucre, ou avec le moins possible."
+      ],
+      "pt": [
+        "Faça rodas curtas; uma cuia completada muitas vezes pode somar bastante.",
+        "Some o chimarrão ao café, ao chá, ao refrigerante de cola e às bebidas com chocolate.",
+        "Tome sem açúcar ou com o mínimo possível."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Guia Alimentar – orientação alimentar de gestantes (Fascículo 3)",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_guia_alimentar_fasciculo3.pdf"
+      }
+    ]
+  },
+  {
+    "id": "guarana-soda",
+    "category": "drink",
+    "emoji": "🥤",
+    "verdict": "caution",
+    "name": {
+      "en": "Guaraná soda",
+      "tr": "Guaraná gazozu",
+      "es": "Refresco de guaraná",
+      "de": "Guaraná-Limonade",
+      "fr": "Soda au guarana",
+      "pt": "Refrigerante de guaraná"
+    },
+    "aliases": {
+      "en": [
+        "guarana",
+        "guarana soda",
+        "guarana antarctica",
+        "kuat",
+        "brazilian soda",
+        "guarana powder"
+      ],
+      "tr": [
+        "guarana",
+        "guarana gazozu",
+        "guaraná içeceği",
+        "brezilya gazozu",
+        "guarana tozu"
+      ],
+      "es": [
+        "guaraná",
+        "refresco de guaraná",
+        "guaraná antarctica",
+        "kuat",
+        "refresco brasileño",
+        "guaraná en polvo"
+      ],
+      "de": [
+        "Guarana",
+        "Guaraná",
+        "Guarana Antarctica",
+        "Kuat",
+        "brasilianische Limo",
+        "Guaranapulver"
+      ],
+      "fr": [
+        "guarana",
+        "soda au guarana",
+        "guaraná antarctica",
+        "kuat",
+        "soda brésilien",
+        "guarana en poudre"
+      ],
+      "pt": [
+        "guaraná",
+        "guaraná antarctica",
+        "kuat",
+        "refri de guaraná",
+        "guaraná em pó",
+        "guaraná natural"
+      ]
+    },
+    "summary": {
+      "en": "Occasionally is OK: it contains some caffeine (count it toward your daily limit), and Brazil's Ministry of Health advises pregnant women to cut out sweetened soft drinks.",
+      "tr": "Arada bir sorun değil: bir miktar kafein içerir (günlük sınırına say) ve Brezilya Sağlık Bakanlığı hamilelere şekerli gazlı içecekleri bırakmalarını öneriyor.",
+      "es": "De vez en cuando está bien: contiene algo de cafeína (cuéntala dentro de tu límite diario), y el Ministerio de Salud de Brasil aconseja a las embarazadas dejar los refrescos azucarados.",
+      "de": "Ab und zu ist okay: Sie enthält etwas Koffein (rechne es in deine Tagesgrenze ein), und das brasilianische Gesundheitsministerium rät Schwangeren, auf gesüßte Erfrischungsgetränke zu verzichten.",
+      "fr": "De temps en temps, ça va : il contient un peu de caféine (compte-la dans ta limite quotidienne), et le ministère de la Santé du Brésil conseille aux femmes enceintes de supprimer les sodas sucrés.",
+      "pt": "De vez em quando, tudo bem: tem um pouco de cafeína (conte no seu limite diário), e o Ministério da Saúde orienta gestantes a evitar refrigerantes e bebidas adoçadas."
+    },
+    "details": {
+      "en": "Brazil's dietary guidance for pregnancy recommends avoiding sweetened drinks such as soft drinks, boxed juices and powdered drink mixes, because they usually contain a lot of sugar, flavourings and colourings, and many contain caffeine. It says these drinks can worsen nausea and vomiting and take the place of water. ANVISA's herbal medicines handbook notes that guaraná contains methylxanthines such as caffeine, the same stimulants found in coffee, tea and cola.",
+      "tr": "Brezilya'nın hamilelikte beslenme rehberi, gazlı içecekler, kutu meyve suları ve toz içecekler gibi şekerli içeceklerden kaçınmayı öneriyor; çünkü bunlar genellikle bol şeker, aroma ve renklendirici içeriyor, birçoğunda da kafein bulunuyor. Rehbere göre bu içecekler bulantı ve kusmayı kötüleştirebilir ve suyun yerini alabilir. ANVISA'nın bitkisel ilaç el kitabı da guaranánın, kahve, çay ve kolada bulunan kafein gibi metilksantinler içerdiğini belirtiyor.",
+      "es": "La guía alimentaria de Brasil para el embarazo recomienda evitar las bebidas azucaradas, como los refrescos, los jugos en caja y los jugos en polvo, porque suelen tener mucho azúcar, aromatizantes y colorantes, y muchas contienen cafeína. Indica que estas bebidas pueden empeorar las náuseas y los vómitos y ocupar el lugar del agua. El manual de plantas medicinales de la ANVISA señala que el guaraná contiene metilxantinas como la cafeína, los mismos estimulantes que tienen el café, el té y la cola.",
+      "de": "Die brasilianischen Ernährungsempfehlungen für die Schwangerschaft raten, gesüßte Getränke wie Limonaden, Säfte aus dem Tetrapak und Getränkepulver zu meiden, weil sie meist viel Zucker sowie Aroma- und Farbstoffe enthalten und viele davon Koffein. Diese Getränke können demnach Übelkeit und Erbrechen verstärken und den Platz von Wasser einnehmen. Das Handbuch der ANVISA zu pflanzlichen Arzneimitteln weist darauf hin, dass Guaraná Methylxanthine wie Koffein enthält – dieselben anregenden Stoffe wie in Kaffee, Tee und Cola.",
+      "fr": "Les recommandations alimentaires brésiliennes pour la grossesse conseillent d'éviter les boissons sucrées comme les sodas, les jus en brique et les boissons en poudre, car elles contiennent généralement beaucoup de sucre, d'arômes et de colorants, et beaucoup contiennent de la caféine. Elles indiquent que ces boissons peuvent aggraver les nausées et les vomissements et prendre la place de l'eau. Le guide des plantes médicinales de l'ANVISA précise que le guarana contient des méthylxanthines comme la caféine, les mêmes stimulants que dans le café, le thé et le cola.",
+      "pt": "O guia alimentar do Ministério da Saúde para gestantes recomenda evitar bebidas adoçadas, como refrigerantes, sucos de caixinha e sucos em pó, porque costumam ter muito açúcar, aromatizantes e corantes, e muitas têm cafeína. Segundo o guia, essas bebidas podem piorar náuseas e vômitos e ocupar o lugar da água. O Memento Fitoterápico da Anvisa registra que o guaraná contém metilxantinas, como a cafeína, os mesmos estimulantes do café, do chá e dos refrigerantes de cola."
+    },
+    "tips": {
+      "en": [
+        "Try water with lemon slices or mint leaves, served cold if you feel queasy.",
+        "Guaraná powder and capsules are concentrated stimulants; don't take them without talking to your doctor."
+      ],
+      "tr": [
+        "Midén bulanıyorsa limon dilimi ya da nane yaprağı eklenmiş soğuk su dene.",
+        "Toz guaraná ve guaraná kapsülleri yoğun uyarıcılardır; doktoruna danışmadan kullanma."
+      ],
+      "es": [
+        "Prueba agua con rodajas de limón u hojas de menta, bien fría si tienes náuseas.",
+        "El guaraná en polvo y en cápsulas son estimulantes concentrados; no los tomes sin hablar con tu médico."
+      ],
+      "de": [
+        "Probier Wasser mit Zitronenscheiben oder Minzblättern – kalt, wenn dir übel ist.",
+        "Guaranápulver und -kapseln sind konzentrierte Anregungsmittel; nimm sie nicht, ohne mit deiner Ärztin oder deinem Arzt zu sprechen."
+      ],
+      "fr": [
+        "Essaie l'eau avec des rondelles de citron ou des feuilles de menthe, bien fraîche si tu as la nausée.",
+        "Le guarana en poudre et en gélules est un stimulant concentré ; n'en prends pas sans en parler à ton médecin."
+      ],
+      "pt": [
+        "Experimente água com rodelas de limão ou folhas de hortelã, gelada se estiver com enjoo.",
+        "Guaraná em pó e em cápsulas são estimulantes concentrados; não use sem falar com seu médico."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Guia Alimentar – orientação alimentar de gestantes (Fascículo 3)",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/protocolos_guia_alimentar_fasciculo3.pdf"
+      },
+      {
+        "name": "ANVISA: Memento Fitoterápico da Farmacopeia Brasileira (2016)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/formulario-fitoterapico/MementoFitoterapico1.pdf/@@display-file/file"
+      }
+    ]
+  },
+  {
+    "id": "boldo-tea",
+    "category": "drink",
+    "emoji": "🌿",
+    "verdict": "avoid",
+    "name": {
+      "en": "Boldo tea",
+      "tr": "Boldo çayı",
+      "es": "Té de boldo",
+      "de": "Boldotee",
+      "fr": "Tisane de boldo",
+      "pt": "Chá de boldo"
+    },
+    "aliases": {
+      "en": [
+        "boldo",
+        "boldo leaf",
+        "peumus boldus",
+        "false boldo",
+        "plectranthus barbatus",
+        "boldo do chile"
+      ],
+      "tr": [
+        "boldo",
+        "boldo yaprağı",
+        "sahte boldo",
+        "peumus boldus",
+        "boldo do chile"
+      ],
+      "es": [
+        "boldo",
+        "hoja de boldo",
+        "Peumus boldus",
+        "falso boldo",
+        "Plectranthus barbatus",
+        "boldo de Chile"
+      ],
+      "de": [
+        "Boldo",
+        "Boldoblätter",
+        "Peumus boldus",
+        "falscher Boldo",
+        "Plectranthus barbatus",
+        "Boldotee"
+      ],
+      "fr": [
+        "boldo",
+        "feuille de boldo",
+        "Peumus boldus",
+        "faux boldo",
+        "Plectranthus barbatus",
+        "boldo du Chili"
+      ],
+      "pt": [
+        "boldo",
+        "boldo-do-chile",
+        "boldo-brasileiro",
+        "falso-boldo",
+        "boldo de jardim",
+        "boldo em sachê"
+      ]
+    },
+    "summary": {
+      "en": "Best avoided in pregnancy: ANVISA says boldo shouldn't be used by pregnant women.",
+      "tr": "Hamilelikte kaçınmak en iyisi: ANVISA, boldonun hamileler tarafından kullanılmaması gerektiğini söylüyor.",
+      "es": "Mejor evitarlo en el embarazo: la ANVISA indica que las embarazadas no deberían usar boldo.",
+      "de": "In der Schwangerschaft besser meiden: Laut ANVISA sollten Schwangere kein Boldo verwenden.",
+      "fr": "Mieux vaut l'éviter pendant la grossesse : l'ANVISA indique que le boldo ne devrait pas être utilisé par les femmes enceintes.",
+      "pt": "Melhor evitar na gravidez: a Anvisa orienta que o boldo não seja usado por gestantes."
+    },
+    "details": {
+      "en": "Boldo tea is a popular home remedy in Brazil for indigestion. ANVISA's guidance says both boldo-do-chile (Peumus boldus) and Brazilian or false boldo (Plectranthus barbatus) shouldn't be used in pregnancy. Its herbal medicines handbook explains that boldo-do-chile contains sparteine, an alkaloid with an oxytocic, or womb-stimulating, effect.",
+      "tr": "Boldo çayı, Brezilya'da hazımsızlık için sık kullanılan bir ev ilacıdır. ANVISA'nın yönergelerine göre hem boldo-do-chile (Peumus boldus) hem de Brezilya boldosu ya da sahte boldo (Plectranthus barbatus) hamilelikte kullanılmamalı. Kurumun bitkisel ilaç el kitabı, boldo-do-chile'nin rahmi uyarıcı (oksitosik) etkisi olan sparteyin adlı bir alkaloit içerdiğini açıklıyor.",
+      "es": "El té de boldo es un remedio casero muy popular en Brasil para la indigestión. Las indicaciones de la ANVISA dicen que no deberían usarse en el embarazo ni el boldo de Chile (Peumus boldus) ni el boldo brasileño o falso boldo (Plectranthus barbatus). Su manual de plantas medicinales explica que el boldo de Chile contiene esparteína, un alcaloide con efecto oxitócico, es decir, que estimula el útero.",
+      "de": "Boldotee ist in Brasilien ein beliebtes Hausmittel bei Verdauungsbeschwerden. Laut den Empfehlungen der ANVISA sollten weder Boldo-do-Chile (Peumus boldus) noch brasilianischer oder falscher Boldo (Plectranthus barbatus) in der Schwangerschaft verwendet werden. Ihr Handbuch zu pflanzlichen Arzneimitteln erklärt, dass Boldo-do-Chile Spartein enthält, ein Alkaloid mit oxytocischer, also gebärmutteranregender Wirkung.",
+      "fr": "La tisane de boldo est un remède maison très populaire au Brésil contre les troubles digestifs. Selon l'ANVISA, ni le boldo du Chili (Peumus boldus) ni le boldo brésilien ou faux boldo (Plectranthus barbatus) ne devraient être utilisés pendant la grossesse. Son guide des plantes médicinales explique que le boldo du Chili contient de la spartéine, un alcaloïde à effet ocytocique, c'est-à-dire qui stimule l'utérus.",
+      "pt": "O chá de boldo é um remédio caseiro muito usado no Brasil para má digestão. As orientações da Anvisa dizem que tanto o boldo-do-chile (Peumus boldus) quanto o boldo-brasileiro, ou falso-boldo (Plectranthus barbatus), não devem ser usados na gravidez. O Memento Fitoterápico da Anvisa explica que o boldo-do-chile contém esparteína, um alcaloide com ação ocitócica, ou seja, que estimula o útero."
+    },
+    "tips": {
+      "en": [
+        "For indigestion, try smaller meals and ask your doctor or pharmacist about suitable options.",
+        "Check the labels of herbal blends and 'digestive' teas for boldo."
+      ],
+      "tr": [
+        "Hazımsızlık için daha küçük öğünler dene ve uygun seçenekleri doktoruna ya da eczacına sor.",
+        "Bitki çayı karışımlarının ve 'sindirim' çaylarının etiketinde boldo olup olmadığına bak."
+      ],
+      "es": [
+        "Para la indigestión, prueba con comidas más pequeñas y pregunta a tu médico o farmacéutico por opciones adecuadas.",
+        "Revisa la etiqueta de las mezclas de hierbas y los tés «digestivos» por si llevan boldo."
+      ],
+      "de": [
+        "Versuch es bei Verdauungsbeschwerden mit kleineren Mahlzeiten und frag deine Ärztin, deinen Arzt oder in der Apotheke nach geeigneten Möglichkeiten.",
+        "Prüf auf dem Etikett von Kräutermischungen und „Verdauungstees“, ob Boldo enthalten ist."
+      ],
+      "fr": [
+        "En cas de troubles digestifs, essaie des repas plus petits et demande à ton médecin ou à ton pharmacien quelles options conviennent.",
+        "Vérifie sur l'étiquette des mélanges de plantes et des tisanes « digestives » s'ils contiennent du boldo."
+      ],
+      "pt": [
+        "Para má digestão, prefira refeições menores e pergunte ao seu médico ou farmacêutico sobre opções adequadas.",
+        "Confira no rótulo se misturas de chás e chás 'digestivos' contêm boldo."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANVISA: Memento Fitoterápico da Farmacopeia Brasileira (2016)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/formulario-fitoterapico/MementoFitoterapico1.pdf/@@display-file/file"
+      },
+      {
+        "name": "ANVISA: RDC nº 10/2010 – herbal drugs (drogas vegetais)",
+        "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2010/rdc0010_09_03_2010.pdf"
+      }
+    ]
+  },
+  {
+    "id": "rue-tea",
+    "category": "drink",
+    "emoji": "🌱",
+    "verdict": "avoid",
+    "name": {
+      "en": "Rue tea (arruda)",
+      "tr": "Sedef otu çayı (arruda)",
+      "es": "Té de ruda (arruda)",
+      "de": "Rautentee (arruda)",
+      "fr": "Tisane de rue (arruda)",
+      "pt": "Chá de arruda"
+    },
+    "aliases": {
+      "en": [
+        "rue",
+        "arruda",
+        "ruta graveolens",
+        "herb of grace",
+        "rue herb"
+      ],
+      "tr": [
+        "sedef otu",
+        "sedefotu",
+        "arruda",
+        "ruta",
+        "sedef otu çayı"
+      ],
+      "es": [
+        "ruda",
+        "arruda",
+        "té de ruda",
+        "ruda común",
+        "Ruta graveolens"
+      ],
+      "de": [
+        "Raute",
+        "Weinraute",
+        "Arruda",
+        "Rautentee",
+        "Ruta graveolens"
+      ],
+      "fr": [
+        "rue",
+        "arruda",
+        "rue officinale",
+        "tisane de rue",
+        "Ruta graveolens"
+      ],
+      "pt": [
+        "arruda",
+        "ruta",
+        "arruda-doméstica",
+        "banho de arruda",
+        "arruda para menstruar"
+      ]
+    },
+    "summary": {
+      "en": "Avoid: Brazil's Ministry of Health names pregnancy and breastfeeding as the main reasons not to use rue.",
+      "tr": "Kaçın: Brezilya Sağlık Bakanlığı, sedef otunun kullanılmaması gereken başlıca durumlar olarak hamileliği ve emzirmeyi gösteriyor.",
+      "es": "Evítala: el Ministerio de Salud de Brasil señala el embarazo y la lactancia como los principales motivos para no usar ruda.",
+      "de": "Meiden: Das brasilianische Gesundheitsministerium nennt Schwangerschaft und Stillzeit als wichtigste Gründe, keine Raute zu verwenden.",
+      "fr": "À éviter : le ministère de la Santé du Brésil cite la grossesse et l'allaitement comme principales raisons de ne pas utiliser la rue.",
+      "pt": "Evite: o Ministério da Saúde aponta a gravidez e a amamentação como as principais contraindicações da arruda."
+    },
+    "details": {
+      "en": "Rue (arruda) has traditionally been used in Brazil to bring on periods and to cause abortion. The Ministry of Health's monograph on the plant says its main contraindication is use in pregnancy and breastfeeding, that it has a particular effect on the womb during pregnancy, and that it can be toxic when taken by mouth in high doses. Preparations of rue can also cause serious burns or skin irritation with sun exposure.",
+      "tr": "Sedef otu (arruda) Brezilya'da geleneksel olarak adet söktürmek ve düşük yaptırmak için kullanılmıştır. Sağlık Bakanlığı'nın bu bitkiye ilişkin monografisine göre başlıca kontrendikasyonu hamilelikte ve emzirirken kullanılmasıdır; hamilelikte rahim üzerinde özel bir etkisi vardır ve ağızdan yüksek dozda alındığında zehirli olabilir. Sedef otu preparatları güneşe maruz kalınca ciddi yanıklara ya da cilt tahrişine de yol açabilir.",
+      "es": "En Brasil, la ruda (arruda) se ha usado tradicionalmente para provocar la menstruación y como abortivo. La monografía del Ministerio de Salud sobre esta planta indica que su principal contraindicación es el uso durante el embarazo y la lactancia, que tiene un efecto especial sobre el útero durante el embarazo y que puede ser tóxica si se toma por vía oral en dosis altas. Los preparados de ruda también pueden causar quemaduras graves o irritación de la piel con la exposición al sol.",
+      "de": "Raute (Arruda) wird in Brasilien traditionell verwendet, um die Periode auszulösen und eine Abtreibung herbeizuführen. Die Monografie des Gesundheitsministeriums zu dieser Pflanze nennt als wichtigste Gegenanzeige die Anwendung in Schwangerschaft und Stillzeit, beschreibt eine besondere Wirkung auf die Gebärmutter während der Schwangerschaft und warnt, dass sie in hohen Dosen eingenommen giftig sein kann. Zubereitungen aus Raute können bei Sonneneinstrahlung außerdem schwere Verbrennungen oder Hautreizungen verursachen.",
+      "fr": "Au Brésil, la rue (arruda) est traditionnellement utilisée pour déclencher les règles et provoquer un avortement. La monographie du ministère de la Santé sur cette plante indique que sa principale contre-indication est l'utilisation pendant la grossesse et l'allaitement, qu'elle a un effet particulier sur l'utérus pendant la grossesse et qu'elle peut être toxique par voie orale à fortes doses. Les préparations à base de rue peuvent aussi provoquer des brûlures graves ou une irritation de la peau en cas d'exposition au soleil.",
+      "pt": "A arruda é usada tradicionalmente no Brasil para fazer a menstruação descer e como abortiva. A monografia do Ministério da Saúde sobre a planta diz que a principal contraindicação é o uso na gravidez e na amamentação, que ela tem efeito especial sobre o útero durante a gestação e que pode ser tóxica quando ingerida em altas doses. Preparados de arruda também podem causar queimaduras graves ou irritação na pele com a exposição ao sol."
+    },
+    "tips": {
+      "en": [
+        "Never use rue to bring on a period or end a pregnancy; it can be toxic. Talk to a health professional instead.",
+        "Keep rue preparations off your skin before going out in the sun."
+      ],
+      "tr": [
+        "Adet söktürmek ya da hamileliği sonlandırmak için asla sedef otu kullanma; zehirli olabilir. Bunun yerine bir sağlık profesyoneliyle konuş.",
+        "Güneşe çıkmadan önce sedef otu preparatlarını cildine sürme."
+      ],
+      "es": [
+        "Nunca uses ruda para provocar la menstruación o interrumpir un embarazo; puede ser tóxica. Habla con un profesional sanitario.",
+        "No te apliques preparados de ruda en la piel antes de exponerte al sol."
+      ],
+      "de": [
+        "Verwende Raute nie, um die Periode auszulösen oder eine Schwangerschaft zu beenden – sie kann giftig sein. Sprich stattdessen mit einer Fachperson aus dem Gesundheitswesen.",
+        "Trag keine Zubereitungen aus Raute auf die Haut auf, bevor du in die Sonne gehst."
+      ],
+      "fr": [
+        "N'utilise jamais la rue pour déclencher tes règles ou interrompre une grossesse : elle peut être toxique. Parles-en plutôt à un professionnel de santé.",
+        "N'applique pas de préparations à base de rue sur ta peau avant de t'exposer au soleil."
+      ],
+      "pt": [
+        "Nunca use arruda para fazer a menstruação descer ou interromper uma gravidez; ela pode ser tóxica. Procure um profissional de saúde.",
+        "Evite passar preparados de arruda na pele antes de se expor ao sol."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Monografia da espécie Ruta graveolens (arruda)",
+        "url": "https://www.gov.br/saude/pt-br/composicao/sectics/plantas-medicinais-e-fitoterapicos/ppnpmf/arquivos/2016/MonografiaRuta.pdf"
+      }
+    ]
+  },
+  {
+    "id": "espinheira-santa",
+    "category": "supplement",
+    "emoji": "🍃",
+    "verdict": "avoid",
+    "name": {
+      "en": "Espinheira-santa",
+      "tr": "Espinheira-santa",
+      "es": "Espinheira-santa",
+      "de": "Espinheira-santa",
+      "fr": "Espinheira-santa",
+      "pt": "Espinheira-santa"
+    },
+    "aliases": {
+      "en": [
+        "espinheira santa",
+        "maytenus ilicifolia",
+        "maytenus",
+        "holy thorn",
+        "espinheira tea"
+      ],
+      "tr": [
+        "espinheira santa",
+        "maytenus",
+        "maytenus ilicifolia",
+        "espinheira çayı"
+      ],
+      "es": [
+        "espinheira santa",
+        "Maytenus ilicifolia",
+        "maytenus",
+        "congorosa",
+        "té de espinheira-santa"
+      ],
+      "de": [
+        "Espinheira santa",
+        "Maytenus ilicifolia",
+        "Maytenus",
+        "Heiliger Dorn",
+        "Espinheira-Tee"
+      ],
+      "fr": [
+        "espinheira santa",
+        "Maytenus ilicifolia",
+        "maytenus",
+        "épine sainte",
+        "tisane d'espinheira"
+      ],
+      "pt": [
+        "espinheira santa",
+        "chá de espinheira-santa",
+        "maytenus",
+        "cápsulas de espinheira-santa",
+        "cancorosa"
+      ]
+    },
+    "summary": {
+      "en": "Avoid in pregnancy and while breastfeeding, according to ANVISA's herbal medicines guidance.",
+      "tr": "ANVISA'nın bitkisel ilaç yönergelerine göre hamilelikte ve emzirirken kaçın.",
+      "es": "Evítala en el embarazo y durante la lactancia, según las indicaciones de la ANVISA sobre plantas medicinales.",
+      "de": "Laut den Empfehlungen der ANVISA zu pflanzlichen Arzneimitteln in Schwangerschaft und Stillzeit meiden.",
+      "fr": "À éviter pendant la grossesse et l'allaitement, selon les recommandations de l'ANVISA sur les médicaments à base de plantes.",
+      "pt": "Evite na gravidez e na amamentação, segundo as orientações da Anvisa sobre fitoterápicos."
+    },
+    "details": {
+      "en": "Espinheira-santa (Maytenus ilicifolia) is a popular Brazilian herbal remedy for heartburn, indigestion and gastritis, taken as tea or capsules. ANVISA's herbal medicines handbook says it shouldn't be used during pregnancy or breastfeeding, and notes signs that it may reduce breast milk. Heartburn is common in pregnancy, so it's worth asking about remedies known to be suitable.",
+      "tr": "Espinheira-santa (Maytenus ilicifolia), mide yanması, hazımsızlık ve gastrit için çay ya da kapsül olarak kullanılan, Brezilya'da yaygın bir bitkisel ilaçtır. ANVISA'nın bitkisel ilaç el kitabı, hamilelikte ve emzirirken kullanılmaması gerektiğini söylüyor ve anne sütünü azaltabileceğine dair belirtiler olduğunu not ediyor. Mide yanması hamilelikte sık görülür; bu yüzden uygun olduğu bilinen seçenekleri sormaya değer.",
+      "es": "La espinheira-santa (Maytenus ilicifolia) es un remedio de hierbas muy popular en Brasil para el ardor de estómago, la indigestión y la gastritis, que se toma en té o en cápsulas. El manual de plantas medicinales de la ANVISA indica que no debe usarse durante el embarazo ni la lactancia, y menciona indicios de que puede reducir la leche materna. El ardor de estómago es frecuente en el embarazo, así que merece la pena preguntar por remedios que se sabe que son adecuados.",
+      "de": "Espinheira-santa (Maytenus ilicifolia) ist ein in Brasilien beliebtes pflanzliches Mittel gegen Sodbrennen, Verdauungsbeschwerden und Gastritis und wird als Tee oder in Kapseln eingenommen. Das Handbuch der ANVISA zu pflanzlichen Arzneimitteln sagt, dass es in Schwangerschaft und Stillzeit nicht verwendet werden sollte, und nennt Hinweise darauf, dass es die Muttermilch verringern kann. Sodbrennen ist in der Schwangerschaft häufig, deshalb lohnt es sich, nach Mitteln zu fragen, die als geeignet gelten.",
+      "fr": "L'espinheira-santa (Maytenus ilicifolia) est un remède à base de plantes très populaire au Brésil contre les brûlures d'estomac, les troubles digestifs et la gastrite, pris en tisane ou en gélules. Le guide des plantes médicinales de l'ANVISA indique qu'elle ne doit pas être utilisée pendant la grossesse ni l'allaitement, et mentionne des signes qu'elle pourrait réduire la production de lait maternel. Les brûlures d'estomac sont fréquentes pendant la grossesse : renseigne-toi sur les remèdes reconnus comme adaptés.",
+      "pt": "A espinheira-santa (Maytenus ilicifolia) é um fitoterápico muito usado no Brasil para azia, má digestão e gastrite, em chá ou cápsulas. O Memento Fitoterápico da Anvisa diz que ela não deve ser usada na gravidez nem na amamentação e cita indícios de que pode reduzir o leite materno. A azia é comum na gravidez, então vale perguntar sobre opções reconhecidas como adequadas."
+    },
+    "tips": {
+      "en": [
+        "For heartburn, eat smaller meals, sit upright while eating and avoid lying down soon afterwards.",
+        "Ask your doctor or pharmacist which heartburn remedies are suitable in pregnancy."
+      ],
+      "tr": [
+        "Mide yanması için daha küçük öğünler ye, yemek yerken dik otur ve hemen ardından uzanma.",
+        "Hamilelikte hangi mide yanması ilaçlarının uygun olduğunu doktoruna ya da eczacına sor."
+      ],
+      "es": [
+        "Para el ardor, haz comidas más pequeñas, siéntate erguida mientras comes y evita tumbarte justo después.",
+        "Pregunta a tu médico o farmacéutico qué remedios para el ardor son adecuados en el embarazo."
+      ],
+      "de": [
+        "Iss bei Sodbrennen kleinere Mahlzeiten, sitz beim Essen aufrecht und leg dich danach nicht gleich hin.",
+        "Frag deine Ärztin, deinen Arzt oder in der Apotheke, welche Mittel gegen Sodbrennen in der Schwangerschaft geeignet sind."
+      ],
+      "fr": [
+        "Contre les brûlures d'estomac, fais des repas plus petits, mange en te tenant droite et évite de t'allonger juste après.",
+        "Demande à ton médecin ou à ton pharmacien quels remèdes contre les brûlures d'estomac conviennent pendant la grossesse."
+      ],
+      "pt": [
+        "Para a azia, faça refeições menores, coma com o corpo ereto e evite se deitar logo depois.",
+        "Pergunte ao seu médico ou farmacêutico quais remédios para azia são adequados na gravidez."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANVISA: Memento Fitoterápico da Farmacopeia Brasileira (2016)",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/farmacopeia/formulario-fitoterapico/MementoFitoterapico1.pdf/@@display-file/file"
+      }
+    ]
+  },
+  {
+    "id": "dipyrone",
+    "category": "medicine",
+    "emoji": "💊",
+    "verdict": "caution",
+    "name": {
+      "en": "Dipyrone (metamizole)",
+      "tr": "Metamizol (dipiron)",
+      "es": "Dipirona (metamizol)",
+      "de": "Dipyron (Metamizol)",
+      "fr": "Dipyrone (métamizole)",
+      "pt": "Dipirona (Novalgina)"
+    },
+    "aliases": {
+      "en": [
+        "dipyrone",
+        "dipirona",
+        "metamizole",
+        "novalgina",
+        "analgin",
+        "dorflex"
+      ],
+      "tr": [
+        "metamizol",
+        "novalgin",
+        "dipiron",
+        "dipirona",
+        "novalgina",
+        "analjin"
+      ],
+      "es": [
+        "dipirona",
+        "metamizol",
+        "novalgina",
+        "nolotil",
+        "analgin",
+        "dorflex"
+      ],
+      "de": [
+        "Dipyron",
+        "Dipirona",
+        "Metamizol",
+        "Novalgina",
+        "Novalgin",
+        "Dorflex"
+      ],
+      "fr": [
+        "dipyrone",
+        "dipirona",
+        "métamizole",
+        "novalgina",
+        "analgin",
+        "dorflex"
+      ],
+      "pt": [
+        "dipirona sódica",
+        "novalgina",
+        "anador",
+        "dorflex",
+        "metamizol",
+        "dipirona monoidratada"
+      ]
+    },
+    "summary": {
+      "en": "Don't take it on your own: in Brazil, its labelling must warn that it shouldn't be used in pregnancy without advice from a doctor or dentist.",
+      "tr": "Kendi başına alma: Brezilya'da kullanma talimatında, hamilelikte doktor ya da diş hekimi önerisi olmadan kullanılmaması gerektiği uyarısı bulunmak zorunda.",
+      "es": "No la tomes por tu cuenta: en Brasil, su prospecto debe advertir que no se use en el embarazo sin indicación de un médico o un dentista.",
+      "de": "Nimm es nicht auf eigene Faust: In Brasilien muss die Packungsbeilage davor warnen, es in der Schwangerschaft ohne ärztlichen oder zahnärztlichen Rat zu verwenden.",
+      "fr": "Ne la prends pas de ta propre initiative : au Brésil, sa notice doit avertir qu'elle ne doit pas être utilisée pendant la grossesse sans l'avis d'un médecin ou d'un dentiste.",
+      "pt": "Não tome por conta própria: no Brasil, a bula deve alertar que ela não deve ser usada na gravidez sem orientação do médico ou do cirurgião-dentista."
+    },
+    "details": {
+      "en": "Dipyrone (metamizole) is a common painkiller and fever reducer in Brazil, sold without prescription as Novalgina and other brands. ANVISA classes it in pregnancy risk category C, which means studies haven't shown it to be safe in pregnancy, and requires the warning that it shouldn't be used by pregnant women without guidance from a doctor or dentist. Your doctor can tell you whether it's suitable at your stage of pregnancy, or suggest something else.",
+      "tr": "Metamizol (dipiron), Brezilya'da Novalgina ve başka markalarla reçetesiz satılan yaygın bir ağrı kesici ve ateş düşürücüdür. ANVISA onu hamilelik risk kategorisi C'de sınıflandırıyor; bu, çalışmaların hamilelikte güvenli olduğunu göstermediği anlamına geliyor. Kurum ayrıca, hamilelerin doktor ya da diş hekimi önerisi olmadan kullanmaması gerektiği uyarısını şart koşuyor. Doktorun, hamileliğinin bu evresinde uygun olup olmadığını söyleyebilir ya da başka bir seçenek önerebilir.",
+      "es": "La dipirona (metamizol) es un analgésico y antitérmico habitual en Brasil, que se vende sin receta como Novalgina y otras marcas. La ANVISA la clasifica en la categoría C de riesgo en el embarazo, lo que significa que los estudios no han demostrado que sea segura en el embarazo, y exige la advertencia de que las embarazadas no deben usarla sin indicación de un médico o un dentista. Tu médico puede decirte si es adecuada en tu etapa del embarazo o proponerte otra opción.",
+      "de": "Dipyron (Metamizol) ist in Brasilien ein gängiges Schmerz- und Fiebermittel, das ohne Rezept als Novalgina und unter anderen Markennamen verkauft wird. Die ANVISA ordnet es in die Schwangerschafts-Risikokategorie C ein, was bedeutet, dass Studien seine Sicherheit in der Schwangerschaft nicht belegt haben, und schreibt den Warnhinweis vor, dass Schwangere es nicht ohne ärztliche oder zahnärztliche Anleitung verwenden sollen. Deine Ärztin oder dein Arzt kann dir sagen, ob es in deiner Schwangerschaftsphase geeignet ist, oder etwas anderes vorschlagen.",
+      "fr": "La dipyrone (métamizole) est un antidouleur et antipyrétique courant au Brésil, vendu sans ordonnance sous le nom de Novalgina et d'autres marques. L'ANVISA la classe dans la catégorie C de risque pendant la grossesse, ce qui signifie que les études n'ont pas montré qu'elle était sûre pendant la grossesse, et impose l'avertissement selon lequel les femmes enceintes ne doivent pas l'utiliser sans l'avis d'un médecin ou d'un dentiste. Ton médecin peut te dire si elle convient à ton stade de grossesse, ou te proposer autre chose.",
+      "pt": "A dipirona (metamizol) é um analgésico e antitérmico comum no Brasil, vendido sem receita como Novalgina e outras marcas. A Anvisa a classifica na categoria C de risco na gravidez, o que significa que os estudos não mostraram que ela é segura na gestação, e exige o alerta de que não deve ser usada por gestantes sem orientação do médico ou do cirurgião-dentista. Seu médico pode dizer se ela é adequada na sua fase da gravidez ou indicar outra opção."
+    },
+    "tips": {
+      "en": [
+        "For pain or fever, ask your doctor or pharmacist what to take before reaching for dipyrone.",
+        "Check the labels of combination painkillers and cramp remedies for dipyrone (dipirona)."
+      ],
+      "tr": [
+        "Ağrı ya da ateş için metamizole uzanmadan önce ne alman gerektiğini doktoruna ya da eczacına sor.",
+        "Kombine ağrı kesicilerin ve kramp ilaçlarının etiketinde metamizol (dipirona) olup olmadığına bak."
+      ],
+      "es": [
+        "Si tienes dolor o fiebre, pregunta a tu médico o farmacéutico qué tomar antes de recurrir a la dipirona.",
+        "Revisa la etiqueta de los analgésicos combinados y los remedios para los cólicos por si llevan dipirona."
+      ],
+      "de": [
+        "Frag bei Schmerzen oder Fieber deine Ärztin, deinen Arzt oder in der Apotheke, was du nehmen kannst, bevor du zu Dipyron greifst.",
+        "Prüf auf dem Etikett von Kombi-Schmerzmitteln und Mitteln gegen Krämpfe, ob Dipyron (dipirona) enthalten ist."
+      ],
+      "fr": [
+        "En cas de douleur ou de fièvre, demande à ton médecin ou à ton pharmacien quoi prendre avant de recourir à la dipyrone.",
+        "Vérifie sur l'étiquette des antidouleurs combinés et des remèdes contre les crampes s'ils contiennent de la dipyrone (dipirona)."
+      ],
+      "pt": [
+        "Para dor ou febre, pergunte ao seu médico ou farmacêutico o que tomar antes de recorrer à dipirona.",
+        "Confira no rótulo se analgésicos combinados e remédios para cólica contêm dipirona."
+      ]
+    },
+    "sources": [
+      {
+        "name": "ANVISA: RDC nº 60/2010 – pregnancy risk categories and warning phrases",
+        "url": "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2010/rdc0060_17_12_2010.pdf"
+      }
+    ]
+  },
+  {
+    "id": "dengue-vaccine",
+    "category": "medicine",
+    "emoji": "💉",
+    "verdict": "avoid",
+    "name": {
+      "en": "Dengue vaccine",
+      "tr": "Dang humması aşısı",
+      "es": "Vacuna contra el dengue",
+      "de": "Dengue-Impfung",
+      "fr": "Vaccin contre la dengue",
+      "pt": "Vacina da dengue"
+    },
+    "aliases": {
+      "en": [
+        "dengue vaccine",
+        "qdenga",
+        "butantan-dv",
+        "dengue shot",
+        "dengue jab",
+        "takeda dengue vaccine"
+      ],
+      "tr": [
+        "dang aşısı",
+        "dengue aşısı",
+        "qdenga",
+        "butantan-dv",
+        "dang humması aşısı"
+      ],
+      "es": [
+        "vacuna del dengue",
+        "qdenga",
+        "butantan-dv",
+        "vacuna dengue",
+        "inyección del dengue",
+        "vacuna de Takeda"
+      ],
+      "de": [
+        "Dengue-Impfstoff",
+        "Qdenga",
+        "Butantan-DV",
+        "Dengue-Impfung",
+        "Dengue-Spritze",
+        "Takeda-Dengue-Impfstoff"
+      ],
+      "fr": [
+        "vaccin dengue",
+        "qdenga",
+        "butantan-dv",
+        "vaccin contre la dengue",
+        "piqûre dengue",
+        "vaccin Takeda dengue"
+      ],
+      "pt": [
+        "vacina contra dengue",
+        "qdenga",
+        "butantan-dv",
+        "vacina dengue butantan",
+        "vacina da takeda",
+        "vacina dengue grávida"
+      ]
+    },
+    "summary": {
+      "en": "Not given in pregnancy: Brazil's Ministry of Health lists pregnant and breastfeeding women among those who can't receive dengue vaccines.",
+      "tr": "Hamilelikte yapılmaz: Brezilya Sağlık Bakanlığı, hamile ve emziren kadınları dang aşısı olamayacaklar arasında sayıyor.",
+      "es": "No se pone en el embarazo: el Ministerio de Salud de Brasil incluye a las embarazadas y a las mujeres en lactancia entre quienes no pueden recibir las vacunas contra el dengue.",
+      "de": "Wird in der Schwangerschaft nicht gegeben: Das brasilianische Gesundheitsministerium zählt Schwangere und Stillende zu denen, die keine Dengue-Impfstoffe erhalten dürfen.",
+      "fr": "Pas pendant la grossesse : le ministère de la Santé du Brésil classe les femmes enceintes et allaitantes parmi les personnes qui ne peuvent pas recevoir les vaccins contre la dengue.",
+      "pt": "Não é aplicada na gravidez: o Ministério da Saúde inclui gestantes e lactantes entre as pessoas que não podem tomar a vacina da dengue."
+    },
+    "details": {
+      "en": "The dengue vaccines used in Brazil, Qdenga and the Butantan Institute's Butantan-DV, are made with weakened (attenuated) live virus. The Ministry of Health lists pregnant women and women who are breastfeeding among those who can't receive them. Pregnant women have a higher risk of complications from dengue, so avoiding mosquito bites matters. The Ministry says repellents containing DEET, IR3535 or icaridin are safe in pregnancy when used as the manufacturer directs.",
+      "tr": "Brezilya'da kullanılan dang aşıları, yani Qdenga ve Butantan Enstitüsü'nün Butantan-DV aşısı, zayıflatılmış canlı virüsle üretilir. Sağlık Bakanlığı, hamile ve emziren kadınları bu aşıları olamayacaklar arasında sayıyor. Hamilelerde dang hummasına bağlı komplikasyon riski daha yüksek olduğundan sivrisinek ısırıklarından korunmak önemli. Bakanlık, DEET, IR3535 ya da ikaridin içeren sinek kovucuların üreticinin talimatlarına göre kullanıldığında hamilelikte güvenli olduğunu söylüyor.",
+      "es": "Las vacunas contra el dengue que se usan en Brasil, Qdenga y Butantan-DV, del Instituto Butantan, están hechas con virus vivos debilitados (atenuados). El Ministerio de Salud incluye a las embarazadas y a las mujeres que están dando el pecho entre quienes no pueden recibirlas. Las embarazadas tienen más riesgo de complicaciones por el dengue, así que es importante evitar las picaduras de mosquito. El Ministerio indica que los repelentes con DEET, IR3535 o icaridina son seguros en el embarazo si se usan según las instrucciones del fabricante.",
+      "de": "Die in Brasilien verwendeten Dengue-Impfstoffe, Qdenga und Butantan-DV vom Instituto Butantan, enthalten abgeschwächte (attenuierte) Lebendviren. Das Gesundheitsministerium zählt Schwangere und stillende Frauen zu denen, die sie nicht erhalten dürfen. Schwangere haben ein höheres Risiko für Komplikationen durch Dengue, deshalb ist es wichtig, Mückenstiche zu vermeiden. Laut Ministerium sind Mückenschutzmittel mit DEET, IR3535 oder Icaridin in der Schwangerschaft sicher, wenn sie nach Herstellerangaben angewendet werden.",
+      "fr": "Les vaccins contre la dengue utilisés au Brésil, Qdenga et Butantan-DV de l'Institut Butantan, sont fabriqués à partir de virus vivants affaiblis (atténués). Le ministère de la Santé classe les femmes enceintes et celles qui allaitent parmi les personnes qui ne peuvent pas les recevoir. Les femmes enceintes ont un risque plus élevé de complications de la dengue : il est donc important d'éviter les piqûres de moustiques. Le ministère indique que les répulsifs contenant du DEET, de l'IR3535 ou de l'icaridine sont sûrs pendant la grossesse s'ils sont utilisés selon les instructions du fabricant.",
+      "pt": "As vacinas da dengue usadas no Brasil, a Qdenga e a Butantan-DV, do Instituto Butantan, são feitas com vírus vivo atenuado. O Ministério da Saúde inclui gestantes e mulheres que estão amamentando entre as pessoas que não podem recebê-las. Gestantes têm mais risco de complicações da dengue, por isso é importante evitar picadas do mosquito. O Ministério diz que repelentes com DEET, IR3535 ou icaridina são seguros na gravidez quando usados conforme as instruções do fabricante."
+    },
+    "tips": {
+      "en": [
+        "If you had a dengue vaccine before you knew you were pregnant, let your prenatal team know.",
+        "Use repellent, long sleeves and window screens, and get rid of standing water where mosquitoes breed.",
+        "If you get a fever in pregnancy, especially during a dengue outbreak, seek care promptly."
+      ],
+      "tr": [
+        "Hamile olduğunu öğrenmeden önce dang aşısı olduysan doğum öncesi bakım ekibine haber ver.",
+        "Sinek kovucu, uzun kollu giysiler ve pencere sinekliği kullan; sivrisineklerin ürediği durgun suları ortadan kaldır.",
+        "Hamilelikte, özellikle dang salgını sırasında ateşin çıkarsa vakit kaybetmeden sağlık kuruluşuna başvur."
+      ],
+      "es": [
+        "Si te pusiste la vacuna del dengue antes de saber que estabas embarazada, díselo a tu equipo de control prenatal.",
+        "Usa repelente, manga larga y mosquiteras en las ventanas, y elimina el agua estancada donde se crían los mosquitos.",
+        "Si tienes fiebre en el embarazo, sobre todo durante un brote de dengue, busca atención médica enseguida."
+      ],
+      "de": [
+        "Wenn du eine Dengue-Impfung bekommen hast, bevor du von der Schwangerschaft wusstest, sag deinem Vorsorgeteam Bescheid.",
+        "Nutze Mückenschutzmittel, lange Ärmel und Fliegengitter und beseitige stehendes Wasser, in dem Mücken brüten.",
+        "Wenn du in der Schwangerschaft Fieber bekommst, besonders während eines Dengue-Ausbruchs, such umgehend medizinische Hilfe."
+      ],
+      "fr": [
+        "Si tu as reçu un vaccin contre la dengue avant de savoir que tu étais enceinte, préviens l'équipe qui suit ta grossesse.",
+        "Utilise un répulsif, des manches longues et des moustiquaires aux fenêtres, et élimine l'eau stagnante où les moustiques se reproduisent.",
+        "Si tu as de la fièvre pendant la grossesse, surtout lors d'une épidémie de dengue, consulte rapidement."
+      ],
+      "pt": [
+        "Se você tomou a vacina da dengue antes de saber da gravidez, avise a equipe do pré-natal.",
+        "Use repelente, roupas de manga longa e telas nas janelas, e elimine água parada onde o mosquito se reproduz.",
+        "Se tiver febre na gravidez, principalmente em época de surto de dengue, procure atendimento logo."
+      ]
+    },
+    "sources": [
+      {
+        "name": "Ministério da Saúde (Brazil): Dengue – perguntas frequentes",
+        "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/d/dengue/faq"
+      },
+      {
+        "name": "Ministério da Saúde (Brazil): Quem não pode receber a vacina contra a dengue do Instituto Butantan",
+        "url": "https://www.gov.br/saude/pt-br/vacinacao/esavi/faq/faq/vacina-contra-dengue-butantan/quem-nao-pode-receber-a"
+      }
+    ]
+  }
+]

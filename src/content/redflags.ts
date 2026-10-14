@@ -119,20 +119,46 @@ export const RED_FLAGS: { id: string; emoji: string; title: L10n; detail: L10n }
 ];
 
 /**
- * Emergency numbers by ISO 3166-1 alpha-2 country code. One dialable number
- * each (112 also works across the EU and from most mobile phones).
+ * Emergency numbers by ISO 3166-1 alpha-2 country code: one dialable number
+ * for a medical emergency each. Where a country has a dedicated ambulance
+ * line we show that (FR 15 SAMU, AT/CH 144, NO 113, BR 192 SAMU, AR 107,
+ * CL 131, PE 106, AZ 103); 112 also works from any mobile phone in Europe.
  */
 export const EMERGENCY_NUMBERS: Record<string, { country: L10n; number: string }> = {
-  TR: { country: { en: 'Türkiye', tr: 'Türkiye' }, number: '112' },
-  US: { country: { en: 'United States', tr: 'Amerika Birleşik Devletleri' }, number: '911' },
-  GB: { country: { en: 'United Kingdom', tr: 'Birleşik Krallık' }, number: '999' },
-  DE: { country: { en: 'Germany', tr: 'Almanya' }, number: '112' },
-  FR: { country: { en: 'France', tr: 'Fransa' }, number: '112' },
-  NL: { country: { en: 'Netherlands', tr: 'Hollanda' }, number: '112' },
-  ES: { country: { en: 'Spain', tr: 'İspanya' }, number: '112' },
-  IT: { country: { en: 'Italy', tr: 'İtalya' }, number: '112' },
-  AU: { country: { en: 'Australia', tr: 'Avustralya' }, number: '000' },
-  CA: { country: { en: 'Canada', tr: 'Kanada' }, number: '911' },
-  IE: { country: { en: 'Ireland', tr: 'İrlanda' }, number: '112' },
-  SE: { country: { en: 'Sweden', tr: 'İsveç' }, number: '112' },
+  TR: { country: { en: 'Türkiye', tr: 'Türkiye', es: 'Turquía', de: 'Türkei', fr: 'Turquie', pt: 'Turquia' }, number: '112' },
+  US: { country: { en: 'United States', tr: 'Amerika Birleşik Devletleri', es: 'Estados Unidos', de: 'Vereinigte Staaten', fr: 'États-Unis', pt: 'Estados Unidos' }, number: '911' },
+  GB: { country: { en: 'United Kingdom', tr: 'Birleşik Krallık', es: 'Reino Unido', de: 'Vereinigtes Königreich', fr: 'Royaume-Uni', pt: 'Reino Unido' }, number: '999' },
+  IE: { country: { en: 'Ireland', tr: 'İrlanda', es: 'Irlanda', de: 'Irland', fr: 'Irlande', pt: 'Irlanda' }, number: '112' },
+  CA: { country: { en: 'Canada', tr: 'Kanada', es: 'Canadá', de: 'Kanada', fr: 'Canada', pt: 'Canadá' }, number: '911' },
+  AU: { country: { en: 'Australia', tr: 'Avustralya', es: 'Australia', de: 'Australien', fr: 'Australie', pt: 'Austrália' }, number: '000' },
+  NZ: { country: { en: 'New Zealand', tr: 'Yeni Zelanda', es: 'Nueva Zelanda', de: 'Neuseeland', fr: 'Nouvelle-Zélande', pt: 'Nova Zelândia' }, number: '111' },
+  DE: { country: { en: 'Germany', tr: 'Almanya', es: 'Alemania', de: 'Deutschland', fr: 'Allemagne', pt: 'Alemanha' }, number: '112' },
+  AT: { country: { en: 'Austria', tr: 'Avusturya', es: 'Austria', de: 'Österreich', fr: 'Autriche', pt: 'Áustria' }, number: '144' },
+  CH: { country: { en: 'Switzerland', tr: 'İsviçre', es: 'Suiza', de: 'Schweiz', fr: 'Suisse', pt: 'Suíça' }, number: '144' },
+  FR: { country: { en: 'France', tr: 'Fransa', es: 'Francia', de: 'Frankreich', fr: 'France', pt: 'França' }, number: '15' },
+  BE: { country: { en: 'Belgium', tr: 'Belçika', es: 'Bélgica', de: 'Belgien', fr: 'Belgique', pt: 'Bélgica' }, number: '112' },
+  LU: { country: { en: 'Luxembourg', tr: 'Lüksemburg', es: 'Luxemburgo', de: 'Luxemburg', fr: 'Luxembourg', pt: 'Luxemburgo' }, number: '112' },
+  NL: { country: { en: 'Netherlands', tr: 'Hollanda', es: 'Países Bajos', de: 'Niederlande', fr: 'Pays-Bas', pt: 'Países Baixos' }, number: '112' },
+  ES: { country: { en: 'Spain', tr: 'İspanya', es: 'España', de: 'Spanien', fr: 'Espagne', pt: 'Espanha' }, number: '112' },
+  PT: { country: { en: 'Portugal', tr: 'Portekiz', es: 'Portugal', de: 'Portugal', fr: 'Portugal', pt: 'Portugal' }, number: '112' },
+  IT: { country: { en: 'Italy', tr: 'İtalya', es: 'Italia', de: 'Italien', fr: 'Italie', pt: 'Itália' }, number: '112' },
+  SE: { country: { en: 'Sweden', tr: 'İsveç', es: 'Suecia', de: 'Schweden', fr: 'Suède', pt: 'Suécia' }, number: '112' },
+  NO: { country: { en: 'Norway', tr: 'Norveç', es: 'Noruega', de: 'Norwegen', fr: 'Norvège', pt: 'Noruega' }, number: '113' },
+  DK: { country: { en: 'Denmark', tr: 'Danimarka', es: 'Dinamarca', de: 'Dänemark', fr: 'Danemark', pt: 'Dinamarca' }, number: '112' },
+  FI: { country: { en: 'Finland', tr: 'Finlandiya', es: 'Finlandia', de: 'Finnland', fr: 'Finlande', pt: 'Finlândia' }, number: '112' },
+  PL: { country: { en: 'Poland', tr: 'Polonya', es: 'Polonia', de: 'Polen', fr: 'Pologne', pt: 'Polônia' }, number: '112' },
+  GR: { country: { en: 'Greece', tr: 'Yunanistan', es: 'Grecia', de: 'Griechenland', fr: 'Grèce', pt: 'Grécia' }, number: '112' },
+  CY: { country: { en: 'Cyprus', tr: 'Kıbrıs', es: 'Chipre', de: 'Zypern', fr: 'Chypre', pt: 'Chipre' }, number: '112' },
+  AZ: { country: { en: 'Azerbaijan', tr: 'Azerbaycan', es: 'Azerbaiyán', de: 'Aserbaidschan', fr: 'Azerbaïdjan', pt: 'Azerbaijão' }, number: '103' },
+  MX: { country: { en: 'Mexico', tr: 'Meksika', es: 'México', de: 'Mexiko', fr: 'Mexique', pt: 'México' }, number: '911' },
+  AR: { country: { en: 'Argentina', tr: 'Arjantin', es: 'Argentina', de: 'Argentinien', fr: 'Argentine', pt: 'Argentina' }, number: '107' },
+  CO: { country: { en: 'Colombia', tr: 'Kolombiya', es: 'Colombia', de: 'Kolumbien', fr: 'Colombie', pt: 'Colômbia' }, number: '123' },
+  CL: { country: { en: 'Chile', tr: 'Şili', es: 'Chile', de: 'Chile', fr: 'Chili', pt: 'Chile' }, number: '131' },
+  PE: { country: { en: 'Peru', tr: 'Peru', es: 'Perú', de: 'Peru', fr: 'Pérou', pt: 'Peru' }, number: '106' },
+  EC: { country: { en: 'Ecuador', tr: 'Ekvador', es: 'Ecuador', de: 'Ecuador', fr: 'Équateur', pt: 'Equador' }, number: '911' },
+  UY: { country: { en: 'Uruguay', tr: 'Uruguay', es: 'Uruguay', de: 'Uruguay', fr: 'Uruguay', pt: 'Uruguai' }, number: '911' },
+  VE: { country: { en: 'Venezuela', tr: 'Venezuela', es: 'Venezuela', de: 'Venezuela', fr: 'Venezuela', pt: 'Venezuela' }, number: '911' },
+  CR: { country: { en: 'Costa Rica', tr: 'Kosta Rika', es: 'Costa Rica', de: 'Costa Rica', fr: 'Costa Rica', pt: 'Costa Rica' }, number: '911' },
+  DO: { country: { en: 'Dominican Republic', tr: 'Dominik Cumhuriyeti', es: 'República Dominicana', de: 'Dominikanische Republik', fr: 'République dominicaine', pt: 'República Dominicana' }, number: '911' },
+  BR: { country: { en: 'Brazil', tr: 'Brezilya', es: 'Brasil', de: 'Brasilien', fr: 'Brésil', pt: 'Brasil' }, number: '192' },
 };

@@ -1,0 +1,253 @@
+{
+  "basis": "Top-10 first names (Erstnamen) of babies born in 2025 in Germany, Austria and Switzerland, merged: Germany – Gesellschaft für deutsche Sprache (GfdS), Erstnamenliste 2025, spelling variants combined (https://gfds.de/vornamen/beliebteste-vornamen/); Austria – Statistik Austria, press release 14 225-144/26 of 9 July 2026 (https://www.statistik.at/fileadmin/announcement/2026/07/20260709Vornamen2025.pdf); Switzerland – Federal Statistical Office (BFS), name statistics for 2025 published 21 August 2026. German spellings that appear in these lists (Klara, Jakob, Lukas, Matteo) are added next to the English spellings already in the library.",
+  "add": [
+    {
+      "name": "Klara",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Clear, bright, famous (German form of Clara)",
+        "tr": "Berrak, parlak, ünlü (Clara'nın Almanca biçimi)",
+        "es": "Clara, luminosa, ilustre (forma alemana de Clara)",
+        "de": "Klar, hell, berühmt (deutsche Form von Clara)",
+        "fr": "Claire, lumineuse, illustre (forme allemande de Clara)",
+        "pt": "Clara, luminosa, ilustre (forma alemã de Clara)"
+      }
+    },
+    {
+      "name": "Lia",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Form of Leah; also a short form of names ending in -lia",
+        "tr": "Lea adının bir biçimi; -lia ile biten adların kısaltması da olabilir",
+        "es": "Forma de Lea; también diminutivo de nombres terminados en -lia",
+        "de": "Form von Lea; auch Kurzform von Namen auf -lia",
+        "fr": "Forme de Léa ; aussi diminutif des prénoms en -lia",
+        "pt": "Forma de Lea; também forma curta de nomes terminados em -lia"
+      }
+    },
+    {
+      "name": "Marie",
+      "gender": "f",
+      "origin": "French",
+      "meaning": {
+        "en": "French form of Maria; beloved",
+        "tr": "Maria'nın Fransızca biçimi; sevilen",
+        "es": "Forma francesa de María; amada",
+        "de": "Französische Form von Maria; geliebt",
+        "fr": "Forme française de Maria ; aimée",
+        "pt": "Forma francesa de Maria; amada"
+      }
+    },
+    {
+      "name": "Anna",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Grace, favour (form of Hannah)",
+        "tr": "Lütuf, zarafet (Hannah'nın bir biçimi)",
+        "es": "Gracia, favor (forma de Hannah)",
+        "de": "Gnade, Gunst (Form von Hannah)",
+        "fr": "Grâce, faveur (forme d'Hannah)",
+        "pt": "Graça, favor (forma de Hannah)"
+      }
+    },
+    {
+      "name": "Lena",
+      "gender": "f",
+      "origin": "Greek",
+      "meaning": {
+        "en": "Short for Helena (torch, shining light) or Magdalena",
+        "tr": "Helena (meşale, parlayan ışık) ya da Magdalena'nın kısaltması",
+        "es": "Diminutivo de Helena (antorcha, luz brillante) o de Magdalena",
+        "de": "Kurzform von Helena (Fackel, leuchtendes Licht) oder Magdalena",
+        "fr": "Diminutif d'Helena (torche, lumière brillante) ou de Magdalena",
+        "pt": "Forma curta de Helena (tocha, luz brilhante) ou de Magdalena"
+      }
+    },
+    {
+      "name": "Laura",
+      "gender": "f",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Laurel; crowned with laurel",
+        "tr": "Defne; defne çelengiyle taçlanmış",
+        "es": "Laurel; coronada de laurel",
+        "de": "Lorbeer; mit Lorbeer bekränzt",
+        "fr": "Laurier ; couronnée de laurier",
+        "pt": "Loureiro; coroada de louros"
+      }
+    },
+    {
+      "name": "Johanna",
+      "gender": "f",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "God is gracious (feminine form of Johannes)",
+        "tr": "Tanrı lütufkârdır (Johannes'in kadın biçimi)",
+        "es": "Dios es misericordioso (forma femenina de Johannes)",
+        "de": "Gott ist gnädig (weibliche Form von Johannes)",
+        "fr": "Dieu fait grâce (forme féminine de Johannes)",
+        "pt": "Deus é gracioso (forma feminina de Johannes)"
+      }
+    },
+    {
+      "name": "Matteo",
+      "gender": "m",
+      "origin": "Italian",
+      "meaning": {
+        "en": "Gift of God (Italian form of Matthew)",
+        "tr": "Tanrı'nın armağanı (Matthew'un İtalyanca biçimi)",
+        "es": "Regalo de Dios (forma italiana de Mateo)",
+        "de": "Geschenk Gottes (italienische Form von Matthäus)",
+        "fr": "Don de Dieu (forme italienne de Matthieu)",
+        "pt": "Presente de Deus (forma italiana de Mateus)"
+      }
+    },
+    {
+      "name": "Emil",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Rival; eager, striving (from Aemilius)",
+        "tr": "Rakip; gayretli, hevesli (Aemilius'tan)",
+        "es": "Rival; esforzado, emprendedor (de Aemilius)",
+        "de": "Rivale; eifrig, strebsam (von Aemilius)",
+        "fr": "Rival ; ardent, travailleur (d'Aemilius)",
+        "pt": "Rival; esforçado, dedicado (de Aemilius)"
+      }
+    },
+    {
+      "name": "Elias",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "My God is Yahweh (form of Elijah)",
+        "tr": "Tanrım Yahve'dir (İlyas)",
+        "es": "Mi Dios es Yahvé (forma de Elías)",
+        "de": "Mein Gott ist Jahwe (Form von Elija)",
+        "fr": "Mon Dieu est Yahvé (forme d'Élie)",
+        "pt": "Meu Deus é Javé (forma de Elias)"
+      }
+    },
+    {
+      "name": "Paul",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Small, humble",
+        "tr": "Küçük, alçakgönüllü",
+        "es": "Pequeño, humilde",
+        "de": "Klein, bescheiden",
+        "fr": "Petit, humble",
+        "pt": "Pequeno, humilde"
+      }
+    },
+    {
+      "name": "Maximilian",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "Greatest (from Maximus)",
+        "tr": "En büyük (Maximus'tan)",
+        "es": "El más grande (de Maximus)",
+        "de": "Der Größte (von Maximus)",
+        "fr": "Le plus grand (de Maximus)",
+        "pt": "O maior (de Maximus)"
+      }
+    },
+    {
+      "name": "Jakob",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Supplanter; holder of the heel (German form of Jacob)",
+        "tr": "Yerine geçen; topuğu tutan (Jacob'ın Almanca biçimi)",
+        "es": "El que suplanta; el que sujeta el talón (forma alemana de Jacob)",
+        "de": "Verdränger; der die Ferse hält (deutsche Form von Jacob)",
+        "fr": "Celui qui supplante ; celui qui tient le talon (forme allemande de Jacob)",
+        "pt": "Aquele que suplanta; o que segura o calcanhar (forma alemã de Jacó)"
+      }
+    },
+    {
+      "name": "Jonas",
+      "gender": "m",
+      "origin": "Hebrew",
+      "meaning": {
+        "en": "Dove (form of Jonah)",
+        "tr": "Güvercin (Yunus)",
+        "es": "Paloma (forma de Jonás)",
+        "de": "Taube (Form von Jona)",
+        "fr": "Colombe (forme de Jonas)",
+        "pt": "Pomba (forma de Jonas)"
+      }
+    },
+    {
+      "name": "Lukas",
+      "gender": "m",
+      "origin": "Latin",
+      "meaning": {
+        "en": "From Lucania; light (German form of Lucas)",
+        "tr": "Lucania'dan gelen; ışık (Lucas'ın Almanca biçimi)",
+        "es": "De Lucania; luz (forma alemana de Lucas)",
+        "de": "Aus Lukanien; Licht (deutsche Form von Lucas)",
+        "fr": "De Lucanie ; lumière (forme allemande de Lucas)",
+        "pt": "Da Lucânia; luz (forma alemã de Lucas)"
+      }
+    },
+    {
+      "name": "Louis",
+      "gender": "m",
+      "origin": "French",
+      "meaning": {
+        "en": "Famous warrior (French form of Ludwig)",
+        "tr": "Ünlü savaşçı (Ludwig'in Fransızca biçimi)",
+        "es": "Guerrero famoso (forma francesa de Ludwig)",
+        "de": "Berühmter Krieger (französische Form von Ludwig)",
+        "fr": "Guerrier illustre (forme française de Ludwig)",
+        "pt": "Guerreiro famoso (forma francesa de Ludwig)"
+      }
+    },
+    {
+      "name": "Elio",
+      "gender": "m",
+      "origin": "Italian",
+      "meaning": {
+        "en": "Sun (from Greek Helios)",
+        "tr": "Güneş (Yunanca Helios'tan)",
+        "es": "Sol (del griego Helios)",
+        "de": "Sonne (von griechisch Helios)",
+        "fr": "Soleil (du grec Hélios)",
+        "pt": "Sol (do grego Helios)"
+      }
+    }
+  ],
+  "alsoPopular": [
+    "Sophia",
+    "Sofia",
+    "Emma",
+    "Emilia",
+    "Mia",
+    "Lina",
+    "Ella",
+    "Hannah",
+    "Clara",
+    "Mila",
+    "Valentina",
+    "Nora",
+    "Olivia",
+    "Elena",
+    "Noah",
+    "Mateo",
+    "Theo",
+    "Leo",
+    "Leon",
+    "Luca",
+    "Henry",
+    "Felix",
+    "Liam",
+    "Gabriel"
+  ],
+  "newOrigins": {}
+}

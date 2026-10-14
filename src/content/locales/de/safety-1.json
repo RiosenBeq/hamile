@@ -1,0 +1,1933 @@
+{
+  "brie": {
+    "name": "Brie",
+    "aliases": [
+      "Weichkäse",
+      "Weißschimmelkäse",
+      "Ofenbrie",
+      "gebackener Brie",
+      "Weichkaese",
+      "Weissschimmelkaese"
+    ],
+    "summary": "Nur wenn er dampfend heiß gegart ist, etwa als Ofenbrie; kalt auf der Käseplatte lässt du ihn besser weg.",
+    "details": "Brie ist ein Weichkäse mit Schimmelrinde, und in seiner feuchten, säurearmen Masse können sich Listerien vermehren. Eine Listerien-Infektion ist selten, kann aber eine Fehlgeburt, eine Totgeburt oder eine schwere Erkrankung beim Neugeborenen verursachen; gründliches Erhitzen tötet die Erreger ab. In Großbritannien wird empfohlen, Brie zu erhitzen, egal ob er pasteurisiert ist oder nicht, während US-Empfehlungen sich darauf konzentrieren, Weichkäse aus nicht pasteurisierter Milch zu meiden.",
+    "tips": [
+      "Backe oder grille ihn, bis er durch und durch dampfend heiß ist.",
+      "Wähle für eine kalte Käseplatte Hartkäse wie Cheddar oder Parmesan."
+    ]
+  },
+  "camembert": {
+    "name": "Camembert",
+    "aliases": [
+      "Ofencamembert",
+      "gebackener Camembert",
+      "Backcamembert",
+      "Weißschimmelkäse",
+      "Weichkäse",
+      "Camenbert"
+    ],
+    "summary": "Nur wenn er im Ofen oder in der Pfanne erhitzt wird, bis er blubbernd heiß ist; kalten Camembert lässt du besser weg, auch wenn er pasteurisiert ist.",
+    "details": "Wie Brie ist Camembert ein Weichkäse mit weißer Schimmelrinde – eine Käseart, in der Listerien vorkommen können. Laut britischen Empfehlungen müssen solche Käse gründlich erhitzt werden, ganz gleich, ob sie aus pasteurisierter Milch hergestellt sind oder nicht. Ein ganzer Ofencamembert ist in Ordnung, sobald er in der Mitte blubbernd heiß ist.",
+    "tips": [
+      "Backe ihn, bis die Mitte blubbert – nicht nur, bis sie weich ist.",
+      "Iss ihn heiß und sofort, statt ihn abkühlen und herumstehen zu lassen."
+    ]
+  },
+  "feta": {
+    "name": "Feta",
+    "aliases": [
+      "Fetakäse",
+      "Schafskäse",
+      "Hirtenkäse",
+      "Salatkäse",
+      "griechischer Salat",
+      "Fetakaese"
+    ],
+    "summary": "Ja, wenn er aus pasteurisierter Milch hergestellt ist, wie der meiste Feta im Supermarkt – also aufs Etikett schauen.",
+    "details": "Pasteurisierter Feta steht sowohl beim NHS als auch bei der CDC auf der Liste der Käsesorten, die in der Schwangerschaft als sicherer gelten. Das Risiko geht von Feta aus roher (nicht pasteurisierter) Milch aus, der Listerien enthalten kann. Traditioneller oder selbst gemachter Feta auf Märkten und in manchen Restaurants ist möglicherweise nicht pasteurisiert.",
+    "tips": [
+      "Achte auf der Packung auf den Hinweis „aus pasteurisierter Milch“.",
+      "Frag im Restaurant, ob der Feta pasteurisiert ist, oder wähle ein gegartes Gericht."
+    ]
+  },
+  "halloumi": {
+    "name": "Halloumi",
+    "aliases": [
+      "Grillkäse",
+      "Hellim",
+      "gegrillter Halloumi",
+      "gebratener Halloumi",
+      "Haloumi"
+    ],
+    "summary": "Ja, pasteurisierter Halloumi ist in Ordnung – ob gegrillt, gebraten oder kalt.",
+    "details": "Halloumi ist ein fester, in Salzlake eingelegter Käse, und der NHS zählt pasteurisierten Halloumi zu den Käsesorten, die in der Schwangerschaft sicher sind. Fast jeder Halloumi im Handel wird aus pasteurisierter Milch hergestellt. Grillen oder Braten sorgt für zusätzliche Sicherheit.",
+    "tips": [
+      "Wenn er vom Marktstand oder von einem kleinen Hersteller stammt, prüfe, ob „pasteurisiert“ draufsteht."
+    ]
+  },
+  "mozzarella": {
+    "name": "Mozzarella & Burrata",
+    "aliases": [
+      "Mozzarella",
+      "Burrata",
+      "Büffelmozzarella",
+      "Pizzakäse",
+      "Caprese",
+      "Mozarella"
+    ],
+    "summary": "Ja, pasteurisierter Mozzarella und Burrata sind sicher, frisch oder auf der Pizza geschmolzen.",
+    "details": "Obwohl Mozzarella weich und frisch ist, stuft der NHS pasteurisierten Mozzarella und Burrata als sicher ein, und auch die CDC zählt pasteurisierten Mozzarella zu den sichereren Optionen. Mozzarella aus dem Supermarkt ist fast immer pasteurisiert. Wie bei jedem frischen Käse gilt: gekühlt aufbewahren und bis zum Verbrauchsdatum essen.",
+    "tips": [
+      "Bewahre ihn gekühlt auf und halte dich an den Hinweis auf der Packung, bis wann er nach dem Öffnen gegessen werden soll."
+    ]
+  },
+  "parmesan": {
+    "name": "Parmesan",
+    "aliases": [
+      "Parmigiano Reggiano",
+      "Grana Padano",
+      "Pecorino",
+      "Hartkäse",
+      "gereifter Käse",
+      "Hartkaese"
+    ],
+    "summary": "Ja, Parmesan und andere Hartkäse sind sicher, selbst wenn sie aus nicht pasteurisierter Milch hergestellt sind.",
+    "details": "Harte, gereifte Käse wie Parmesan enthalten sehr wenig Feuchtigkeit, deshalb ist es unwahrscheinlich, dass sich Listerien darin vermehren. Darum sagt der NHS, dass Hartkäse in der Schwangerschaft sicher ist, egal ob pasteurisiert oder nicht. Parmigiano Reggiano wird traditionell aus Rohmilch hergestellt und gilt trotzdem als unbedenklich.",
+    "tips": [
+      "Reibe ihn ruhig großzügig über Pasta, Suppen oder Salate."
+    ]
+  },
+  "cheddar": {
+    "name": "Cheddar & Hartkäse",
+    "aliases": [
+      "Cheddar",
+      "Emmentaler",
+      "Greyerzer",
+      "Bergkäse",
+      "Gouda",
+      "Edamer"
+    ],
+    "summary": "Ja, Cheddar und andere Hartkäse sind sicher, und pasteurisierte Schnittkäse wie Edamer ebenfalls.",
+    "details": "Der NHS stuft Cheddar, Gruyère und andere Hartkäse in der Schwangerschaft als sicher ein, pasteurisiert oder nicht, weil eine Vermehrung von Listerien bei ihrem geringen Feuchtigkeitsgehalt unwahrscheinlich ist. Schnittkäse wie Edamer und Gouda sind in Ordnung, wenn sie aus pasteurisierter Milch hergestellt sind. Hartkäse ist außerdem eine praktische Quelle für Kalzium und Eiweiß.",
+    "tips": [
+      "Kombiniere ihn mit Obst oder Vollkorncrackern für einen schnellen Snack."
+    ]
+  },
+  "blue-cheese": {
+    "name": "Blauschimmelkäse",
+    "aliases": [
+      "Gorgonzola",
+      "Roquefort",
+      "Edelpilzkäse",
+      "Danablu",
+      "Blauschimmel",
+      "Blauschimmelkaese"
+    ],
+    "summary": "Weiche Blauschimmelkäse wie Gorgonzola und Roquefort sind nur in Ordnung, wenn sie dampfend heiß gegart sind.",
+    "details": "Weiche Blauschimmelkäse sind feucht und schimmelgereift, deshalb enthalten sie eher Listerien. Der NHS rät, sie gründlich zu erhitzen, egal ob pasteurisiert oder nicht. Eine Gorgonzolasoße, die erhitzt wurde, bis sie blubbert, ist in Ordnung, aber kalten, über den Salat gebröselten Blauschimmelkäse lässt du besser weg.",
+    "tips": [
+      "Verwende ihn in Soßen oder Aufläufen, die erhitzt werden, bis sie blubbern.",
+      "Bitte im Restaurant um Dressings ohne Blauschimmelkäse."
+    ]
+  },
+  "goats-cheese": {
+    "name": "Ziegenkäse",
+    "aliases": [
+      "Ziegenfrischkäse",
+      "Chèvre",
+      "Chevre",
+      "Ziegenkäserolle",
+      "Geisskäse",
+      "Ziegenkaese"
+    ],
+    "summary": "Pasteurisierter Ziegenkäse ohne Rinde ist in Ordnung, aber die Sorte mit weißer Rinde muss dampfend heiß gegart werden.",
+    "details": "Der NHS stuft pasteurisierten Ziegenkäse ohne weißen Überzug (Rinde) als sicher ein. Schimmelgereifter Ziegenkäse mit weißer Rinde, etwa Chèvre-Rollen, wird wie Brie behandelt: Er kann Listerien enthalten und muss deshalb gründlich erhitzt werden. Auch jeder Ziegenkäse aus nicht pasteurisierter Milch sollte erhitzt werden.",
+    "tips": [
+      "Überbackener Ziegenkäse auf Toast ist in Ordnung, sobald er durch und durch heiß ist.",
+      "Prüfe bei weichen Sorten ohne Rinde, ob auf dem Etikett „pasteurisiert“ steht."
+    ]
+  },
+  "cottage-cheese": {
+    "name": "Hüttenkäse",
+    "aliases": [
+      "Cottage Cheese",
+      "körniger Frischkäse",
+      "Huettenkaese",
+      "Koerniger Frischkaese"
+    ],
+    "summary": "Ja, Hüttenkäse aus pasteurisierter Milch ist sicher und eine gute Eiweißquelle.",
+    "details": "Sowohl der NHS als auch die CDC nennen pasteurisierten Hüttenkäse als sichere Wahl in der Schwangerschaft. Hüttenkäse aus dem Handel wird aus pasteurisierter Milch hergestellt. Bewahre ihn gekühlt auf und iss ihn vor Ablauf des Verbrauchsdatums.",
+    "tips": [
+      "Probier ihn mit Obst oder auf Toast als eiweißreichen Snack."
+    ]
+  },
+  "cream-cheese": {
+    "name": "Frischkäse & Mascarpone",
+    "aliases": [
+      "Frischkäse",
+      "Philadelphia",
+      "Mascarpone",
+      "Streichkäse",
+      "Käsekuchen",
+      "Cheesecake"
+    ],
+    "summary": "Ja, pasteurisierter Frischkäse und Mascarpone sind sicher, auch im gebackenen Käsekuchen.",
+    "details": "Der NHS und die CDC stufen pasteurisierten Frischkäse in der Schwangerschaft als sicher ein, und der NHS zählt auch Mascarpone und streichfähigen Schmelzkäse dazu. Aufstriche aus dem Handel werden aus pasteurisierter Milch hergestellt. Desserts sind eine andere Frage: Manche ungebackenen Cheesecakes und Mousses enthalten zusätzlich rohes Ei.",
+    "tips": [
+      "Prüfe bei ungebackenen Desserts, ob im Rezept rohe Eier verwendet werden."
+    ]
+  },
+  "ricotta": {
+    "name": "Ricotta",
+    "aliases": [
+      "Ricottakäse",
+      "Cannoli",
+      "Lasagne",
+      "gefüllte Pasta",
+      "Ricottakaese"
+    ],
+    "summary": "Ja, pasteurisierter Ricotta ist sicher, frisch oder in Gerichten wie Lasagne mitgebacken.",
+    "details": "Der NHS zählt pasteurisierten Ricotta zu den Weichkäsen, die in der Schwangerschaft sicher sind, und Ricotta aus dem Supermarkt wird aus pasteurisierter Milch hergestellt. Frische Käse, die lose verkauft oder zu Hause hergestellt werden, werden eher nach der Herstellung verunreinigt. Bleib bei verschlossenen Packungen und iss sie vor Ablauf des Verbrauchsdatums.",
+    "tips": [
+      "Wähle verschlossene, gekühlte Packungen statt losem Ricotta von der Käsetheke."
+    ]
+  },
+  "paneer": {
+    "name": "Paneer",
+    "aliases": [
+      "Paneer Käse",
+      "indischer Käse",
+      "Palak Paneer",
+      "Paneer Tikka",
+      "Panir"
+    ],
+    "summary": "Ja, Paneer aus pasteurisierter Milch ist sicher, gegart oder ungegart.",
+    "details": "Der NHS zählt pasteurisierten Paneer zu den Weichkäsen, die in der Schwangerschaft sicher sind. Paneer wird meist in Currys gekocht oder gegrillt, was zusätzliche Sicherheit bringt. Wenn du ihn selbst machst, nimm pasteurisierte Milch oder Milch, die du aufgekocht hast.",
+    "tips": [
+      "Du machst Paneer selbst? Fang mit pasteurisierter oder abgekochter Milch an."
+    ]
+  },
+  "fresh-cheese": {
+    "name": "Lor, Çökelek & anderer frischer Käse",
+    "aliases": [
+      "Lor",
+      "Çökelek",
+      "Cokelek",
+      "Labneh",
+      "Queso fresco",
+      "Lor Peyniri"
+    ],
+    "summary": "Abgepackt, pasteurisiert und gut gekühlt ist in Ordnung; losen oder selbst gemachten frischen Käse lässt du aber besser weg, außer er ist heiß gegart.",
+    "details": "Frische, feuchte Käse wie Lor, Çökelek, Labneh und Queso fresco können nach der Herstellung leicht Listerien aufnehmen, selbst wenn die Milch wärmebehandelt war. Die CDC rät, Käse nach Art des Queso fresco zu erhitzen, bis er dampfend heiß ist. Werden sie in Gerichten wie Börek gebacken, bis sie durch und durch sehr heiß sind, ist das Risiko beseitigt.",
+    "tips": [
+      "Kauf verschlossene Packungen bekannter Marken und bewahre sie im Kühlschrank auf.",
+      "Verwende losen Lor oder Lor vom Dorf in Ofengerichten wie Börek, gegart, bis er heiß ist."
+    ]
+  },
+  "beyaz-peynir": {
+    "name": "Türkischer Weißkäse (Beyaz Peynir)",
+    "aliases": [
+      "Beyaz Peynir",
+      "Weißkäse",
+      "Weisskaese",
+      "türkischer Schafskäse",
+      "Salzlakenkäse",
+      "Ezine"
+    ],
+    "summary": "Ja, wenn er pasteurisiert ist, wie bei den meisten abgepackten Marken; losen oder nicht pasteurisierten Weißkäse solltest du meiden, außer er ist gegart.",
+    "details": "Beyaz Peynir ist ein Salzlakenkäse ähnlich wie Feta. Aus pasteurisierter Milch ist er ein sicherer Frühstücksklassiker, aber Käse aus Rohmilch kann Listerien und andere Bakterien enthalten. Loser Käse, der auf Märkten aus Blechkanistern verkauft oder direkt im Dorf gekauft wird, ist möglicherweise nicht pasteurisiert.",
+    "tips": [
+      "Achte auf dem Etikett auf „pastörize sütten“.",
+      "Verwende nicht pasteurisierten Käse nur in Gerichten, die dampfend heiß gegart werden, wie Börek oder Menemen."
+    ]
+  },
+  "kasar": {
+    "name": "Kaşar-Käse",
+    "aliases": [
+      "Kasar",
+      "Kaşar Peyniri",
+      "Kasar Peyniri",
+      "Kaschkawal",
+      "Kashkaval"
+    ],
+    "summary": "Ja, pasteurisierter Kaşar ist sicher, kalt zum Frühstück oder geschmolzen im Toast.",
+    "details": "Kaşar ist ein Schnittkäse, und der NHS stuft pasteurisierte Schnittkäse in der Schwangerschaft als sicher ein. Der meiste Kaşar im Handel wird aus pasteurisierter Milch hergestellt. Gereifter (eski) Kaşar ist härter und trockener, wodurch eine Vermehrung von Listerien noch unwahrscheinlicher ist.",
+    "tips": [
+      "Wenn er selbst gemacht ist und aus Rohmilch stammt, iss ihn geschmolzen und heiß."
+    ]
+  },
+  "tulum": {
+    "name": "Tulum-Käse",
+    "aliases": [
+      "Tulum",
+      "Tulum Peyniri",
+      "Erzincan Tulum",
+      "Schlauchkäse",
+      "türkischer Bröckelkäse"
+    ],
+    "summary": "Wähle pasteurisierten Tulum, und iss traditionellen Tulum aus Rohmilch nur gegart, zum Beispiel in Börek gebacken.",
+    "details": "Viele traditionelle Tulum-Käse werden aus roher Schaf- oder Ziegenmilch hergestellt. Nicht pasteurisierter Käse kann Listerien enthalten; eine Infektion ist selten, kann aber eine Fehlgeburt oder eine schwere Erkrankung beim Neugeborenen verursachen. Industriell hergestellter Tulum ist oft pasteurisiert, also prüfe das Etikett.",
+    "tips": [
+      "Achte auf der Packung auf „pastörize“.",
+      "Backe Tulum aus Rohmilch in Börek oder Pide, bis er dampfend heiß ist."
+    ]
+  },
+  "village-cheese": {
+    "name": "Nicht pasteurisierter Dorfkäse",
+    "aliases": [
+      "Rohmilchkäse",
+      "Bauernkäse",
+      "Hofkäse",
+      "Köy Peyniri",
+      "Koy Peyniri",
+      "Rohmilchkaese"
+    ],
+    "summary": "Meide weichen oder bröckeligen Rohmilchkäse, außer er ist dampfend heiß gegart; harter, gereifter Käse ist weniger riskant.",
+    "details": "Käse aus Rohmilch kann Listerien und andere schädliche Bakterien enthalten. Eine Listerien-Infektion kann zu einer Fehlgeburt, einer Totgeburt oder einem schwer kranken Neugeborenen führen, selbst wenn du dich nur leicht krank fühlst. Wird der Käse gegart, bis er dampfend heiß ist, ist er sicher, und harte, gereifte Käse sind auch ohne Pasteurisierung risikoarm.",
+    "tips": [
+      "Frag beim Verkauf nach, ob die Milch pasteurisiert oder abgekocht wurde.",
+      "Backe Dorfkäse in Börek oder Gözleme, bis er dampfend heiß ist."
+    ]
+  },
+  "kaymak": {
+    "name": "Kaymak (fester Rahm)",
+    "aliases": [
+      "Kaymak",
+      "Kajmak",
+      "Clotted Cream",
+      "Büffelrahm",
+      "Eishta",
+      "Qaimar"
+    ],
+    "summary": "Abgepackter, pasteurisierter Kaymak ist in Ordnung, aber sei vorsichtig mit losem Kaymak von Märkten und kleinen Molkereien.",
+    "details": "Traditioneller Kaymak wird aus erhitzter Milch hergestellt, ist aber fettreich und feucht und wird oft lose angefasst und verkauft, sodass er danach Bakterien wie Listerien aufnehmen kann. Laut NHS ist pasteurisierte Sahne sicher, nicht pasteurisierte Sahne sollte dagegen gemieden werden. Abgepackter Kaymak einer bekannten Marke, gekühlt aufbewahrt, ist die sicherste Wahl.",
+    "tips": [
+      "Kauf verschlossene Packungen und bewahre sie im Kühlschrank auf.",
+      "Lass Kaymak weg, der bei Raumtemperatur herumgestanden hat."
+    ]
+  },
+  "runny-eggs": {
+    "name": "Weiche Eier",
+    "aliases": [
+      "weichgekochtes Ei",
+      "Spiegelei",
+      "pochiertes Ei",
+      "Eggs Benedict",
+      "flüssiges Eigelb",
+      "Frühstücksei"
+    ],
+    "summary": "Nur mit britischen Eiern mit dem Zeichen British Lion oder Laid in Britain; anderswo solltest du Eier garen, bis das Eigelb fest ist.",
+    "details": "Nicht durchgegarte Eier können Salmonellen enthalten, die dem Baby nur selten schaden, dir aber eine schwere Lebensmittelvergiftung bescheren können. In Großbritannien gelten Eier aus den Programmen British Lion oder Laid in Britain als risikoarm und dürfen weich gegessen werden. Anderswo, auch in den USA, lautet die Empfehlung, Eier zu garen, bis Eiweiß und Eigelb fest sind.",
+    "tips": [
+      "Koche Eier etwas länger oder wende Spiegeleier, bis das Eigelb fest ist.",
+      "Verwende für Çılbır oder Eggs Benedict pasteurisierte Eier oder verzichte auf das flüssige Eigelb."
+    ]
+  },
+  "raw-eggs": {
+    "name": "Rohe Eier",
+    "aliases": [
+      "rohes Ei",
+      "Mousse au Chocolat",
+      "Eierlikör",
+      "Caesar Dressing",
+      "Hollandaise",
+      "Eiweißglasur"
+    ],
+    "summary": "Nur wenn die Eier pasteurisiert sind (oder in Großbritannien das Lion-Zeichen tragen); sonst lass Speisen mit rohem Ei wie Mousse oder Caesar Dressing weg.",
+    "details": "Rohe und nur leicht gegarte Eier können Salmonellen enthalten, die Erbrechen, Durchfall und Fieber verursachen können, und die FDA zählt Schwangere zu den Menschen mit einem höheren Risiko für einen schweren Verlauf. Für Gerichte, die mit rohem Ei serviert werden, empfiehlt die FDA pasteurisierte Eier oder pasteurisierte Eiprodukte. Gekaufte Produkte wie Mayonnaise und Dressings werden mit pasteurisiertem Ei hergestellt.",
+    "tips": [
+      "Frag im Restaurant, ob hausgemachte Soßen und Desserts rohes Ei enthalten.",
+      "Nimm zu Hause pasteurisierte Eier für alles, was nicht gegart wird."
+    ]
+  },
+  "homemade-mayonnaise": {
+    "name": "Hausgemachte Mayonnaise & Aioli",
+    "aliases": [
+      "selbstgemachte Mayo",
+      "frische Mayonnaise",
+      "Aioli",
+      "Knoblauchmayonnaise",
+      "Majo",
+      "Mayo hausgemacht"
+    ],
+    "summary": "Nur wenn sie mit pasteurisierten Eiern (oder britischen Lion-Eiern) zubereitet ist; sonst lässt du sie besser weg.",
+    "details": "Hausgemachte Mayonnaise und Aioli werden mit rohem Eigelb zubereitet, das Salmonellen enthalten kann. Laut NHS ist Mayonnaise mit Eiern von British Lion oder Laid in Britain in Ordnung, während US-Empfehlungen lauten, für Rezepte mit rohem Ei pasteurisierte Eier zu verwenden. Die „Haus-Mayo“ und Aioli im Restaurant werden oft frisch zubereitet, deshalb lohnt sich die Nachfrage.",
+    "tips": [
+      "Frag nach, ob die Soßen des Hauses frisch mit rohem Ei zubereitet werden.",
+      "Mayonnaise aus dem Glas ist eine sichere Alternative."
+    ]
+  },
+  "mayonnaise": {
+    "name": "Mayonnaise (gekauft)",
+    "aliases": [
+      "Mayo",
+      "Majo",
+      "Mayonnaise aus dem Glas",
+      "Remoulade",
+      "Salatmayonnaise",
+      "Majonäse"
+    ],
+    "summary": "Ja, gekaufte Mayonnaise aus dem Glas wird mit pasteurisiertem Ei hergestellt und ist sicher.",
+    "details": "Industriell hergestellte Mayonnaise enthält pasteurisiertes Ei und birgt daher nicht das Rohei-Risiko selbst gemachter Varianten. Bewahre das Glas nach dem Öffnen im Kühlschrank auf. Vorsichtiger solltest du bei fertigen Salaten und Sandwiches mit Mayonnaise sein: Laut NHS sollten sie gekühlt und vor Ablauf des Verbrauchsdatums gegessen werden.",
+    "tips": [
+      "Stell sie nach dem Öffnen in den Kühlschrank und lass Gerichte mit Mayo nicht in der Wärme stehen."
+    ]
+  },
+  "tiramisu": {
+    "name": "Tiramisu",
+    "aliases": [
+      "Tiramisù",
+      "Mascarpone-Dessert",
+      "Mascarponecreme",
+      "Kaffeedessert",
+      "Zabaione",
+      "Trifle"
+    ],
+    "summary": "Gekauftes Tiramisu mit pasteurisiertem Ei ist meist in Ordnung, aber hausgemachte Varianten enthalten oft rohes Ei und Alkohol.",
+    "details": "Klassisches Tiramisu wird mit rohem Ei zubereitet, das Salmonellen enthalten kann, und oft kommen Marsala, Rum oder Kaffeelikör hinein. Viele Supermarkt-Varianten enthalten pasteurisiertes Ei und keinen Alkohol, also prüfe das Etikett. Der Kaffee trägt außerdem etwas Koffein zu deiner Tagesmenge bei.",
+    "tips": [
+      "Achte auf dem Etikett auf pasteurisiertes Ei und keinen Alkohol.",
+      "Nimm zu Hause pasteurisiertes Ei oder ein Rezept ohne Ei."
+    ]
+  },
+  "cookie-dough": {
+    "name": "Roher Keksteig & Kuchenteig",
+    "aliases": [
+      "Keksteig",
+      "Cookie Dough",
+      "roher Teig",
+      "rohes Mehl",
+      "Rührteig",
+      "Teig naschen"
+    ],
+    "summary": "Nasche nicht von rohem Teig, denn sowohl rohes Mehl als auch rohes Ei können schädliche Bakterien enthalten.",
+    "details": "Rohes Mehl wird nicht behandelt, um Keime abzutöten, und wurde mit E.-coli-Ausbrüchen in Verbindung gebracht; rohes Ei kann Salmonellen enthalten. Backen oder Garen tötet beides ab. Essbarer Keksteig, der als verzehrfertig verkauft wird, wird mit wärmebehandeltem Mehl und ohne rohes Ei hergestellt, also prüfe das Etikett.",
+    "tips": [
+      "Widersteh dem Löffelablecken: erst backen, dann probieren.",
+      "Wasch dir nach dem Umgang mit rohem Mehl die Hände und reinige die Arbeitsflächen."
+    ]
+  },
+  "sushi": {
+    "name": "Sushi mit rohem Fisch",
+    "aliases": [
+      "Sushi",
+      "Sashimi",
+      "Nigiri",
+      "roher Fisch",
+      "Poke Bowl",
+      "Ceviche"
+    ],
+    "summary": "Verzichte auf Sushi und Sashimi mit rohem Fisch oder rohen Meeresfrüchten; Sushi mit gegartem Fisch oder Gemüse ist in Ordnung.",
+    "details": "Roher Fisch kann Listerien, Parasiten und andere Bakterien enthalten, die beim Garen abgetötet würden. Die US-Fachgesellschaft ACOG rät, in der Schwangerschaft jeden rohen oder nicht durchgegarten Fisch zu meiden, und laut NHS gilt das inzwischen auch dann, wenn der Fisch vorher eingefroren war. Rollen mit gegartem Fisch, gegarten Garnelen, Surimi-Sticks oder Gemüse sind in Ordnung.",
+    "tips": [
+      "Probier gegarte Varianten wie Tempura-Garnelen, Aal, gegarten Lachs oder Avocado-Rollen.",
+      "Frag in der Küche nach, welche Rollen rohen Fisch enthalten."
+    ]
+  },
+  "sushi-cooked": {
+    "name": "Sushi mit gegartem Fisch oder Gemüse",
+    "aliases": [
+      "California Roll",
+      "vegetarisches Sushi",
+      "Tempura Roll",
+      "Unagi",
+      "Avocado Maki",
+      "Gurken Maki"
+    ],
+    "summary": "Ja, Sushi mit gegartem Fisch, gegarten Meeresfrüchten oder Gemüse ist in der Schwangerschaft sicher.",
+    "details": "Der NHS stuft Sushi mit gegartem Fisch oder gegarten Meeresfrüchten als sicher ein. Die üblichen Hygieneregeln gelten trotzdem: Sushi sollte gekühlt werden, und abgepacktes Sushi solltest du vor Ablauf des Verbrauchsdatums essen. Rollen mit Räucherlachs zählen als ungegarter Fisch, also lass sie weg.",
+    "tips": [
+      "Wähle frisch zubereitete Rollen aus gut besuchten Lokalen mit guter Hygiene.",
+      "Sei sparsam mit Sojasoße, wenn du auf dein Salz achtest."
+    ]
+  },
+  "smoked-salmon": {
+    "name": "Räucherlachs & gebeizter Fisch",
+    "aliases": [
+      "Räucherlachs",
+      "Graved Lachs",
+      "kaltgeräucherter Fisch",
+      "Räucherforelle",
+      "Lakerda",
+      "Raeucherlachs"
+    ],
+    "summary": "Nur wenn er dampfend heiß gegart ist, etwa in heißer Pasta oder Quiche; kalten Räucherlachs, Graved Lachs und Lakerda lässt du besser weg.",
+    "details": "Kalt geräucherter und gebeizter Fisch wird nicht gegart und kann daher Listerien enthalten. Der NHS rät, ihn zu garen, bis er dampfend heiß ist, und die CDC rät, gekühlten Räucherfisch zu meiden, außer er ist Teil eines gegarten Gerichts. Räucherfisch aus der Dose oder in verschlossenen, ungekühlt haltbaren Packungen ist weniger riskant. In Deutschland empfiehlt das BfR Schwangeren außerdem, heiß geräucherten Fisch wie Forelle oder Makrele nur durcherhitzt zu essen.",
+    "tips": [
+      "Rühr Räucherlachs unter heiße Pasta oder Rührei und erhitze ihn durch.",
+      "Auch heiß geräucherter Fisch wie Räuchermakrele ist am sichersten, wenn du ihn heiß isst."
+    ]
+  },
+  "tuna-canned": {
+    "name": "Thunfisch aus der Dose",
+    "aliases": [
+      "Dosenthunfisch",
+      "Thunfischdose",
+      "Thunfischsalat",
+      "Thunfisch Sandwich",
+      "Weißer Thunfisch",
+      "Skipjack"
+    ],
+    "summary": "Ja, in Maßen: In Großbritannien liegt die Grenze bei 4 Dosen pro Woche, und US-Empfehlungen bevorzugen „light tuna“ gegenüber Albacore (Weißem Thun).",
+    "details": "Thunfisch enthält mehr Quecksilber als die meisten Fische, und zu viel Quecksilber kann das sich entwickelnde Nervensystem des Babys beeinträchtigen. Der NHS setzt eine Grenze von 4 Dosen pro Woche. Die FDA führt „light tuna“ aus der Dose als „beste Wahl“ (2 bis 3 Portionen pro Woche an Fisch der besten Wahl) und Albacore als „gute Wahl“ (1 Portion pro Woche).",
+    "tips": [
+      "Wechsle ab mit quecksilberärmeren Fischen wie Lachs, Sardinen oder Sardellen.",
+      "Bewahre gekaufte Thunfisch-Sandwiches gekühlt auf und iss sie bis zum Verbrauchsdatum."
+    ]
+  },
+  "tuna-steak": {
+    "name": "Thunfischsteak",
+    "aliases": [
+      "frischer Thunfisch",
+      "Thunfisch gebraten",
+      "Gelbflossenthun",
+      "Ahi Thunfisch",
+      "Großaugenthun",
+      "Thunfisch Tataki"
+    ],
+    "summary": "Ja, durchgegart und in Maßen (in Großbritannien höchstens 2 Steaks pro Woche), aber meide kurz angebratenen oder rohen Thunfisch.",
+    "details": "Frischer Thunfisch enthält mehr Quecksilber als die meisten Fische, deshalb begrenzt der NHS ihn auf 2 Steaks pro Woche, und die FDA rät, Großaugenthun (Bigeye) ganz zu meiden. Kurz angebratener Thunfisch und Tataki sind in der Mitte roh und bergen daher dieselben Risiken wie roher Fisch. Gare Steaks, bis sie durch und durch nicht mehr glasig sind.",
+    "tips": [
+      "Bestell ihn durchgegart, ohne Rosa in der Mitte.",
+      "Wechsle ab mit quecksilberärmeren Fischen wie Lachs, Forelle oder Sardinen."
+    ]
+  },
+  "swordfish": {
+    "name": "Schwertfisch & Marlin",
+    "aliases": [
+      "Schwertfisch",
+      "Schwertfischsteak",
+      "Marlin",
+      "Speerfisch",
+      "quecksilberreicher Fisch",
+      "Kılıç"
+    ],
+    "summary": "Meide sie, denn Schwertfisch und Marlin enthalten viel Quecksilber, das dem sich entwickelnden Nervensystem des Babys schaden kann.",
+    "details": "Große Raubfische reichern im Laufe ihres langen Lebens Quecksilber an, und Schwertfisch und Marlin stehen sowohl beim NHS als auch bei der FDA auf der Liste der Fische, die in der Schwangerschaft gemieden werden sollten. Quecksilber gelangt über die Plazenta und kann die Entwicklung von Gehirn und Nerven beeinträchtigen. Viele andere Fische bieten dir dieselben Omega-3-Vorteile mit deutlich weniger Quecksilber.",
+    "tips": [
+      "Tausch Kılıç Şiş gegen gegrillten Wolfsbarsch, Dorade oder Lachs."
+    ]
+  },
+  "shark": {
+    "name": "Hai",
+    "aliases": [
+      "Haifisch",
+      "Haisteak",
+      "Dornhai",
+      "Schillerlocken",
+      "Seeaal",
+      "Katzenhai"
+    ],
+    "summary": "Meide ihn, denn Hai gehört zu den Fischen mit dem höchsten Quecksilbergehalt und steht sowohl in Großbritannien als auch in den USA auf der Liste der zu meidenden Fische.",
+    "details": "Haie sind langlebige Raubfische, die viel Quecksilber anreichern. In der Schwangerschaft kann Quecksilber zum Baby gelangen und das sich entwickelnde Gehirn und Nervensystem beeinträchtigen. Sowohl der NHS als auch die FDA raten, Hai während der Schwangerschaft oder wenn du eine Schwangerschaft planst, komplett zu meiden.",
+    "tips": [
+      "Wähle im Fischrestaurant stattdessen Wolfsbarsch, Dorade, Kabeljau oder Schellfisch."
+    ]
+  },
+  "king-mackerel": {
+    "name": "Königsmakrele",
+    "aliases": [
+      "Koenigsmakrele",
+      "Kingfish",
+      "Ziegelbarsch",
+      "Granatbarsch",
+      "Großaugenthun",
+      "Grossaugenthun"
+    ],
+    "summary": "Meide Königsmakrele; die gewöhnliche Atlantische Makrele (Uskumru) ist ein anderer, quecksilberarmer Fisch und in Ordnung.",
+    "details": "Die Königsmakrele ist ein großer Hochseefisch, den die FDA zu den Arten mit dem höchsten Quecksilbergehalt zählt, die in der Schwangerschaft gemieden werden sollten – zusammen mit Großaugenthun, Schwertfisch, Hai, Marlin, Granatbarsch und Ziegelbarsch aus dem Golf von Mexiko. Die Atlantische Makrele steht dagegen auf der FDA-Liste der „besten Wahl“. In Großbritannien zählt Makrele zu deinen 2 Portionen fettem Fisch pro Woche.",
+    "tips": [
+      "Achte auf Speisekarten und an der Fischtheke auf den Namen der Fischart.",
+      "Genieße normale Makrele (Uskumru), gegrillt und durchgegart."
+    ]
+  },
+  "salmon": {
+    "name": "Lachs (gegart)",
+    "aliases": [
+      "Lachsfilet",
+      "Ofenlachs",
+      "gegrillter Lachs",
+      "Forelle",
+      "fetter Fisch",
+      "Fisch"
+    ],
+    "summary": "Ja, gegarter Lachs ist eine sehr gute Wahl; britische Empfehlungen nennen bis zu 2 Portionen fetten Fisch pro Woche.",
+    "details": "Lachs enthält wenig Quecksilber und viele Omega-3-Fette, die gut für dich und die Entwicklung deines Babys sind. Der NHS empfiehlt 2 Portionen Fisch pro Woche, davon eine fetten Fisch, aber nicht mehr als 2 Portionen fetten Fisch, weil er Schadstoffe enthalten kann. Die FDA zählt Lachs zu ihrer „besten Wahl“.",
+    "tips": [
+      "Gare ihn, bis er leicht zerfällt und durch und durch nicht mehr glasig ist.",
+      "Räucherlachs ist etwas anderes: Er muss gegart werden, bis er dampfend heiß ist."
+    ]
+  },
+  "anchovies": {
+    "name": "Sardellen & Sardinen (Hamsi)",
+    "aliases": [
+      "Hamsi",
+      "Sardellen",
+      "Anchovis",
+      "Sardinen",
+      "Hering",
+      "Makrele"
+    ],
+    "summary": "Ja, gegart, denn sie sind quecksilberarme fette Fische; britische Empfehlungen nennen bis zu 2 Portionen fetten Fisch pro Woche.",
+    "details": "Sardellen, Sardinen und Atlantische Makrele stehen wegen ihres niedrigen Quecksilbergehalts auf der FDA-Liste der „besten Wahl“ und sind reich an Omega-3. Der NHS zählt sie zu den fetten Fischen und rät zu nicht mehr als 2 Portionen pro Woche, weil fetter Fisch Schadstoffe enthalten kann. Iss sie gegart, denn roh marinierte Sardellen bergen dieselben Risiken wie anderer roher Fisch.",
+    "tips": [
+      "Hamsi Tava, Buğulama oder gegrillte Sardinen sind alle eine sehr gute Wahl.",
+      "Sardinen aus der Dose sind gegart und zählen ebenfalls zu deinem fetten Fisch."
+    ]
+  },
+  "prawns": {
+    "name": "Garnelen & Shrimps",
+    "aliases": [
+      "Garnelen",
+      "Shrimps",
+      "Gambas",
+      "Nordseekrabben",
+      "Krabbencocktail",
+      "Scampi"
+    ],
+    "summary": "Ja, wenn sie gegart und heiß serviert werden; kalte, verzehrfertige Garnelen, etwa im Krabbencocktail, erhitzt du, bis sie dampfend heiß sind.",
+    "details": "Gegarte Schalentiere wie Garnelen sind sicher und eine gute Eiweißquelle. Der NHS rät inzwischen, kalte, vorgegarte, verzehrfertige Garnelen zu erhitzen, bis sie dampfend heiß sind, weil sie Listerien enthalten können. Rohe Garnelen, wie in manchen Ceviche- oder Sushi-Gerichten, solltest du meiden.",
+    "tips": [
+      "Gare rohe Garnelen, bis sie rosa und durch und durch nicht mehr glasig sind.",
+      "Karides Güveç frisch aus dem Ofen ist eine perfekte Wahl."
+    ]
+  },
+  "oysters": {
+    "name": "Rohe Austern & rohe Schalentiere",
+    "aliases": [
+      "Austern",
+      "rohe Muscheln",
+      "rohe Jakobsmuscheln",
+      "Venusmuscheln",
+      "Seeigel",
+      "Austernbar"
+    ],
+    "summary": "Meide rohe Schalentiere; gegarte Austern, Miesmuscheln und Venusmuscheln sind aber in Ordnung, sobald sie heiß sind und sich ihre Schalen geöffnet haben.",
+    "details": "Rohe Schalentiere können Bakterien wie Vibrionen sowie Giftstoffe enthalten, die eine schwere Lebensmittelvergiftung verursachen können. Der NHS rät, in der Schwangerschaft auf rohe Schalentiere zu verzichten, während gegarte Schalentiere sicher sind. Wirf Mies- oder Venusmuscheln weg, die nach dem Garen geschlossen bleiben.",
+    "tips": [
+      "Bestell gegrillte oder überbackene Austern statt roher."
+    ]
+  },
+  "midye-dolma": {
+    "name": "Midye Dolma (gefüllte Muscheln)",
+    "aliases": [
+      "gefüllte Muscheln",
+      "Midye",
+      "Midye Dolma",
+      "Midye Tava",
+      "frittierte Muscheln",
+      "gefüllte Miesmuscheln"
+    ],
+    "summary": "Nur wenn sie frisch an einem sauberen, vertrauenswürdigen Ort zubereitet wurden; Muscheln vom Straßenstand, die stundenlang ungekühlt lagen, lässt du besser weg.",
+    "details": "Die Muscheln und der Reis in Midye Dolma sind gegart, das Hauptrisiko liegt also darin, wie sie danach aufbewahrt werden. Liegen sie stundenlang bei Raumtemperatur, besonders im Sommer, können sich Bakterien vermehren, die eine Lebensmittelvergiftung verursachen, und Schalentiere können außerdem Giftstoffe enthalten. Eine Lebensmittelvergiftung ist in der Schwangerschaft besonders kräftezehrend und kann zu Flüssigkeitsmangel führen.",
+    "tips": [
+      "Wähle gut besuchte Stände, die sie gekühlt lagern, und lass sie bei heißem Wetter weg.",
+      "Midye Tava, frisch auf Bestellung heiß frittiert, ist die sicherere Wahl."
+    ]
+  },
+  "deli-meat": {
+    "name": "Aufschnitt & kalte Fleischwaren",
+    "aliases": [
+      "Aufschnitt",
+      "Kochschinken",
+      "Putenbrust",
+      "Lyoner",
+      "Fleischwurst",
+      "Extrawurst"
+    ],
+    "summary": "Am sichersten dampfend heiß erhitzt: Britische Empfehlungen erlauben gekühlte Packungen vor Ablauf des Verbrauchsdatums, US-Empfehlungen raten, sie vorher zu erhitzen.",
+    "details": "Verzehrfertige Fleischwaren wie Schinken, Putenaufschnitt und Salam können Listerien enthalten, die sich selbst im Kühlschrank langsam vermehren können. Laut NHS ist kalter, vorgegarter Aufschnitt in Ordnung, wenn er gekühlt aufbewahrt und vor Ablauf des Verbrauchsdatums gegessen wird, während die CDC rät, Aufschnitt zu erhitzen, bis er dampfend heiß ist. Im Toast oder in der Pfanne erhitzt, ist das Risiko beseitigt.",
+    "tips": [
+      "Mach daraus einen heißen Toast oder ein Panini, durch und durch erhitzt.",
+      "Lass Aufschnitt weg, der offen an der Wursttheke herumgelegen hat."
+    ]
+  },
+  "salami": {
+    "name": "Salami & Rohschinken",
+    "aliases": [
+      "Salami",
+      "Chorizo",
+      "Parmaschinken",
+      "Serranoschinken",
+      "Rohschinken",
+      "Landjäger"
+    ],
+    "summary": "Gare sie, bis sie dampfend heiß sind, etwa auf der Pizza, und lass kalte Scheiben Salami, Chorizo oder Prosciutto weg.",
+    "details": "Gepökelte und luftgetrocknete Fleischwaren werden nicht gegart und können daher Listerien und den Parasiten Toxoplasma enthalten. Der NHS rät inzwischen, kalte gepökelte Fleischwaren vor dem Essen zu garen, bis sie dampfend heiß sind, und die CDC rät, nicht erhitzte getrocknete oder fermentierte Würste zu meiden. Auf einer heißen, frisch gebackenen Pizza sind sie in Ordnung. Auch das Netzwerk Gesund ins Leben rät, Rohwurst wie Salami in der Schwangerschaft nur durcherhitzt zu essen.",
+    "tips": [
+      "Salamipizza ist in Ordnung, wenn sie heiß aus dem Ofen kommt.",
+      "Bleib auf einer Wurst- und Käseplatte bei den gegarten Sachen und bei Hartkäse."
+    ]
+  },
+  "sucuk": {
+    "name": "Sucuk (türkische Wurst)",
+    "aliases": [
+      "Sucuk",
+      "Sujuk",
+      "Knoblauchwurst",
+      "türkische Wurst",
+      "Sucuk mit Ei",
+      "Sucuklu Yumurta"
+    ],
+    "summary": "Ja, wenn sie gebraten oder gegrillt wird, bis sie durchgegart und brutzelnd heiß ist, aber iss sie nicht roh oder nur kurz angewärmt.",
+    "details": "Traditionelle Sucuk ist eine fermentierte, getrocknete Wurst, die bei der Herstellung nicht gegart wird, deshalb kann sie wie Salami Listerien und Toxoplasma enthalten. Wenn du sie brätst oder grillst, bis sie durch und durch heiß ist, ist sie sicher. Wärmebehandelte Sucuk (ısıl işlem görmüş) wurde bei der Herstellung gegart, wird aber trotzdem am besten heiß gegessen.",
+    "tips": [
+      "Sucuklu Yumurta ist in Ordnung: Gare sie, bis das Ei fest ist und die Sucuk brutzelt.",
+      "Sucuk ist salzig und fettreich, also halte die Portionen moderat."
+    ]
+  },
+  "pastirma": {
+    "name": "Pastırma (luftgetrocknetes Rindfleisch)",
+    "aliases": [
+      "Pastirma",
+      "Basturma",
+      "Bresaola",
+      "Bündnerfleisch",
+      "Buendnerfleisch",
+      "luftgetrocknetes Rindfleisch"
+    ],
+    "summary": "Lass dünne kalte Scheiben weg; Pastırma, die gegart wird, bis sie dampfend heiß ist, etwa in Pastırmalı Yumurta, ist aber in Ordnung.",
+    "details": "Pastırma ist luftgetrocknetes, gepökeltes Rindfleisch, das meist ungegart gegessen wird, deshalb birgt sie dieselben Risiken wie andere gepökelte Fleischwaren: Toxoplasma und Listerien. Der NHS rät, gepökelte Fleischwaren zu garen, bis sie dampfend heiß sind. In normalen Mengen ist die Çemen-Hülle (Bockshornklee) nicht das Problem, sondern das ungegarte Fleisch.",
+    "tips": [
+      "Gare Pastırmalı Yumurta, bis die Eier fest sind und alles heiß ist.",
+      "Pastırmalı Humus wird heiß überbacken und ist deshalb frisch aus dem Ofen in Ordnung."
+    ]
+  },
+  "hot-dogs": {
+    "name": "Hotdogs & Würstchen",
+    "aliases": [
+      "Hotdog",
+      "Wiener Würstchen",
+      "Frankfurter Würstchen",
+      "Wienerli",
+      "Bockwurst",
+      "Cocktailwürstchen"
+    ],
+    "summary": "Nur wenn sie durch und durch dampfend heiß erhitzt sind, nie direkt aus der Packung.",
+    "details": "Hotdog-Würstchen sind vorgegart, aber Listerien können sie nach dem Garen verunreinigen und sich im Kühlschrank weiter vermehren. Die CDC rät, Hotdogs zu erhitzen, bis sie dampfend heiß sind. Auch die Flüssigkeit aus der Packung kann Bakterien verbreiten, also halte sie von anderen Lebensmitteln fern.",
+    "tips": [
+      "Koche oder grille sie, bis sie in der Mitte richtig heiß sind.",
+      "Wasch dir die Hände, nachdem du die Packung geöffnet und angefasst hast."
+    ]
+  },
+  "pate": {
+    "name": "Pastete (Pâté)",
+    "aliases": [
+      "Leberpastete",
+      "Leberwurst",
+      "Gänseleberpastete",
+      "Foie gras",
+      "Terrine",
+      "Pate"
+    ],
+    "summary": "Besser meiden, denn Leberpastete enthält sehr viel Vitamin A, und gekühlte Pastete kann Listerien enthalten.",
+    "details": "Leberpastete enthält so viel Vitamin A (Retinol), dass es der Entwicklung des Babys schaden kann, deshalb rät der NHS, alle Leberprodukte zu meiden. Gekühlte Pasteten und Fleischaufstriche können außerdem Listerien enthalten. Pastete ohne Leber wird anders bewertet: Laut NHS solltest du sie gekühlt aufbewahren und vor Ablauf des Verbrauchsdatums essen, während die CDC rät, Pastete aus der Dose oder ungekühlt haltbare Pastete zu wählen.",
+    "tips": [
+      "Prüf das Etikett auf Leber, die in Foie gras und vielen Hühnerpasteten steckt.",
+      "Ungekühlt haltbare Pastete ohne Leber aus der Dose ist die sicherere Wahl."
+    ]
+  },
+  "liver": {
+    "name": "Leber",
+    "aliases": [
+      "Kalbsleber",
+      "Lammleber",
+      "Hühnerleber",
+      "Leber mit Zwiebeln",
+      "Leberwurst",
+      "Innereien"
+    ],
+    "summary": "Besser meiden, denn Leber enthält extrem viel Vitamin A, und zu viel davon kann einem sich entwickelnden Baby schaden.",
+    "details": "Leber speichert große Mengen Vitamin A in Form von Retinol, und eine hohe Aufnahme in der Schwangerschaft wurde mit Fehlbildungen in Verbindung gebracht. Der NHS rät, Leber und Leberprodukte komplett zu meiden, während US-Empfehlungen sich darauf konzentrieren, die sicheren Höchstmengen für Vitamin A nicht zu überschreiten. Dazu gehören auch beliebte Gerichte wie Arnavut Ciğeri und Ciğer Şiş.",
+    "tips": [
+      "Hol dir Eisen stattdessen aus rotem Fleisch, Linsen, Kichererbsen und grünem Blattgemüse."
+    ]
+  },
+  "rare-steak": {
+    "name": "Blutiges oder rosa Steak",
+    "aliases": [
+      "Steak medium",
+      "Steak rare",
+      "englisch gebraten",
+      "rosa Lamm",
+      "Roastbeef",
+      "Lammkoteletts"
+    ],
+    "summary": "Am sichersten durchgebraten: Britische Empfehlungen erlauben ganze Steaks, die außen gut gebraten sind, US-Empfehlungen raten, sie auf 63 °C zu garen.",
+    "details": "Rohes und nicht durchgegartes Fleisch kann den Parasiten Toxoplasma enthalten, der einem Baby schaden kann, wenn du dich in der Schwangerschaft zum ersten Mal damit ansteckst. Keime sitzen bei ganzen Fleischstücken vor allem an der Oberfläche, und laut NHS sind Steaks und Koteletts inzwischen in Ordnung, wenn sie außen gründlich gebraten sind. Die CDC empfiehlt, ganze Fleischstücke auf 63 °C (145 °F) zu garen und sie danach 3 Minuten ruhen zu lassen.",
+    "tips": [
+      "Wenn du unsicher bist, bestell es medium-well bis durchgebraten.",
+      "Hackfleisch, Burger und Köfte müssen immer komplett durchgegart werden."
+    ]
+  },
+  "raw-meat": {
+    "name": "Rohes Fleisch (Tatar, Carpaccio)",
+    "aliases": [
+      "Tatar",
+      "Carpaccio",
+      "Mett",
+      "Hackepeter",
+      "Mettbrötchen",
+      "Kibbeh Nayyeh"
+    ],
+    "summary": "Meide sie, denn Gerichte mit rohem Fleisch können Toxoplasma, Listerien und E. coli enthalten.",
+    "details": "Tatar, Carpaccio und ähnliche Gerichte werden nie gegart, sodass Parasiten oder Bakterien im Fleisch überleben. Eine Toxoplasmose, die du dir in der Schwangerschaft zum ersten Mal einfängst, kann eine Fehlgeburt oder ernste Probleme für das Baby verursachen. Der NHS rät, während der Schwangerschaft auf rohes oder nicht durchgegartes Fleisch zu verzichten.",
+    "tips": [
+      "Wasch dir die Hände und reinige Bretter und Messer, nachdem du rohes Fleisch angefasst hast."
+    ]
+  },
+  "cig-kofte-meat": {
+    "name": "Çiğ Köfte mit rohem Fleisch",
+    "aliases": [
+      "Cig Köfte",
+      "Cig Kofte",
+      "Etli Çiğ Köfte",
+      "Etli Cig Kofte",
+      "rohe Fleischbällchen"
+    ],
+    "summary": "Meide sie, denn traditionelle Çiğ Köfte wird mit rohem Hackfleisch zubereitet, das Toxoplasma und E. coli enthalten kann.",
+    "details": "Beim traditionellen Rezept wird rohes Rinder- oder Lammhackfleisch mit Bulgur und Gewürzen geknetet, und weder die Gewürze noch das Kneten töten Parasiten oder Bakterien ab. Hackfleisch ist riskanter als ganze Fleischstücke, weil Keime von der Oberfläche durch und durch untergemischt werden. Selbst gemachte Varianten enthalten am ehesten Fleisch.",
+    "tips": [
+      "Frag vor dem Essen, ob sie etli (mit Fleisch) oder etsiz (ohne Fleisch) ist.",
+      "Çiğ Köfte ohne Fleisch ist eine sichere Alternative."
+    ]
+  },
+  "cig-kofte": {
+    "name": "Çiğ Köfte ohne Fleisch",
+    "aliases": [
+      "vegane Çiğ Köfte",
+      "Cig Köfte vegan",
+      "Etsiz Çiğ Köfte",
+      "Bulgur Köfte",
+      "Cig Köfte Dürüm",
+      "Cig Kofte"
+    ],
+    "summary": "Ja, Çiğ Köfte ohne Fleisch aus Bulgur und Gewürzen ist in Ordnung, solange du den Salat und die Kräuter dazu gut wäschst.",
+    "details": "Die meiste Çiğ Köfte, die heute verkauft wird, ist ohne Fleisch und besteht aus Bulgur, Tomaten- und Paprikamark und Gewürzen, das Risiko durch rohes Fleisch entfällt also. Bulgur wird bei der Herstellung bereits gekocht. Das Grünzeug, das dazu serviert wird, sollte gut gewaschen sein, denn Erde an ungewaschenem Gemüse kann schädliche Keime enthalten.",
+    "tips": [
+      "Sie kann sehr scharf sein, also sei vorsichtig, wenn du Sodbrennen hast.",
+      "Kauf sie an sauberen Orten, an denen sie frisch zubereitet wird."
+    ]
+  },
+  "doner-kebab": {
+    "name": "Döner & Kebabs",
+    "aliases": [
+      "Döner",
+      "Doener",
+      "Dürüm",
+      "Gyros",
+      "Schawarma",
+      "Iskender"
+    ],
+    "summary": "Ja, wenn er frisch zubereitet, durchgegart und richtig heiß ist; meide rosa Hähnchen oder Fleisch, das herumgestanden hat.",
+    "details": "Döner wird schichtweise an einem rotierenden Spieß gegart, deshalb können Scheiben gelegentlich nicht durchgegart sein, wenn sie zu schnell oder zu dick abgeschnitten werden. Nicht durchgegartes Fleisch kann Toxoplasma enthalten, nicht durchgegartes Hähnchen Bakterien wie Salmonellen. Ein gut besuchter, sauberer Imbiss, der dünne, gut gebräunte Scheiben abschneidet, ist die sicherste Wahl.",
+    "tips": [
+      "Bitte um gut durchgegarte, knusprige Scheiben von der Außenseite des Spießes.",
+      "Prüfe, ob Hähnchen durch und durch weiß ist, ohne Rosa."
+    ]
+  },
+  "burgers": {
+    "name": "Burger & Frikadellen (Köfte)",
+    "aliases": [
+      "Hamburger",
+      "Frikadellen",
+      "Buletten",
+      "Fleischlaberl",
+      "Hackfleisch",
+      "Bratwurst"
+    ],
+    "summary": "Ja, wenn sie komplett durchgegart sind, ohne Rosa in der Mitte und mit klarem Fleischsaft.",
+    "details": "Beim Hacken gelangen Bakterien von der Fleischoberfläche bis ins Innere, deshalb müssen Burger und Köfte bis in die Mitte durchgegart werden. Laut NHS sollten Hackfleisch, Burger und Würstchen keine Spur von Rosa oder Blut mehr zeigen. Die CDC empfiehlt, Hackfleisch auf 71 °C (160 °F) zu garen.",
+    "tips": [
+      "Bestell Burger durchgebraten, denn viele Restaurants servieren sie standardmäßig rosa.",
+      "Schneide die dickste Köfte vor dem Essen auf, um nachzusehen."
+    ]
+  },
+  "chicken": {
+    "name": "Hähnchen & Geflügel",
+    "aliases": [
+      "Hähnchen",
+      "Hendl",
+      "Poulet",
+      "Pute",
+      "Ente",
+      "Haehnchen"
+    ],
+    "summary": "Ja, solange es komplett durchgegart ist, ohne rosa Fleisch und mit klarem Fleischsaft.",
+    "details": "Gründlich gegartes Hähnchen, Pute und Ente sind sicher und eine sehr gute Eiweißquelle. Nicht durchgegartes Geflügel kann Bakterien wie Salmonellen enthalten, die eine Lebensmittelvergiftung verursachen. Die CDC empfiehlt, Geflügel auf 74 °C (165 °F) zu garen, und laut NHS sollte keine Spur von Rosa mehr zu sehen sein.",
+    "tips": [
+      "Nimm für rohes Hähnchen ein eigenes Schneidebrett.",
+      "Erwärme Reste, bis sie dampfend heiß sind."
+    ]
+  },
+  "kokorec": {
+    "name": "Kokoreç",
+    "aliases": [
+      "Kokorec",
+      "Kokoretsi",
+      "Lammdarm",
+      "gegrillte Innereien",
+      "Innereien"
+    ],
+    "summary": "Nur wenn er frisch gegrillt, richtig heiß und durchgegart ist und von einem sauberen Ort stammt, dem du vertraust.",
+    "details": "Kokoreç wird aus Lammdärmen hergestellt, die sehr sorgfältig gereinigt und gründlich gegart werden müssen, damit sie sicher sind. Nicht durchgegarte Innereien können Bakterien enthalten, die eine Lebensmittelvergiftung verursachen. Guter Kokoreç wird kurz vor dem Servieren gehackt und noch einmal auf der Grillplatte gebraten, was dazu beiträgt, dass er durch und durch heiß ist.",
+    "tips": [
+      "Wähle gut besuchte Stände, an denen er bei der Bestellung heiß nachgebraten wird.",
+      "Lass ihn bei heißem Wetter weg oder an Ständen, deren Hygiene zweifelhaft wirkt."
+    ]
+  },
+  "raw-sprouts": {
+    "name": "Rohe Sprossen",
+    "aliases": [
+      "Sojasprossen",
+      "Mungobohnensprossen",
+      "Alfalfasprossen",
+      "Brokkolisprossen",
+      "Radieschensprossen",
+      "Keimlinge"
+    ],
+    "summary": "Meide sie roh oder nur leicht gegart; Sprossen, die gegart werden, bis sie dampfend heiß sind, etwa im Wokgericht, sind in Ordnung.",
+    "details": "Sprossen wachsen unter warmen, feuchten Bedingungen, die ideal für Bakterien wie Salmonellen, Listerien und E. coli sind, und Waschen entfernt diese nicht zuverlässig. Die CDC rät Menschen mit höherem Risiko, darunter Schwangeren, rohe oder nur leicht gegarte Sprossen zu meiden. Gründliches Garen tötet die Bakterien ab.",
+    "tips": [
+      "Bitte darum, Sandwiches, Salate und Nudelgerichte ohne Sprossen zu bekommen.",
+      "Gib sie früh ins Wokgericht, damit sie durchgaren."
+    ]
+  },
+  "unwashed-salad": {
+    "name": "Salat & rohes Gemüse",
+    "aliases": [
+      "Salat",
+      "Rohkost",
+      "Häuptelsalat",
+      "Tütensalat",
+      "Salatbar",
+      "frische Kräuter"
+    ],
+    "summary": "Ja, wenn er gründlich gewaschen ist; abgepackte Salate bewahrst du gekühlt auf und isst sie vor Ablauf des Verbrauchsdatums.",
+    "details": "Erde an ungewaschenem Gemüse und an Kräutern kann den Parasiten Toxoplasma und Bakterien enthalten, deshalb solltest du alle Salatblätter und rohes Gemüse gut waschen. Der NHS weist außerdem auf ein geringes Listerienrisiko bei abgepackten Salaten und Sandwiches hin, wenn sie nicht kühl gelagert werden. Viel Gemüse zu essen, ist trotzdem eines der besten Dinge, die du in der Schwangerschaft tun kannst.",
+    "tips": [
+      "Wasch Salatblätter unter fließendem Wasser, auch wenn sie sauber aussehen.",
+      "Wähle an der Salatbar Orte, an denen alles gut gekühlt ist."
+    ]
+  },
+  "pre-cut-fruit": {
+    "name": "Vorgeschnittenes Obst & Melone",
+    "aliases": [
+      "geschnittene Melone",
+      "Obstsalat",
+      "Obstbecher",
+      "Wassermelone",
+      "Honigmelone",
+      "Obstteller"
+    ],
+    "summary": "In Ordnung, wenn es gekühlt aufbewahrt und bis zum Verbrauchsdatum gegessen wird, aber lass geschnittenes Obst weg, das in der Wärme herumgestanden hat.",
+    "details": "Sobald Obst geschnitten ist, können sich darauf Bakterien wie Listerien vermehren, und Melone ist ein bekanntes Risiko. Die CDC rät, geschnittene Melone wegzuwerfen, die länger als 2 Stunden draußen stand (1 Stunde bei über 32 °C) oder länger als eine Woche im Kühlschrank lag. Ganzes Obst, das du selbst wäschst und schneidest, ist die sicherste Wahl.",
+    "tips": [
+      "Wasch Melonen vor dem Aufschneiden, denn das Messer trägt Keime von der Schale ins Innere.",
+      "Stell Reste sofort in den Kühlschrank."
+    ]
+  },
+  "papaya": {
+    "name": "Papaya (reif oder unreif)",
+    "aliases": [
+      "grüne Papaya",
+      "unreife Papaya",
+      "reife Papaya",
+      "Som Tam",
+      "Papayasalat",
+      "Papaja"
+    ],
+    "summary": "Reife Papaya ist in Ordnung, aber meide unreife (grüne) Papaya, etwa in grünem Papayasalat.",
+    "details": "Unreife Papaya enthält Milchsaft (Latex), der in einer Tierstudie Gebärmutterkontraktionen auslöste, reifer Papayasaft dagegen nicht. Die Datenlage beim Menschen ist begrenzt, aber grüne Papaya lässt sich leicht meiden, daher ist das eine sinnvolle Vorsichtsmaßnahme. Reife, gelb-orange Papaya ist eine gute Vitamin-C-Quelle.",
+    "tips": [
+      "Wähle Papaya mit gelb-oranger Schale, die auf Druck leicht nachgibt.",
+      "Frag bei thailändischen Salaten und eingelegtem Gemüse nach grüner Papaya."
+    ]
+  },
+  "pineapple": {
+    "name": "Ananas",
+    "aliases": [
+      "Ananassaft",
+      "frische Ananas",
+      "Bromelain"
+    ],
+    "summary": "Ja, Ananas in normalen Mengen ist sicher; dass sie eine Fehlgeburt auslöst, ist ein Mythos.",
+    "details": "Ananas enthält ein Enzym namens Bromelain, aber keine Gesundheitsbehörde führt die Frucht als Lebensmittel, das gemieden werden sollte, und für normale Portionen ist nicht belegt, dass sie eine Fehlgeburt oder Wehen auslösen. Wie anderes Obst ist sie Teil einer gesunden, abwechslungsreichen Ernährung. Ihre Säure kann bei manchen Menschen Sodbrennen verstärken.",
+    "tips": [
+      "Wasch die Schale vor dem Aufschneiden.",
+      "Wenn du davon Sodbrennen bekommst, iss sie zu einer Mahlzeit statt allein."
+    ]
+  },
+  "grapes": {
+    "name": "Weintrauben",
+    "aliases": [
+      "Trauben",
+      "rote Trauben",
+      "grüne Trauben",
+      "Rosinen",
+      "Traubensaft",
+      "Resveratrol"
+    ],
+    "summary": "Ja, Weintrauben sind in der Schwangerschaft sicher – wasch sie einfach gut.",
+    "details": "Manche Mythen im Internet warnen vor Weintrauben, aber keine Gesundheitsbehörde führt sie als Lebensmittel, das gemieden werden sollte. Wie jedes Obst solltest du sie gründlich waschen, um Erde und Rückstände zu entfernen. Weintrauben und Rosinen enthalten viel natürlichen Zucker, also halte die Portionen vernünftig, wenn du Schwangerschaftsdiabetes hast.",
+    "tips": [
+      "Spül sie direkt vor dem Essen unter fließendem Wasser ab."
+    ]
+  },
+  "liquorice": {
+    "name": "Süßholzwurzel (Meyan Kökü)",
+    "aliases": [
+      "Lakritz",
+      "Lakritze",
+      "Süßholz",
+      "Süßholztee",
+      "Bärendreck",
+      "Meyan"
+    ],
+    "summary": "Meide Süßholzwurzel und Getränke wie Meyan Şerbeti; ein kleines Stück Lakritz ab und zu spielt dagegen wahrscheinlich keine Rolle.",
+    "details": "Süßholzwurzel enthält einen Stoff namens Glycyrrhizin, und der NHS rät, Kräutertees mit Süßholzwurzel zu meiden, weil sie der Entwicklung des Babys schaden könnten. Meyan Şerbeti, das im Südosten der Türkei beliebt ist, wird aus der Wurzel hergestellt. Viele Süßigkeiten mit Lakritzgeschmack enthalten nur kleine Mengen oder verwenden stattdessen Anis.",
+    "tips": [
+      "Prüfe bei Kräuterteemischungen auf dem Etikett, ob Süßholzwurzel enthalten ist.",
+      "Verzichte auch auf Nikotinprodukte mit Lakritzgeschmack."
+    ]
+  },
+  "honey": {
+    "name": "Honig",
+    "aliases": [
+      "Rohhonig",
+      "Manukahonig",
+      "Wabenhonig",
+      "Imkerhonig",
+      "naturbelassener Honig"
+    ],
+    "summary": "Ja, Honig – auch Rohhonig – ist in der Schwangerschaft für dich sicher, denn die Regel „kein Honig“ gilt für Babys unter 1 Jahr.",
+    "details": "Honig kann Bakteriensporen enthalten, die Säuglingsbotulismus verursachen, deshalb sollten Babys unter 12 Monaten keinen Honig bekommen. Der ausgereifte Darm eines Erwachsenen wird mit diesen Sporen fertig, und Honig steht nicht auf der NHS-Liste der Lebensmittel, die in der Schwangerschaft gemieden werden sollten. Er ist trotzdem Zucker, also halte die Mengen moderat, besonders wenn du Schwangerschaftsdiabetes hast.",
+    "tips": [
+      "Ein Löffel Honig mit Zitrone in warmem Wasser kann Halsschmerzen lindern."
+    ]
+  },
+  "peanuts": {
+    "name": "Erdnüsse & Nüsse",
+    "aliases": [
+      "Erdnüsse",
+      "Erdnussbutter",
+      "Mandeln",
+      "Walnüsse",
+      "Cashewkerne",
+      "Haselnüsse"
+    ],
+    "summary": "Ja, Erdnüsse und andere Nüsse sind sicher, außer du bist allergisch oder deine Ärztin bzw. dein Arzt hat dir etwas anderes gesagt.",
+    "details": "Laut NHS sind Erdnüsse und andere Nüsse in der Schwangerschaft sicher, außer du bist allergisch oder deine Ärztin, dein Arzt oder deine Hebamme hat dir etwas anderes geraten. Nüsse liefern Eiweiß, gesunde Fette und Ballaststoffe. Ungesalzene Sorten sind am besten zum alltäglichen Knabbern.",
+    "tips": [
+      "Eine kleine Handvoll ungesalzener Nüsse ist ein sättigender Snack."
+    ]
+  },
+  "chocolate": {
+    "name": "Schokolade",
+    "aliases": [
+      "Zartbitterschokolade",
+      "Milchschokolade",
+      "Kakao",
+      "heiße Schokolade",
+      "Brownies",
+      "Schoki"
+    ],
+    "summary": "Ja, in Maßen, aber sie enthält etwas Koffein, das zu deiner Tagesgrenze von 200 mg zählt.",
+    "details": "Der NHS schätzt unter 25 mg Koffein in einer 50-g-Tafel reiner Zartbitterschokolade und unter 10 mg in einer 50-g-Tafel Milchschokolade. Das ist wenig, summiert sich aber zusammen mit Kaffee, Tee und Cola. Schokolade enthält außerdem viel Zucker und Fett, also genieß sie als kleine Leckerei.",
+    "tips": [
+      "Wenn du auch Kaffee oder Tee trinkst, rechne Schokolade bei deiner Koffeinmenge mit ein."
+    ]
+  },
+  "spicy-food": {
+    "name": "Scharfes Essen",
+    "aliases": [
+      "Chili",
+      "Peperoni",
+      "scharfe Soße",
+      "Curry",
+      "Jalapeño",
+      "scharf essen"
+    ],
+    "summary": "Ja, scharfes Essen schadet deinem Baby nicht, kann aber Sodbrennen verstärken.",
+    "details": "Scharfes Essen steht auf keiner Liste der Lebensmittel, die in der Schwangerschaft gemieden werden sollten – es geht also um dein Wohlbefinden, nicht um Sicherheit. Üppiges, scharfes oder fettiges Essen kann Verdauungsbeschwerden und Sodbrennen auslösen, die in der Schwangerschaft häufig sind, und der NHS schlägt vor, weniger davon zu essen, wenn es dich stört. Kleinere, häufigere Mahlzeiten können ebenfalls helfen.",
+    "tips": [
+      "Wenn du nachts Sodbrennen bekommst, verzichte kurz vor dem Schlafengehen auf scharfe Mahlzeiten."
+    ]
+  },
+  "pickles": {
+    "name": "Eingelegtes (Turşu)",
+    "aliases": [
+      "Essiggurken",
+      "Gewürzgurken",
+      "Essiggurkerl",
+      "Sauerkraut",
+      "Kimchi",
+      "Tursu"
+    ],
+    "summary": "Ja, Eingelegtes ist sicher, aber achte auf das Salz, besonders wenn dein Blutdruck hoch ist.",
+    "details": "Eingelegtes und fermentiertes Gemüse ist in der Schwangerschaft in Ordnung, und Heißhunger auf saure Gurken ist sehr verbreitet. Eingelegtes und Turşu Suyu sind sehr salzig, und die meisten Erwachsenen essen ohnehin schon mehr Salz als empfohlen. Wenn du hohen Blutdruck oder Schwellungen hast, frag deine Hebamme oder deine Ärztin bzw. deinen Arzt, wie viel Salz für dich richtig ist.",
+    "tips": [
+      "Spül Eingelegtes ab oder wähle salzärmere Varianten.",
+      "Genieß Turşu zu den Mahlzeiten, statt viel von der Lake zu trinken."
+    ]
+  },
+  "kombucha": {
+    "name": "Kombucha",
+    "aliases": [
+      "fermentierter Tee",
+      "Teepilz",
+      "Teepilzgetränk",
+      "Scoby",
+      "Kombutscha"
+    ],
+    "summary": "Besser meiden, denn Kombucha ist oft nicht pasteurisiert, und in selbst gebrauten Ansätzen können sich schädliche Bakterien vermehren.",
+    "details": "Kombucha ist Tee, der mit Bakterien und Hefen fermentiert wird, deshalb enthält er von Natur aus etwas Koffein und kann ein wenig Alkohol enthalten. Die Mayo Clinic weist darauf hin, dass er schon Magenbeschwerden, Infektionen und allergische Reaktionen verursacht hat, und rät Schwangeren und Stillenden, ihn zu meiden. Es gibt keinen nachgewiesenen gesundheitlichen Nutzen, der diese Risiken aufwiegen würde.",
+    "tips": [
+      "Wenn du Lust auf etwas Prickelndes hast, probier Mineralwasser mit Zitrone oder einem Schuss Saft."
+    ]
+  },
+  "kefir": {
+    "name": "Kefir",
+    "aliases": [
+      "Milchkefir",
+      "Kefirgetränk",
+      "fermentierte Milch",
+      "probiotischer Drink"
+    ],
+    "summary": "Ja, gekaufter Kefir aus pasteurisierter Milch ist in Ordnung, aber meide selbst gemachten Kefir aus Rohmilch.",
+    "details": "Kefir ist ein fermentiertes Milchgetränk, und Varianten aus pasteurisierter Milch gelten als genauso sicher wie Joghurt. Das Risiko geht von Kefir aus nicht pasteurisierter Milch aus, der Listerien und andere Bakterien enthalten kann. Wenn du ihn selbst machst, nimm pasteurisierte oder abgekochte Milch und bewahre ihn gekühlt auf.",
+    "tips": [
+      "Prüfe, ob auf dem Etikett pasteurisierte Milch steht.",
+      "Naturkefir enthält weniger Zucker als Varianten mit Geschmack."
+    ]
+  },
+  "yogurt-ayran": {
+    "name": "Joghurt & Ayran",
+    "aliases": [
+      "Joghurt",
+      "Jogurt",
+      "griechischer Joghurt",
+      "Lassi",
+      "Tzatziki",
+      "Cacık"
+    ],
+    "summary": "Ja, Joghurt und Ayran aus pasteurisierter oder abgekochter Milch sind sicher und eine sehr gute Kalziumquelle.",
+    "details": "Der NHS stuft pasteurisierten Joghurt in der Schwangerschaft als sicher ein, und gekaufter Ayran wird daraus hergestellt. Selbst gemachter Joghurt ist ebenfalls in Ordnung, solange die Milch pasteurisiert oder vorher aufgekocht wurde. Nur Joghurt aus roher, nicht abgekochter Milch solltest du meiden.",
+    "tips": [
+      "Ayran ist salzig, also wähle salzärmere Varianten, wenn du Schwellungen oder hohen Blutdruck hast."
+    ]
+  },
+  "raw-milk": {
+    "name": "Rohmilch (nicht pasteurisiert)",
+    "aliases": [
+      "Rohmilch",
+      "Vorzugsmilch",
+      "Milch vom Bauernhof",
+      "Milchtankstelle",
+      "frische Kuhmilch",
+      "rohe Ziegenmilch"
+    ],
+    "summary": "Meide nicht pasteurisierte Milch oder bring sie sprudelnd zum Kochen, bevor du sie trinkst oder damit kochst.",
+    "details": "Rohmilch kann Listerien, Salmonellen, E. coli und Campylobacter enthalten, und die CDC zählt Schwangere zu den Menschen mit höherem Risiko für eine schwere Erkrankung. Der NHS rät, nicht pasteurisierte Milch, Sahne und Joghurt von Kuh, Schaf und Ziege zu meiden. Abkochen tötet diese Bakterien ab, deshalb ist abgekochte Milch vom Dorf eine sichere Alternative.",
+    "tips": [
+      "Bring Milch vom Dorf oder Bauernhof sprudelnd zum Kochen, bevor du sie verwendest.",
+      "Wähle beim Einkaufen pasteurisierte Milch oder H-Milch (UHT)."
+    ]
+  },
+  "ice-cream": {
+    "name": "Eiscreme",
+    "aliases": [
+      "Eis",
+      "Glace",
+      "Gelato",
+      "Frozen Yogurt",
+      "Sorbet",
+      "Dondurma"
+    ],
+    "summary": "Ja, pasteurisierte Eiscreme ist sicher, aber meide selbst gemachtes Eis mit rohem Ei oder Rohmilch.",
+    "details": "Der NHS stuft pasteurisierte Eiscreme in der Schwangerschaft als sicher ein, und industriell hergestelltes Eis wird mit pasteurisierter Milch gemacht. Manche Rezepte für selbst gemachtes Eis verwenden rohes Ei oder nicht pasteurisierte Milch, die Salmonellen oder Listerien enthalten können. Softeis aus der Maschine ist ein etwas anderer Fall und wird gesondert behandelt.",
+    "tips": [
+      "Bewahre es gefroren auf und friere geschmolzenes Eis nicht wieder ein."
+    ]
+  },
+  "soft-serve": {
+    "name": "Softeis",
+    "aliases": [
+      "Soft-Eis",
+      "Softice",
+      "Maschineneis",
+      "Eisbecher",
+      "McFlurry",
+      "Frozen Custard"
+    ],
+    "summary": "Aus gut besuchten, sauberen Läden meist in Ordnung, aber in schlecht gereinigten Maschinen können sich Listerien halten.",
+    "details": "Softeis wird aus einer pasteurisierten Mischung hergestellt, aber Listerien können in Maschinen überleben, die nicht richtig gereinigt werden, weil sie sich auch bei Kälte vermehren können. Das Risiko ist gering, aber eine Listerien-Infektion kann in der Schwangerschaft ernst sein. Abgepacktes Eis ist die risikoärmere Wahl.",
+    "tips": [
+      "Wähle Läden mit hohem Umsatz und sichtbar sauberen Maschinen."
+    ]
+  },
+  "parsley": {
+    "name": "Petersilie & Kräuter in großen Mengen",
+    "aliases": [
+      "Petersilie",
+      "Petersil",
+      "Petersiliensaft",
+      "Kräuter",
+      "Taboulé",
+      "Koriander"
+    ],
+    "summary": "Kräuter in normalen Kochmengen sind in Ordnung, aber meide Petersiliensäfte, „Kuren“ und starke Kräutertees in großen Mengen.",
+    "details": "Petersilie, Dill, Minze, Salbei oder Koriander in Gerichten wie Kısır oder Taboulé zu verwenden, ist völlig unbedenklich. Konzentrierte Formen sind etwas anderes: Säfte, Tees, Öle und Extrakte liefern weit größere Mengen, und MotherToBaby weist darauf hin, dass für manche pflanzlichen Produkte gezeigt wurde, dass sie Gebärmutterkontraktionen auslösen. Hausmittel wie Petersilien-„Kuren“ hebst du dir besser für die Zeit nach der Schwangerschaft auf.",
+    "tips": [
+      "Genieß Kräuter als Lebensmittel, nicht als Heilmittel oder Detox-Kur."
+    ]
+  },
+  "cinnamon": {
+    "name": "Zimt",
+    "aliases": [
+      "Cassia-Zimt",
+      "Ceylon-Zimt",
+      "Zimttee",
+      "Zimtkapseln",
+      "Zimtwasser"
+    ],
+    "summary": "Ja, in normalen Mengen im Essen, aber meide Zimtpräparate, Zimtöle und große tägliche „Heilmittel“-Dosen.",
+    "details": "Zimt auf Sütlaç oder Porridge oder beim Backen ist in der Schwangerschaft in Ordnung. Nahrungsergänzungsmittel, konzentrierte Öle und tägliche „Zimtwasser“-Hausmittel liefern viel größere Mengen, und pflanzliche Produkte in medizinischen Dosen sind in der Schwangerschaft nicht gut untersucht. Sprich mit deiner Ärztin oder deinem Arzt, bevor du Zimt einsetzt, um deinen Blutzucker zu regulieren.",
+    "tips": [
+      "Wenn du Schwangerschaftsdiabetes hast, halte dich an den Plan deines Behandlungsteams, nicht an Hausmittel aus dem Internet."
+    ]
+  },
+  "garlic": {
+    "name": "Knoblauch",
+    "aliases": [
+      "roher Knoblauch",
+      "Knoblauchkapseln",
+      "Knoblauchpillen",
+      "schwarzer Knoblauch",
+      "Knofi"
+    ],
+    "summary": "Ja, Knoblauch beim Kochen – sogar roh im Cacık – ist in Ordnung, aber frag nach, bevor du Knoblauchpräparate nimmst.",
+    "details": "Knoblauch als Lebensmittel ist in der Schwangerschaft sicher und bringt viel Geschmack. Konzentrierte Knoblauchpräparate sind etwas anderes: Pflanzliche Produkte in medizinischen Dosen sind in der Schwangerschaft nicht gut untersucht, und manche können mit Medikamenten wechselwirken. Erzähl deiner Ärztin, deinem Arzt oder in der Apotheke von allen Nahrungsergänzungsmitteln, die du nimmst.",
+    "tips": [
+      "Lass tägliche Kuren mit rohem Knoblauch weg und verwende Knoblauch einfach als Zutat."
+    ]
+  },
+  "ginger": {
+    "name": "Ingwer",
+    "aliases": [
+      "Ingwertee",
+      "Ingwerkekse",
+      "Ginger Ale",
+      "frischer Ingwer",
+      "kandierter Ingwer",
+      "Ingwershot"
+    ],
+    "summary": "Ja, Ingwer in Speisen und Getränken ist sicher und könnte gegen Schwangerschaftsübelkeit helfen.",
+    "details": "Laut NHS gibt es einige Hinweise darauf, dass Speisen oder Getränke mit Ingwer Übelkeit und Erbrechen in der Schwangerschaft verringern können. Ingwertee, Ingwerkekse oder frischer Ingwer beim Kochen sind alle in Ordnung. Ingwerpräparate sind stärker, deshalb rät der NHS, vor der Einnahme in der Apotheke nachzufragen.",
+    "tips": [
+      "Wenn dir übel ist, trink Ingwertee langsam in kleinen Schlucken oder knabbere einen Ingwerkeks."
+    ]
+  },
+  "fenugreek": {
+    "name": "Bockshornklee (Çemen)",
+    "aliases": [
+      "Bockshornklee",
+      "Methi",
+      "Cemen",
+      "Bockshornkleetee",
+      "Bockshornkleesamen",
+      "Bockshornkleekapseln"
+    ],
+    "summary": "In normalen Kochmengen in Ordnung, aber meide Bockshornkleetees, -kapseln und große medizinische Dosen.",
+    "details": "Bockshornklee wird als Gewürz verwendet, auch in der Çemen-Paste auf Pastırma, und kleine Kochmengen sind kein Problem. In medizinischen Mengen ist seine Sicherheit in der Schwangerschaft nicht belegt, und MotherToBaby weist darauf hin, dass manche pflanzlichen Produkte Gebärmutterkontraktionen auslösen können. Er wird oft zur Steigerung der Muttermilch verkauft – das ist etwas für die Zeit nach der Geburt, nicht für die Schwangerschaft.",
+    "tips": [
+      "Lass Bockshornklee bis nach der Geburt im Gewürzregal statt im Schrank mit den Nahrungsergänzungsmitteln."
+    ]
+  },
+  "coffee": {
+    "name": "Kaffee",
+    "aliases": [
+      "Filterkaffee",
+      "Instantkaffee",
+      "Latte macchiato",
+      "Cappuccino",
+      "Melange",
+      "Koffein"
+    ],
+    "summary": "Ja, aber halte deine gesamte Koffeinmenge unter 200 mg pro Tag – das sind etwa 2 Becher Instantkaffee.",
+    "details": "Sowohl der NHS als auch die US-Fachgesellschaft ACOG raten, unter 200 mg Koffein pro Tag zu bleiben, weil zu viel Koffein mit einem höheren Risiko für eine Fehlgeburt in Verbindung gebracht wurde. Der NHS schätzt etwa 100 mg in einem Becher Instantkaffee, während Filterkaffee und Kaffee aus dem Café mehr enthalten können. Koffein aus Tee, Cola, Energydrinks und Schokolade zählt ebenfalls mit.",
+    "tips": [
+      "Bestell im Café einen einfachen Shot oder eine kleinere Größe.",
+      "Steig bei manchen Tassen auf entkoffeinierten Kaffee um, damit du deutlich unter der Grenze bleibst."
+    ]
+  },
+  "turkish-coffee": {
+    "name": "Türkischer Kaffee",
+    "aliases": [
+      "Mokka",
+      "türkischer Mokka",
+      "griechischer Kaffee",
+      "arabischer Kaffee",
+      "Cezve",
+      "Menengiç"
+    ],
+    "summary": "Ja, eine Tasse ist in Ordnung, aber sie zählt zusammen mit Tee und anderen Getränken zu deiner Tagesgrenze von 200 mg Koffein.",
+    "details": "Türkischer Kaffee wird in einer kleinen Tasse serviert, ist aber stark, und der Koffeingehalt hängt davon ab, wie viel Kaffee verwendet und wie er zubereitet wird. Die Tagesgrenze von 200 mg Koffein von NHS und ACOG gilt für alle Quellen, sodass ein paar Tassen plus mehrere Gläser Çay schnell zusammenkommen. Menengiç wird aus Terebinthe statt aus Kaffeebohnen hergestellt und ist von Natur aus koffeinfrei, manche Mischungen enthalten aber zusätzlich Kaffee.",
+    "tips": [
+      "Bleib bei ein oder zwei Tassen und zähl deinen Çay mit.",
+      "Menengiç oder entkoffeinierter türkischer Kaffee ist eine gute Alternative."
+    ]
+  },
+  "espresso": {
+    "name": "Espresso",
+    "aliases": [
+      "doppelter Espresso",
+      "Ristretto",
+      "Macchiato",
+      "Cortado",
+      "Doppio",
+      "Espresso Shot"
+    ],
+    "summary": "Ja, aber zähl jeden Shot, denn doppelte Shots und große Café-Getränke schöpfen deine 200-mg-Grenze schnell aus.",
+    "details": "Espresso ist konzentriert, und viele Café-Getränke enthalten zwei oder mehr Shots. Der NHS und ACOG raten beide, in der Schwangerschaft insgesamt unter 200 mg Koffein pro Tag zu bleiben. Die FDA weist darauf hin, dass der Koffeingehalt von Getränk zu Getränk stark schwankt, daher lohnt es sich, die Angaben des Cafés zu prüfen.",
+    "tips": [
+      "Bestell einfache Shots oder frag nach halb entkoffeiniert.",
+      "Viele Ketten veröffentlichen den Koffeingehalt pro Getränk – schau vor dem Bestellen nach."
+    ]
+  },
+  "decaf": {
+    "name": "Entkoffeinierter Kaffee & Tee",
+    "aliases": [
+      "entkoffeiniert",
+      "koffeinfreier Kaffee",
+      "Decaf",
+      "koffeinfrei",
+      "entkoffeinierter Tee",
+      "Kaffee HAG"
+    ],
+    "summary": "Ja, Entkoffeiniertes enthält nur wenig Koffein und ist eine gute Möglichkeit, in der Schwangerschaft Kaffee oder Tee zu genießen.",
+    "details": "Entkoffeinierter Kaffee und Tee enthalten noch etwas Koffein, aber weit weniger als normale Varianten, sodass unter der Tagesgrenze von 200 mg reichlich Spielraum bleibt. MotherToBaby weist darauf hin, dass Koffein in vielen Lebensmitteln und Getränken steckt, daher ist es eine einfache Möglichkeit zu reduzieren, einige Tassen durch entkoffeinierte zu ersetzen.",
+    "tips": [
+      "Probier Halb-halb-Mischungen, wenn du schrittweise reduzierst."
+    ]
+  },
+  "cay": {
+    "name": "Schwarztee (Çay)",
+    "aliases": [
+      "Tee",
+      "Schwarztee",
+      "türkischer Tee",
+      "Cay",
+      "Earl Grey",
+      "Eistee"
+    ],
+    "summary": "Ja, aber starker (demli) Tee bringt schnell viel Koffein, also zähl deine Gläser und trink ihn zwischen den Mahlzeiten.",
+    "details": "Der NHS schätzt etwa 75 mg Koffein in einem Becher Tee, und das zählt zur Tagesgrenze von 200 mg. Ein Tulpenglas türkischer Tee ist kleiner als ein Becher, aber mehrere starke Gläser am Tag können sich summieren. Tee zu den Mahlzeiten kann außerdem verringern, wie viel Eisen du aufnimmst – und das ist wichtig, weil der Eisenbedarf in der Schwangerschaft steigt.",
+    "tips": [
+      "Wähle açık (schwächeren) Tee und trink abwechselnd Wasser oder Kräutergetränke.",
+      "Trink Tee zwischen den Mahlzeiten statt dazu, damit dein Körper Eisen besser aufnehmen kann."
+    ]
+  },
+  "green-tea": {
+    "name": "Grüner Tee",
+    "aliases": [
+      "Grüntee",
+      "Sencha",
+      "Jasmintee",
+      "Grüntee-Extrakt",
+      "Gruener Tee",
+      "Gyokuro"
+    ],
+    "summary": "Ja, in Maßen, aber grüner Tee enthält Koffein, das zu deiner 200-mg-Grenze zählt.",
+    "details": "Grüner Tee ist nicht koffeinfrei: Der NHS schätzt etwa 75 mg in einer Tasse schwarzem oder grünem Tee. Ein paar Tassen am Tag können in die 200-mg-Grenze passen, wenn du deine anderen Getränke mitzählst. Konzentrierte Grüntee-Extrakte und Nahrungsergänzungsmittel sind etwas anderes, und ihre Sicherheit in der Schwangerschaft ist nicht belegt.",
+    "tips": [
+      "Lass Grüntee-Extrakt-Kapseln und Abnehm-Teemischungen weg."
+    ]
+  },
+  "matcha": {
+    "name": "Matcha",
+    "aliases": [
+      "Matcha Latte",
+      "Matcha Tee",
+      "Grünteepulver",
+      "Iced Matcha"
+    ],
+    "summary": "Ja, in Maßen, aber Matcha ist meist stärker als normaler grüner Tee, also rechne ihn zu deinen 200 mg pro Tag.",
+    "details": "Matcha wird aus ganzen, gemahlenen Teeblättern hergestellt, deshalb enthält eine Portion meist mehr Koffein als eine Tasse aufgebrühter grüner Tee. Die Menge hängt davon ab, wie viele Löffel verwendet werden. Die FDA weist darauf hin, dass der Koffeingehalt von Getränk zu Getränk stark schwankt, also behandle einen Matcha Latte eher wie einen Kaffee als wie eine Tasse Tee.",
+    "tips": [
+      "Bestell ihn mit nur einem Löffel Pulver und zähl ihn wie einen Kaffee."
+    ]
+  },
+  "chamomile": {
+    "name": "Kamillentee",
+    "aliases": [
+      "Kamille",
+      "Kräutertee",
+      "Gute-Nacht-Tee",
+      "Schlaftee"
+    ],
+    "summary": "Ja, in Maßen; der NHS empfiehlt nicht mehr als 4 Tassen Kräutertee pro Tag.",
+    "details": "Zu Kräutertees in der Schwangerschaft gibt es nicht viel Forschung, deshalb rät der NHS, sie auf etwa 4 Tassen pro Tag zu begrenzen. Kamille ist von Natur aus koffeinfrei und deshalb ein beliebtes Abendgetränk. Meide Mischungen mit Süßholzwurzel und prüfe gemischte Tees auf andere Kräuter.",
+    "tips": [
+      "Nimm reine Kamillenteebeutel statt gemischter „Wellness“-Tees."
+    ]
+  },
+  "peppermint-tea": {
+    "name": "Pfefferminztee",
+    "aliases": [
+      "Pfefferminze",
+      "Minztee",
+      "frische Minze",
+      "marokkanischer Minztee",
+      "Nane Limon"
+    ],
+    "summary": "Ja, in Maßen, im Rahmen der NHS-Empfehlung von höchstens 4 Tassen Kräutertee pro Tag.",
+    "details": "Pfefferminztee ist koffeinfrei und in der Schwangerschaft beliebt, aber weil es zu Kräutertees wenig Forschung gibt, rät der NHS zu nicht mehr als 4 Tassen pro Tag. Manche empfinden ihn bei Übelkeit als wohltuend. Selbst gemachter Nane-Limon mit frischer Minze und Zitrone ist innerhalb derselben Grenze in Ordnung.",
+    "tips": [
+      "Frische Minzblätter in heißem Wasser ergeben einen einfachen, milden Tee."
+    ]
+  },
+  "raspberry-leaf-tea": {
+    "name": "Himbeerblättertee",
+    "aliases": [
+      "Himbeerblätter",
+      "Geburtsvorbereitungstee",
+      "Himbeerblätterkapseln",
+      "Himbeerblaettertee"
+    ],
+    "summary": "Nur für die späte Schwangerschaft und nur, wenn deine Hebamme oder deine Ärztin bzw. dein Arzt zustimmt; nimm ihn nicht früher.",
+    "details": "Himbeerblättertee wird traditionell in der späten Schwangerschaft getrunken, in der Hoffnung, die Gebärmutter auf die Geburt vorzubereiten, aber es gibt kaum gute Belege, dass er wirkt. MotherToBaby weist darauf hin, dass manche pflanzlichen Produkte Gebärmutterkontraktionen auslösen können und die meisten pflanzlichen Produkte in der Schwangerschaft nicht gut untersucht sind. Deshalb bleibt er am besten der späten Schwangerschaft vorbehalten und wird vorher mit deiner Hebamme besprochen.",
+    "tips": [
+      "Frag deine Hebamme, bevor du anfängst, besonders wenn du schon einmal einen Kaiserschnitt oder vorzeitige Wehen hattest."
+    ]
+  },
+  "sage-tea": {
+    "name": "Salbeitee (Adaçayı)",
+    "aliases": [
+      "Salbei",
+      "Adacayi",
+      "Adaçayı",
+      "griechischer Bergtee",
+      "Salbeibonbons"
+    ],
+    "summary": "Als regelmäßiger Tee in der Schwangerschaft besser meiden; ein wenig Salbei beim Kochen ist aber in Ordnung.",
+    "details": "Salbei enthält Thujon, einen Stoff, der in großen Mengen schädlich sein kann, und die Sicherheit von Salbeitee in der Schwangerschaft ist nicht belegt. Adaçayı wird in der Türkei oft glasweise getrunken, besonders bei Halsschmerzen, sodass sich die Mengen summieren können. Eine Prise Salbei beim Kochen ist eine andere, viel kleinere Menge.",
+    "tips": [
+      "Probier bei Halsschmerzen stattdessen warmes Wasser mit Honig und Zitrone.",
+      "Prüfe Kräutermischungen und Lutschpastillen auf Salbei."
+    ]
+  },
+  "linden-tea": {
+    "name": "Lindenblütentee (Ihlamur)",
+    "aliases": [
+      "Lindenblüten",
+      "Lindentee",
+      "Ihlamur",
+      "Ihlamur Çayı",
+      "Tilia"
+    ],
+    "summary": "In Maßen wahrscheinlich in Ordnung, als eine deiner bis zu 4 Tassen Kräutertee pro Tag, auch wenn er wenig untersucht ist.",
+    "details": "Ihlamur ist in der Türkei ein sehr beliebtes Wintergetränk, und es gibt keine konkreten Hinweise darauf, dass er in normalen Mengen schädlich ist. Wie die meisten Kräutertees ist er in der Schwangerschaft jedoch nicht gut untersucht, deshalb gilt die NHS-Empfehlung, Kräutertees auf etwa 4 Tassen pro Tag zu begrenzen. Starke, konzentrierte Aufgüsse als Heilmittel meidest du besser.",
+    "tips": [
+      "Brüh ihn leicht auf und bleib bei ein oder zwei Tassen statt einer ganzen Kanne."
+    ]
+  },
+  "fennel-tea": {
+    "name": "Fencheltee (Rezene)",
+    "aliases": [
+      "Fenchel",
+      "Fenchelsamen",
+      "Rezene",
+      "Anistee",
+      "Fenchel-Anis-Kümmel-Tee"
+    ],
+    "summary": "Ab und zu eine Tasse spielt wahrscheinlich keine Rolle, aber lass täglichen oder starken Fencheltee und Fenchelpräparate weg.",
+    "details": "Fenchel und Anis enthalten natürliche Pflanzenstoffe, deren Sicherheit in der Schwangerschaft in medizinischen Mengen nicht geklärt ist. Wie bei anderen Kräutertees empfiehlt der NHS, Kräutertee auf etwa 4 Tassen pro Tag zu begrenzen. Fenchel als Gewürz beim Kochen ist in Ordnung.",
+    "tips": [
+      "Probier bei Blähungen zuerst sanfte Spaziergänge und kleinere Mahlzeiten."
+    ]
+  },
+  "energy-drinks": {
+    "name": "Energydrinks",
+    "aliases": [
+      "Red Bull",
+      "Monster",
+      "Energy Drink",
+      "Guarana",
+      "Taurin",
+      "Pre-Workout"
+    ],
+    "summary": "Besser meiden, denn sie enthalten viel Koffein, oft zusammen mit anderen anregenden Stoffen und reichlich Zucker.",
+    "details": "Der NHS schätzt etwa 80 mg Koffein in einer 250-ml-Dose, größere Dosen enthalten mehr, und alles zählt zur Tagesgrenze von 200 mg. Viele enthalten außerdem Guarana, das zusätzliches Koffein liefert, sowie weitere Zutaten, deren Sicherheit in der Schwangerschaft nicht untersucht ist. Wenn du doch einen trinkst, rechne ihn zu deiner Koffeinmenge.",
+    "tips": [
+      "Bei einem Energietief probier stattdessen einen Snack, Wasser und einen kurzen Spaziergang."
+    ]
+  },
+  "cola": {
+    "name": "Cola",
+    "aliases": [
+      "Coca-Cola",
+      "Pepsi",
+      "Cola light",
+      "Cola Zero",
+      "Spezi",
+      "Softdrinks"
+    ],
+    "summary": "Ja, ab und zu: Eine Dose enthält etwa 40 mg Koffein, also rechne sie zu deiner 200-mg-Grenze.",
+    "details": "Der NHS schätzt etwa 40 mg Koffein in einer Dose Cola, und auch Light-Varianten enthalten Koffein. Normale Cola enthält außerdem viel Zucker, was wichtig ist, wenn du auf deine Gewichtszunahme achtest oder Schwangerschaftsdiabetes hast. Kohlensäurehaltige Getränke können bei manchen Menschen Sodbrennen verstärken.",
+    "tips": [
+      "Probier Sprudelwasser mit Obst – prickelnd, aber ohne Koffein."
+    ]
+  },
+  "alcohol": {
+    "name": "Alkohol",
+    "aliases": [
+      "Wein",
+      "Bier",
+      "Sekt",
+      "Prosecco",
+      "Schnaps",
+      "Rakı"
+    ],
+    "summary": "Meide ihn: Es ist keine sichere Alkoholmenge bekannt – in keiner Phase der Schwangerschaft.",
+    "details": "Alkohol gelangt über die Plazenta zum Baby, dessen Leber ihn nicht gut abbauen kann. Alkohol in der Schwangerschaft kann langfristige Schäden verursachen, darunter Fetale Alkoholspektrumstörungen (FASD), und laut CDC gibt es keine bekannte sichere Menge und keinen sicheren Zeitpunkt für Alkohol. Wenn du getrunken hast, bevor du wusstest, dass du schwanger bist, ist das Risiko eines Schadens wahrscheinlich gering – sprich mit deiner Hebamme oder deiner Ärztin bzw. deinem Arzt, wenn du dir Sorgen machst.",
+    "tips": [
+      "Alkoholfreie Getränke (0,0 %) und Mocktails sind gute Alternativen.",
+      "Wenn es dir schwerfällt aufzuhören, bitte deine Hebamme oder deine Ärztin bzw. deinen Arzt um Unterstützung."
+    ]
+  },
+  "non-alcoholic-beer": {
+    "name": "Alkoholfreies Bier",
+    "aliases": [
+      "alkoholfreies Weizen",
+      "0,0 Bier",
+      "Malzbier",
+      "Radler alkoholfrei",
+      "alkoholfreier Wein",
+      "Bier ohne Alkohol"
+    ],
+    "summary": "Wähle Getränke mit der Angabe 0,0 %, denn „alkoholfreie“ Getränke können trotzdem bis zu 0,5 % Alkohol enthalten.",
+    "details": "Gesundheitsbehörden raten, in der Schwangerschaft komplett auf Alkohol zu verzichten, weil keine sichere Menge bekannt ist. Getränke mit der Bezeichnung „alkoholfrei“ oder „ohne Alkohol“ können je nach Land kleine Mengen Alkohol enthalten, während 0,0-%-Varianten praktisch keinen enthalten. Ein gelegentliches alkoholarmes Getränk richtet sehr wahrscheinlich keinen Schaden an, aber mit 0,0 % musst du nicht rätseln.",
+    "tips": [
+      "Achte auf dem Etikett auf „0,0 %“ statt auf „alkoholfrei“ oder „alkoholarm“."
+    ]
+  },
+  "mineral-water": {
+    "name": "Mineral- & Sprudelwasser",
+    "aliases": [
+      "Sprudelwasser",
+      "Sprudel",
+      "Selters",
+      "Sodawasser",
+      "Mineral",
+      "Wasser mit Kohlensäure"
+    ],
+    "summary": "Ja, Mineral- und Sprudelwasser sind in Ordnung; manche Marken enthalten aber viel Natrium, also wechsle mit normalem Wasser ab.",
+    "details": "Ausreichend zu trinken ist in der Schwangerschaft noch wichtiger, und Wasser – auch Sprudel- und Mineralwasser – ist eine sehr gute Wahl. Manche natürlichen Mineralwässer enthalten recht viel Natrium, was du beachten solltest, wenn du hohen Blutdruck oder Schwellungen hast. Kohlensäurehaltige Getränke können bei manchen Menschen Blähungen oder Sodbrennen verstärken.",
+    "tips": [
+      "Prüfe den Natriumgehalt auf dem Etikett und wechsle die Marken ab."
+    ]
+  },
+  "salep": {
+    "name": "Salep",
+    "aliases": [
+      "Sahlep",
+      "Sahlab",
+      "Salep Getränk",
+      "heißes Milchgetränk"
+    ],
+    "summary": "Ja, Salep ist ein heißes Milchgetränk und in der Schwangerschaft in Ordnung; achte nur auf den Zucker.",
+    "details": "Salep wird hergestellt, indem Milch mit Salep-Pulver und Zucker erhitzt wird, die Milch ist also gut erhitzt, und es gibt keine Bedenken wie bei Rohmilch. Er ist koffeinfrei und liefert etwas Kalzium. Instantmischungen und Varianten aus dem Café sind oft sehr süß, was wichtig ist, wenn du Schwangerschaftsdiabetes hast.",
+    "tips": [
+      "Mach ihn zu Hause mit weniger Zucker und einer Prise Zimt."
+    ]
+  },
+  "boza": {
+    "name": "Boza",
+    "aliases": [
+      "Bosa",
+      "Hirsegetränk",
+      "fermentiertes Hirsegetränk",
+      "Boza Getränk"
+    ],
+    "summary": "Ein kleines Glas ab und zu von einem vertrauenswürdigen Hersteller spielt wahrscheinlich keine Rolle, aber Boza kann etwas Alkohol enthalten.",
+    "details": "Boza ist ein fermentiertes Getreidegetränk, und bei der Fermentation können kleine Mengen Alkohol entstehen, die von Charge zu Charge schwanken. Da keine sichere Alkoholmenge in der Schwangerschaft bekannt ist, bleibt sie am besten eine Ausnahme. Boza enthält außerdem viel Zucker und viele Kalorien.",
+    "tips": [
+      "Wähle frische Boza von einem bekannten Hersteller und bleib bei einem kleinen Glas."
+    ]
+  },
+  "fresh-juice": {
+    "name": "Frischer, nicht pasteurisierter Saft",
+    "aliases": [
+      "frisch gepresster Saft",
+      "frischer Orangensaft",
+      "kaltgepresster Saft",
+      "Smoothie",
+      "Saftbar",
+      "Saft vom Straßenstand"
+    ],
+    "summary": "In Ordnung, wenn du ihn zu Hause aus gewaschenem Obst machst und sofort trinkst; sei vorsichtig mit nicht pasteurisiertem Saft von Ständen.",
+    "details": "Saft, der nicht pasteurisiert oder anderweitig behandelt wurde, kann Bakterien wie E. coli und Salmonellen von der Oberfläche der Früchte enthalten. Die FDA rät Schwangeren, pasteurisierte oder behandelte Säfte zu wählen. Saft, den du selbst aus gut gewaschenem Obst presst und sofort trinkst, ist weniger riskant.",
+    "tips": [
+      "Wasch Obst vor dem Pressen gut, auch Orangen.",
+      "Gekaufte Säfte sind meist pasteurisiert; prüfe das Etikett."
+    ]
+  },
+  "coconut-water": {
+    "name": "Kokoswasser",
+    "aliases": [
+      "Kokosnusswasser",
+      "frische Kokosnuss",
+      "Kokosgetränk"
+    ],
+    "summary": "Ja, abgepacktes Kokoswasser ist in Ordnung und eine erfrischende Möglichkeit, genug zu trinken.",
+    "details": "Kokoswasser ist von Natur aus kalorienarm und enthält etwas Kalium. Abgepackte Varianten sind meist pasteurisiert; frisch geöffnete Kokosnüsse sind ebenfalls in Ordnung, wenn sie sauber aufgeschnitten und sofort getrunken werden. Normales Wasser bleibt das beste Alltagsgetränk, und aromatisierte Varianten können zugesetzten Zucker enthalten.",
+    "tips": [
+      "Wähle ungesüßte Varianten und bewahre geöffnete Packungen im Kühlschrank auf."
+    ]
+  },
+  "paracetamol": {
+    "name": "Paracetamol (Acetaminophen)",
+    "aliases": [
+      "ben-u-ron",
+      "Mexalen",
+      "Dafalgan",
+      "Panadol",
+      "Acetaminophen",
+      "Fiebersenker"
+    ],
+    "summary": "Es ist bei Schmerzen oder Fieber in der Schwangerschaft meist das Mittel der ersten Wahl: Nimm die niedrigste wirksame Dosis für die kürzeste Zeit.",
+    "details": "Paracetamol ist das am besten untersuchte Schmerzmittel in der Schwangerschaft, und der NHS und die US-Fachgesellschaft ACOG sehen es als erste Wahl bei Schmerzen oder Fieber, wenn eine Behandlung nötig ist. Öffentliche Empfehlungen in einigen Ländern wurden 2025 überprüft, und große medizinische Fachgremien, darunter ACOG und die britische Arzneimittelbehörde, halten es bei Bedarf weiterhin für angemessen. Hohes Fieber in der Schwangerschaft sollte behandelt werden, also frag deine Ärztin oder deinen Arzt, wenn du Paracetamol länger als ein paar Tage brauchst.",
+    "tips": [
+      "Nimm die niedrigste wirksame Dosis für die kürzestmögliche Zeit.",
+      "Prüfe Kombipräparate gegen Erkältung, damit du nicht doppelt Paracetamol nimmst.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "ibuprofen": {
+    "name": "Ibuprofen",
+    "aliases": [
+      "Nurofen",
+      "Dolormin",
+      "IBU",
+      "Algifor",
+      "Brufen",
+      "NSAR"
+    ],
+    "summary": "Meide es, außer eine Ärztin oder ein Arzt rät dazu – besonders ab der 20. Woche, wenn es das Baby und das Fruchtwasser um das Baby herum beeinträchtigen kann.",
+    "details": "Ibuprofen ist ein NSAR (nichtsteroidales Antirheumatikum). Die FDA warnt, dass NSAR ab etwa der 20. Woche seltene, aber ernste Nierenprobleme beim Baby verursachen können, die zu wenig Fruchtwasser führen, und später in der Schwangerschaft können sie Herz und Blutgefäße des Babys beeinträchtigen. In Großbritannien wird empfohlen, Ibuprofen in der Schwangerschaft zu meiden, außer eine Ärztin oder ein Arzt empfiehlt es; wenn du es vor der 20. Woche genommen hast, hat das aber wahrscheinlich keinen Schaden verursacht.",
+    "tips": [
+      "Paracetamol ist bei Schmerzen oder Fieber meist die sicherere Wahl.",
+      "Prüfe Mittel gegen Erkältung und Grippe, die Ibuprofen enthalten können.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "naproxen": {
+    "name": "Naproxen",
+    "aliases": [
+      "Aleve",
+      "Dolormin für Frauen",
+      "Proxen",
+      "Naproxen-Natrium",
+      "Tabletten gegen Regelschmerzen",
+      "NSAR"
+    ],
+    "summary": "Meide es, außer deine Ärztin oder dein Arzt empfiehlt es ausdrücklich, denn es ist wie Ibuprofen ein NSAR.",
+    "details": "Naproxen gehört zur selben Wirkstofffamilie wie Ibuprofen und bringt dieselben Bedenken mit sich: Die FDA rät, NSAR ab der 20. Woche zu meiden, weil sie die Fruchtwassermenge verringern können, und später in der Schwangerschaft können sie den Kreislauf des Babys beeinträchtigen. Der NHS rät, Naproxen in der Schwangerschaft zu meiden, außer eine Ärztin, ein Arzt oder die Apotheke rät dazu. Es wird oft gegen Regelschmerzen verkauft, also frag nach, bevor du zu alten Vorräten greifst.",
+    "tips": [
+      "Paracetamol ist bei Schmerzen in der Schwangerschaft meist die erste Wahl.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "nsaids-other": {
+    "name": "Diclofenac & andere NSAR",
+    "aliases": [
+      "Diclofenac",
+      "Voltaren",
+      "Dobendan Direkt",
+      "Ketoprofen",
+      "Meloxicam",
+      "Schmerzgel"
+    ],
+    "summary": "Meide sie, außer eine Ärztin oder ein Arzt verschreibt sie, und prüfe Schmerzmittel auf Diclofenac, Flurbiprofen oder Ketoprofen.",
+    "details": "Diclofenac, Flurbiprofen, Dexketoprofen, Ketoprofen und Meloxicam sind alle NSAR, deshalb gilt die FDA-Empfehlung, NSAR ab der 20. Woche zu meiden, auch für sie. Laut NHS wird Diclofenac in der Schwangerschaft normalerweise nicht empfohlen, weil es den Kreislauf des Babys beeinträchtigen und das Fruchtwasser verringern kann. Gele werden weniger stark aufgenommen, trotzdem fragst du am besten vor der Anwendung nach, besonders später in der Schwangerschaft oder auf großen Hautflächen.",
+    "tips": [
+      "Prüfe den Wirkstoff bei Schmerzmitteln, Gelen und Tabletten gegen Regelschmerzen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "aspirin": {
+    "name": "Aspirin gegen Schmerzen",
+    "aliases": [
+      "Aspirin",
+      "ASS",
+      "Acetylsalicylsäure",
+      "Thomapyrin",
+      "Aspirin plus C",
+      "Aspirin hochdosiert"
+    ],
+    "summary": "Meide Aspirin in Dosen zur Schmerzlinderung, außer deine Ärztin oder dein Arzt rät dazu; niedrig dosiertes Aspirin, das in der Schwangerschaft verschrieben wird, ist etwas anderes.",
+    "details": "In den Dosen, die gegen Schmerzen oder Fieber eingesetzt werden, wirkt Aspirin als NSAR, und die FDA rät, NSAR ab der 20. Schwangerschaftswoche zu meiden. Die Mayo Clinic weist darauf hin, dass höhere Dosen früh in der Schwangerschaft das Risiko einer Fehlgeburt erhöhen können und, über lange Zeit eingenommen, das Blutungsrisiko für Frühgeborene. Niedrig dosiertes Aspirin, das Ärztinnen und Ärzte manchmal verschreiben, um das Risiko einer Präeklampsie zu senken, ist ein eigener Fall.",
+    "tips": [
+      "Bei Schmerzen oder Fieber ist Paracetamol meist die erste Wahl.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "low-dose-aspirin": {
+    "name": "Niedrig dosiertes Aspirin",
+    "aliases": [
+      "ASS 100",
+      "ASS 150",
+      "Aspirin protect",
+      "Herz-ASS",
+      "Thrombo ASS",
+      "Aspirin gegen Präeklampsie"
+    ],
+    "summary": "Nur wenn deine Ärztin, dein Arzt oder deine Hebamme es empfiehlt – und wenn ja, nimm es weiter genau so, wie es dir geraten wurde.",
+    "details": "Niedrig dosiertes Aspirin wird in der Schwangerschaft häufig Schwangeren mit erhöhtem Präeklampsie-Risiko verschrieben, manchmal auch bei anderen Erkrankungen. Die Mayo Clinic weist darauf hin, dass niedrig dosiertes Aspirin in der Schwangerschaft als sicher gilt, wenn es empfohlen wurde. Es ist etwas anderes als Aspirin gegen Schmerzen, also fang nicht auf eigene Faust damit an und setz es nicht ab, ohne mit deinem Behandlungsteam zu sprechen.",
+    "tips": [
+      "Setz ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "antihistamines": {
+    "name": "Antihistaminika",
+    "aliases": [
+      "Loratadin",
+      "Cetirizin",
+      "Lorano",
+      "Zyrtec",
+      "Heuschnupfentabletten",
+      "Allergietabletten"
+    ],
+    "summary": "Manche, wie Loratadin und Cetirizin, werden in der Schwangerschaft häufig eingesetzt, aber frag vorher in der Apotheke nach.",
+    "details": "Laut NHS wird in der Schwangerschaft meist Loratadin empfohlen, wenn du ein Antihistaminikum brauchst, und auch Cetirizin kann eingenommen werden. Ältere, müde machende Antihistaminika wie Chlorphenamin werden manchmal ebenfalls eingesetzt, können dich aber schläfrig machen. Es lohnt sich, zuerst Möglichkeiten ohne Medikamente auszuprobieren, etwa Nasenspray mit Kochsalzlösung und das Meiden von Auslösern.",
+    "tips": [
+      "Probier zuerst Nasenspray mit Kochsalzlösung und meide deine Auslöser.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "decongestants": {
+    "name": "Abschwellende Mittel (Tabletten & Sprays)",
+    "aliases": [
+      "Nasenspray",
+      "Schnupfenspray",
+      "Pseudoephedrin",
+      "Xylometazolin",
+      "Otriven",
+      "Nasivin"
+    ],
+    "summary": "Britische Empfehlungen lauten, abschwellende Tabletten und Sprays in der Schwangerschaft zu meiden – probier stattdessen Kochsalzsprays und Dampf.",
+    "details": "Laut NHS wird Pseudoephedrin in der Schwangerschaft nicht empfohlen, weil es die Durchblutung zum Baby verringern kann, und der britische Beratungsdienst BUMPS rät, abschwellende Tabletten, Sprays und Tropfen zu meiden. Manche US-Quellen erlauben nach dem ersten Trimester die kurzfristige Anwendung bestimmter abschwellender Mittel, aber nur auf ärztlichen Rat. Viele Erkältungsmittel enthalten versteckte abschwellende Wirkstoffe, also prüfe die Packungsangaben.",
+    "tips": [
+      "Kochsalzsprays, Dampf und ein höher gelagerter Kopf in der Nacht können eine verstopfte Nase lindern.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "cold-flu-remedies": {
+    "name": "Kombipräparate gegen Erkältung & Grippe",
+    "aliases": [
+      "Grippostad",
+      "Wick MediNait",
+      "Wick DayMed",
+      "Aspirin Complex",
+      "Erkältungsmittel",
+      "Grippetabletten"
+    ],
+    "summary": "Besser meiden, denn Mittel mit mehreren Wirkstoffen enthalten oft abschwellende Stoffe oder zusätzliches Koffein – behandle die Beschwerden lieber einzeln.",
+    "details": "Viele Erkältungs- und Grippemittel kombinieren Paracetamol mit abschwellenden Mitteln, Antihistaminika, Koffein oder Hustenmitteln, und abschwellende Mittel sollten in der Schwangerschaft gemieden werden. Außerdem passiert es leicht, dass du doppelt Paracetamol nimmst, wenn du ein Kombipräparat zusätzlich zu normalen Tabletten einnimmst. Ruhe, viel Flüssigkeit und bei Bedarf einfaches Paracetamol reichen bei einer Erkältung meist aus, aber ruf deine Ärztin oder deinen Arzt an, wenn du glaubst, dass du eine Grippe hast.",
+    "tips": [
+      "Lies die Wirkstoffe auf jeder Packung und jedem Beutel.",
+      "Lass Grippesymptome früh abklären, denn möglicherweise wird dir eine antivirale Behandlung angeboten.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "cough-syrup": {
+    "name": "Hustensäfte & Lutschtabletten",
+    "aliases": [
+      "Hustensaft",
+      "Hustenstiller",
+      "Dextromethorphan",
+      "Guaifenesin",
+      "Strepsils",
+      "Halstabletten"
+    ],
+    "summary": "Manche einfachen Mittel können verwendet werden, aber meide codeinhaltige Säfte und Säfte mit mehreren Wirkstoffen und frag vorher in der Apotheke nach.",
+    "details": "Husten bei Erkältungen klingt meist innerhalb von 3 bis 4 Wochen von selbst ab, und Honig mit Zitrone in warmem Wasser kann ihn lindern. Laut BUMPS können normale Strepsils-Lutschtabletten in der Schwangerschaft verwendet werden, während Produkte mit mehreren Wirkstoffen abschwellende Mittel enthalten können, die besser gemieden werden. Codeinhaltige Hustenmittel sollten nur verwendet werden, wenn eine Ärztin oder ein Arzt sie empfiehlt.",
+    "tips": [
+      "Probier zuerst warme Getränke mit Honig und Zitrone.",
+      "Geh zur Ärztin oder zum Arzt, wenn ein Husten länger als 3 Wochen anhält oder du kurzatmig bist.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "antacids": {
+    "name": "Antazida (Gaviscon, Rennie)",
+    "aliases": [
+      "Gaviscon",
+      "Rennie",
+      "Talcid",
+      "Riopan",
+      "Tabletten gegen Sodbrennen",
+      "Calciumcarbonat"
+    ],
+    "summary": "Bei Sodbrennen in der Schwangerschaft meist in Ordnung, solange du dich an die Packungsbeilage hältst und vorher in der Apotheke nachfragst.",
+    "details": "Laut NHS kannst du Gaviscon in der Schwangerschaft nehmen, und die meisten Antazida gelten in der Schwangerschaft als sicher, auch wenn du dich am besten vorher beraten lässt. Antazida können beeinflussen, wie gut andere Medikamente wirken, auch Eisentabletten, deshalb rät der NHS, 2 bis 4 Stunden Abstand zwischen ihnen zu lassen. Wenn das Sodbrennen nicht unter Kontrolle ist, schlägt deine Ärztin oder dein Arzt vielleicht ein anderes Medikament vor.",
+    "tips": [
+      "Kleinere Mahlzeiten und kein spätes Essen am Abend können Sodbrennen ebenfalls lindern.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "omeprazole": {
+    "name": "Omeprazol & andere PPI",
+    "aliases": [
+      "Omeprazol",
+      "Pantoprazol",
+      "Esomeprazol",
+      "Nexium",
+      "Antra",
+      "Magenschutz"
+    ],
+    "summary": "Es kann in der Schwangerschaft meist verwendet werden, wenn Antazida gegen Sodbrennen nicht reichen, aber sprich vorher mit deiner Ärztin oder deinem Arzt.",
+    "details": "Laut NHS kannst du Omeprazol in der Schwangerschaft meist nehmen, solltest aber vorher in der Apotheke oder bei deiner Ärztin bzw. deinem Arzt nachfragen. BUMPS weist darauf hin, dass Omeprazol in der Schwangerschaft der bevorzugte Protonenpumpenhemmer ist, weil es dazu die meisten Sicherheitsdaten gibt, und andere verwendet werden können, wenn eine Ärztin oder ein Arzt dazu rät. Meist werden zuerst Änderungen im Alltag und Antazida ausprobiert.",
+    "tips": [
+      "Das Kopfende des Bettes höher zu stellen und abends früher zu essen, kann helfen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "laxatives": {
+    "name": "Abführmittel",
+    "aliases": [
+      "Lactulose",
+      "Bifiteral",
+      "Movicol",
+      "Macrogol",
+      "Flohsamenschalen",
+      "Mittel gegen Verstopfung"
+    ],
+    "summary": "Ballaststoffe, Flüssigkeit und Bewegung kommen zuerst, danach können manche Abführmittel verwendet werden – frag nach, welches zu dir passt.",
+    "details": "Verstopfung ist in der Schwangerschaft sehr häufig, und laut NHS kann Lactulose bei Bedarf eingenommen werden, nachdem du in der Apotheke oder bei deiner Ärztin bzw. deinem Arzt nachgefragt hast. Die Mayo Clinic weist darauf hin, dass quellende Ballaststoff-Abführmittel und Stuhlweichmacher allgemein als sicher gelten, weil sehr wenig davon aufgenommen wird. Eisentabletten können Verstopfung verschlimmern, also erwähne sie, wenn du welche nimmst.",
+    "tips": [
+      "Trink viel Wasser und hol dir Ballaststoffe aus Obst, Gemüse und Vollkorn.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "loperamide": {
+    "name": "Loperamid (Imodium)",
+    "aliases": [
+      "Imodium",
+      "Loperamid",
+      "Lopedium",
+      "Durchfalltabletten",
+      "Mittel gegen Durchfall"
+    ],
+    "summary": "Es ist in der Schwangerschaft nicht die erste Wahl, also konzentrier dich auf ausreichend Flüssigkeit und nimm es nur, wenn eine Ärztin, ein Arzt oder die Apotheke dazu rät.",
+    "details": "Laut NHS wird Loperamid in der Schwangerschaft normalerweise nicht empfohlen, weil es nicht genug Daten gibt, um es als sicher einzustufen. BUMPS weist darauf hin, dass es gelegentlich eingesetzt wird, wenn es keine geeignete Alternative gibt, und kurze Durchfallphasen werden meist mit Ruhe und viel Flüssigkeit behandelt. Durchfall mit Fieber, Blut oder Anzeichen von Austrocknung muss ärztlich abgeklärt werden.",
+    "tips": [
+      "Trink oft kleine Schlucke Wasser oder Elektrolytlösung.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "antibiotics": {
+    "name": "Antibiotika",
+    "aliases": [
+      "Antibiotikum",
+      "Amoxicillin",
+      "Penicillin",
+      "Cefalexin",
+      "Nitrofurantoin",
+      "Doxycyclin"
+    ],
+    "summary": "Viele Antibiotika sind in der Schwangerschaft sicher und wichtig, manche aber nicht – nimm also nur welche, die dir aktuell verschrieben wurden.",
+    "details": "Penicilline wie Amoxicillin und Cephalosporine werden in der Schwangerschaft häufig eingesetzt, während Tetrazykline wie Doxycyclin meist gemieden werden, weil sie Knochen und Zähne des Babys beeinträchtigen können. Infektionen wie Harnwegsinfekte zügig zu behandeln, ist wichtig für dich und dein Baby. Sag bei jeder Verschreibung, dass du schwanger bist, und nimm keine übrig gebliebenen Antibiotika.",
+    "tips": [
+      "Nimm es genau wie verschrieben und sag bei jeder Verschreibung, dass du schwanger bist.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "isotretinoin": {
+    "name": "Isotretinoin (Roaccutane)",
+    "aliases": [
+      "Aknenormin",
+      "Roaccutan",
+      "Accutane",
+      "Isotretinoin Tabletten",
+      "Aknetabletten",
+      "Akne Vitamin A Tabletten"
+    ],
+    "summary": "Meide es: Isotretinoin kann schwere Fehlbildungen verursachen, also melde dich sofort bei der Ärztin oder dem Arzt, die bzw. der es verschrieben hat, wenn du schwanger sein könntest.",
+    "details": "Isotretinoin ist ein Aknemedikament auf Vitamin-A-Basis, das eine Fehlgeburt und schwere Störungen in der Entwicklung des Babys verursachen kann. In Großbritannien wird es nur im Rahmen eines Schwangerschaftsverhütungsprogramms verschrieben, und der NHS rät, nach der letzten Dosis mindestens einen Monat zu warten, bevor du versuchst, schwanger zu werden. Wenn du während der Einnahme schwanger wirst, muss die verschreibende Ärztin oder der verschreibende Arzt das dringend erfahren.",
+    "tips": [
+      "Verhüte während der Einnahme zuverlässig, so wie es dir bei der Verschreibung geraten wird.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "oral-retinoids": {
+    "name": "Retinoid-Tabletten (Acitretin, Alitretinoin)",
+    "aliases": [
+      "Acitretin",
+      "Neotigason",
+      "Alitretinoin",
+      "Toctino",
+      "Tabletten gegen Schuppenflechte",
+      "Tabletten gegen Ekzeme"
+    ],
+    "summary": "Meide sie: Diese Tabletten auf Vitamin-A-Basis können einem sich entwickelnden Baby schwer schaden und erfordern eine sorgfältige Planung rund um eine Schwangerschaft.",
+    "details": "Wie Isotretinoin sind Acitretin zum Einnehmen (bei Schuppenflechte) und Alitretinoin (bei schwerem Handekzem) Retinoide, die Fehlbildungen verursachen können, deshalb schreibt die britische Arzneimittelbehörde ein Schwangerschaftsverhütungsprogramm vor. Acitretin bleibt lange im Körper, und Schwangerschaftstests werden noch 3 Jahre nach dem Absetzen fortgeführt. Sprich mit der verschreibenden Ärztin oder dem verschreibenden Arzt, bevor du eine Schwangerschaft planst.",
+    "tips": [
+      "Wenn du während der Einnahme schwanger sein könntest, melde dich dringend bei der verschreibenden Ärztin oder dem verschreibenden Arzt.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "codeine": {
+    "name": "Codein",
+    "aliases": [
+      "Kodein",
+      "Talvosilen",
+      "Paracetamol mit Codein",
+      "Codein Hustensaft",
+      "Codeinphosphat",
+      "Opioid Schmerzmittel"
+    ],
+    "summary": "Nimm es nur, wenn deine Ärztin oder dein Arzt es verschreibt, denn Codein ist in der Schwangerschaft nicht zur Selbstbehandlung geeignet.",
+    "details": "Codein ist ein Opioid. Der NHS rät, codeinhaltige Schmerzmittel in der Schwangerschaft zu meiden, außer sie wurden verschrieben, und BUMPS weist darauf hin, dass eine Einnahme kurz vor der Geburt beim Neugeborenen Entzugserscheinungen und Atemprobleme verursachen kann. Manchmal entscheidet eine Ärztin oder ein Arzt nach Abwägung von Risiken und Nutzen, dass es die richtige Option ist.",
+    "tips": [
+      "Prüfe Kombi-Schmerzmittel und Hustensäfte auf Codein.",
+      "Setz ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "tramadol": {
+    "name": "Tramadol",
+    "aliases": [
+      "Tramal",
+      "Tramadolor",
+      "Tramundin",
+      "Opioid Schmerzmittel",
+      "starkes Schmerzmittel"
+    ],
+    "summary": "Nur wenn deine Ärztin oder dein Arzt es bei starken Schmerzen verschreibt, idealerweise nur für wenige Tage; nimm es nie auf eigene Faust.",
+    "details": "Tramadol ist ein opioides Schmerzmittel. Laut NHS kann es bei starken Schmerzen in der Schwangerschaft manchmal die beste Option sein, und es ist nicht bekannt, dass es Probleme bei der Entwicklung des Babys verursacht, auch wenn mehr Forschung nötig ist. Bei regelmäßiger Anwendung, besonders kurz vor der Geburt, können Opioide beim Neugeborenen Entzugserscheinungen verursachen.",
+    "tips": [
+      "Nimm nie verschreibungspflichtige Schmerzmittel anderer Personen oder übrig gebliebene Reste.",
+      "Setz ein verschriebenes Medikament nicht ab, ohne vorher mit deiner Ärztin oder deinem Arzt zu sprechen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  },
+  "triptans": {
+    "name": "Triptane (Sumatriptan)",
+    "aliases": [
+      "Sumatriptan",
+      "Imigran",
+      "Rizatriptan",
+      "Maxalt",
+      "Zolmitriptan",
+      "Migränetabletten"
+    ],
+    "summary": "Sumatriptan kann in der Schwangerschaft bei Bedarf verwendet werden, aber entscheide das gemeinsam mit deiner Ärztin oder deinem Arzt, nicht allein.",
+    "details": "Laut BUMPS ist Sumatriptan gut untersucht, und es ist kein Risiko für das Baby bekannt; es gibt auch keine Bedenken, dass andere Triptane schaden, allerdings liegen zu ihnen weniger Daten vor. Der NHS rät, vor der Einnahme von Sumatriptan in der Schwangerschaft deine Ärztin oder deinen Arzt zu fragen. Migräne bessert sich im zweiten und dritten Trimester oft.",
+    "tips": [
+      "Führ ein Kopfschmerztagebuch, um Auslöser wie ausgelassene Mahlzeiten oder schlechten Schlaf zu erkennen.",
+      "Frag deine Ärztin oder deinen Arzt, deine Hebamme oder in der Apotheke, bevor du ein Medikament nimmst."
+    ]
+  }
+}

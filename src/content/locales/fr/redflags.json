@@ -1,0 +1,50 @@
+{
+  "heavy-bleeding": {
+    "title": "Saignements vaginaux abondants",
+    "detail": "Des saignements qui imbibent une serviette peu après l’avoir mise, ou accompagnés de caillots, de fortes douleurs, de vertiges ou d’un évanouissement. Appelle les services d’urgence."
+  },
+  "severe-tummy-pain": {
+    "title": "Douleur au ventre intense ou constante",
+    "detail": "Une forte douleur qui ne passe pas avec le repos, surtout avec des saignements, un ventre dur, une douleur au bout de l’épaule ou une sensation d’évanouissement. Appelle ta maternité ou les services d’urgence maintenant."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Mal de tête intense, troubles de la vue ou gonflement soudain",
+    "detail": "Un mal de tête qui ne passe pas, une vision floue ou des éclairs lumineux, une douleur sous les côtes, ou un gonflement soudain du visage, des mains ou des pieds. Ce peuvent être des signes de pré-éclampsie : appelle ta maternité ou ton médecin maintenant."
+  },
+  "reduced-movements": {
+    "title": "Bébé bouge moins, ou plus du tout",
+    "detail": "Tout changement dans le rythme habituel des mouvements de ton bébé. Appelle ta maternité immédiatement, même la nuit. N’attends pas le lendemain, et ne te fie pas à un moniteur cardiaque à domicile."
+  },
+  "waters-before-37-weeks": {
+    "title": "Perte des eaux ou contractions avant 37 semaines",
+    "detail": "Un écoulement de liquide, abondant ou en filet, ou des contractions régulières ou des douleurs semblables à celles des règles avant 37 semaines. Mets une serviette, pas un tampon, et appelle ta maternité maintenant."
+  },
+  "fever": {
+    "title": "Fièvre de 38 °C (100,4 °F) ou plus",
+    "detail": "Avoir chaud, des frissons et te sentir très mal compte aussi. Pendant la grossesse, les infections doivent être traitées rapidement : appelle ton médecin ou ta maternité aujourd’hui."
+  },
+  "breathlessness-chest-pain": {
+    "title": "Essoufflement soudain ou douleur thoracique",
+    "detail": "Difficulté à respirer, douleur ou oppression dans la poitrine, toux avec du sang, ou cœur qui s’emballe avec une sensation d’évanouissement. Appelle les services d’urgence."
+  },
+  "swollen-calf": {
+    "title": "Jambe douloureuse et gonflée d’un seul côté",
+    "detail": "Une douleur lancinante, un gonflement, de la chaleur ou une rougeur dans un mollet ou une cuisse peuvent signaler un caillot sanguin. Fais-toi examiner le jour même, ou appelle les services d’urgence si tu es aussi essoufflée."
+  },
+  "fainting": {
+    "title": "Évanouissement, effondrement ou convulsions",
+    "detail": "Perdre connaissance, faire une crise convulsive, ou avoir des vertiges au point de ne pas pouvoir tenir debout, surtout avec des douleurs ou des saignements. Appelle les services d’urgence."
+  },
+  "intense-itching": {
+    "title": "Démangeaisons intenses, surtout aux mains et aux pieds",
+    "detail": "Des démangeaisons sur la paume des mains ou la plante des pieds, souvent pires la nuit et sans éruption, peuvent signaler une maladie du foie appelée cholestase gravidique (ICP). Appelle ta maternité ou ton médecin aujourd’hui pour une prise de sang."
+  },
+  "thoughts-of-harm": {
+    "title": "Pensées de te faire du mal ou de faire du mal à ton bébé",
+    "detail": "Tu n’es pas seule, et ce n’est pas ta faute. Parles-en à quelqu’un près de toi, et appelle les services d’urgence ou une ligne d’écoute de crise maintenant si tu ne te sens pas en sécurité."
+  },
+  "severe-vomiting": {
+    "title": "Vomissements, impossible de garder les liquides",
+    "detail": "Vomir au point de ne pas pouvoir garder aliments ou liquides pendant 24 heures, une urine très foncée, ne pas avoir uriné depuis 8 heures, ou une sensation d’évanouissement. Tu as peut-être besoin d’être réhydratée : appelle ton médecin maintenant."
+  }
+}

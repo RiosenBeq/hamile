@@ -10,7 +10,7 @@ import { EmojiBadge, Eyebrow, H1, IconBadge, NavBar, Page, Row, Surface } from '
 import { useAppStore } from '@/store/useAppStore';
 import { usePregnancy } from '@/lib/usePregnancy';
 import { manageSubscription, purchasesAvailable, restore, usePlus } from '@/lib/purchases';
-import { appStoreReviewUrl, SUPPORT_URL } from '@/lib/links';
+import { appStoreReviewUrl, siteUrl } from '@/lib/links';
 import { SUPPORTED_LANGS, useFormat, useT } from '@/i18n';
 import { colors } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
@@ -109,7 +109,7 @@ export default function Profile() {
           </>
         ) : null}
         <Row left={<IconBadge icon={Icon.star} hue="rose" size={40} />} title={t('me.rate')} onPress={() => Linking.openURL(appStoreReviewUrl()).catch(() => {})} />
-        <Row left={<IconBadge icon={Icon.external} hue="lavender" size={40} />} title={t('me.contact')} onPress={() => Linking.openURL(SUPPORT_URL).catch(() => {})} last />
+        <Row left={<IconBadge icon={Icon.external} hue="lavender" size={40} />} title={t('me.contact')} onPress={() => Linking.openURL(siteUrl('support', language)).catch(() => {})} last />
       </Group>
 
       <Text style={{ textAlign: 'center', marginTop: 26, fontFamily: fonts.bodyBold, fontSize: 11, letterSpacing: 1.4, color: colors.faint, textTransform: 'uppercase' }}>

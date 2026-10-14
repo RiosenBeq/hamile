@@ -1,0 +1,1242 @@
+{
+  "morning-sickness": {
+    "name": "Nausées et vomissements (nausées matinales)",
+    "aliases": [
+      "nausées matinales",
+      "nausées",
+      "envie de vomir",
+      "vomissements",
+      "mal au cœur",
+      "nausees"
+    ],
+    "about": "Les nausées font partie des symptômes de grossesse les plus fréquents : elles touchent environ 8 personnes enceintes sur 10. La hausse des hormones en est probablement la cause et, malgré leur surnom de nausées « matinales », elles peuvent survenir à toute heure du jour ou de la nuit. Elles commencent en général entre la 4e et la 7e semaine et, pour la plupart, s'estompent d'ici la 16e à la 20e semaine. Elles ne font pas de mal à ton bébé.",
+    "relief": [
+      "Mange de petites collations fréquentes pour ne jamais avoir l'estomac vide ; les aliments simples et féculents comme les crackers ou le pain grillé passent souvent le mieux.",
+      "Garde un biscuit nature à côté de ton lit et grignote-le avant de te lever.",
+      "Bois par petites gorgées, souvent, entre les repas plutôt que pendant.",
+      "Essaie les aliments ou boissons au gingembre, et évite les odeurs qui déclenchent tes nausées ; les plats froids sentent souvent moins fort.",
+      "Repose-toi quand tu peux, car la fatigue peut aggraver les nausées."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin le jour même si tu n'arrives à garder ni aliments ni liquides depuis 24 heures.",
+      "Appelle le jour même si tes urines sont très foncées, si tu n'as pas fait pipi depuis 8 heures, ou si tu as l'impression de t'évanouir quand tu te lèves.",
+      "Appelle le jour même si tu as mal au ventre ou de la fièvre en plus des nausées, ou si tu perds du poids.",
+      "Appelle ton médecin tout de suite si tu vomis du sang."
+    ]
+  },
+  "severe-vomiting": {
+    "name": "Vomissements sévères (hyperémèse gravidique)",
+    "aliases": [
+      "hyperémèse gravidique",
+      "hyperemese",
+      "vomissements incoercibles",
+      "je vomis tout",
+      "je ne garde pas l'eau",
+      "déshydratation"
+    ],
+    "about": "L'hyperémèse gravidique est une forme sévère des nausées de grossesse qui touche jusqu'à 3 grossesses sur 100. Vomir de nombreuses fois par jour peut vite te déshydrater et t'épuiser : elle nécessite donc un traitement médical, pas simplement de serrer les dents. Il existe des traitements efficaces et compatibles avec la grossesse, et demander de l'aide tôt fait une vraie différence.",
+    "relief": [
+      "Bois souvent de petites quantités d'eau ou de jus dilué, ou suce des glaçons, plutôt que de boire beaucoup d'un coup.",
+      "Repose-toi autant que possible et accepte l'aide concrète pour le travail, les repas et la garde des enfants.",
+      "Note simplement combien de fois tu vomis et ce que tu arrives à garder, pour en parler à ton médecin.",
+      "Demande à ton médecin un traitement contre les vomissements compatible avec la grossesse ; tu n'as pas à attendre que ce soit insupportable."
+    ],
+    "callDoctor": [
+      "Appelle ton médecin ou ta sage-femme maintenant si tu n'arrives à garder ni aliments ni liquides depuis 24 heures.",
+      "Appelle maintenant si tes urines sont foncées ou si tu n'as pas fait pipi depuis 8 heures ; ce sont des signes de déshydratation.",
+      "Demande de l'aide maintenant si tu te sens très faible, si tu as des vertiges ou l'impression de t'évanouir, ou si tu perds du poids.",
+      "Appelle les secours si tu vomis du sang, si tu t'évanouis ou si tu as les idées confuses."
+    ]
+  },
+  "tiredness": {
+    "name": "Fatigue et épuisement",
+    "aliases": [
+      "fatigue",
+      "épuisée",
+      "toujours fatiguée",
+      "envie de dormir",
+      "pas d'énergie",
+      "epuisement"
+    ],
+    "about": "Se sentir vidée est très courant, surtout pendant les 12 premières semaines, quand les changements hormonaux et tout le travail supplémentaire que fournit ton corps peuvent t'épuiser. L'énergie revient souvent au deuxième trimestre, puis baisse à nouveau quand ton ventre s'arrondit et que le sommeil devient plus difficile. La fatigue en elle-même ne vous fera de mal ni à toi ni à ton bébé.",
+    "relief": [
+      "Repose-toi dès que tu peux, même 15 minutes les pieds surélevés, et essaie de te coucher un peu plus tôt.",
+      "Accepte l'aide que te proposent ta famille, tes amis et tes collègues.",
+      "Prends des repas réguliers et équilibrés et garde des en-cas sains à portée de main pour stabiliser ton énergie.",
+      "Une courte marche ou une activité physique douce peut en fait te redonner de l'énergie."
+    ],
+    "callDoctor": [
+      "Signale-le à ta sage-femme ou à ton médecin si tu es aussi essoufflée, pâle, si tu as des vertiges ou le cœur qui s'emballe ; on pourra rechercher une anémie.",
+      "Parle à ta sage-femme ou à ton médecin si la fatigue s'accompagne d'un moral bas, d'un sentiment de désespoir ou d'une perte d'intérêt pour les choses.",
+      "Appelle le jour même si l'épuisement te semble insurmontable ou s'accompagne de fièvre, de vomissements ou d'un très grand malaise."
+    ]
+  },
+  "breast-tenderness": {
+    "name": "Seins sensibles ou douloureux",
+    "aliases": [
+      "seins douloureux",
+      "seins sensibles",
+      "mamelons douloureux",
+      "seins gonflés",
+      "poitrine qui fait mal",
+      "tétons sensibles"
+    ],
+    "about": "Des seins sensibles, plus volumineux et qui picotent sont souvent l'un des tout premiers signes de grossesse. La hausse des hormones augmente l'afflux sanguin et commence à préparer tes glandes mammaires : tu remarqueras peut-être aussi des veines plus visibles et des mamelons plus foncés. La sensibilité diminue généralement après le premier trimestre, à mesure que ton corps s'adapte.",
+    "relief": [
+      "Porte un soutien-gorge doux, bien ajusté et qui maintient bien ; beaucoup trouvent un modèle en coton ou de sport plus confortable, y compris la nuit.",
+      "Une douche chaude ou une compresse fraîche peut apaiser la douleur.",
+      "Demande à ton ou ta partenaire d'y aller doucement, et dors sur le côté plutôt que sur le ventre."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin si tu remarques une nouvelle boule, une peau qui se creuse (aspect en peau d'orange), ou une zone rouge, chaude et douloureuse sur un sein.",
+      "Consulte ton médecin en cas d'écoulement du mamelon sanglant ou inhabituel, ou si un mamelon s'est récemment rétracté vers l'intérieur."
+    ]
+  },
+  "frequent-urination": {
+    "name": "Envie fréquente de faire pipi",
+    "aliases": [
+      "envie fréquente d'uriner",
+      "envie d'uriner",
+      "faire pipi souvent",
+      "toujours aux toilettes",
+      "uriner la nuit",
+      "pollakiurie"
+    ],
+    "about": "Avoir besoin d'aller aux toilettes plus souvent commence généralement tôt dans la grossesse, car les hormones et l'afflux sanguin supplémentaire font travailler davantage tes reins. Cela s'atténue souvent pendant les mois du milieu, puis revient plus tard quand la tête de ton bébé appuie sur ta vessie. C'est une partie normale, quoique pénible, de la grossesse.",
+    "relief": [
+      "Continue à bien boire pendant la journée, mais réduis les boissons en fin de soirée.",
+      "Limite la caféine (thé, café, cola), qui fait uriner davantage.",
+      "Penche-toi en avant ou balance-toi doucement en faisant pipi pour bien vider ta vessie.",
+      "Fais des exercices du périnée tous les jours pour limiter les fuites quand tu tousses ou éternues."
+    ],
+    "callDoctor": [
+      "Contacte ton médecin dans les 24 heures si tu as des brûlures ou des picotements en urinant, ou si tu vois du sang dans tes urines ; il peut s'agir d'une infection.",
+      "Appelle tout de suite si tu as aussi de la fièvre, des frissons, ou une douleur dans le dos ou sur le côté.",
+      "Parles-en à ton médecin si tu as aussi très soif en permanence ; on pourra contrôler ta glycémie."
+    ]
+  },
+  "spotting": {
+    "name": "Spotting ou saignements légers",
+    "aliases": [
+      "spotting",
+      "petits saignements",
+      "pertes marron",
+      "pertes rosées",
+      "saignement d'implantation",
+      "saignement après rapport"
+    ],
+    "about": "Les saignements légers sont assez fréquents, surtout en début de grossesse, et beaucoup de personnes qui en ont vivent ensuite une grossesse sans problème. Ils peuvent venir de l'implantation de l'embryon, d'un col de l'utérus plus sensible après un rapport sexuel ou un examen interne, ou d'une infection. Comme un saignement peut parfois signaler un problème, il vaut toujours la peine de le faire vérifier.",
+    "relief": [
+      "Utilise une serviette hygiénique, pas un tampon, pour voir la quantité de sang et sa couleur.",
+      "Note quand cela a commencé, la couleur et la quantité approximative, pour le dire à ta sage-femme ou à ton médecin.",
+      "Repose-toi et évite les rapports sexuels tant que tu n'as pas été examinée et que tu ne connais pas la cause."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin le jour même pour tout saignement pendant la grossesse, même s'il s'est arrêté.",
+      "Appelle tout de suite si le saignement s'accompagne de crampes, d'une douleur dans le bas du dos, d'une douleur en urinant ou en allant à la selle, ou d'une perte de liquide.",
+      "Appelle les secours si le saignement est abondant, ou si tu as une douleur intense au ventre, une douleur à la pointe de l'épaule ou l'impression de t'évanouir."
+    ]
+  },
+  "heavy-bleeding": {
+    "name": "Saignements abondants",
+    "aliases": [
+      "saignement abondant",
+      "saignements avec caillots",
+      "hémorragie",
+      "hemorragie",
+      "serviette pleine de sang",
+      "signes de fausse couche"
+    ],
+    "about": "On parle de saignement abondant quand du sang rouge imbibe une serviette ou s'accompagne de caillots. Il nécessite une évaluation urgente à tout stade de la grossesse, car il peut être lié à une fausse couche, à une grossesse extra-utérine ou à un problème de placenta. Obtenir de l'aide rapidement vous assure, à toi et à ton bébé, les meilleurs soins, et tu ne feras jamais perdre son temps à personne.",
+    "relief": [
+      "Appelle d'abord à l'aide, puis allonge-toi sur le côté en attendant.",
+      "Utilise des serviettes hygiéniques, pas de tampons, pour qu'on puisse évaluer la quantité de sang.",
+      "Ne conduis pas toi-même ; demande à quelqu'un de t'emmener ou attends l'ambulance.",
+      "Apporte ton dossier de grossesse si tu l'as."
+    ],
+    "callDoctor": [
+      "Appelle les secours si tu imbibes une serviette peu après l'avoir mise, ou si tu perds de gros caillots.",
+      "Appelle les secours si le saignement s'accompagne d'une douleur intense au ventre, d'une douleur à la pointe de l'épaule, de vertiges ou d'un évanouissement.",
+      "Appelle ta maternité ou ton médecin tout de suite pour tout saignement pendant la deuxième moitié de la grossesse, même léger."
+    ]
+  },
+  "period-like-cramps": {
+    "name": "Crampes et douleurs comme pendant les règles",
+    "aliases": [
+      "crampes",
+      "douleurs de règles",
+      "mal au ventre",
+      "douleur au bas-ventre",
+      "mal au bas ventre",
+      "tiraillements"
+    ],
+    "about": "Les crampes légères sont fréquentes, surtout au début, quand ton utérus grandit et s'étire. Les gaz, la constipation et l'étirement des ligaments peuvent aussi causer des douleurs qui vont et viennent. Une douleur légère qui s'apaise quand tu te reposes, changes de position, fais pipi, vas à la selle ou évacues des gaz n'est généralement pas inquiétante.",
+    "relief": [
+      "Repose-toi, allonge-toi sur le côté ou change de position.",
+      "Prends un bain ou une douche chaude (pas brûlante).",
+      "Bois beaucoup d'eau et mange des fibres pour éviter la constipation et les gaz.",
+      "Vide ta vessie régulièrement."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin tout de suite si la douleur s'accompagne de saignements, de pertes inhabituelles ou d'une perte de liquide.",
+      "Appelle tout de suite si la douleur est intense ou ne s'apaise pas après 30 à 60 minutes de repos.",
+      "Appelle tout de suite si tu es à moins de 37 semaines et que tu as des crampes ou des durcissements du ventre réguliers.",
+      "Appelle tout de suite si tu as mal en urinant, ou si tes urines sont troubles, roses, rouges ou marron."
+    ]
+  },
+  "round-ligament-pain": {
+    "name": "Douleur des ligaments ronds",
+    "aliases": [
+      "ligaments ronds",
+      "douleur ligamentaire",
+      "douleur à l'aine",
+      "douleur vive sur le côté",
+      "tiraillement dans le ventre",
+      "point de côté"
+    ],
+    "about": "Les ligaments ronds sont des bandes semblables à des cordes qui soutiennent ton utérus. À mesure que ton ventre grandit, ils s'étirent, ce qui peut provoquer une douleur brève et vive ou un tiraillement d'un côté ou des deux côtés du bas-ventre ou de l'aine, souvent quand tu bouges brusquement, tousses ou te lèves. C'est très fréquent au deuxième trimestre et sans danger.",
+    "relief": [
+      "Bouge lentement quand tu te lèves, te retournes dans le lit ou te lèves d'une chaise.",
+      "Fléchis légèrement les hanches avant de tousser, d'éternuer ou de rire.",
+      "Repose-toi, utilise une compresse chaude (pas brûlante) ou prends un bain chaud, ou essaie une ceinture de soutien de grossesse."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin si la douleur ne s'apaise pas avec le repos ou en changeant de position.",
+      "Appelle tout de suite si la douleur s'accompagne de saignements, de fièvre, de frissons, d'une douleur en urinant ou de durcissements du ventre réguliers.",
+      "Avant 12 semaines, fais vérifier toute douleur d'un seul côté le jour même pour écarter une grossesse extra-utérine."
+    ]
+  },
+  "back-pain": {
+    "name": "Mal de dos",
+    "aliases": [
+      "mal de dos",
+      "douleur au dos",
+      "lombalgie",
+      "mal au bas du dos",
+      "sciatique",
+      "lumbago"
+    ],
+    "about": "Le mal de dos est très fréquent pendant la grossesse. Les hormones assouplissent tes ligaments pour préparer l'accouchement, ce qui sollicite les articulations du bas du dos et du bassin, et ton ventre qui grandit modifie ta posture. C'est inconfortable, mais ce n'est généralement pas le signe que quelque chose ne va pas.",
+    "relief": [
+      "Plie les genoux et garde le dos droit pour soulever quelque chose, et évite de porter des charges lourdes.",
+      "Porte des chaussures plates qui maintiennent bien le pied, et assieds-toi avec le dos bien soutenu.",
+      "Essaie un bain chaud, un massage, le yoga prénatal ou la natation.",
+      "Dors sur le côté avec un oreiller entre les genoux et un autre sous ton ventre."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin en urgence si le mal de dos vient par vagues ou avec des durcissements du ventre ; cela peut être un signe de début de travail.",
+      "Appelle en urgence si tu as aussi de la fièvre, des saignements vaginaux, une douleur en urinant ou une douleur sous les côtes.",
+      "Appelle les secours si tu perds la sensibilité dans les jambes, les fesses ou les parties génitales."
+    ]
+  },
+  "pelvic-girdle-pain": {
+    "name": "Douleurs de la ceinture pelvienne (symphyse pubienne)",
+    "aliases": [
+      "douleur au pubis",
+      "symphyse pubienne",
+      "symphysite",
+      "douleur au bassin",
+      "ceinture pelvienne",
+      "douleur pelvienne"
+    ],
+    "about": "Les douleurs de la ceinture pelvienne viennent d'une raideur ou d'un mouvement inégal des articulations du bassin. Tu peux les ressentir au niveau de l'os du pubis, en travers du bas du dos, entre les jambes ou le long des cuisses, et elles peuvent être pires quand tu marches, prends les escaliers ou te retournes dans le lit. C'est fréquent, sans danger pour ton bébé, et la kinésithérapie aide vraiment.",
+    "relief": [
+      "Garde les genoux serrés pour monter et descendre de la voiture ou du lit.",
+      "Assieds-toi pour t'habiller, et évite de te tenir sur une seule jambe.",
+      "Monte les escaliers une marche à la fois, et évite de porter des charges lourdes.",
+      "Dors avec un oreiller entre les jambes, et reste active dans la limite de ce qui est confortable."
+    ],
+    "callDoctor": [
+      "Demande à ta sage-femme ou à ton médecin une prescription de kinésithérapie si tu as du mal à marcher, à monter les escaliers ou à te retourner dans le lit.",
+      "Parles-en à ta sage-femme ou à ton médecin si la douleur affecte ton sommeil ou ton moral ; un soutien supplémentaire est possible."
+    ]
+  },
+  "headache": {
+    "name": "Maux de tête",
+    "aliases": [
+      "mal de tête",
+      "maux de tête",
+      "migraine",
+      "céphalée",
+      "mal a la tete",
+      "tête qui serre"
+    ],
+    "about": "Les maux de tête sont fréquents en début de grossesse et s'améliorent généralement ensuite. Les changements hormonaux, la fatigue, la déshydratation, la faim et la réduction de la caféine peuvent tous jouer un rôle. Ils ne font pas de mal à ton bébé, mais un mal de tête intense pendant la deuxième moitié de la grossesse doit toujours être vérifié.",
+    "relief": [
+      "Bois beaucoup d'eau et prends des repas et des en-cas réguliers.",
+      "Repose-toi dans une pièce calme et sombre, et essaie la relaxation ou de légers étirements du cou et des épaules.",
+      "Dors suffisamment, prends l'air, et essaie un linge frais sur le front.",
+      "Demande à ton pharmacien ou à ta sage-femme quel antidouleur est sans danger pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin tout de suite si tu as un mal de tête intense qui ne passe pas, surtout après 20 semaines.",
+      "Appelle tout de suite si un mal de tête s'accompagne d'une vision floue, d'éclairs lumineux, d'une douleur sous les côtes ou d'un gonflement soudain.",
+      "Appelle les secours si un mal de tête est soudain et extrêmement intense, ou s'accompagne d'une crise convulsive, de confusion ou d'une faiblesse."
+    ]
+  },
+  "severe-headache-vision": {
+    "name": "Mal de tête intense ou troubles de la vue (signes de prééclampsie)",
+    "aliases": [
+      "prééclampsie",
+      "preeclampsie",
+      "vision floue",
+      "mouches devant les yeux",
+      "tension élevée",
+      "douleur sous les côtes"
+    ],
+    "about": "Un mal de tête intense qui ne passe pas, une vision floue ou des éclairs lumineux, une douleur juste sous les côtes, ou un gonflement soudain du visage, des mains ou des pieds peuvent être des signes de prééclampsie. Cette maladie liée à la tension artérielle apparaît généralement après 20 semaines et peut aussi débuter dans les semaines qui suivent l'accouchement. Elle se traite très bien quand elle est détectée tôt : ces symptômes doivent donc toujours être vérifiés tout de suite.",
+    "relief": [
+      "Arrête ce que tu fais et appelle à l'aide ; n'attends pas de voir si ça passe.",
+      "Repose-toi allongée sur le côté en attendant d'être examinée.",
+      "Apporte ton dossier de grossesse et tes éventuels relevés de tension.",
+      "Ne conduis pas toi-même ; demande à quelqu'un de t'emmener."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité ou ton médecin tout de suite si tu as l'un de ces symptômes, de jour comme de nuit.",
+      "Appelle tout de suite si tu as des brûlures d'estomac qui ne passent pas avec les remèdes habituels, des vomissements, ou si tu te sens très mal.",
+      "Appelle les secours si tu fais une crise convulsive, si tu as une douleur intense à la poitrine ou au ventre, ou du mal à respirer."
+    ]
+  },
+  "dizziness-fainting": {
+    "name": "Vertiges et sensation d'évanouissement",
+    "aliases": [
+      "vertiges",
+      "étourdissements",
+      "tête qui tourne",
+      "malaise",
+      "évanouissement",
+      "voile noir"
+    ],
+    "about": "Avoir la tête qui tourne est fréquent pendant la grossesse. Les hormones détendent tes vaisseaux sanguins alors que ta circulation travaille davantage : te lever vite, rester longtemps debout, avoir chaud ou rester trop longtemps sans manger peut te donner des vertiges. Plus tard, t'allonger à plat sur le dos peut aussi les provoquer.",
+    "relief": [
+      "Lève-toi lentement après avoir été assise ou allongée.",
+      "Si tu te sens près de t'évanouir, assieds-toi ou allonge-toi sur le côté tout de suite.",
+      "Mange régulièrement, garde un en-cas sur toi, et bois beaucoup d'eau, surtout quand il fait chaud.",
+      "À partir du troisième trimestre, évite de t'allonger à plat sur le dos ; mets-toi sur le côté."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin le jour même si tu t'évanouis réellement, ou si les vertiges reviennent sans cesse.",
+      "Appelle les secours si les vertiges ou l'évanouissement s'accompagnent de saignements, d'une douleur intense au ventre ou à la pointe de l'épaule, ou d'une douleur à la poitrine.",
+      "Appelle les secours si tu as du mal à respirer, si ton cœur s'emballe, ou si tu as les idées confuses."
+    ]
+  },
+  "heartburn": {
+    "name": "Brûlures d'estomac et indigestion",
+    "aliases": [
+      "brûlures d'estomac",
+      "brulures d'estomac",
+      "reflux",
+      "remontées acides",
+      "aigreurs d'estomac",
+      "rots"
+    ],
+    "about": "Les brûlures d'estomac sont une sensation de brûlure dans la poitrine, souvent peu après avoir mangé. Les hormones de grossesse relâchent la valve en haut de ton estomac et, plus tard, ton bébé qui grandit appuie sur ton estomac : l'acide remonte donc plus facilement. C'est très fréquent à partir d'environ 12 semaines et cela disparaît généralement après l'accouchement.",
+    "relief": [
+      "Fais de petits repas fréquents plutôt que trois gros, et tiens-toi bien droite en mangeant.",
+      "Essaie de ne pas manger dans les 3 heures qui précèdent le coucher.",
+      "Réduis les plats riches, épicés ou gras et la caféine s'ils déclenchent tes brûlures.",
+      "Surélève ta tête et tes épaules dans le lit, et essaie de dormir sur le côté gauche.",
+      "Demande à ton pharmacien quels remèdes contre les brûlures d'estomac sont compatibles avec la grossesse."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin tout de suite si les brûlures d'estomac ne passent pas avec les remèdes habituels, surtout après 20 semaines.",
+      "Appelle tout de suite si tu as aussi une douleur juste sous les côtes, un mal de tête intense, des troubles de la vue ou des vomissements.",
+      "Consulte ton médecin si tu as du mal à avaler, si tu perds du poids, ou si tes vomissements ou tes selles sont noirs ou contiennent du sang."
+    ]
+  },
+  "constipation": {
+    "name": "Constipation",
+    "aliases": [
+      "constipation",
+      "constipée",
+      "selles dures",
+      "pas de selles",
+      "pousser aux toilettes",
+      "transit difficile"
+    ],
+    "about": "La constipation est très fréquente et peut commencer tôt dans la grossesse. Les hormones relâchent les muscles de ton intestin, si bien que les aliments avancent plus lentement, et plus tard ton utérus appuie sur ton intestin. Les compléments de fer peuvent aussi l'aggraver.",
+    "relief": [
+      "Mange beaucoup de fibres : pain et céréales complets, fruits, légumes, haricots et lentilles.",
+      "Bois beaucoup d'eau tout au long de la journée.",
+      "Reste active ; une marche ou une séance de natation chaque jour aide ton transit.",
+      "N'ignore pas l'envie d'aller à la selle, et essaie de poser tes pieds sur un petit tabouret aux toilettes.",
+      "Si tu prends des compléments de fer, demande à ton médecin ou à ton pharmacien s'il existe des options plus douces."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme, à ton médecin ou à ton pharmacien si les changements d'alimentation n'ont pas aidé après une semaine environ ; ne prends pas de laxatifs sans demander.",
+      "Appelle ton médecin si tu as des saignements par l'anus, une douleur intense au ventre ou des vomissements."
+    ]
+  },
+  "piles": {
+    "name": "Hémorroïdes",
+    "aliases": [
+      "hémorroïdes",
+      "hemorroides",
+      "démangeaisons à l'anus",
+      "saignement en allant à la selle",
+      "sang dans les selles",
+      "boule à l'anus"
+    ],
+    "about": "Les hémorroïdes sont des vaisseaux sanguins gonflés dans ou autour de l'anus. Les hormones de grossesse, la pression supplémentaire de ton utérus et la constipation les rendent plus probables, surtout au troisième trimestre. Elles peuvent démanger, faire mal ou saigner un peu après être allée à la selle, mais elles sont sans danger et diminuent généralement après l'accouchement.",
+    "relief": [
+      "Garde des selles molles grâce à beaucoup de fibres et d'eau, et évite de pousser.",
+      "Applique doucement sur la zone un linge essoré dans de l'eau glacée pour soulager la douleur.",
+      "Utilise du papier toilette humide, et tamponne plutôt que de frotter.",
+      "Évite de rester debout ou assise longtemps.",
+      "Demande à ton pharmacien ou à ta sage-femme quelles crèmes sont compatibles avec la grossesse avant d'en utiliser une."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin ou ta sage-femme si les hémorroïdes sont très douloureuses, ou si une boule à l'extérieur de l'anus est dure et ne rentre pas.",
+      "Appelle ton médecin si tu saignes beaucoup de l'anus, ou si le sang est foncé ou mélangé à tes selles."
+    ]
+  },
+  "bloating-gas": {
+    "name": "Ballonnements et gaz",
+    "aliases": [
+      "ballonnements",
+      "gaz",
+      "ventre ballonné",
+      "ventre gonflé",
+      "flatulences",
+      "pets"
+    ],
+    "about": "Se sentir gonflée et avoir des gaz est très fréquent, surtout au début. Les hormones de grossesse ralentissent la digestion, si bien que les aliments et les gaz s'attardent dans ton intestin, et la constipation peut s'y ajouter. Les gaz bloqués peuvent même provoquer des douleurs vives, comme des crampes, qui s'apaisent une fois qu'ils sont évacués.",
+    "relief": [
+      "Fais des repas plus petits, mange lentement et mâche bien.",
+      "Repère ce qui te déclenche des gaz : boissons gazeuses, haricots, oignons et chou sont des coupables fréquents.",
+      "Reste active ; une petite marche après les repas aide à faire circuler les gaz.",
+      "Préviens la constipation avec des fibres et beaucoup d'eau."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin si la douleur au ventre est intense, ne s'apaise pas après 30 à 60 minutes de repos, ou s'accompagne de saignements.",
+      "Appelle tout de suite si tu es à moins de 37 semaines et que la douleur vient par vagues régulières ou avec des durcissements du ventre.",
+      "Consulte ton médecin si tu as aussi de la fièvre, ou une diarrhée ou des vomissements qui ne passent pas."
+    ]
+  },
+  "cravings-aversions": {
+    "name": "Envies et dégoûts alimentaires",
+    "aliases": [
+      "envies",
+      "envies de grossesse",
+      "dégoûts alimentaires",
+      "degout",
+      "odeurs insupportables",
+      "pica"
+    ],
+    "about": "Avoir soudain très envie de certains aliments, ou ne plus en supporter d'autres, est très fréquent et serait lié aux hormones de grossesse et à un odorat plus aiguisé. Environ 7 personnes enceintes sur 10 prennent au moins un aliment en dégoût. Tu peux suivre tes envies avec modération, tant que ton alimentation reste équilibrée dans l'ensemble.",
+    "relief": [
+      "Remplace parfois les envies sucrées par des fruits ou un yaourt, et garde des en-cas sains à portée de main.",
+      "Si tu ne supportes plus un aliment, choisis-en un autre aux nutriments similaires, comme des haricots ou des œufs à la place de la viande.",
+      "Garde des envies compatibles avec la grossesse : choisis des fromages pasteurisés, et de la viande et des œufs bien cuits.",
+      "Les plats froids ou fades passent souvent mieux quand les odeurs te rebutent."
+    ],
+    "callDoctor": [
+      "Parles-en à ta sage-femme ou à ton médecin si tu as envie de choses qui ne sont pas des aliments, comme de la glace, de la terre, de l'argile, de la craie ou du savon ; cela peut être lié à un manque de fer.",
+      "Parle à ta sage-femme ou à ton médecin si tes dégoûts font que tu ne manges presque plus ou que tu perds du poids."
+    ]
+  },
+  "metallic-taste": {
+    "name": "Goût métallique dans la bouche",
+    "aliases": [
+      "goût métallique",
+      "gout metallique",
+      "goût de métal",
+      "goût bizarre",
+      "goût amer",
+      "dysgueusie"
+    ],
+    "about": "Un goût acide ou métallique, comme si tu avais sucé des pièces de monnaie, est un changement fréquent en début de grossesse. Il serait dû aux hormones qui modifient ton sens du goût. Ce n'est pas dangereux et cela disparaît généralement au début du deuxième trimestre.",
+    "relief": [
+      "Essaie des saveurs vives et acidulées comme les agrumes, les cornichons ou les plats assaisonnés au vinaigre.",
+      "Brosse-toi régulièrement les dents et la langue, et rince-toi la bouche avec une eau légèrement salée.",
+      "Utilise des couverts en plastique ou en bois si le métal aggrave le goût.",
+      "Mâche du chewing-gum sans sucre ou suce des pastilles à la menthe sans sucre."
+    ],
+    "callDoctor": [
+      "Parles-en à ton médecin si le goût persiste après le premier trimestre ou s'accompagne d'une bouche sèche ou qui brûle.",
+      "Parles-en à ton médecin ou à ton pharmacien si cela a commencé après un nouveau médicament ou complément."
+    ]
+  },
+  "excess-saliva": {
+    "name": "Excès de salive",
+    "aliases": [
+      "excès de salive",
+      "trop de salive",
+      "hypersalivation",
+      "ptyalisme",
+      "baver",
+      "cracher tout le temps"
+    ],
+    "about": "Certaines personnes produisent beaucoup plus de salive pendant la grossesse, souvent en même temps que les nausées. Cela serait dû aux hormones qui stimulent trop les glandes salivaires, et les nausées peuvent l'aggraver, car avaler devient désagréable. C'est sans danger, bien que déplaisant, et cela s'arrange généralement avec le temps.",
+    "relief": [
+      "Mâche du chewing-gum sans sucre ou suce des bonbons sans sucre pour avaler plus facilement.",
+      "Brosse-toi les dents et rince-toi la bouche avec un bain de bouche sans alcool plusieurs fois par jour.",
+      "Fais de petits repas fréquents pour limiter les nausées.",
+      "Continue à boire de l'eau par petites gorgées pour ne pas te déshydrater, et garde des mouchoirs sur toi si tu as besoin de cracher."
+    ],
+    "callDoctor": [
+      "Parles-en à ta sage-femme ou à ton médecin si cela s'accompagne de vomissements sévères, ou si tu n'arrives pas à garder les liquides.",
+      "Consulte ton médecin si ta bouche ou tes glandes sont gonflées ou douloureuses, ou si cela perturbe ton sommeil ou tes repas."
+    ]
+  },
+  "nosebleeds": {
+    "name": "Saignements de nez",
+    "aliases": [
+      "saignement de nez",
+      "saigner du nez",
+      "nez qui saigne",
+      "épistaxis",
+      "epistaxis"
+    ],
+    "about": "Les saignements de nez sont plus fréquents pendant la grossesse, car le volume sanguin supplémentaire et les hormones font gonfler les minuscules vaisseaux à l'intérieur de ton nez, qui se rompent alors plus facilement. Ils sont généralement brefs et sans danger.",
+    "relief": [
+      "Assieds-toi, penche-toi en avant et pince la partie molle de ton nez pendant 10 à 15 minutes, en respirant par la bouche.",
+      "Ne penche pas la tête en arrière, et évite de te moucher ou de te gratter le nez pendant une journée après.",
+      "Utilise un humidificateur ou un spray d'eau salée (sérum physiologique) pour garder l'intérieur de ton nez humide."
+    ],
+    "callDoctor": [
+      "Demande une aide médicale urgente si le saignement ne s'est pas arrêté après 10 à 15 minutes de pression, ou s'il est très abondant.",
+      "Demande une aide urgente si tu te sens faible ou étourdie, ou si tu as du mal à respirer.",
+      "Consulte ton médecin si tu saignes souvent du nez, ou si tu as facilement des bleus."
+    ]
+  },
+  "bleeding-gums": {
+    "name": "Gencives gonflées ou qui saignent",
+    "aliases": [
+      "gencives qui saignent",
+      "gencives gonflées",
+      "gingivite de grossesse",
+      "gencives douloureuses",
+      "saignement des gencives"
+    ],
+    "about": "Les hormones de grossesse augmentent l'afflux sanguin vers tes gencives et les rendent plus réactives à la plaque dentaire : elles peuvent donc paraître gonflées et saigner au brossage. Cette gingivite de grossesse touche plus de la moitié des grossesses et s'arrange généralement après l'accouchement.",
+    "relief": [
+      "Brosse-toi doucement les dents deux fois par jour avec une brosse souple et un dentifrice au fluor.",
+      "Utilise du fil dentaire ou des brossettes interdentaires une fois par jour.",
+      "Va voir ton dentiste pour un contrôle et un détartrage pendant ta grossesse, et dis-lui que tu es enceinte.",
+      "Réduis les en-cas et les boissons sucrés."
+    ],
+    "callDoctor": [
+      "Consulte ton dentiste si tes gencives sont très gonflées ou douloureuses, saignent beaucoup, ou si une dent semble bouger.",
+      "Consulte ton dentiste ou ton médecin si une boule se forme sur ta gencive, ou si tu as une mauvaise haleine ou du pus qui ne disparaissent pas."
+    ]
+  },
+  "stuffy-nose": {
+    "name": "Nez bouché (rhinite de grossesse)",
+    "aliases": [
+      "nez bouché",
+      "nez bouche",
+      "nez qui coule",
+      "congestion nasale",
+      "rhinite de grossesse",
+      "ronflements"
+    ],
+    "about": "Un nez bouché ou qui coule pendant des semaines, sans rhume ni allergie, s'appelle une rhinite de grossesse. Les hormones et l'afflux sanguin supplémentaire font gonfler la muqueuse de ton nez et produire plus de mucus. C'est sans danger, souvent pire la nuit, et cela disparaît généralement dans les deux semaines qui suivent l'accouchement.",
+    "relief": [
+      "Utilise un spray nasal ou un lavage de nez à l'eau salée (sérum physiologique).",
+      "Surélève la tête de ton lit ou ajoute un oreiller la nuit.",
+      "Bois beaucoup d'eau, et essaie un humidificateur ou une douche bien chaude pleine de vapeur.",
+      "Une activité physique douce peut aider à dégager le nez.",
+      "Demande à ton pharmacien quelles options sont compatibles avec la grossesse avant d'utiliser un spray nasal médicamenteux ou un remède contre le rhume."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin si tu as de la fièvre, une douleur au visage, ou un mucus épais jaune ou vert ; il peut s'agir d'une infection.",
+      "Parle à ton médecin si des ronflements bruyants ou ton nez bouché perturbent beaucoup ton sommeil."
+    ]
+  },
+  "breathlessness": {
+    "name": "Essoufflement",
+    "aliases": [
+      "essoufflement",
+      "essouflement",
+      "essoufflée",
+      "souffle court",
+      "manque de souffle",
+      "je n'arrive pas à respirer à fond"
+    ],
+    "about": "Un léger essoufflement est fréquent. Au début, les hormones te font respirer plus profondément, si bien que tu remarques davantage ta respiration ; plus tard, ton utérus qui grandit remonte sous ton diaphragme et laisse moins de place à tes poumons. C'est généralement plus net à l'effort, et cela s'atténue souvent un peu quand ton bébé descend avant la naissance.",
+    "relief": [
+      "Ralentis, fais des pauses, et monte les escaliers à ton rythme.",
+      "Tiens-toi bien droite, assise comme debout, pour laisser plus de place à tes poumons.",
+      "Cale-toi avec des oreillers la nuit.",
+      "Une activité physique douce et régulière comme la marche ou la natation peut aider."
+    ],
+    "callDoctor": [
+      "Appelle les secours si l'essoufflement apparaît soudainement, ou s'accompagne d'une douleur à la poitrine ou de crachats de sang.",
+      "Appelle ton médecin le jour même si tu es essoufflée au repos ou allongée, ou si cela te réveille la nuit.",
+      "Appelle le jour même si tu as aussi le cœur qui s'emballe ou des vertiges, ou si tu te sens très fatiguée et que tu es pâle."
+    ]
+  },
+  "sudden-breathlessness": {
+    "name": "Essoufflement soudain ou douleur à la poitrine",
+    "aliases": [
+      "essoufflement soudain",
+      "douleur thoracique",
+      "douleur à la poitrine",
+      "je n'arrive pas à respirer",
+      "embolie pulmonaire",
+      "cracher du sang"
+    ],
+    "about": "Un essoufflement qui apparaît soudainement, une douleur à la poitrine ou des crachats de sang sont différents de l'essoufflement progressif de la grossesse. La grossesse rend la coagulation du sang plus facile, et un caillot qui migre vers les poumons (embolie pulmonaire) est rare mais grave. Des problèmes cardiaques et des infections graves peuvent aussi provoquer ces symptômes : demande de l'aide immédiatement.",
+    "relief": [
+      "Appelle d'abord les secours, puis assieds-toi bien droite et essaie de rester calme.",
+      "Ne conduis pas toi-même jusqu'à l'hôpital.",
+      "Déverrouille la porte et garde ton téléphone et ton dossier de grossesse près de toi."
+    ],
+    "callDoctor": [
+      "Appelle les secours si tu n'arrives soudain plus à reprendre ton souffle, ou si tu as une douleur ou une oppression dans la poitrine.",
+      "Appelle les secours si tu craches du sang, ou si tu te sens près de t'évanouir avec le cœur qui s'emballe ou qui bat très fort.",
+      "Appelle les secours si tu es essoufflée et que tu as aussi une jambe douloureuse et gonflée."
+    ]
+  },
+  "palpitations": {
+    "name": "Palpitations",
+    "aliases": [
+      "palpitations",
+      "cœur qui s'emballe",
+      "coeur qui bat vite",
+      "cœur qui bat fort",
+      "tachycardie",
+      "battements irréguliers"
+    ],
+    "about": "Ton volume sanguin augmente beaucoup pendant la grossesse et ton cœur travaille plus pour le pomper : un rythme cardiaque au repos plus rapide et, de temps en temps, un battement irrégulier ou plus fort sont donc fréquents. Les palpitations sont généralement sans danger, surtout si elles sont brèves et que tu te sens bien par ailleurs.",
+    "relief": [
+      "Assieds-toi, ou allonge-toi sur le côté, et respire lentement jusqu'à ce que ça se calme.",
+      "Bois beaucoup d'eau et réduis la caféine.",
+      "Lève-toi lentement, et évite d'avoir trop chaud."
+    ],
+    "callDoctor": [
+      "Appelle les secours si les palpitations s'accompagnent d'une douleur à la poitrine, de difficultés à respirer, d'un évanouissement ou de confusion.",
+      "Appelle ton médecin le jour même si les palpitations durent plusieurs minutes, reviennent sans cesse ou te donnent des vertiges.",
+      "Parles-en à ton médecin ou à ta sage-femme si tu as un problème cardiaque ou si tu as déjà eu des palpitations."
+    ]
+  },
+  "swelling": {
+    "name": "Pieds, chevilles et doigts gonflés",
+    "aliases": [
+      "pieds gonflés",
+      "chevilles gonflées",
+      "mains gonflées",
+      "œdème",
+      "oedeme",
+      "bagues qui serrent"
+    ],
+    "about": "Un léger gonflement est très fréquent, surtout le soir, par temps chaud et en fin de grossesse. Ton corps retient plus d'eau que d'habitude, et ton utérus qui grandit ralentit le retour du sang depuis tes jambes. Un gonflement qui s'installe progressivement n'est pas dangereux, mais un gonflement soudain du visage, des mains ou des pieds doit être vérifié tout de suite.",
+    "relief": [
+      "Repose-toi les pieds surélevés quand tu peux, et évite de rester debout longtemps.",
+      "Marche régulièrement et fais des exercices pour les pieds : fléchis chaque pied vers le haut et vers le bas 30 fois, puis fais-lui faire 8 cercles dans chaque sens.",
+      "Porte des chaussures et des chaussettes confortables, sans brides serrées, et retire les bagues qui commencent à serrer."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité ou ton médecin tout de suite si ton visage, tes mains ou tes pieds gonflent soudainement.",
+      "Appelle tout de suite si le gonflement s'accompagne d'un mal de tête intense, de troubles de la vue, d'une douleur sous les côtes ou de vomissements.",
+      "Appelle ton médecin le jour même si une seule jambe est gonflée, douloureuse, chaude ou rouge ; il peut s'agir d'un caillot sanguin."
+    ]
+  },
+  "leg-cramps": {
+    "name": "Crampes dans les jambes",
+    "aliases": [
+      "crampes aux jambes",
+      "crampe au mollet",
+      "crampes nocturnes",
+      "crampe au pied",
+      "crampes la nuit"
+    ],
+    "about": "Une contraction soudaine et douloureuse du mollet ou du pied, souvent la nuit, touche beaucoup de personnes enceintes, peut-être jusqu'à 4 sur 10. La cause exacte n'est pas claire, mais le poids supplémentaire que tu portes et les changements de circulation pourraient jouer un rôle. Les crampes sont sans danger et passent généralement en quelques minutes.",
+    "relief": [
+      "Pendant une crampe, tire tes orteils vers ton tibia et frotte fermement le muscle.",
+      "Fais des exercices des pieds et des chevilles chaque jour, et étire tes mollets avant le coucher.",
+      "Reste active avec des marches régulières, et bois beaucoup d'eau.",
+      "Un bain chaud ou une chaleur douce peut aider le muscle à se détendre ensuite."
+    ],
+    "callDoctor": [
+      "Appelle ton médecin le jour même si une douleur dans un mollet ne passe pas, ou si la jambe est gonflée, chaude ou rouge.",
+      "Parles-en à ta sage-femme ou à ton médecin si les crampes sont fréquentes et perturbent ton sommeil."
+    ]
+  },
+  "restless-legs": {
+    "name": "Jambes sans repos",
+    "aliases": [
+      "jambes sans repos",
+      "syndrome des jambes sans repos",
+      "impatiences",
+      "impatiences dans les jambes",
+      "SJSR",
+      "besoin de bouger les jambes"
+    ],
+    "about": "Le syndrome des jambes sans repos est une sensation désagréable de fourmillements ou de picotements, avec un besoin irrésistible de bouger les jambes, généralement le soir ou la nuit. Il est fréquent pendant la grossesse, surtout au troisième trimestre, et peut être lié à un manque de fer. Les symptômes disparaissent généralement après l'accouchement.",
+    "relief": [
+      "Garde des horaires de sommeil réguliers et réduis la caféine, surtout en fin de journée.",
+      "Étire ou masse tes jambes, ou essaie un bain chaud avant le coucher.",
+      "Lève-toi et marche quelques minutes quand l'envie te prend.",
+      "Une activité douce en journée, comme la marche ou la natation, peut aider."
+    ],
+    "callDoctor": [
+      "Demande à ton médecin ou à ta sage-femme de vérifier ton taux de fer si les jambes sans repos te gênent.",
+      "Parle à ton médecin si cela perturbe beaucoup ton sommeil, et ne prends aucune aide au sommeil sans vérifier d'abord."
+    ]
+  },
+  "varicose-veins": {
+    "name": "Varices",
+    "aliases": [
+      "varices",
+      "veines gonflées",
+      "varicosités",
+      "varices vulvaires",
+      "jambes lourdes",
+      "veines apparentes"
+    ],
+    "about": "Les varices sont des veines gonflées et saillantes, généralement sur les jambes, mais elles peuvent aussi apparaître autour de la vulve. Le volume sanguin supplémentaire, les hormones qui relâchent la paroi des veines et la pression de ton utérus y contribuent. Elles peuvent faire mal ou démanger mais ne sont pas dangereuses, et s'améliorent généralement après l'accouchement.",
+    "relief": [
+      "Évite de rester debout longtemps, et essaie de ne pas t'asseoir les jambes croisées.",
+      "Surélève tes pieds quand tu es assise, et tes jambes sur des oreillers au lit.",
+      "Essaie des bas de contention de grossesse ; ils peuvent soulager la douleur et le gonflement.",
+      "Marche, nage et fais des exercices des pieds pour faire circuler le sang."
+    ],
+    "callDoctor": [
+      "Appelle ton médecin le jour même si une veine devient dure, chaude, rouge ou douloureuse, ou si une jambe gonfle ; il peut s'agir d'un caillot.",
+      "Appelle les secours si une jambe est douloureuse et gonflée et que tu es aussi essoufflée ou que tu as une douleur à la poitrine.",
+      "Consulte ton médecin si une varice saigne, ou si la peau qui la recouvre change d'aspect ou s'abîme."
+    ]
+  },
+  "skin-changes": {
+    "name": "Peau qui fonce (masque de grossesse et ligne brune)",
+    "aliases": [
+      "masque de grossesse",
+      "mélasma",
+      "chloasma",
+      "ligne brune",
+      "linea nigra",
+      "taches brunes"
+    ],
+    "about": "Les hormones de grossesse stimulent la mélanine, le pigment de ta peau. Tu remarqueras peut-être une ligne foncée qui descend sur ton ventre (ligne brune ou linea nigra), des mamelons, des taches de rousseur et des grains de beauté plus foncés, ou des taches brunâtres sur le visage appelées mélasma, le masque de grossesse. Ces changements sont sans danger et s'estompent généralement peu à peu après l'accouchement.",
+    "relief": [
+      "Mets chaque jour une crème solaire à indice élevé et porte un chapeau à larges bords, car le soleil fonce les taches.",
+      "Choisis des soins de la peau doux et sans parfum.",
+      "Demande à ton pharmacien ou à ton médecin avant d'utiliser une crème éclaircissante ou anti-boutons pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin si un grain de beauté change de forme, de taille ou de couleur, ou se met à saigner ou à démanger.",
+      "Consulte ton médecin pour une nouvelle éruption cutanée, ou des taches qui s'étendent rapidement."
+    ]
+  },
+  "stretch-marks": {
+    "name": "Vergetures",
+    "aliases": [
+      "vergetures",
+      "vergeture",
+      "stries",
+      "vergetures de grossesse",
+      "peau qui tire"
+    ],
+    "about": "Les vergetures sont des stries étroites qui peuvent être roses, rouges, violettes ou brunes, selon ta couleur de peau. Elles touchent environ 8 personnes enceintes sur 10, généralement sur le ventre, les cuisses ou les seins, et le fait d'en avoir ou non dépend beaucoup de ton type de peau. Elles sont sans danger et s'estompent généralement en lignes plus pâles après l'accouchement.",
+    "relief": [
+      "Hydrate ta peau régulièrement pour calmer les démangeaisons ; aucune crème n'a fait la preuve qu'elle prévenait les vergetures, mais cela peut être apaisant.",
+      "Vise une prise de poids régulière et raisonnable, ce qui peut aider à limiter l'apparition de nouvelles vergetures.",
+      "Reste active et bois beaucoup d'eau pour que ta peau reste confortable."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin le jour même si les démangeaisons sont intenses, surtout sur la paume des mains ou la plante des pieds."
+    ]
+  },
+  "itchy-skin": {
+    "name": "Démangeaisons de la peau",
+    "aliases": [
+      "démangeaisons",
+      "demangeaisons",
+      "ventre qui gratte",
+      "prurit",
+      "éruption cutanée",
+      "PUPPP"
+    ],
+    "about": "De légères démangeaisons sont fréquentes et touchent environ 1 personne enceinte sur 4, à cause des changements hormonaux et de la peau du ventre qui s'étire. Certaines personnes ont aussi, en fin de grossesse, une éruption qui gratte, inconfortable mais sans danger pour le bébé. Les démangeaisons s'arrêtent généralement après l'accouchement, mais des démangeaisons intenses des mains ou des pieds doivent être vérifiées.",
+    "relief": [
+      "Tapote la peau qui gratte au lieu de te gratter, et garde les ongles courts.",
+      "Prends des douches fraîches ou chaudes (pas brûlantes), de 20 minutes maximum.",
+      "Applique souvent une crème hydratante sans parfum, et évite les savons parfumés.",
+      "Porte des vêtements amples en coton, et réduis les plats épicés et la caféine s'ils aggravent les démangeaisons.",
+      "Demande à ton pharmacien quelles crèmes sont sans danger pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité ou ton médecin le jour même si tes paumes ou tes plantes de pieds démangent, ou si les démangeaisons sont pires la nuit.",
+      "Appelle le jour même si les démangeaisons t'empêchent de dormir, ou s'accompagnent d'urines foncées ou de selles pâles.",
+      "Consulte ton médecin pour une nouvelle éruption, des cloques, ou des démangeaisons qui perturbent ta vie quotidienne."
+    ]
+  },
+  "itching-hands-feet": {
+    "name": "Démangeaisons intenses des mains et des pieds (possible cholestase)",
+    "aliases": [
+      "cholestase gravidique",
+      "cholestase",
+      "cholestase intrahépatique",
+      "paumes qui grattent",
+      "pieds qui grattent",
+      "démangeaisons la nuit"
+    ],
+    "about": "Des démangeaisons sur la paume des mains ou la plante des pieds, souvent pires la nuit et sans éruption, peuvent être un signe de cholestase intrahépatique de la grossesse (CIG). Dans la CIG, le foie ne gère pas la bile comme il le devrait, si bien que des acides biliaires s'accumulent dans ton sang. Elle touche moins de 1 grossesse sur 100 et se prend très bien en charge, mais elle nécessite une prise de sang et une surveillance étroite, car elle peut affecter ton bébé.",
+    "relief": [
+      "Garde ta peau au frais avec des douches tièdes, des gants de toilette frais et des vêtements amples en coton.",
+      "Utilise une crème hydratante sans parfum, et tapote plutôt que de gratter.",
+      "Garde les ongles courts pour protéger ta peau la nuit.",
+      "Surveille les mouvements de ton bébé et signale tout changement tout de suite."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité ou ton médecin aujourd'hui si tes paumes ou tes plantes de pieds démangent, même sans éruption, et demande une prise de sang.",
+      "Appelle tout de suite si les démangeaisons sont si fortes qu'elles t'empêchent de dormir la nuit.",
+      "Appelle tout de suite si tu remarques un jaunissement de la peau ou des yeux, des urines foncées ou des selles pâles.",
+      "Appelle immédiatement ta maternité si ton bébé bouge moins que d'habitude."
+    ]
+  },
+  "acne": {
+    "name": "Boutons et acné",
+    "aliases": [
+      "acné",
+      "acne",
+      "boutons",
+      "peau grasse",
+      "acné de grossesse",
+      "poussée de boutons"
+    ],
+    "about": "Les changements hormonaux de la grossesse peuvent rendre ta peau plus grasse et provoquer des poussées de boutons, même si tu n'en avais plus depuis des années. C'est plus fréquent aux premier et deuxième trimestres, et cela s'arrange généralement après l'accouchement.",
+    "relief": [
+      "Lave-toi le visage deux fois par jour avec un nettoyant doux sans parfum et de l'eau tiède.",
+      "Choisis une crème hydratante et un maquillage sans huile et non comédogènes.",
+      "Essaie de ne pas gratter ni percer tes boutons, ce qui peut laisser des cicatrices.",
+      "Vérifie auprès de ton pharmacien ou de ton médecin avant d'utiliser un produit anti-acné, car certains ne sont pas sans danger pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin si l'acné est sévère, douloureuse ou laisse des cicatrices, pour trouver un traitement compatible avec la grossesse.",
+      "Si tu utilisais un traitement anti-acné sur ordonnance quand tu es tombée enceinte, arrête-le et vérifie tout de suite auprès de ton médecin."
+    ]
+  },
+  "vaginal-discharge": {
+    "name": "Changements des pertes vaginales",
+    "aliases": [
+      "pertes vaginales",
+      "pertes blanches",
+      "pertes",
+      "glaires",
+      "bouchon muqueux",
+      "perte du bouchon muqueux"
+    ],
+    "about": "Avoir plus de pertes que d'habitude est normal pendant la grossesse et aide à empêcher les infections de remonter jusqu'à l'utérus. Des pertes saines sont fluides, transparentes ou d'un blanc laiteux, et n'ont pas d'odeur désagréable. Vers la fin, tu remarqueras peut-être un mucus épais et gélatineux, parfois strié de rose : c'est la perte du bouchon muqueux, un signe que ton corps se prépare au travail.",
+    "relief": [
+      "Porte des sous-vêtements en coton et des vêtements amples, et change souvent de protège-slip.",
+      "Lave l'extérieur de ta vulve à l'eau claire ; évite les savons parfumés, les lingettes et les douches vaginales.",
+      "Essuie-toi d'avant en arrière après être allée aux toilettes.",
+      "Utilise des protège-slips plutôt que des tampons pendant ta grossesse."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin si les pertes ont une odeur désagréable, sont vertes ou jaunes, ou si tu as des démangeaisons ou des irritations.",
+      "Appelle ta sage-femme ou ton médecin si tu as mal en urinant.",
+      "Appelle tout de suite si tu as un saignement, quel qu'il soit, ou un écoulement de liquide aqueux en jet ou en filet continu."
+    ]
+  },
+  "thrush": {
+    "name": "Mycose vaginale (candidose)",
+    "aliases": [
+      "mycose",
+      "mycose vaginale",
+      "candidose",
+      "candida",
+      "démangeaisons vaginales",
+      "pertes blanches épaisses"
+    ],
+    "about": "La mycose vaginale est une infection à levures fréquente, plus probable pendant la grossesse, surtout au troisième trimestre, car les hormones modifient l'équilibre naturel du vagin. Elle peut provoquer des pertes blanches épaisses, des démangeaisons, des irritations et des brûlures. Elle se traite facilement, et rien ne prouve qu'elle soit dangereuse pour ton bébé.",
+    "relief": [
+      "Porte des sous-vêtements amples en coton, et évite les pantalons serrés ou les collants.",
+      "Lave-toi à l'eau claire ou avec une crème émolliente sans parfum plutôt qu'avec du savon, et évite les bains moussants.",
+      "Sèche doucement la zone en tapotant après la toilette.",
+      "Consulte ton médecin, ta sage-femme ou ton pharmacien avant d'utiliser un traitement contre la mycose, car tous ne conviennent pas pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin ou ta sage-femme avant de te traiter toi-même, surtout si c'est la première fois que tu as ces symptômes.",
+      "Consulte ton médecin si le traitement n'a pas fonctionné en une semaine, ou si la mycose revient sans cesse.",
+      "Appelle ta sage-femme ou ton médecin si les pertes sentent mauvais, sont vertes ou jaunes, ou si tu as mal en urinant."
+    ]
+  },
+  "uti-symptoms": {
+    "name": "Brûlures en urinant (infection urinaire)",
+    "aliases": [
+      "infection urinaire",
+      "cystite",
+      "brûlures urinaires",
+      "brulure en urinant",
+      "infection des reins",
+      "sang dans les urines"
+    ],
+    "about": "Les infections urinaires sont plus fréquentes pendant la grossesse, car les hormones relâchent les voies urinaires et ton utérus qui grandit appuie sur ta vessie. Les signes incluent des brûlures ou des picotements en urinant, des envies pressantes, et des urines troubles, malodorantes ou avec du sang. Pendant la grossesse, une infection urinaire doit toujours être traitée rapidement, car elle peut atteindre les reins.",
+    "relief": [
+      "Bois beaucoup d'eau pour aider à rincer ton organisme et diluer tes urines.",
+      "Urine quand tu en as besoin et vide complètement ta vessie, y compris après un rapport sexuel.",
+      "Essuie-toi d'avant en arrière, et porte des sous-vêtements en coton.",
+      "Ne prends aucun médicament sans vérifier qu'il est sans danger pendant la grossesse."
+    ],
+    "callDoctor": [
+      "Contacte ton médecin ou ta sage-femme dans les 24 heures si tu as des brûlures ou des picotements en urinant, ou si tu vois du sang dans tes urines.",
+      "Appelle ton médecin tout de suite si tu as de la fièvre, des frissons, ou une douleur dans le dos ou sur le côté ; il peut s'agir d'une infection des reins.",
+      "Appelle ta maternité tout de suite si tu as aussi des crampes ou des durcissements du ventre réguliers."
+    ]
+  },
+  "leaking-urine": {
+    "name": "Fuites urinaires",
+    "aliases": [
+      "fuites urinaires",
+      "fuite urinaire",
+      "incontinence",
+      "incontinence d'effort",
+      "fuites quand j'éternue",
+      "fuites de pipi"
+    ],
+    "about": "Avoir une petite fuite d'urine quand tu tousses, éternues, ris ou bouges brusquement est fréquent pendant la grossesse. Les hormones relâchent les muscles de ton périnée, et ton bébé qui grandit appuie sur ta vessie. Cela s'améliore souvent après l'accouchement, et les exercices du périnée aident beaucoup.",
+    "relief": [
+      "Fais des exercices du périnée chaque jour : contracte comme pour retenir un gaz et l'urine, tiens quelques secondes, puis relâche.",
+      "Vide ta vessie régulièrement, et penche-toi en avant pour bien la vider.",
+      "Continue à bien boire ; boire moins concentre les urines, ce qui peut irriter ta vessie.",
+      "Réduis la caféine et les boissons gazeuses, qui peuvent irriter ta vessie."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité tout de suite si tu ne sais pas si c'est de l'urine ou la perte des eaux, surtout si ça continue de couler.",
+      "Appelle ton médecin si tu as des brûlures ou des picotements en urinant, ou si tes urines sont troubles ou contiennent du sang.",
+      "Demande à ta sage-femme ou à ton médecin une rééducation du périnée si les fuites te gênent."
+    ]
+  },
+  "insomnia": {
+    "name": "Troubles du sommeil",
+    "aliases": [
+      "insomnie",
+      "je n'arrive pas à dormir",
+      "troubles du sommeil",
+      "réveils nocturnes",
+      "mal dormir",
+      "position pour dormir"
+    ],
+    "about": "Les troubles du sommeil sont très fréquents : ils touchent environ un quart des personnes en début de grossesse et la plupart à la fin. Les hormones, l'envie de faire pipi, les brûlures d'estomac, les crampes, les pensées qui tournent en boucle et un ventre qui grandit rendent tous plus difficile de trouver une position confortable. Mal dormir est frustrant, mais cela ne fera pas de mal à ton bébé.",
+    "relief": [
+      "À partir de 28 semaines, endors-toi sur le côté ; si tu te réveilles sur le dos, retourne-toi simplement.",
+      "Soutiens ton ventre avec des oreillers et places-en un entre tes genoux.",
+      "Évite la caféine le soir et les longues siestes en fin de journée.",
+      "Détends-toi avec une routine apaisante, des exercices de respiration ou un bain chaud.",
+      "Une activité douce dans la journée, comme une marche à l'heure du déjeuner, peut t'aider à dormir."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme ou à ton médecin si le manque de sommeil te rend la vie difficile, ou s'accompagne d'anxiété ou d'un moral bas.",
+      "Signale aussi des ronflements bruyants, des halètements ou des pauses respiratoires la nuit, ou des jambes très agitées.",
+      "Vérifie auprès de ton médecin avant de prendre une aide au sommeil, y compris les remèdes à base de plantes."
+    ]
+  },
+  "vivid-dreams": {
+    "name": "Rêves intenses et cauchemars",
+    "aliases": [
+      "rêves intenses",
+      "rêves bizarres",
+      "reves etranges",
+      "cauchemars",
+      "rêves de grossesse"
+    ],
+    "about": "Beaucoup de personnes font des rêves inhabituellement intenses, étranges ou inquiétants pendant la grossesse, souvent à propos du bébé ou de l'accouchement. Les hormones, les réveils plus fréquents (qui font que tu te souviens de tes rêves) et les grands bouleversements émotionnels que tu traverses jouent tous un rôle. C'est normal, et rêver de quelque chose ne veut pas dire que cela va arriver.",
+    "relief": [
+      "Parle de tes rêves avec ton ou ta partenaire, un proche ou ta sage-femme.",
+      "Essaie des exercices de relaxation ou de respiration avant le coucher, et garde une routine du soir apaisante.",
+      "Écrire tes inquiétudes avant de dormir peut t'aider à te vider la tête."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme ou à ton médecin si les cauchemars sont fréquents et pénibles, ou s'accompagnent d'une inquiétude constante ou d'un moral bas."
+    ]
+  },
+  "mood-swings": {
+    "name": "Sautes d'humeur",
+    "aliases": [
+      "sautes d'humeur",
+      "à fleur de peau",
+      "je pleure tout le temps",
+      "irritable",
+      "débordée",
+      "hypersensible"
+    ],
+    "about": "Avoir les larmes aux yeux un instant, puis être irritable ou euphorique l'instant d'après est très courant, surtout au premier trimestre et vers la fin. Les variations hormonales, la fatigue, l'inconfort physique et l'ampleur de ce changement de vie jouent tous un rôle. Les hauts et les bas sont normaux, mais te sentir abattue la plupart du temps n'est pas quelque chose que tu dois simplement supporter.",
+    "relief": [
+      "Dis à tes proches comment tu te sens ; tu n'as pas à expliquer chaque larme.",
+      "Repose-toi, mange régulièrement, et sors pour profiter de la lumière du jour et bouger en douceur.",
+      "Prends du temps pour de petites choses qui te font plaisir, et sois moins exigeante pour les tâches ménagères.",
+      "Les cours ou groupes de préparation à la naissance peuvent te mettre en contact avec des personnes qui vivent la même chose."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme ou à ton médecin si tu te sens abattue, désespérée ou anxieuse la plupart des jours pendant deux semaines ou plus.",
+      "Demande de l'aide le jour même si tu as du mal à faire face au quotidien, à manger ou à dormir.",
+      "Si tu as des pensées de te faire du mal ou de faire du mal à ton bébé, appelle maintenant les secours ou une ligne d'écoute de crise."
+    ]
+  },
+  "anxiety": {
+    "name": "Anxiété et inquiétude",
+    "aliases": [
+      "anxiété",
+      "anxiete",
+      "inquiétude",
+      "crises d'angoisse",
+      "angoisse",
+      "stress"
+    ],
+    "about": "S'inquiéter un peu pendant la grossesse est naturel, que ce soit pour le bébé, l'accouchement, l'argent ou les changements à venir. Quand l'anxiété est présente presque tout le temps, difficile à contrôler, ou qu'elle t'empêche de faire les choses du quotidien, on parle d'anxiété périnatale : elle est fréquente et se soigne. Tu peux remarquer un cœur qui s'emballe, de l'agitation, un mauvais sommeil ou le sentiment permanent que quelque chose de grave va arriver.",
+    "relief": [
+      "Partage tes inquiétudes avec ton ou ta partenaire, un proche ou ta sage-femme ; les dire à voix haute aide souvent.",
+      "Essaie de respirer lentement pendant quelques minutes : inspire en comptant jusqu'à 4, expire en comptant jusqu'à 6.",
+      "Reste active : la marche, la natation ou le yoga prénatal peuvent apaiser le stress.",
+      "Limite le défilement sans fin sur les écrans, et tiens-t'en à des sources fiables d'information sur la grossesse."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme ou à ton médecin si tu te sens anxieuse la plupart du temps, ou si l'inquiétude affecte ta vie quotidienne.",
+      "Demande de l'aide le jour même si tu fais des crises de panique, ou si tu ne peux plus manger ni dormir à cause de l'inquiétude.",
+      "Appelle les secours maintenant si tu as des pensées de te faire du mal, ou si tu ne te sens pas capable de rester en sécurité."
+    ]
+  },
+  "low-mood": {
+    "name": "Moral bas et dépression",
+    "aliases": [
+      "dépression",
+      "depression",
+      "déprime",
+      "dépression prénatale",
+      "dépression périnatale",
+      "triste tout le temps"
+    ],
+    "about": "La dépression pendant la grossesse (dépression prénatale ou périnatale) est fréquente et touche environ 1 personne enceinte sur 10. Ce n'est pas ta faute et cela ne veut pas dire que tu seras un mauvais parent. Les signes incluent le fait de te sentir triste, au bord des larmes, désespérée ou vide une grande partie du temps, la perte d'intérêt pour les choses, et des changements du sommeil et de l'appétit. Elle se soigne, et demander de l'aide tôt vous protège, toi et ton bébé.",
+    "relief": [
+      "Dis à une personne de confiance ce que tu ressens vraiment ; tu n'as pas à porter ça seule.",
+      "Une activité douce, la lumière du jour et des repas réguliers peuvent améliorer un peu ton moral chaque jour.",
+      "Demande à ta sage-femme ou à ton médecin quelles thérapies par la parole et quel soutien en santé mentale périnatale existent près de chez toi.",
+      "Contacte une ligne d'écoute en santé mentale ou un groupe de soutien entre pairs si tu as besoin de parler à quelqu'un aujourd'hui."
+    ],
+    "callDoctor": [
+      "Parle à ta sage-femme ou à ton médecin si tu te sens abattue ou as perdu l'intérêt pour les choses depuis plus de deux semaines.",
+      "Contacte ton médecin en urgence si tu vois ou entends des choses que les autres ne perçoivent pas, ou si tu as de fortes convictions que les autres ne partagent pas.",
+      "Appelle les secours maintenant si tu penses que tu pourrais te faire du mal ou faire du mal à ton bébé."
+    ]
+  },
+  "self-harm-thoughts": {
+    "name": "Pensées de te faire du mal ou de faire du mal à ton bébé",
+    "aliases": [
+      "pensées suicidaires",
+      "idées suicidaires",
+      "envie de mourir",
+      "me faire du mal",
+      "pensées intrusives",
+      "crise"
+    ],
+    "about": "Si tu as des pensées de mettre fin à tes jours, de te blesser ou de faire du mal à ton bébé, tu n'es pas seule et tu n'es pas une mauvaise personne. Ces pensées peuvent être le symptôme d'une maladie qui se soigne, comme la dépression périnatale, l'anxiété ou, plus rarement, la psychose. L'aide fonctionne, et demander de l'aide dès maintenant est la chose la plus forte et la plus sûre que tu puisses faire.",
+    "relief": [
+      "Préviens maintenant quelqu'un près de toi, comme ton ou ta partenaire, un ami, un membre de ta famille ou un voisin, et demande-lui de rester avec toi.",
+      "Éloigne-toi de tout ce que tu pourrais utiliser pour te faire du mal.",
+      "Appelle une ligne d'écoute de crise ou en santé mentale si tu as besoin de parler à quelqu'un tout de suite."
+    ],
+    "callDoctor": [
+      "Appelle les secours maintenant si tu sens que tu pourrais passer à l'acte, ou si tu ne te sens pas capable de rester en sécurité.",
+      "Contacte ton médecin ou ta sage-femme aujourd'hui si ces pensées vont et viennent, même si tu n'as pas l'intention de passer à l'acte.",
+      "Demande une aide d'urgence si tu vois ou entends des choses que les autres ne perçoivent pas, ou si tu te sens très confuse."
+    ]
+  },
+  "baby-brain": {
+    "name": "Trous de mémoire (cerveau de grossesse)",
+    "aliases": [
+      "trous de mémoire",
+      "oublis",
+      "tête en l'air",
+      "cerveau de grossesse",
+      "brouillard mental",
+      "difficulté à me concentrer"
+    ],
+    "about": "Avoir l'esprit embrumé, oublier des choses ou être facilement distraite : beaucoup de personnes enceintes le remarquent. Les changements hormonaux, le manque de sommeil, la fatigue et le fait d'avoir beaucoup de choses en tête y contribuent probablement. C'est réel, c'est fréquent, et c'est temporaire.",
+    "relief": [
+      "Utilise des listes, des rappels dans ton agenda et des alarmes sur ton téléphone pour tes rendez-vous et tes tâches.",
+      "Range toujours tes clés, ton portefeuille et ton téléphone au même endroit.",
+      "Donne la priorité au sommeil et au repos quand tu peux.",
+      "Sois indulgente avec toi-même, et laisse les autres t'aider à porter la charge mentale."
+    ],
+    "callDoctor": [
+      "Parle à ton médecin si les oublis sont importants, s'aggravent, ou s'accompagnent d'un moral bas ou d'anxiété.",
+      "Appelle les secours si tu deviens soudainement confuse, surtout avec un mal de tête intense ou des troubles de la vue."
+    ]
+  },
+  "carpal-tunnel": {
+    "name": "Mains engourdies ou qui fourmillent (canal carpien)",
+    "aliases": [
+      "syndrome du canal carpien",
+      "canal carpien",
+      "mains engourdies",
+      "fourmillements dans les doigts",
+      "douleur au poignet",
+      "mains qui fourmillent"
+    ],
+    "about": "Pendant la grossesse, le gonflement peut comprimer le nerf qui passe dans ton poignet et provoquer des fourmillements, un engourdissement ou une douleur dans le pouce et les doigts, souvent pires la nuit ou au réveil. Le syndrome du canal carpien est fréquent en fin de grossesse et s'améliore généralement tout seul après l'accouchement.",
+    "relief": [
+      "Porte une attelle de poignet la nuit pour garder le poignet droit ; demande conseil à un pharmacien ou à un kinésithérapeute.",
+      "Évite de plier ton poignet de façon répétée ou de serrer fort, et fais des pauses quand tu tapes au clavier ou utilises ton téléphone.",
+      "Secoue tes mains, ou bouge doucement tes doigts et tes poignets, quand les symptômes apparaissent.",
+      "Surélève tes mains sur un oreiller quand tu te reposes."
+    ],
+    "callDoctor": [
+      "Consulte ton médecin ou ta sage-femme si l'engourdissement est constant, si ta main semble faible, ou si tu fais sans cesse tomber des objets.",
+      "Appelle ta sage-femme ou ton médecin tout de suite si les fourmillements s'accompagnent d'un gonflement soudain du visage ou des mains, ou d'un mal de tête intense."
+    ]
+  },
+  "braxton-hicks": {
+    "name": "Contractions de Braxton Hicks (contractions d'entraînement)",
+    "aliases": [
+      "Braxton Hicks",
+      "fausses contractions",
+      "faux travail",
+      "ventre qui durcit",
+      "ventre dur",
+      "contractions d'entraînement"
+    ],
+    "about": "Les contractions de Braxton Hicks sont des durcissements irréguliers de ton utérus : ton ventre devient dur pendant une minute environ, puis se relâche. C'est la façon dont ton corps s'entraîne pour le travail ; elles peuvent commencer au deuxième trimestre et devenir plus perceptibles ensuite. Contrairement aux contractions du travail, elles sont généralement indolores ou seulement un peu inconfortables, ne deviennent ni plus fortes ni plus rapprochées, et s'apaisent quand tu changes d'activité.",
+    "relief": [
+      "Change de position : marche si tu étais assise, ou allonge-toi sur le côté si tu étais active.",
+      "Bois un ou deux verres d'eau, car la déshydratation peut les déclencher.",
+      "Vide ta vessie, et essaie un bain chaud ou une respiration lente.",
+      "En cas de doute, chronomètre-les pendant une heure : les contractions du travail deviennent régulières, plus longues et plus fortes."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité tout de suite si tu es à moins de 37 semaines et que les durcissements deviennent réguliers ou douloureux.",
+      "Appelle tout de suite si les durcissements s'accompagnent de saignements, d'une perte de liquide, ou si ton bébé bouge moins.",
+      "Appelle si les contractions reviennent environ toutes les 5 minutes ou plus souvent, ou si elles sont trop fortes pour que tu puisses parler pendant."
+    ]
+  },
+  "reduced-movements": {
+    "name": "Bébé qui bouge moins que d'habitude",
+    "aliases": [
+      "bébé bouge moins",
+      "bebe ne bouge pas",
+      "mouvements du bébé",
+      "moins de coups",
+      "bébé calme",
+      "changement des mouvements"
+    ],
+    "about": "Tu commences généralement à sentir ton bébé bouger entre 16 et 24 semaines, et à partir de là tu apprends à connaître ses propres habitudes de mouvement. Il n'y a pas de nombre précis de coups à compter, mais des mouvements moins nombreux, ou un changement dans leur rythme, peuvent être un signe précoce que ton bébé doit être examiné. La plupart du temps, tout va bien, mais vérifier rapidement pourrait sauver la vie de ton bébé. Tu dois sentir ton bébé bouger jusqu'au début du travail et pendant celui-ci.",
+    "relief": [
+      "Appelle tout de suite, même en pleine nuit ; n'attends pas le lendemain.",
+      "N'utilise pas de moniteur de rythme cardiaque à domicile (doppler) pour te rassurer ; ce n'est pas fiable.",
+      "N'attends pas de voir si une boisson froide, un en-cas ou le fait de t'allonger fait bouger ton bébé."
+    ],
+    "callDoctor": [
+      "Appelle immédiatement ta maternité ou ton médecin si ton bébé bouge moins, ou si le rythme de ses mouvements a changé.",
+      "Appelle immédiatement si tu ne sens pas du tout ton bébé bouger.",
+      "Rappelle à chaque fois que cela se produit, aussi souvent que nécessaire ; tu ne fais jamais perdre son temps à personne.",
+      "Parles-en à ta sage-femme ou à ton médecin si tu n'as senti aucun mouvement à 24 semaines."
+    ]
+  },
+  "fluid-leaking": {
+    "name": "Perte de liquide (perte des eaux)",
+    "aliases": [
+      "perte des eaux",
+      "perdre les eaux",
+      "poche des eaux",
+      "rupture de la poche des eaux",
+      "liquide amniotique",
+      "fissure de la poche"
+    ],
+    "about": "La poche des eaux (le liquide qui entoure ton bébé) peut se rompre avec un jet soudain ou un écoulement lent et continu. Près du terme, c'est souvent un signe que le travail commence, mais avant 37 semaines cela peut signifier un travail prématuré et un risque plus élevé d'infection : il faut donc toujours le faire vérifier tout de suite. Le liquide amniotique est généralement clair ou jaune paille pâle. Les petites fuites d'urine sont aussi fréquentes pendant la grossesse : en cas de doute, fais-toi examiner.",
+    "relief": [
+      "Mets une serviette hygiénique, pas un tampon, pour voir la couleur et la quantité de liquide.",
+      "Note l'heure à laquelle cela a commencé et la couleur du liquide.",
+      "Évite les rapports sexuels tant que tu n'as pas été examinée."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité ou ton médecin tout de suite si tu perds les eaux ou penses avoir une fuite de liquide, à n'importe quel stade de la grossesse.",
+      "Appelle immédiatement si le liquide est vert, marron, teinté de sang ou malodorant, ou si tu as de la fièvre ou te sens mal.",
+      "Si tu es à moins de 37 semaines, appelle ta maternité maintenant ; n'attends pas que les contractions commencent.",
+      "Appelle les secours si tu sens ou vois le cordon ombilical, ou si tu saignes abondamment."
+    ]
+  },
+  "fever": {
+    "name": "Fièvre ou température élevée",
+    "aliases": [
+      "fièvre",
+      "fievre",
+      "température élevée",
+      "frissons",
+      "grippe",
+      "infection"
+    ],
+    "about": "Une température de 38 °C (100,4 °F) ou plus signifie généralement que ton corps combat une infection. La plupart des infections sont bénignes, mais pendant la grossesse elles peuvent s'aggraver plus vite et une forte fièvre peut affecter ton bébé : il est donc important de te faire examiner plutôt que d'attendre que ça passe. Avoir chaud et des frissons, ou te sentir très mal, compte aussi, même si tu n'as pas pris ta température.",
+    "relief": [
+      "Repose-toi, et bois beaucoup, par petites quantités et souvent.",
+      "Porte des vêtements légers et garde la pièce fraîche.",
+      "Demande à ton pharmacien ou à ton médecin quel médicament est sans danger pendant la grossesse pour faire baisser la température.",
+      "Surveille les mouvements de ton bébé et signale tout changement."
+    ],
+    "callDoctor": [
+      "Appelle ta sage-femme ou ton médecin le jour même si ta température est de 38 °C (100,4 °F) ou plus, ou si tu as chaud et des frissons.",
+      "Appelle tout de suite si la fièvre s'accompagne d'une douleur au ventre, de pertes malodorantes, d'une perte de liquide, ou si ton bébé bouge moins.",
+      "Appelle tout de suite si tu as de la fièvre avec une douleur en urinant, un mal de dos, une éruption cutanée ou une mauvaise toux.",
+      "Appelle les secours si tu es essoufflée, confuse, très somnolente, si ta peau est froide et marbrée, ou si tu te sens extrêmement mal."
+    ]
+  },
+  "signs-of-labour": {
+    "name": "Signes du début du travail",
+    "aliases": [
+      "travail",
+      "début du travail",
+      "accouchement",
+      "contractions",
+      "bouchon muqueux",
+      "suis-je en travail"
+    ],
+    "about": "Le travail commence souvent progressivement. Les signes incluent des durcissements du ventre qui deviennent réguliers, plus forts et plus rapprochés, la perte du bouchon muqueux (le bouchon de mucus du col de l'utérus qui se détache), un mal de dos, une envie d'aller à la selle quand la tête de ton bébé appuie vers le bas, et la perte des eaux. La phase de début du travail (phase de latence) peut durer des heures, voire des jours, et c'est généralement à la maison que tu es le mieux pendant une grande partie de celle-ci.",
+    "relief": [
+      "Chronomètre tes contractions du début de l'une au début de la suivante.",
+      "Reste debout et en mouvement, et essaie un bain ou une douche chaude.",
+      "Continue à boire par petites gorgées, et mange des en-cas légers si tu en as envie.",
+      "Respire lentement, fais-toi masser, et installe-toi dans un endroit calme et tamisé pour t'aider à te détendre."
+    ],
+    "callDoctor": [
+      "Appelle ta maternité si tes contractions sont régulières et reviennent environ toutes les 5 minutes, ou si tu penses être en travail.",
+      "Appelle tout de suite si tu perds les eaux, si tu saignes, ou si ton bébé bouge moins que d'habitude.",
+      "Appelle tout de suite si le travail commence avant 37 semaines, si une contraction dure plus de 2 minutes, ou si tu en as 6 ou plus en 10 minutes.",
+      "Appelle les secours si tu ressens une forte envie de pousser et penses que ton bébé arrive maintenant."
+    ]
+  },
+  "calf-pain": {
+    "name": "Douleur ou gonflement d'un mollet (possible caillot sanguin)",
+    "aliases": [
+      "phlébite",
+      "phlebite",
+      "thrombose veineuse profonde",
+      "caillot sanguin",
+      "douleur au mollet",
+      "jambe gonflée"
+    ],
+    "about": "Une douleur lancinante, un gonflement, une sensation de chaleur ou une rougeur dans une jambe, généralement au mollet ou à la cuisse, peuvent être le signe d'une thrombose veineuse profonde (TVP, ou phlébite), c'est-à-dire un caillot de sang dans une veine. La grossesse et les premières semaines après l'accouchement rendent les caillots plus probables, même s'ils restent peu fréquents. Un caillot peut migrer vers les poumons : il faut donc le faire vérifier le jour même ; le traitement est sûr et efficace pendant la grossesse.",
+    "relief": [
+      "Ne frotte pas et ne masse pas la jambe douloureuse.",
+      "Reste active au quotidien et bois beaucoup d'eau pour réduire ton risque de caillots.",
+      "Lors des trajets de plus de 4 heures, marche dès que tu peux, porte des vêtements amples et continue à boire de l'eau."
+    ],
+    "callDoctor": [
+      "Appelle ton médecin ou ta maternité le jour même si une jambe est douloureuse, gonflée, chaude ou rouge.",
+      "Appelle les secours si tu es aussi essoufflée, si tu as une douleur à la poitrine ou si tu craches du sang."
+    ]
+  },
+  "one-sided-pain-early": {
+    "name": "Douleur d'un côté du ventre en début de grossesse (possible grossesse extra-utérine)",
+    "aliases": [
+      "grossesse extra-utérine",
+      "grossesse extra uterine",
+      "GEU",
+      "douleur d'un côté",
+      "douleur à l'épaule",
+      "douleur début de grossesse"
+    ],
+    "about": "Une douleur dans le bas du ventre, d'un seul côté, entre environ 4 et 12 semaines, surtout avec des saignements légers ou des pertes brunes et aqueuses, peut être le signe d'une grossesse extra-utérine : la grossesse se développe hors de l'utérus, généralement dans une trompe de Fallope. Cela concerne environ 1 grossesse sur 90. La douleur peut aussi avoir des causes bénignes, mais comme une grossesse extra-utérine peut être grave, elle doit toujours être vérifiée rapidement.",
+    "relief": [
+      "N'attends pas de voir si la douleur se calme ; fais-toi examiner le jour même.",
+      "Demande à quelqu'un de t'emmener plutôt que de conduire toi-même.",
+      "Note quand la douleur a commencé, où elle se situe et tout saignement, pour le dire à l'équipe médicale."
+    ],
+    "callDoctor": [
+      "Appelle ton médecin ou les urgences gynécologiques le jour même si tu as une douleur d'un côté du ventre en début de grossesse.",
+      "Appelle le jour même si la douleur ou les saignements légers s'accompagnent d'une douleur à la pointe de l'épaule, ou d'une gêne en urinant ou en allant à la selle.",
+      "Appelle les secours en cas de douleur au ventre soudaine, vive et intense, ou si tu as de très forts vertiges, l'impression de t'évanouir, des nausées, ou si tu es très pâle."
+    ]
+  }
+}

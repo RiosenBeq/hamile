@@ -1,0 +1,50 @@
+{
+  "heavy-bleeding": {
+    "title": "Heavy bleeding from your vagina",
+    "detail": "Bleeding that soaks a pad soon after you put it on, or comes with clots, severe pain, dizziness or fainting. Call emergency services."
+  },
+  "severe-tummy-pain": {
+    "title": "Severe or constant tummy pain",
+    "detail": "Strong pain that doesn't ease with rest, especially with bleeding, a hard tummy, shoulder-tip pain or feeling faint. Call your maternity unit or emergency services now."
+  },
+  "pre-eclampsia-signs": {
+    "title": "Severe headache, vision changes or sudden swelling",
+    "detail": "A headache that won't go away, blurred vision or flashing lights, pain under your ribs, or sudden swelling of your face, hands or feet. These can be signs of pre-eclampsia: call your maternity unit or doctor now."
+  },
+  "reduced-movements": {
+    "title": "Baby moving less, or not at all",
+    "detail": "Any change to your baby's usual pattern of movements. Call your maternity unit immediately, even at night. Don't wait until tomorrow, and don't rely on a home heartbeat monitor."
+  },
+  "waters-before-37-weeks": {
+    "title": "Waters breaking or contractions before 37 weeks",
+    "detail": "A gush or trickle of fluid, or regular tightenings or period-like pains before 37 weeks. Wear a pad, not a tampon, and call your maternity unit now."
+  },
+  "fever": {
+    "title": "Fever of 38°C (100.4°F) or higher",
+    "detail": "Feeling hot, shivery and very unwell counts too. Infections need quick treatment in pregnancy, so call your doctor or maternity unit today."
+  },
+  "breathlessness-chest-pain": {
+    "title": "Sudden breathlessness or chest pain",
+    "detail": "Struggling to breathe, chest pain or tightness, coughing up blood, or a racing heart with faintness. Call emergency services."
+  },
+  "swollen-calf": {
+    "title": "Painful, swollen leg on one side",
+    "detail": "Throbbing pain, swelling, warmth or redness in one calf or thigh can be a blood clot. Get seen the same day, or call emergency services if you're also breathless."
+  },
+  "fainting": {
+    "title": "Fainting, collapse or a seizure",
+    "detail": "Passing out, having a fit, or feeling so dizzy you can't stand, especially with pain or bleeding. Call emergency services."
+  },
+  "intense-itching": {
+    "title": "Intense itching, especially of hands and feet",
+    "detail": "Itching on your palms or soles, often worse at night and without a rash, can be a liver condition called ICP. Call your maternity unit or doctor today for a blood test."
+  },
+  "thoughts-of-harm": {
+    "title": "Thoughts of harming yourself or your baby",
+    "detail": "You're not alone, and it isn't your fault. Tell someone near you, and call emergency services or a crisis line now if you feel unsafe."
+  },
+  "severe-vomiting": {
+    "title": "Vomiting and can't keep fluids down",
+    "detail": "Being sick so much you can't keep food or fluids down for 24 hours, very dark pee, not peeing for 8 hours, or feeling faint. You may need fluids: call your doctor now."
+  }
+}

@@ -10,6 +10,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		394477EFBF552807CB01249F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B967EE7CC227093BE08523BD /* Localizable.strings */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
 		46ABC675D8974406E5B3B274 /* MarigoldActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646A537DEF45BBB60A3255B /* MarigoldActivityAttributes.swift */; };
 		55F5172D0E8AF45ABB3A69E6 /* MarigoldActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646A537DEF45BBB60A3255B /* MarigoldActivityAttributes.swift */; };
@@ -51,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		002A8D10B0EAFE2022212184 /* es */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0C5E0559F39F87066274A217 /* de */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = de; path = Marigold/de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Marigold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marigold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Marigold/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Marigold/AppDelegate.mm; sourceTree = "<group>"; };
@@ -58,11 +61,16 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Marigold/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Marigold/main.m; sourceTree = "<group>"; };
 		1F23A6EA1DD5F534D2F36274 /* MarigoldNative.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarigoldNative.m; path = Marigold/MarigoldNative.m; sourceTree = "<group>"; };
+		1F933DAFD5A68334B8FAFF50 /* fr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = fr; path = Marigold/fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3044B7DDA3C8F653350A221F /* es */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = es; path = Marigold/es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D4ACBD5D2FA974C7CCD5864 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Marigold/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Marigold.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marigold.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60644725DECCCD2F85A09D20 /* pt-BR */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-Marigold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marigold.debug.xcconfig"; path = "Target Support Files/Pods-Marigold/Pods-Marigold.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-Marigold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marigold.release.xcconfig"; path = "Target Support Files/Pods-Marigold/Pods-Marigold.release.xcconfig"; sourceTree = "<group>"; };
 		8C235BB7AE354BEE9339D20A /* Marigold-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Marigold-Bridging-Header.h"; path = "Marigold/Marigold-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D201DFB9A19333706B97F34 /* fr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		97B157A9E2D2B065169E472E /* tr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Marigold/SplashScreen.storyboard; sourceTree = "<group>"; };
 		B339BAFC1364F1144B354527 /* MarigoldWidgets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarigoldWidgets.swift; sourceTree = "<group>"; };
 		B6611163CC85C22FAE845153 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = Marigold/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -70,10 +78,13 @@
 		B82A314E9CA690506B6CF7C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		BCC27ABF39CA0FB8C404D241 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C5BDF8F628515D0DAF8D9097 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C646A537DEF45BBB60A3255B /* MarigoldActivityAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarigoldActivityAttributes.swift; sourceTree = "<group>"; };
+		C6BEDB9CBED9BC0C7E8256C2 /* de */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C8ACA8A32799B6F1C40F2115 /* MarigoldWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarigoldWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC05808AC4D24A06A9C732E0 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Marigold/noop-file.swift"; sourceTree = "<group>"; };
 		DA31C865425E0DB4DE3ED11E /* tr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = tr; path = Marigold/tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DADAB4A9A970AF4B5682ABD2 /* pt-BR */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "Marigold/pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		E9A0CB792AEE954B3D328482 /* MarigoldWidgets.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = MarigoldWidgets.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Marigold/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
@@ -125,6 +136,7 @@
 				B339BAFC1364F1144B354527 /* MarigoldWidgets.swift */,
 				B82A314E9CA690506B6CF7C1 /* Info.plist */,
 				E9A0CB792AEE954B3D328482 /* MarigoldWidgets.entitlements */,
+				B967EE7CC227093BE08523BD /* Localizable.strings */,
 			);
 			name = MarigoldWidgets;
 			path = MarigoldWidgets;
@@ -289,6 +301,10 @@
 				en,
 				Base,
 				tr,
+				es,
+				de,
+				fr,
+				"pt-BR",
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -318,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394477EFBF552807CB01249F /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,8 +496,25 @@
 			children = (
 				B6611163CC85C22FAE845153 /* en */,
 				DA31C865425E0DB4DE3ED11E /* tr */,
+				3044B7DDA3C8F653350A221F /* es */,
+				0C5E0559F39F87066274A217 /* de */,
+				1F933DAFD5A68334B8FAFF50 /* fr */,
+				DADAB4A9A970AF4B5682ABD2 /* pt-BR */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B967EE7CC227093BE08523BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BDF8F628515D0DAF8D9097 /* en */,
+				97B157A9E2D2B065169E472E /* tr */,
+				002A8D10B0EAFE2022212184 /* es */,
+				C6BEDB9CBED9BC0C7E8256C2 /* de */,
+				8D201DFB9A19333706B97F34 /* fr */,
+				60644725DECCCD2F85A09D20 /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

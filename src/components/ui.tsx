@@ -23,7 +23,7 @@ import { Icon } from '@/components/Icon';
 import { colors, tint } from '@/theme/colors';
 import { fonts } from '@/theme/typography';
 import { useAppStore } from '@/store/useAppStore';
-import { useT } from '@/i18n';
+import { LOCALE_FOR_LANG, useT } from '@/i18n';
 
 export type TintKey = keyof typeof tint;
 type IconCmp = React.ComponentType<{ size?: number; color?: string }>;
@@ -50,7 +50,7 @@ export const shadow = {
 export function Eyebrow({ children, style, color }: { children: React.ReactNode; style?: StyleProp<TextStyle>; color?: string }) {
   // iOS uppercases "i" to "I" even in Turkish; do it ourselves with the right locale.
   const lang = useAppStore((s) => s.language);
-  const content = typeof children === 'string' ? children.toLocaleUpperCase(lang === 'tr' ? 'tr-TR' : 'en-US') : children;
+  const content = typeof children === 'string' ? children.toLocaleUpperCase(LOCALE_FOR_LANG[lang]) : children;
   return (
     <Text
       style={[

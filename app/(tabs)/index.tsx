@@ -172,7 +172,7 @@ export default function Today() {
                     </View>
                   </View>
                   <Text style={{ fontFamily: fonts.body, fontSize: 15, lineHeight: 21, color: colors.ink, marginTop: 16 }}>
-                    {p.contentWeek >= 4 ? t('today.sizeOf', { item: sizePhrase(week.size.name, lang) }) : t('weeks.early')}
+                    {p.contentWeek >= 4 ? t('today.sizeOf', { item: sizePhrase(week.size, lang) }) : t('weeks.early')}
                     {week.lengthCm ? `  ·  ${formatLength(week.lengthCm, profile.units)}` : ''}
                     {week.weightG ? `  ·  ${formatWeight(week.weightG, profile.units)}` : ''}
                   </Text>
