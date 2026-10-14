@@ -124,7 +124,7 @@
       },
       "supabaseUrl": "",
       "supabaseAnonKey": "",
-      "revenueCatIosKey": ""
+      "revenueCatIosKey": "appl_BLyGyMzDDRrOhWEUwbAdedMOQBA"
     },
     "locales": {
       "tr": "./locales/tr.json",
