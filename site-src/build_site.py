@@ -111,7 +111,7 @@ def page(lang: str, t: dict) -> str:
   <p class="card disclaimer">{e['disclaimer']}</p>
   <p class="sister">{e['sister']} <a href="https://babybloom.kids/">{e['sisterLink']} →</a></p>
 
-  <footer>© 2026 Okan Berk Manavoğlu · <a href="privacy.html">{e['nav_privacy']}</a> · <a href="terms.html">{e['nav_terms']}</a> · <a href="support.html">{e['nav_support']}</a> · <a href="mailto:support@babybloom.kids">support@babybloom.kids</a></footer>
+  <footer>© 2026 Okan Berk Manavoğlu · <a href="privacy.html">{e['nav_privacy']}</a> · <a href="terms.html">{e['nav_terms']}</a> · <a href="support.html">{e['nav_support']}</a> · <a href="mailto:support@babybloom.kids">support@babybloom.kids</a> · <a href="{'imprint.html' if lang == 'en' else '../imprint.html'}">Impressum</a></footer>
 </div>
 </body>
 </html>
