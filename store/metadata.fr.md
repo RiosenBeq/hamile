@@ -64,7 +64,7 @@ MARIGOLD PLUS (FACULTATIF)
 Le paiement est débité sur ton compte Apple. L’abonnement mensuel se renouvelle automatiquement, sauf résiliation au moins 24 heures avant la fin de la période ; gère-le dans les réglages de ton compte App Store.
 
 Conditions d’utilisation : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Politique de confidentialité : https://riosenbeq.github.io/hamile/privacy.html
+Politique de confidentialité : https://babybloom.kids/marigold/fr/privacy
 
 Marigold fournit des informations générales, pas des conseils médicaux. Suis toujours les recommandations de ta sage-femme ou de ton médecin, et demande de l’aide en urgence si quelque chose ne va pas.
 

@@ -64,7 +64,7 @@ MARIGOLD PLUS (OPTIONAL)
 Die Zahlung wird über deine Apple-ID abgerechnet. Das Monatsabo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ende des Zeitraums gekündigt wird; verwalten kannst du es in den Einstellungen deines App Store-Accounts.
 
 Nutzungsbedingungen: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Datenschutzerklärung: https://riosenbeq.github.io/hamile/privacy.html
+Datenschutzerklärung: https://babybloom.kids/marigold/de/privacy
 
 Marigold bietet allgemeine Informationen, keine medizinische Beratung. Folge immer dem Rat deiner Hebamme oder deiner Ärztin / deines Arztes und hol dir sofort Hilfe, wenn sich etwas nicht richtig anfühlt.
 

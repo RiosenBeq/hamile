@@ -3,10 +3,11 @@
 App Store Connect app: **Marigold: Pregnancy Tracker** · Apple ID 6822443743 · bundle `com.okanberk.marigold` · SKU `marigold-ios-001`
 
 URLs
-- Support: https://riosenbeq.github.io/hamile/support.html
-- Marketing: https://riosenbeq.github.io/hamile/
-- Privacy policy: https://riosenbeq.github.io/hamile/privacy.html (localized: /tr/, /es/, /de/, /fr/, /pt/ + privacy.html)
-- Terms (EULA): Apple Standard EULA + https://riosenbeq.github.io/hamile/terms.html
+- Support: https://babybloom.kids/marigold/support
+- Marketing: https://babybloom.kids/marigold
+- Privacy policy: https://babybloom.kids/marigold/privacy (localized: /marigold/tr/privacy, /es/, /de/, /fr/, /pt/)
+- Terms (EULA): Apple Standard EULA + https://babybloom.kids/marigold/terms
+- Mirror: https://riosenbeq.github.io/hamile/
 
 Category: Primary **Medical**, secondary **Health & Fitness** · Price: Free with in-app purchases · Copyright: `2026 Okan Berk Manavoglu`
 
@@ -76,7 +77,7 @@ MARIGOLD PLUS (OPTIONAL)
 Payment is charged to your Apple ID. The monthly subscription renews automatically unless cancelled at least 24 hours before the end of the period; manage it in your App Store account settings.
 
 Terms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Privacy Policy: https://riosenbeq.github.io/hamile/privacy.html
+Privacy Policy: https://babybloom.kids/marigold/privacy
 
 Marigold provides general information, not medical advice. Always follow your midwife or doctor, and get urgent help if something feels wrong.
 
@@ -142,7 +143,7 @@ MARIGOLD PLUS (İSTEĞE BAĞLI)
 Ödeme Apple kimliğinden alınır. Aylık abonelik, dönem bitiminden en az 24 saat önce iptal edilmezse otomatik yenilenir; App Store hesap ayarlarından yönetebilirsin.
 
 Kullanım Koşulları: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Gizlilik Politikası: https://riosenbeq.github.io/hamile/privacy.html
+Gizlilik Politikası: https://babybloom.kids/marigold/tr/privacy
 
 Marigold genel bilgi sunar, tıbbi tavsiye değildir. Her zaman ebene veya doktoruna danış; bir şeyler yolunda gitmiyorsa hemen yardım al.
 

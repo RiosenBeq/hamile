@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SITE = "https://riosenbeq.github.io/hamile"
+SITE = "https://babybloom.kids/marigold"
 FIELDS = (("name", "Name"), ("subtitle", "Subtitle"), ("promo", "Promotional text"), ("keywords", "Keywords"), ("description", "Description"))
 
 
@@ -36,9 +36,9 @@ folder = {"en-US": "", "tr": "tr/", "es-ES": "es/", "es-MX": "es/", "de-DE": "de
 problems = []
 for loc, r in out.items():
     f = folder[loc]
-    r["privacyUrl"] = f"{SITE}/{f}privacy.html"
-    r["supportUrl"] = f"{SITE}/{f}support.html"
-    r["marketingUrl"] = f"{SITE}/{f}" if f else f"{SITE}/"
+    r["privacyUrl"] = f"{SITE}/{f}privacy"
+    r["supportUrl"] = f"{SITE}/{f}support"
+    r["marketingUrl"] = f"{SITE}/{f.rstrip('/')}" if f else SITE
     limits = {"name": 30, "subtitle": 30, "promo": 170, "description": 4000}
     for k, lim in limits.items():
         if not r.get(k) or len(r[k]) > lim:

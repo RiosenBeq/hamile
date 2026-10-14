@@ -64,7 +64,7 @@ MARIGOLD PLUS (OPCIONAL)
 O pagamento é cobrado na sua Conta Apple. A assinatura mensal é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do fim do período; gerencie-a nos ajustes da sua conta da App Store.
 
 Termos de Uso: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-Política de Privacidade: https://riosenbeq.github.io/hamile/privacy.html
+Política de Privacidade: https://babybloom.kids/marigold/pt/privacy
 
 O Marigold oferece informações gerais, não aconselhamento médico. Siga sempre as orientações da sua obstetra ou do seu médico e procure ajuda urgente se algo parecer errado.
 

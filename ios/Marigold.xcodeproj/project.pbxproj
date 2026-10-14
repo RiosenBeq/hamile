@@ -16,9 +16,11 @@
 		55F5172D0E8AF45ABB3A69E6 /* MarigoldActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C646A537DEF45BBB60A3255B /* MarigoldActivityAttributes.swift */; };
 		5CAD476A150AC3D9459F77D5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3D4ACBD5D2FA974C7CCD5864 /* PrivacyInfo.xcprivacy */; };
 		70838C0E77F69E2FBF885586 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 802CF9B4CDC5ACCF5B5A7368 /* InfoPlist.strings */; };
+		93B5DD40455E189D7CD5C398 /* MarigoldGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D6B6BEC9756B92574895DA /* MarigoldGlassView.swift */; };
 		94C513350D559239E22EF0D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC27ABF39CA0FB8C404D241 /* Foundation.framework */; };
 		96905EF65AED1B983A6B3ABC /* libPods-Marigold.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Marigold.a */; };
 		9BDB94EBB73A99F1F9DB60D0 /* MarigoldWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C8ACA8A32799B6F1C40F2115 /* MarigoldWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A227E5ADC106148CAF41CD9D /* MarigoldGlassViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B416DCD2FF7B5677D66098AC /* MarigoldGlassViewManager.m */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		B701A4D6B9C2C8CF0C4AB2EA /* MarigoldNative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7056C52DFB3B258AA778114 /* MarigoldNative.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
@@ -54,6 +56,7 @@
 /* Begin PBXFileReference section */
 		002A8D10B0EAFE2022212184 /* es */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0C5E0559F39F87066274A217 /* de */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = de; path = Marigold/de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11D6B6BEC9756B92574895DA /* MarigoldGlassView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarigoldGlassView.swift; path = Marigold/MarigoldGlassView.swift; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Marigold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marigold.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Marigold/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Marigold/AppDelegate.mm; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		97B157A9E2D2B065169E472E /* tr */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Marigold/SplashScreen.storyboard; sourceTree = "<group>"; };
 		B339BAFC1364F1144B354527 /* MarigoldWidgets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MarigoldWidgets.swift; sourceTree = "<group>"; };
+		B416DCD2FF7B5677D66098AC /* MarigoldGlassViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MarigoldGlassViewManager.m; path = Marigold/MarigoldGlassViewManager.m; sourceTree = "<group>"; };
 		B6611163CC85C22FAE845153 /* en */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = en; path = Marigold/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B7056C52DFB3B258AA778114 /* MarigoldNative.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarigoldNative.swift; path = Marigold/MarigoldNative.swift; sourceTree = "<group>"; };
 		B82A314E9CA690506B6CF7C1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				802CF9B4CDC5ACCF5B5A7368 /* InfoPlist.strings */,
 				B7056C52DFB3B258AA778114 /* MarigoldNative.swift */,
 				1F23A6EA1DD5F534D2F36274 /* MarigoldNative.m */,
+				11D6B6BEC9756B92574895DA /* MarigoldGlassView.swift */,
+				B416DCD2FF7B5677D66098AC /* MarigoldGlassViewManager.m */,
 			);
 			name = Marigold;
 			sourceTree = "<group>";
@@ -467,6 +473,8 @@
 				46ABC675D8974406E5B3B274 /* MarigoldActivityAttributes.swift in Sources */,
 				B701A4D6B9C2C8CF0C4AB2EA /* MarigoldNative.swift in Sources */,
 				F8363584CE2F0B735560D153 /* MarigoldNative.m in Sources */,
+				93B5DD40455E189D7CD5C398 /* MarigoldGlassView.swift in Sources */,
+				A227E5ADC106148CAF41CD9D /* MarigoldGlassViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
