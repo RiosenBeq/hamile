@@ -21,3 +21,5 @@ ul { padding-left: 20px; }
 hr { border: none; border-top: 1px solid var(--line); margin: 40px 0; }
 footer { margin-top: 48px; color: var(--mute); font-size: 13px; text-align:center; }
 .btn { display:inline-block; background: var(--accent); color:#fff; padding: 12px 18px; border-radius: 14px; text-decoration:none; font-weight:700; }
+.langs { font-size: 14px; color: var(--mute); margin: -10px 0 22px; }
+.langs a { color: var(--ink2); }
